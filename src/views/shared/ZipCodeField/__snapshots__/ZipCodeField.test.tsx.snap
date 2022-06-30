@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ZipCodeField component should render 1`] = `
+Array [
+  <View
+    accessibilityLabel="zip-code-button-add-zip-code"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="zip-code-button-add-zip-code"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#0066CC",
+          "borderBottomLeftRadius": 100,
+          "borderBottomRightRadius": 100,
+          "borderTopLeftRadius": 100,
+          "borderTopRightRadius": 100,
+          "flexDirection": "row",
+          "paddingBottom": 8,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 8,
+        }
+      }
+    >
+      Path
+      <Text
+        accessibilityLabel="zip-code-button-text"
+        accessible={true}
+        style={
+          Object {
+            "color": "#FFFFFF",
+            "fontFamily": "SFProDisplay-Bold",
+            "fontSize": 14,
+            "lineHeight": 20,
+            "marginLeft": 8,
+            "textAlign": "center",
+          }
+        }
+        testID="zip-code-button-text"
+      >
+        Add your Zip Code
+      </Text>
+    </View>
+  </View>,
+  <Text
+    accessibilityLabel="zip-code-text-message"
+    accessible={true}
+    style={
+      Object {
+        "color": "#909BA0",
+        "fontFamily": "SFProDisplay-Medium",
+        "fontSize": 12,
+        "lineHeight": 16,
+        "marginTop": 4,
+        "textAlign": "center",
+      }
+    }
+    testID="zip-code-text-message"
+  >
+    To unlock offers, complete this step.
+  </Text>,
+]
+`;

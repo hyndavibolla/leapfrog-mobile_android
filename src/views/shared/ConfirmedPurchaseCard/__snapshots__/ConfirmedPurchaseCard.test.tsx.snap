@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConfirmedPurchaseCard should render 1`] = `
+<View
+  accessibilityLabel="confirmed-purchase-card-container"
+  accessible={true}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "borderBottomLeftRadius": 8,
+      "borderBottomRightRadius": 8,
+      "borderTopLeftRadius": 8,
+      "borderTopRightRadius": 8,
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "marginBottom": 16,
+      "paddingBottom": 16,
+      "paddingLeft": 20,
+      "paddingRight": 20,
+      "paddingTop": 16,
+    }
+  }
+  testID="confirmed-purchase-card-container"
+>
+  <View
+    style={
+      Object {
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      }
+    }
+  >
+    <Text
+      ellipsizeMode="tail"
+      font="SFProDisplay-Bold"
+      numberOfLines={1}
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Bold",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          Object {
+            "color": "#262C2F",
+            "flexShrink": 4,
+            "fontSize": 18,
+            "marginBottom": 4,
+          },
+        ]
+      }
+    >
+      requestor one
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          Object {
+            "color": "#909BA0",
+            "fontSize": 14,
+            "textTransform": "uppercase",
+          },
+        ]
+      }
+    >
+      1 January, 04:00 am
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "height": 60,
+          "width": 60,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "overflow": "hidden",
+          },
+          Object {
+            "alignItems": "center",
+            "borderBottomLeftRadius": 60,
+            "borderBottomRightRadius": 60,
+            "borderTopLeftRadius": 60,
+            "borderTopRightRadius": 60,
+            "height": "100%",
+            "justifyContent": "center",
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <FastImageView
+        accessibilityLabel="brand-logo-image"
+        accessible={true}
+        onFastImageError={[Function]}
+        onFastImageLoad={[Function]}
+        onFastImageLoadEnd={[Function]}
+        onFastImageLoadStart={[Function]}
+        resizeMode="cover"
+        source={
+          Object {
+            "priority": "high",
+            "uri": "https://www.requestor-image.com",
+          }
+        }
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        testID="brand-logo-image"
+      />
+    </View>
+  </View>
+</View>
+`;

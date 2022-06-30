@@ -1,0 +1,557 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InStoreOfferCalendar should render 1`] = `
+<View
+  accessibilityLabel="in-store-offer-calendar-container"
+  accessible={true}
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flexDirection": "row",
+      "paddingBottom": 16,
+      "paddingLeft": 20,
+      "paddingRight": 20,
+      "paddingTop": 16,
+    }
+  }
+  testID="in-store-offer-calendar-container"
+>
+  <Text
+    accessibilityLabel="icon-text"
+    accessible={true}
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      Array [
+        Object {
+          "color": "#909BA0",
+          "fontSize": 20,
+        },
+        undefined,
+        Object {
+          "fontFamily": "sywmax",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+    testID="icon-text"
+  >
+    
+  </Text>
+  <View
+    style={
+      Object {
+        "marginLeft": 16,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#909BA0",
+          "fontSize": 14,
+        }
+      }
+    >
+      Redemption calendar
+    </Text>
+    <View
+      style={
+        Object {
+          "marginTop": 8,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItem": "center",
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItem": "center",
+              "flexDirection": "row",
+              "height": 20,
+              "justifyContent": "center",
+              "marginRight": 16,
+              "width": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "textAlign": "center",
+              }
+            }
+          >
+            Th
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItem": "center",
+              "flexDirection": "row",
+              "height": 20,
+              "justifyContent": "center",
+              "marginRight": 16,
+              "width": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "textAlign": "center",
+              }
+            }
+          >
+            Fr
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItem": "center",
+              "flexDirection": "row",
+              "height": 20,
+              "justifyContent": "center",
+              "marginRight": 16,
+              "width": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "textAlign": "center",
+              }
+            }
+          >
+            Sa
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItem": "center",
+              "flexDirection": "row",
+              "height": 20,
+              "justifyContent": "center",
+              "marginRight": 16,
+              "width": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "textAlign": "center",
+              }
+            }
+          >
+            Su
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItem": "center",
+              "flexDirection": "row",
+              "height": 20,
+              "justifyContent": "center",
+              "marginRight": 16,
+              "width": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "textAlign": "center",
+              }
+            }
+          >
+            Mo
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItem": "center",
+              "flexDirection": "row",
+              "height": 20,
+              "justifyContent": "center",
+              "marginRight": 16,
+              "width": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "textAlign": "center",
+              }
+            }
+          >
+            Tu
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItem": "center",
+              "flexDirection": "row",
+              "height": 20,
+              "justifyContent": "center",
+              "marginRight": 16,
+              "width": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "textAlign": "center",
+              }
+            }
+          >
+            We
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItem": "center",
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItem": "center",
+              "flexDirection": "row",
+              "height": 20,
+              "justifyContent": "center",
+              "marginRight": 16,
+              "width": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "textAlign": "center",
+              }
+            }
+          >
+            09
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItem": "center",
+              "flexDirection": "row",
+              "height": 20,
+              "justifyContent": "center",
+              "marginRight": 16,
+              "width": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "textAlign": "center",
+              }
+            }
+          >
+            10
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItem": "center",
+              "flexDirection": "row",
+              "height": 20,
+              "justifyContent": "center",
+              "marginRight": 16,
+              "width": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "textAlign": "center",
+              }
+            }
+          >
+            11
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItem": "center",
+              "flexDirection": "row",
+              "height": 20,
+              "justifyContent": "center",
+              "marginRight": 16,
+              "width": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "textAlign": "center",
+              }
+            }
+          >
+            12
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItem": "center",
+              "flexDirection": "row",
+              "height": 20,
+              "justifyContent": "center",
+              "marginRight": 16,
+              "width": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "textAlign": "center",
+              }
+            }
+          >
+            13
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItem": "center",
+              "flexDirection": "row",
+              "height": 20,
+              "justifyContent": "center",
+              "marginRight": 16,
+              "width": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "textAlign": "center",
+              }
+            }
+          >
+            14
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItem": "center",
+              "flexDirection": "row",
+              "height": 20,
+              "justifyContent": "center",
+              "marginRight": 16,
+              "width": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "textAlign": "center",
+              }
+            }
+          >
+            15
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItem": "center",
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItem": "center",
+              "flexDirection": "row",
+              "height": 20,
+              "justifyContent": "center",
+              "marginRight": 16,
+              "width": 20,
+            }
+          }
+        >
+          <Text
+            accessibilityLabel="icon-text"
+            accessible={true}
+            allowFontScaling={false}
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": "#0066CC",
+                  "fontSize": 20,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "sywmax",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+            testID="icon-text"
+          >
+            
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItem": "center",
+              "flexDirection": "row",
+              "height": 20,
+              "justifyContent": "center",
+              "marginRight": 16,
+              "width": 20,
+            }
+          }
+        >
+          CloseCircleIcon
+        </View>
+        <View
+          style={
+            Object {
+              "alignItem": "center",
+              "flexDirection": "row",
+              "height": 20,
+              "justifyContent": "center",
+              "marginRight": 16,
+              "width": 20,
+            }
+          }
+        >
+          CloseCircleIcon
+        </View>
+        <View
+          style={
+            Object {
+              "alignItem": "center",
+              "flexDirection": "row",
+              "height": 20,
+              "justifyContent": "center",
+              "marginRight": 16,
+              "width": 20,
+            }
+          }
+        >
+          CloseCircleIcon
+        </View>
+        <View
+          style={
+            Object {
+              "alignItem": "center",
+              "flexDirection": "row",
+              "height": 20,
+              "justifyContent": "center",
+              "marginRight": 16,
+              "width": 20,
+            }
+          }
+        >
+          CloseCircleIcon
+        </View>
+        <View
+          style={
+            Object {
+              "alignItem": "center",
+              "flexDirection": "row",
+              "height": 20,
+              "justifyContent": "center",
+              "marginRight": 16,
+              "width": 20,
+            }
+          }
+        >
+          CloseCircleIcon
+        </View>
+        <View
+          style={
+            Object {
+              "alignItem": "center",
+              "flexDirection": "row",
+              "height": 20,
+              "justifyContent": "center",
+              "marginRight": 16,
+              "width": 20,
+            }
+          }
+        >
+          CloseCircleIcon
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

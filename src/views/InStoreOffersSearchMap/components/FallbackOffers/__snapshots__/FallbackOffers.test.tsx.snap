@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Fallback in-store Offers on Map should render 1`] = `
+<View
+  accessibilityLabel="fallback-offers-map-container"
+  accessible={true}
+  style={
+    Object {
+      "alignItems": "center",
+      "height": "100%",
+      "justifyContent": "center",
+      "paddingHorizontal": 24,
+    }
+  }
+  testID="fallback-offers-map-container"
+>
+  CreditCardFallbackIcon
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#262C2F",
+          "fontFamily": "SFProDisplay-Bold",
+          "fontSize": 16,
+          "lineHeight": 20,
+          "marginTop": 24,
+          "textAlign": "center",
+        },
+        undefined,
+      ]
+    }
+  >
+    Lorem Ipsum is simply dummy text of the printing and typesetting
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#909BA0",
+          "fontSize": 14,
+          "lineHeight": 18,
+          "marginTop": 16,
+          "textAlign": "center",
+        },
+        undefined,
+      ]
+    }
+  >
+    Lorem Ipsum has been the industry's standard dummy text
+  </Text>
+</View>
+`;

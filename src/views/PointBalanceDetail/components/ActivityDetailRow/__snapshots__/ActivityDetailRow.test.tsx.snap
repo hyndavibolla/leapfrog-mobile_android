@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActivityDetailRow should render 1`] = `
+<View>
+  <View
+    style={
+      Array [
+        Object {
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexDirection": "column",
+          "justifyContent": "space-between",
+          "paddingVertical": 16,
+        },
+        Object {
+          "paddingVertical": 0,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "borderBottomColor": "#EBEDF2",
+            "borderBottomWidth": 1,
+          },
+          undefined,
+        ]
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+        "marginHorizontal": 24,
+        "paddingVertical": 4,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "marginRight": 16,
+        }
+      }
+    >
+      <Text
+        accessibilityLabel="icon-text"
+        accessible={true}
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          Array [
+            Object {
+              "color": "#0066CC",
+              "fontSize": 20,
+            },
+            undefined,
+            Object {
+              "fontFamily": "sywmax",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+        testID="icon-text"
+      >
+        
+      </Text>
+    </View>
+    <View>
+      <Text
+        font="SFProDisplay-Bold"
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Object {
+              "color": "#0066CC",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 12,
+              "lineHeight": 18,
+            },
+          ]
+        }
+      >
+        TOTAL ORDER
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 14,
+              "lineHeight": 26,
+            },
+          ]
+        }
+      >
+        $10
+      </Text>
+    </View>
+  </View>
+</View>
+`;

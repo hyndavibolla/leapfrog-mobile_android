@@ -1,0 +1,7 @@
+{
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "java.configuration.updateBuildConfiguration": "disabled"
+}

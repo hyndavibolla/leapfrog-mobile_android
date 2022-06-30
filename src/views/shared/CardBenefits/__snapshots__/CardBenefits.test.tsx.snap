@@ -1,0 +1,6901 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardBenefits should NOT render when there is no data set available 1`] = `null`;
+
+exports[`CardBenefits should render the 'basicLevel' subtype 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "elevation": 3,
+        "shadowColor": "#262C2F",
+        "shadowOffset": Object {
+          "height": 4,
+          "width": 0,
+        },
+        "shadowOpacity": 0.1,
+      },
+      Object {
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "paddingBottom": 20,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 20,
+      },
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "paddingBottom": 0,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "flexDirection": "column",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          font="SFProDisplay-Heavy"
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Heavy",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#262C2F",
+                "fontSize": 24,
+              },
+            ]
+          }
+        >
+          Level 
+          6
+        </Text>
+        <Text
+          font="SFProDisplay-Bold"
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#02AEEF",
+                  "fontSize": 12,
+                  "marginBottom": 8,
+                  "textTransform": "uppercase",
+                },
+                Object {
+                  "color": "#909BA0",
+                },
+              ],
+            ]
+          }
+        >
+          Promote and unlock benefits
+        </Text>
+      </View>
+      <View
+        accessibilityLabel="pill-container"
+        accessible={true}
+        style={
+          Array [
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#DDE8F5",
+                "borderBottomLeftRadius": 20,
+                "borderBottomRightRadius": 20,
+                "borderTopLeftRadius": 20,
+                "borderTopRightRadius": 20,
+                "flexDirection": "row",
+                "paddingLeft": 4,
+                "paddingRight": 10,
+              },
+              Object {
+                "height": 28,
+              },
+            ],
+            Array [
+              undefined,
+            ],
+            undefined,
+          ]
+        }
+        testID="pill-container"
+      >
+        <View
+          accessibilityLabel="pill-icon"
+          accessible={true}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderBottomLeftRadius": 50,
+                "borderBottomRightRadius": 50,
+                "borderTopLeftRadius": 50,
+                "borderTopRightRadius": 50,
+                "justifyContent": "center",
+              },
+              undefined,
+            ]
+          }
+          testID="pill-icon"
+        >
+          <Text
+            accessibilityLabel="icon-text"
+            accessible={true}
+            allowFontScaling={false}
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": "#0066CC",
+                  "fontSize": 20,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "sywmax",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+            testID="icon-text"
+          >
+            
+          </Text>
+        </View>
+        <Text
+          accessibilityLabel="pill-text"
+          accessible={true}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "paddingLeft": 4,
+                },
+                Array [
+                  Object {
+                    "color": "#0066CC",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "lineHeight": 20,
+                  },
+                  undefined,
+                ],
+              ],
+            ]
+          }
+          testID="pill-text"
+        >
+          30,000 - 34,999
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "minHeight": 110,
+        "paddingBottom": 0,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 8,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "flex-start",
+            "justifyContent": "flex-start",
+            "width": "60%",
+          },
+          Object {
+            "color": "#909BA0",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            undefined,
+          ]
+        }
+      >
+        <Text
+          font="SFProDisplay-Bold"
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontSize": 16,
+                  "lineHeight": 26,
+                },
+                Object {
+                  "color": "#262C2F",
+                },
+              ],
+            ]
+          }
+        >
+          Every point you earn helps you increase your level.
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#909BA0",
+                "fontSize": 16,
+                "lineHeight": 26,
+              },
+            ]
+          }
+        >
+           Higher levels have greater benefits.
+        </Text>
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "width": "40%",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+            },
+            undefined,
+          ]
+        }
+      >
+        <RNSVGSvgView
+          bbHeight={98}
+          bbWidth={98}
+          focusable={false}
+          height={98}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderWidth": 0,
+              },
+              Object {
+                "backgroundColor": "#FFFFFF",
+                "borderBottomLeftRadius": 8,
+                "borderBottomRightRadius": 8,
+                "borderTopLeftRadius": 8,
+                "borderTopRightRadius": 8,
+                "transform": Array [
+                  Object {
+                    "rotateZ": "270deg",
+                  },
+                ],
+              },
+              Object {
+                "flex": 0,
+                "height": 98,
+                "width": 98,
+              },
+            ]
+          }
+          width={98}
+        >
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+              ]
+            }
+          >
+            <RNSVGCircle
+              cx={49}
+              cy={49}
+              fill={null}
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                ]
+              }
+              r={44}
+              stroke={4278216396}
+              strokeWidth={10}
+            />
+            <RNSVGCircle
+              cx={49}
+              cy={49}
+              fill={null}
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeDasharray",
+                  "strokeDashoffset",
+                ]
+              }
+              r={44}
+              stroke={4293651954}
+              strokeDasharray={
+                Array [
+                  "276.46015351590177",
+                  "276.46015351590177",
+                ]
+              }
+              strokeDashoffset={null}
+              strokeWidth={11}
+            />
+            <RNSVGText
+              content={null}
+              dx={Array []}
+              dy={Array []}
+              fill={4278216396}
+              font={
+                Object {
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": "18px",
+                  "letterSpacing": 3,
+                  "textAnchor": "middle",
+                }
+              }
+              matrix={
+                Array [
+                  6.123233995736766e-17,
+                  1,
+                  -1,
+                  6.123233995736766e-17,
+                  98,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                ]
+              }
+              rotate={Array []}
+              stroke={4278216396}
+              x={
+                Array [
+                  49,
+                ]
+              }
+              y={
+                Array [
+                  49,
+                ]
+              }
+            >
+              <RNSVGTSpan
+                content="0"
+                dx={Array []}
+                dy={Array []}
+                font={Object {}}
+                rotate={Array []}
+                x={Array []}
+                y={Array []}
+              />
+            </RNSVGText>
+            <RNSVGText
+              content={null}
+              dx={Array []}
+              dy={Array []}
+              fill={4287667104}
+              font={
+                Object {
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": "12px",
+                  "fontWeight": "bold",
+                  "textAnchor": "middle",
+                }
+              }
+              matrix={
+                Array [
+                  6.123233995736766e-17,
+                  1,
+                  -1,
+                  6.123233995736766e-17,
+                  98,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+              rotate={Array []}
+              x={
+                Array [
+                  49,
+                ]
+              }
+              y={
+                Array [
+                  64,
+                ]
+              }
+            >
+              <RNSVGTSpan
+                content="OF 34,999"
+                dx={Array []}
+                dy={Array []}
+                font={Object {}}
+                rotate={Array []}
+                x={Array []}
+                y={Array []}
+              />
+            </RNSVGText>
+            <RNSVGCircle
+              cx={93}
+              cy={49}
+              fill={4278216396}
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+              r={5}
+            />
+          </RNSVGGroup>
+        </RNSVGSvgView>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexDirection": "column",
+          "justifyContent": "space-between",
+          "paddingVertical": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "borderBottomColor": "#EBEDF2",
+            "borderBottomWidth": 1,
+          },
+          undefined,
+        ]
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "paddingBottom": 20,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 0,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Object {
+              "color": "#909BA0",
+              "fontSize": 16,
+              "lineHeight": 26,
+            },
+          ]
+        }
+      >
+        You have 
+        51 years
+         until 
+      </Text>
+      <Text
+        font="SFProDisplay-Bold"
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontSize": 16,
+                "lineHeight": 26,
+              },
+              Object {
+                "color": "#262C2F",
+              },
+            ],
+          ]
+        }
+      >
+        August 30th
+        !
+      </Text>
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`CardBenefits should render the 'overmaxpoints' subtype 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "elevation": 3,
+        "shadowColor": "#262C2F",
+        "shadowOffset": Object {
+          "height": 4,
+          "width": 0,
+        },
+        "shadowOpacity": 0.1,
+      },
+      Object {
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "paddingBottom": 20,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 20,
+      },
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "paddingBottom": 0,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "flexDirection": "column",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          font="SFProDisplay-Heavy"
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Heavy",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#262C2F",
+                "fontSize": 24,
+              },
+            ]
+          }
+        >
+          Level 
+          6
+        </Text>
+        <Text
+          font="SFProDisplay-Bold"
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#02AEEF",
+                  "fontSize": 12,
+                  "marginBottom": 8,
+                  "textTransform": "uppercase",
+                },
+                Object {
+                  "color": "#909BA0",
+                },
+              ],
+            ]
+          }
+        >
+          Promote and unlock benefits
+        </Text>
+      </View>
+      <View
+        accessibilityLabel="pill-container"
+        accessible={true}
+        style={
+          Array [
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#DDE8F5",
+                "borderBottomLeftRadius": 20,
+                "borderBottomRightRadius": 20,
+                "borderTopLeftRadius": 20,
+                "borderTopRightRadius": 20,
+                "flexDirection": "row",
+                "paddingLeft": 4,
+                "paddingRight": 10,
+              },
+              Object {
+                "height": 28,
+              },
+            ],
+            Array [
+              undefined,
+            ],
+            undefined,
+          ]
+        }
+        testID="pill-container"
+      >
+        <View
+          accessibilityLabel="pill-icon"
+          accessible={true}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderBottomLeftRadius": 50,
+                "borderBottomRightRadius": 50,
+                "borderTopLeftRadius": 50,
+                "borderTopRightRadius": 50,
+                "justifyContent": "center",
+              },
+              undefined,
+            ]
+          }
+          testID="pill-icon"
+        >
+          <Text
+            accessibilityLabel="icon-text"
+            accessible={true}
+            allowFontScaling={false}
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": "#0066CC",
+                  "fontSize": 20,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "sywmax",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+            testID="icon-text"
+          >
+            
+          </Text>
+        </View>
+        <Text
+          accessibilityLabel="pill-text"
+          accessible={true}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "paddingLeft": 4,
+                },
+                Array [
+                  Object {
+                    "color": "#0066CC",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "lineHeight": 20,
+                  },
+                  undefined,
+                ],
+              ],
+            ]
+          }
+          testID="pill-text"
+        >
+          -
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "minHeight": 110,
+        "paddingBottom": 0,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 8,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "flex-start",
+            "justifyContent": "flex-start",
+            "width": "60%",
+          },
+          Object {
+            "color": "#909BA0",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            undefined,
+          ]
+        }
+      >
+        <Text
+          font="SFProDisplay-Bold"
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontSize": 16,
+                  "lineHeight": 26,
+                },
+                Object {
+                  "color": "#262C2F",
+                },
+              ],
+            ]
+          }
+        >
+          Every point you earn helps you increase your level.
+           
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#909BA0",
+                "fontSize": 16,
+                "lineHeight": 26,
+              },
+            ]
+          }
+        >
+          Higher levels have greater benefits.
+        </Text>
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "width": "40%",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+            },
+            undefined,
+          ]
+        }
+      >
+        <RNSVGSvgView
+          bbHeight={98}
+          bbWidth={98}
+          focusable={false}
+          height={98}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderWidth": 0,
+              },
+              Object {
+                "backgroundColor": "#FFFFFF",
+                "borderBottomLeftRadius": 8,
+                "borderBottomRightRadius": 8,
+                "borderTopLeftRadius": 8,
+                "borderTopRightRadius": 8,
+                "transform": Array [
+                  Object {
+                    "rotateZ": "270deg",
+                  },
+                ],
+              },
+              Object {
+                "flex": 0,
+                "height": 98,
+                "width": 98,
+              },
+            ]
+          }
+          width={98}
+        >
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+              ]
+            }
+          >
+            <RNSVGCircle
+              cx={49}
+              cy={49}
+              fill={null}
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                ]
+              }
+              r={44}
+              stroke={4293059555}
+              strokeWidth={10}
+            />
+            <RNSVGCircle
+              cx={49}
+              cy={49}
+              fill={null}
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeDasharray",
+                  "strokeDashoffset",
+                ]
+              }
+              r={44}
+              stroke={4293651954}
+              strokeDasharray={
+                Array [
+                  "276.46015351590177",
+                  "276.46015351590177",
+                ]
+              }
+              strokeDashoffset={null}
+              strokeWidth={11}
+            />
+            <RNSVGText
+              content={null}
+              dx={Array []}
+              dy={Array []}
+              fill={4278216396}
+              font={
+                Object {
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": "18px",
+                  "letterSpacing": 3,
+                  "textAnchor": "middle",
+                }
+              }
+              matrix={
+                Array [
+                  6.123233995736766e-17,
+                  1,
+                  -1,
+                  6.123233995736766e-17,
+                  98,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                ]
+              }
+              rotate={Array []}
+              stroke={4278216396}
+              x={
+                Array [
+                  49,
+                ]
+              }
+              y={
+                Array [
+                  49,
+                ]
+              }
+            >
+              <RNSVGTSpan
+                content="-"
+                dx={Array []}
+                dy={Array []}
+                font={Object {}}
+                rotate={Array []}
+                x={Array []}
+                y={Array []}
+              />
+            </RNSVGText>
+            <RNSVGText
+              content={null}
+              dx={Array []}
+              dy={Array []}
+              fill={4287667104}
+              font={
+                Object {
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": "12px",
+                  "fontWeight": "bold",
+                  "textAnchor": "middle",
+                }
+              }
+              matrix={
+                Array [
+                  6.123233995736766e-17,
+                  1,
+                  -1,
+                  6.123233995736766e-17,
+                  98,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+              rotate={Array []}
+              x={
+                Array [
+                  49,
+                ]
+              }
+              y={
+                Array [
+                  64,
+                ]
+              }
+            >
+              <RNSVGTSpan
+                content="OF 34,999"
+                dx={Array []}
+                dy={Array []}
+                font={Object {}}
+                rotate={Array []}
+                x={Array []}
+                y={Array []}
+              />
+            </RNSVGText>
+            <RNSVGCircle
+              cx={93}
+              cy={49}
+              fill={4293059555}
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+              r={5}
+            />
+          </RNSVGGroup>
+        </RNSVGSvgView>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexDirection": "column",
+          "justifyContent": "space-between",
+          "paddingVertical": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "borderBottomColor": "#EBEDF2",
+            "borderBottomWidth": 1,
+          },
+          undefined,
+        ]
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "paddingBottom": 20,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 0,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Object {
+              "color": "#909BA0",
+              "fontSize": 16,
+              "lineHeight": 26,
+            },
+          ]
+        }
+      >
+        You have 
+        51 years
+         until 
+      </Text>
+      <Text
+        font="SFProDisplay-Bold"
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontSize": 16,
+                "lineHeight": 26,
+              },
+              Object {
+                "color": "#262C2F",
+              },
+            ],
+          ]
+        }
+      >
+        August 30th
+        !
+      </Text>
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`CardBenefits should render the 'promotion' subtype 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "elevation": 3,
+        "shadowColor": "#262C2F",
+        "shadowOffset": Object {
+          "height": 4,
+          "width": 0,
+        },
+        "shadowOpacity": 0.1,
+      },
+      Object {
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "paddingBottom": 20,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 20,
+      },
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "paddingBottom": 0,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "flexDirection": "column",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          font="SFProDisplay-Heavy"
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Heavy",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#262C2F",
+                "fontSize": 24,
+              },
+            ]
+          }
+        >
+          Level 
+          6
+          🎉
+        </Text>
+        <Text
+          font="SFProDisplay-Bold"
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#02AEEF",
+                  "fontSize": 12,
+                  "marginBottom": 8,
+                  "textTransform": "uppercase",
+                },
+                Object {
+                  "color": "#34C06B",
+                },
+              ],
+            ]
+          }
+        >
+          You’ve been promoted
+        </Text>
+      </View>
+      <View
+        accessibilityLabel="pill-container"
+        accessible={true}
+        style={
+          Array [
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#DDE8F5",
+                "borderBottomLeftRadius": 20,
+                "borderBottomRightRadius": 20,
+                "borderTopLeftRadius": 20,
+                "borderTopRightRadius": 20,
+                "flexDirection": "row",
+                "paddingLeft": 4,
+                "paddingRight": 10,
+              },
+              Object {
+                "height": 28,
+              },
+            ],
+            Array [
+              undefined,
+            ],
+            undefined,
+          ]
+        }
+        testID="pill-container"
+      >
+        <View
+          accessibilityLabel="pill-icon"
+          accessible={true}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderBottomLeftRadius": 50,
+                "borderBottomRightRadius": 50,
+                "borderTopLeftRadius": 50,
+                "borderTopRightRadius": 50,
+                "justifyContent": "center",
+              },
+              undefined,
+            ]
+          }
+          testID="pill-icon"
+        >
+          <Text
+            accessibilityLabel="icon-text"
+            accessible={true}
+            allowFontScaling={false}
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": "#0066CC",
+                  "fontSize": 20,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "sywmax",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+            testID="icon-text"
+          >
+            
+          </Text>
+        </View>
+        <Text
+          accessibilityLabel="pill-text"
+          accessible={true}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "paddingLeft": 4,
+                },
+                Array [
+                  Object {
+                    "color": "#0066CC",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "lineHeight": 20,
+                  },
+                  undefined,
+                ],
+              ],
+            ]
+          }
+          testID="pill-text"
+        >
+          30,000 - 34,999
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "minHeight": 110,
+        "paddingBottom": 0,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 8,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "flex-start",
+            "justifyContent": "flex-start",
+            "width": "60%",
+          },
+          Object {
+            "color": "#34C06B",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            undefined,
+          ]
+        }
+      >
+        <Text
+          font="SFProDisplay-Bold"
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontSize": 16,
+                  "lineHeight": 26,
+                },
+                Object {
+                  "color": "#262C2F",
+                },
+              ],
+            ]
+          }
+        >
+          You're now on level 
+          6
+          ! Your benefits have increased.
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#909BA0",
+                "fontSize": 16,
+                "lineHeight": 26,
+              },
+            ]
+          }
+        >
+          Keep earning your way to level 
+          7
+        </Text>
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "width": "40%",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+            },
+            undefined,
+          ]
+        }
+      >
+        <RNSVGSvgView
+          bbHeight={98}
+          bbWidth={98}
+          focusable={false}
+          height={98}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderWidth": 0,
+              },
+              Object {
+                "backgroundColor": "#FFFFFF",
+                "borderBottomLeftRadius": 8,
+                "borderBottomRightRadius": 8,
+                "borderTopLeftRadius": 8,
+                "borderTopRightRadius": 8,
+                "transform": Array [
+                  Object {
+                    "rotateZ": "270deg",
+                  },
+                ],
+              },
+              Object {
+                "flex": 0,
+                "height": 98,
+                "width": 98,
+              },
+            ]
+          }
+          width={98}
+        >
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+              ]
+            }
+          >
+            <RNSVGCircle
+              cx={49}
+              cy={49}
+              fill={null}
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                ]
+              }
+              r={44}
+              stroke={4281647211}
+              strokeWidth={10}
+            />
+            <RNSVGCircle
+              cx={49}
+              cy={49}
+              fill={null}
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeDasharray",
+                  "strokeDashoffset",
+                ]
+              }
+              r={44}
+              stroke={4293651954}
+              strokeDasharray={
+                Array [
+                  "276.46015351590177",
+                  "276.46015351590177",
+                ]
+              }
+              strokeDashoffset={null}
+              strokeWidth={11}
+            />
+            <RNSVGText
+              content={null}
+              dx={Array []}
+              dy={Array []}
+              fill={4281647211}
+              font={
+                Object {
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": "18px",
+                  "letterSpacing": 3,
+                  "textAnchor": "middle",
+                }
+              }
+              matrix={
+                Array [
+                  6.123233995736766e-17,
+                  1,
+                  -1,
+                  6.123233995736766e-17,
+                  98,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                ]
+              }
+              rotate={Array []}
+              stroke={4281647211}
+              x={
+                Array [
+                  49,
+                ]
+              }
+              y={
+                Array [
+                  49,
+                ]
+              }
+            >
+              <RNSVGTSpan
+                content="0"
+                dx={Array []}
+                dy={Array []}
+                font={Object {}}
+                rotate={Array []}
+                x={Array []}
+                y={Array []}
+              />
+            </RNSVGText>
+            <RNSVGText
+              content={null}
+              dx={Array []}
+              dy={Array []}
+              fill={4287667104}
+              font={
+                Object {
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": "12px",
+                  "fontWeight": "bold",
+                  "textAnchor": "middle",
+                }
+              }
+              matrix={
+                Array [
+                  6.123233995736766e-17,
+                  1,
+                  -1,
+                  6.123233995736766e-17,
+                  98,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+              rotate={Array []}
+              x={
+                Array [
+                  49,
+                ]
+              }
+              y={
+                Array [
+                  64,
+                ]
+              }
+            >
+              <RNSVGTSpan
+                content="OF 34,999"
+                dx={Array []}
+                dy={Array []}
+                font={Object {}}
+                rotate={Array []}
+                x={Array []}
+                y={Array []}
+              />
+            </RNSVGText>
+            <RNSVGCircle
+              cx={93}
+              cy={49}
+              fill={4281647211}
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+              r={5}
+            />
+          </RNSVGGroup>
+        </RNSVGSvgView>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexDirection": "column",
+          "justifyContent": "space-between",
+          "paddingVertical": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "borderBottomColor": "#EBEDF2",
+            "borderBottomWidth": 1,
+          },
+          undefined,
+        ]
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "paddingBottom": 20,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 0,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Object {
+              "color": "#909BA0",
+              "fontSize": 16,
+              "lineHeight": 26,
+            },
+          ]
+        }
+      >
+        You have 
+        51 years
+         until 
+      </Text>
+      <Text
+        font="SFProDisplay-Bold"
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontSize": 16,
+                "lineHeight": 26,
+              },
+              Object {
+                "color": "#262C2F",
+              },
+            ],
+          ]
+        }
+      >
+        August 30th
+        .
+      </Text>
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`CardBenefits should render the 'relegation' subtype 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "elevation": 3,
+        "shadowColor": "#262C2F",
+        "shadowOffset": Object {
+          "height": 4,
+          "width": 0,
+        },
+        "shadowOpacity": 0.1,
+      },
+      Object {
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "paddingBottom": 20,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 20,
+      },
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "paddingBottom": 0,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "flexDirection": "column",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          font="SFProDisplay-Heavy"
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Heavy",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#262C2F",
+                "fontSize": 24,
+              },
+            ]
+          }
+        >
+          Level 
+          6
+        </Text>
+        <Text
+          font="SFProDisplay-Bold"
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#02AEEF",
+                  "fontSize": 12,
+                  "marginBottom": 8,
+                  "textTransform": "uppercase",
+                },
+                Object {
+                  "color": "#FF5F00",
+                },
+              ],
+            ]
+          }
+        >
+          keep it up!
+        </Text>
+      </View>
+      <View
+        accessibilityLabel="pill-container"
+        accessible={true}
+        style={
+          Array [
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#DDE8F5",
+                "borderBottomLeftRadius": 20,
+                "borderBottomRightRadius": 20,
+                "borderTopLeftRadius": 20,
+                "borderTopRightRadius": 20,
+                "flexDirection": "row",
+                "paddingLeft": 4,
+                "paddingRight": 10,
+              },
+              Object {
+                "height": 28,
+              },
+            ],
+            Array [
+              undefined,
+            ],
+            undefined,
+          ]
+        }
+        testID="pill-container"
+      >
+        <View
+          accessibilityLabel="pill-icon"
+          accessible={true}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderBottomLeftRadius": 50,
+                "borderBottomRightRadius": 50,
+                "borderTopLeftRadius": 50,
+                "borderTopRightRadius": 50,
+                "justifyContent": "center",
+              },
+              undefined,
+            ]
+          }
+          testID="pill-icon"
+        >
+          <Text
+            accessibilityLabel="icon-text"
+            accessible={true}
+            allowFontScaling={false}
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": "#0066CC",
+                  "fontSize": 20,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "sywmax",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+            testID="icon-text"
+          >
+            
+          </Text>
+        </View>
+        <Text
+          accessibilityLabel="pill-text"
+          accessible={true}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "paddingLeft": 4,
+                },
+                Array [
+                  Object {
+                    "color": "#0066CC",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "lineHeight": 20,
+                  },
+                  undefined,
+                ],
+              ],
+            ]
+          }
+          testID="pill-text"
+        >
+          30,000 - 34,999
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "minHeight": 110,
+        "paddingBottom": 0,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 8,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "flex-start",
+            "justifyContent": "flex-start",
+            "width": "60%",
+          },
+          Object {
+            "color": "#FF5F00",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            undefined,
+          ]
+        }
+      >
+        <Text
+          font="SFProDisplay-Bold"
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontSize": 16,
+                  "lineHeight": 26,
+                },
+                Object {
+                  "color": "#262C2F",
+                },
+              ],
+            ]
+          }
+        >
+          30,000
+           points are required to stay on level 
+          6
+          .
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#909BA0",
+                "fontSize": 16,
+                "lineHeight": 26,
+              },
+            ]
+          }
+        >
+           Earn more points to keep your current level and benefits.
+        </Text>
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "width": "40%",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+            },
+            undefined,
+          ]
+        }
+      >
+        <RNSVGSvgView
+          bbHeight={98}
+          bbWidth={98}
+          focusable={false}
+          height={98}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderWidth": 0,
+              },
+              Object {
+                "backgroundColor": "#FFFFFF",
+                "borderBottomLeftRadius": 8,
+                "borderBottomRightRadius": 8,
+                "borderTopLeftRadius": 8,
+                "borderTopRightRadius": 8,
+                "transform": Array [
+                  Object {
+                    "rotateZ": "270deg",
+                  },
+                ],
+              },
+              Object {
+                "flex": 0,
+                "height": 98,
+                "width": 98,
+              },
+            ]
+          }
+          width={98}
+        >
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+              ]
+            }
+          >
+            <RNSVGCircle
+              cx={49}
+              cy={49}
+              fill={null}
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                ]
+              }
+              r={44}
+              stroke={4294926080}
+              strokeWidth={10}
+            />
+            <RNSVGCircle
+              cx={49}
+              cy={49}
+              fill={null}
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeDasharray",
+                  "strokeDashoffset",
+                ]
+              }
+              r={44}
+              stroke={4293651954}
+              strokeDasharray={
+                Array [
+                  "276.46015351590177",
+                  "276.46015351590177",
+                ]
+              }
+              strokeDashoffset={null}
+              strokeWidth={11}
+            />
+            <RNSVGText
+              content={null}
+              dx={Array []}
+              dy={Array []}
+              fill={4294926080}
+              font={
+                Object {
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": "18px",
+                  "letterSpacing": 3,
+                  "textAnchor": "middle",
+                }
+              }
+              matrix={
+                Array [
+                  6.123233995736766e-17,
+                  1,
+                  -1,
+                  6.123233995736766e-17,
+                  98,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                ]
+              }
+              rotate={Array []}
+              stroke={4294926080}
+              x={
+                Array [
+                  49,
+                ]
+              }
+              y={
+                Array [
+                  49,
+                ]
+              }
+            >
+              <RNSVGTSpan
+                content="0"
+                dx={Array []}
+                dy={Array []}
+                font={Object {}}
+                rotate={Array []}
+                x={Array []}
+                y={Array []}
+              />
+            </RNSVGText>
+            <RNSVGText
+              content={null}
+              dx={Array []}
+              dy={Array []}
+              fill={4287667104}
+              font={
+                Object {
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": "12px",
+                  "fontWeight": "bold",
+                  "textAnchor": "middle",
+                }
+              }
+              matrix={
+                Array [
+                  6.123233995736766e-17,
+                  1,
+                  -1,
+                  6.123233995736766e-17,
+                  98,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+              rotate={Array []}
+              x={
+                Array [
+                  49,
+                ]
+              }
+              y={
+                Array [
+                  64,
+                ]
+              }
+            >
+              <RNSVGTSpan
+                content="OF 34,999"
+                dx={Array []}
+                dy={Array []}
+                font={Object {}}
+                rotate={Array []}
+                x={Array []}
+                y={Array []}
+              />
+            </RNSVGText>
+            <RNSVGCircle
+              cx={93}
+              cy={49}
+              fill={4294926080}
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+              r={5}
+            />
+          </RNSVGGroup>
+        </RNSVGSvgView>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexDirection": "column",
+          "justifyContent": "space-between",
+          "paddingVertical": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "borderBottomColor": "#EBEDF2",
+            "borderBottomWidth": 1,
+          },
+          undefined,
+        ]
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "paddingBottom": 20,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 0,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Object {
+              "color": "#909BA0",
+              "fontSize": 16,
+              "lineHeight": 26,
+            },
+          ]
+        }
+      >
+        If not reached, you'll level down on 
+      </Text>
+      <Text
+        font="SFProDisplay-Bold"
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontSize": 16,
+                "lineHeight": 26,
+              },
+              Object {
+                "color": "#262C2F",
+              },
+            ],
+          ]
+        }
+      >
+        August 30th
+        .
+      </Text>
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`CardBenefits should render the 'safe' subtype 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "elevation": 3,
+        "shadowColor": "#262C2F",
+        "shadowOffset": Object {
+          "height": 4,
+          "width": 0,
+        },
+        "shadowOpacity": 0.1,
+      },
+      Object {
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "paddingBottom": 20,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 20,
+      },
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "paddingBottom": 0,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "flexDirection": "column",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          font="SFProDisplay-Heavy"
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Heavy",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#262C2F",
+                "fontSize": 24,
+              },
+            ]
+          }
+        >
+          Level 
+          6
+        </Text>
+        <Text
+          font="SFProDisplay-Bold"
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#02AEEF",
+                  "fontSize": 12,
+                  "marginBottom": 8,
+                  "textTransform": "uppercase",
+                },
+                Object {
+                  "color": "#0066CC",
+                },
+              ],
+            ]
+          }
+        >
+          Secured Level
+        </Text>
+      </View>
+      <View
+        accessibilityLabel="pill-container"
+        accessible={true}
+        style={
+          Array [
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#DDE8F5",
+                "borderBottomLeftRadius": 20,
+                "borderBottomRightRadius": 20,
+                "borderTopLeftRadius": 20,
+                "borderTopRightRadius": 20,
+                "flexDirection": "row",
+                "paddingLeft": 4,
+                "paddingRight": 10,
+              },
+              Object {
+                "height": 28,
+              },
+            ],
+            Array [
+              undefined,
+            ],
+            undefined,
+          ]
+        }
+        testID="pill-container"
+      >
+        <View
+          accessibilityLabel="pill-icon"
+          accessible={true}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderBottomLeftRadius": 50,
+                "borderBottomRightRadius": 50,
+                "borderTopLeftRadius": 50,
+                "borderTopRightRadius": 50,
+                "justifyContent": "center",
+              },
+              undefined,
+            ]
+          }
+          testID="pill-icon"
+        >
+          <Text
+            accessibilityLabel="icon-text"
+            accessible={true}
+            allowFontScaling={false}
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": "#0066CC",
+                  "fontSize": 20,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "sywmax",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+            testID="icon-text"
+          >
+            
+          </Text>
+        </View>
+        <Text
+          accessibilityLabel="pill-text"
+          accessible={true}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "paddingLeft": 4,
+                },
+                Array [
+                  Object {
+                    "color": "#0066CC",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "lineHeight": 20,
+                  },
+                  undefined,
+                ],
+              ],
+            ]
+          }
+          testID="pill-text"
+        >
+          30,000 - 34,999
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "minHeight": 110,
+        "paddingBottom": 0,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 8,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "flex-start",
+            "justifyContent": "flex-start",
+            "width": "60%",
+          },
+          Object {
+            "color": "#0066CC",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            undefined,
+          ]
+        }
+      >
+        <Text
+          font="SFProDisplay-Bold"
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontSize": 16,
+                  "lineHeight": 26,
+                },
+                Object {
+                  "color": "#262C2F",
+                },
+              ],
+            ]
+          }
+        >
+          You earned enough points to secure your actual level.
+           
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#909BA0",
+                "fontSize": 16,
+                "lineHeight": 26,
+              },
+            ]
+          }
+        >
+          Keep earning points to promote to level 
+          7
+          .
+        </Text>
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "width": "40%",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+            },
+            undefined,
+          ]
+        }
+      >
+        <RNSVGSvgView
+          bbHeight={98}
+          bbWidth={98}
+          focusable={false}
+          height={98}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderWidth": 0,
+              },
+              Object {
+                "backgroundColor": "#FFFFFF",
+                "borderBottomLeftRadius": 8,
+                "borderBottomRightRadius": 8,
+                "borderTopLeftRadius": 8,
+                "borderTopRightRadius": 8,
+                "transform": Array [
+                  Object {
+                    "rotateZ": "270deg",
+                  },
+                ],
+              },
+              Object {
+                "flex": 0,
+                "height": 98,
+                "width": 98,
+              },
+            ]
+          }
+          width={98}
+        >
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+              ]
+            }
+          >
+            <RNSVGCircle
+              cx={49}
+              cy={49}
+              fill={null}
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                ]
+              }
+              r={44}
+              stroke={4278216396}
+              strokeWidth={10}
+            />
+            <RNSVGCircle
+              cx={49}
+              cy={49}
+              fill={null}
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeDasharray",
+                  "strokeDashoffset",
+                ]
+              }
+              r={44}
+              stroke={4293651954}
+              strokeDasharray={
+                Array [
+                  "276.46015351590177",
+                  "276.46015351590177",
+                ]
+              }
+              strokeDashoffset={null}
+              strokeWidth={11}
+            />
+            <RNSVGText
+              content={null}
+              dx={Array []}
+              dy={Array []}
+              fill={4278216396}
+              font={
+                Object {
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": "18px",
+                  "letterSpacing": 3,
+                  "textAnchor": "middle",
+                }
+              }
+              matrix={
+                Array [
+                  6.123233995736766e-17,
+                  1,
+                  -1,
+                  6.123233995736766e-17,
+                  98,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                ]
+              }
+              rotate={Array []}
+              stroke={4278216396}
+              x={
+                Array [
+                  49,
+                ]
+              }
+              y={
+                Array [
+                  49,
+                ]
+              }
+            >
+              <RNSVGTSpan
+                content="0"
+                dx={Array []}
+                dy={Array []}
+                font={Object {}}
+                rotate={Array []}
+                x={Array []}
+                y={Array []}
+              />
+            </RNSVGText>
+            <RNSVGText
+              content={null}
+              dx={Array []}
+              dy={Array []}
+              fill={4287667104}
+              font={
+                Object {
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": "12px",
+                  "fontWeight": "bold",
+                  "textAnchor": "middle",
+                }
+              }
+              matrix={
+                Array [
+                  6.123233995736766e-17,
+                  1,
+                  -1,
+                  6.123233995736766e-17,
+                  98,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+              rotate={Array []}
+              x={
+                Array [
+                  49,
+                ]
+              }
+              y={
+                Array [
+                  64,
+                ]
+              }
+            >
+              <RNSVGTSpan
+                content="OF 34,999"
+                dx={Array []}
+                dy={Array []}
+                font={Object {}}
+                rotate={Array []}
+                x={Array []}
+                y={Array []}
+              />
+            </RNSVGText>
+            <RNSVGCircle
+              cx={93}
+              cy={49}
+              fill={4278216396}
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+              r={5}
+            />
+          </RNSVGGroup>
+        </RNSVGSvgView>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexDirection": "column",
+          "justifyContent": "space-between",
+          "paddingVertical": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "borderBottomColor": "#EBEDF2",
+            "borderBottomWidth": 1,
+          },
+          undefined,
+        ]
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "paddingBottom": 20,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 0,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Object {
+              "color": "#909BA0",
+              "fontSize": 16,
+              "lineHeight": 26,
+            },
+          ]
+        }
+      >
+        You have 
+        51 years
+         until 
+      </Text>
+      <Text
+        font="SFProDisplay-Bold"
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontSize": 16,
+                "lineHeight": 26,
+              },
+              Object {
+                "color": "#262C2F",
+              },
+            ],
+          ]
+        }
+      >
+        August 30th
+        !
+      </Text>
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`CardBenefits should render the 'special' subtype 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "elevation": 3,
+        "shadowColor": "#262C2F",
+        "shadowOffset": Object {
+          "height": 4,
+          "width": 0,
+        },
+        "shadowOpacity": 0.1,
+      },
+      Object {
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "paddingBottom": 20,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 20,
+      },
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "paddingBottom": 0,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "flexDirection": "column",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          font="SFProDisplay-Heavy"
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Heavy",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#262C2F",
+                "fontSize": 24,
+              },
+            ]
+          }
+        >
+          Level 
+          6
+          🏁
+        </Text>
+        <Text
+          font="SFProDisplay-Bold"
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#02AEEF",
+                  "fontSize": 12,
+                  "marginBottom": 8,
+                  "textTransform": "uppercase",
+                },
+                Object {
+                  "color": "#34C06B",
+                },
+              ],
+            ]
+          }
+        >
+          You made it!
+        </Text>
+      </View>
+      <View
+        accessibilityLabel="pill-container"
+        accessible={true}
+        style={
+          Array [
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#DDE8F5",
+                "borderBottomLeftRadius": 20,
+                "borderBottomRightRadius": 20,
+                "borderTopLeftRadius": 20,
+                "borderTopRightRadius": 20,
+                "flexDirection": "row",
+                "paddingLeft": 4,
+                "paddingRight": 10,
+              },
+              Object {
+                "height": 28,
+              },
+            ],
+            Array [
+              undefined,
+            ],
+            undefined,
+          ]
+        }
+        testID="pill-container"
+      >
+        <View
+          accessibilityLabel="pill-icon"
+          accessible={true}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderBottomLeftRadius": 50,
+                "borderBottomRightRadius": 50,
+                "borderTopLeftRadius": 50,
+                "borderTopRightRadius": 50,
+                "justifyContent": "center",
+              },
+              undefined,
+            ]
+          }
+          testID="pill-icon"
+        >
+          <Text
+            accessibilityLabel="icon-text"
+            accessible={true}
+            allowFontScaling={false}
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": "#0066CC",
+                  "fontSize": 20,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "sywmax",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+            testID="icon-text"
+          >
+            
+          </Text>
+        </View>
+        <Text
+          accessibilityLabel="pill-text"
+          accessible={true}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "paddingLeft": 4,
+                },
+                Array [
+                  Object {
+                    "color": "#0066CC",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "lineHeight": 20,
+                  },
+                  undefined,
+                ],
+              ],
+            ]
+          }
+          testID="pill-text"
+        >
+          30,000 - 34,999
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "minHeight": 110,
+        "paddingBottom": 0,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 8,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "flex-start",
+            "justifyContent": "flex-start",
+            "width": "60%",
+          },
+          Object {
+            "color": "#34C06B",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            undefined,
+          ]
+        }
+      >
+        <Text
+          font="SFProDisplay-Bold"
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontSize": 16,
+                  "lineHeight": 26,
+                },
+                Object {
+                  "color": "#262C2F",
+                },
+              ],
+            ]
+          }
+        >
+          You made it to the ultimate level.
+           
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#909BA0",
+                "fontSize": 16,
+                "lineHeight": 26,
+              },
+            ]
+          }
+        >
+          Congratulations! You’re the best.
+        </Text>
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "width": "40%",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+            },
+            undefined,
+          ]
+        }
+      >
+        <RNSVGSvgView
+          bbHeight={98}
+          bbWidth={98}
+          focusable={false}
+          height={98}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderWidth": 0,
+              },
+              Object {
+                "backgroundColor": "#FFFFFF",
+                "borderBottomLeftRadius": 8,
+                "borderBottomRightRadius": 8,
+                "borderTopLeftRadius": 8,
+                "borderTopRightRadius": 8,
+                "transform": Array [
+                  Object {
+                    "rotateZ": "270deg",
+                  },
+                ],
+              },
+              Object {
+                "flex": 0,
+                "height": 98,
+                "width": 98,
+              },
+            ]
+          }
+          width={98}
+        >
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+              ]
+            }
+          >
+            <RNSVGCircle
+              cx={49}
+              cy={49}
+              fill={null}
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                ]
+              }
+              r={44}
+              stroke={4281647211}
+              strokeWidth={10}
+            />
+            <RNSVGCircle
+              cx={49}
+              cy={49}
+              fill={null}
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeDasharray",
+                  "strokeDashoffset",
+                ]
+              }
+              r={44}
+              stroke={4293651954}
+              strokeDasharray={
+                Array [
+                  "276.46015351590177",
+                  "276.46015351590177",
+                ]
+              }
+              strokeDashoffset={null}
+              strokeWidth={11}
+            />
+            <RNSVGText
+              content={null}
+              dx={Array []}
+              dy={Array []}
+              fill={4281647211}
+              font={
+                Object {
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": "18px",
+                  "letterSpacing": 3,
+                  "textAnchor": "middle",
+                }
+              }
+              matrix={
+                Array [
+                  6.123233995736766e-17,
+                  1,
+                  -1,
+                  6.123233995736766e-17,
+                  98,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                ]
+              }
+              rotate={Array []}
+              stroke={4281647211}
+              x={
+                Array [
+                  49,
+                ]
+              }
+              y={
+                Array [
+                  49,
+                ]
+              }
+            >
+              <RNSVGTSpan
+                content="0"
+                dx={Array []}
+                dy={Array []}
+                font={Object {}}
+                rotate={Array []}
+                x={Array []}
+                y={Array []}
+              />
+            </RNSVGText>
+            <RNSVGText
+              content={null}
+              dx={Array []}
+              dy={Array []}
+              fill={4287667104}
+              font={
+                Object {
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": "12px",
+                  "fontWeight": "bold",
+                  "textAnchor": "middle",
+                }
+              }
+              matrix={
+                Array [
+                  6.123233995736766e-17,
+                  1,
+                  -1,
+                  6.123233995736766e-17,
+                  98,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+              rotate={Array []}
+              x={
+                Array [
+                  49,
+                ]
+              }
+              y={
+                Array [
+                  64,
+                ]
+              }
+            >
+              <RNSVGTSpan
+                content="OF 34,999"
+                dx={Array []}
+                dy={Array []}
+                font={Object {}}
+                rotate={Array []}
+                x={Array []}
+                y={Array []}
+              />
+            </RNSVGText>
+            <RNSVGCircle
+              cx={93}
+              cy={49}
+              fill={4281647211}
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+              r={5}
+            />
+          </RNSVGGroup>
+        </RNSVGSvgView>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexDirection": "column",
+          "justifyContent": "space-between",
+          "paddingVertical": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "borderBottomColor": "#EBEDF2",
+            "borderBottomWidth": 1,
+          },
+          undefined,
+        ]
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "paddingBottom": 20,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 0,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Object {
+              "color": "#909BA0",
+              "fontSize": 16,
+              "lineHeight": 26,
+            },
+          ]
+        }
+      >
+        Points will reset on 
+      </Text>
+      <Text
+        font="SFProDisplay-Bold"
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontSize": 16,
+                "lineHeight": 26,
+              },
+              Object {
+                "color": "#262C2F",
+              },
+            ],
+          ]
+        }
+      >
+        August 30th
+        .
+      </Text>
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`CardBenefits should render with defaults 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "elevation": 3,
+        "shadowColor": "#262C2F",
+        "shadowOffset": Object {
+          "height": 4,
+          "width": 0,
+        },
+        "shadowOpacity": 0.1,
+      },
+      Object {
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "paddingBottom": 20,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 20,
+      },
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "paddingBottom": 0,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "flexDirection": "column",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          font="SFProDisplay-Heavy"
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Heavy",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#262C2F",
+                "fontSize": 24,
+              },
+            ]
+          }
+        >
+          Level 
+          0
+        </Text>
+        <Text
+          font="SFProDisplay-Bold"
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#02AEEF",
+                  "fontSize": 12,
+                  "marginBottom": 8,
+                  "textTransform": "uppercase",
+                },
+                Object {
+                  "color": "#909BA0",
+                },
+              ],
+            ]
+          }
+        >
+          Promote and unlock benefits
+        </Text>
+      </View>
+      <View
+        accessibilityLabel="pill-container"
+        accessible={true}
+        style={
+          Array [
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#DDE8F5",
+                "borderBottomLeftRadius": 20,
+                "borderBottomRightRadius": 20,
+                "borderTopLeftRadius": 20,
+                "borderTopRightRadius": 20,
+                "flexDirection": "row",
+                "paddingLeft": 4,
+                "paddingRight": 10,
+              },
+              Object {
+                "height": 28,
+              },
+            ],
+            Array [
+              undefined,
+            ],
+            undefined,
+          ]
+        }
+        testID="pill-container"
+      >
+        <View
+          accessibilityLabel="pill-icon"
+          accessible={true}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderBottomLeftRadius": 50,
+                "borderBottomRightRadius": 50,
+                "borderTopLeftRadius": 50,
+                "borderTopRightRadius": 50,
+                "justifyContent": "center",
+              },
+              undefined,
+            ]
+          }
+          testID="pill-icon"
+        >
+          <Text
+            accessibilityLabel="icon-text"
+            accessible={true}
+            allowFontScaling={false}
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": "#0066CC",
+                  "fontSize": 20,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "sywmax",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+            testID="icon-text"
+          >
+            
+          </Text>
+        </View>
+        <Text
+          accessibilityLabel="pill-text"
+          accessible={true}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "paddingLeft": 4,
+                },
+                Array [
+                  Object {
+                    "color": "#0066CC",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "lineHeight": 20,
+                  },
+                  undefined,
+                ],
+              ],
+            ]
+          }
+          testID="pill-text"
+        >
+          30,000 - 34,999
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "minHeight": 110,
+        "paddingBottom": 0,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 8,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "flex-start",
+            "justifyContent": "flex-start",
+            "width": "60%",
+          },
+          Object {
+            "color": "#909BA0",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            undefined,
+          ]
+        }
+      >
+        <Text
+          font="SFProDisplay-Bold"
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontSize": 16,
+                  "lineHeight": 26,
+                },
+                Object {
+                  "color": "#262C2F",
+                },
+              ],
+            ]
+          }
+        >
+          Every point you earn helps you increase your level.
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#909BA0",
+                "fontSize": 16,
+                "lineHeight": 26,
+              },
+            ]
+          }
+        >
+           Higher levels have greater benefits.
+        </Text>
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "width": "40%",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+            },
+            undefined,
+          ]
+        }
+      >
+        <RNSVGSvgView
+          bbHeight={98}
+          bbWidth={98}
+          focusable={false}
+          height={98}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderWidth": 0,
+              },
+              Object {
+                "backgroundColor": "#FFFFFF",
+                "borderBottomLeftRadius": 8,
+                "borderBottomRightRadius": 8,
+                "borderTopLeftRadius": 8,
+                "borderTopRightRadius": 8,
+                "transform": Array [
+                  Object {
+                    "rotateZ": "270deg",
+                  },
+                ],
+              },
+              Object {
+                "flex": 0,
+                "height": 98,
+                "width": 98,
+              },
+            ]
+          }
+          width={98}
+        >
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+              ]
+            }
+          >
+            <RNSVGCircle
+              cx={49}
+              cy={49}
+              fill={null}
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                ]
+              }
+              r={44}
+              stroke={4278216396}
+              strokeWidth={10}
+            />
+            <RNSVGCircle
+              cx={49}
+              cy={49}
+              fill={null}
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeDasharray",
+                  "strokeDashoffset",
+                ]
+              }
+              r={44}
+              stroke={4293651954}
+              strokeDasharray={
+                Array [
+                  "276.46015351590177",
+                  "276.46015351590177",
+                ]
+              }
+              strokeDashoffset={null}
+              strokeWidth={11}
+            />
+            <RNSVGText
+              content={null}
+              dx={Array []}
+              dy={Array []}
+              fill={4278216396}
+              font={
+                Object {
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": "18px",
+                  "letterSpacing": 3,
+                  "textAnchor": "middle",
+                }
+              }
+              matrix={
+                Array [
+                  6.123233995736766e-17,
+                  1,
+                  -1,
+                  6.123233995736766e-17,
+                  98,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                ]
+              }
+              rotate={Array []}
+              stroke={4278216396}
+              x={
+                Array [
+                  49,
+                ]
+              }
+              y={
+                Array [
+                  49,
+                ]
+              }
+            >
+              <RNSVGTSpan
+                content="0"
+                dx={Array []}
+                dy={Array []}
+                font={Object {}}
+                rotate={Array []}
+                x={Array []}
+                y={Array []}
+              />
+            </RNSVGText>
+            <RNSVGText
+              content={null}
+              dx={Array []}
+              dy={Array []}
+              fill={4287667104}
+              font={
+                Object {
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": "12px",
+                  "fontWeight": "bold",
+                  "textAnchor": "middle",
+                }
+              }
+              matrix={
+                Array [
+                  6.123233995736766e-17,
+                  1,
+                  -1,
+                  6.123233995736766e-17,
+                  98,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+              rotate={Array []}
+              x={
+                Array [
+                  49,
+                ]
+              }
+              y={
+                Array [
+                  64,
+                ]
+              }
+            >
+              <RNSVGTSpan
+                content="OF 34,999"
+                dx={Array []}
+                dy={Array []}
+                font={Object {}}
+                rotate={Array []}
+                x={Array []}
+                y={Array []}
+              />
+            </RNSVGText>
+            <RNSVGCircle
+              cx={93}
+              cy={49}
+              fill={4278216396}
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+              r={5}
+            />
+          </RNSVGGroup>
+        </RNSVGSvgView>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexDirection": "column",
+          "justifyContent": "space-between",
+          "paddingVertical": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "borderBottomColor": "#EBEDF2",
+            "borderBottomWidth": 1,
+          },
+          undefined,
+        ]
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "paddingBottom": 20,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        font="SFProDisplay-Bold"
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontSize": 16,
+                "lineHeight": 26,
+              },
+              Object {
+                "color": "#262C2F",
+              },
+            ],
+          ]
+        }
+      >
+        Time's up.
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Object {
+              "color": "#909BA0",
+              "fontSize": 16,
+              "lineHeight": 26,
+            },
+          ]
+        }
+      >
+         Stay tuned, we'll have news soon.
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`CardBenefits should render with full progress when points exceed maximumPointsThreshold 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "elevation": 3,
+        "shadowColor": "#262C2F",
+        "shadowOffset": Object {
+          "height": 4,
+          "width": 0,
+        },
+        "shadowOpacity": 0.1,
+      },
+      Object {
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "paddingBottom": 20,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 20,
+      },
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "paddingBottom": 0,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "flexDirection": "column",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          font="SFProDisplay-Heavy"
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Heavy",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#262C2F",
+                "fontSize": 24,
+              },
+            ]
+          }
+        >
+          Level 
+          6
+        </Text>
+        <Text
+          font="SFProDisplay-Bold"
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#02AEEF",
+                  "fontSize": 12,
+                  "marginBottom": 8,
+                  "textTransform": "uppercase",
+                },
+                Object {
+                  "color": "#0066CC",
+                },
+              ],
+            ]
+          }
+        >
+          Secured Level
+        </Text>
+      </View>
+      <View
+        accessibilityLabel="pill-container"
+        accessible={true}
+        style={
+          Array [
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#DDE8F5",
+                "borderBottomLeftRadius": 20,
+                "borderBottomRightRadius": 20,
+                "borderTopLeftRadius": 20,
+                "borderTopRightRadius": 20,
+                "flexDirection": "row",
+                "paddingLeft": 4,
+                "paddingRight": 10,
+              },
+              Object {
+                "height": 28,
+              },
+            ],
+            Array [
+              undefined,
+            ],
+            undefined,
+          ]
+        }
+        testID="pill-container"
+      >
+        <View
+          accessibilityLabel="pill-icon"
+          accessible={true}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderBottomLeftRadius": 50,
+                "borderBottomRightRadius": 50,
+                "borderTopLeftRadius": 50,
+                "borderTopRightRadius": 50,
+                "justifyContent": "center",
+              },
+              undefined,
+            ]
+          }
+          testID="pill-icon"
+        >
+          <Text
+            accessibilityLabel="icon-text"
+            accessible={true}
+            allowFontScaling={false}
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": "#0066CC",
+                  "fontSize": 20,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "sywmax",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+            testID="icon-text"
+          >
+            
+          </Text>
+        </View>
+        <Text
+          accessibilityLabel="pill-text"
+          accessible={true}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "paddingLeft": 4,
+                },
+                Array [
+                  Object {
+                    "color": "#0066CC",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "lineHeight": 20,
+                  },
+                  undefined,
+                ],
+              ],
+            ]
+          }
+          testID="pill-text"
+        >
+          + 30,000  
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "minHeight": 110,
+        "paddingBottom": 0,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 8,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "flex-start",
+            "justifyContent": "flex-start",
+            "width": "60%",
+          },
+          Object {
+            "color": "#0066CC",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            undefined,
+          ]
+        }
+      >
+        <Text
+          font="SFProDisplay-Bold"
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontSize": 16,
+                  "lineHeight": 26,
+                },
+                Object {
+                  "color": "#262C2F",
+                },
+              ],
+            ]
+          }
+        >
+          You earned enough points to secure your actual level.
+           
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#909BA0",
+                "fontSize": 16,
+                "lineHeight": 26,
+              },
+            ]
+          }
+        >
+          Keep earning points to promote to level 
+          7
+          .
+        </Text>
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "width": "40%",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+            },
+            undefined,
+          ]
+        }
+      >
+        <RNSVGSvgView
+          bbHeight={98}
+          bbWidth={98}
+          focusable={false}
+          height={98}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderWidth": 0,
+              },
+              Object {
+                "backgroundColor": "#FFFFFF",
+                "borderBottomLeftRadius": 8,
+                "borderBottomRightRadius": 8,
+                "borderTopLeftRadius": 8,
+                "borderTopRightRadius": 8,
+                "transform": Array [
+                  Object {
+                    "rotateZ": "270deg",
+                  },
+                ],
+              },
+              Object {
+                "flex": 0,
+                "height": 98,
+                "width": 98,
+              },
+            ]
+          }
+          width={98}
+        >
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+              ]
+            }
+          >
+            <RNSVGCircle
+              cx={49}
+              cy={49}
+              fill={null}
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                ]
+              }
+              r={44}
+              stroke={4278216396}
+              strokeWidth={10}
+            />
+            <RNSVGCircle
+              cx={49}
+              cy={49}
+              fill={null}
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeDasharray",
+                  "strokeDashoffset",
+                ]
+              }
+              r={44}
+              stroke={4293651954}
+              strokeDasharray={
+                Array [
+                  "276.46015351590177",
+                  "276.46015351590177",
+                ]
+              }
+              strokeDashoffset={-276.46015351590177}
+              strokeWidth={11}
+            />
+            <RNSVGText
+              content={null}
+              dx={Array []}
+              dy={Array []}
+              fill={4278216396}
+              font={
+                Object {
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": "18px",
+                  "letterSpacing": 3,
+                  "textAnchor": "middle",
+                }
+              }
+              matrix={
+                Array [
+                  6.123233995736766e-17,
+                  1,
+                  -1,
+                  6.123233995736766e-17,
+                  98,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                ]
+              }
+              rotate={Array []}
+              stroke={4278216396}
+              x={
+                Array [
+                  49,
+                ]
+              }
+              y={
+                Array [
+                  49,
+                ]
+              }
+            >
+              <RNSVGTSpan
+                content="30,000"
+                dx={Array []}
+                dy={Array []}
+                font={Object {}}
+                rotate={Array []}
+                x={Array []}
+                y={Array []}
+              />
+            </RNSVGText>
+            <RNSVGText
+              content={null}
+              dx={Array []}
+              dy={Array []}
+              fill={4287667104}
+              font={
+                Object {
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": "12px",
+                  "fontWeight": "bold",
+                  "textAnchor": "middle",
+                }
+              }
+              matrix={
+                Array [
+                  6.123233995736766e-17,
+                  1,
+                  -1,
+                  6.123233995736766e-17,
+                  98,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+              rotate={Array []}
+              x={
+                Array [
+                  49,
+                ]
+              }
+              y={
+                Array [
+                  64,
+                ]
+              }
+            >
+              <RNSVGTSpan
+                content="OF 30,000"
+                dx={Array []}
+                dy={Array []}
+                font={Object {}}
+                rotate={Array []}
+                x={Array []}
+                y={Array []}
+              />
+            </RNSVGText>
+          </RNSVGGroup>
+        </RNSVGSvgView>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexDirection": "column",
+          "justifyContent": "space-between",
+          "paddingVertical": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "borderBottomColor": "#EBEDF2",
+            "borderBottomWidth": 1,
+          },
+          undefined,
+        ]
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "paddingBottom": 20,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 0,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Object {
+              "color": "#909BA0",
+              "fontSize": 16,
+              "lineHeight": 26,
+            },
+          ]
+        }
+      >
+        You have 
+        51 years
+         until 
+      </Text>
+      <Text
+        font="SFProDisplay-Bold"
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontSize": 16,
+                "lineHeight": 26,
+              },
+              Object {
+                "color": "#262C2F",
+              },
+            ],
+          ]
+        }
+      >
+        August 30th
+        !
+      </Text>
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`CardBenefits should render with non zero userPoints 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "elevation": 3,
+        "shadowColor": "#262C2F",
+        "shadowOffset": Object {
+          "height": 4,
+          "width": 0,
+        },
+        "shadowOpacity": 0.1,
+      },
+      Object {
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "paddingBottom": 20,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 20,
+      },
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "paddingBottom": 0,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "flexDirection": "column",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          font="SFProDisplay-Heavy"
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Heavy",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#262C2F",
+                "fontSize": 24,
+              },
+            ]
+          }
+        >
+          Level 
+          0
+        </Text>
+        <Text
+          font="SFProDisplay-Bold"
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#02AEEF",
+                  "fontSize": 12,
+                  "marginBottom": 8,
+                  "textTransform": "uppercase",
+                },
+                Object {
+                  "color": "#909BA0",
+                },
+              ],
+            ]
+          }
+        >
+          Promote and unlock benefits
+        </Text>
+      </View>
+      <View
+        accessibilityLabel="pill-container"
+        accessible={true}
+        style={
+          Array [
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#DDE8F5",
+                "borderBottomLeftRadius": 20,
+                "borderBottomRightRadius": 20,
+                "borderTopLeftRadius": 20,
+                "borderTopRightRadius": 20,
+                "flexDirection": "row",
+                "paddingLeft": 4,
+                "paddingRight": 10,
+              },
+              Object {
+                "height": 28,
+              },
+            ],
+            Array [
+              undefined,
+            ],
+            undefined,
+          ]
+        }
+        testID="pill-container"
+      >
+        <View
+          accessibilityLabel="pill-icon"
+          accessible={true}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderBottomLeftRadius": 50,
+                "borderBottomRightRadius": 50,
+                "borderTopLeftRadius": 50,
+                "borderTopRightRadius": 50,
+                "justifyContent": "center",
+              },
+              undefined,
+            ]
+          }
+          testID="pill-icon"
+        >
+          <Text
+            accessibilityLabel="icon-text"
+            accessible={true}
+            allowFontScaling={false}
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": "#0066CC",
+                  "fontSize": 20,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "sywmax",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+            testID="icon-text"
+          >
+            
+          </Text>
+        </View>
+        <Text
+          accessibilityLabel="pill-text"
+          accessible={true}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "paddingLeft": 4,
+                },
+                Array [
+                  Object {
+                    "color": "#0066CC",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "lineHeight": 20,
+                  },
+                  undefined,
+                ],
+              ],
+            ]
+          }
+          testID="pill-text"
+        >
+          30,000 - 34,999
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "minHeight": 110,
+        "paddingBottom": 0,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 8,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "flex-start",
+            "justifyContent": "flex-start",
+            "width": "60%",
+          },
+          Object {
+            "color": "#909BA0",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            undefined,
+          ]
+        }
+      >
+        <Text
+          font="SFProDisplay-Bold"
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontSize": 16,
+                  "lineHeight": 26,
+                },
+                Object {
+                  "color": "#262C2F",
+                },
+              ],
+            ]
+          }
+        >
+          Every point you earn helps you increase your level.
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#909BA0",
+                "fontSize": 16,
+                "lineHeight": 26,
+              },
+            ]
+          }
+        >
+           Higher levels have greater benefits.
+        </Text>
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "width": "40%",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+            },
+            undefined,
+          ]
+        }
+      >
+        <RNSVGSvgView
+          bbHeight={98}
+          bbWidth={98}
+          focusable={false}
+          height={98}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderWidth": 0,
+              },
+              Object {
+                "backgroundColor": "#FFFFFF",
+                "borderBottomLeftRadius": 8,
+                "borderBottomRightRadius": 8,
+                "borderTopLeftRadius": 8,
+                "borderTopRightRadius": 8,
+                "transform": Array [
+                  Object {
+                    "rotateZ": "270deg",
+                  },
+                ],
+              },
+              Object {
+                "flex": 0,
+                "height": 98,
+                "width": 98,
+              },
+            ]
+          }
+          width={98}
+        >
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+              ]
+            }
+          >
+            <RNSVGCircle
+              cx={49}
+              cy={49}
+              fill={null}
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                ]
+              }
+              r={44}
+              stroke={4278216396}
+              strokeWidth={10}
+            />
+            <RNSVGCircle
+              cx={49}
+              cy={49}
+              fill={null}
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeDasharray",
+                  "strokeDashoffset",
+                ]
+              }
+              r={44}
+              stroke={4293651954}
+              strokeDasharray={
+                Array [
+                  "276.46015351590177",
+                  "276.46015351590177",
+                ]
+              }
+              strokeDashoffset={-38.704421492226246}
+              strokeWidth={11}
+            />
+            <RNSVGText
+              content={null}
+              dx={Array []}
+              dy={Array []}
+              fill={4278216396}
+              font={
+                Object {
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": "18px",
+                  "letterSpacing": 3,
+                  "textAnchor": "middle",
+                }
+              }
+              matrix={
+                Array [
+                  6.123233995736766e-17,
+                  1,
+                  -1,
+                  6.123233995736766e-17,
+                  98,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                ]
+              }
+              rotate={Array []}
+              stroke={4278216396}
+              x={
+                Array [
+                  49,
+                ]
+              }
+              y={
+                Array [
+                  49,
+                ]
+              }
+            >
+              <RNSVGTSpan
+                content="5,000"
+                dx={Array []}
+                dy={Array []}
+                font={Object {}}
+                rotate={Array []}
+                x={Array []}
+                y={Array []}
+              />
+            </RNSVGText>
+            <RNSVGText
+              content={null}
+              dx={Array []}
+              dy={Array []}
+              fill={4287667104}
+              font={
+                Object {
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": "12px",
+                  "fontWeight": "bold",
+                  "textAnchor": "middle",
+                }
+              }
+              matrix={
+                Array [
+                  6.123233995736766e-17,
+                  1,
+                  -1,
+                  6.123233995736766e-17,
+                  98,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+              rotate={Array []}
+              x={
+                Array [
+                  49,
+                ]
+              }
+              y={
+                Array [
+                  64,
+                ]
+              }
+            >
+              <RNSVGTSpan
+                content="OF 34,999"
+                dx={Array []}
+                dy={Array []}
+                font={Object {}}
+                rotate={Array []}
+                x={Array []}
+                y={Array []}
+              />
+            </RNSVGText>
+          </RNSVGGroup>
+        </RNSVGSvgView>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexDirection": "column",
+          "justifyContent": "space-between",
+          "paddingVertical": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "borderBottomColor": "#EBEDF2",
+            "borderBottomWidth": 1,
+          },
+          undefined,
+        ]
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "paddingBottom": 20,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        font="SFProDisplay-Bold"
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontSize": 16,
+                "lineHeight": 26,
+              },
+              Object {
+                "color": "#262C2F",
+              },
+            ],
+          ]
+        }
+      >
+        Time's up.
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Object {
+              "color": "#909BA0",
+              "fontSize": 16,
+              "lineHeight": 26,
+            },
+          ]
+        }
+      >
+         Stay tuned, we'll have news soon.
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`CardBenefits should render with null maximumPointsThreshold 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "elevation": 3,
+        "shadowColor": "#262C2F",
+        "shadowOffset": Object {
+          "height": 4,
+          "width": 0,
+        },
+        "shadowOpacity": 0.1,
+      },
+      Object {
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "paddingBottom": 20,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 20,
+      },
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "paddingBottom": 0,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "flexDirection": "column",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          font="SFProDisplay-Heavy"
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Heavy",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#262C2F",
+                "fontSize": 24,
+              },
+            ]
+          }
+        >
+          Level 
+          0
+        </Text>
+        <Text
+          font="SFProDisplay-Bold"
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#02AEEF",
+                  "fontSize": 12,
+                  "marginBottom": 8,
+                  "textTransform": "uppercase",
+                },
+                Object {
+                  "color": "#909BA0",
+                },
+              ],
+            ]
+          }
+        >
+          Promote and unlock benefits
+        </Text>
+      </View>
+      <View
+        accessibilityLabel="pill-container"
+        accessible={true}
+        style={
+          Array [
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#DDE8F5",
+                "borderBottomLeftRadius": 20,
+                "borderBottomRightRadius": 20,
+                "borderTopLeftRadius": 20,
+                "borderTopRightRadius": 20,
+                "flexDirection": "row",
+                "paddingLeft": 4,
+                "paddingRight": 10,
+              },
+              Object {
+                "height": 28,
+              },
+            ],
+            Array [
+              undefined,
+            ],
+            undefined,
+          ]
+        }
+        testID="pill-container"
+      >
+        <View
+          accessibilityLabel="pill-icon"
+          accessible={true}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderBottomLeftRadius": 50,
+                "borderBottomRightRadius": 50,
+                "borderTopLeftRadius": 50,
+                "borderTopRightRadius": 50,
+                "justifyContent": "center",
+              },
+              undefined,
+            ]
+          }
+          testID="pill-icon"
+        >
+          <Text
+            accessibilityLabel="icon-text"
+            accessible={true}
+            allowFontScaling={false}
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": "#0066CC",
+                  "fontSize": 20,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "sywmax",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+            testID="icon-text"
+          >
+            
+          </Text>
+        </View>
+        <Text
+          accessibilityLabel="pill-text"
+          accessible={true}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "paddingLeft": 4,
+                },
+                Array [
+                  Object {
+                    "color": "#0066CC",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "lineHeight": 20,
+                  },
+                  undefined,
+                ],
+              ],
+            ]
+          }
+          testID="pill-text"
+        >
+          + 30,000  
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "minHeight": 110,
+        "paddingBottom": 0,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 8,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "flex-start",
+            "justifyContent": "flex-start",
+            "width": "60%",
+          },
+          Object {
+            "color": "#909BA0",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            undefined,
+          ]
+        }
+      >
+        <Text
+          font="SFProDisplay-Bold"
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontSize": 16,
+                  "lineHeight": 26,
+                },
+                Object {
+                  "color": "#262C2F",
+                },
+              ],
+            ]
+          }
+        >
+          Every point you earn helps you increase your level.
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#909BA0",
+                "fontSize": 16,
+                "lineHeight": 26,
+              },
+            ]
+          }
+        >
+           Higher levels have greater benefits.
+        </Text>
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "width": "40%",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+            },
+            undefined,
+          ]
+        }
+      >
+        <RNSVGSvgView
+          bbHeight={98}
+          bbWidth={98}
+          focusable={false}
+          height={98}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderWidth": 0,
+              },
+              Object {
+                "backgroundColor": "#FFFFFF",
+                "borderBottomLeftRadius": 8,
+                "borderBottomRightRadius": 8,
+                "borderTopLeftRadius": 8,
+                "borderTopRightRadius": 8,
+                "transform": Array [
+                  Object {
+                    "rotateZ": "270deg",
+                  },
+                ],
+              },
+              Object {
+                "flex": 0,
+                "height": 98,
+                "width": 98,
+              },
+            ]
+          }
+          width={98}
+        >
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+              ]
+            }
+          >
+            <RNSVGCircle
+              cx={49}
+              cy={49}
+              fill={null}
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                ]
+              }
+              r={44}
+              stroke={4278216396}
+              strokeWidth={10}
+            />
+            <RNSVGCircle
+              cx={49}
+              cy={49}
+              fill={null}
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeDasharray",
+                  "strokeDashoffset",
+                ]
+              }
+              r={44}
+              stroke={4293651954}
+              strokeDasharray={
+                Array [
+                  "276.46015351590177",
+                  "276.46015351590177",
+                ]
+              }
+              strokeDashoffset={null}
+              strokeWidth={11}
+            />
+            <RNSVGText
+              content={null}
+              dx={Array []}
+              dy={Array []}
+              fill={4278216396}
+              font={
+                Object {
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": "18px",
+                  "letterSpacing": 3,
+                  "textAnchor": "middle",
+                }
+              }
+              matrix={
+                Array [
+                  6.123233995736766e-17,
+                  1,
+                  -1,
+                  6.123233995736766e-17,
+                  98,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                ]
+              }
+              rotate={Array []}
+              stroke={4278216396}
+              x={
+                Array [
+                  49,
+                ]
+              }
+              y={
+                Array [
+                  49,
+                ]
+              }
+            >
+              <RNSVGTSpan
+                content="0"
+                dx={Array []}
+                dy={Array []}
+                font={Object {}}
+                rotate={Array []}
+                x={Array []}
+                y={Array []}
+              />
+            </RNSVGText>
+            <RNSVGText
+              content={null}
+              dx={Array []}
+              dy={Array []}
+              fill={4287667104}
+              font={
+                Object {
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": "12px",
+                  "fontWeight": "bold",
+                  "textAnchor": "middle",
+                }
+              }
+              matrix={
+                Array [
+                  6.123233995736766e-17,
+                  1,
+                  -1,
+                  6.123233995736766e-17,
+                  98,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+              rotate={Array []}
+              x={
+                Array [
+                  49,
+                ]
+              }
+              y={
+                Array [
+                  64,
+                ]
+              }
+            >
+              <RNSVGTSpan
+                content="OF 30,000"
+                dx={Array []}
+                dy={Array []}
+                font={Object {}}
+                rotate={Array []}
+                x={Array []}
+                y={Array []}
+              />
+            </RNSVGText>
+            <RNSVGCircle
+              cx={93}
+              cy={49}
+              fill={4278216396}
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+              r={5}
+            />
+          </RNSVGGroup>
+        </RNSVGSvgView>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexDirection": "column",
+          "justifyContent": "space-between",
+          "paddingVertical": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "borderBottomColor": "#EBEDF2",
+            "borderBottomWidth": 1,
+          },
+          undefined,
+        ]
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "paddingBottom": 20,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        font="SFProDisplay-Bold"
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontSize": 16,
+                "lineHeight": 26,
+              },
+              Object {
+                "color": "#262C2F",
+              },
+            ],
+          ]
+        }
+      >
+        Time's up.
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Object {
+              "color": "#909BA0",
+              "fontSize": 16,
+              "lineHeight": 26,
+            },
+          ]
+        }
+      >
+         Stay tuned, we'll have news soon.
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`CardBenefits should render with outdated data 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "elevation": 3,
+        "shadowColor": "#262C2F",
+        "shadowOffset": Object {
+          "height": 4,
+          "width": 0,
+        },
+        "shadowOpacity": 0.1,
+      },
+      Object {
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "paddingBottom": 20,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 20,
+      },
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "paddingBottom": 0,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "flexDirection": "column",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          font="SFProDisplay-Heavy"
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Heavy",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#262C2F",
+                "fontSize": 24,
+              },
+            ]
+          }
+        >
+          Level 
+          6
+        </Text>
+        <Text
+          font="SFProDisplay-Bold"
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#02AEEF",
+                  "fontSize": 12,
+                  "marginBottom": 8,
+                  "textTransform": "uppercase",
+                },
+                Object {
+                  "color": "#0066CC",
+                },
+              ],
+            ]
+          }
+        >
+          Secured Level
+        </Text>
+      </View>
+      <View
+        accessibilityLabel="pill-container"
+        accessible={true}
+        style={
+          Array [
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#DDE8F5",
+                "borderBottomLeftRadius": 20,
+                "borderBottomRightRadius": 20,
+                "borderTopLeftRadius": 20,
+                "borderTopRightRadius": 20,
+                "flexDirection": "row",
+                "paddingLeft": 4,
+                "paddingRight": 10,
+              },
+              Object {
+                "height": 28,
+              },
+            ],
+            Array [
+              undefined,
+            ],
+            undefined,
+          ]
+        }
+        testID="pill-container"
+      >
+        <View
+          accessibilityLabel="pill-icon"
+          accessible={true}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderBottomLeftRadius": 50,
+                "borderBottomRightRadius": 50,
+                "borderTopLeftRadius": 50,
+                "borderTopRightRadius": 50,
+                "justifyContent": "center",
+              },
+              undefined,
+            ]
+          }
+          testID="pill-icon"
+        >
+          <Text
+            accessibilityLabel="icon-text"
+            accessible={true}
+            allowFontScaling={false}
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": "#0066CC",
+                  "fontSize": 20,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "sywmax",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+            testID="icon-text"
+          >
+            
+          </Text>
+        </View>
+        <Text
+          accessibilityLabel="pill-text"
+          accessible={true}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "paddingLeft": 4,
+                },
+                Array [
+                  Object {
+                    "color": "#0066CC",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "lineHeight": 20,
+                  },
+                  undefined,
+                ],
+              ],
+            ]
+          }
+          testID="pill-text"
+        >
+          30,000 - 34,999
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "minHeight": 110,
+        "paddingBottom": 0,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 8,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "flex-start",
+            "justifyContent": "flex-start",
+            "width": "60%",
+          },
+          Object {
+            "color": "#0066CC",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            undefined,
+          ]
+        }
+      >
+        <Text
+          font="SFProDisplay-Bold"
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontSize": 16,
+                  "lineHeight": 26,
+                },
+                Object {
+                  "color": "#262C2F",
+                },
+              ],
+            ]
+          }
+        >
+          You earned enough points to secure your actual level.
+           
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#909BA0",
+                "fontSize": 16,
+                "lineHeight": 26,
+              },
+            ]
+          }
+        >
+          Keep earning points to promote to level 
+          7
+          .
+        </Text>
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "width": "40%",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+            },
+            undefined,
+          ]
+        }
+      >
+        <RNSVGSvgView
+          bbHeight={98}
+          bbWidth={98}
+          focusable={false}
+          height={98}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderWidth": 0,
+              },
+              Object {
+                "backgroundColor": "#FFFFFF",
+                "borderBottomLeftRadius": 8,
+                "borderBottomRightRadius": 8,
+                "borderTopLeftRadius": 8,
+                "borderTopRightRadius": 8,
+                "transform": Array [
+                  Object {
+                    "rotateZ": "270deg",
+                  },
+                ],
+              },
+              Object {
+                "flex": 0,
+                "height": 98,
+                "width": 98,
+              },
+            ]
+          }
+          width={98}
+        >
+          <RNSVGGroup
+            matrix={
+              Array [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+              ]
+            }
+          >
+            <RNSVGCircle
+              cx={49}
+              cy={49}
+              fill={null}
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                ]
+              }
+              r={44}
+              stroke={4278216396}
+              strokeWidth={10}
+            />
+            <RNSVGCircle
+              cx={49}
+              cy={49}
+              fill={null}
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeDasharray",
+                  "strokeDashoffset",
+                ]
+              }
+              r={44}
+              stroke={4293651954}
+              strokeDasharray={
+                Array [
+                  "276.46015351590177",
+                  "276.46015351590177",
+                ]
+              }
+              strokeDashoffset={null}
+              strokeWidth={11}
+            />
+            <RNSVGText
+              content={null}
+              dx={Array []}
+              dy={Array []}
+              fill={4278216396}
+              font={
+                Object {
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": "18px",
+                  "letterSpacing": 3,
+                  "textAnchor": "middle",
+                }
+              }
+              matrix={
+                Array [
+                  6.123233995736766e-17,
+                  1,
+                  -1,
+                  6.123233995736766e-17,
+                  98,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                ]
+              }
+              rotate={Array []}
+              stroke={4278216396}
+              x={
+                Array [
+                  49,
+                ]
+              }
+              y={
+                Array [
+                  49,
+                ]
+              }
+            >
+              <RNSVGTSpan
+                content="0"
+                dx={Array []}
+                dy={Array []}
+                font={Object {}}
+                rotate={Array []}
+                x={Array []}
+                y={Array []}
+              />
+            </RNSVGText>
+            <RNSVGText
+              content={null}
+              dx={Array []}
+              dy={Array []}
+              fill={4287667104}
+              font={
+                Object {
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": "12px",
+                  "fontWeight": "bold",
+                  "textAnchor": "middle",
+                }
+              }
+              matrix={
+                Array [
+                  6.123233995736766e-17,
+                  1,
+                  -1,
+                  6.123233995736766e-17,
+                  98,
+                  0,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+              rotate={Array []}
+              x={
+                Array [
+                  49,
+                ]
+              }
+              y={
+                Array [
+                  64,
+                ]
+              }
+            >
+              <RNSVGTSpan
+                content="OF 34,999"
+                dx={Array []}
+                dy={Array []}
+                font={Object {}}
+                rotate={Array []}
+                x={Array []}
+                y={Array []}
+              />
+            </RNSVGText>
+            <RNSVGCircle
+              cx={93}
+              cy={49}
+              fill={4278216396}
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+              r={5}
+            />
+          </RNSVGGroup>
+        </RNSVGSvgView>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexDirection": "column",
+          "justifyContent": "space-between",
+          "paddingVertical": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "borderBottomColor": "#EBEDF2",
+            "borderBottomWidth": 1,
+          },
+          undefined,
+        ]
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "paddingBottom": 20,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        font="SFProDisplay-Bold"
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontSize": 16,
+                "lineHeight": 26,
+              },
+              Object {
+                "color": "#262C2F",
+              },
+            ],
+          ]
+        }
+      >
+        Time's up.
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Object {
+              "color": "#909BA0",
+              "fontSize": 16,
+              "lineHeight": 26,
+            },
+          ]
+        }
+      >
+         Stay tuned, we'll have news soon.
+      </Text>
+    </View>
+  </View>
+</View>
+`;

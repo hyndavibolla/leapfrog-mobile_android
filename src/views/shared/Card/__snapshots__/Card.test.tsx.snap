@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card should render 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "elevation": 3,
+        "shadowColor": "#262C2F",
+        "shadowOffset": Object {
+          "height": 4,
+          "width": 0,
+        },
+        "shadowOpacity": 0.1,
+      },
+      Object {
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "paddingBottom": 20,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 20,
+      },
+      Object {},
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#909BA0",
+          "fontFamily": "SFProDisplay-Medium",
+          "fontSize": 16,
+          "lineHeight": 22,
+        },
+        undefined,
+      ]
+    }
+  >
+    Test text
+  </Text>
+</View>
+`;
+
+exports[`Card should with custom styles 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "elevation": 3,
+        "shadowColor": "#262C2F",
+        "shadowOffset": Object {
+          "height": 4,
+          "width": 0,
+        },
+        "shadowOpacity": 0.1,
+      },
+      Object {
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "paddingBottom": 20,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 20,
+      },
+      Object {
+        "backgroundColor": "red",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#909BA0",
+          "fontFamily": "SFProDisplay-Medium",
+          "fontSize": 16,
+          "lineHeight": 22,
+        },
+        undefined,
+      ]
+    }
+  >
+    Test text
+  </Text>
+</View>
+`;

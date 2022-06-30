@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search should render 1`] = `
+<div
+  style={
+    Array [
+      Object {
+        "flexDirection": "row",
+        "paddingBottom": 0,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 0,
+        "position": "absolute",
+        "top": 50,
+      },
+      undefined,
+    ]
+  }
+>
+  <div
+    style={
+      Object {
+        "width": "15%",
+      }
+    }
+  >
+    <View
+      accessibilityLabel="back-button-default"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderBottomLeftRadius": 20,
+          "borderBottomRightRadius": 20,
+          "borderTopLeftRadius": 20,
+          "borderTopRightRadius": 20,
+          "elevation": 4,
+          "height": 40,
+          "justifyContent": "center",
+          "opacity": 1,
+          "shadowColor": "#262C2F",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.23,
+          "shadowRadius": 2.62,
+          "width": 40,
+        }
+      }
+      testID="back-button-default"
+    >
+      <Text
+        accessibilityLabel="icon-text"
+        accessible={true}
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          Array [
+            Object {
+              "color": "#262C2F",
+              "fontSize": 20,
+            },
+            undefined,
+            Object {
+              "fontFamily": "sywmax",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+        testID="icon-text"
+      >
+        
+      </Text>
+    </View>
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#FFFFFF",
+        "borderBottomLeftRadius": 20,
+        "borderBottomRightRadius": 20,
+        "borderTopLeftRadius": 20,
+        "borderTopRightRadius": 20,
+        "elevation": 3,
+        "flexDirection": "row",
+        "height": 40,
+        "paddingBottom": 0,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 0,
+        "shadowColor": "#262C2F",
+        "shadowOffset": Object {
+          "height": 4,
+          "width": 0,
+        },
+        "shadowOpacity": 0.2,
+        "width": "85%",
+      }
+    }
+  >
+    <View
+      accessibilityLabel="floating-nav-bar-search"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="floating-nav-bar-search"
+    >
+      <Text
+        accessibilityLabel="icon-text"
+        accessible={true}
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          Array [
+            Object {
+              "color": "#262C2F",
+              "fontSize": 20,
+            },
+            Object {
+              "color": "#262C2F",
+              "marginRight": 16,
+            },
+            Object {
+              "fontFamily": "sywmax",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+        testID="icon-text"
+      >
+        
+      </Text>
+    </View>
+    <TextInput
+      accessibilityLabel="floating-nav-bar-input"
+      accessible={true}
+      autoCapitalize="none"
+      autoCompleteType="off"
+      autoCorrect={false}
+      onChangeText={[MockFunction]}
+      onSubmitEditing={[MockFunction]}
+      placeholder="Search by city or zip code"
+      placeholderTextColor="#909BA0"
+      style={
+        Object {
+          "color": "#262C2F",
+          "fontFamily": "SFProDisplay-Medium",
+          "fontSize": 14,
+          "lineHeight": 18,
+          "width": "75%",
+        }
+      }
+      testID="floating-nav-bar-input"
+      value=""
+    />
+  </div>
+</div>
+`;

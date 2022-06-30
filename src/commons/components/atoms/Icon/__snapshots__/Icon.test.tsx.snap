@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon should render Arrow Right Icon with Custom Props 1`] = `
+<Text
+  accessibilityLabel="icon-text"
+  accessible={true}
+  allowFontScaling={false}
+  selectable={false}
+  style={
+    Array [
+      Object {
+        "color": "#B361DF",
+        "fontSize": 10,
+      },
+      undefined,
+      Object {
+        "fontFamily": "sywmax",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+      Object {},
+    ]
+  }
+  testID="icon-text"
+>
+  
+</Text>
+`;
+
+exports[`Icon should render Default Arrow Right Icon 1`] = `
+<Text
+  accessibilityLabel="icon-text"
+  accessible={true}
+  allowFontScaling={false}
+  selectable={false}
+  style={
+    Array [
+      Object {
+        "color": "#0066CC",
+        "fontSize": 20,
+      },
+      undefined,
+      Object {
+        "fontFamily": "sywmax",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+      Object {},
+    ]
+  }
+  testID="icon-text"
+>
+  
+</Text>
+`;

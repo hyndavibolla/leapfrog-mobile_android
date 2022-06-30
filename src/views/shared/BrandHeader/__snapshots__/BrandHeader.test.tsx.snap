@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BrandHeader should render 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-start",
+      "flexDirection": "column",
+      "height": 214,
+      "justifyContent": "flex-start",
+    }
+  }
+>
+  <View
+    accessibilityLabel="image-background-container"
+    accessible={true}
+    style={
+      Object {
+        "backgroundColor": "#E2E3E3",
+        "height": 184,
+        "resizeMode": "contain",
+        "width": "100%",
+      }
+    }
+    testID="image-background-container"
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "overflow": "hidden",
+          },
+          Array [
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            },
+            Object {
+              "height": 184,
+              "width": "100%",
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
+      <FastImageView
+        accessibilityLabel="image-background-image"
+        accessible={true}
+        onFastImageError={[Function]}
+        onFastImageLoadEnd={[Function]}
+        onFastImageLoadStart={[Function]}
+        resizeMode="cover"
+        source={
+          Object {
+            "uri": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTVkMt3KFinkf_ehnCq5yk2DLZBls6GYFZLeA&usqp=CAU",
+          }
+        }
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        testID="image-background-image"
+      />
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalList should render all items one at a time 1`] = `
+<Modal
+  accessibilityLabel="modal-container"
+  accessible={true}
+  animationType="slide"
+  hardwareAccelerated={false}
+  onRequestClose={[Function]}
+  statusBarTranslucent={true}
+  testID="modal-container"
+  transparent={true}
+  visible={true}
+>
+  <View
+    onLayout={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "bottom": 0,
+          "position": "absolute",
+          "zIndex": 9999,
+        },
+        Object {
+          "borderTopLeftRadius": 14,
+          "borderTopRightRadius": 14,
+          "bottom": 0,
+          "left": 0,
+          "paddingBottom": 60,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 60,
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+  >
+    some text
+  </View>
+  <div
+    animation="fadeIn"
+    delay={400}
+    duration={400}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "rgba(38, 44, 47, 0.45)",
+          "height": "100%",
+          "left": 0,
+          "top": 0,
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+    useNativeDriver={true}
+  >
+    <View
+      accessibilityLabel="modal-backdrop"
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="modal-backdrop"
+    >
+      <View
+        style={
+          Object {
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+    </View>
+  </div>
+</Modal>
+`;
+
+exports[`ModalList should render all items one at a time 2`] = `
+<Modal
+  accessibilityLabel="modal-container"
+  accessible={true}
+  animationType="slide"
+  hardwareAccelerated={false}
+  onRequestClose={[Function]}
+  statusBarTranslucent={true}
+  testID="modal-container"
+  transparent={true}
+  visible={true}
+>
+  <View
+    onLayout={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "bottom": 0,
+          "position": "absolute",
+          "zIndex": 9999,
+        },
+        Object {
+          "borderTopLeftRadius": 14,
+          "borderTopRightRadius": 14,
+          "bottom": 0,
+          "left": 0,
+          "paddingBottom": 60,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 60,
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+  >
+    some other text
+  </View>
+  <div
+    animation="fadeIn"
+    delay={400}
+    duration={400}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "rgba(38, 44, 47, 0.45)",
+          "height": "100%",
+          "left": 0,
+          "top": 0,
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+    useNativeDriver={true}
+  >
+    <View
+      accessibilityLabel="modal-backdrop"
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="modal-backdrop"
+    >
+      <View
+        style={
+          Object {
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+    </View>
+  </div>
+</Modal>
+`;
+
+exports[`ModalList should render all items one at a time 3`] = `null`;

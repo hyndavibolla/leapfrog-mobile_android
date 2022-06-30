@@ -1,0 +1,1360 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavigationHeader should render with a bottom shadow 1`] = `
+<RNCSafeAreaView
+  edges={
+    Array [
+      "left",
+      "right",
+    ]
+  }
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#FFFFFF",
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 104,
+          "justifyContent": "space-between",
+          "paddingHorizontal": 20,
+          "paddingTop": 44,
+        },
+        Object {
+          "backgroundColor": "#FFFFFF",
+        },
+        undefined,
+        Object {
+          "elevation": 3,
+          "shadowColor": "#262C2F",
+          "shadowOffset": Object {
+            "height": 4,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      accessibilityLabel="navigation-header-back-arrow-button"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="navigation-header-back-arrow-button"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#0066CC",
+              "borderBottomLeftRadius": 30,
+              "borderBottomRightRadius": 30,
+              "borderTopLeftRadius": 30,
+              "borderTopRightRadius": 30,
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "paddingBottom": 8,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 8,
+            },
+            Object {
+              "paddingBottom": 0,
+              "paddingLeft": 0,
+              "paddingRight": 0,
+              "paddingTop": 0,
+            },
+            Object {
+              "backgroundColor": "#FFFFFF",
+            },
+          ]
+        }
+      >
+        <View
+          style={false}
+        >
+          <Text
+            accessibilityLabel="icon-text"
+            accessible={true}
+            allowFontScaling={false}
+            height={15}
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": "#262C2F",
+                  "fontSize": 20,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "sywmax",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+            testID="icon-text"
+            width={15}
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "paddingHorizontal": 16,
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessibilityLabel="navigation-header-title"
+        accessible={true}
+        font="SFProDisplay-Bold"
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Object {
+              "color": "#262C2F",
+              "fontSize": 14,
+              "lineHeight": 16,
+              "textAlign": "center",
+              "textTransform": "uppercase",
+            },
+          ]
+        }
+        testID="navigation-header-title"
+      >
+        TEST NAME
+      </Text>
+    </View>
+    <View />
+  </View>
+</RNCSafeAreaView>
+`;
+
+exports[`NavigationHeader should render with a colored background 1`] = `
+<RNCSafeAreaView
+  edges={
+    Array [
+      "left",
+      "right",
+    ]
+  }
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#FFFFFF",
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 104,
+          "justifyContent": "space-between",
+          "paddingHorizontal": 20,
+          "paddingTop": 44,
+        },
+        Object {
+          "backgroundColor": "#FFFFFF",
+        },
+        undefined,
+        undefined,
+        undefined,
+      ]
+    }
+  >
+    <View
+      accessibilityLabel="navigation-header-back-arrow-button"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="navigation-header-back-arrow-button"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#0066CC",
+              "borderBottomLeftRadius": 30,
+              "borderBottomRightRadius": 30,
+              "borderTopLeftRadius": 30,
+              "borderTopRightRadius": 30,
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "paddingBottom": 8,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 8,
+            },
+            Object {
+              "paddingBottom": 0,
+              "paddingLeft": 0,
+              "paddingRight": 0,
+              "paddingTop": 0,
+            },
+            Object {
+              "backgroundColor": "#FFFFFF",
+            },
+          ]
+        }
+      >
+        <View
+          style={false}
+        >
+          <Text
+            accessibilityLabel="icon-text"
+            accessible={true}
+            allowFontScaling={false}
+            height={15}
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": "#262C2F",
+                  "fontSize": 20,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "sywmax",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+            testID="icon-text"
+            width={15}
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "paddingHorizontal": 16,
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessibilityLabel="navigation-header-title"
+        accessible={true}
+        font="SFProDisplay-Bold"
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Object {
+              "color": "#262C2F",
+              "fontSize": 14,
+              "lineHeight": 16,
+              "textAlign": "center",
+              "textTransform": "uppercase",
+            },
+          ]
+        }
+        testID="navigation-header-title"
+      >
+        TEST NAME
+      </Text>
+    </View>
+    <View />
+  </View>
+</RNCSafeAreaView>
+`;
+
+exports[`NavigationHeader should render with a search bar with colored background 1`] = `
+<RNCSafeAreaView
+  edges={
+    Array [
+      "left",
+      "right",
+    ]
+  }
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#FFFFFF",
+      },
+      Object {
+        "backgroundColor": "#0066CC",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 104,
+          "justifyContent": "space-between",
+          "paddingHorizontal": 20,
+          "paddingTop": 44,
+        },
+        Object {
+          "backgroundColor": "#FFFFFF",
+        },
+        undefined,
+        undefined,
+        Object {
+          "backgroundColor": "#0066CC",
+        },
+      ]
+    }
+  >
+    <View
+      accessibilityLabel="navigation-header-back-arrow-button"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="navigation-header-back-arrow-button"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#0066CC",
+              "borderBottomLeftRadius": 30,
+              "borderBottomRightRadius": 30,
+              "borderTopLeftRadius": 30,
+              "borderTopRightRadius": 30,
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "paddingBottom": 8,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 8,
+            },
+            Object {
+              "paddingBottom": 0,
+              "paddingLeft": 0,
+              "paddingRight": 0,
+              "paddingTop": 0,
+            },
+            Object {
+              "backgroundColor": "transparent",
+            },
+          ]
+        }
+      >
+        <View
+          style={false}
+        >
+          <Text
+            accessibilityLabel="icon-text"
+            accessible={true}
+            allowFontScaling={false}
+            height={15}
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 20,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "sywmax",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+            testID="icon-text"
+            width={15}
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "paddingHorizontal": 16,
+          },
+          Object {
+            "paddingRight": 0,
+          },
+        ]
+      }
+    >
+      <View />
+    </View>
+    <View />
+  </View>
+</RNCSafeAreaView>
+`;
+
+exports[`NavigationHeader should render with a transparent background 1`] = `
+<RNCSafeAreaView
+  edges={
+    Array [
+      "left",
+      "right",
+    ]
+  }
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#FFFFFF",
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 104,
+          "justifyContent": "space-between",
+          "paddingHorizontal": 20,
+          "paddingTop": 44,
+        },
+        Object {
+          "backgroundColor": "none",
+        },
+        undefined,
+        undefined,
+        undefined,
+      ]
+    }
+  >
+    <View
+      accessibilityLabel="navigation-header-back-arrow-button"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="navigation-header-back-arrow-button"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#0066CC",
+              "borderBottomLeftRadius": 30,
+              "borderBottomRightRadius": 30,
+              "borderTopLeftRadius": 30,
+              "borderTopRightRadius": 30,
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "paddingBottom": 8,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 8,
+            },
+            Object {
+              "paddingBottom": 0,
+              "paddingLeft": 0,
+              "paddingRight": 0,
+              "paddingTop": 0,
+            },
+            Object {
+              "backgroundColor": "#FFFFFF",
+            },
+          ]
+        }
+      >
+        <View
+          style={false}
+        >
+          <Text
+            accessibilityLabel="icon-text"
+            accessible={true}
+            allowFontScaling={false}
+            height={15}
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": "#262C2F",
+                  "fontSize": 20,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "sywmax",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+            testID="icon-text"
+            width={15}
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "paddingHorizontal": 16,
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessibilityLabel="navigation-header-title"
+        accessible={true}
+        font="SFProDisplay-Bold"
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Object {
+              "color": "#262C2F",
+              "fontSize": 14,
+              "lineHeight": 16,
+              "textAlign": "center",
+              "textTransform": "uppercase",
+            },
+          ]
+        }
+        testID="navigation-header-title"
+      >
+        TEST NAME
+      </Text>
+    </View>
+    <View />
+  </View>
+</RNCSafeAreaView>
+`;
+
+exports[`NavigationHeader should render with avatar img 1`] = `
+<RNCSafeAreaView
+  edges={
+    Array [
+      "left",
+      "right",
+    ]
+  }
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#FFFFFF",
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 104,
+          "justifyContent": "space-between",
+          "paddingHorizontal": 20,
+          "paddingTop": 44,
+        },
+        Object {
+          "backgroundColor": "#FFFFFF",
+        },
+        undefined,
+        undefined,
+        undefined,
+      ]
+    }
+  >
+    <View
+      accessibilityLabel="navigation-header-back-arrow-button"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="navigation-header-back-arrow-button"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#0066CC",
+              "borderBottomLeftRadius": 30,
+              "borderBottomRightRadius": 30,
+              "borderTopLeftRadius": 30,
+              "borderTopRightRadius": 30,
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "paddingBottom": 8,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 8,
+            },
+            Object {
+              "paddingBottom": 0,
+              "paddingLeft": 0,
+              "paddingRight": 0,
+              "paddingTop": 0,
+            },
+            Object {
+              "backgroundColor": "#FFFFFF",
+            },
+          ]
+        }
+      >
+        <View
+          style={false}
+        >
+          <Text
+            accessibilityLabel="icon-text"
+            accessible={true}
+            allowFontScaling={false}
+            height={15}
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": "#262C2F",
+                  "fontSize": 20,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "sywmax",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+            testID="icon-text"
+            width={15}
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "paddingHorizontal": 16,
+          },
+          false,
+        ]
+      }
+    >
+      <Text
+        accessibilityLabel="navigation-header-title"
+        accessible={true}
+        font="SFProDisplay-Bold"
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Object {
+              "color": "#262C2F",
+              "fontSize": 14,
+              "lineHeight": 16,
+              "textAlign": "center",
+              "textTransform": "uppercase",
+            },
+          ]
+        }
+        testID="navigation-header-title"
+      >
+        TEST NAME
+      </Text>
+    </View>
+    <View>
+      <View
+        accessibilityLabel="navigation-header-avatar-button"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID="navigation-header-avatar-button"
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "overflow": "hidden",
+              },
+              Object {
+                "alignSelf": "flex-end",
+                "borderBottomLeftRadius": 50,
+                "borderBottomRightRadius": 50,
+                "borderTopLeftRadius": 50,
+                "borderTopRightRadius": 50,
+                "height": 40,
+                "width": 40,
+              },
+            ]
+          }
+        >
+          <FastImageView
+            onFastImageError={[Function]}
+            resizeMode="cover"
+            source={
+              Object {
+                "uri": "avatar.url.com",
+              }
+            }
+            style={
+              Object {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </View>
+</RNCSafeAreaView>
+`;
+
+exports[`NavigationHeader should render with placeholder avatar 1`] = `
+<RNCSafeAreaView
+  edges={
+    Array [
+      "left",
+      "right",
+    ]
+  }
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#FFFFFF",
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 104,
+          "justifyContent": "space-between",
+          "paddingHorizontal": 20,
+          "paddingTop": 44,
+        },
+        Object {
+          "backgroundColor": "#FFFFFF",
+        },
+        undefined,
+        undefined,
+        undefined,
+      ]
+    }
+  >
+    <View
+      accessibilityLabel="navigation-header-back-arrow-button"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="navigation-header-back-arrow-button"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#0066CC",
+              "borderBottomLeftRadius": 30,
+              "borderBottomRightRadius": 30,
+              "borderTopLeftRadius": 30,
+              "borderTopRightRadius": 30,
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "paddingBottom": 8,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 8,
+            },
+            Object {
+              "paddingBottom": 0,
+              "paddingLeft": 0,
+              "paddingRight": 0,
+              "paddingTop": 0,
+            },
+            Object {
+              "backgroundColor": "#FFFFFF",
+            },
+          ]
+        }
+      >
+        <View
+          style={false}
+        >
+          <Text
+            accessibilityLabel="icon-text"
+            accessible={true}
+            allowFontScaling={false}
+            height={15}
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": "#262C2F",
+                  "fontSize": 20,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "sywmax",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+            testID="icon-text"
+            width={15}
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "paddingHorizontal": 16,
+          },
+          false,
+        ]
+      }
+    >
+      <Text
+        accessibilityLabel="navigation-header-title"
+        accessible={true}
+        font="SFProDisplay-Bold"
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Object {
+              "color": "#262C2F",
+              "fontSize": 14,
+              "lineHeight": 16,
+              "textAlign": "center",
+              "textTransform": "uppercase",
+            },
+          ]
+        }
+        testID="navigation-header-title"
+      >
+        TEST NAME
+      </Text>
+    </View>
+    <View>
+      <View
+        accessibilityLabel="navigation-header-avatar-button"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID="navigation-header-avatar-button"
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "overflow": "hidden",
+              },
+              Object {
+                "alignSelf": "flex-end",
+                "borderBottomLeftRadius": 50,
+                "borderBottomRightRadius": 50,
+                "borderTopLeftRadius": 50,
+                "borderTopRightRadius": 50,
+                "height": 40,
+                "width": 40,
+              },
+            ]
+          }
+        >
+          <FastImageView
+            onFastImageError={[Function]}
+            resizeMode="cover"
+            source={null}
+            style={
+              Object {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </View>
+</RNCSafeAreaView>
+`;
+
+exports[`NavigationHeader should render with the cross go-back button 1`] = `
+<RNCSafeAreaView
+  edges={
+    Array [
+      "left",
+      "right",
+    ]
+  }
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#FFFFFF",
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 104,
+          "justifyContent": "space-between",
+          "paddingHorizontal": 20,
+          "paddingTop": 44,
+        },
+        Object {
+          "backgroundColor": "#FFFFFF",
+        },
+        undefined,
+        undefined,
+        undefined,
+      ]
+    }
+  >
+    <View />
+    <View
+      style={
+        Array [
+          Object {
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "paddingHorizontal": 16,
+          },
+          false,
+        ]
+      }
+    >
+      <Text
+        accessibilityLabel="navigation-header-title"
+        accessible={true}
+        font="SFProDisplay-Bold"
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Object {
+              "color": "#262C2F",
+              "fontSize": 14,
+              "lineHeight": 16,
+              "textAlign": "center",
+              "textTransform": "uppercase",
+            },
+          ]
+        }
+        testID="navigation-header-title"
+      >
+        TEST NAME
+      </Text>
+    </View>
+    <View
+      accessibilityLabel="navigation-header-back-cross-button"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "bottom": 17,
+          "justifyContent": "center",
+          "opacity": 1,
+          "position": "absolute",
+          "right": 20,
+        }
+      }
+      testID="navigation-header-back-cross-button"
+    >
+      <Text
+        accessibilityLabel="icon-text"
+        accessible={true}
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          Array [
+            Object {
+              "color": "#262C2F",
+              "fontSize": 26,
+            },
+            undefined,
+            Object {
+              "fontFamily": "sywmax",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+        testID="icon-text"
+      >
+        
+      </Text>
+    </View>
+  </View>
+</RNCSafeAreaView>
+`;
+
+exports[`NavigationHeader should render without avatar 1`] = `
+<RNCSafeAreaView
+  edges={
+    Array [
+      "left",
+      "right",
+    ]
+  }
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#FFFFFF",
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 104,
+          "justifyContent": "space-between",
+          "paddingHorizontal": 20,
+          "paddingTop": 44,
+        },
+        Object {
+          "backgroundColor": "#FFFFFF",
+        },
+        undefined,
+        undefined,
+        undefined,
+      ]
+    }
+  >
+    <View
+      accessibilityLabel="navigation-header-back-arrow-button"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="navigation-header-back-arrow-button"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#0066CC",
+              "borderBottomLeftRadius": 30,
+              "borderBottomRightRadius": 30,
+              "borderTopLeftRadius": 30,
+              "borderTopRightRadius": 30,
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "paddingBottom": 8,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 8,
+            },
+            Object {
+              "paddingBottom": 0,
+              "paddingLeft": 0,
+              "paddingRight": 0,
+              "paddingTop": 0,
+            },
+            Object {
+              "backgroundColor": "#FFFFFF",
+            },
+          ]
+        }
+      >
+        <View
+          style={false}
+        >
+          <Text
+            accessibilityLabel="icon-text"
+            accessible={true}
+            allowFontScaling={false}
+            height={15}
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": "#262C2F",
+                  "fontSize": 20,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "sywmax",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+            testID="icon-text"
+            width={15}
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "paddingHorizontal": 16,
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessibilityLabel="navigation-header-title"
+        accessible={true}
+        font="SFProDisplay-Bold"
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Object {
+              "color": "#262C2F",
+              "fontSize": 14,
+              "lineHeight": 16,
+              "textAlign": "center",
+              "textTransform": "uppercase",
+            },
+          ]
+        }
+        testID="navigation-header-title"
+      >
+        TEST NAME
+      </Text>
+    </View>
+    <View />
+  </View>
+</RNCSafeAreaView>
+`;

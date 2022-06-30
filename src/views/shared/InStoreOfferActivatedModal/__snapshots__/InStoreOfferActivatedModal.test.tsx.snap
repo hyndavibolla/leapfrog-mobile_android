@@ -1,0 +1,728 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InStoreOfferActivatedModal should render 1`] = `
+<View
+  accessibilityLabel="in-store-offer-activated-modal-container"
+  accessible={true}
+  style={
+    Object {
+      "alignItems": "center",
+    }
+  }
+  testID="in-store-offer-activated-modal-container"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "marginBottom": 26,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "height": 60,
+            "width": 60,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "overflow": "hidden",
+            },
+            Object {
+              "alignItems": "center",
+              "borderBottomLeftRadius": 60,
+              "borderBottomRightRadius": 60,
+              "borderTopLeftRadius": 60,
+              "borderTopRightRadius": 60,
+              "height": "100%",
+              "justifyContent": "center",
+              "width": "100%",
+            },
+          ]
+        }
+      >
+        <FastImageView
+          accessibilityLabel="brand-logo-image"
+          accessible={true}
+          onFastImageError={[Function]}
+          onFastImageLoad={[Function]}
+          onFastImageLoadEnd={[Function]}
+          onFastImageLoadStart={[Function]}
+          resizeMode="cover"
+          source={
+            Object {
+              "priority": "high",
+              "uri": "http://www.local-offer.com/logo/1",
+            }
+          }
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+          testID="brand-logo-image"
+        />
+      </View>
+    </View>
+    <Text
+      style={
+        Object {
+          "color": "#262C2F",
+          "fontFamily": "SFProDisplay-Heavy",
+          "fontSize": 22,
+          "lineHeight": 26,
+          "marginBottom": 0,
+          "marginLeft": 14,
+          "marginRight": 14,
+          "marginTop": 0,
+        }
+      }
+    >
+      +
+    </Text>
+    <Text
+      accessibilityLabel="icon-text"
+      accessible={true}
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        Array [
+          Object {
+            "color": "#B361DF",
+            "fontSize": 60,
+          },
+          undefined,
+          Object {
+            "fontFamily": "sywmax",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+      testID="icon-text"
+    >
+      
+    </Text>
+  </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#262C2F",
+          "fontFamily": "SFProDisplay-Bold",
+          "fontSize": 20,
+          "lineHeight": 30,
+        },
+        Object {
+          "color": "#262C2F",
+          "textAlign": "center",
+        },
+      ]
+    }
+    type="titleHeader"
+  >
+    Your 
+    local-offer-brand-1
+     offer is activated!
+  </Text>
+  <View
+    style={
+      Object {
+        "marginTop": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#909BA0",
+          "fontSize": 16,
+          "textAlign": "center",
+        }
+      }
+    >
+      What do I do next?
+    </Text>
+    <View
+      style={
+        Object {
+          "marginBottom": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          accessibilityLabel="icon-text"
+          accessible={true}
+          allowFontScaling={false}
+          selectable={false}
+          style={
+            Array [
+              Object {
+                "color": "#B361DF",
+                "fontSize": 14,
+              },
+              Object {
+                "marginRight": 5,
+              },
+              Object {
+                "fontFamily": "sywmax",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          testID="icon-text"
+        >
+          
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#909BA0",
+              "fontSize": 16,
+              "textAlign": "center",
+            }
+          }
+        >
+          Go to the restaurant
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          accessibilityLabel="icon-text"
+          accessible={true}
+          allowFontScaling={false}
+          selectable={false}
+          style={
+            Array [
+              Object {
+                "color": "#B361DF",
+                "fontSize": 14,
+              },
+              Object {
+                "marginRight": 5,
+              },
+              Object {
+                "fontFamily": "sywmax",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          testID="icon-text"
+        >
+          
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#909BA0",
+              "fontSize": 16,
+              "textAlign": "center",
+            }
+          }
+        >
+          Purchase food
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#909BA0",
+              "fontSize": 16,
+              "textAlign": "center",
+            }
+          }
+        >
+          Enjoy! 🎉
+        </Text>
+      </View>
+    </View>
+    <Text
+      accessibilityLabel="in-store-offer-activated-modal-text-diff-day"
+      accessible={true}
+      style={
+        Object {
+          "color": "#909BA0",
+          "fontSize": 16,
+          "textAlign": "center",
+        }
+      }
+      testID="in-store-offer-activated-modal-text-diff-day"
+    >
+      This offer is available for 
+      108
+       days
+       for the restaurant at 2307 Beverley Rd, Brooklyn, NY 11226, United States.
+    </Text>
+  </View>
+  <View
+    accessibilityLabel="in-store-offer-activated-modal-action-btn"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="in-store-offer-activated-modal-action-btn"
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#0066CC",
+            "borderBottomLeftRadius": 30,
+            "borderBottomRightRadius": 30,
+            "borderTopLeftRadius": 30,
+            "borderTopRightRadius": 30,
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "paddingBottom": 8,
+            "paddingLeft": 12,
+            "paddingRight": 12,
+            "paddingTop": 8,
+          },
+          Object {
+            "marginTop": 40,
+            "paddingBottom": 16,
+            "paddingLeft": 120,
+            "paddingRight": 120,
+            "paddingTop": 16,
+          },
+        ]
+      }
+    >
+      <View
+        style={false}
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 14,
+                  "textAlign": "center",
+                },
+                Object {
+                  "fontFamily": "SFProDisplay-Medium",
+                  "fontSize": 16,
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          Got it!
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`InStoreOfferActivatedModal should render without brand logo and address 1`] = `
+<View
+  accessibilityLabel="in-store-offer-activated-modal-container"
+  accessible={true}
+  style={
+    Object {
+      "alignItems": "center",
+    }
+  }
+  testID="in-store-offer-activated-modal-container"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "marginBottom": 26,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "height": 60,
+            "width": 60,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "height": "100%",
+            "justifyContent": "center",
+            "width": "100%",
+          }
+        }
+      >
+        RestaurantFallback
+      </View>
+    </View>
+    <Text
+      style={
+        Object {
+          "color": "#262C2F",
+          "fontFamily": "SFProDisplay-Heavy",
+          "fontSize": 22,
+          "lineHeight": 26,
+          "marginBottom": 0,
+          "marginLeft": 14,
+          "marginRight": 14,
+          "marginTop": 0,
+        }
+      }
+    >
+      +
+    </Text>
+    <Text
+      accessibilityLabel="icon-text"
+      accessible={true}
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        Array [
+          Object {
+            "color": "#B361DF",
+            "fontSize": 60,
+          },
+          undefined,
+          Object {
+            "fontFamily": "sywmax",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+      testID="icon-text"
+    >
+      
+    </Text>
+  </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#262C2F",
+          "fontFamily": "SFProDisplay-Bold",
+          "fontSize": 20,
+          "lineHeight": 30,
+        },
+        Object {
+          "color": "#262C2F",
+          "textAlign": "center",
+        },
+      ]
+    }
+    type="titleHeader"
+  >
+    Your 
+    local-offer-brand-1
+     offer is activated!
+  </Text>
+  <View
+    style={
+      Object {
+        "marginTop": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#909BA0",
+          "fontSize": 16,
+          "textAlign": "center",
+        }
+      }
+    >
+      What do I do next?
+    </Text>
+    <View
+      style={
+        Object {
+          "marginBottom": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          accessibilityLabel="icon-text"
+          accessible={true}
+          allowFontScaling={false}
+          selectable={false}
+          style={
+            Array [
+              Object {
+                "color": "#B361DF",
+                "fontSize": 14,
+              },
+              Object {
+                "marginRight": 5,
+              },
+              Object {
+                "fontFamily": "sywmax",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          testID="icon-text"
+        >
+          
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#909BA0",
+              "fontSize": 16,
+              "textAlign": "center",
+            }
+          }
+        >
+          Go to the restaurant
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          accessibilityLabel="icon-text"
+          accessible={true}
+          allowFontScaling={false}
+          selectable={false}
+          style={
+            Array [
+              Object {
+                "color": "#B361DF",
+                "fontSize": 14,
+              },
+              Object {
+                "marginRight": 5,
+              },
+              Object {
+                "fontFamily": "sywmax",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          testID="icon-text"
+        >
+          
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#909BA0",
+              "fontSize": 16,
+              "textAlign": "center",
+            }
+          }
+        >
+          Purchase food
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#909BA0",
+              "fontSize": 16,
+              "textAlign": "center",
+            }
+          }
+        >
+          Enjoy! 🎉
+        </Text>
+      </View>
+    </View>
+    <Text
+      accessibilityLabel="in-store-offer-activated-modal-text-diff-day"
+      accessible={true}
+      style={
+        Object {
+          "color": "#909BA0",
+          "fontSize": 16,
+          "textAlign": "center",
+        }
+      }
+      testID="in-store-offer-activated-modal-text-diff-day"
+    >
+      This offer is available for 
+      108
+       days
+      .
+    </Text>
+  </View>
+  <View
+    accessibilityLabel="in-store-offer-activated-modal-action-btn"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="in-store-offer-activated-modal-action-btn"
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#0066CC",
+            "borderBottomLeftRadius": 30,
+            "borderBottomRightRadius": 30,
+            "borderTopLeftRadius": 30,
+            "borderTopRightRadius": 30,
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "paddingBottom": 8,
+            "paddingLeft": 12,
+            "paddingRight": 12,
+            "paddingTop": 8,
+          },
+          Object {
+            "marginTop": 40,
+            "paddingBottom": 16,
+            "paddingLeft": 120,
+            "paddingRight": 120,
+            "paddingTop": 16,
+          },
+        ]
+      }
+    >
+      <View
+        style={false}
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 14,
+                  "textAlign": "center",
+                },
+                Object {
+                  "fontFamily": "SFProDisplay-Medium",
+                  "fontSize": 16,
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          Got it!
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

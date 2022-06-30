@@ -1,0 +1,331 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MapSearch should render 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F5F7FA",
+      "height": "100%",
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#FFFFFF",
+        "flexDirection": "row",
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 48,
+      }
+    }
+  >
+    <View
+      accessibilityLabel="map-search-back"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "height": 40,
+          "justifyContent": "center",
+          "marginRight": 8,
+          "width": 40,
+        }
+      }
+      testID="map-search-back"
+    >
+      <Text
+        accessibilityLabel="icon-text"
+        accessible={true}
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          Array [
+            Object {
+              "color": "#262C2F",
+              "fontSize": 24,
+            },
+            undefined,
+            Object {
+              "fontFamily": "sywmax",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+        testID="icon-text"
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "height": 40,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "elevation": 3,
+                  "shadowColor": "#262C2F",
+                  "shadowOffset": Object {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.1,
+                },
+                Object {
+                  "alignItems": "center",
+                  "borderBottomLeftRadius": 25,
+                  "borderBottomRightRadius": 25,
+                  "borderTopLeftRadius": 25,
+                  "borderTopRightRadius": 25,
+                  "flexBasis": 0,
+                  "flexDirection": "row",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "height": 40,
+                  "paddingHorizontal": 16,
+                },
+                Object {
+                  "backgroundColor": "#3F8EDC",
+                },
+                undefined,
+                Object {
+                  "backgroundColor": "#F5F7FA",
+                  "flexBasis": 0,
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "shadowColor": "transparent",
+                },
+              ]
+            }
+          >
+            <View
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <Text
+                accessibilityLabel="icon-text"
+                accessible={true}
+                allowFontScaling={false}
+                selectable={false}
+                style={
+                  Array [
+                    Object {
+                      "color": "#262C2F",
+                      "fontSize": 20,
+                    },
+                    undefined,
+                    Object {
+                      "fontFamily": "sywmax",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+                testID="icon-text"
+              >
+                
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "flexBasis": 0,
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "justifyContent": "center",
+                  "marginHorizontal": 8,
+                }
+              }
+            >
+              <TextInput
+                accessibilityLabel="search-input-input"
+                accessible={true}
+                editable={true}
+                numberOfLines={1}
+                onBlur={[Function]}
+                onChangeText={[Function]}
+                onFocus={[Function]}
+                returnKeyType="go"
+                selectionColor="#262C2F"
+                style={
+                  Array [
+                    Object {
+                      "color": "#262C2F",
+                      "fontSize": 14,
+                      "height": "100%",
+                      "width": "100%",
+                    },
+                    Array [
+                      Object {
+                        "color": "#262C2F",
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "fontFamily": "SFProDisplay-Medium",
+                        "lineHeight": 18,
+                        "marginLeft": 16,
+                        "paddingRight": 8,
+                      },
+                      Object {
+                        "marginRight": 0,
+                        "paddingRight": 0,
+                      },
+                    ],
+                  ]
+                }
+                testID="search-input-input"
+                value=""
+              />
+              <Text
+                numberOfLines={1}
+                style={
+                  Array [
+                    Object {
+                      "color": "#909BA0",
+                      "fontFamily": "SFProDisplay-Medium",
+                      "fontSize": 16,
+                      "lineHeight": 22,
+                    },
+                    Array [
+                      Object {
+                        "fontSize": 14,
+                        "position": "absolute",
+                        "top": 9,
+                        "width": "100%",
+                      },
+                      Array [
+                        Object {
+                          "color": "#262C2F",
+                          "flexBasis": 0,
+                          "flexGrow": 1,
+                          "flexShrink": 1,
+                          "fontFamily": "SFProDisplay-Medium",
+                          "lineHeight": 18,
+                          "marginLeft": 16,
+                          "paddingRight": 8,
+                        },
+                        Object {
+                          "marginRight": 0,
+                          "paddingRight": 0,
+                        },
+                      ],
+                      Object {
+                        "color": "#909BA0",
+                      },
+                    ],
+                  ]
+                }
+              >
+                Search by city, zip code or store
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <RCTScrollView
+    contentContainerStyle={false}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#F5F7FA",
+          "height": "100%",
+          "width": "100%",
+        },
+        Object {
+          "paddingBottom": 16,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 0,
+        },
+      ]
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "paddingVertical": 20,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "paddingTop": 10,
+            }
+          }
+        />
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

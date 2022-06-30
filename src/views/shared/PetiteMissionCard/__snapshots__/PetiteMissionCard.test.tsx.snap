@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PetiteMissionCard should render 1`] = `
+<View
+  accessibilityLabel="petite-mission-card-container"
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+  testID="petite-mission-card-container"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "elevation": 3,
+          "shadowColor": "#262C2F",
+          "shadowOffset": Object {
+            "height": 4,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+        },
+        Object {
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexDirection": "column",
+          "justifyContent": "space-between",
+          "paddingBottom": 20,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 20,
+        },
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "height": 100,
+          "justifyContent": "center",
+          "width": 100,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "borderBottomLeftRadius": 60,
+          "borderBottomRightRadius": 60,
+          "borderTopLeftRadius": 60,
+          "borderTopRightRadius": 60,
+          "height": 60,
+          "justifyContent": "center",
+          "width": 60,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "height": 60,
+              "width": 60,
+            },
+            Object {
+              "height": "100%",
+              "width": "100%",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "overflow": "hidden",
+              },
+              Object {
+                "alignItems": "center",
+                "borderBottomLeftRadius": 60,
+                "borderBottomRightRadius": 60,
+                "borderTopLeftRadius": 60,
+                "borderTopRightRadius": 60,
+                "height": "100%",
+                "justifyContent": "center",
+                "width": "100%",
+              },
+            ]
+          }
+        >
+          <FastImageView
+            accessibilityLabel="brand-logo-image"
+            accessible={true}
+            onFastImageError={[Function]}
+            onFastImageLoad={[Function]}
+            onFastImageLoadEnd={[Function]}
+            onFastImageLoadStart={[Function]}
+            resizeMode="cover"
+            source={
+              Object {
+                "priority": "high",
+                "uri": "i.am.an.image.png",
+              }
+            }
+            style={
+              Object {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              }
+            }
+            testID="brand-logo-image"
+          />
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,1212 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StreakDetailCard should render 1`] = `
+Array [
+  <Text
+    color="#262C2F"
+    font="SFProDisplay-Bold"
+    lineHeight="24px"
+    size="16px"
+    style={
+      Array [
+        Object {
+          "color": "#262C2F",
+          "fontFamily": "SFProDisplay-Bold",
+          "fontSize": 16,
+          "lineHeight": 24,
+        },
+        undefined,
+      ]
+    }
+  >
+    Complete a Mission now 🔥
+  </Text>,
+  <Text
+    color="#909BA0"
+    font="SFProDisplay-Medium"
+    lineHeight="22px"
+    size="14px"
+    style={
+      Array [
+        Object {
+          "color": "#909BA0",
+          "fontFamily": "SFProDisplay-Medium",
+          "fontSize": 14,
+          "lineHeight": 22,
+        },
+        undefined,
+      ]
+    }
+  >
+    Buy on 
+    brand name :D
+     and earn a 
+    Grocery & Delivery Streak
+     Stamp.
+  </Text>,
+  <View
+    accessibilityLabel="streak-detail-card-container"
+    accessible={true}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderBottomColor": "#E2E3E3",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderBottomWidth": 1,
+          "borderLeftColor": "#E2E3E3",
+          "borderLeftWidth": 1,
+          "borderRightColor": "#E2E3E3",
+          "borderRightWidth": 1,
+          "borderTopColor": "#E2E3E3",
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "borderTopWidth": 1,
+          "flexDirection": "row",
+          "marginTop": 8,
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+        },
+        false,
+      ]
+    }
+    testID="streak-detail-card-container"
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#E2E3E3",
+          "borderBottomLeftRadius": 40,
+          "borderBottomRightRadius": 40,
+          "borderTopLeftRadius": 40,
+          "borderTopRightRadius": 40,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "height": 60,
+              "width": 60,
+            },
+            Object {
+              "height": 40,
+              "width": 40,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "overflow": "hidden",
+              },
+              Object {
+                "alignItems": "center",
+                "borderBottomLeftRadius": 60,
+                "borderBottomRightRadius": 60,
+                "borderTopLeftRadius": 60,
+                "borderTopRightRadius": 60,
+                "height": "100%",
+                "justifyContent": "center",
+                "width": "100%",
+              },
+            ]
+          }
+        >
+          <FastImageView
+            accessibilityLabel="brand-logo-image"
+            accessible={true}
+            onFastImageError={[Function]}
+            onFastImageLoad={[Function]}
+            onFastImageLoadEnd={[Function]}
+            onFastImageLoadStart={[Function]}
+            resizeMode="cover"
+            source={
+              Object {
+                "priority": "high",
+                "uri": "https://i.sears.com/s/i/or/SYW-MAX/Brands_Sam's-club-Logos-SYW-MAX_H5YHQFPMCT",
+              }
+            }
+            style={
+              Object {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              }
+            }
+            testID="brand-logo-image"
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "marginLeft": 12,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "marginRight": 4,
+              }
+            }
+          >
+            <Text
+              accessibilityLabel="icon-text"
+              accessible={true}
+              allowFontScaling={false}
+              selectable={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#0066CC",
+                    "fontSize": 24,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "sywmax",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+              testID="icon-text"
+            >
+              
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "marginRight": 4,
+              }
+            }
+          >
+            <Text
+              accessibilityLabel="icon-text"
+              accessible={true}
+              allowFontScaling={false}
+              selectable={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontSize": 24,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "sywmax",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+              testID="icon-text"
+            >
+              
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "marginRight": 4,
+              }
+            }
+          >
+            <Text
+              accessibilityLabel="icon-text"
+              accessible={true}
+              allowFontScaling={false}
+              selectable={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontSize": 24,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "sywmax",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+              testID="icon-text"
+            >
+              
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Medium",
+                  "fontSize": 16,
+                  "lineHeight": 22,
+                },
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Medium",
+                    "fontSize": 14,
+                    "lineHeight": 18,
+                  },
+                  false,
+                ],
+              ]
+            }
+          >
+            51 years
+             left
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>,
+]
+`;
+
+exports[`StreakDetailCard should render close to end date 1`] = `
+Array [
+  <Text
+    color="#262C2F"
+    font="SFProDisplay-Bold"
+    lineHeight="24px"
+    size="16px"
+    style={
+      Array [
+        Object {
+          "color": "#262C2F",
+          "fontFamily": "SFProDisplay-Bold",
+          "fontSize": 16,
+          "lineHeight": 24,
+        },
+        undefined,
+      ]
+    }
+  >
+    Complete a Mission now 🔥
+  </Text>,
+  <Text
+    color="#909BA0"
+    font="SFProDisplay-Medium"
+    lineHeight="22px"
+    size="14px"
+    style={
+      Array [
+        Object {
+          "color": "#909BA0",
+          "fontFamily": "SFProDisplay-Medium",
+          "fontSize": 14,
+          "lineHeight": 22,
+        },
+        undefined,
+      ]
+    }
+  >
+    Buy on 
+    brand name :D
+     and earn a 
+    Grocery & Delivery Streak
+     Stamp.
+  </Text>,
+  <View
+    accessibilityLabel="streak-detail-card-container"
+    accessible={true}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderBottomColor": "#E2E3E3",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderBottomWidth": 1,
+          "borderLeftColor": "#E2E3E3",
+          "borderLeftWidth": 1,
+          "borderRightColor": "#E2E3E3",
+          "borderRightWidth": 1,
+          "borderTopColor": "#E2E3E3",
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "borderTopWidth": 1,
+          "flexDirection": "row",
+          "marginTop": 8,
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+        },
+        false,
+      ]
+    }
+    testID="streak-detail-card-container"
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#E2E3E3",
+          "borderBottomLeftRadius": 40,
+          "borderBottomRightRadius": 40,
+          "borderTopLeftRadius": 40,
+          "borderTopRightRadius": 40,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "height": 60,
+              "width": 60,
+            },
+            Object {
+              "height": 40,
+              "width": 40,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "overflow": "hidden",
+              },
+              Object {
+                "alignItems": "center",
+                "borderBottomLeftRadius": 60,
+                "borderBottomRightRadius": 60,
+                "borderTopLeftRadius": 60,
+                "borderTopRightRadius": 60,
+                "height": "100%",
+                "justifyContent": "center",
+                "width": "100%",
+              },
+            ]
+          }
+        >
+          <FastImageView
+            accessibilityLabel="brand-logo-image"
+            accessible={true}
+            onFastImageError={[Function]}
+            onFastImageLoad={[Function]}
+            onFastImageLoadEnd={[Function]}
+            onFastImageLoadStart={[Function]}
+            resizeMode="cover"
+            source={
+              Object {
+                "priority": "high",
+                "uri": "https://i.sears.com/s/i/or/SYW-MAX/Brands_Sam's-club-Logos-SYW-MAX_H5YHQFPMCT",
+              }
+            }
+            style={
+              Object {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              }
+            }
+            testID="brand-logo-image"
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "marginLeft": 12,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "marginRight": 4,
+              }
+            }
+          >
+            <Text
+              accessibilityLabel="icon-text"
+              accessible={true}
+              allowFontScaling={false}
+              selectable={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#0066CC",
+                    "fontSize": 24,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "sywmax",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+              testID="icon-text"
+            >
+              
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "marginRight": 4,
+              }
+            }
+          >
+            <Text
+              accessibilityLabel="icon-text"
+              accessible={true}
+              allowFontScaling={false}
+              selectable={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontSize": 24,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "sywmax",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+              testID="icon-text"
+            >
+              
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "marginRight": 4,
+              }
+            }
+          >
+            <Text
+              accessibilityLabel="icon-text"
+              accessible={true}
+              allowFontScaling={false}
+              selectable={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontSize": 24,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "sywmax",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+              testID="icon-text"
+            >
+              
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Medium",
+                  "fontSize": 16,
+                  "lineHeight": 22,
+                },
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Medium",
+                    "fontSize": 14,
+                    "lineHeight": 18,
+                  },
+                  Object {
+                    "color": "#FF5F00",
+                  },
+                ],
+              ]
+            }
+          >
+            2 days
+             left
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>,
+]
+`;
+
+exports[`StreakDetailCard should render complete 1`] = `
+Array [
+  <Text
+    color="#262C2F"
+    font="SFProDisplay-Bold"
+    lineHeight="24px"
+    size="16px"
+    style={
+      Array [
+        Object {
+          "color": "#262C2F",
+          "fontFamily": "SFProDisplay-Bold",
+          "fontSize": 16,
+          "lineHeight": 24,
+        },
+        undefined,
+      ]
+    }
+  >
+    Activate a Mission now 🔥
+  </Text>,
+  <Text
+    color="#909BA0"
+    font="SFProDisplay-Medium"
+    lineHeight="22px"
+    size="14px"
+    style={
+      Array [
+        Object {
+          "color": "#909BA0",
+          "fontFamily": "SFProDisplay-Medium",
+          "fontSize": 14,
+          "lineHeight": 22,
+        },
+        undefined,
+      ]
+    }
+  >
+    Buy on 
+    brand name :D
+     and earn a 
+    Grocery & Delivery Streak
+     Stamp.
+  </Text>,
+  <View
+    accessibilityLabel="streak-detail-card-container"
+    accessible={true}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderBottomColor": "#E2E3E3",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderBottomWidth": 1,
+          "borderLeftColor": "#E2E3E3",
+          "borderLeftWidth": 1,
+          "borderRightColor": "#E2E3E3",
+          "borderRightWidth": 1,
+          "borderTopColor": "#E2E3E3",
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "borderTopWidth": 1,
+          "flexDirection": "row",
+          "marginTop": 8,
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+        },
+        Object {
+          "backgroundColor": "#F5F7FA",
+        },
+      ]
+    }
+    testID="streak-detail-card-container"
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#E2E3E3",
+          "borderBottomLeftRadius": 40,
+          "borderBottomRightRadius": 40,
+          "borderTopLeftRadius": 40,
+          "borderTopRightRadius": 40,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "height": 60,
+              "width": 60,
+            },
+            Object {
+              "height": 40,
+              "width": 40,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "overflow": "hidden",
+              },
+              Object {
+                "alignItems": "center",
+                "borderBottomLeftRadius": 60,
+                "borderBottomRightRadius": 60,
+                "borderTopLeftRadius": 60,
+                "borderTopRightRadius": 60,
+                "height": "100%",
+                "justifyContent": "center",
+                "width": "100%",
+              },
+            ]
+          }
+        >
+          <FastImageView
+            accessibilityLabel="brand-logo-image"
+            accessible={true}
+            onFastImageError={[Function]}
+            onFastImageLoad={[Function]}
+            onFastImageLoadEnd={[Function]}
+            onFastImageLoadStart={[Function]}
+            resizeMode="cover"
+            source={
+              Object {
+                "priority": "high",
+                "uri": "https://i.sears.com/s/i/or/SYW-MAX/Brands_Sam's-club-Logos-SYW-MAX_H5YHQFPMCT",
+              }
+            }
+            style={
+              Object {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              }
+            }
+            testID="brand-logo-image"
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "marginLeft": 12,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "marginRight": 4,
+              }
+            }
+          >
+            <Text
+              accessibilityLabel="icon-text"
+              accessible={true}
+              allowFontScaling={false}
+              selectable={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#0066CC",
+                    "fontSize": 24,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "sywmax",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+              testID="icon-text"
+            >
+              
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "marginRight": 4,
+              }
+            }
+          >
+            <Text
+              accessibilityLabel="icon-text"
+              accessible={true}
+              allowFontScaling={false}
+              selectable={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#0066CC",
+                    "fontSize": 24,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "sywmax",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+              testID="icon-text"
+            >
+              
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "marginRight": 4,
+              }
+            }
+          >
+            <Text
+              accessibilityLabel="icon-text"
+              accessible={true}
+              allowFontScaling={false}
+              selectable={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#0066CC",
+                    "fontSize": 24,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "sywmax",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+              testID="icon-text"
+            >
+              
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            accessibilityLabel="streak-detail-card-complete"
+            accessible={true}
+            color="#0066CC"
+            font="SFProDisplay-Bold"
+            lineHeight="18px"
+            size="14px"
+            style={
+              Array [
+                Object {
+                  "color": "#0066CC",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 14,
+                  "lineHeight": 18,
+                },
+                undefined,
+              ]
+            }
+            testID="streak-detail-card-complete"
+          >
+            Completed!
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>,
+]
+`;
+
+exports[`StreakDetailCard should render with expired streak 1`] = `
+Array [
+  <Text
+    color="#262C2F"
+    font="SFProDisplay-Bold"
+    lineHeight="24px"
+    size="16px"
+    style={
+      Array [
+        Object {
+          "color": "#262C2F",
+          "fontFamily": "SFProDisplay-Bold",
+          "fontSize": 16,
+          "lineHeight": 24,
+        },
+        undefined,
+      ]
+    }
+  >
+    Complete a Mission now 🔥
+  </Text>,
+  <Text
+    color="#909BA0"
+    font="SFProDisplay-Medium"
+    lineHeight="22px"
+    size="14px"
+    style={
+      Array [
+        Object {
+          "color": "#909BA0",
+          "fontFamily": "SFProDisplay-Medium",
+          "fontSize": 14,
+          "lineHeight": 22,
+        },
+        undefined,
+      ]
+    }
+  >
+    Buy on 
+    brand name :D
+     and earn a 
+    Grocery & Delivery Streak
+     Stamp.
+  </Text>,
+  <View
+    accessibilityLabel="streak-detail-card-container"
+    accessible={true}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderBottomColor": "#E2E3E3",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderBottomWidth": 1,
+          "borderLeftColor": "#E2E3E3",
+          "borderLeftWidth": 1,
+          "borderRightColor": "#E2E3E3",
+          "borderRightWidth": 1,
+          "borderTopColor": "#E2E3E3",
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "borderTopWidth": 1,
+          "flexDirection": "row",
+          "marginTop": 8,
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+        },
+        Object {
+          "backgroundColor": "#F5F7FA",
+        },
+      ]
+    }
+    testID="streak-detail-card-container"
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#E2E3E3",
+          "borderBottomLeftRadius": 40,
+          "borderBottomRightRadius": 40,
+          "borderTopLeftRadius": 40,
+          "borderTopRightRadius": 40,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "height": 60,
+              "width": 60,
+            },
+            Object {
+              "height": 40,
+              "width": 40,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "overflow": "hidden",
+              },
+              Object {
+                "alignItems": "center",
+                "borderBottomLeftRadius": 60,
+                "borderBottomRightRadius": 60,
+                "borderTopLeftRadius": 60,
+                "borderTopRightRadius": 60,
+                "height": "100%",
+                "justifyContent": "center",
+                "width": "100%",
+              },
+            ]
+          }
+        >
+          <FastImageView
+            accessibilityLabel="brand-logo-image"
+            accessible={true}
+            onFastImageError={[Function]}
+            onFastImageLoad={[Function]}
+            onFastImageLoadEnd={[Function]}
+            onFastImageLoadStart={[Function]}
+            resizeMode="cover"
+            source={
+              Object {
+                "priority": "high",
+                "uri": "https://i.sears.com/s/i/or/SYW-MAX/Brands_Sam's-club-Logos-SYW-MAX_H5YHQFPMCT",
+              }
+            }
+            style={
+              Object {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              }
+            }
+            testID="brand-logo-image"
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "marginLeft": 12,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "marginRight": 4,
+              }
+            }
+          >
+            <Text
+              accessibilityLabel="icon-text"
+              accessible={true}
+              allowFontScaling={false}
+              selectable={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#0066CC",
+                    "fontSize": 24,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "sywmax",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+              testID="icon-text"
+            >
+              
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "marginRight": 4,
+              }
+            }
+          >
+            <Text
+              accessibilityLabel="icon-text"
+              accessible={true}
+              allowFontScaling={false}
+              selectable={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontSize": 24,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "sywmax",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+              testID="icon-text"
+            >
+              
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "marginRight": 4,
+              }
+            }
+          >
+            <Text
+              accessibilityLabel="icon-text"
+              accessible={true}
+              allowFontScaling={false}
+              selectable={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontSize": 24,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "sywmax",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+              testID="icon-text"
+            >
+              
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "justifyContent": "center",
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>,
+]
+`;

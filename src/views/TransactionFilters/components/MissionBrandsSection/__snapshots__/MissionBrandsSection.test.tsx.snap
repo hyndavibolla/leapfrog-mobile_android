@@ -1,0 +1,218 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mission Brands Section should render 1`] = `
+Array [
+  <Text
+    accessibilityLabel="mission-brands-section-note"
+    accessible={true}
+    style={
+      Object {
+        "color": "#262C2F",
+        "fontFamily": "SFProDisplay-Bold",
+        "fontSize": 16,
+        "lineHeight": 24,
+        "marginBottom": 20,
+      }
+    }
+    testID="mission-brands-section-note"
+  >
+    Most users love these
+  </Text>,
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "justifyContent": "space-around",
+      }
+    }
+    data={
+      Array [
+        Object {
+          "brandCategories": Array [
+            "Food",
+          ],
+          "brandDescription": "Great coffee, everywhere.",
+          "brandLogo": "https://www.movistar.es/estaticos/img/ico-app-mi-movistar-2017.png",
+          "brandName": "Starbucks",
+          "brandRequestorId": "STBU",
+          "callToActionUrl": "callToActionUrl_1",
+          "description": "Let us treat you with some wonderful coffee beans straight from Colombia.",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTVkMt3KFinkf_ehnCq5yk2DLZBls6GYFZLeA&usqp=CAU",
+          "name": "Get some coffee!",
+          "offerCode": "offer-code-1",
+          "offerId": "offer-G1YuJWxyAMVV0_XOuMIAf3IQQsqHi2_3sEmBSoKE8dJUxnKPH3WEZ",
+          "pointsAwarded": Object {
+            "conditions": Array [
+              Object {
+                "alternateRewardValue": 250,
+                "category": "Coffee",
+                "programSubType": "mission",
+                "programType": "SYWMAX",
+                "rewardOfferCode": "code-1",
+                "rewardType": "FixedPoints",
+                "rewardValue": 0,
+              },
+              Object {
+                "alternateRewardValue": 400,
+                "category": "T-Shirts",
+                "programSubType": "AO",
+                "programType": "SYWMAX-Streak",
+                "rewardOfferCode": "code-2",
+                "rewardType": "FixedPoints",
+                "rewardValue": 200,
+              },
+            ],
+            "rewardType": "FixedPoints",
+            "rewardValue": 200,
+          },
+          "provider": "button",
+          "pubRef": undefined,
+          "rank": 1,
+          "rewardOfferCode": "code-1",
+          "termsAndConditions": "<p>Awarded points can only be applied towards Starbucks rewards.</p><p>Offer <strong>not</strong> applicable outside of the US continental territory.</p>",
+          "uuid": "offer-code-1;offer-G1YuJWxyAMVV0_XOuMIAf3IQQsqHi2_3sEmBSoKE8dJUxnKPH3WEZ",
+          "validFrom": "2020-07-29T12:04.000Z",
+          "validUntil": "2020-08-07T12:04.000Z",
+        },
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={true}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    showsHorizontalScrollIndicator={false}
+    stickyHeaderIndices={Array []}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexDirection": "row",
+          "paddingBottom": 24,
+          "paddingLeft": 12,
+          "paddingRight": 0,
+          "paddingTop": 24,
+        },
+        Object {
+          "paddingBottom": 24,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 24,
+        },
+      ]
+    }
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="mission-brands-section-brand"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          testID="mission-brands-section-brand"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "height": 60,
+                  "width": 60,
+                },
+                Array [
+                  Object {
+                    "marginRight": 16,
+                  },
+                  Object {
+                    "marginRight": 0,
+                  },
+                ],
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "overflow": "hidden",
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "borderBottomLeftRadius": 60,
+                    "borderBottomRightRadius": 60,
+                    "borderTopLeftRadius": 60,
+                    "borderTopRightRadius": 60,
+                    "height": "100%",
+                    "justifyContent": "center",
+                    "width": "100%",
+                  },
+                ]
+              }
+            >
+              <FastImageView
+                accessibilityLabel="brand-logo-image"
+                accessible={true}
+                onFastImageError={[Function]}
+                onFastImageLoad={[Function]}
+                onFastImageLoadEnd={[Function]}
+                onFastImageLoadStart={[Function]}
+                resizeMode="cover"
+                source={
+                  Object {
+                    "priority": "high",
+                    "uri": "https://www.movistar.es/estaticos/img/ico-app-mi-movistar-2017.png",
+                  }
+                }
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+                testID="brand-logo-image"
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>,
+]
+`;

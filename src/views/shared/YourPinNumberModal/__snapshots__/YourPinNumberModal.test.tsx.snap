@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`YourPinNumberModal should render 1`] = `
+<Modal
+  accessibilityLabel="modal-container"
+  accessible={true}
+  animationType="slide"
+  hardwareAccelerated={false}
+  onRequestClose={[MockFunction]}
+  statusBarTranslucent={true}
+  testID="modal-container"
+  transparent={true}
+  visible={true}
+>
+  <View
+    onLayout={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "bottom": 0,
+          "position": "absolute",
+          "zIndex": 9999,
+        },
+        Object {
+          "borderTopLeftRadius": 14,
+          "borderTopRightRadius": 14,
+          "bottom": 0,
+          "left": 0,
+          "paddingBottom": 60,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 60,
+          "width": "100%",
+        },
+        Object {
+          "maxHeight": 800,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      accessibilityLabel="point-balance-modal-container"
+      accessible={true}
+      testID="point-balance-modal-container"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#262C2F",
+              "fontFamily": "SFProDisplay-Heavy",
+              "fontSize": 20,
+              "lineHeight": 30,
+              "marginTop": 16,
+              "textAlign": "center",
+            },
+            undefined,
+          ]
+        }
+      >
+        Your member number and PIN
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 26,
+              "marginTop": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "marginTop": 36,
+            },
+          ]
+        }
+      >
+        Show this in your favorite Kmart or Sears store while paying to earn points.
+      </Text>
+      <View
+        accessibilityLabel="point-balance-barcode-container"
+        accessible={true}
+        style={
+          Object {
+            "marginTop": 24,
+          }
+        }
+        testID="point-balance-barcode-container"
+      />
+      <View
+        style={
+          Object {
+            "marginTop": 16,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 12,
+                "lineHeight": 16,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 12,
+                "lineHeight": 16,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          PIN: 
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+  <div
+    animation="fadeIn"
+    delay={400}
+    duration={400}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "rgba(38, 44, 47, 0.45)",
+          "height": "100%",
+          "left": 0,
+          "top": 0,
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+    useNativeDriver={true}
+  >
+    <View
+      accessibilityLabel="modal-backdrop"
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="modal-backdrop"
+    >
+      <View
+        style={
+          Object {
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+    </View>
+  </div>
+</Modal>
+`;

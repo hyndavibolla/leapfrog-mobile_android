@@ -1,0 +1,669 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BrandCategory should render 1`] = `
+<View
+  accessibilityLabel="category-brand-section"
+  accessible={true}
+  style={
+    Object {
+      "marginBottom": 8,
+      "marginTop": 20,
+    }
+  }
+  testID="category-brand-section"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingHorizontal": 16,
+      }
+    }
+  >
+    <Text
+      ellipsizeMode="tail"
+      numberOfLines={1}
+      style={
+        Array [
+          Object {
+            "color": "#262C2F",
+            "fontFamily": "SFProDisplay-Bold",
+            "fontSize": 16,
+            "lineHeight": 24,
+          },
+          Object {
+            "color": "#262C2F",
+            "lineHeight": 20,
+          },
+        ]
+      }
+      type="sectionHeader"
+    >
+      Entertainment
+    </Text>
+    <View
+      accessibilityLabel="category-brand-see-all-btn"
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="category-brand-see-all-btn"
+    >
+      <Text
+        font="SFProDisplay-Bold"
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Object {
+              "color": "#0066CC",
+            },
+          ]
+        }
+      >
+        See all
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "marginLeft": 24,
+      }
+    }
+  >
+    <RCTScrollView
+      ItemSeparatorComponent={[Function]}
+      collapsable={false}
+      contentContainerStyle={
+        Array [
+          Object {
+            "alignItems": "center",
+          },
+          undefined,
+        ]
+      }
+      data={
+        Array [
+          Object {
+            "brandName": "Burgers For Days",
+            "cardValueConfig": Object {
+              "increment": 1,
+              "maxValue": 50000,
+              "minValue": 500,
+              "variableLoadSupported": true,
+            },
+            "categories": Array [
+              Object {
+                "name": "Entertainment",
+              },
+              Object {
+                "name": "Travel",
+              },
+              Object {
+                "name": "Automotive",
+              },
+            ],
+            "description": "Buy stuff, buy lots of it.",
+            "iconUrl": "https://s3.amazonaws.com/raise-content/ibi/GameStop-Logo.png",
+            "id": "754338d5-7c5e-4785-bd05-67cd46545df9",
+            "legalTerms": "This card can be used to purchase merchandise only in stores",
+            "redemptionConfigs": Object {
+              "disclaimer": "Can only use 2 cards",
+              "kind": "IN_STORE_OR_ONLINE_ONLY",
+              "methods": Array [
+                Object {
+                  "info": "Enter the gift card info online",
+                  "kind": "ENTER_ONLINE",
+                },
+                Object {
+                  "info": "Show the barcode to the cashier",
+                  "kind": "SHOW_BARCODE",
+                },
+              ],
+            },
+            "sortedPosition": 2,
+          },
+          Object {
+            "brandName": "Durum For Years",
+            "cardValueConfig": Object {
+              "increment": 1,
+              "maxValue": 50000,
+              "minValue": 500,
+              "variableLoadSupported": true,
+            },
+            "categories": Array [
+              Object {
+                "name": "Entertainment",
+              },
+            ],
+            "description": "Buy stuff, buy lots of it.",
+            "iconUrl": "https://s3.amazonaws.com/raise-content/ibi/GameStop-Logo.png",
+            "id": "67cd46545df9-7c5e-4785-bd05-754338d5",
+            "legalTerms": "This card can be used to purchase merchandise only in stores",
+            "redemptionConfigs": Object {
+              "disclaimer": "Can only use 2 cards",
+              "kind": "IN_STORE_OR_ONLINE_ONLY",
+              "methods": Array [
+                Object {
+                  "info": "Enter the gift card info online",
+                  "kind": "ENTER_ONLINE",
+                },
+                Object {
+                  "info": "Show the barcode to the cashier",
+                  "kind": "SHOW_BARCODE",
+                },
+              ],
+            },
+            "sortedPosition": 2,
+          },
+          Object {
+            "brandName": "Durum For Years",
+            "cardValueConfig": Object {
+              "increment": 1,
+              "maxValue": 50000,
+              "minValue": 500,
+              "variableLoadSupported": true,
+            },
+            "categories": Array [
+              Object {
+                "name": "Entertainment",
+              },
+            ],
+            "description": "Buy stuff, buy lots of it.",
+            "faceplateUrl": "https://s3.amazonaws.com/raise-content/ibi/GameStop-Logo.png",
+            "iconUrl": "https://s3.amazonaws.com/raise-content/ibi/GameStop-Logo.png",
+            "id": "67cd46545df9-7c5e-4785-bd05-754338d9",
+            "legalTerms": "This card can be used to purchase merchandise only in stores",
+            "redemptionConfigs": Object {
+              "disclaimer": "Can only use 2 cards",
+              "kind": "IN_STORE_OR_ONLINE_ONLY",
+              "methods": Array [
+                Object {
+                  "info": "Enter the gift card info online",
+                  "kind": "ENTER_ONLINE",
+                },
+                Object {
+                  "info": "Show the barcode to the cashier",
+                  "kind": "SHOW_BARCODE",
+                },
+              ],
+            },
+            "sortedPosition": 2,
+          },
+        ]
+      }
+      decelerationRate={0}
+      getItem={[Function]}
+      getItemCount={[Function]}
+      horizontal={true}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={0.0001}
+      showsHorizontalScrollIndicator={false}
+      snapToInterval={173}
+      stickyHeaderIndices={Array []}
+      style={
+        Object {
+          "marginHorizontal": -16,
+          "paddingVertical": 4,
+        }
+      }
+      viewabilityConfigCallbackPairs={Array []}
+    >
+      <View>
+        <View
+          onLayout={[Function]}
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              null,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "width": 158,
+                },
+              ]
+            }
+          >
+            <View
+              accessibilityLabel="brand-category-item-fallback-card"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#FFFFFF",
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "elevation": 3,
+                  "height": 100,
+                  "justifyContent": "center",
+                  "marginLeft": 16,
+                  "marginVertical": 8,
+                  "opacity": 1,
+                  "shadowColor": "#262C2F",
+                  "shadowOffset": Object {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.1,
+                  "width": 158,
+                }
+              }
+              testID="brand-category-item-fallback-card"
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "height": 60,
+                      "width": 60,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "overflow": "hidden",
+                      },
+                      Object {
+                        "alignItems": "center",
+                        "borderBottomLeftRadius": 60,
+                        "borderBottomRightRadius": 60,
+                        "borderTopLeftRadius": 60,
+                        "borderTopRightRadius": 60,
+                        "height": "100%",
+                        "justifyContent": "center",
+                        "width": "100%",
+                      },
+                    ]
+                  }
+                >
+                  <FastImageView
+                    accessibilityLabel="brand-logo-image"
+                    accessible={true}
+                    onFastImageError={[Function]}
+                    onFastImageLoad={[Function]}
+                    onFastImageLoadEnd={[Function]}
+                    onFastImageLoadStart={[Function]}
+                    resizeMode="cover"
+                    source={
+                      Object {
+                        "priority": "high",
+                        "uri": "https://s3.amazonaws.com/raise-content/ibi/GameStop-Logo.png",
+                      }
+                    }
+                    style={
+                      Object {
+                        "bottom": 0,
+                        "left": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      }
+                    }
+                    testID="brand-logo-image"
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "minHeight": 1,
+                "width": 15,
+              }
+            }
+          />
+        </View>
+        <View
+          onLayout={[Function]}
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              null,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "width": 158,
+                },
+              ]
+            }
+          >
+            <View
+              accessibilityLabel="brand-category-item-fallback-card"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#FFFFFF",
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "elevation": 3,
+                  "height": 100,
+                  "justifyContent": "center",
+                  "marginLeft": 16,
+                  "marginVertical": 8,
+                  "opacity": 1,
+                  "shadowColor": "#262C2F",
+                  "shadowOffset": Object {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.1,
+                  "width": 158,
+                }
+              }
+              testID="brand-category-item-fallback-card"
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "height": 60,
+                      "width": 60,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "overflow": "hidden",
+                      },
+                      Object {
+                        "alignItems": "center",
+                        "borderBottomLeftRadius": 60,
+                        "borderBottomRightRadius": 60,
+                        "borderTopLeftRadius": 60,
+                        "borderTopRightRadius": 60,
+                        "height": "100%",
+                        "justifyContent": "center",
+                        "width": "100%",
+                      },
+                    ]
+                  }
+                >
+                  <FastImageView
+                    accessibilityLabel="brand-logo-image"
+                    accessible={true}
+                    onFastImageError={[Function]}
+                    onFastImageLoad={[Function]}
+                    onFastImageLoadEnd={[Function]}
+                    onFastImageLoadStart={[Function]}
+                    resizeMode="cover"
+                    source={
+                      Object {
+                        "priority": "high",
+                        "uri": "https://s3.amazonaws.com/raise-content/ibi/GameStop-Logo.png",
+                      }
+                    }
+                    style={
+                      Object {
+                        "bottom": 0,
+                        "left": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      }
+                    }
+                    testID="brand-logo-image"
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "minHeight": 1,
+                "width": 15,
+              }
+            }
+          />
+        </View>
+        <View
+          onLayout={[Function]}
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              null,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "width": 158,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "height": 100,
+                  "marginLeft": 16,
+                  "marginVertical": 8,
+                  "width": 158,
+                }
+              }
+            >
+              <View
+                accessibilityLabel="medium-category-card-container"
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                testID="medium-category-card-container"
+              >
+                <View
+                  accessibilityLabel="image-background-container"
+                  accessible={true}
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "transparent",
+                        "elevation": 3,
+                        "shadowColor": "#262C2F",
+                        "shadowOffset": Object {
+                          "height": 4,
+                          "width": 0,
+                        },
+                        "shadowOpacity": 0.1,
+                      },
+                      Object {
+                        "backgroundColor": "#0066CC",
+                        "overflow": "hidden",
+                      },
+                      Object {
+                        "borderBottomLeftRadius": 8,
+                        "borderBottomRightRadius": 8,
+                        "borderTopLeftRadius": 8,
+                        "borderTopRightRadius": 8,
+                        "height": 100,
+                        "width": "100%",
+                      },
+                    ]
+                  }
+                  testID="image-background-container"
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "overflow": "hidden",
+                        },
+                        Array [
+                          Object {
+                            "bottom": 0,
+                            "left": 0,
+                            "position": "absolute",
+                            "right": 0,
+                            "top": 0,
+                          },
+                          Object {
+                            "height": 100,
+                            "width": "100%",
+                          },
+                          undefined,
+                        ],
+                      ]
+                    }
+                  >
+                    <FastImageView
+                      accessibilityLabel="image-background-image"
+                      accessible={true}
+                      onFastImageError={[Function]}
+                      onFastImageLoadEnd={[Function]}
+                      onFastImageLoadStart={[Function]}
+                      resizeMode="cover"
+                      source={
+                        Object {
+                          "uri": "https://s3.amazonaws.com/raise-content/ibi/GameStop-Logo.png",
+                        }
+                      }
+                      style={
+                        Object {
+                          "bottom": 0,
+                          "left": 0,
+                          "position": "absolute",
+                          "right": 0,
+                          "top": 0,
+                        }
+                      }
+                      testID="image-background-image"
+                    />
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "alignItems": "stretch",
+                            "backgroundColor": "#262C2F45",
+                            "flexBasis": 0,
+                            "flexGrow": 1,
+                            "flexShrink": 1,
+                            "justifyContent": "center",
+                          },
+                          undefined,
+                        ]
+                      }
+                    >
+                      <Text
+                        ellipsizeMode="tail"
+                        numberOfLines={2}
+                        style={
+                          Array [
+                            Object {
+                              "color": "#909BA0",
+                              "fontFamily": "SFProDisplay-Medium",
+                              "fontSize": 16,
+                              "lineHeight": 22,
+                            },
+                            Array [
+                              Object {
+                                "color": "#FFFFFF",
+                                "fontFamily": "SFProDisplay-Heavy",
+                                "fontSize": 18,
+                                "paddingHorizontal": 20,
+                                "textAlign": "center",
+                              },
+                              undefined,
+                            ],
+                          ]
+                        }
+                      >
+                        
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</View>
+`;

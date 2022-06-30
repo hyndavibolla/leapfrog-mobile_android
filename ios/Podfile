@@ -1,0 +1,68 @@
+require_relative '../node_modules/react-native/scripts/react_native_pods'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+project './ShopYourWayMAX.xcodeproj'
+platform :ios, '11.0'
+install! 'cocoapods', :deterministic_uuids => false
+
+target 'ShopYourWayMAX' do
+  project 'ShopYourWayMAX',
+  'Debug' => :debug,
+  'QaDebug' => :debug,
+  'UatDebug' => :debug
+
+  config = use_native_modules!
+
+  # Flags change depending on the env values.
+  flags = get_default_flags()
+
+  rn_maps_path = '../node_modules/react-native-maps'
+  rn_tealium_path = '../node_modules/tealium-react-native/tealium-react-native-swift.podspec'
+  pod 'react-native-google-maps', :path => rn_maps_path
+  pod "Button", "6.31.0"
+  pod 'SailthruMobile', '~> 12.1.1'
+  pod 'ForterSDK', :git => 'https://forter-mobile-git:zvGKcVtDhkfj4asNekSn@bitbucket.org/forter-mobile/forter-ios-sdk.git', :tag => 'v2.1.5'
+  pod 'rzero', :git => 'https://rzero_sdk_user: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@github.com/rzero-co/ios-sdk.git'
+  pod 'tealium-react-native-swift', :path => rn_tealium_path
+  use_react_native!(
+    :path => config[:reactNativePath],
+    # to enable hermes on iOS, change `false` to `true` and then install pods
+    :hermes_enabled => flags[:hermes_enabled],
+    :fabric_enabled => flags[:fabric_enabled],
+    # An absolute path to your application root.
+    :app_path => "#{Pod::Config.instance.installation_root}/.."
+  )
+
+  target 'ShopYourWayMAXTests' do
+    inherit! :complete
+    # Pods for testing
+  end
+
+  # Enables Flipper.
+  #
+  # Note that if you have use_frameworks! enabled, Flipper will not work and
+  # you should disable these next few lines.
+  use_flipper!(configurations: ['Debug', 'UatDebug', 'QaDebug', 'DevDebug', 'Release', 'UatRelease', 'QaRelease', 'DevRelease'])
+  post_install do |installer|
+    flipper_post_install(installer)
+    __apply_Xcode_12_5_M1_post_install_workaround(installer)
+
+    installer.pods_project.targets.each do |t|
+      t.build_configurations.each do |config|
+        case t.name
+        when 'RCT-Folly'
+          config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '9.0'
+        else
+          config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '11.0'
+        end
+      end
+    end
+  end
+
+  permissions_path = '../node_modules/react-native-permissions/ios'
+
+  pod 'Permission-LocationAccuracy', :path => "#{permissions_path}/LocationAccuracy"
+  pod 'Permission-LocationAlways', :path => "#{permissions_path}/LocationAlways"
+  pod 'Permission-LocationWhenInUse', :path => "#{permissions_path}/LocationWhenInUse"
+  pod 'Permission-Notifications', :path => "#{permissions_path}/Notifications"
+end
+

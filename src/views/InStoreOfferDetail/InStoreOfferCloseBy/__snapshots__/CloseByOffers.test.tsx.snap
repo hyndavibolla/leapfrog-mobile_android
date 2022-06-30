@@ -1,0 +1,1597 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Close By Offers should render close by offers with activated status 1`] = `
+Array [
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "marginBottom": 8,
+        "marginTop": 28,
+      }
+    }
+  >
+    <Text
+      accessibilityLabel="in-store-offer-close-by-title"
+      accessible={true}
+      style={
+        Object {
+          "fontFamily": "SFProDisplay-Bold",
+          "fontSize": 16,
+          "lineHeight": 24,
+        }
+      }
+      testID="in-store-offer-close-by-title"
+    >
+      Other options close by
+    </Text>
+    <View
+      accessibilityLabel="in-store-offer-close-by-web-url"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "flex-end",
+          "flexGrow": 1,
+          "opacity": 1,
+        }
+      }
+      testID="in-store-offer-close-by-web-url"
+    >
+      <Text
+        style={
+          Object {
+            "color": "#0066CC",
+            "fontFamily": "SFProDisplay-Bold",
+            "fontSize": 16,
+            "lineHeight": 24,
+          }
+        }
+      >
+        View on Map
+      </Text>
+    </View>
+  </View>,
+  <View
+    accessibilityLabel="nearby-in-store-offer-item"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="nearby-in-store-offer-item"
+  >
+    <View
+      accessibilityLabel="nearby-in-store-offer-offer"
+      accessible={true}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "flexDirection": "row",
+            "height": 75,
+            "justifyContent": "space-between",
+            "paddingBottom": 8,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 8,
+          },
+          Object {
+            "marginBottom": 4,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 4,
+          },
+        ]
+      }
+      testID="nearby-in-store-offer-offer"
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "paddingRight": 8,
+            "width": "50%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignSelf": "flex-start",
+              "borderBottomLeftRadius": 50,
+              "borderBottomRightRadius": 50,
+              "borderTopLeftRadius": 50,
+              "borderTopRightRadius": 50,
+              "marginRight": 8,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "height": 60,
+                  "width": 60,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "overflow": "hidden",
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "borderBottomLeftRadius": 60,
+                    "borderBottomRightRadius": 60,
+                    "borderTopLeftRadius": 60,
+                    "borderTopRightRadius": 60,
+                    "height": "100%",
+                    "justifyContent": "center",
+                    "width": "100%",
+                  },
+                ]
+              }
+            >
+              <FastImageView
+                accessibilityLabel="brand-logo-image"
+                accessible={true}
+                onFastImageError={[Function]}
+                onFastImageLoad={[Function]}
+                onFastImageLoadEnd={[Function]}
+                onFastImageLoadStart={[Function]}
+                resizeMode="cover"
+                source={
+                  Object {
+                    "priority": "high",
+                    "uri": "https://tentulogo.com/wp-content/uploads/2017/06/cocacola-logo.jpg",
+                  }
+                }
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+                testID="brand-logo-image"
+              />
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            numberOfLines={1}
+            style={
+              Object {
+                "color": "#262C2F",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "lineHeight": 24,
+              }
+            }
+          >
+            Coca-Cola
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-end",
+            "width": "50%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#F3EBF7",
+              "borderBottomLeftRadius": 3,
+              "borderBottomRightRadius": 3,
+              "borderTopLeftRadius": 3,
+              "borderTopRightRadius": 3,
+              "paddingBottom": 0,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 0,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-SemiBold",
+                  "fontSize": 12,
+                  "lineHeight": 18,
+                },
+                Object {
+                  "color": "#B361DF",
+                },
+              ]
+            }
+          >
+            0.2
+             miles away
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>,
+  <View
+    accessibilityLabel="nearby-in-store-offer-item"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="nearby-in-store-offer-item"
+  >
+    <View
+      accessibilityLabel="nearby-in-store-offer-offer"
+      accessible={true}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "flexDirection": "row",
+            "height": 75,
+            "justifyContent": "space-between",
+            "paddingBottom": 8,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 8,
+          },
+          Object {
+            "marginBottom": 4,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 4,
+          },
+        ]
+      }
+      testID="nearby-in-store-offer-offer"
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "paddingRight": 8,
+            "width": "50%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignSelf": "flex-start",
+              "borderBottomLeftRadius": 50,
+              "borderBottomRightRadius": 50,
+              "borderTopLeftRadius": 50,
+              "borderTopRightRadius": 50,
+              "marginRight": 8,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "height": 60,
+                  "width": 60,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "overflow": "hidden",
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "borderBottomLeftRadius": 60,
+                    "borderBottomRightRadius": 60,
+                    "borderTopLeftRadius": 60,
+                    "borderTopRightRadius": 60,
+                    "height": "100%",
+                    "justifyContent": "center",
+                    "width": "100%",
+                  },
+                ]
+              }
+            >
+              <FastImageView
+                accessibilityLabel="brand-logo-image"
+                accessible={true}
+                onFastImageError={[Function]}
+                onFastImageLoad={[Function]}
+                onFastImageLoadEnd={[Function]}
+                onFastImageLoadStart={[Function]}
+                resizeMode="cover"
+                source={
+                  Object {
+                    "priority": "high",
+                    "uri": "https://tentulogo.com/wp-content/uploads/2017/06/cocacola-logo.jpg",
+                  }
+                }
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+                testID="brand-logo-image"
+              />
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            numberOfLines={1}
+            style={
+              Object {
+                "color": "#262C2F",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "lineHeight": 24,
+              }
+            }
+          >
+            Coca-Cola
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-end",
+            "width": "50%",
+          }
+        }
+      >
+        <View
+          style={false}
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-SemiBold",
+                  "fontSize": 12,
+                  "lineHeight": 18,
+                },
+                false,
+              ]
+            }
+          >
+            0.2
+             miles away
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>,
+  <View
+    accessibilityLabel="nearby-in-store-offer-item"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="nearby-in-store-offer-item"
+  >
+    <View
+      accessibilityLabel="nearby-in-store-offer-offer"
+      accessible={true}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "flexDirection": "row",
+            "height": 75,
+            "justifyContent": "space-between",
+            "paddingBottom": 8,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 8,
+          },
+          Object {
+            "marginBottom": 4,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 4,
+          },
+        ]
+      }
+      testID="nearby-in-store-offer-offer"
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "paddingRight": 8,
+            "width": "50%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignSelf": "flex-start",
+              "borderBottomLeftRadius": 50,
+              "borderBottomRightRadius": 50,
+              "borderTopLeftRadius": 50,
+              "borderTopRightRadius": 50,
+              "marginRight": 8,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "height": 60,
+                  "width": 60,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "overflow": "hidden",
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "borderBottomLeftRadius": 60,
+                    "borderBottomRightRadius": 60,
+                    "borderTopLeftRadius": 60,
+                    "borderTopRightRadius": 60,
+                    "height": "100%",
+                    "justifyContent": "center",
+                    "width": "100%",
+                  },
+                ]
+              }
+            >
+              <FastImageView
+                accessibilityLabel="brand-logo-image"
+                accessible={true}
+                onFastImageError={[Function]}
+                onFastImageLoad={[Function]}
+                onFastImageLoadEnd={[Function]}
+                onFastImageLoadStart={[Function]}
+                resizeMode="cover"
+                source={
+                  Object {
+                    "priority": "high",
+                    "uri": "https://tentulogo.com/wp-content/uploads/2017/06/cocacola-logo.jpg",
+                  }
+                }
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+                testID="brand-logo-image"
+              />
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            numberOfLines={1}
+            style={
+              Object {
+                "color": "#262C2F",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "lineHeight": 24,
+              }
+            }
+          >
+            Coca-Cola
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-end",
+            "width": "50%",
+          }
+        }
+      >
+        <View
+          style={false}
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-SemiBold",
+                  "fontSize": 12,
+                  "lineHeight": 18,
+                },
+                false,
+              ]
+            }
+          >
+            0.2
+             miles away
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>,
+  <View
+    accessibilityLabel="nearby-in-store-offer-item"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="nearby-in-store-offer-item"
+  >
+    <View
+      accessibilityLabel="nearby-in-store-offer-offer"
+      accessible={true}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "flexDirection": "row",
+            "height": 75,
+            "justifyContent": "space-between",
+            "paddingBottom": 8,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 8,
+          },
+          Object {
+            "marginBottom": 4,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 4,
+          },
+        ]
+      }
+      testID="nearby-in-store-offer-offer"
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "paddingRight": 8,
+            "width": "50%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignSelf": "flex-start",
+              "borderBottomLeftRadius": 50,
+              "borderBottomRightRadius": 50,
+              "borderTopLeftRadius": 50,
+              "borderTopRightRadius": 50,
+              "marginRight": 8,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "height": 60,
+                  "width": 60,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "overflow": "hidden",
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "borderBottomLeftRadius": 60,
+                    "borderBottomRightRadius": 60,
+                    "borderTopLeftRadius": 60,
+                    "borderTopRightRadius": 60,
+                    "height": "100%",
+                    "justifyContent": "center",
+                    "width": "100%",
+                  },
+                ]
+              }
+            >
+              <FastImageView
+                accessibilityLabel="brand-logo-image"
+                accessible={true}
+                onFastImageError={[Function]}
+                onFastImageLoad={[Function]}
+                onFastImageLoadEnd={[Function]}
+                onFastImageLoadStart={[Function]}
+                resizeMode="cover"
+                source={
+                  Object {
+                    "priority": "high",
+                    "uri": "https://tentulogo.com/wp-content/uploads/2017/06/cocacola-logo.jpg",
+                  }
+                }
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+                testID="brand-logo-image"
+              />
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            numberOfLines={1}
+            style={
+              Object {
+                "color": "#262C2F",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "lineHeight": 24,
+              }
+            }
+          >
+            Coca-Cola
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-end",
+            "width": "50%",
+          }
+        }
+      >
+        <View
+          style={false}
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-SemiBold",
+                  "fontSize": 12,
+                  "lineHeight": 18,
+                },
+                false,
+              ]
+            }
+          >
+            0.2
+             miles away
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>,
+]
+`;
+
+exports[`Close By Offers should render the component and title correctly 1`] = `
+Array [
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "marginBottom": 8,
+        "marginTop": 28,
+      }
+    }
+  >
+    <Text
+      accessibilityLabel="in-store-offer-close-by-title"
+      accessible={true}
+      style={
+        Object {
+          "fontFamily": "SFProDisplay-Bold",
+          "fontSize": 16,
+          "lineHeight": 24,
+        }
+      }
+      testID="in-store-offer-close-by-title"
+    >
+      Other options close by
+    </Text>
+    <View
+      accessibilityLabel="in-store-offer-close-by-web-url"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "flex-end",
+          "flexGrow": 1,
+          "opacity": 1,
+        }
+      }
+      testID="in-store-offer-close-by-web-url"
+    >
+      <Text
+        style={
+          Object {
+            "color": "#0066CC",
+            "fontFamily": "SFProDisplay-Bold",
+            "fontSize": 16,
+            "lineHeight": 24,
+          }
+        }
+      >
+        View on Map
+      </Text>
+    </View>
+  </View>,
+  <View
+    accessibilityLabel="nearby-in-store-offer-item"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="nearby-in-store-offer-item"
+  >
+    <View
+      accessibilityLabel="nearby-in-store-offer-offer"
+      accessible={true}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "flexDirection": "row",
+            "height": 75,
+            "justifyContent": "space-between",
+            "paddingBottom": 8,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 8,
+          },
+          Object {
+            "marginBottom": 4,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 4,
+          },
+        ]
+      }
+      testID="nearby-in-store-offer-offer"
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "paddingRight": 8,
+            "width": "50%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignSelf": "flex-start",
+              "borderBottomLeftRadius": 50,
+              "borderBottomRightRadius": 50,
+              "borderTopLeftRadius": 50,
+              "borderTopRightRadius": 50,
+              "marginRight": 8,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "height": 60,
+                  "width": 60,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "overflow": "hidden",
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "borderBottomLeftRadius": 60,
+                    "borderBottomRightRadius": 60,
+                    "borderTopLeftRadius": 60,
+                    "borderTopRightRadius": 60,
+                    "height": "100%",
+                    "justifyContent": "center",
+                    "width": "100%",
+                  },
+                ]
+              }
+            >
+              <FastImageView
+                accessibilityLabel="brand-logo-image"
+                accessible={true}
+                onFastImageError={[Function]}
+                onFastImageLoad={[Function]}
+                onFastImageLoadEnd={[Function]}
+                onFastImageLoadStart={[Function]}
+                resizeMode="cover"
+                source={
+                  Object {
+                    "priority": "high",
+                    "uri": "https://tentulogo.com/wp-content/uploads/2017/06/cocacola-logo.jpg",
+                  }
+                }
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+                testID="brand-logo-image"
+              />
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            numberOfLines={1}
+            style={
+              Object {
+                "color": "#262C2F",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "lineHeight": 24,
+              }
+            }
+          >
+            Coca-Cola
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-end",
+            "width": "50%",
+          }
+        }
+      >
+        <View
+          style={false}
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-SemiBold",
+                  "fontSize": 12,
+                  "lineHeight": 18,
+                },
+                false,
+              ]
+            }
+          >
+            0.2
+             miles away
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>,
+  <View
+    accessibilityLabel="nearby-in-store-offer-item"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="nearby-in-store-offer-item"
+  >
+    <View
+      accessibilityLabel="nearby-in-store-offer-offer"
+      accessible={true}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "flexDirection": "row",
+            "height": 75,
+            "justifyContent": "space-between",
+            "paddingBottom": 8,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 8,
+          },
+          Object {
+            "marginBottom": 4,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 4,
+          },
+        ]
+      }
+      testID="nearby-in-store-offer-offer"
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "paddingRight": 8,
+            "width": "50%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignSelf": "flex-start",
+              "borderBottomLeftRadius": 50,
+              "borderBottomRightRadius": 50,
+              "borderTopLeftRadius": 50,
+              "borderTopRightRadius": 50,
+              "marginRight": 8,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "height": 60,
+                  "width": 60,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "overflow": "hidden",
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "borderBottomLeftRadius": 60,
+                    "borderBottomRightRadius": 60,
+                    "borderTopLeftRadius": 60,
+                    "borderTopRightRadius": 60,
+                    "height": "100%",
+                    "justifyContent": "center",
+                    "width": "100%",
+                  },
+                ]
+              }
+            >
+              <FastImageView
+                accessibilityLabel="brand-logo-image"
+                accessible={true}
+                onFastImageError={[Function]}
+                onFastImageLoad={[Function]}
+                onFastImageLoadEnd={[Function]}
+                onFastImageLoadStart={[Function]}
+                resizeMode="cover"
+                source={
+                  Object {
+                    "priority": "high",
+                    "uri": "https://tentulogo.com/wp-content/uploads/2017/06/cocacola-logo.jpg",
+                  }
+                }
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+                testID="brand-logo-image"
+              />
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            numberOfLines={1}
+            style={
+              Object {
+                "color": "#262C2F",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "lineHeight": 24,
+              }
+            }
+          >
+            Coca-Cola
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-end",
+            "width": "50%",
+          }
+        }
+      >
+        <View
+          style={false}
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-SemiBold",
+                  "fontSize": 12,
+                  "lineHeight": 18,
+                },
+                false,
+              ]
+            }
+          >
+            0.2
+             miles away
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>,
+  <View
+    accessibilityLabel="nearby-in-store-offer-item"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="nearby-in-store-offer-item"
+  >
+    <View
+      accessibilityLabel="nearby-in-store-offer-offer"
+      accessible={true}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "flexDirection": "row",
+            "height": 75,
+            "justifyContent": "space-between",
+            "paddingBottom": 8,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 8,
+          },
+          Object {
+            "marginBottom": 4,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 4,
+          },
+        ]
+      }
+      testID="nearby-in-store-offer-offer"
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "paddingRight": 8,
+            "width": "50%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignSelf": "flex-start",
+              "borderBottomLeftRadius": 50,
+              "borderBottomRightRadius": 50,
+              "borderTopLeftRadius": 50,
+              "borderTopRightRadius": 50,
+              "marginRight": 8,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "height": 60,
+                  "width": 60,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "overflow": "hidden",
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "borderBottomLeftRadius": 60,
+                    "borderBottomRightRadius": 60,
+                    "borderTopLeftRadius": 60,
+                    "borderTopRightRadius": 60,
+                    "height": "100%",
+                    "justifyContent": "center",
+                    "width": "100%",
+                  },
+                ]
+              }
+            >
+              <FastImageView
+                accessibilityLabel="brand-logo-image"
+                accessible={true}
+                onFastImageError={[Function]}
+                onFastImageLoad={[Function]}
+                onFastImageLoadEnd={[Function]}
+                onFastImageLoadStart={[Function]}
+                resizeMode="cover"
+                source={
+                  Object {
+                    "priority": "high",
+                    "uri": "https://tentulogo.com/wp-content/uploads/2017/06/cocacola-logo.jpg",
+                  }
+                }
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+                testID="brand-logo-image"
+              />
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            numberOfLines={1}
+            style={
+              Object {
+                "color": "#262C2F",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "lineHeight": 24,
+              }
+            }
+          >
+            Coca-Cola
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-end",
+            "width": "50%",
+          }
+        }
+      >
+        <View
+          style={false}
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-SemiBold",
+                  "fontSize": 12,
+                  "lineHeight": 18,
+                },
+                false,
+              ]
+            }
+          >
+            0.2
+             miles away
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>,
+  <View
+    accessibilityLabel="nearby-in-store-offer-item"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="nearby-in-store-offer-item"
+  >
+    <View
+      accessibilityLabel="nearby-in-store-offer-offer"
+      accessible={true}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "flexDirection": "row",
+            "height": 75,
+            "justifyContent": "space-between",
+            "paddingBottom": 8,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 8,
+          },
+          Object {
+            "marginBottom": 4,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 4,
+          },
+        ]
+      }
+      testID="nearby-in-store-offer-offer"
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "paddingRight": 8,
+            "width": "50%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignSelf": "flex-start",
+              "borderBottomLeftRadius": 50,
+              "borderBottomRightRadius": 50,
+              "borderTopLeftRadius": 50,
+              "borderTopRightRadius": 50,
+              "marginRight": 8,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "height": 60,
+                  "width": 60,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "overflow": "hidden",
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "borderBottomLeftRadius": 60,
+                    "borderBottomRightRadius": 60,
+                    "borderTopLeftRadius": 60,
+                    "borderTopRightRadius": 60,
+                    "height": "100%",
+                    "justifyContent": "center",
+                    "width": "100%",
+                  },
+                ]
+              }
+            >
+              <FastImageView
+                accessibilityLabel="brand-logo-image"
+                accessible={true}
+                onFastImageError={[Function]}
+                onFastImageLoad={[Function]}
+                onFastImageLoadEnd={[Function]}
+                onFastImageLoadStart={[Function]}
+                resizeMode="cover"
+                source={
+                  Object {
+                    "priority": "high",
+                    "uri": "https://tentulogo.com/wp-content/uploads/2017/06/cocacola-logo.jpg",
+                  }
+                }
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+                testID="brand-logo-image"
+              />
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            numberOfLines={1}
+            style={
+              Object {
+                "color": "#262C2F",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "lineHeight": 24,
+              }
+            }
+          >
+            Coca-Cola
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-end",
+            "width": "50%",
+          }
+        }
+      >
+        <View
+          style={false}
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-SemiBold",
+                  "fontSize": 12,
+                  "lineHeight": 18,
+                },
+                false,
+              ]
+            }
+          >
+            0.2
+             miles away
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>,
+]
+`;

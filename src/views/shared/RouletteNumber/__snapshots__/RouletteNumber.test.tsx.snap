@@ -1,0 +1,4567 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pill should render 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+      },
+      Object {
+        "paddingBottom": 5,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "height": 20,
+          "overflow": "hidden",
+        },
+        Object {
+          "marginRight": 0,
+        },
+      ]
+    }
+  >
+    <div
+      duration={2000}
+      style={
+        Array [
+          Object {
+            "top": 0,
+          },
+          Object {
+            "top": -20,
+          },
+        ]
+      }
+      transition="top"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        0
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        1
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        2
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        3
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        4
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        5
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        6
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        7
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        8
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        9
+      </Text>
+    </div>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "height": 20,
+          "overflow": "hidden",
+        },
+        Object {
+          "marginRight": 0,
+        },
+      ]
+    }
+  >
+    <div
+      duration={2000}
+      style={
+        Array [
+          Object {
+            "top": 0,
+          },
+          Object {
+            "top": -0,
+          },
+        ]
+      }
+      transition="top"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        0
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        1
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        2
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        3
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        4
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        5
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        6
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        7
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        8
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        9
+      </Text>
+    </div>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "height": 20,
+          "overflow": "hidden",
+        },
+        Object {
+          "marginRight": 0,
+        },
+      ]
+    }
+  >
+    <div
+      duration={2000}
+      style={
+        Array [
+          Object {
+            "top": 0,
+          },
+          Object {
+            "top": -0,
+          },
+        ]
+      }
+      transition="top"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        ,
+        0
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        ,
+        1
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        ,
+        2
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        ,
+        3
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        ,
+        4
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        ,
+        5
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        ,
+        6
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        ,
+        7
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        ,
+        8
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        ,
+        9
+      </Text>
+    </div>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "height": 20,
+          "overflow": "hidden",
+        },
+        Object {
+          "marginRight": 0,
+        },
+      ]
+    }
+  >
+    <div
+      duration={2000}
+      style={
+        Array [
+          Object {
+            "top": 0,
+          },
+          Object {
+            "top": -0,
+          },
+        ]
+      }
+      transition="top"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        0
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        1
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        2
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        3
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        4
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        5
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        6
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        7
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        8
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        9
+      </Text>
+    </div>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "height": 20,
+          "overflow": "hidden",
+        },
+        Object {
+          "marginRight": 0,
+        },
+      ]
+    }
+  >
+    <div
+      duration={2000}
+      style={
+        Array [
+          Object {
+            "top": 0,
+          },
+          Object {
+            "top": -0,
+          },
+        ]
+      }
+      transition="top"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        0
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        1
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        2
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        3
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        4
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        5
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        6
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        7
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        8
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        9
+      </Text>
+    </div>
+  </View>
+</View>
+`;
+
+exports[`Pill should render with invalid values 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+      },
+      Object {
+        "paddingBottom": 5,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "height": 20,
+          "overflow": "hidden",
+        },
+        Object {
+          "marginRight": 0,
+        },
+      ]
+    }
+  >
+    <div
+      duration={2000}
+      style={
+        Array [
+          Object {
+            "top": 0,
+          },
+          Object {
+            "top": -0,
+          },
+        ]
+      }
+      transition="top"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        0
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        1
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        2
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        3
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        4
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        5
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        6
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        7
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        8
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        9
+      </Text>
+    </div>
+  </View>
+</View>
+`;
+
+exports[`Pill should render with large numbers 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+      },
+      Object {
+        "paddingBottom": 5,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "height": 20,
+          "overflow": "hidden",
+        },
+        Object {
+          "marginRight": 0,
+        },
+      ]
+    }
+  >
+    <div
+      duration={2000}
+      style={
+        Array [
+          Object {
+            "top": 0,
+          },
+          Object {
+            "top": -20,
+          },
+        ]
+      }
+      transition="top"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        0
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        1
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        2
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        3
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        4
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        5
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        6
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        7
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        8
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        9
+      </Text>
+    </div>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "height": 20,
+          "overflow": "hidden",
+        },
+        Object {
+          "marginRight": 0,
+        },
+      ]
+    }
+  >
+    <div
+      duration={2000}
+      style={
+        Array [
+          Object {
+            "top": 0,
+          },
+          Object {
+            "top": -40,
+          },
+        ]
+      }
+      transition="top"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        0
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        1
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        2
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        3
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        4
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        5
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        6
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        7
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        8
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        9
+      </Text>
+    </div>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "height": 20,
+          "overflow": "hidden",
+        },
+        Object {
+          "marginRight": 0,
+        },
+      ]
+    }
+  >
+    <div
+      duration={2000}
+      style={
+        Array [
+          Object {
+            "top": 0,
+          },
+          Object {
+            "top": -60,
+          },
+        ]
+      }
+      transition="top"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        0
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        1
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        2
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        3
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        4
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        5
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        6
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        7
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        8
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        9
+      </Text>
+    </div>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "height": 20,
+          "overflow": "hidden",
+        },
+        Object {
+          "marginRight": 0,
+        },
+      ]
+    }
+  >
+    <div
+      duration={2000}
+      style={
+        Array [
+          Object {
+            "top": 0,
+          },
+          Object {
+            "top": -80,
+          },
+        ]
+      }
+      transition="top"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        ,
+        0
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        ,
+        1
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        ,
+        2
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        ,
+        3
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        ,
+        4
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        ,
+        5
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        ,
+        6
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        ,
+        7
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        ,
+        8
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        ,
+        9
+      </Text>
+    </div>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "height": 20,
+          "overflow": "hidden",
+        },
+        Object {
+          "marginRight": 0,
+        },
+      ]
+    }
+  >
+    <div
+      duration={2000}
+      style={
+        Array [
+          Object {
+            "top": 0,
+          },
+          Object {
+            "top": -100,
+          },
+        ]
+      }
+      transition="top"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        0
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        1
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        2
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        3
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        4
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        5
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        6
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        7
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        8
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        9
+      </Text>
+    </div>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "height": 20,
+          "overflow": "hidden",
+        },
+        Object {
+          "marginRight": 0,
+        },
+      ]
+    }
+  >
+    <div
+      duration={2000}
+      style={
+        Array [
+          Object {
+            "top": 0,
+          },
+          Object {
+            "top": -120,
+          },
+        ]
+      }
+      transition="top"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        0
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        1
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        2
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        3
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        4
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        5
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        6
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        7
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        8
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        9
+      </Text>
+    </div>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "height": 20,
+          "overflow": "hidden",
+        },
+        Object {
+          "marginRight": 0,
+        },
+      ]
+    }
+  >
+    <div
+      duration={2000}
+      style={
+        Array [
+          Object {
+            "top": 0,
+          },
+          Object {
+            "top": -140,
+          },
+        ]
+      }
+      transition="top"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        ,
+        0
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        ,
+        1
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        ,
+        2
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        ,
+        3
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        ,
+        4
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        ,
+        5
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        ,
+        6
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        ,
+        7
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        ,
+        8
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        ,
+        9
+      </Text>
+    </div>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "height": 20,
+          "overflow": "hidden",
+        },
+        Object {
+          "marginRight": 0,
+        },
+      ]
+    }
+  >
+    <div
+      duration={2000}
+      style={
+        Array [
+          Object {
+            "top": 0,
+          },
+          Object {
+            "top": -160,
+          },
+        ]
+      }
+      transition="top"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        0
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        1
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        2
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        3
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        4
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        5
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        6
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        7
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        8
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        9
+      </Text>
+    </div>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "height": 20,
+          "overflow": "hidden",
+        },
+        Object {
+          "marginRight": 0,
+        },
+      ]
+    }
+  >
+    <div
+      duration={2000}
+      style={
+        Array [
+          Object {
+            "top": 0,
+          },
+          Object {
+            "top": -180,
+          },
+        ]
+      }
+      transition="top"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        0
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        1
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        2
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        3
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        4
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        5
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        6
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        7
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        8
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        9
+      </Text>
+    </div>
+  </View>
+</View>
+`;
+
+exports[`Pill should render with over points 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+      },
+      Object {
+        "paddingBottom": 5,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "height": 20,
+          "overflow": "hidden",
+        },
+        Object {
+          "marginRight": 0,
+        },
+      ]
+    }
+  >
+    <div
+      duration={2000}
+      style={
+        Array [
+          Object {
+            "top": 0,
+          },
+          Object {
+            "top": -0,
+          },
+        ]
+      }
+      transition="top"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        -
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        -
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        -
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        -
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        -
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        -
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        -
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        -
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        -
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#02AEEF",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 14,
+                "fontWeight": "700",
+                "height": 20,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        -
+      </Text>
+    </div>
+  </View>
+</View>
+`;

@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expandable Text Component should render 1`] = `
+<View
+  accessibilityLabel="expandable-text-container"
+  accessible={true}
+  collapsable={false}
+  style={
+    Object {
+      "borderBottomColor": "#EBEDF2",
+      "borderBottomWidth": 1,
+      "borderStyle": "solid",
+      "borderTopColor": "#EBEDF2",
+      "borderTopWidth": 1,
+      "flexDirection": "column",
+      "height": 120,
+      "overflow": "hidden",
+      "paddingBottom": 20,
+      "paddingLeft": 20,
+      "paddingRight": 20,
+      "paddingTop": 20,
+    }
+  }
+  testID="expandable-text-container"
+>
+  <Text
+    accessibilityLabel="expandable-text-text"
+    accessible={true}
+    numberOfLines={3}
+    onLayout={[Function]}
+    onTextLayout={[Function]}
+    style={
+      Object {
+        "color": "#909BA0",
+        "fontFamily": "SFProDisplay-Medium",
+        "fontSize": 14,
+        "lineHeight": 22,
+      }
+    }
+    testID="expandable-text-text"
+  >
+    some text
+  </Text>
+</View>
+`;

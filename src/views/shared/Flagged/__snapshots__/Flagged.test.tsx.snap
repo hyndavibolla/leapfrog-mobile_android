@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Flagged should show features depending on the env 1`] = `
+<View>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#909BA0",
+          "fontFamily": "SFProDisplay-Medium",
+          "fontSize": 16,
+          "lineHeight": 22,
+        },
+        undefined,
+      ]
+    }
+  >
+    this should be on the snap
+  </Text>
+</View>
+`;

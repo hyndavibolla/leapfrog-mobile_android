@@ -1,0 +1,12 @@
+<svg width="81" height="81" viewBox="0 0 81 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <ellipse opacity="0.1" cx="40.6851" cy="40.209" rx="40" ry="40" fill="#E02020" />
+  <mask id="mask0_1852:8693" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="81" height="81">
+    <ellipse cx="40.6851" cy="40.209" rx="40" ry="40" fill="white" />
+  </mask>
+  <g mask="url(#mask0_1852:8693)">
+    <rect x="15.7439" y="17.1504" width="107.294" height="47.0588" rx="23.5294" fill="#E02020" />
+  </g>
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M66 49.4286V30.5714C66 29.7036 65.2837 29 64.4 29H35.6C34.7163 29 34 29.7036 34 30.5714V49.4286C34 50.2964 34.7163 51 35.6 51H64.4C65.2837 51 66 50.2964 66 49.4286ZM40.4 33.7143H38.8V46.2857H40.4V33.7143ZM45.2 33.7143H42V46.2857H45.2V33.7143ZM46.8 46.2857H48.4V33.7143H46.8V46.2857ZM59.6 33.7143H61.2V46.2857H59.6V33.7143ZM50 33.7143H54.8V46.2857H50V33.7143ZM64.4 30.5714H35.6V49.4286H64.4V30.5714ZM56.4 33.7143H58V46.2857H56.4V33.7143Z"
+    fill="white" />
+</svg>

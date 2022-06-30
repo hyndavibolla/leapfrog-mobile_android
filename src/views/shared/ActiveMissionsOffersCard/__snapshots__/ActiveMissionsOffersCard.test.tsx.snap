@@ -1,0 +1,219 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Active Missions Offers Card should render 1`] = `
+<View
+  accessibilityLabel="active-missions-offers-card-container"
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "white",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "justifyContent": "center",
+        "marginBottom": 16,
+        "paddingBottom": 8,
+        "paddingLeft": 8,
+        "paddingRight": 8,
+        "paddingTop": 8,
+        "width": 104,
+      },
+      undefined,
+    ]
+  }
+  testID="active-missions-offers-card-container"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "height": 60,
+          "width": 60,
+        },
+        Object {
+          "marginBottom": 12,
+          "marginTop": 4,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "overflow": "hidden",
+          },
+          Object {
+            "alignItems": "center",
+            "borderBottomLeftRadius": 60,
+            "borderBottomRightRadius": 60,
+            "borderTopLeftRadius": 60,
+            "borderTopRightRadius": 60,
+            "height": "100%",
+            "justifyContent": "center",
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <FastImageView
+        accessibilityLabel="brand-logo-image"
+        accessible={true}
+        onFastImageError={[Function]}
+        onFastImageLoad={[Function]}
+        onFastImageLoadEnd={[Function]}
+        onFastImageLoadStart={[Function]}
+        resizeMode="cover"
+        source={
+          Object {
+            "priority": "high",
+            "uri": "https://www.movistar.es/estaticos/img/ico-app-mi-movistar-2017.png",
+          }
+        }
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        testID="brand-logo-image"
+      />
+    </View>
+  </View>
+  <View
+    accessibilityLabel="pill-container"
+    accessible={true}
+    style={
+      Array [
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#DDE8F5",
+            "borderBottomLeftRadius": 20,
+            "borderBottomRightRadius": 20,
+            "borderTopLeftRadius": 20,
+            "borderTopRightRadius": 20,
+            "flexDirection": "row",
+            "paddingLeft": 4,
+            "paddingRight": 10,
+          },
+          Object {
+            "height": 24,
+          },
+        ],
+        Array [
+          undefined,
+        ],
+        undefined,
+      ]
+    }
+    testID="pill-container"
+  >
+    <View
+      accessibilityLabel="pill-icon"
+      accessible={true}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderBottomLeftRadius": 50,
+            "borderBottomRightRadius": 50,
+            "borderTopLeftRadius": 50,
+            "borderTopRightRadius": 50,
+            "justifyContent": "center",
+          },
+          undefined,
+        ]
+      }
+      testID="pill-icon"
+    >
+      <Text
+        accessibilityLabel="icon-text"
+        accessible={true}
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          Array [
+            Object {
+              "color": "#0066CC",
+              "fontSize": 18,
+            },
+            undefined,
+            Object {
+              "fontFamily": "sywmax",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+        testID="icon-text"
+      >
+        
+      </Text>
+    </View>
+    <Text
+      accessibilityLabel="pill-text"
+      accessible={true}
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          Array [
+            Object {
+              "paddingLeft": 4,
+            },
+            Array [
+              Object {
+                "color": "#0066CC",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 14,
+              },
+              Object {
+                "lineHeight": 18,
+              },
+              undefined,
+            ],
+          ],
+        ]
+      }
+      testID="pill-text"
+    >
+      200
+    </Text>
+  </View>
+  <Text
+    style={
+      Object {
+        "color": "#909BA0",
+        "fontFamily": "SFProDisplay-Bold",
+        "fontSize": 10,
+        "lineHeight": 14,
+        "marginTop": 4,
+        "textTransform": "uppercase",
+      }
+    }
+  >
+    
+  </Text>
+</View>
+`;

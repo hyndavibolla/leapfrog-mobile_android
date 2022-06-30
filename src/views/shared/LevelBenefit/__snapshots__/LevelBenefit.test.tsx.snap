@@ -1,0 +1,354 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LevelBenefit should render 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "marginBottom": 8,
+    }
+  }
+  testID="level-benefits-btn"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "elevation": 3,
+          "shadowColor": "#262C2F",
+          "shadowOffset": Object {
+            "height": 4,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+        },
+        Object {
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexDirection": "column",
+          "justifyContent": "space-between",
+          "paddingBottom": 20,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 20,
+        },
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "paddingBottom": 16,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 16,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "paddingBottom": 4,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "paddingTop": 4,
+          }
+        }
+      >
+        <Text
+          accessibilityLabel="icon-text"
+          accessible={true}
+          allowFontScaling={false}
+          selectable={false}
+          style={
+            Array [
+              Object {
+                "color": "#34C06B",
+                "fontSize": 20,
+              },
+              undefined,
+              Object {
+                "fontFamily": "sywmax",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          testID="icon-text"
+        >
+          
+        </Text>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "column",
+              "marginLeft": 4,
+            }
+          }
+        />
+      </View>
+      <Text
+        accessibilityLabel="icon-text"
+        accessible={true}
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontSize": 20,
+            },
+            undefined,
+            Object {
+              "fontFamily": "sywmax",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+        testID="icon-text"
+      >
+        
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`LevelBenefit should render boosted 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "marginBottom": 8,
+    }
+  }
+  testID="level-benefits-btn"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "elevation": 3,
+          "shadowColor": "#262C2F",
+          "shadowOffset": Object {
+            "height": 4,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+        },
+        Object {
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexDirection": "column",
+          "justifyContent": "space-between",
+          "paddingBottom": 20,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 20,
+        },
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "paddingBottom": 16,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 16,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "paddingBottom": 4,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "paddingTop": 4,
+          }
+        }
+      >
+        YellowStar
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "column",
+              "marginLeft": 4,
+            }
+          }
+        />
+      </View>
+      <Text
+        accessibilityLabel="icon-text"
+        accessible={true}
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontSize": 20,
+            },
+            undefined,
+            Object {
+              "fontFamily": "sywmax",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+        testID="icon-text"
+      >
+        
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`LevelBenefit should render without actions 1`] = `
+<View
+  accessible={true}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "marginBottom": 8,
+    }
+  }
+  testID="level-benefits-btn"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "elevation": 3,
+          "shadowColor": "#262C2F",
+          "shadowOffset": Object {
+            "height": 4,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+        },
+        Object {
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexDirection": "column",
+          "justifyContent": "space-between",
+          "paddingBottom": 20,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 20,
+        },
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "paddingBottom": 16,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 16,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "paddingBottom": 4,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "paddingTop": 4,
+          }
+        }
+      >
+        YellowStar
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "column",
+              "marginLeft": 4,
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+</View>
+`;

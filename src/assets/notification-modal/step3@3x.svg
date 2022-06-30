@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="35px" viewBox="0 0 35 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>95FCCAC2-1F5E-4B93-B699-845A4977F7BF@3x</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="35" height="35" rx="7"></rect>
+        <circle id="path-3" cx="24.5" cy="17.5" r="5.5"></circle>
+        <filter x="-81.8%" y="-63.6%" width="227.3%" height="227.3%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="-2" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.261460862   0 0 0 0 0.755831069   0 0 0 0 0.213758474  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="1.-Push-Notifications-Modal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Push-Notification-Banner---Recovery" transform="translate(-40.000000, -437.000000)">
+            <g id="Group-6" transform="translate(40.000000, 437.000000)">
+                <g id="Group-5">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+                    <rect id="Rectangle" fill="#50DE41" mask="url(#mask-2)" x="3" y="10" width="29" height="15" rx="7.5"></rect>
+                    <g id="Oval" mask="url(#mask-2)">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <circle stroke="#EAEAEA" stroke-width="0.5" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" cx="24.5" cy="17.5" r="5.25"></circle>
+                    </g>
+                </g>
+                <g id="Group-4" transform="translate(3.000000, 10.000000)"></g>
+            </g>
+        </g>
+    </g>
+</svg>

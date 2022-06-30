@@ -1,0 +1,599 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Toast should render a toast with component children 1`] = `
+<View
+  accessibilityLabel="toast-container"
+  accessible={true}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  testID="toast-container"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "zIndex": 900,
+        },
+        Object {
+          "bottom": 40,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flexBasis": 0,
+            "flexDirection": "row",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "space-between",
+          },
+          Object {
+            "backgroundColor": "#E02020",
+            "borderBottomLeftRadius": 5,
+            "borderBottomRightRadius": 5,
+            "borderTopLeftRadius": 5,
+            "borderTopRightRadius": 5,
+            "color": "#FFFFFF",
+            "paddingBottom": 12,
+            "paddingLeft": 20,
+            "paddingRight": 20,
+            "paddingTop": 12,
+            "width": "93%",
+          },
+          Object {
+            "backgroundColor": "#0066CC",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexBasis": 0,
+            "flexDirection": "row",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "maxWidth": "85%",
+          }
+        }
+      >
+        <View>
+          <Text
+            font="SFProDisplay-Bold"
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 16,
+                  "lineHeight": 22,
+                },
+                Array [
+                  Object {
+                    "fontSize": 18,
+                    "paddingBottom": 4,
+                  },
+                  Object {
+                    "color": "#FFFFFF",
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            Toast Title
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Medium",
+                  "fontSize": 16,
+                  "lineHeight": 22,
+                },
+                undefined,
+              ]
+            }
+          >
+            This is a component
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "marginLeft": 8,
+          }
+        }
+      >
+        CloseWhite
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Toast should render a toast without children 1`] = `
+<View
+  accessibilityLabel="toast-container"
+  accessible={true}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  testID="toast-container"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "zIndex": 900,
+        },
+        Object {
+          "bottom": 25,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flexBasis": 0,
+            "flexDirection": "row",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "space-between",
+          },
+          Object {
+            "backgroundColor": "#E02020",
+            "borderBottomLeftRadius": 5,
+            "borderBottomRightRadius": 5,
+            "borderTopLeftRadius": 5,
+            "borderTopRightRadius": 5,
+            "color": "#FFFFFF",
+            "paddingBottom": 12,
+            "paddingLeft": 20,
+            "paddingRight": 20,
+            "paddingTop": 12,
+            "width": "93%",
+          },
+          Object {
+            "backgroundColor": "#34C06B",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexBasis": 0,
+            "flexDirection": "row",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "maxWidth": "85%",
+          }
+        }
+      >
+        <View>
+          <Text
+            font="SFProDisplay-Bold"
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 16,
+                  "lineHeight": 22,
+                },
+                Array [
+                  Object {
+                    "fontSize": 18,
+                    "paddingBottom": 4,
+                  },
+                  Object {
+                    "color": "#FFFFFF",
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            Toast Title
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "marginLeft": 8,
+          }
+        }
+      >
+        CloseWhite
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Toast should render a warning toast with string children 1`] = `
+<View
+  accessibilityLabel="toast-container"
+  accessible={true}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  testID="toast-container"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "zIndex": 900,
+        },
+        Object {
+          "bottom": 25,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flexBasis": 0,
+            "flexDirection": "row",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "space-between",
+          },
+          Object {
+            "backgroundColor": "#E02020",
+            "borderBottomLeftRadius": 5,
+            "borderBottomRightRadius": 5,
+            "borderTopLeftRadius": 5,
+            "borderTopRightRadius": 5,
+            "color": "#FFFFFF",
+            "paddingBottom": 12,
+            "paddingLeft": 20,
+            "paddingRight": 20,
+            "paddingTop": 12,
+            "width": "93%",
+          },
+          Object {
+            "backgroundColor": "#FF5F00",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexBasis": 0,
+            "flexDirection": "row",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "maxWidth": "85%",
+          }
+        }
+      >
+        <View>
+          <Text
+            font="SFProDisplay-Bold"
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 16,
+                  "lineHeight": 22,
+                },
+                Array [
+                  Object {
+                    "fontSize": 18,
+                    "paddingBottom": 4,
+                  },
+                  Object {
+                    "color": "#FFFFFF",
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            Toast Title
+          </Text>
+          <Text
+            font="SFProDisplay-Bold"
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 16,
+                  "lineHeight": 22,
+                },
+                Array [
+                  Object {
+                    "fontSize": 16,
+                  },
+                  Object {
+                    "color": "#FFFFFF",
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            This is a string test
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "marginLeft": 8,
+          }
+        }
+      >
+        CloseWhite
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Toast should render without a close btn 1`] = `
+<View
+  accessibilityLabel="toast-container"
+  accessible={true}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  testID="toast-container"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "zIndex": 900,
+        },
+        Object {
+          "bottom": 25,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flexBasis": 0,
+            "flexDirection": "row",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "space-between",
+          },
+          Object {
+            "backgroundColor": "#E02020",
+            "borderBottomLeftRadius": 5,
+            "borderBottomRightRadius": 5,
+            "borderTopLeftRadius": 5,
+            "borderTopRightRadius": 5,
+            "color": "#FFFFFF",
+            "paddingBottom": 12,
+            "paddingLeft": 20,
+            "paddingRight": 20,
+            "paddingTop": 12,
+            "width": "93%",
+          },
+          Object {
+            "backgroundColor": "#34C06B",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexBasis": 0,
+            "flexDirection": "row",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "maxWidth": "85%",
+          }
+        }
+      >
+        <View>
+          <Text
+            font="SFProDisplay-Bold"
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 16,
+                  "lineHeight": 22,
+                },
+                Array [
+                  Object {
+                    "fontSize": 16,
+                  },
+                  Object {
+                    "color": "#FFFFFF",
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            Toast without a title
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Toast should render without a title 1`] = `
+<View
+  accessibilityLabel="toast-container"
+  accessible={true}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  testID="toast-container"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "zIndex": 900,
+        },
+        Object {
+          "bottom": 25,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flexBasis": 0,
+            "flexDirection": "row",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "space-between",
+          },
+          Object {
+            "backgroundColor": "#E02020",
+            "borderBottomLeftRadius": 5,
+            "borderBottomRightRadius": 5,
+            "borderTopLeftRadius": 5,
+            "borderTopRightRadius": 5,
+            "color": "#FFFFFF",
+            "paddingBottom": 12,
+            "paddingLeft": 20,
+            "paddingRight": 20,
+            "paddingTop": 12,
+            "width": "93%",
+          },
+          Object {
+            "backgroundColor": "#34C06B",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexBasis": 0,
+            "flexDirection": "row",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "maxWidth": "85%",
+          }
+        }
+      >
+        <View>
+          <Text
+            font="SFProDisplay-Bold"
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 16,
+                  "lineHeight": 22,
+                },
+                Array [
+                  Object {
+                    "fontSize": 16,
+                  },
+                  Object {
+                    "color": "#FFFFFF",
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            Toast without a title
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "marginLeft": 8,
+          }
+        }
+      >
+        CloseWhite
+      </View>
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DatePicker it should render 1`] = `
+Array [
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "elevation": 3,
+          "shadowColor": "#262C2F",
+          "shadowOffset": Object {
+            "height": 4,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+        },
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderBottomLeftRadius": 4,
+          "borderBottomRightRadius": 4,
+          "borderTopLeftRadius": 4,
+          "borderTopRightRadius": 4,
+          "width": "100%",
+        },
+        false,
+      ]
+    }
+  >
+    <TextInput
+      accessibilityLabel="date-picker-input"
+      accessible={true}
+      onChangeText={[Function]}
+      onPressIn={[Function]}
+      showSoftInputOnFocus={false}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "borderBottomLeftRadius": 4,
+            "borderBottomRightRadius": 4,
+            "borderColor": "transparent",
+            "borderStyle": "solid",
+            "borderTopLeftRadius": 4,
+            "borderTopRightRadius": 4,
+            "borderWidth": 1,
+            "paddingBottom": 15,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 15,
+            "width": "100%",
+          },
+          undefined,
+        ]
+      }
+      testID="date-picker-input"
+      value="Dec 31st, 1969"
+    />
+  </View>,
+  <Modal
+    animationType="none"
+    hardwareAccelerated={false}
+    isVisible={false}
+    onHide={[Function]}
+    transparent={true}
+    visible={false}
+  />,
+]
+`;
+
+exports[`DatePicker it should render invalid 1`] = `
+Array [
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "elevation": 3,
+          "shadowColor": "#262C2F",
+          "shadowOffset": Object {
+            "height": 4,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+        },
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderBottomLeftRadius": 4,
+          "borderBottomRightRadius": 4,
+          "borderTopLeftRadius": 4,
+          "borderTopRightRadius": 4,
+          "width": "100%",
+        },
+        false,
+      ]
+    }
+  >
+    <TextInput
+      accessibilityLabel="date-picker-input"
+      accessible={true}
+      isInvalid={true}
+      onChangeText={[Function]}
+      onPressIn={[Function]}
+      showSoftInputOnFocus={false}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "borderBottomLeftRadius": 4,
+            "borderBottomRightRadius": 4,
+            "borderColor": "#E02020",
+            "borderStyle": "solid",
+            "borderTopLeftRadius": 4,
+            "borderTopRightRadius": 4,
+            "borderWidth": 1,
+            "paddingBottom": 15,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 15,
+            "width": "100%",
+          },
+          undefined,
+        ]
+      }
+      testID="date-picker-input"
+      value=""
+    />
+  </View>,
+  <Modal
+    animationType="none"
+    hardwareAccelerated={false}
+    isVisible={false}
+    onHide={[Function]}
+    transparent={true}
+    visible={false}
+  />,
+]
+`;

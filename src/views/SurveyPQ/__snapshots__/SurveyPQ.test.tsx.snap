@@ -1,0 +1,1297 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SurveyPQ should render with some answers 1`] = `
+<RCTScrollView
+  accessibilityLabel="survey-pq-container"
+  accessible={true}
+  contentContainerStyle={
+    Object {
+      "backgroundColor": "#F5F7FA",
+      "flexGrow": 1,
+      "justifyContent": "space-between",
+    }
+  }
+  testID="survey-pq-container"
+>
+  <View>
+    <View
+      style={
+        Object {
+          "paddingBottom": 20,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 20,
+          "zIndex": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#262C2F",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 20,
+              "lineHeight": 30,
+            },
+            undefined,
+          ]
+        }
+        type="titleHeader"
+      >
+        Welcome to Surveys 🎉
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#909BA0",
+            "fontSize": 16,
+            "marginTop": 20,
+          }
+        }
+      >
+        First, we need some information so we can find the best surveys that match you!
+      </Text>
+      <View
+        accessibilityLabel="survey-pq-question"
+        accessible={true}
+        style={
+          Array [
+            Object {
+              "marginBottom": 24,
+              "marginLeft": 0,
+              "marginRight": 0,
+              "marginTop": 24,
+              "zIndex": 5,
+            },
+            Object {
+              "zIndex": 15,
+            },
+          ]
+        }
+        testID="survey-pq-question"
+      >
+        <Text
+          accessibilityLabel="survey-pq-text-label"
+          accessible={true}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 12,
+                "marginBottom": 4,
+                "marginLeft": 8,
+              },
+              false,
+            ]
+          }
+          testID="survey-pq-text-label"
+        >
+          Gender
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "elevation": 3,
+                "shadowColor": "#262C2F",
+                "shadowOffset": Object {
+                  "height": 4,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.1,
+              },
+              Object {
+                "backgroundColor": "#FFFFFF",
+                "borderBottomLeftRadius": 4,
+                "borderBottomRightRadius": 4,
+                "borderTopLeftRadius": 4,
+                "borderTopRightRadius": 4,
+                "width": "100%",
+              },
+              false,
+            ]
+          }
+        >
+          <TextInput
+            accessibilityLabel="select-input-input"
+            accessible={true}
+            onChangeText={[Function]}
+            onPressIn={[Function]}
+            placeholder=""
+            showSoftInputOnFocus={false}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "borderBottomLeftRadius": 4,
+                  "borderBottomRightRadius": 4,
+                  "borderColor": "transparent",
+                  "borderStyle": "solid",
+                  "borderTopLeftRadius": 4,
+                  "borderTopRightRadius": 4,
+                  "borderWidth": 1,
+                  "paddingBottom": 15,
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "paddingTop": 15,
+                  "width": "100%",
+                },
+                undefined,
+              ]
+            }
+            testID="select-input-input"
+            value="1983-07-15"
+          />
+        </View>
+        <div>
+          <View
+            style={
+              Object {
+                "height": 500,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "height": "100%",
+                  "paddingBottom": 16,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 16,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <View
+                  accessibilityLabel="select-input-cancel"
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                  testID="select-input-cancel"
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#0066CC",
+                          "borderBottomLeftRadius": 30,
+                          "borderBottomRightRadius": 30,
+                          "borderTopLeftRadius": 30,
+                          "borderTopRightRadius": 30,
+                          "flexDirection": "row",
+                          "justifyContent": "center",
+                          "paddingBottom": 8,
+                          "paddingLeft": 12,
+                          "paddingRight": 12,
+                          "paddingTop": 8,
+                        },
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={false}
+                    >
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": "#909BA0",
+                              "fontFamily": "SFProDisplay-Medium",
+                              "fontSize": 16,
+                              "lineHeight": 22,
+                            },
+                            Array [
+                              Object {
+                                "color": "#FFFFFF",
+                                "fontSize": 14,
+                                "textAlign": "center",
+                              },
+                              Object {
+                                "color": "#909BA0",
+                                "fontFamily": "SFProDisplay-Bold",
+                                "fontSize": 16,
+                              },
+                              undefined,
+                            ],
+                          ]
+                        }
+                      >
+                        Cancel
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  accessibilityLabel="select-input-confirm"
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                  testID="select-input-confirm"
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#0066CC",
+                          "borderBottomLeftRadius": 30,
+                          "borderBottomRightRadius": 30,
+                          "borderTopLeftRadius": 30,
+                          "borderTopRightRadius": 30,
+                          "flexDirection": "row",
+                          "justifyContent": "center",
+                          "paddingBottom": 8,
+                          "paddingLeft": 12,
+                          "paddingRight": 12,
+                          "paddingTop": 8,
+                        },
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={false}
+                    >
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": "#909BA0",
+                              "fontFamily": "SFProDisplay-Medium",
+                              "fontSize": 16,
+                              "lineHeight": 22,
+                            },
+                            Array [
+                              Object {
+                                "color": "#FFFFFF",
+                                "fontSize": 14,
+                                "textAlign": "center",
+                              },
+                              Object {
+                                "color": "#0066CC",
+                                "fontFamily": "SFProDisplay-Bold",
+                                "fontSize": 16,
+                              },
+                              undefined,
+                            ],
+                          ]
+                        }
+                      >
+                        Done
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <View>
+                <View>
+                  <RNCPicker
+                    items={
+                      Array [
+                        Object {
+                          "label": "Male",
+                          "textColor": undefined,
+                          "value": "A9CD00163E00113C11E41661ADAA1080",
+                        },
+                        Object {
+                          "label": "Female",
+                          "textColor": undefined,
+                          "value": "A9CD00163E00113C11E41661ADAD44D0",
+                        },
+                      ]
+                    }
+                    onChange={[Function]}
+                    selectedIndex={0}
+                    style={
+                      Array [
+                        Object {
+                          "height": 216,
+                        },
+                        undefined,
+                      ]
+                    }
+                    testID="select-input-picker"
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+        </div>
+      </View>
+      <View
+        accessibilityLabel="survey-pq-question"
+        accessible={true}
+        style={
+          Array [
+            Object {
+              "marginBottom": 24,
+              "marginLeft": 0,
+              "marginRight": 0,
+              "marginTop": 24,
+              "zIndex": 5,
+            },
+            false,
+          ]
+        }
+        testID="survey-pq-question"
+      >
+        <Text
+          accessibilityLabel="survey-pq-text-label"
+          accessible={true}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 12,
+                "marginBottom": 4,
+                "marginLeft": 8,
+              },
+              false,
+            ]
+          }
+          testID="survey-pq-text-label"
+        >
+          Zip code
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "elevation": 3,
+                "shadowColor": "#262C2F",
+                "shadowOffset": Object {
+                  "height": 4,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.1,
+              },
+              Object {
+                "backgroundColor": "#FFFFFF",
+                "borderBottomLeftRadius": 4,
+                "borderBottomRightRadius": 4,
+                "borderTopLeftRadius": 4,
+                "borderTopRightRadius": 4,
+                "width": "100%",
+              },
+              false,
+            ]
+          }
+        >
+          <TextInput
+            accessibilityLabel="survey-pq-text-input"
+            accessible={true}
+            errorText="Invalid zip code"
+            isModeUpdate={true}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onChangeValidate={[Function]}
+            onFocus={[Function]}
+            pattern="^[a-z]+$"
+            placeholder=""
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "borderBottomLeftRadius": 4,
+                  "borderBottomRightRadius": 4,
+                  "borderColor": "transparent",
+                  "borderStyle": "solid",
+                  "borderTopLeftRadius": 4,
+                  "borderTopRightRadius": 4,
+                  "borderWidth": 1,
+                  "paddingBottom": 15,
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "paddingTop": 15,
+                  "width": "100%",
+                },
+                undefined,
+              ]
+            }
+            testID="survey-pq-text-input"
+            typePattern="Text"
+          />
+        </View>
+      </View>
+      <View
+        accessibilityLabel="survey-pq-question"
+        accessible={true}
+        style={
+          Array [
+            Object {
+              "marginBottom": 24,
+              "marginLeft": 0,
+              "marginRight": 0,
+              "marginTop": 24,
+              "zIndex": 5,
+            },
+            false,
+          ]
+        }
+        testID="survey-pq-question"
+      >
+        <Text
+          accessibilityLabel="survey-pq-text-label"
+          accessible={true}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 12,
+                "marginBottom": 4,
+                "marginLeft": 8,
+              },
+              false,
+            ]
+          }
+          testID="survey-pq-text-label"
+        >
+          Date of Birth
+          <Text
+            style={
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 12,
+                "marginBottom": 4,
+                "marginLeft": 8,
+              }
+            }
+          >
+             ()
+          </Text>
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "elevation": 3,
+                "shadowColor": "#262C2F",
+                "shadowOffset": Object {
+                  "height": 4,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.1,
+              },
+              Object {
+                "backgroundColor": "#FFFFFF",
+                "borderBottomLeftRadius": 4,
+                "borderBottomRightRadius": 4,
+                "borderTopLeftRadius": 4,
+                "borderTopRightRadius": 4,
+                "width": "100%",
+              },
+              Object {
+                "borderColor": "#E02020",
+                "borderStyle": "solid",
+                "borderWidth": 1,
+              },
+            ]
+          }
+        >
+          <TextInput
+            accessibilityLabel="survey-pq-text-input"
+            accessible={true}
+            errorText="Invalid date of birth"
+            isModeUpdate={true}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onChangeValidate={[Function]}
+            onFocus={[Function]}
+            placeholder=""
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "borderBottomLeftRadius": 4,
+                  "borderBottomRightRadius": 4,
+                  "borderColor": "transparent",
+                  "borderStyle": "solid",
+                  "borderTopLeftRadius": 4,
+                  "borderTopRightRadius": 4,
+                  "borderWidth": 1,
+                  "paddingBottom": 15,
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "paddingTop": 15,
+                  "width": "100%",
+                },
+                undefined,
+              ]
+            }
+            testID="survey-pq-text-input"
+            typePattern=""
+            value="1983-07-15"
+          />
+        </View>
+        <Text
+          accessibilityLabel="text-input-text"
+          accessible={true}
+          style={
+            Object {
+              "color": "#E02020",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 12,
+              "paddingHorizontal": 8,
+              "paddingTop": 4,
+            }
+          }
+          testID="text-input-text"
+        >
+          Invalid date of birth
+        </Text>
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 14,
+            "marginTop": 20,
+            "textAlign": "center",
+          }
+        }
+      >
+        🔐 Your data and answers are confidential. We do not collect or share identifying information about you
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "paddingVertical": 20,
+          "zIndex": -1,
+        }
+      }
+    >
+      <View>
+        <View
+          accessibilityLabel="survey-pq-take-a-survey-btn"
+          accessibilityState={
+            Object {
+              "disabled": true,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+          testID="survey-pq-take-a-survey-btn"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#0066CC",
+                  "borderBottomLeftRadius": 30,
+                  "borderBottomRightRadius": 30,
+                  "borderTopLeftRadius": 30,
+                  "borderTopRightRadius": 30,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "paddingBottom": 8,
+                  "paddingLeft": 12,
+                  "paddingRight": 12,
+                  "paddingTop": 8,
+                },
+                Array [
+                  Object {
+                    "alignSelf": "center",
+                    "paddingBottom": 0,
+                    "paddingLeft": 40,
+                    "paddingRight": 40,
+                    "paddingTop": 0,
+                    "width": "100%",
+                  },
+                  Object {
+                    "paddingBottom": 16,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "paddingTop": 16,
+                  },
+                ],
+                Object {
+                  "opacity": 0.5,
+                },
+              ]
+            }
+          >
+            <View
+              style={false}
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#909BA0",
+                      "fontFamily": "SFProDisplay-Medium",
+                      "fontSize": 16,
+                      "lineHeight": 22,
+                    },
+                    Array [
+                      Object {
+                        "color": "#FFFFFF",
+                        "fontSize": 14,
+                        "textAlign": "center",
+                      },
+                      Object {
+                        "fontFamily": "SFProDisplay-Bold",
+                        "fontSize": 18,
+                      },
+                      undefined,
+                    ],
+                  ]
+                }
+              >
+                Take a survey!
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`SurveyPQ should render without answers 1`] = `
+<RCTScrollView
+  accessibilityLabel="survey-pq-container"
+  accessible={true}
+  contentContainerStyle={
+    Object {
+      "backgroundColor": "#F5F7FA",
+      "flexGrow": 1,
+      "justifyContent": "space-between",
+    }
+  }
+  testID="survey-pq-container"
+>
+  <View>
+    <View
+      style={
+        Object {
+          "paddingBottom": 20,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 20,
+          "zIndex": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#262C2F",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 20,
+              "lineHeight": 30,
+            },
+            undefined,
+          ]
+        }
+        type="titleHeader"
+      >
+        Welcome to Surveys 🎉
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#909BA0",
+            "fontSize": 16,
+            "marginTop": 20,
+          }
+        }
+      >
+        First, we need some information so we can find the best surveys that match you!
+      </Text>
+      <View
+        accessibilityLabel="survey-pq-question"
+        accessible={true}
+        style={
+          Array [
+            Object {
+              "marginBottom": 24,
+              "marginLeft": 0,
+              "marginRight": 0,
+              "marginTop": 24,
+              "zIndex": 5,
+            },
+            Object {
+              "zIndex": 15,
+            },
+          ]
+        }
+        testID="survey-pq-question"
+      >
+        <Text
+          accessibilityLabel="survey-pq-text-label"
+          accessible={true}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 12,
+                "marginBottom": 4,
+                "marginLeft": 8,
+              },
+              false,
+            ]
+          }
+          testID="survey-pq-text-label"
+        >
+          Gender
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "elevation": 3,
+                "shadowColor": "#262C2F",
+                "shadowOffset": Object {
+                  "height": 4,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.1,
+              },
+              Object {
+                "backgroundColor": "#FFFFFF",
+                "borderBottomLeftRadius": 4,
+                "borderBottomRightRadius": 4,
+                "borderTopLeftRadius": 4,
+                "borderTopRightRadius": 4,
+                "width": "100%",
+              },
+              false,
+            ]
+          }
+        >
+          <TextInput
+            accessibilityLabel="select-input-input"
+            accessible={true}
+            onChangeText={[Function]}
+            onPressIn={[Function]}
+            placeholder=""
+            showSoftInputOnFocus={false}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "borderBottomLeftRadius": 4,
+                  "borderBottomRightRadius": 4,
+                  "borderColor": "transparent",
+                  "borderStyle": "solid",
+                  "borderTopLeftRadius": 4,
+                  "borderTopRightRadius": 4,
+                  "borderWidth": 1,
+                  "paddingBottom": 15,
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "paddingTop": 15,
+                  "width": "100%",
+                },
+                undefined,
+              ]
+            }
+            testID="select-input-input"
+            value=""
+          />
+        </View>
+        <div>
+          <View
+            style={
+              Object {
+                "height": 500,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "height": "100%",
+                  "paddingBottom": 16,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 16,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <View
+                  accessibilityLabel="select-input-cancel"
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                  testID="select-input-cancel"
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#0066CC",
+                          "borderBottomLeftRadius": 30,
+                          "borderBottomRightRadius": 30,
+                          "borderTopLeftRadius": 30,
+                          "borderTopRightRadius": 30,
+                          "flexDirection": "row",
+                          "justifyContent": "center",
+                          "paddingBottom": 8,
+                          "paddingLeft": 12,
+                          "paddingRight": 12,
+                          "paddingTop": 8,
+                        },
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={false}
+                    >
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": "#909BA0",
+                              "fontFamily": "SFProDisplay-Medium",
+                              "fontSize": 16,
+                              "lineHeight": 22,
+                            },
+                            Array [
+                              Object {
+                                "color": "#FFFFFF",
+                                "fontSize": 14,
+                                "textAlign": "center",
+                              },
+                              Object {
+                                "color": "#909BA0",
+                                "fontFamily": "SFProDisplay-Bold",
+                                "fontSize": 16,
+                              },
+                              undefined,
+                            ],
+                          ]
+                        }
+                      >
+                        Cancel
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  accessibilityLabel="select-input-confirm"
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                  testID="select-input-confirm"
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#0066CC",
+                          "borderBottomLeftRadius": 30,
+                          "borderBottomRightRadius": 30,
+                          "borderTopLeftRadius": 30,
+                          "borderTopRightRadius": 30,
+                          "flexDirection": "row",
+                          "justifyContent": "center",
+                          "paddingBottom": 8,
+                          "paddingLeft": 12,
+                          "paddingRight": 12,
+                          "paddingTop": 8,
+                        },
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={false}
+                    >
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": "#909BA0",
+                              "fontFamily": "SFProDisplay-Medium",
+                              "fontSize": 16,
+                              "lineHeight": 22,
+                            },
+                            Array [
+                              Object {
+                                "color": "#FFFFFF",
+                                "fontSize": 14,
+                                "textAlign": "center",
+                              },
+                              Object {
+                                "color": "#0066CC",
+                                "fontFamily": "SFProDisplay-Bold",
+                                "fontSize": 16,
+                              },
+                              undefined,
+                            ],
+                          ]
+                        }
+                      >
+                        Done
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <View>
+                <View>
+                  <RNCPicker
+                    items={
+                      Array [
+                        Object {
+                          "label": "Male",
+                          "textColor": undefined,
+                          "value": "A9CD00163E00113C11E41661ADAA1080",
+                        },
+                        Object {
+                          "label": "Female",
+                          "textColor": undefined,
+                          "value": "A9CD00163E00113C11E41661ADAD44D0",
+                        },
+                      ]
+                    }
+                    onChange={[Function]}
+                    selectedIndex={0}
+                    style={
+                      Array [
+                        Object {
+                          "height": 216,
+                        },
+                        undefined,
+                      ]
+                    }
+                    testID="select-input-picker"
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+        </div>
+      </View>
+      <View
+        accessibilityLabel="survey-pq-question"
+        accessible={true}
+        style={
+          Array [
+            Object {
+              "marginBottom": 24,
+              "marginLeft": 0,
+              "marginRight": 0,
+              "marginTop": 24,
+              "zIndex": 5,
+            },
+            false,
+          ]
+        }
+        testID="survey-pq-question"
+      >
+        <Text
+          accessibilityLabel="survey-pq-text-label"
+          accessible={true}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 12,
+                "marginBottom": 4,
+                "marginLeft": 8,
+              },
+              false,
+            ]
+          }
+          testID="survey-pq-text-label"
+        >
+          Zip code
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "elevation": 3,
+                "shadowColor": "#262C2F",
+                "shadowOffset": Object {
+                  "height": 4,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.1,
+              },
+              Object {
+                "backgroundColor": "#FFFFFF",
+                "borderBottomLeftRadius": 4,
+                "borderBottomRightRadius": 4,
+                "borderTopLeftRadius": 4,
+                "borderTopRightRadius": 4,
+                "width": "100%",
+              },
+              false,
+            ]
+          }
+        >
+          <TextInput
+            accessibilityLabel="survey-pq-text-input"
+            accessible={true}
+            errorText="Invalid zip code"
+            isModeUpdate={true}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onChangeValidate={[Function]}
+            onFocus={[Function]}
+            pattern="^[a-z]+$"
+            placeholder=""
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "borderBottomLeftRadius": 4,
+                  "borderBottomRightRadius": 4,
+                  "borderColor": "transparent",
+                  "borderStyle": "solid",
+                  "borderTopLeftRadius": 4,
+                  "borderTopRightRadius": 4,
+                  "borderWidth": 1,
+                  "paddingBottom": 15,
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "paddingTop": 15,
+                  "width": "100%",
+                },
+                undefined,
+              ]
+            }
+            testID="survey-pq-text-input"
+            typePattern="Text"
+          />
+        </View>
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 14,
+            "marginTop": 20,
+            "textAlign": "center",
+          }
+        }
+      >
+        🔐 Your data and answers are confidential. We do not collect or share identifying information about you
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "paddingVertical": 20,
+          "zIndex": -1,
+        }
+      }
+    >
+      <View>
+        <View
+          accessibilityLabel="survey-pq-take-a-survey-btn"
+          accessibilityState={
+            Object {
+              "disabled": true,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+          testID="survey-pq-take-a-survey-btn"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#0066CC",
+                  "borderBottomLeftRadius": 30,
+                  "borderBottomRightRadius": 30,
+                  "borderTopLeftRadius": 30,
+                  "borderTopRightRadius": 30,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "paddingBottom": 8,
+                  "paddingLeft": 12,
+                  "paddingRight": 12,
+                  "paddingTop": 8,
+                },
+                Array [
+                  Object {
+                    "alignSelf": "center",
+                    "paddingBottom": 0,
+                    "paddingLeft": 40,
+                    "paddingRight": 40,
+                    "paddingTop": 0,
+                    "width": "100%",
+                  },
+                  Object {
+                    "paddingBottom": 16,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "paddingTop": 16,
+                  },
+                ],
+                Object {
+                  "opacity": 0.5,
+                },
+              ]
+            }
+          >
+            <View
+              style={false}
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#909BA0",
+                      "fontFamily": "SFProDisplay-Medium",
+                      "fontSize": 16,
+                      "lineHeight": 22,
+                    },
+                    Array [
+                      Object {
+                        "color": "#FFFFFF",
+                        "fontSize": 14,
+                        "textAlign": "center",
+                      },
+                      Object {
+                        "fontFamily": "SFProDisplay-Bold",
+                        "fontSize": 18,
+                      },
+                      undefined,
+                    ],
+                  ]
+                }
+              >
+                Take a survey!
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

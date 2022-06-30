@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="7px" height="11px" viewBox="0 0 7 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ACD34B2C-D883-4320-9FED-48D4F3DA7CE5</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.149020 0 0 0 0 0.172549 0 0 0 0 0.184314 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="🌎-Streaks---NON-ECM" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="StreaksSection.2" transform="translate(-327.000000, -576.000000)">
+            <g id="Group-9" transform="translate(20.000000, 408.000000)">
+                <g id="Icons-/-20px-Copy-2" transform="translate(0.000000, 148.000000)" filter="url(#filter-1)">
+                    <g transform="translate(307.000000, 20.000000)">
+                        <path d="M2.79289322,5.24264069 L6.24264069,8.69238816 C6.63316498,9.08291245 6.63316498,9.71607743 6.24264069,10.1066017 L6.15685425,10.1923882 C5.76632996,10.5829124 5.13316498,10.5829124 4.74264069,10.1923882 L0.5,5.94974747 C0.109475708,5.55922318 0.109475708,4.9260582 0.5,4.53553391 L4.74264069,0.292893219 C5.13316498,-0.0976310729 5.76632996,-0.0976310729 6.15685425,0.292893219 L6.24264069,0.378679656 C6.63316498,0.769203948 6.63316498,1.40236893 6.24264069,1.79289322 L2.79289322,5.24264069 L2.79289322,5.24264069 Z" id="Combined-Shape" fill="#262C2F" transform="translate(3.267767, 5.242641) scale(-1, 1) translate(-3.267767, -5.242641) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

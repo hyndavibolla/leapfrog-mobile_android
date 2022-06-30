@@ -1,0 +1,978 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectInput it should render 1`] = `
+Array [
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "elevation": 3,
+          "shadowColor": "#262C2F",
+          "shadowOffset": Object {
+            "height": 4,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+        },
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderBottomLeftRadius": 4,
+          "borderBottomRightRadius": 4,
+          "borderTopLeftRadius": 4,
+          "borderTopRightRadius": 4,
+          "width": "100%",
+        },
+        false,
+      ]
+    }
+  >
+    <TextInput
+      accessibilityLabel="select-input-input"
+      accessible={true}
+      isInvalid={false}
+      onChangeText={[Function]}
+      onPressIn={[Function]}
+      placeholder="placeholder text"
+      showSoftInputOnFocus={false}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "borderBottomLeftRadius": 4,
+            "borderBottomRightRadius": 4,
+            "borderColor": "transparent",
+            "borderStyle": "solid",
+            "borderTopLeftRadius": 4,
+            "borderTopRightRadius": 4,
+            "borderWidth": 1,
+            "paddingBottom": 15,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 15,
+            "width": "100%",
+          },
+          undefined,
+        ]
+      }
+      testID="select-input-input"
+      value="one"
+    />
+  </View>,
+  <div>
+    <View
+      style={
+        Object {
+          "height": 500,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "height": "100%",
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <View
+            accessibilityLabel="select-input-cancel"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+            testID="select-input-cancel"
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#0066CC",
+                    "borderBottomLeftRadius": 30,
+                    "borderBottomRightRadius": 30,
+                    "borderTopLeftRadius": 30,
+                    "borderTopRightRadius": 30,
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "paddingBottom": 8,
+                    "paddingLeft": 12,
+                    "paddingRight": 12,
+                    "paddingTop": 8,
+                  },
+                  Object {
+                    "backgroundColor": "transparent",
+                  },
+                ]
+              }
+            >
+              <View
+                style={false}
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#909BA0",
+                        "fontFamily": "SFProDisplay-Medium",
+                        "fontSize": 16,
+                        "lineHeight": 22,
+                      },
+                      Array [
+                        Object {
+                          "color": "#FFFFFF",
+                          "fontSize": 14,
+                          "textAlign": "center",
+                        },
+                        Object {
+                          "color": "#909BA0",
+                          "fontFamily": "SFProDisplay-Bold",
+                          "fontSize": 16,
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  Cancel
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            accessibilityLabel="select-input-confirm"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+            testID="select-input-confirm"
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#0066CC",
+                    "borderBottomLeftRadius": 30,
+                    "borderBottomRightRadius": 30,
+                    "borderTopLeftRadius": 30,
+                    "borderTopRightRadius": 30,
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "paddingBottom": 8,
+                    "paddingLeft": 12,
+                    "paddingRight": 12,
+                    "paddingTop": 8,
+                  },
+                  Object {
+                    "backgroundColor": "transparent",
+                  },
+                ]
+              }
+            >
+              <View
+                style={false}
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#909BA0",
+                        "fontFamily": "SFProDisplay-Medium",
+                        "fontSize": 16,
+                        "lineHeight": 22,
+                      },
+                      Array [
+                        Object {
+                          "color": "#FFFFFF",
+                          "fontSize": 14,
+                          "textAlign": "center",
+                        },
+                        Object {
+                          "color": "#0066CC",
+                          "fontFamily": "SFProDisplay-Bold",
+                          "fontSize": 16,
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  Done
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View />
+      </View>
+    </View>
+  </div>,
+]
+`;
+
+exports[`SelectInput it should render invalid 1`] = `
+Array [
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "elevation": 3,
+          "shadowColor": "#262C2F",
+          "shadowOffset": Object {
+            "height": 4,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+        },
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderBottomLeftRadius": 4,
+          "borderBottomRightRadius": 4,
+          "borderTopLeftRadius": 4,
+          "borderTopRightRadius": 4,
+          "width": "100%",
+        },
+        false,
+      ]
+    }
+  >
+    <TextInput
+      accessibilityLabel="select-input-input"
+      accessible={true}
+      isInvalid={true}
+      onChangeText={[Function]}
+      onPressIn={[Function]}
+      placeholder="placeholder text"
+      showSoftInputOnFocus={false}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "borderBottomLeftRadius": 4,
+            "borderBottomRightRadius": 4,
+            "borderColor": "#E02020",
+            "borderStyle": "solid",
+            "borderTopLeftRadius": 4,
+            "borderTopRightRadius": 4,
+            "borderWidth": 1,
+            "paddingBottom": 15,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 15,
+            "width": "100%",
+          },
+          undefined,
+        ]
+      }
+      testID="select-input-input"
+      value=""
+    />
+  </View>,
+  <div>
+    <View
+      style={
+        Object {
+          "height": 500,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "height": "100%",
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <View
+            accessibilityLabel="select-input-cancel"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+            testID="select-input-cancel"
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#0066CC",
+                    "borderBottomLeftRadius": 30,
+                    "borderBottomRightRadius": 30,
+                    "borderTopLeftRadius": 30,
+                    "borderTopRightRadius": 30,
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "paddingBottom": 8,
+                    "paddingLeft": 12,
+                    "paddingRight": 12,
+                    "paddingTop": 8,
+                  },
+                  Object {
+                    "backgroundColor": "transparent",
+                  },
+                ]
+              }
+            >
+              <View
+                style={false}
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#909BA0",
+                        "fontFamily": "SFProDisplay-Medium",
+                        "fontSize": 16,
+                        "lineHeight": 22,
+                      },
+                      Array [
+                        Object {
+                          "color": "#FFFFFF",
+                          "fontSize": 14,
+                          "textAlign": "center",
+                        },
+                        Object {
+                          "color": "#909BA0",
+                          "fontFamily": "SFProDisplay-Bold",
+                          "fontSize": 16,
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  Cancel
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            accessibilityLabel="select-input-confirm"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+            testID="select-input-confirm"
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#0066CC",
+                    "borderBottomLeftRadius": 30,
+                    "borderBottomRightRadius": 30,
+                    "borderTopLeftRadius": 30,
+                    "borderTopRightRadius": 30,
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "paddingBottom": 8,
+                    "paddingLeft": 12,
+                    "paddingRight": 12,
+                    "paddingTop": 8,
+                  },
+                  Object {
+                    "backgroundColor": "transparent",
+                  },
+                ]
+              }
+            >
+              <View
+                style={false}
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#909BA0",
+                        "fontFamily": "SFProDisplay-Medium",
+                        "fontSize": 16,
+                        "lineHeight": 22,
+                      },
+                      Array [
+                        Object {
+                          "color": "#FFFFFF",
+                          "fontSize": 14,
+                          "textAlign": "center",
+                        },
+                        Object {
+                          "color": "#0066CC",
+                          "fontFamily": "SFProDisplay-Bold",
+                          "fontSize": 16,
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  Done
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View />
+      </View>
+    </View>
+  </div>,
+]
+`;
+
+exports[`SelectInput should render a RNGestureHandlerButton when then OS is android 1`] = `
+Array [
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "elevation": 3,
+          "shadowColor": "#262C2F",
+          "shadowOffset": Object {
+            "height": 4,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+        },
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderBottomLeftRadius": 4,
+          "borderBottomRightRadius": 4,
+          "borderTopLeftRadius": 4,
+          "borderTopRightRadius": 4,
+          "width": "100%",
+        },
+        false,
+      ]
+    }
+  >
+    <TextInput
+      accessibilityLabel="select-input-input"
+      accessible={true}
+      isInvalid={false}
+      onChangeText={[Function]}
+      onPressIn={[Function]}
+      placeholder="placeholder text"
+      showSoftInputOnFocus={false}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "borderBottomLeftRadius": 4,
+            "borderBottomRightRadius": 4,
+            "borderColor": "transparent",
+            "borderStyle": "solid",
+            "borderTopLeftRadius": 4,
+            "borderTopRightRadius": 4,
+            "borderWidth": 1,
+            "paddingBottom": 15,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 15,
+            "width": "100%",
+          },
+          undefined,
+        ]
+      }
+      testID="select-input-input"
+      value="one"
+    />
+  </View>,
+  <div>
+    <View
+      style={
+        Object {
+          "height": 500,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "height": "100%",
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <RNGestureHandlerButton
+            collapsable={false}
+            onGestureEvent={[Function]}
+            onGestureHandlerEvent={[Function]}
+            onGestureHandlerStateChange={[Function]}
+            onHandlerStateChange={[Function]}
+            rippleColor={0}
+            testID="select-input-cancel"
+          >
+            <View
+              accessibilityLabel="select-input-cancel"
+              accessible={true}
+              collapsable={false}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#0066CC",
+                      "borderBottomLeftRadius": 30,
+                      "borderBottomRightRadius": 30,
+                      "borderTopLeftRadius": 30,
+                      "borderTopRightRadius": 30,
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "paddingBottom": 8,
+                      "paddingLeft": 12,
+                      "paddingRight": 12,
+                      "paddingTop": 8,
+                    },
+                    Object {
+                      "backgroundColor": "transparent",
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={false}
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#909BA0",
+                          "fontFamily": "SFProDisplay-Medium",
+                          "fontSize": 16,
+                          "lineHeight": 22,
+                        },
+                        Array [
+                          Object {
+                            "color": "#FFFFFF",
+                            "fontSize": 14,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "color": "#909BA0",
+                            "fontFamily": "SFProDisplay-Bold",
+                            "fontSize": 16,
+                          },
+                          undefined,
+                        ],
+                      ]
+                    }
+                  >
+                    Cancel
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </RNGestureHandlerButton>
+          <RNGestureHandlerButton
+            collapsable={false}
+            onGestureEvent={[Function]}
+            onGestureHandlerEvent={[Function]}
+            onGestureHandlerStateChange={[Function]}
+            onHandlerStateChange={[Function]}
+            rippleColor={0}
+            testID="select-input-confirm"
+          >
+            <View
+              accessibilityLabel="select-input-confirm"
+              accessible={true}
+              collapsable={false}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#0066CC",
+                      "borderBottomLeftRadius": 30,
+                      "borderBottomRightRadius": 30,
+                      "borderTopLeftRadius": 30,
+                      "borderTopRightRadius": 30,
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "paddingBottom": 8,
+                      "paddingLeft": 12,
+                      "paddingRight": 12,
+                      "paddingTop": 8,
+                    },
+                    Object {
+                      "backgroundColor": "transparent",
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={false}
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#909BA0",
+                          "fontFamily": "SFProDisplay-Medium",
+                          "fontSize": 16,
+                          "lineHeight": 22,
+                        },
+                        Array [
+                          Object {
+                            "color": "#FFFFFF",
+                            "fontSize": 14,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "color": "#0066CC",
+                            "fontFamily": "SFProDisplay-Bold",
+                            "fontSize": 16,
+                          },
+                          undefined,
+                        ],
+                      ]
+                    }
+                  >
+                    Done
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </RNGestureHandlerButton>
+        </View>
+        <View>
+          <RCTScrollView
+            contentContainerStyle={
+              Object {
+                "justifyContent": "center",
+                "minHeight": "50%",
+              }
+            }
+          >
+            <View>
+              <RNGestureHandlerButton
+                collapsable={false}
+                onGestureEvent={[Function]}
+                onGestureHandlerEvent={[Function]}
+                onGestureHandlerStateChange={[Function]}
+                onHandlerStateChange={[Function]}
+                rippleColor={0}
+                testID="select-input-picker-item"
+              >
+                <View
+                  accessibilityLabel="select-input-picker-item"
+                  accessible={true}
+                  collapsable={false}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#0066CC",
+                          "borderBottomLeftRadius": 30,
+                          "borderBottomRightRadius": 30,
+                          "borderTopLeftRadius": 30,
+                          "borderTopRightRadius": 30,
+                          "flexDirection": "row",
+                          "justifyContent": "center",
+                          "paddingBottom": 8,
+                          "paddingLeft": 12,
+                          "paddingRight": 12,
+                          "paddingTop": 8,
+                        },
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={false}
+                    >
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": "#909BA0",
+                              "fontFamily": "SFProDisplay-Medium",
+                              "fontSize": 16,
+                              "lineHeight": 22,
+                            },
+                            Array [
+                              Object {
+                                "color": "#FFFFFF",
+                                "fontSize": 14,
+                                "textAlign": "center",
+                              },
+                              Object {
+                                "color": "#909BA0",
+                                "fontFamily": "SFProDisplay-Bold",
+                                "fontSize": 16,
+                              },
+                              undefined,
+                            ],
+                          ]
+                        }
+                      >
+                        one
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </RNGestureHandlerButton>
+              <RNGestureHandlerButton
+                collapsable={false}
+                onGestureEvent={[Function]}
+                onGestureHandlerEvent={[Function]}
+                onGestureHandlerStateChange={[Function]}
+                onHandlerStateChange={[Function]}
+                rippleColor={0}
+                testID="select-input-picker-item"
+              >
+                <View
+                  accessibilityLabel="select-input-picker-item"
+                  accessible={true}
+                  collapsable={false}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#0066CC",
+                          "borderBottomLeftRadius": 30,
+                          "borderBottomRightRadius": 30,
+                          "borderTopLeftRadius": 30,
+                          "borderTopRightRadius": 30,
+                          "flexDirection": "row",
+                          "justifyContent": "center",
+                          "paddingBottom": 8,
+                          "paddingLeft": 12,
+                          "paddingRight": 12,
+                          "paddingTop": 8,
+                        },
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={false}
+                    >
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": "#909BA0",
+                              "fontFamily": "SFProDisplay-Medium",
+                              "fontSize": 16,
+                              "lineHeight": 22,
+                            },
+                            Array [
+                              Object {
+                                "color": "#FFFFFF",
+                                "fontSize": 14,
+                                "textAlign": "center",
+                              },
+                              Object {
+                                "color": "#909BA0",
+                                "fontFamily": "SFProDisplay-Bold",
+                                "fontSize": 16,
+                              },
+                              undefined,
+                            ],
+                          ]
+                        }
+                      >
+                        two
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </RNGestureHandlerButton>
+              <RNGestureHandlerButton
+                collapsable={false}
+                onGestureEvent={[Function]}
+                onGestureHandlerEvent={[Function]}
+                onGestureHandlerStateChange={[Function]}
+                onHandlerStateChange={[Function]}
+                rippleColor={0}
+                testID="select-input-picker-item"
+              >
+                <View
+                  accessibilityLabel="select-input-picker-item"
+                  accessible={true}
+                  collapsable={false}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#0066CC",
+                          "borderBottomLeftRadius": 30,
+                          "borderBottomRightRadius": 30,
+                          "borderTopLeftRadius": 30,
+                          "borderTopRightRadius": 30,
+                          "flexDirection": "row",
+                          "justifyContent": "center",
+                          "paddingBottom": 8,
+                          "paddingLeft": 12,
+                          "paddingRight": 12,
+                          "paddingTop": 8,
+                        },
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={false}
+                    >
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": "#909BA0",
+                              "fontFamily": "SFProDisplay-Medium",
+                              "fontSize": 16,
+                              "lineHeight": 22,
+                            },
+                            Array [
+                              Object {
+                                "color": "#FFFFFF",
+                                "fontSize": 14,
+                                "textAlign": "center",
+                              },
+                              Object {
+                                "color": "#909BA0",
+                                "fontFamily": "SFProDisplay-Bold",
+                                "fontSize": 16,
+                              },
+                              undefined,
+                            ],
+                          ]
+                        }
+                      >
+                        three
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </RNGestureHandlerButton>
+            </View>
+          </RCTScrollView>
+        </View>
+      </View>
+    </View>
+  </div>,
+]
+`;

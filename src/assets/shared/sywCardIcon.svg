@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>0444EF62-961F-4ACE-83E0-C560AE444F27</title>
+    <defs>
+        <circle id="path-1" cx="15" cy="15" r="15"></circle>
+        <path d="M0,0.999960201 C0,0.447697432 0.446108624,0 0.992965445,0 L26.0070346,0 C26.5554342,0 27,0.454708934 27,0.999960201 L27,16.0000398 C27,16.5523026 26.5538914,17 26.0070346,17 L0.992965445,17 C0.444565773,17 0,16.5452911 0,16.0000398 L0,0.999960201 Z" id="path-3"></path>
+    </defs>
+    <g id="📝---Profile-&amp;-Points" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Activities---Point-History" transform="translate(-1292.000000, -2903.000000)">
+            <g id="Bar-/-SWY-Card-/-Returned-/-Pending" transform="translate(1269.000000, 2887.000000)">
+                <g id="Group-4-Copy-7" transform="translate(23.000000, 16.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#0AB3FD" xlink:href="#path-1"></use>
+                    <g id="card-bg" mask="url(#mask-2)">
+                        <g transform="translate(-4.000000, 7.000000)">
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <use id="Mask" stroke="none" fill="#282526" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        </g>
+                    </g>
+                    <polygon id="Path" fill="#FF5F00" fill-rule="nonzero" mask="url(#mask-2)" points="19.1720662 20.6671142 17.8217716 20.6671142 17.8217716 18.3213376 19.1720911 18.3213376"></polygon>
+                    <path d="M17.907379,19.4942742 C17.907379,19.0184339 18.1378623,18.594553 18.4967941,18.3213859 C18.2250951,18.1143076 17.889076,18.0019192 17.5431046,18.0024117 C16.6908507,18.0024117 16,18.6703322 16,19.4942742 C16,20.3182161 16.6908507,20.9861366 17.5431046,20.9861366 C17.8890845,20.9866346 18.2251134,20.8742458 18.4967941,20.6671625 C18.1379122,20.3940436 17.907379,19.9701386 17.907379,19.4942742" id="Path" fill="#EB001B" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                    <path d="M20.9937629,19.4942742 C20.9937629,20.3182161 20.3029122,20.9861366 19.4506583,20.9861366 C19.1046418,20.9866259 18.7685763,20.8742396 18.496844,20.6671625 C18.8558507,20.3939953 19.086334,19.9701386 19.086334,19.4942742 C19.086334,19.0184097 18.8558507,18.594553 18.496844,18.3213859 C18.7685696,18.1143139 19.1046254,18.0019279 19.4506334,18.0024118 C20.3028873,18.0024118 20.9937629,18.6703322 20.9937629,19.4942742" id="Path" fill="#F79E1B" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                    <rect id="Rectangle" fill="#D8D8D8" mask="url(#mask-2)" x="16" y="21.8191489" width="5" height="1"></rect>
+                    <rect id="Rectangle" fill="#D8D8D8" mask="url(#mask-2)" x="16" y="9" width="5" height="3"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

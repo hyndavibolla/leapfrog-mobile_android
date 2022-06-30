@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons / 20px</title>
+    <g id="📐Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Design-System-/-Assets" transform="translate(-96.000000, -178.000000)" fill="#FFFFFF">
+            <g id="Icons-/-20px" transform="translate(91.000000, 173.000000)">
+                <g id="Group" transform="translate(5.000000, 5.000000)">
+                    <path d="M0,6 L10,6 C10.5522847,6 11,5.55228475 11,5 C11,4.44771525 10.5522847,4 10,4 L0,4 C-0.55228475,4 -1,4.44771525 -1,5 C-1,5.55228475 -0.55228475,6 0,6 Z" id="Line-2" fill-rule="nonzero" transform="translate(5.000000, 5.000000) rotate(-315.000000) translate(-5.000000, -5.000000) "></path>
+                    <path d="M0,6 L10,6 C10.5522847,6 11,5.55228475 11,5 C11,4.44771525 10.5522847,4 10,4 L0,4 C-0.55228475,4 -1,4.44771525 -1,5 C-1,5.55228475 -0.55228475,6 0,6 Z" id="Line-2" fill-rule="nonzero" transform="translate(5.000000, 5.000000) rotate(-585.000000) translate(-5.000000, -5.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

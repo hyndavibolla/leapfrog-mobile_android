@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withSafeArea should return  component wrapped in a SafeAreaView with header support 1`] = `
+<RNCSafeAreaView
+  accessibilityLabel="with-safe-area-statusbar-default"
+  accessible={true}
+  edges={
+    Array [
+      "left",
+      "right",
+      "bottom",
+    ]
+  }
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+    }
+  }
+  testID="with-safe-area-statusbar-default"
+>
+  <div>
+    this is the wrapped component's body
+  </div>
+</RNCSafeAreaView>
+`;
+
+exports[`withSafeArea should return component wrapped in a SafeAreaView with custom edge 1`] = `
+<RNCSafeAreaView
+  accessibilityLabel="with-safe-area-statusbar-default"
+  accessible={true}
+  edges={
+    Array [
+      "left",
+      "right",
+    ]
+  }
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+    }
+  }
+  testID="with-safe-area-statusbar-default"
+>
+  <div>
+    this is the wrapped component's body
+  </div>
+</RNCSafeAreaView>
+`;

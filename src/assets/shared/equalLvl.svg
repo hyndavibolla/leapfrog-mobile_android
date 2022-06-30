@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="8px" viewBox="0 0 10 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>2AB244AB-8896-4C0B-88B5-0A1DDCB2ED1B</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.439216 0 0 0 0 0.709804 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Excutive-summary-Invision" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Stay-zone" transform="translate(-214.000000, -202.000000)">
+            <g id="Icons-/-12px" transform="translate(127.000000, 129.000000)" filter="url(#filter-1)">
+                <g transform="translate(87.000000, 73.000000)" id="Path-2" fill="#70B5FF">
+                    <polygon id="Path" points="10 3 -5.55111512e-16 3 -5.55111512e-16 0.000957567808 10 0"></polygon>
+                    <polygon id="Path" points="10 8 -5.55111512e-16 8 -5.55111512e-16 5.00095757 10 5"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

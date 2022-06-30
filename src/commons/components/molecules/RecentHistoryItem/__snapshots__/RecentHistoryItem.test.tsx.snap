@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RecentHistoryItem should render 1`] = `
+<View
+  accessibilityLabel="recent-search-item"
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "row",
+      "marginTop": 16,
+      "opacity": 1,
+    }
+  }
+  testID="recent-search-item"
+>
+  <Text
+    accessibilityLabel="icon-text"
+    accessible={true}
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      Array [
+        Object {
+          "color": "#262C2F",
+          "fontSize": 14,
+        },
+        undefined,
+        Object {
+          "fontFamily": "sywmax",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+    testID="icon-text"
+  >
+    
+  </Text>
+  <Text
+    style={
+      Object {
+        "color": "#262C2F",
+        "fontFamily": "SFProDisplay-Medium",
+        "fontSize": 16,
+        "marginLeft": 16,
+      }
+    }
+  >
+    title
+  </Text>
+</View>
+`;

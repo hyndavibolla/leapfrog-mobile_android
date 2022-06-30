@@ -1,0 +1,2331 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LargeMissionCard should render 1`] = `
+<View
+  accessibilityLabel="large-mission-card-container"
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  testID="large-mission-card-container"
+>
+  <View
+    style={
+      Object {
+        "paddingBottom": 4,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "elevation": 3,
+            "shadowColor": "#262C2F",
+            "shadowOffset": Object {
+              "height": 4,
+              "width": 0,
+            },
+            "shadowOpacity": 0.1,
+          },
+          Object {
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "flexDirection": "column",
+            "justifyContent": "space-between",
+            "paddingBottom": 20,
+            "paddingLeft": 20,
+            "paddingRight": 20,
+            "paddingTop": 20,
+          },
+          Object {
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "paddingTop": 0,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "borderBottomLeftRadius": 8,
+              "borderBottomRightRadius": 8,
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "justifyContent": "space-between",
+              "minHeight": 230,
+              "width": 335,
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#E2E3E3",
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "height": 120,
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "overflow": "hidden",
+                },
+                Array [
+                  Object {
+                    "height": 120,
+                  },
+                  false,
+                ],
+              ]
+            }
+          >
+            <FastImageView
+              accessibilityLabel="image-with-fallback-container"
+              accessible={true}
+              onFastImageError={[Function]}
+              onFastImageLoadEnd={[Function]}
+              onFastImageLoadStart={[Function]}
+              resizeMode="cover"
+              source={
+                Object {
+                  "uri": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTVkMt3KFinkf_ehnCq5yk2DLZBls6GYFZLeA&usqp=CAU",
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              testID="image-with-fallback-container"
+            />
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+              "borderBottomLeftRadius": 8,
+              "borderBottomRightRadius": 8,
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "flexDirection": "row",
+              "justifyContent": "flex-start",
+              "paddingBottom": 20,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+              "paddingTop": 20,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "height": 60,
+                  "width": 60,
+                },
+                Object {
+                  "backgroundColor": "#E2E3E3",
+                  "borderBottomLeftRadius": 30,
+                  "borderBottomRightRadius": 30,
+                  "borderTopLeftRadius": 30,
+                  "borderTopRightRadius": 30,
+                  "height": 60,
+                  "width": 60,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "overflow": "hidden",
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "borderBottomLeftRadius": 60,
+                    "borderBottomRightRadius": 60,
+                    "borderTopLeftRadius": 60,
+                    "borderTopRightRadius": 60,
+                    "height": "100%",
+                    "justifyContent": "center",
+                    "width": "100%",
+                  },
+                ]
+              }
+            >
+              <FastImageView
+                accessibilityLabel="brand-logo-image"
+                accessible={true}
+                onFastImageError={[Function]}
+                onFastImageLoad={[Function]}
+                onFastImageLoadEnd={[Function]}
+                onFastImageLoadStart={[Function]}
+                resizeMode="cover"
+                source={
+                  Object {
+                    "priority": "high",
+                    "uri": "https://www.movistar.es/estaticos/img/ico-app-mi-movistar-2017.png",
+                  }
+                }
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+                testID="brand-logo-image"
+              />
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "space-between",
+                "paddingLeft": 20,
+              }
+            }
+          >
+            <Text
+              accessibilityLabel="large-mission-card-brand-name"
+              accessible={true}
+              ellipsizeMode="tail"
+              font="SFProDisplay-Bold"
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Object {
+                    "color": "#909BA0",
+                    "fontSize": 14,
+                    "textTransform": "uppercase",
+                  },
+                ]
+              }
+              testID="large-mission-card-brand-name"
+            >
+              Starbucks
+            </Text>
+            <Text
+              accessibilityLabel="large-mission-card-mission-name"
+              accessible={true}
+              ellipsizeMode="tail"
+              font="SFProDisplay-Bold"
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Object {
+                    "color": "#262C2F",
+                    "fontSize": 18,
+                    "paddingVertical": 4,
+                    "width": "100%",
+                  },
+                ]
+              }
+              testID="large-mission-card-mission-name"
+            >
+              Get some coffee!
+            </Text>
+            <View
+              accessibilityLabel="pill-container"
+              accessible={true}
+              style={
+                Array [
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#DDE8F5",
+                      "borderBottomLeftRadius": 20,
+                      "borderBottomRightRadius": 20,
+                      "borderTopLeftRadius": 20,
+                      "borderTopRightRadius": 20,
+                      "flexDirection": "row",
+                      "paddingLeft": 4,
+                      "paddingRight": 10,
+                    },
+                    Object {
+                      "height": 28,
+                    },
+                  ],
+                  Array [
+                    undefined,
+                  ],
+                  undefined,
+                ]
+              }
+              testID="pill-container"
+            >
+              <View
+                accessibilityLabel="pill-icon"
+                accessible={true}
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#FFFFFF",
+                      "borderBottomLeftRadius": 50,
+                      "borderBottomRightRadius": 50,
+                      "borderTopLeftRadius": 50,
+                      "borderTopRightRadius": 50,
+                      "justifyContent": "center",
+                    },
+                    undefined,
+                  ]
+                }
+                testID="pill-icon"
+              >
+                <Text
+                  accessibilityLabel="icon-text"
+                  accessible={true}
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#0066CC",
+                        "fontSize": 20,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "sywmax",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                  testID="icon-text"
+                >
+                  
+                </Text>
+              </View>
+              <Text
+                accessibilityLabel="pill-text"
+                accessible={true}
+                style={
+                  Array [
+                    Object {
+                      "color": "#909BA0",
+                      "fontFamily": "SFProDisplay-Medium",
+                      "fontSize": 16,
+                      "lineHeight": 22,
+                    },
+                    Array [
+                      Object {
+                        "paddingLeft": 4,
+                      },
+                      Array [
+                        Object {
+                          "color": "#0066CC",
+                          "fontFamily": "SFProDisplay-Bold",
+                          "fontSize": 14,
+                        },
+                        Object {
+                          "lineHeight": 20,
+                        },
+                        undefined,
+                      ],
+                    ],
+                  ]
+                }
+                testID="pill-text"
+              >
+                200
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`LargeMissionCard should render default points 1`] = `
+<View
+  accessibilityLabel="large-mission-card-container"
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  testID="large-mission-card-container"
+>
+  <View
+    style={
+      Object {
+        "paddingBottom": 4,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "elevation": 3,
+            "shadowColor": "#262C2F",
+            "shadowOffset": Object {
+              "height": 4,
+              "width": 0,
+            },
+            "shadowOpacity": 0.1,
+          },
+          Object {
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "flexDirection": "column",
+            "justifyContent": "space-between",
+            "paddingBottom": 20,
+            "paddingLeft": 20,
+            "paddingRight": 20,
+            "paddingTop": 20,
+          },
+          Object {
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "paddingTop": 0,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "borderBottomLeftRadius": 8,
+              "borderBottomRightRadius": 8,
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "justifyContent": "space-between",
+              "minHeight": 230,
+              "width": 335,
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#E2E3E3",
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "height": 120,
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "overflow": "hidden",
+                },
+                Array [
+                  Object {
+                    "height": 120,
+                  },
+                  false,
+                ],
+              ]
+            }
+          >
+            <FastImageView
+              accessibilityLabel="image-with-fallback-container"
+              accessible={true}
+              onFastImageError={[Function]}
+              onFastImageLoadEnd={[Function]}
+              onFastImageLoadStart={[Function]}
+              resizeMode="cover"
+              source={
+                Object {
+                  "uri": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTVkMt3KFinkf_ehnCq5yk2DLZBls6GYFZLeA&usqp=CAU",
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              testID="image-with-fallback-container"
+            />
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+              "borderBottomLeftRadius": 8,
+              "borderBottomRightRadius": 8,
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "flexDirection": "row",
+              "justifyContent": "flex-start",
+              "paddingBottom": 20,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+              "paddingTop": 20,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "height": 60,
+                  "width": 60,
+                },
+                Object {
+                  "backgroundColor": "#E2E3E3",
+                  "borderBottomLeftRadius": 30,
+                  "borderBottomRightRadius": 30,
+                  "borderTopLeftRadius": 30,
+                  "borderTopRightRadius": 30,
+                  "height": 60,
+                  "width": 60,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "overflow": "hidden",
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "borderBottomLeftRadius": 60,
+                    "borderBottomRightRadius": 60,
+                    "borderTopLeftRadius": 60,
+                    "borderTopRightRadius": 60,
+                    "height": "100%",
+                    "justifyContent": "center",
+                    "width": "100%",
+                  },
+                ]
+              }
+            >
+              <FastImageView
+                accessibilityLabel="brand-logo-image"
+                accessible={true}
+                onFastImageError={[Function]}
+                onFastImageLoad={[Function]}
+                onFastImageLoadEnd={[Function]}
+                onFastImageLoadStart={[Function]}
+                resizeMode="cover"
+                source={
+                  Object {
+                    "priority": "high",
+                    "uri": "https://www.movistar.es/estaticos/img/ico-app-mi-movistar-2017.png",
+                  }
+                }
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+                testID="brand-logo-image"
+              />
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "space-between",
+                "paddingLeft": 20,
+              }
+            }
+          >
+            <Text
+              accessibilityLabel="large-mission-card-brand-name"
+              accessible={true}
+              ellipsizeMode="tail"
+              font="SFProDisplay-Bold"
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Object {
+                    "color": "#909BA0",
+                    "fontSize": 14,
+                    "textTransform": "uppercase",
+                  },
+                ]
+              }
+              testID="large-mission-card-brand-name"
+            >
+              Starbucks
+            </Text>
+            <Text
+              accessibilityLabel="large-mission-card-mission-name"
+              accessible={true}
+              ellipsizeMode="tail"
+              font="SFProDisplay-Bold"
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Object {
+                    "color": "#262C2F",
+                    "fontSize": 18,
+                    "paddingVertical": 4,
+                    "width": "100%",
+                  },
+                ]
+              }
+              testID="large-mission-card-mission-name"
+            >
+              Get some coffee!
+            </Text>
+            <View
+              accessibilityLabel="pill-container"
+              accessible={true}
+              style={
+                Array [
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#DDE8F5",
+                      "borderBottomLeftRadius": 20,
+                      "borderBottomRightRadius": 20,
+                      "borderTopLeftRadius": 20,
+                      "borderTopRightRadius": 20,
+                      "flexDirection": "row",
+                      "paddingLeft": 4,
+                      "paddingRight": 10,
+                    },
+                    Object {
+                      "height": 28,
+                    },
+                  ],
+                  Array [
+                    undefined,
+                  ],
+                  undefined,
+                ]
+              }
+              testID="pill-container"
+            >
+              <View
+                accessibilityLabel="pill-icon"
+                accessible={true}
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#FFFFFF",
+                      "borderBottomLeftRadius": 50,
+                      "borderBottomRightRadius": 50,
+                      "borderTopLeftRadius": 50,
+                      "borderTopRightRadius": 50,
+                      "justifyContent": "center",
+                    },
+                    undefined,
+                  ]
+                }
+                testID="pill-icon"
+              >
+                <Text
+                  accessibilityLabel="icon-text"
+                  accessible={true}
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#0066CC",
+                        "fontSize": 20,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "sywmax",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                  testID="icon-text"
+                >
+                  
+                </Text>
+              </View>
+              <Text
+                accessibilityLabel="pill-text"
+                accessible={true}
+                style={
+                  Array [
+                    Object {
+                      "color": "#909BA0",
+                      "fontFamily": "SFProDisplay-Medium",
+                      "fontSize": 16,
+                      "lineHeight": 22,
+                    },
+                    Array [
+                      Object {
+                        "paddingLeft": 4,
+                      },
+                      Array [
+                        Object {
+                          "color": "#0066CC",
+                          "fontFamily": "SFProDisplay-Bold",
+                          "fontSize": 14,
+                        },
+                        Object {
+                          "lineHeight": 20,
+                        },
+                        undefined,
+                      ],
+                    ],
+                  ]
+                }
+                testID="pill-text"
+              >
+                200
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`LargeMissionCard should render full size 1`] = `
+<View
+  accessibilityLabel="large-mission-card-container"
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  testID="large-mission-card-container"
+>
+  <View
+    style={
+      Object {
+        "paddingBottom": 4,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "elevation": 3,
+            "shadowColor": "#262C2F",
+            "shadowOffset": Object {
+              "height": 4,
+              "width": 0,
+            },
+            "shadowOpacity": 0.1,
+          },
+          Object {
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "flexDirection": "column",
+            "justifyContent": "space-between",
+            "paddingBottom": 20,
+            "paddingLeft": 20,
+            "paddingRight": 20,
+            "paddingTop": 20,
+          },
+          Object {
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "paddingTop": 0,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "borderBottomLeftRadius": 8,
+              "borderBottomRightRadius": 8,
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "justifyContent": "space-between",
+              "minHeight": 230,
+              "width": 335,
+            },
+            Object {
+              "width": "100%",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#E2E3E3",
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "height": 120,
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "overflow": "hidden",
+                },
+                Array [
+                  Object {
+                    "height": 120,
+                  },
+                  false,
+                ],
+              ]
+            }
+          >
+            <FastImageView
+              accessibilityLabel="image-with-fallback-container"
+              accessible={true}
+              onFastImageError={[Function]}
+              onFastImageLoadEnd={[Function]}
+              onFastImageLoadStart={[Function]}
+              resizeMode="cover"
+              source={
+                Object {
+                  "uri": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTVkMt3KFinkf_ehnCq5yk2DLZBls6GYFZLeA&usqp=CAU",
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              testID="image-with-fallback-container"
+            />
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+              "borderBottomLeftRadius": 8,
+              "borderBottomRightRadius": 8,
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "flexDirection": "row",
+              "justifyContent": "flex-start",
+              "paddingBottom": 20,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+              "paddingTop": 20,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "height": 60,
+                  "width": 60,
+                },
+                Object {
+                  "backgroundColor": "#E2E3E3",
+                  "borderBottomLeftRadius": 30,
+                  "borderBottomRightRadius": 30,
+                  "borderTopLeftRadius": 30,
+                  "borderTopRightRadius": 30,
+                  "height": 60,
+                  "width": 60,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "overflow": "hidden",
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "borderBottomLeftRadius": 60,
+                    "borderBottomRightRadius": 60,
+                    "borderTopLeftRadius": 60,
+                    "borderTopRightRadius": 60,
+                    "height": "100%",
+                    "justifyContent": "center",
+                    "width": "100%",
+                  },
+                ]
+              }
+            >
+              <FastImageView
+                accessibilityLabel="brand-logo-image"
+                accessible={true}
+                onFastImageError={[Function]}
+                onFastImageLoad={[Function]}
+                onFastImageLoadEnd={[Function]}
+                onFastImageLoadStart={[Function]}
+                resizeMode="cover"
+                source={
+                  Object {
+                    "priority": "high",
+                    "uri": "https://www.movistar.es/estaticos/img/ico-app-mi-movistar-2017.png",
+                  }
+                }
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+                testID="brand-logo-image"
+              />
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "space-between",
+                "paddingLeft": 20,
+              }
+            }
+          >
+            <Text
+              accessibilityLabel="large-mission-card-brand-name"
+              accessible={true}
+              ellipsizeMode="tail"
+              font="SFProDisplay-Bold"
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Object {
+                    "color": "#909BA0",
+                    "fontSize": 14,
+                    "textTransform": "uppercase",
+                  },
+                ]
+              }
+              testID="large-mission-card-brand-name"
+            >
+              Starbucks
+            </Text>
+            <Text
+              accessibilityLabel="large-mission-card-mission-name"
+              accessible={true}
+              ellipsizeMode="tail"
+              font="SFProDisplay-Bold"
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Object {
+                    "color": "#262C2F",
+                    "fontSize": 18,
+                    "paddingVertical": 4,
+                    "width": "100%",
+                  },
+                ]
+              }
+              testID="large-mission-card-mission-name"
+            >
+              Get some coffee!
+            </Text>
+            <View
+              accessibilityLabel="pill-container"
+              accessible={true}
+              style={
+                Array [
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#DDE8F5",
+                      "borderBottomLeftRadius": 20,
+                      "borderBottomRightRadius": 20,
+                      "borderTopLeftRadius": 20,
+                      "borderTopRightRadius": 20,
+                      "flexDirection": "row",
+                      "paddingLeft": 4,
+                      "paddingRight": 10,
+                    },
+                    Object {
+                      "height": 28,
+                    },
+                  ],
+                  Array [
+                    undefined,
+                  ],
+                  undefined,
+                ]
+              }
+              testID="pill-container"
+            >
+              <View
+                accessibilityLabel="pill-icon"
+                accessible={true}
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#FFFFFF",
+                      "borderBottomLeftRadius": 50,
+                      "borderBottomRightRadius": 50,
+                      "borderTopLeftRadius": 50,
+                      "borderTopRightRadius": 50,
+                      "justifyContent": "center",
+                    },
+                    undefined,
+                  ]
+                }
+                testID="pill-icon"
+              >
+                <Text
+                  accessibilityLabel="icon-text"
+                  accessible={true}
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#0066CC",
+                        "fontSize": 20,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "sywmax",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                  testID="icon-text"
+                >
+                  
+                </Text>
+              </View>
+              <Text
+                accessibilityLabel="pill-text"
+                accessible={true}
+                style={
+                  Array [
+                    Object {
+                      "color": "#909BA0",
+                      "fontFamily": "SFProDisplay-Medium",
+                      "fontSize": 16,
+                      "lineHeight": 22,
+                    },
+                    Array [
+                      Object {
+                        "paddingLeft": 4,
+                      },
+                      Array [
+                        Object {
+                          "color": "#0066CC",
+                          "fontFamily": "SFProDisplay-Bold",
+                          "fontSize": 14,
+                        },
+                        Object {
+                          "lineHeight": 20,
+                        },
+                        undefined,
+                      ],
+                    ],
+                  ]
+                }
+                testID="pill-text"
+              >
+                200
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`LargeMissionCard should render points from sorted conditions 1`] = `
+<View
+  accessibilityLabel="large-mission-card-container"
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  testID="large-mission-card-container"
+>
+  <View
+    style={
+      Object {
+        "paddingBottom": 4,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "elevation": 3,
+            "shadowColor": "#262C2F",
+            "shadowOffset": Object {
+              "height": 4,
+              "width": 0,
+            },
+            "shadowOpacity": 0.1,
+          },
+          Object {
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "flexDirection": "column",
+            "justifyContent": "space-between",
+            "paddingBottom": 20,
+            "paddingLeft": 20,
+            "paddingRight": 20,
+            "paddingTop": 20,
+          },
+          Object {
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "paddingTop": 0,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "borderBottomLeftRadius": 8,
+              "borderBottomRightRadius": 8,
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "justifyContent": "space-between",
+              "minHeight": 230,
+              "width": 335,
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#E2E3E3",
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "height": 120,
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "overflow": "hidden",
+                },
+                Array [
+                  Object {
+                    "height": 120,
+                  },
+                  false,
+                ],
+              ]
+            }
+          >
+            <FastImageView
+              accessibilityLabel="image-with-fallback-container"
+              accessible={true}
+              onFastImageError={[Function]}
+              onFastImageLoadEnd={[Function]}
+              onFastImageLoadStart={[Function]}
+              resizeMode="cover"
+              source={
+                Object {
+                  "uri": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTVkMt3KFinkf_ehnCq5yk2DLZBls6GYFZLeA&usqp=CAU",
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              testID="image-with-fallback-container"
+            />
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+              "borderBottomLeftRadius": 8,
+              "borderBottomRightRadius": 8,
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "flexDirection": "row",
+              "justifyContent": "flex-start",
+              "paddingBottom": 20,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+              "paddingTop": 20,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "height": 60,
+                  "width": 60,
+                },
+                Object {
+                  "backgroundColor": "#E2E3E3",
+                  "borderBottomLeftRadius": 30,
+                  "borderBottomRightRadius": 30,
+                  "borderTopLeftRadius": 30,
+                  "borderTopRightRadius": 30,
+                  "height": 60,
+                  "width": 60,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "overflow": "hidden",
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "borderBottomLeftRadius": 60,
+                    "borderBottomRightRadius": 60,
+                    "borderTopLeftRadius": 60,
+                    "borderTopRightRadius": 60,
+                    "height": "100%",
+                    "justifyContent": "center",
+                    "width": "100%",
+                  },
+                ]
+              }
+            >
+              <FastImageView
+                accessibilityLabel="brand-logo-image"
+                accessible={true}
+                onFastImageError={[Function]}
+                onFastImageLoad={[Function]}
+                onFastImageLoadEnd={[Function]}
+                onFastImageLoadStart={[Function]}
+                resizeMode="cover"
+                source={
+                  Object {
+                    "priority": "high",
+                    "uri": "https://i.ibb.co/nMJXNWq/Logos-SYW-MAX.png",
+                  }
+                }
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+                testID="brand-logo-image"
+              />
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "space-between",
+                "paddingLeft": 20,
+              }
+            }
+          >
+            <Text
+              accessibilityLabel="large-mission-card-brand-name"
+              accessible={true}
+              ellipsizeMode="tail"
+              font="SFProDisplay-Bold"
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Object {
+                    "color": "#909BA0",
+                    "fontSize": 14,
+                    "textTransform": "uppercase",
+                  },
+                ]
+              }
+              testID="large-mission-card-brand-name"
+            >
+              Walmart
+            </Text>
+            <Text
+              accessibilityLabel="large-mission-card-mission-name"
+              accessible={true}
+              ellipsizeMode="tail"
+              font="SFProDisplay-Bold"
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Object {
+                    "color": "#262C2F",
+                    "fontSize": 18,
+                    "paddingVertical": 4,
+                    "width": "100%",
+                  },
+                ]
+              }
+              testID="large-mission-card-mission-name"
+            >
+              Get some thing that you want to buy!
+            </Text>
+            <View
+              accessibilityLabel="pill-container"
+              accessible={true}
+              style={
+                Array [
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#DDE8F5",
+                      "borderBottomLeftRadius": 20,
+                      "borderBottomRightRadius": 20,
+                      "borderTopLeftRadius": 20,
+                      "borderTopRightRadius": 20,
+                      "flexDirection": "row",
+                      "paddingLeft": 4,
+                      "paddingRight": 10,
+                    },
+                    Object {
+                      "height": 28,
+                    },
+                  ],
+                  Array [
+                    undefined,
+                  ],
+                  undefined,
+                ]
+              }
+              testID="pill-container"
+            >
+              <View
+                accessibilityLabel="pill-icon"
+                accessible={true}
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#FFFFFF",
+                      "borderBottomLeftRadius": 50,
+                      "borderBottomRightRadius": 50,
+                      "borderTopLeftRadius": 50,
+                      "borderTopRightRadius": 50,
+                      "justifyContent": "center",
+                    },
+                    undefined,
+                  ]
+                }
+                testID="pill-icon"
+              >
+                <Text
+                  accessibilityLabel="icon-text"
+                  accessible={true}
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#0066CC",
+                        "fontSize": 20,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "sywmax",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                  testID="icon-text"
+                >
+                  
+                </Text>
+              </View>
+              <Text
+                accessibilityLabel="pill-text"
+                accessible={true}
+                style={
+                  Array [
+                    Object {
+                      "color": "#909BA0",
+                      "fontFamily": "SFProDisplay-Medium",
+                      "fontSize": 16,
+                      "lineHeight": 22,
+                    },
+                    Array [
+                      Object {
+                        "paddingLeft": 4,
+                      },
+                      Array [
+                        Object {
+                          "color": "#0066CC",
+                          "fontFamily": "SFProDisplay-Bold",
+                          "fontSize": 14,
+                        },
+                        Object {
+                          "lineHeight": 20,
+                        },
+                        undefined,
+                      ],
+                    ],
+                  ]
+                }
+                testID="pill-text"
+              >
+                200
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`LargeMissionCard should render with points and dollars mission 1`] = `
+<View
+  accessibilityLabel="large-mission-card-container"
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  testID="large-mission-card-container"
+>
+  <View
+    style={
+      Object {
+        "paddingBottom": 4,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "elevation": 3,
+            "shadowColor": "#262C2F",
+            "shadowOffset": Object {
+              "height": 4,
+              "width": 0,
+            },
+            "shadowOpacity": 0.1,
+          },
+          Object {
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "flexDirection": "column",
+            "justifyContent": "space-between",
+            "paddingBottom": 20,
+            "paddingLeft": 20,
+            "paddingRight": 20,
+            "paddingTop": 20,
+          },
+          Object {
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "paddingTop": 0,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "borderBottomLeftRadius": 8,
+              "borderBottomRightRadius": 8,
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "justifyContent": "space-between",
+              "minHeight": 230,
+              "width": 335,
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#E2E3E3",
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "height": 120,
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "overflow": "hidden",
+                },
+                Array [
+                  Object {
+                    "height": 120,
+                  },
+                  false,
+                ],
+              ]
+            }
+          >
+            <FastImageView
+              accessibilityLabel="image-with-fallback-container"
+              accessible={true}
+              onFastImageError={[Function]}
+              onFastImageLoadEnd={[Function]}
+              onFastImageLoadStart={[Function]}
+              resizeMode="cover"
+              source={
+                Object {
+                  "uri": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTVkMt3KFinkf_ehnCq5yk2DLZBls6GYFZLeA&usqp=CAU",
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              testID="image-with-fallback-container"
+            />
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+              "borderBottomLeftRadius": 8,
+              "borderBottomRightRadius": 8,
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "flexDirection": "row",
+              "justifyContent": "flex-start",
+              "paddingBottom": 20,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+              "paddingTop": 20,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "height": 60,
+                  "width": 60,
+                },
+                Object {
+                  "backgroundColor": "#E2E3E3",
+                  "borderBottomLeftRadius": 30,
+                  "borderBottomRightRadius": 30,
+                  "borderTopLeftRadius": 30,
+                  "borderTopRightRadius": 30,
+                  "height": 60,
+                  "width": 60,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "overflow": "hidden",
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "borderBottomLeftRadius": 60,
+                    "borderBottomRightRadius": 60,
+                    "borderTopLeftRadius": 60,
+                    "borderTopRightRadius": 60,
+                    "height": "100%",
+                    "justifyContent": "center",
+                    "width": "100%",
+                  },
+                ]
+              }
+            >
+              <FastImageView
+                accessibilityLabel="brand-logo-image"
+                accessible={true}
+                onFastImageError={[Function]}
+                onFastImageLoad={[Function]}
+                onFastImageLoadEnd={[Function]}
+                onFastImageLoadStart={[Function]}
+                resizeMode="cover"
+                source={
+                  Object {
+                    "priority": "high",
+                    "uri": "https://www.vodafone.es/c/particulares/es/acceso-area-privada/mvf/static/img/modules/backgrounds/New_VF_Icon_RGB_RED.png",
+                  }
+                }
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+                testID="brand-logo-image"
+              />
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "space-between",
+                "paddingLeft": 20,
+              }
+            }
+          >
+            <Text
+              accessibilityLabel="large-mission-card-brand-name"
+              accessible={true}
+              ellipsizeMode="tail"
+              font="SFProDisplay-Bold"
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Object {
+                    "color": "#909BA0",
+                    "fontSize": 14,
+                    "textTransform": "uppercase",
+                  },
+                ]
+              }
+              testID="large-mission-card-brand-name"
+            >
+              Walmart
+            </Text>
+            <Text
+              accessibilityLabel="large-mission-card-mission-name"
+              accessible={true}
+              ellipsizeMode="tail"
+              font="SFProDisplay-Bold"
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Object {
+                    "color": "#262C2F",
+                    "fontSize": 18,
+                    "paddingVertical": 4,
+                    "width": "100%",
+                  },
+                ]
+              }
+              testID="large-mission-card-mission-name"
+            >
+              Get some thing that you want to buy!
+            </Text>
+            <View
+              accessibilityLabel="pill-container"
+              accessible={true}
+              style={
+                Array [
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#DDE8F5",
+                      "borderBottomLeftRadius": 20,
+                      "borderBottomRightRadius": 20,
+                      "borderTopLeftRadius": 20,
+                      "borderTopRightRadius": 20,
+                      "flexDirection": "row",
+                      "paddingLeft": 4,
+                      "paddingRight": 10,
+                    },
+                    Object {
+                      "height": 28,
+                    },
+                  ],
+                  Array [
+                    undefined,
+                  ],
+                  undefined,
+                ]
+              }
+              testID="pill-container"
+            >
+              <View
+                accessibilityLabel="pill-icon"
+                accessible={true}
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#FFFFFF",
+                      "borderBottomLeftRadius": 50,
+                      "borderBottomRightRadius": 50,
+                      "borderTopLeftRadius": 50,
+                      "borderTopRightRadius": 50,
+                      "justifyContent": "center",
+                    },
+                    undefined,
+                  ]
+                }
+                testID="pill-icon"
+              >
+                <Text
+                  accessibilityLabel="icon-text"
+                  accessible={true}
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#0066CC",
+                        "fontSize": 20,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "sywmax",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                  testID="icon-text"
+                >
+                  
+                </Text>
+              </View>
+              <Text
+                accessibilityLabel="pill-text"
+                accessible={true}
+                style={
+                  Array [
+                    Object {
+                      "color": "#909BA0",
+                      "fontFamily": "SFProDisplay-Medium",
+                      "fontSize": 16,
+                      "lineHeight": 22,
+                    },
+                    Array [
+                      Object {
+                        "paddingLeft": 4,
+                      },
+                      Array [
+                        Object {
+                          "color": "#0066CC",
+                          "fontFamily": "SFProDisplay-Bold",
+                          "fontSize": 14,
+                        },
+                        Object {
+                          "lineHeight": 20,
+                        },
+                        undefined,
+                      ],
+                    ],
+                  ]
+                }
+                testID="pill-text"
+              >
+                100 per $1
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`LargeMissionCard should render with points only mission 1`] = `
+<View
+  accessibilityLabel="large-mission-card-container"
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  testID="large-mission-card-container"
+>
+  <View
+    style={
+      Object {
+        "paddingBottom": 4,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "elevation": 3,
+            "shadowColor": "#262C2F",
+            "shadowOffset": Object {
+              "height": 4,
+              "width": 0,
+            },
+            "shadowOpacity": 0.1,
+          },
+          Object {
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "flexDirection": "column",
+            "justifyContent": "space-between",
+            "paddingBottom": 20,
+            "paddingLeft": 20,
+            "paddingRight": 20,
+            "paddingTop": 20,
+          },
+          Object {
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "paddingTop": 0,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "borderBottomLeftRadius": 8,
+              "borderBottomRightRadius": 8,
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "justifyContent": "space-between",
+              "minHeight": 230,
+              "width": 335,
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#E2E3E3",
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "height": 120,
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "overflow": "hidden",
+                },
+                Array [
+                  Object {
+                    "height": 120,
+                  },
+                  false,
+                ],
+              ]
+            }
+          >
+            <FastImageView
+              accessibilityLabel="image-with-fallback-container"
+              accessible={true}
+              onFastImageError={[Function]}
+              onFastImageLoadEnd={[Function]}
+              onFastImageLoadStart={[Function]}
+              resizeMode="cover"
+              source={
+                Object {
+                  "uri": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTVkMt3KFinkf_ehnCq5yk2DLZBls6GYFZLeA&usqp=CAU",
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              testID="image-with-fallback-container"
+            />
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+              "borderBottomLeftRadius": 8,
+              "borderBottomRightRadius": 8,
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "flexDirection": "row",
+              "justifyContent": "flex-start",
+              "paddingBottom": 20,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+              "paddingTop": 20,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "height": 60,
+                  "width": 60,
+                },
+                Object {
+                  "backgroundColor": "#E2E3E3",
+                  "borderBottomLeftRadius": 30,
+                  "borderBottomRightRadius": 30,
+                  "borderTopLeftRadius": 30,
+                  "borderTopRightRadius": 30,
+                  "height": 60,
+                  "width": 60,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "overflow": "hidden",
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "borderBottomLeftRadius": 60,
+                    "borderBottomRightRadius": 60,
+                    "borderTopLeftRadius": 60,
+                    "borderTopRightRadius": 60,
+                    "height": "100%",
+                    "justifyContent": "center",
+                    "width": "100%",
+                  },
+                ]
+              }
+            >
+              <FastImageView
+                accessibilityLabel="brand-logo-image"
+                accessible={true}
+                onFastImageError={[Function]}
+                onFastImageLoad={[Function]}
+                onFastImageLoadEnd={[Function]}
+                onFastImageLoadStart={[Function]}
+                resizeMode="cover"
+                source={
+                  Object {
+                    "priority": "high",
+                    "uri": "https://i.ibb.co/nMJXNWq/Logos-SYW-MAX.png",
+                  }
+                }
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+                testID="brand-logo-image"
+              />
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "justifyContent": "space-between",
+                "paddingLeft": 20,
+              }
+            }
+          >
+            <Text
+              accessibilityLabel="large-mission-card-brand-name"
+              accessible={true}
+              ellipsizeMode="tail"
+              font="SFProDisplay-Bold"
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Object {
+                    "color": "#909BA0",
+                    "fontSize": 14,
+                    "textTransform": "uppercase",
+                  },
+                ]
+              }
+              testID="large-mission-card-brand-name"
+            >
+              Walmart
+            </Text>
+            <Text
+              accessibilityLabel="large-mission-card-mission-name"
+              accessible={true}
+              ellipsizeMode="tail"
+              font="SFProDisplay-Bold"
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Object {
+                    "color": "#262C2F",
+                    "fontSize": 18,
+                    "paddingVertical": 4,
+                    "width": "100%",
+                  },
+                ]
+              }
+              testID="large-mission-card-mission-name"
+            >
+              Get some thing that you want to buy!
+            </Text>
+            <View
+              accessibilityLabel="pill-container"
+              accessible={true}
+              style={
+                Array [
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#DDE8F5",
+                      "borderBottomLeftRadius": 20,
+                      "borderBottomRightRadius": 20,
+                      "borderTopLeftRadius": 20,
+                      "borderTopRightRadius": 20,
+                      "flexDirection": "row",
+                      "paddingLeft": 4,
+                      "paddingRight": 10,
+                    },
+                    Object {
+                      "height": 28,
+                    },
+                  ],
+                  Array [
+                    undefined,
+                  ],
+                  undefined,
+                ]
+              }
+              testID="pill-container"
+            >
+              <View
+                accessibilityLabel="pill-icon"
+                accessible={true}
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#FFFFFF",
+                      "borderBottomLeftRadius": 50,
+                      "borderBottomRightRadius": 50,
+                      "borderTopLeftRadius": 50,
+                      "borderTopRightRadius": 50,
+                      "justifyContent": "center",
+                    },
+                    undefined,
+                  ]
+                }
+                testID="pill-icon"
+              >
+                <Text
+                  accessibilityLabel="icon-text"
+                  accessible={true}
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#0066CC",
+                        "fontSize": 20,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "sywmax",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                  testID="icon-text"
+                >
+                  
+                </Text>
+              </View>
+              <Text
+                accessibilityLabel="pill-text"
+                accessible={true}
+                style={
+                  Array [
+                    Object {
+                      "color": "#909BA0",
+                      "fontFamily": "SFProDisplay-Medium",
+                      "fontSize": 16,
+                      "lineHeight": 22,
+                    },
+                    Array [
+                      Object {
+                        "paddingLeft": 4,
+                      },
+                      Array [
+                        Object {
+                          "color": "#0066CC",
+                          "fontFamily": "SFProDisplay-Bold",
+                          "fontSize": 14,
+                        },
+                        Object {
+                          "lineHeight": 20,
+                        },
+                        undefined,
+                      ],
+                    ],
+                  ]
+                }
+                testID="pill-text"
+              >
+                200
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,260 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Apply Now should render 1`] = `
+<RCTScrollView
+  accessibilityLabel="apply-now-non-ecm-content"
+  accessible={true}
+  contentContainerStyle={
+    Object {
+      "backgroundColor": "#F5F7FA",
+      "flexBasis": 0,
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "justifyContent": "center",
+    }
+  }
+  testID="apply-now-non-ecm-content"
+>
+  <View>
+    <View
+      style={
+        Object {
+          "marginBottom": 16,
+          "marginLeft": 28,
+          "marginRight": 28,
+          "marginTop": 0,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/credit-card/creditCard.png",
+          }
+        }
+        style={
+          Object {
+            "alignSelf": "center",
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "marginBottom": 0,
+          "marginLeft": 16,
+          "marginRight": 16,
+          "marginTop": 0,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#262C2F",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 20,
+              "lineHeight": 30,
+            },
+            Array [
+              Object {
+                "fontFamily": "SFProDisplay-Heavy",
+                "letterSpacing": 0,
+                "textAlign": "center",
+              },
+              Object {
+                "marginBottom": 4,
+                "marginLeft": 28,
+                "marginRight": 28,
+                "marginTop": 28,
+              },
+            ],
+          ]
+        }
+        type="titleHeader"
+      >
+        Get rewarded on everyday purchases.
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontSize": 16,
+                "lineHeight": 26,
+                "textAlign": "center",
+              },
+              Object {
+                "marginBottom": 4,
+                "marginTop": 8,
+              },
+            ],
+          ]
+        }
+      >
+        Start earning Shop Your Way® Points 
+        
+
+         on eligible everyday purchases 
+        
+
+         with a Shop Your Way Mastercard®
+      </Text>
+      <Text
+        accessibilityLabel="apply-now-see-details-link"
+        accessible={true}
+        onPress={[Function]}
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontSize": 16,
+                "lineHeight": 26,
+                "textAlign": "center",
+              },
+              Object {
+                "marginBottom": 4,
+                "marginTop": 8,
+              },
+              Object {
+                "color": "#0066CC",
+                "letterSpacing": 0,
+              },
+              Object {
+                "marginBottom": 8,
+                "marginTop": 0,
+              },
+            ],
+          ]
+        }
+        testID="apply-now-see-details-link"
+      >
+        See details
+      </Text>
+      <View
+        style={
+          Object {
+            "marginBottom": 20,
+            "marginLeft": 40,
+            "marginRight": 40,
+            "marginTop": 8,
+          }
+        }
+      >
+        <View
+          accessibilityLabel="apply-now-apply-btn"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+          testID="apply-now-apply-btn"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#0066CC",
+                  "borderBottomLeftRadius": 30,
+                  "borderBottomRightRadius": 30,
+                  "borderTopLeftRadius": 30,
+                  "borderTopRightRadius": 30,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "paddingBottom": 8,
+                  "paddingLeft": 12,
+                  "paddingRight": 12,
+                  "paddingTop": 8,
+                },
+                Array [
+                  Object {
+                    "width": "100%",
+                  },
+                  Object {
+                    "backgroundColor": "#0066CC",
+                    "paddingBottom": 8,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "paddingTop": 8,
+                  },
+                ],
+              ]
+            }
+          >
+            <View
+              style={false}
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#909BA0",
+                      "fontFamily": "SFProDisplay-Medium",
+                      "fontSize": 16,
+                      "lineHeight": 22,
+                    },
+                    Array [
+                      Object {
+                        "color": "#FFFFFF",
+                        "fontSize": 14,
+                        "textAlign": "center",
+                      },
+                      Object {
+                        "fontFamily": "SFProDisplay-Bold",
+                        "fontSize": 18,
+                        "letterSpacing": 0,
+                        "lineHeight": 26,
+                      },
+                      undefined,
+                    ],
+                  ]
+                }
+              >
+                Apply Now
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+    <Modal
+      accessibilityLabel="modal-container"
+      accessible={true}
+      animationType="slide"
+      hardwareAccelerated={false}
+      onRequestClose={[Function]}
+      statusBarTranslucent={true}
+      testID="modal-container"
+      transparent={true}
+      visible={false}
+    />
+  </View>
+</RCTScrollView>
+`;

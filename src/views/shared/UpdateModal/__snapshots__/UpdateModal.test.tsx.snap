@@ -1,0 +1,439 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UpdateModal should render a with a required update 1`] = `
+<View
+  accessibilityLabel="update-modal-container"
+  accessible={true}
+  style={
+    Object {
+      "alignItems": "center",
+      "flexBasis": 0,
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "justifyContent": "center",
+      "paddingBottom": 48,
+      "paddingLeft": 40,
+      "paddingRight": 40,
+      "paddingTop": 48,
+      "width": "100%",
+    }
+  }
+  testID="update-modal-container"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "height": 65,
+          "marginBottom": 32,
+          "width": 65,
+        },
+      ]
+    }
+  >
+    <FastImageView
+      resizeMode="cover"
+      source={
+        Object {
+          "testUri": "../../../src/assets/shared/swyLogo.png",
+        }
+      }
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    />
+  </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#262C2F",
+          "fontFamily": "SFProDisplay-Bold",
+          "fontSize": 16,
+          "lineHeight": 24,
+        },
+        Object {
+          "marginBottom": 32,
+          "textAlign": "center",
+        },
+      ]
+    }
+    type="sectionHeader"
+  >
+    Hey! There's a new version of 
+SYW MAX available.
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#909BA0",
+          "fontFamily": "SFProDisplay-Medium",
+          "fontSize": 16,
+          "lineHeight": 22,
+        },
+        Object {
+          "color": "#909BA0",
+          "fontSize": 16,
+          "lineHeight": 24,
+          "marginBottom": 32,
+          "textAlign": "center",
+        },
+      ]
+    }
+  >
+    Update now and keep earning points with your favorite brands!
+  </Text>
+  <View
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      accessibilityLabel="update-modal-update-btn"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="update-modal-update-btn"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#0066CC",
+              "borderBottomLeftRadius": 30,
+              "borderBottomRightRadius": 30,
+              "borderTopLeftRadius": 30,
+              "borderTopRightRadius": 30,
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "paddingBottom": 8,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 8,
+            },
+            Object {
+              "paddingBottom": 16,
+              "paddingLeft": 32,
+              "paddingRight": 32,
+              "paddingTop": 16,
+            },
+          ]
+        }
+      >
+        <View
+          style={false}
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Medium",
+                  "fontSize": 16,
+                  "lineHeight": 22,
+                },
+                Array [
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontSize": 14,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "fontFamily": "SFProDisplay-Heavy",
+                    "fontSize": 16,
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            Update now
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`UpdateModal should render a without a required update 1`] = `
+<View
+  accessibilityLabel="update-modal-container"
+  accessible={true}
+  style={
+    Object {
+      "alignItems": "center",
+      "flexBasis": 0,
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "justifyContent": "center",
+      "paddingBottom": 48,
+      "paddingLeft": 40,
+      "paddingRight": 40,
+      "paddingTop": 48,
+      "width": "100%",
+    }
+  }
+  testID="update-modal-container"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "height": 65,
+          "marginBottom": 32,
+          "width": 65,
+        },
+      ]
+    }
+  >
+    <FastImageView
+      resizeMode="cover"
+      source={
+        Object {
+          "testUri": "../../../src/assets/shared/swyLogo.png",
+        }
+      }
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    />
+  </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#262C2F",
+          "fontFamily": "SFProDisplay-Bold",
+          "fontSize": 16,
+          "lineHeight": 24,
+        },
+        Object {
+          "marginBottom": 32,
+          "textAlign": "center",
+        },
+      ]
+    }
+    type="sectionHeader"
+  >
+    Hey! There's a new version of 
+SYW MAX available.
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#909BA0",
+          "fontFamily": "SFProDisplay-Medium",
+          "fontSize": 16,
+          "lineHeight": 22,
+        },
+        Object {
+          "color": "#909BA0",
+          "fontSize": 16,
+          "lineHeight": 24,
+          "marginBottom": 32,
+          "textAlign": "center",
+        },
+      ]
+    }
+  >
+    Update now and keep earning points with your favorite brands!
+  </Text>
+  <View
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      accessibilityLabel="update-modal-update-btn"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="update-modal-update-btn"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#0066CC",
+              "borderBottomLeftRadius": 30,
+              "borderBottomRightRadius": 30,
+              "borderTopLeftRadius": 30,
+              "borderTopRightRadius": 30,
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "paddingBottom": 8,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 8,
+            },
+            Object {
+              "paddingBottom": 16,
+              "paddingLeft": 32,
+              "paddingRight": 32,
+              "paddingTop": 16,
+            },
+          ]
+        }
+      >
+        <View
+          style={false}
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Medium",
+                  "fontSize": 16,
+                  "lineHeight": 22,
+                },
+                Array [
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontSize": 14,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "fontFamily": "SFProDisplay-Heavy",
+                    "fontSize": 16,
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            Update now
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    accessibilityLabel="update-modal-close-btn"
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="update-modal-close-btn"
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#0066CC",
+            "borderBottomLeftRadius": 30,
+            "borderBottomRightRadius": 30,
+            "borderTopLeftRadius": 30,
+            "borderTopRightRadius": 30,
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "paddingBottom": 8,
+            "paddingLeft": 12,
+            "paddingRight": 12,
+            "paddingTop": 8,
+          },
+          Object {
+            "backgroundColor": "transparent",
+            "marginTop": 16,
+          },
+        ]
+      }
+    >
+      <View
+        style={false}
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 14,
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "#0066CC",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 16,
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          I'll do this later
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

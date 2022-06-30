@@ -1,0 +1,119 @@
+{
+  "project_info": {
+    "project_number": "718693179207",
+    "firebase_url": "https://shop-your-way-max.firebaseio.com",
+    "project_id": "shop-your-way-max",
+    "storage_bucket": "shop-your-way-max.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718693179207:android:062322c55d37df7c407662",
+        "android_client_info": {
+          "package_name": "com.syw.max"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "718693179207-8cvfitfthq43n63o58kinobalkqrg2jm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWGBbL8MBKHUYKRYM9y1wa9hz0ql8OAag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "718693179207-8cvfitfthq43n63o58kinobalkqrg2jm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "718693179207-oj8uej4l8nck0e93m9t3169dr5pr7aoi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.syw.max"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718693179207:android:f4dbacfd469f378e407662",
+        "android_client_info": {
+          "package_name": "com.syw.max.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "718693179207-8cvfitfthq43n63o58kinobalkqrg2jm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWGBbL8MBKHUYKRYM9y1wa9hz0ql8OAag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "718693179207-8cvfitfthq43n63o58kinobalkqrg2jm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "718693179207-oj8uej4l8nck0e93m9t3169dr5pr7aoi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.syw.max"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718693179207:android:5d8de37db783402f407662",
+        "android_client_info": {
+          "package_name": "com.syw.max.uat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "718693179207-8cvfitfthq43n63o58kinobalkqrg2jm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWGBbL8MBKHUYKRYM9y1wa9hz0ql8OAag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "718693179207-8cvfitfthq43n63o58kinobalkqrg2jm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "718693179207-oj8uej4l8nck0e93m9t3169dr5pr7aoi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.syw.max"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

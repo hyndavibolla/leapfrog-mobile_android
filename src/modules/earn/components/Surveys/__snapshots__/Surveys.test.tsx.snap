@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Surveys should render 1`] = `
+<View
+  accessibilityLabel="earn-main-surveys-container"
+  accessible={true}
+  style={
+    Object {
+      "paddingBottom": 24,
+      "paddingHorizontal": 16,
+    }
+  }
+  testID="earn-main-surveys-container"
+/>
+`;

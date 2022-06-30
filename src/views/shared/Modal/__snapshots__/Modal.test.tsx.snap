@@ -1,0 +1,1655 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal should render closed 1`] = `
+<Modal
+  accessibilityLabel="modal-container"
+  accessible={true}
+  animationType="slide"
+  hardwareAccelerated={false}
+  onRequestClose={[MockFunction]}
+  statusBarTranslucent={true}
+  testID="modal-container"
+  transparent={true}
+  visible={false}
+/>
+`;
+
+exports[`Modal should render open 1`] = `
+<Modal
+  accessibilityLabel="modal-container"
+  accessible={true}
+  animationType="slide"
+  hardwareAccelerated={false}
+  onRequestClose={[MockFunction]}
+  statusBarTranslucent={true}
+  testID="modal-container"
+  transparent={true}
+  visible={true}
+>
+  <View
+    onLayout={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "bottom": 0,
+          "position": "absolute",
+          "zIndex": 9999,
+        },
+        Object {
+          "borderTopLeftRadius": 14,
+          "borderTopRightRadius": 14,
+          "bottom": 0,
+          "left": 0,
+          "paddingBottom": 60,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 60,
+          "width": "100%",
+        },
+        Object {
+          "maxHeight": 400,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      accessibilityLabel="modal-close-btn"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+          "position": "absolute",
+          "right": 30,
+          "top": 60,
+          "zIndex": 1,
+        }
+      }
+      testID="modal-close-btn"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#0066CC",
+              "borderBottomLeftRadius": 30,
+              "borderBottomRightRadius": 30,
+              "borderTopLeftRadius": 30,
+              "borderTopRightRadius": 30,
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "paddingBottom": 8,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 8,
+            },
+            Array [
+              Object {
+                "height": 30,
+                "width": 30,
+              },
+              Object {
+                "backgroundColor": "transparent",
+                "elevation": 3,
+                "shadowColor": "#262C2F",
+                "shadowOffset": Object {
+                  "height": 4,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.1,
+              },
+            ],
+            Object {
+              "backgroundColor": "#FFFFFF",
+            },
+          ]
+        }
+      >
+        <View
+          style={false}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "height": 20,
+                "justifyContent": "center",
+                "width": 20,
+              }
+            }
+          >
+            <Text
+              accessibilityLabel="icon-text"
+              accessible={true}
+              allowFontScaling={false}
+              selectable={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#262C2F",
+                    "fontSize": 22,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "sywmax",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+              testID="icon-text"
+            >
+              
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          undefined,
+        ]
+      }
+    >
+      I am the modal's content
+    </Text>
+  </View>
+  <div
+    animation="fadeIn"
+    delay={400}
+    duration={400}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "rgba(38, 44, 47, 0.45)",
+          "height": "100%",
+          "left": 0,
+          "top": 0,
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+    useNativeDriver={true}
+  >
+    <View
+      accessibilityLabel="modal-backdrop"
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="modal-backdrop"
+    >
+      <View
+        style={
+          Object {
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+    </View>
+  </div>
+</Modal>
+`;
+
+exports[`Modal should render the 'bottom' modal_type 1`] = `
+<Modal
+  accessibilityLabel="modal-container"
+  accessible={true}
+  animationType="slide"
+  hardwareAccelerated={false}
+  onRequestClose={[MockFunction]}
+  statusBarTranslucent={true}
+  testID="modal-container"
+  transparent={true}
+  visible={true}
+>
+  <View
+    onLayout={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "bottom": 0,
+          "position": "absolute",
+          "zIndex": 9999,
+        },
+        Object {
+          "borderTopLeftRadius": 14,
+          "borderTopRightRadius": 14,
+          "bottom": 0,
+          "left": 0,
+          "paddingBottom": 60,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 60,
+          "width": "100%",
+        },
+        Object {
+          "maxHeight": 400,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      accessibilityLabel="modal-close-btn"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+          "position": "absolute",
+          "right": 30,
+          "top": 60,
+          "zIndex": 1,
+        }
+      }
+      testID="modal-close-btn"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#0066CC",
+              "borderBottomLeftRadius": 30,
+              "borderBottomRightRadius": 30,
+              "borderTopLeftRadius": 30,
+              "borderTopRightRadius": 30,
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "paddingBottom": 8,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 8,
+            },
+            Array [
+              Object {
+                "height": 30,
+                "width": 30,
+              },
+              Object {
+                "backgroundColor": "transparent",
+                "elevation": 3,
+                "shadowColor": "#262C2F",
+                "shadowOffset": Object {
+                  "height": 4,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.1,
+              },
+            ],
+            Object {
+              "backgroundColor": "#FFFFFF",
+            },
+          ]
+        }
+      >
+        <View
+          style={false}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "height": 20,
+                "justifyContent": "center",
+                "width": 20,
+              }
+            }
+          >
+            <Text
+              accessibilityLabel="icon-text"
+              accessible={true}
+              allowFontScaling={false}
+              selectable={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#262C2F",
+                    "fontSize": 22,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "sywmax",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+              testID="icon-text"
+            >
+              
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          undefined,
+        ]
+      }
+    >
+      position is 
+      bottom
+    </Text>
+  </View>
+  <div
+    animation="fadeIn"
+    delay={400}
+    duration={400}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "rgba(38, 44, 47, 0.45)",
+          "height": "100%",
+          "left": 0,
+          "top": 0,
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+    useNativeDriver={true}
+  >
+    <View
+      accessibilityLabel="modal-backdrop"
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="modal-backdrop"
+    >
+      <View
+        style={
+          Object {
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+    </View>
+  </div>
+</Modal>
+`;
+
+exports[`Modal should render the 'center' modal_type 1`] = `
+<Modal
+  accessibilityLabel="modal-container"
+  accessible={true}
+  animationType="slide"
+  hardwareAccelerated={false}
+  onRequestClose={[MockFunction]}
+  statusBarTranslucent={true}
+  testID="modal-container"
+  transparent={true}
+  visible={true}
+>
+  <View
+    onLayout={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "bottom": 0,
+          "position": "absolute",
+          "zIndex": 9999,
+        },
+        Object {
+          "borderBottomLeftRadius": 7,
+          "borderBottomRightRadius": 7,
+          "borderTopLeftRadius": 7,
+          "borderTopRightRadius": 7,
+          "left": "5%",
+          "width": "90%",
+        },
+        Object {
+          "bottom": 300,
+          "height": 400,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      accessibilityLabel="modal-close-btn"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+          "position": "absolute",
+          "right": 20,
+          "top": 20,
+          "zIndex": 1,
+        }
+      }
+      testID="modal-close-btn"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#0066CC",
+              "borderBottomLeftRadius": 30,
+              "borderBottomRightRadius": 30,
+              "borderTopLeftRadius": 30,
+              "borderTopRightRadius": 30,
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "paddingBottom": 8,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 8,
+            },
+            Array [
+              Object {
+                "height": 30,
+                "width": 30,
+              },
+              Object {
+                "backgroundColor": "transparent",
+                "elevation": 3,
+                "shadowColor": "#262C2F",
+                "shadowOffset": Object {
+                  "height": 4,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.1,
+              },
+            ],
+            Object {
+              "backgroundColor": "#FFFFFF",
+            },
+          ]
+        }
+      >
+        <View
+          style={false}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "height": 20,
+                "justifyContent": "center",
+                "width": 20,
+              }
+            }
+          >
+            <Text
+              accessibilityLabel="icon-text"
+              accessible={true}
+              allowFontScaling={false}
+              selectable={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#262C2F",
+                    "fontSize": 22,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "sywmax",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+              testID="icon-text"
+            >
+              
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          undefined,
+        ]
+      }
+    >
+      position is 
+      center
+    </Text>
+  </View>
+  <div
+    animation="fadeIn"
+    delay={400}
+    duration={400}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "rgba(38, 44, 47, 0.45)",
+          "height": "100%",
+          "left": 0,
+          "top": 0,
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+    useNativeDriver={true}
+  >
+    <View
+      accessibilityLabel="modal-backdrop"
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="modal-backdrop"
+    >
+      <View
+        style={
+          Object {
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+    </View>
+  </div>
+</Modal>
+`;
+
+exports[`Modal should render the 'dynamic' modal_size 1`] = `
+<Modal
+  accessibilityLabel="modal-container"
+  accessible={true}
+  animationType="slide"
+  hardwareAccelerated={false}
+  onRequestClose={[MockFunction]}
+  statusBarTranslucent={true}
+  testID="modal-container"
+  transparent={true}
+  visible={true}
+>
+  <View
+    onLayout={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "bottom": 0,
+          "position": "absolute",
+          "zIndex": 9999,
+        },
+        Object {
+          "borderTopLeftRadius": 14,
+          "borderTopRightRadius": 14,
+          "bottom": 0,
+          "left": 0,
+          "paddingBottom": 60,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 60,
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      accessibilityLabel="modal-close-btn"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+          "position": "absolute",
+          "right": 30,
+          "top": 60,
+          "zIndex": 1,
+        }
+      }
+      testID="modal-close-btn"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#0066CC",
+              "borderBottomLeftRadius": 30,
+              "borderBottomRightRadius": 30,
+              "borderTopLeftRadius": 30,
+              "borderTopRightRadius": 30,
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "paddingBottom": 8,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 8,
+            },
+            Array [
+              Object {
+                "height": 30,
+                "width": 30,
+              },
+              Object {
+                "backgroundColor": "transparent",
+                "elevation": 3,
+                "shadowColor": "#262C2F",
+                "shadowOffset": Object {
+                  "height": 4,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.1,
+              },
+            ],
+            Object {
+              "backgroundColor": "#FFFFFF",
+            },
+          ]
+        }
+      >
+        <View
+          style={false}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "height": 20,
+                "justifyContent": "center",
+                "width": 20,
+              }
+            }
+          >
+            <Text
+              accessibilityLabel="icon-text"
+              accessible={true}
+              allowFontScaling={false}
+              selectable={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#262C2F",
+                    "fontSize": 22,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "sywmax",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+              testID="icon-text"
+            >
+              
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          undefined,
+        ]
+      }
+    >
+      size is 
+      dynamic
+    </Text>
+  </View>
+  <div
+    animation="fadeIn"
+    delay={400}
+    duration={400}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "rgba(38, 44, 47, 0.45)",
+          "height": "100%",
+          "left": 0,
+          "top": 0,
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+    useNativeDriver={true}
+  >
+    <View
+      accessibilityLabel="modal-backdrop"
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="modal-backdrop"
+    >
+      <View
+        style={
+          Object {
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+    </View>
+  </div>
+</Modal>
+`;
+
+exports[`Modal should render the 'extralarge' modal_size 1`] = `
+<Modal
+  accessibilityLabel="modal-container"
+  accessible={true}
+  animationType="slide"
+  hardwareAccelerated={false}
+  onRequestClose={[MockFunction]}
+  statusBarTranslucent={true}
+  testID="modal-container"
+  transparent={true}
+  visible={true}
+>
+  <View
+    onLayout={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "bottom": 0,
+          "position": "absolute",
+          "zIndex": 9999,
+        },
+        Object {
+          "borderTopLeftRadius": 14,
+          "borderTopRightRadius": 14,
+          "bottom": 0,
+          "left": 0,
+          "paddingBottom": 60,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 60,
+          "width": "100%",
+        },
+        Object {
+          "maxHeight": 800,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      accessibilityLabel="modal-close-btn"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+          "position": "absolute",
+          "right": 30,
+          "top": 60,
+          "zIndex": 1,
+        }
+      }
+      testID="modal-close-btn"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#0066CC",
+              "borderBottomLeftRadius": 30,
+              "borderBottomRightRadius": 30,
+              "borderTopLeftRadius": 30,
+              "borderTopRightRadius": 30,
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "paddingBottom": 8,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 8,
+            },
+            Array [
+              Object {
+                "height": 30,
+                "width": 30,
+              },
+              Object {
+                "backgroundColor": "transparent",
+                "elevation": 3,
+                "shadowColor": "#262C2F",
+                "shadowOffset": Object {
+                  "height": 4,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.1,
+              },
+            ],
+            Object {
+              "backgroundColor": "#FFFFFF",
+            },
+          ]
+        }
+      >
+        <View
+          style={false}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "height": 20,
+                "justifyContent": "center",
+                "width": 20,
+              }
+            }
+          >
+            <Text
+              accessibilityLabel="icon-text"
+              accessible={true}
+              allowFontScaling={false}
+              selectable={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#262C2F",
+                    "fontSize": 22,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "sywmax",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+              testID="icon-text"
+            >
+              
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          undefined,
+        ]
+      }
+    >
+      size is 
+      extralarge
+    </Text>
+  </View>
+  <div
+    animation="fadeIn"
+    delay={400}
+    duration={400}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "rgba(38, 44, 47, 0.45)",
+          "height": "100%",
+          "left": 0,
+          "top": 0,
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+    useNativeDriver={true}
+  >
+    <View
+      accessibilityLabel="modal-backdrop"
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="modal-backdrop"
+    >
+      <View
+        style={
+          Object {
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+    </View>
+  </div>
+</Modal>
+`;
+
+exports[`Modal should render the 'fullscreen' modal_size 1`] = `
+<Modal
+  accessibilityLabel="modal-container"
+  accessible={true}
+  animationType="slide"
+  hardwareAccelerated={false}
+  onRequestClose={[MockFunction]}
+  statusBarTranslucent={true}
+  testID="modal-container"
+  transparent={true}
+  visible={true}
+>
+  <View
+    onLayout={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "bottom": 0,
+          "position": "absolute",
+          "zIndex": 9999,
+        },
+        Object {
+          "borderTopLeftRadius": 14,
+          "borderTopRightRadius": 14,
+          "bottom": 0,
+          "left": 0,
+          "paddingBottom": 60,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 60,
+          "width": "100%",
+        },
+        Object {
+          "borderTopLeftRadius": 0,
+          "borderTopRightRadius": 0,
+          "height": "100%",
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      accessibilityLabel="modal-close-btn"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+          "position": "absolute",
+          "right": 30,
+          "top": 60,
+          "zIndex": 1,
+        }
+      }
+      testID="modal-close-btn"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#0066CC",
+              "borderBottomLeftRadius": 30,
+              "borderBottomRightRadius": 30,
+              "borderTopLeftRadius": 30,
+              "borderTopRightRadius": 30,
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "paddingBottom": 8,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 8,
+            },
+            Array [
+              Object {
+                "height": 30,
+                "width": 30,
+              },
+              Object {
+                "backgroundColor": "transparent",
+                "elevation": 3,
+                "shadowColor": "#262C2F",
+                "shadowOffset": Object {
+                  "height": 4,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.1,
+              },
+            ],
+            Object {
+              "backgroundColor": "#FFFFFF",
+            },
+          ]
+        }
+      >
+        <View
+          style={false}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "height": 20,
+                "justifyContent": "center",
+                "width": 20,
+              }
+            }
+          >
+            <Text
+              accessibilityLabel="icon-text"
+              accessible={true}
+              allowFontScaling={false}
+              selectable={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#262C2F",
+                    "fontSize": 22,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "sywmax",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+              testID="icon-text"
+            >
+              
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          undefined,
+        ]
+      }
+    >
+      size is 
+      fullscreen
+    </Text>
+  </View>
+  <div
+    animation="fadeIn"
+    delay={400}
+    duration={400}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "rgba(38, 44, 47, 0.45)",
+          "height": "100%",
+          "left": 0,
+          "top": 0,
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+    useNativeDriver={true}
+  >
+    <View
+      accessibilityLabel="modal-backdrop"
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="modal-backdrop"
+    >
+      <View
+        style={
+          Object {
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+    </View>
+  </div>
+</Modal>
+`;
+
+exports[`Modal should render the 'medium' modal_size 1`] = `
+<Modal
+  accessibilityLabel="modal-container"
+  accessible={true}
+  animationType="slide"
+  hardwareAccelerated={false}
+  onRequestClose={[MockFunction]}
+  statusBarTranslucent={true}
+  testID="modal-container"
+  transparent={true}
+  visible={true}
+>
+  <View
+    onLayout={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "bottom": 0,
+          "position": "absolute",
+          "zIndex": 9999,
+        },
+        Object {
+          "borderTopLeftRadius": 14,
+          "borderTopRightRadius": 14,
+          "bottom": 0,
+          "left": 0,
+          "paddingBottom": 60,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 60,
+          "width": "100%",
+        },
+        Object {
+          "maxHeight": 500,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      accessibilityLabel="modal-close-btn"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+          "position": "absolute",
+          "right": 30,
+          "top": 60,
+          "zIndex": 1,
+        }
+      }
+      testID="modal-close-btn"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#0066CC",
+              "borderBottomLeftRadius": 30,
+              "borderBottomRightRadius": 30,
+              "borderTopLeftRadius": 30,
+              "borderTopRightRadius": 30,
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "paddingBottom": 8,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 8,
+            },
+            Array [
+              Object {
+                "height": 30,
+                "width": 30,
+              },
+              Object {
+                "backgroundColor": "transparent",
+                "elevation": 3,
+                "shadowColor": "#262C2F",
+                "shadowOffset": Object {
+                  "height": 4,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.1,
+              },
+            ],
+            Object {
+              "backgroundColor": "#FFFFFF",
+            },
+          ]
+        }
+      >
+        <View
+          style={false}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "height": 20,
+                "justifyContent": "center",
+                "width": 20,
+              }
+            }
+          >
+            <Text
+              accessibilityLabel="icon-text"
+              accessible={true}
+              allowFontScaling={false}
+              selectable={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#262C2F",
+                    "fontSize": 22,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "sywmax",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+              testID="icon-text"
+            >
+              
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          undefined,
+        ]
+      }
+    >
+      size is 
+      medium
+    </Text>
+  </View>
+  <div
+    animation="fadeIn"
+    delay={400}
+    duration={400}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "rgba(38, 44, 47, 0.45)",
+          "height": "100%",
+          "left": 0,
+          "top": 0,
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+    useNativeDriver={true}
+  >
+    <View
+      accessibilityLabel="modal-backdrop"
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="modal-backdrop"
+    >
+      <View
+        style={
+          Object {
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+    </View>
+  </div>
+</Modal>
+`;
+
+exports[`Modal should render the 'small' modal_size 1`] = `
+<Modal
+  accessibilityLabel="modal-container"
+  accessible={true}
+  animationType="slide"
+  hardwareAccelerated={false}
+  onRequestClose={[MockFunction]}
+  statusBarTranslucent={true}
+  testID="modal-container"
+  transparent={true}
+  visible={true}
+>
+  <View
+    onLayout={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "bottom": 0,
+          "position": "absolute",
+          "zIndex": 9999,
+        },
+        Object {
+          "borderTopLeftRadius": 14,
+          "borderTopRightRadius": 14,
+          "bottom": 0,
+          "left": 0,
+          "paddingBottom": 60,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 60,
+          "width": "100%",
+        },
+        Object {
+          "maxHeight": 400,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      accessibilityLabel="modal-close-btn"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+          "position": "absolute",
+          "right": 30,
+          "top": 60,
+          "zIndex": 1,
+        }
+      }
+      testID="modal-close-btn"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#0066CC",
+              "borderBottomLeftRadius": 30,
+              "borderBottomRightRadius": 30,
+              "borderTopLeftRadius": 30,
+              "borderTopRightRadius": 30,
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "paddingBottom": 8,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 8,
+            },
+            Array [
+              Object {
+                "height": 30,
+                "width": 30,
+              },
+              Object {
+                "backgroundColor": "transparent",
+                "elevation": 3,
+                "shadowColor": "#262C2F",
+                "shadowOffset": Object {
+                  "height": 4,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.1,
+              },
+            ],
+            Object {
+              "backgroundColor": "#FFFFFF",
+            },
+          ]
+        }
+      >
+        <View
+          style={false}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "height": 20,
+                "justifyContent": "center",
+                "width": 20,
+              }
+            }
+          >
+            <Text
+              accessibilityLabel="icon-text"
+              accessible={true}
+              allowFontScaling={false}
+              selectable={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#262C2F",
+                    "fontSize": 22,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "sywmax",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+              testID="icon-text"
+            >
+              
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          undefined,
+        ]
+      }
+    >
+      size is 
+      small
+    </Text>
+  </View>
+  <div
+    animation="fadeIn"
+    delay={400}
+    duration={400}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "rgba(38, 44, 47, 0.45)",
+          "height": "100%",
+          "left": 0,
+          "top": 0,
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+    useNativeDriver={true}
+  >
+    <View
+      accessibilityLabel="modal-backdrop"
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="modal-backdrop"
+    >
+      <View
+        style={
+          Object {
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+    </View>
+  </div>
+</Modal>
+`;

@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmptyState should render 1`] = `
+<View
+  accessibilityLabel="empty-state-simple"
+  accessible={true}
+  style={
+    Object {
+      "flexBasis": 0,
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "justifyContent": "center",
+    }
+  }
+  testID="empty-state-simple"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "justifySelf": "center",
+        "paddingBottom": 32,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 32,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`EmptyState should render nothing if the visible prop is the default value 1`] = `null`;

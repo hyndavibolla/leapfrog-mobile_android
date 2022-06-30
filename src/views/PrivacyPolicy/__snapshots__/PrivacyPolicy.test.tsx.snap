@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PrivacyPolicy should render 1`] = `
+<View
+  accessibilityLabel="privacy-policy-spinner"
+  accessible={true}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5F7FA",
+      "flexBasis": 0,
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "height": "100%",
+      "justifyContent": "center",
+      "left": 0,
+      "position": "absolute",
+      "top": 0,
+      "width": "100%",
+    }
+  }
+  testID="privacy-policy-spinner"
+>
+  <div>
+    Spinner
+  </div>
+</View>
+`;

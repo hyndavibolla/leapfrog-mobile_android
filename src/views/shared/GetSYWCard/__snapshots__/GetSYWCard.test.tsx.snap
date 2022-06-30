@@ -1,0 +1,737 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Get SYW Card should render 1`] = `
+<RCTScrollView
+  accessibilityLabel="get-syw-card-container"
+  accessible={true}
+  style={
+    Object {
+      "paddingBottom": 20,
+      "paddingLeft": 20,
+      "paddingRight": 20,
+      "paddingTop": 0,
+      "width": "100%",
+    }
+  }
+  testID="get-syw-card-container"
+>
+  <View>
+    <Image
+      resizeMode="contain"
+      source={
+        Object {
+          "testUri": "../../../src/assets/credit-card/creditCard.png",
+        }
+      }
+    />
+    <Text
+      font="SFProDisplay-Bold"
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Bold",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          Array [
+            Object {
+              "fontSize": 18,
+              "lineHeight": 20,
+            },
+            Object {
+              "textAlign": "center",
+            },
+          ],
+        ]
+      }
+    >
+      The Shop Your Way Mastercard® rewards members with more ways to earn points on eligible everyday purchases.
+    </Text>
+    <View
+      style={
+        Object {
+          "marginBottom": 20,
+          "marginLeft": 20,
+          "marginRight": 20,
+          "marginTop": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "marginBottom": 4,
+            "marginLeft": 32,
+            "marginRight": 32,
+            "marginTop": 20,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/points-view/gas.png",
+            }
+          }
+          style={
+            Object {
+              "height": 42,
+              "marginRight": 20,
+              "width": 42,
+            }
+          }
+        />
+        <View>
+          <Text
+            font="SFProDisplay-Bold"
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 16,
+                  "lineHeight": 22,
+                },
+                Array [
+                  Object {
+                    "fontSize": 18,
+                    "lineHeight": 20,
+                  },
+                  Object {
+                    "fontSize": 20,
+                  },
+                ],
+              ]
+            }
+          >
+            <Text
+              font="SFProDisplay-Bold"
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Array [
+                    Object {
+                      "fontSize": 18,
+                      "lineHeight": 20,
+                    },
+                    Object {
+                      "color": "#0066CC",
+                    },
+                  ],
+                ]
+              }
+            >
+              5
+              %
+               
+            </Text>
+            in points*
+          </Text>
+          <Text
+            font="SFProDisplay-SemiBold"
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-SemiBold",
+                  "fontSize": 16,
+                  "lineHeight": 22,
+                },
+                Array [
+                  Object {
+                    "fontSize": 18,
+                    "lineHeight": 20,
+                  },
+                  Object {
+                    "fontSize": 12,
+                    "lineHeight": 14,
+                    "marginRight": 32,
+                  },
+                ],
+              ]
+            }
+          >
+            On eligible purchases at 
+            <Text
+              font="SFProDisplay-Bold"
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Array [
+                    Object {
+                      "fontSize": 18,
+                      "lineHeight": 20,
+                    },
+                    Object {
+                      "fontSize": 12,
+                      "lineHeight": 14,
+                      "marginRight": 32,
+                    },
+                  ],
+                ]
+              }
+            >
+              gas stations**
+            </Text>
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "marginBottom": 4,
+            "marginLeft": 32,
+            "marginRight": 32,
+            "marginTop": 20,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/points-view/grocery.png",
+            }
+          }
+          style={
+            Object {
+              "height": 42,
+              "marginRight": 20,
+              "width": 42,
+            }
+          }
+        />
+        <View>
+          <Text
+            font="SFProDisplay-Bold"
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 16,
+                  "lineHeight": 22,
+                },
+                Array [
+                  Object {
+                    "fontSize": 18,
+                    "lineHeight": 20,
+                  },
+                  Object {
+                    "fontSize": 20,
+                  },
+                ],
+              ]
+            }
+          >
+            <Text
+              font="SFProDisplay-Bold"
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Array [
+                    Object {
+                      "fontSize": 18,
+                      "lineHeight": 20,
+                    },
+                    Object {
+                      "color": "#0066CC",
+                    },
+                  ],
+                ]
+              }
+            >
+              3
+              %
+               
+            </Text>
+            in points*
+          </Text>
+          <Text
+            font="SFProDisplay-SemiBold"
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-SemiBold",
+                  "fontSize": 16,
+                  "lineHeight": 22,
+                },
+                Array [
+                  Object {
+                    "fontSize": 18,
+                    "lineHeight": 20,
+                  },
+                  Object {
+                    "fontSize": 12,
+                    "lineHeight": 14,
+                    "marginRight": 32,
+                  },
+                ],
+              ]
+            }
+          >
+            On eligible purchases at 
+            <Text
+              font="SFProDisplay-Bold"
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Array [
+                    Object {
+                      "fontSize": 18,
+                      "lineHeight": 20,
+                    },
+                    Object {
+                      "fontSize": 12,
+                      "lineHeight": 14,
+                      "marginRight": 32,
+                    },
+                  ],
+                ]
+              }
+            >
+              grocery stores restaurants**
+            </Text>
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "marginBottom": 4,
+            "marginLeft": 32,
+            "marginRight": 32,
+            "marginTop": 20,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/points-view/merchants.png",
+            }
+          }
+          style={
+            Object {
+              "height": 42,
+              "marginRight": 20,
+              "width": 42,
+            }
+          }
+        />
+        <View>
+          <Text
+            font="SFProDisplay-Bold"
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 16,
+                  "lineHeight": 22,
+                },
+                Array [
+                  Object {
+                    "fontSize": 18,
+                    "lineHeight": 20,
+                  },
+                  Object {
+                    "fontSize": 20,
+                  },
+                ],
+              ]
+            }
+          >
+            <Text
+              font="SFProDisplay-Bold"
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Array [
+                    Object {
+                      "fontSize": 18,
+                      "lineHeight": 20,
+                    },
+                    Object {
+                      "color": "#0066CC",
+                    },
+                  ],
+                ]
+              }
+            >
+              2
+              %
+               
+            </Text>
+            in points*
+          </Text>
+          <Text
+            font="SFProDisplay-SemiBold"
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-SemiBold",
+                  "fontSize": 16,
+                  "lineHeight": 22,
+                },
+                Array [
+                  Object {
+                    "fontSize": 18,
+                    "lineHeight": 20,
+                  },
+                  Object {
+                    "fontSize": 12,
+                    "lineHeight": 14,
+                    "marginRight": 32,
+                  },
+                ],
+              ]
+            }
+          >
+            On eligible purchases at 
+            <Text
+              font="SFProDisplay-Bold"
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Array [
+                    Object {
+                      "fontSize": 18,
+                      "lineHeight": 20,
+                    },
+                    Object {
+                      "fontSize": 12,
+                      "lineHeight": 14,
+                      "marginRight": 32,
+                    },
+                  ],
+                ]
+              }
+            >
+              Shop Your Way Merchants*
+            </Text>
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "marginBottom": 4,
+            "marginLeft": 32,
+            "marginRight": 32,
+            "marginTop": 20,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/points-view/elegible.png",
+            }
+          }
+          style={
+            Object {
+              "height": 42,
+              "marginRight": 20,
+              "width": 42,
+            }
+          }
+        />
+        <View>
+          <Text
+            font="SFProDisplay-Bold"
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 16,
+                  "lineHeight": 22,
+                },
+                Array [
+                  Object {
+                    "fontSize": 18,
+                    "lineHeight": 20,
+                  },
+                  Object {
+                    "fontSize": 20,
+                  },
+                ],
+              ]
+            }
+          >
+            <Text
+              font="SFProDisplay-Bold"
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Array [
+                    Object {
+                      "fontSize": 18,
+                      "lineHeight": 20,
+                    },
+                    Object {
+                      "color": "#0066CC",
+                    },
+                  ],
+                ]
+              }
+            >
+              1
+              %
+               
+            </Text>
+            in points*
+          </Text>
+          <Text
+            font="SFProDisplay-SemiBold"
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-SemiBold",
+                  "fontSize": 16,
+                  "lineHeight": 22,
+                },
+                Array [
+                  Object {
+                    "fontSize": 18,
+                    "lineHeight": 20,
+                  },
+                  Object {
+                    "fontSize": 12,
+                    "lineHeight": 14,
+                    "marginRight": 32,
+                  },
+                ],
+              ]
+            }
+          >
+            On all other 
+            <Text
+              font="SFProDisplay-Bold"
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Array [
+                    Object {
+                      "fontSize": 18,
+                      "lineHeight": 20,
+                    },
+                    Object {
+                      "fontSize": 12,
+                      "lineHeight": 14,
+                      "marginRight": 32,
+                    },
+                  ],
+                ]
+              }
+            >
+              eligible purchases
+            </Text>
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "marginBottom": 8,
+        }
+      }
+    >
+      <Text
+        accessibilityLabel="get-syw-card-card-link"
+        accessible={true}
+        onPress={[Function]}
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Object {
+              "color": "#0066CC",
+              "fontFamily": "SFProDisplay-SemiBold",
+              "fontSize": 10,
+              "marginBottom": 8,
+              "textDecorationColor": "#0066CC",
+              "textDecorationLine": "underline",
+              "textDecorationStyle": "solid",
+            },
+          ]
+        }
+        testID="get-syw-card-card-link"
+      >
+        *Shop Your Way additional category earn program
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Object {
+              "color": "#909BA0",
+              "fontSize": 10,
+              "marginBottom": 0,
+              "marginLeft": 24,
+              "marginRight": 24,
+              "marginTop": 0,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        ** On the first $10,000 of combined gas, grocery and restaurant purchases per calendar year and then 1% thereafter.
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "marginBottom": 8,
+          "marginLeft": 40,
+          "marginRight": 40,
+          "marginTop": 8,
+        }
+      }
+    >
+      <View
+        accessibilityLabel="get-syw-card-apply-btn"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID="get-syw-card-apply-btn"
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#0066CC",
+                "borderBottomLeftRadius": 30,
+                "borderBottomRightRadius": 30,
+                "borderTopLeftRadius": 30,
+                "borderTopRightRadius": 30,
+                "flexDirection": "row",
+                "justifyContent": "center",
+                "paddingBottom": 8,
+                "paddingLeft": 12,
+                "paddingRight": 12,
+                "paddingTop": 8,
+              },
+              Object {
+                "backgroundColor": "#0066CC",
+                "paddingBottom": 8,
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 8,
+              },
+            ]
+          }
+        >
+          <View
+            style={false}
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Medium",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Array [
+                    Object {
+                      "color": "#FFFFFF",
+                      "fontSize": 14,
+                      "textAlign": "center",
+                    },
+                    Object {
+                      "fontFamily": "SFProDisplay-Bold",
+                      "fontSize": 18,
+                      "lineHeight": 30,
+                    },
+                    undefined,
+                  ],
+                ]
+              }
+            >
+              Got it
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LeaveSurveyModal should render 1`] = `
+<View
+  accessibilityLabel="leave-survey-modal-container"
+  accessible={true}
+  style={
+    Object {
+      "alignItems": "center",
+    }
+  }
+  testID="leave-survey-modal-container"
+>
+  ExclamationCircle
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#262C2F",
+          "fontFamily": "SFProDisplay-Bold",
+          "fontSize": 16,
+          "lineHeight": 24,
+        },
+        Object {
+          "marginBottom": 32,
+          "textAlign": "center",
+        },
+      ]
+    }
+    type="sectionHeader"
+  >
+    Do you want to leave Surveys?
+  </Text>
+  <View
+    accessibilityLabel="leave-survey-modal-leave-btn"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="leave-survey-modal-leave-btn"
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#0066CC",
+            "borderBottomLeftRadius": 30,
+            "borderBottomRightRadius": 30,
+            "borderTopLeftRadius": 30,
+            "borderTopRightRadius": 30,
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "paddingBottom": 8,
+            "paddingLeft": 12,
+            "paddingRight": 12,
+            "paddingTop": 8,
+          },
+          Object {
+            "paddingBottom": 16,
+            "paddingLeft": 32,
+            "paddingRight": 32,
+            "paddingTop": 16,
+          },
+        ]
+      }
+    >
+      <View
+        style={false}
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 14,
+                  "textAlign": "center",
+                },
+                Object {
+                  "fontFamily": "SFProDisplay-Heavy",
+                  "fontSize": 16,
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          Yes, leave Surveys
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    accessibilityLabel="leave-survey-modal-cancel-btn"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="leave-survey-modal-cancel-btn"
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#0066CC",
+            "borderBottomLeftRadius": 30,
+            "borderBottomRightRadius": 30,
+            "borderTopLeftRadius": 30,
+            "borderTopRightRadius": 30,
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "paddingBottom": 8,
+            "paddingLeft": 12,
+            "paddingRight": 12,
+            "paddingTop": 8,
+          },
+          Object {
+            "backgroundColor": "transparent",
+            "marginTop": 16,
+          },
+        ]
+      }
+    >
+      <View
+        style={false}
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 14,
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "#0066CC",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 16,
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          Cancel
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

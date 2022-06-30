@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text should render with custom font 1`] = `
+<Text
+  font="SFProDisplay-Bold"
+  style={
+    Array [
+      Object {
+        "color": "#909BA0",
+        "fontFamily": "SFProDisplay-Bold",
+        "fontSize": 16,
+        "lineHeight": 22,
+      },
+      undefined,
+    ]
+  }
+>
+  custom font
+</Text>
+`;
+
+exports[`Text should render with default font 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#909BA0",
+        "fontFamily": "SFProDisplay-Medium",
+        "fontSize": 16,
+        "lineHeight": 22,
+      },
+      undefined,
+    ]
+  }
+>
+  default font
+</Text>
+`;

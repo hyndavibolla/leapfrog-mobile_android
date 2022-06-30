@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nearby In Store Offer should render 1`] = `
+<View
+  accessibilityLabel="nearby-in-store-offer-item"
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+  testID="nearby-in-store-offer-item"
+>
+  <View
+    accessibilityLabel="nearby-in-store-offer-offer"
+    accessible={true}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexDirection": "row",
+          "height": 75,
+          "justifyContent": "space-between",
+          "paddingBottom": 8,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 8,
+        },
+        undefined,
+      ]
+    }
+    testID="nearby-in-store-offer-offer"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "paddingRight": 8,
+          "width": "50%",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignSelf": "flex-start",
+            "borderBottomLeftRadius": 50,
+            "borderBottomRightRadius": 50,
+            "borderTopLeftRadius": 50,
+            "borderTopRightRadius": 50,
+            "marginRight": 8,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "height": 60,
+                "width": 60,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "overflow": "hidden",
+                },
+                Object {
+                  "alignItems": "center",
+                  "borderBottomLeftRadius": 60,
+                  "borderBottomRightRadius": 60,
+                  "borderTopLeftRadius": 60,
+                  "borderTopRightRadius": 60,
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+              ]
+            }
+          >
+            <FastImageView
+              accessibilityLabel="brand-logo-image"
+              accessible={true}
+              onFastImageError={[Function]}
+              onFastImageLoad={[Function]}
+              onFastImageLoadEnd={[Function]}
+              onFastImageLoadStart={[Function]}
+              resizeMode="cover"
+              source={
+                Object {
+                  "priority": "high",
+                  "uri": "http://www.local-offer.com/logo/1",
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              testID="brand-logo-image"
+            />
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "column",
+          }
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            Object {
+              "color": "#262C2F",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "lineHeight": 24,
+            }
+          }
+        >
+          local-offer-brand-1
+        </Text>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            accessibilityLabel="icon-text"
+            accessible={true}
+            allowFontScaling={false}
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontSize": 12,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "sywmax",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+            testID="icon-text"
+          >
+            
+          </Text>
+          <Text
+            numberOfLines={1}
+            style={
+              Object {
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 12,
+                "lineHeight": 24,
+                "marginLeft": 4,
+              }
+            }
+          >
+            2307 Beverley Rd, Brooklyn, NY 11226, United States
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "flex-end",
+          "width": "50%",
+        }
+      }
+    >
+      <View
+        style={false}
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 12,
+                "lineHeight": 18,
+              },
+              false,
+            ]
+          }
+        >
+          1
+           miles away
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

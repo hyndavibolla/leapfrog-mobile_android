@@ -1,0 +1,368 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccountCriticalError should render 1`] = `
+<View
+  accessibilityLabel="account-critical-error-container"
+  accessible={true}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5F7FA",
+      "flexBasis": 0,
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "justifyContent": "space-between",
+      "paddingBottom": 16,
+      "paddingLeft": 16,
+      "paddingRight": 16,
+      "paddingTop": 16,
+    }
+  }
+  testID="account-critical-error-container"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    AvatarWarn
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#262C2F",
+            "fontFamily": "SFProDisplay-Bold",
+            "fontSize": 20,
+            "lineHeight": 30,
+          },
+          Object {
+            "color": "#262C2F",
+            "marginTop": 16,
+            "textAlign": "center",
+          },
+        ]
+      }
+      type="titleHeader"
+    >
+      Something went wrong with your account.
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          Object {
+            "color": "#909BA0",
+            "fontSize": 16,
+            "marginTop": 24,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      To continue using Shop Your Way ® MAX, please contact us on:
+    </Text>
+    <View
+      accessibilityLabel="account-critical-error-link"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="account-critical-error-link"
+    >
+      <Text
+        font="SFProDisplay-Bold"
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Object {
+              "color": "#0066CC",
+              "fontSize": 16,
+              "marginTop": 4,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        sywsolutions@syw.com
+      </Text>
+    </View>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          Object {
+            "color": "#909BA0",
+            "fontSize": 16,
+            "marginTop": 24,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      We apologize for any inconvenience you're experiencing.
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "flexDirection": "column",
+            "justifyContent": "space-between",
+            "paddingVertical": 16,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "borderBottomColor": "#EBEDF2",
+              "borderBottomWidth": 1,
+            },
+            Object {
+              "borderBottomColor": "#909BA0",
+            },
+          ]
+        }
+      />
+    </View>
+  </View>
+  <View
+    accessibilityLabel="account-critical-error-logout-container"
+    accessible={true}
+    style={
+      Object {
+        "alignItems": "center",
+        "width": "100%",
+      }
+    }
+    testID="account-critical-error-logout-container"
+  >
+    <View
+      accessibilityLabel="account-critical-error-logout-btn"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="account-critical-error-logout-btn"
+    >
+      <Text
+        font="SFProDisplay-Bold"
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Object {
+              "color": "#0066CC",
+              "fontSize": 18,
+              "marginBottom": 20,
+              "marginLeft": 20,
+              "marginRight": 20,
+              "marginTop": 20,
+            },
+          ]
+        }
+      >
+        Sign out
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`AccountCriticalError should render without sign out link 1`] = `
+<View
+  accessibilityLabel="account-critical-error-container"
+  accessible={true}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5F7FA",
+      "flexBasis": 0,
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "justifyContent": "space-between",
+      "paddingBottom": 16,
+      "paddingLeft": 16,
+      "paddingRight": 16,
+      "paddingTop": 16,
+    }
+  }
+  testID="account-critical-error-container"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    AvatarWarn
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#262C2F",
+            "fontFamily": "SFProDisplay-Bold",
+            "fontSize": 20,
+            "lineHeight": 30,
+          },
+          Object {
+            "color": "#262C2F",
+            "marginTop": 16,
+            "textAlign": "center",
+          },
+        ]
+      }
+      type="titleHeader"
+    >
+      Something went wrong with your account.
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          Object {
+            "color": "#909BA0",
+            "fontSize": 16,
+            "marginTop": 24,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      To continue using Shop Your Way ® MAX, please contact us on:
+    </Text>
+    <View
+      accessibilityLabel="account-critical-error-link"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="account-critical-error-link"
+    >
+      <Text
+        font="SFProDisplay-Bold"
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Object {
+              "color": "#0066CC",
+              "fontSize": 16,
+              "marginTop": 4,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        sywsolutions@syw.com
+      </Text>
+    </View>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          Object {
+            "color": "#909BA0",
+            "fontSize": 16,
+            "marginTop": 24,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      We apologize for any inconvenience you're experiencing.
+    </Text>
+  </View>
+</View>
+`;

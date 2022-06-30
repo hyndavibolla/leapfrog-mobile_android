@@ -1,0 +1,329 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckBalanceModal should render 1`] = `
+<Modal
+  accessibilityLabel="check-balance-modal-container"
+  accessible={true}
+  animationType="slide"
+  hardwareAccelerated={false}
+  onRequestClose={[MockFunction]}
+  statusBarTranslucent={true}
+  testID="check-balance-modal-container"
+  transparent={true}
+  visible={true}
+>
+  <View
+    onLayout={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "bottom": 0,
+          "position": "absolute",
+          "zIndex": 9999,
+        },
+        Object {
+          "borderTopLeftRadius": 14,
+          "borderTopRightRadius": 14,
+          "bottom": 0,
+          "left": 0,
+          "paddingBottom": 60,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 60,
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      accessibilityLabel="check-balance-modal-icon-container"
+      accessible={true}
+      style={
+        Object {
+          "marginBottom": 28,
+        }
+      }
+      testID="check-balance-modal-icon-container"
+    >
+      <Text
+        accessibilityLabel="icon-text"
+        accessible={true}
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          Array [
+            Object {
+              "color": "#0066CC",
+              "fontSize": 60,
+            },
+            undefined,
+            Object {
+              "fontFamily": "sywmax",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+        testID="icon-text"
+      >
+        
+      </Text>
+    </View>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#262C2F",
+            "fontFamily": "SFProDisplay-Heavy",
+            "fontSize": 20,
+            "lineHeight": 30,
+            "marginTop": 16,
+            "textAlign": "center",
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessibilityLabel="check-balance-modal-title"
+        accessible={true}
+        testID="check-balance-modal-title"
+      >
+        You will use 
+        1
+         of the 3 allowed chances to check your balance.
+        
+
+         Are you sure?
+      </Text>
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 26,
+            "marginTop": 8,
+            "textAlign": "center",
+          },
+          Object {
+            "color": "#909BA0",
+            "fontSize": 16,
+            "marginTop": 24,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      <Text
+        accessibilityLabel="check-balance-modal-subtitle"
+        accessible={true}
+        testID="check-balance-modal-subtitle"
+      >
+        If so, you will have 
+        two chances
+         remaining.
+      </Text>
+    </Text>
+    <View
+      style={
+        Object {
+          "marginTop": 60,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        accessibilityLabel="check-balance-modal-yes-button"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID="check-balance-modal-yes-button"
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#0066CC",
+                "borderBottomLeftRadius": 30,
+                "borderBottomRightRadius": 30,
+                "borderTopLeftRadius": 30,
+                "borderTopRightRadius": 30,
+                "flexDirection": "row",
+                "justifyContent": "center",
+                "paddingBottom": 8,
+                "paddingLeft": 12,
+                "paddingRight": 12,
+                "paddingTop": 8,
+              },
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#0066CC",
+                "borderBottomLeftRadius": 30,
+                "borderBottomRightRadius": 30,
+                "borderTopLeftRadius": 30,
+                "borderTopRightRadius": 30,
+                "marginHorizontal": 40,
+                "paddingBottom": 16,
+                "paddingLeft": 16,
+                "paddingRight": 16,
+                "paddingTop": 16,
+              },
+            ]
+          }
+        >
+          <View
+            style={false}
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                  "fontFamily": "SFProDisplay-Heavy",
+                  "fontSize": 16,
+                  "lineHeight": 16,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Yes
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        accessibilityLabel="check-balance-modal-not-now-button"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID="check-balance-modal-not-now-button"
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#0066CC",
+                "borderBottomLeftRadius": 30,
+                "borderBottomRightRadius": 30,
+                "borderTopLeftRadius": 30,
+                "borderTopRightRadius": 30,
+                "flexDirection": "row",
+                "justifyContent": "center",
+                "paddingBottom": 8,
+                "paddingLeft": 12,
+                "paddingRight": 12,
+                "paddingTop": 8,
+              },
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderBottomLeftRadius": 30,
+                "borderBottomRightRadius": 30,
+                "borderTopLeftRadius": 30,
+                "borderTopRightRadius": 30,
+                "marginHorizontal": 40,
+                "marginTop": 24,
+                "paddingBottom": 16,
+                "paddingLeft": 16,
+                "paddingRight": 16,
+                "paddingTop": 16,
+              },
+            ]
+          }
+        >
+          <View
+            style={false}
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#0066CC",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 16,
+                  "lineHeight": 16,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Not now
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <div
+    animation="fadeIn"
+    delay={400}
+    duration={400}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "rgba(38, 44, 47, 0.45)",
+          "height": "100%",
+          "left": 0,
+          "top": 0,
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+    useNativeDriver={true}
+  >
+    <View
+      accessibilityLabel="modal-backdrop"
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="modal-backdrop"
+    >
+      <View
+        style={
+          Object {
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+    </View>
+  </div>
+</Modal>
+`;

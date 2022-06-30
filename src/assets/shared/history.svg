@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>6CA8A0A6-E627-4F40-A405-B9BA17F7B6E1</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.564706 0 0 0 0 0.607843 0 0 0 0 0.627451 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Excutive-summary-Invision" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-/-15px-Copy-4" transform="translate(-34.000000, -245.000000)" filter="url(#filter-1)">
+            <g transform="translate(34.000000, 245.000000)">
+                <circle id="Oval-Copy-5" stroke="#A7A9AB" stroke-width="2" cx="8" cy="8" r="7"></circle>
+                <polyline id="Path-3-Copy-5" stroke="#A7A9AB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="7.46666667 6.4 7.46666667 9.6 9.6 9.6"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

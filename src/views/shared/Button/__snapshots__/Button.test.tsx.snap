@@ -1,0 +1,365 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should render on compatibility mode 1`] = `
+<RNGestureHandlerButton
+  collapsable={false}
+  onGestureEvent={[Function]}
+  onGestureHandlerEvent={[Function]}
+  onGestureHandlerStateChange={[Function]}
+  onHandlerStateChange={[Function]}
+  rippleColor={0}
+  testID="btn"
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#0066CC",
+            "borderBottomLeftRadius": 30,
+            "borderBottomRightRadius": 30,
+            "borderTopLeftRadius": 30,
+            "borderTopRightRadius": 30,
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "paddingBottom": 8,
+            "paddingLeft": 12,
+            "paddingRight": 12,
+            "paddingTop": 8,
+          },
+        ]
+      }
+    >
+      <View
+        style={false}
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 14,
+                  "textAlign": "center",
+                },
+                undefined,
+                undefined,
+              ],
+            ]
+          }
+        >
+          Regular button
+        </Text>
+      </View>
+    </View>
+  </View>
+</RNGestureHandlerButton>
+`;
+
+exports[`Button should render with a single node child 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+  testID="btn"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#0066CC",
+          "borderBottomLeftRadius": 30,
+          "borderBottomRightRadius": 30,
+          "borderTopLeftRadius": 30,
+          "borderTopRightRadius": 30,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "paddingBottom": 8,
+          "paddingLeft": 12,
+          "paddingRight": 12,
+          "paddingTop": 8,
+        },
+      ]
+    }
+  >
+    <View
+      style={false}
+    >
+      <div>
+        node child
+      </div>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Button should render with a single string child 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+  testID="btn"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#0066CC",
+          "borderBottomLeftRadius": 30,
+          "borderBottomRightRadius": 30,
+          "borderTopLeftRadius": 30,
+          "borderTopRightRadius": 30,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "paddingBottom": 8,
+          "paddingLeft": 12,
+          "paddingRight": 12,
+          "paddingTop": 8,
+        },
+      ]
+    }
+  >
+    <View
+      style={false}
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 14,
+                "textAlign": "center",
+              },
+              undefined,
+              undefined,
+            ],
+          ]
+        }
+      >
+        Regular button
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Button should render with customizations 1`] = `
+<View
+  accessibilityState={
+    Object {
+      "disabled": true,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "margin": 1,
+      "opacity": 1,
+    }
+  }
+  testID="btn"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#0066CC",
+          "borderBottomLeftRadius": 30,
+          "borderBottomRightRadius": 30,
+          "borderTopLeftRadius": 30,
+          "borderTopRightRadius": 30,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "paddingBottom": 8,
+          "paddingLeft": 12,
+          "paddingRight": 12,
+          "paddingTop": 8,
+        },
+        Object {
+          "margin": 2,
+        },
+        Object {
+          "backgroundColor": "red",
+        },
+        Object {
+          "opacity": 0.5,
+        },
+        Object {
+          "opacity": 1,
+        },
+      ]
+    }
+  >
+    <View
+      style={false}
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 14,
+                "textAlign": "center",
+              },
+              Object {
+                "margin": 3,
+              },
+              Object {
+                "color": "blue",
+              },
+            ],
+          ]
+        }
+      >
+        Regular button
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Button should render with many children 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+  testID="btn"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#0066CC",
+          "borderBottomLeftRadius": 30,
+          "borderBottomRightRadius": 30,
+          "borderTopLeftRadius": 30,
+          "borderTopRightRadius": 30,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "paddingBottom": 8,
+          "paddingLeft": 12,
+          "paddingRight": 12,
+          "paddingTop": 8,
+        },
+      ]
+    }
+  >
+    <View
+      style={false}
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 14,
+                "textAlign": "center",
+              },
+              undefined,
+              undefined,
+            ],
+          ]
+        }
+      >
+        string child
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "marginLeft": 8,
+        }
+      }
+    >
+      <div>
+        node child
+      </div>
+    </View>
+  </View>
+</View>
+`;

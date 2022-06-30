@@ -1,0 +1,490 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gift Cards Screen should render 1`] = `
+<View
+  accessibilityLabel="gift-cards-screen-container"
+  accessible={true}
+  style={
+    Object {
+      "marginTop": 8,
+    }
+  }
+  testID="gift-cards-screen-container"
+>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "marginBottom": 0,
+        "marginLeft": 16,
+        "marginRight": 16,
+        "marginTop": 0,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#262C2F",
+            "fontFamily": "SFProDisplay-Bold",
+            "fontSize": 16,
+            "lineHeight": 24,
+          },
+          Object {
+            "marginBottom": 20,
+          },
+        ]
+      }
+      type="sectionHeader"
+    >
+      My Gift Cards
+    </Text>
+    <View
+      accessibilityLabel="gift-cards-screen-see-all"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="gift-cards-screen-see-all"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#262C2F",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "lineHeight": 24,
+            },
+            Array [
+              Object {
+                "marginBottom": 20,
+              },
+              Object {
+                "color": "#0066CC",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 18,
+              },
+            ],
+          ]
+        }
+        type="sectionHeader"
+      >
+        See all
+      </Text>
+    </View>
+  </View>
+  <View
+    accessibilityLabel="swipe-item-element"
+    accessible={true}
+    onLayout={[Function]}
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }
+    testID="swipe-item-element"
+  >
+    <View
+      collapsable={false}
+      forwardedRef={[Function]}
+      onGestureHandlerEvent={[Function]}
+      onGestureHandlerStateChange={[Function]}
+      onLayout={[Function]}
+      style={
+        Object {
+          "overflow": "hidden",
+          "width": "100%",
+          "zIndex": 1,
+        }
+      }
+    >
+      <View
+        collapsable={false}
+        style={
+          Object {
+            "bottom": 0,
+            "flexDirection": "row-reverse",
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "transform": Array [
+              Object {
+                "translateX": -10000,
+              },
+            ],
+          }
+        }
+      >
+        <View
+          accessibilityLabel="swipe-item-right-button"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+          testID="swipe-item-right-button"
+        >
+          <View
+            accessibilityLabel="swipe-item-right-button-container"
+            accessible={true}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderBottomLeftRadius": 10,
+                  "borderBottomRightRadius": 10,
+                  "borderTopLeftRadius": 10,
+                  "borderTopRightRadius": 10,
+                  "justifyContent": "center",
+                  "minWidth": 80,
+                  "paddingLeft": 16,
+                },
+                Object {
+                  "height": undefined,
+                },
+              ]
+            }
+            testID="swipe-item-right-button-container"
+          >
+            <Text
+              accessibilityLabel="icon-text"
+              accessible={true}
+              allowFontScaling={false}
+              selectable={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontSize": 24,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "sywmax",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+              testID="icon-text"
+            >
+              
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 12,
+                  "lineHeight": 20,
+                }
+              }
+            >
+              Archive
+            </Text>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+        />
+      </View>
+      <View
+        collapsable={false}
+        forwardedRef={[Function]}
+        onGestureHandlerEvent={[Function]}
+        onGestureHandlerStateChange={[Function]}
+        pointerEvents="auto"
+        style={
+          Object {
+            "transform": Array [
+              Object {
+                "translateX": -0,
+              },
+            ],
+          }
+        }
+      >
+        <View
+          accessibilityLabel="gift-card-container"
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "elevation": 3,
+              "shadowColor": "#262C2F",
+              "shadowOffset": Object {
+                "height": 4,
+                "width": 0,
+              },
+              "shadowOpacity": 0.1,
+            }
+          }
+          testID="gift-card-container"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "elevation": 3,
+                  "shadowColor": "#262C2F",
+                  "shadowOffset": Object {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.1,
+                },
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexDirection": "row",
+                  "marginBottom": 16,
+                  "marginHorizontal": 16,
+                  "paddingBottom": 12,
+                  "paddingLeft": 12,
+                  "paddingRight": 12,
+                  "paddingTop": 12,
+                },
+              ]
+            }
+          >
+            <Image
+              resizeMode="cover"
+              source={
+                Object {
+                  "uri": "https://raise-content.s3.amazonaws.com/MP-OPs/00_I%26I+Faceplate+Imagery/GC_Forever21_print.jpg",
+                }
+              }
+              style={
+                Object {
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "height": 68,
+                  "overflow": "hidden",
+                  "width": 104,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "flexBasis": 0,
+                  "flexDirection": "column",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "justifyContent": "space-around",
+                  "marginLeft": 16,
+                }
+              }
+            >
+              <Text
+                ellipsizeMode="tail"
+                numberOfLines={1}
+                style={
+                  Object {
+                    "color": "#262C2F",
+                    "fontFamily": "SFProDisplay-SemiBold",
+                    "fontSize": 16,
+                    "lineHeight": 18,
+                  }
+                }
+              >
+                Forever 21
+              </Text>
+              <View>
+                <Text
+                  accessibilityLabel="gift-card-card-balance"
+                  accessible={true}
+                  style={
+                    Object {
+                      "color": "#909BA0",
+                      "fontFamily": "SFProDisplay-SemiBold",
+                      "fontSize": 16,
+                      "lineHeight": 18,
+                    }
+                  }
+                  testID="gift-card-card-balance"
+                >
+                  $
+                  10
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "marginBottom": 16,
+        "marginLeft": 16,
+        "marginRight": 16,
+        "marginTop": 16,
+      }
+    }
+  >
+    <View
+      accessibilityLabel="gift-cards-screen-buy-gift-card"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+          "width": 294,
+        }
+      }
+      testID="gift-cards-screen-buy-gift-card"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#0066CC",
+              "borderBottomLeftRadius": 30,
+              "borderBottomRightRadius": 30,
+              "borderTopLeftRadius": 30,
+              "borderTopRightRadius": 30,
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "paddingBottom": 8,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 8,
+            },
+            Object {
+              "paddingBottom": 16,
+              "paddingLeft": 0,
+              "paddingRight": 0,
+              "paddingTop": 16,
+            },
+          ]
+        }
+      >
+        <View
+          style={false}
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Medium",
+                  "fontSize": 16,
+                  "lineHeight": 22,
+                },
+                Array [
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontSize": 14,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "fontFamily": "SFProDisplay-SemiBold",
+                    "fontSize": 14,
+                    "lineHeight": 20,
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            Buy Gift Cards 
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "marginLeft": 8,
+            }
+          }
+        >
+          <Text
+            accessibilityLabel="icon-text"
+            accessible={true}
+            allowFontScaling={false}
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 16,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "sywmax",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+            testID="icon-text"
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+  <Modal
+    accessibilityLabel="modal-container"
+    accessible={true}
+    animationType="slide"
+    hardwareAccelerated={false}
+    statusBarTranslucent={true}
+    testID="modal-container"
+    transparent={true}
+    visible={false}
+  />
+</View>
+`;

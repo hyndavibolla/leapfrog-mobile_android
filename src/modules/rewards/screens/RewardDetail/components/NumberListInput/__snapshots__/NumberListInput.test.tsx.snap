@@ -1,0 +1,4080 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CategoryCard should change the border of the input when this is focus in/out 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#909BA0",
+          "fontFamily": "SFProDisplay-Medium",
+          "fontSize": 16,
+          "lineHeight": 22,
+        },
+        Object {
+          "color": "#909BA0",
+          "fontSize": 14,
+        },
+      ]
+    }
+  >
+    Select Gift Card amount
+  </Text>
+  <RCTScrollView
+    ListFooterComponent={
+      <View
+        style={
+          Object {
+            "marginRight": 48,
+          }
+        }
+      />
+    }
+    data={
+      Array [
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={true}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    onScrollToIndexFailed={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    showsHorizontalScrollIndicator={false}
+    stickyHeaderIndices={Array []}
+    style={
+      Object {
+        "marginTop": 8,
+        "paddingHorizontal": 32,
+      }
+    }
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="gift-card-input-option"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "justifyContent": "center",
+              "marginRight": 8,
+              "opacity": 1,
+              "paddingBottom": 4,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 4,
+            }
+          }
+          testID="gift-card-input-option"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "elevation": 3,
+                  "shadowColor": "#262C2F",
+                  "shadowOffset": Object {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.1,
+                },
+                Object {
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                  "paddingBottom": 20,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                  "paddingTop": 20,
+                },
+                Array [
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                    "minWidth": 95,
+                  },
+                  false,
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <Text
+              accessibilityLabel="gift-card-input-option-value"
+              accessible={true}
+              font="SFProDisplay-Bold"
+              lineHeight="30px"
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 30,
+                  },
+                  Array [
+                    Object {
+                      "alignSelf": "center",
+                      "color": "#262C2F",
+                      "fontSize": 26,
+                    },
+                    false,
+                    undefined,
+                  ],
+                ]
+              }
+              testID="gift-card-input-option-value"
+            >
+              $ 
+              5
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="gift-card-input-option"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "justifyContent": "center",
+              "marginRight": 8,
+              "opacity": 1,
+              "paddingBottom": 4,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 4,
+            }
+          }
+          testID="gift-card-input-option"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "elevation": 3,
+                  "shadowColor": "#262C2F",
+                  "shadowOffset": Object {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.1,
+                },
+                Object {
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                  "paddingBottom": 20,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                  "paddingTop": 20,
+                },
+                Array [
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                    "minWidth": 95,
+                  },
+                  Object {
+                    "backgroundColor": "#E5F6FD",
+                    "borderColor": "#0066CC",
+                    "borderStyle": "solid",
+                    "borderWidth": 1,
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <Text
+              accessibilityLabel="gift-card-input-option-value"
+              accessible={true}
+              font="SFProDisplay-Bold"
+              lineHeight="30px"
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 30,
+                  },
+                  Array [
+                    Object {
+                      "alignSelf": "center",
+                      "color": "#262C2F",
+                      "fontSize": 26,
+                    },
+                    Object {
+                      "color": "#262C2F",
+                    },
+                    undefined,
+                  ],
+                ]
+              }
+              testID="gift-card-input-option-value"
+            >
+              $ 
+              10
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="gift-card-input-option"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "justifyContent": "center",
+              "marginRight": 8,
+              "opacity": 1,
+              "paddingBottom": 4,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 4,
+            }
+          }
+          testID="gift-card-input-option"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "elevation": 3,
+                  "shadowColor": "#262C2F",
+                  "shadowOffset": Object {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.1,
+                },
+                Object {
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                  "paddingBottom": 20,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                  "paddingTop": 20,
+                },
+                Array [
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                    "minWidth": 95,
+                  },
+                  false,
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <Text
+              accessibilityLabel="gift-card-input-option-value"
+              accessible={true}
+              font="SFProDisplay-Bold"
+              lineHeight="30px"
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 30,
+                  },
+                  Array [
+                    Object {
+                      "alignSelf": "center",
+                      "color": "#262C2F",
+                      "fontSize": 26,
+                    },
+                    false,
+                    undefined,
+                  ],
+                ]
+              }
+              testID="gift-card-input-option-value"
+            >
+              $ 
+              15
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="gift-card-input-option"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "justifyContent": "center",
+              "marginRight": 8,
+              "opacity": 1,
+              "paddingBottom": 4,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 4,
+            }
+          }
+          testID="gift-card-input-option"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "elevation": 3,
+                  "shadowColor": "#262C2F",
+                  "shadowOffset": Object {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.1,
+                },
+                Object {
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                  "paddingBottom": 20,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                  "paddingTop": 20,
+                },
+                Array [
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                    "minWidth": 95,
+                  },
+                  false,
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <Text
+              accessibilityLabel="gift-card-input-option-value"
+              accessible={true}
+              font="SFProDisplay-Bold"
+              lineHeight="30px"
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 30,
+                  },
+                  Array [
+                    Object {
+                      "alignSelf": "center",
+                      "color": "#262C2F",
+                      "fontSize": 26,
+                    },
+                    false,
+                    undefined,
+                  ],
+                ]
+              }
+              testID="gift-card-input-option-value"
+            >
+              $ 
+              20
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="gift-card-input-option"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "justifyContent": "center",
+              "marginRight": 8,
+              "opacity": 1,
+              "paddingBottom": 4,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 4,
+            }
+          }
+          testID="gift-card-input-option"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "elevation": 3,
+                  "shadowColor": "#262C2F",
+                  "shadowOffset": Object {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.1,
+                },
+                Object {
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                  "paddingBottom": 20,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                  "paddingTop": 20,
+                },
+                Array [
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                    "minWidth": 95,
+                  },
+                  false,
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <Text
+              accessibilityLabel="gift-card-input-option-value"
+              accessible={true}
+              font="SFProDisplay-Bold"
+              lineHeight="30px"
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 30,
+                  },
+                  Array [
+                    Object {
+                      "alignSelf": "center",
+                      "color": "#262C2F",
+                      "fontSize": 26,
+                    },
+                    false,
+                    undefined,
+                  ],
+                ]
+              }
+              testID="gift-card-input-option-value"
+            >
+              $ 
+              25
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="gift-card-input-option"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "justifyContent": "center",
+              "marginRight": 8,
+              "opacity": 1,
+              "paddingBottom": 4,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 4,
+            }
+          }
+          testID="gift-card-input-option"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "elevation": 3,
+                  "shadowColor": "#262C2F",
+                  "shadowOffset": Object {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.1,
+                },
+                Object {
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                  "paddingBottom": 20,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                  "paddingTop": 20,
+                },
+                Array [
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                    "minWidth": 95,
+                  },
+                  false,
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <Text
+              accessibilityLabel="gift-card-input-option-value"
+              accessible={true}
+              font="SFProDisplay-Bold"
+              lineHeight="30px"
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 30,
+                  },
+                  Array [
+                    Object {
+                      "alignSelf": "center",
+                      "color": "#262C2F",
+                      "fontSize": 26,
+                    },
+                    false,
+                    undefined,
+                  ],
+                ]
+              }
+              testID="gift-card-input-option-value"
+            >
+              $ 
+              30
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+      >
+        <View
+          style={
+            Object {
+              "marginRight": 48,
+            }
+          }
+        />
+      </View>
+    </View>
+  </RCTScrollView>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#909BA0",
+          "fontFamily": "SFProDisplay-Medium",
+          "fontSize": 16,
+          "lineHeight": 22,
+        },
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontSize": 14,
+          },
+          Object {
+            "marginTop": 20,
+          },
+        ],
+      ]
+    }
+  >
+    or enter a custom value 
+  </Text>
+  <View
+    style={
+      Object {
+        "justifyContent": "center",
+        "marginTop": 16,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          Array [
+            Object {
+              "color": "#262C2F",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "letterSpacing": 1,
+            },
+            Object {
+              "elevation": 1,
+              "left": 40,
+              "position": "absolute",
+              "zIndex": 1,
+            },
+          ],
+        ]
+      }
+    >
+      $
+    </Text>
+    <TextInput
+      accessibilityLabel="gift-card-input-input"
+      accessible={true}
+      editable={true}
+      keyboardType="numeric"
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      placeholder="anything"
+      placeholderTextColor="#909BA0"
+      returnKeyType="done"
+      selectionColor="#0066CC"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "elevation": 1,
+            "height": 56,
+            "marginBottom": 0,
+            "marginLeft": 20,
+            "marginRight": 20,
+            "marginTop": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 44,
+            "paddingRight": 44,
+            "paddingTop": 0,
+            "shadowColor": "#262C2F",
+            "shadowOffset": Object {
+              "height": 2,
+              "width": 0,
+            },
+            "shadowOpacity": 0.1,
+            "shadowRadius": 2.62,
+          },
+          Object {
+            "fontSize": 14,
+          },
+          null,
+          null,
+          undefined,
+        ]
+      }
+      testID="gift-card-input-input"
+      value=""
+    />
+  </View>
+</View>
+`;
+
+exports[`CategoryCard should change the border of the input when this is focus in/out 2`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#909BA0",
+          "fontFamily": "SFProDisplay-Medium",
+          "fontSize": 16,
+          "lineHeight": 22,
+        },
+        Object {
+          "color": "#909BA0",
+          "fontSize": 14,
+        },
+      ]
+    }
+  >
+    Select Gift Card amount
+  </Text>
+  <RCTScrollView
+    ListFooterComponent={
+      <View
+        style={
+          Object {
+            "marginRight": 48,
+          }
+        }
+      />
+    }
+    data={
+      Array [
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={true}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    onScrollToIndexFailed={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    showsHorizontalScrollIndicator={false}
+    stickyHeaderIndices={Array []}
+    style={
+      Object {
+        "marginTop": 8,
+        "paddingHorizontal": 32,
+      }
+    }
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="gift-card-input-option"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "justifyContent": "center",
+              "marginRight": 8,
+              "opacity": 1,
+              "paddingBottom": 4,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 4,
+            }
+          }
+          testID="gift-card-input-option"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "elevation": 3,
+                  "shadowColor": "#262C2F",
+                  "shadowOffset": Object {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.1,
+                },
+                Object {
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                  "paddingBottom": 20,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                  "paddingTop": 20,
+                },
+                Array [
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                    "minWidth": 95,
+                  },
+                  false,
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <Text
+              accessibilityLabel="gift-card-input-option-value"
+              accessible={true}
+              font="SFProDisplay-Bold"
+              lineHeight="30px"
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 30,
+                  },
+                  Array [
+                    Object {
+                      "alignSelf": "center",
+                      "color": "#262C2F",
+                      "fontSize": 26,
+                    },
+                    false,
+                    undefined,
+                  ],
+                ]
+              }
+              testID="gift-card-input-option-value"
+            >
+              $ 
+              5
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="gift-card-input-option"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "justifyContent": "center",
+              "marginRight": 8,
+              "opacity": 1,
+              "paddingBottom": 4,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 4,
+            }
+          }
+          testID="gift-card-input-option"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "elevation": 3,
+                  "shadowColor": "#262C2F",
+                  "shadowOffset": Object {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.1,
+                },
+                Object {
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                  "paddingBottom": 20,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                  "paddingTop": 20,
+                },
+                Array [
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                    "minWidth": 95,
+                  },
+                  Object {
+                    "backgroundColor": "#E5F6FD",
+                    "borderColor": "#0066CC",
+                    "borderStyle": "solid",
+                    "borderWidth": 1,
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <Text
+              accessibilityLabel="gift-card-input-option-value"
+              accessible={true}
+              font="SFProDisplay-Bold"
+              lineHeight="30px"
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 30,
+                  },
+                  Array [
+                    Object {
+                      "alignSelf": "center",
+                      "color": "#262C2F",
+                      "fontSize": 26,
+                    },
+                    Object {
+                      "color": "#262C2F",
+                    },
+                    undefined,
+                  ],
+                ]
+              }
+              testID="gift-card-input-option-value"
+            >
+              $ 
+              10
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="gift-card-input-option"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "justifyContent": "center",
+              "marginRight": 8,
+              "opacity": 1,
+              "paddingBottom": 4,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 4,
+            }
+          }
+          testID="gift-card-input-option"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "elevation": 3,
+                  "shadowColor": "#262C2F",
+                  "shadowOffset": Object {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.1,
+                },
+                Object {
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                  "paddingBottom": 20,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                  "paddingTop": 20,
+                },
+                Array [
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                    "minWidth": 95,
+                  },
+                  false,
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <Text
+              accessibilityLabel="gift-card-input-option-value"
+              accessible={true}
+              font="SFProDisplay-Bold"
+              lineHeight="30px"
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 30,
+                  },
+                  Array [
+                    Object {
+                      "alignSelf": "center",
+                      "color": "#262C2F",
+                      "fontSize": 26,
+                    },
+                    false,
+                    undefined,
+                  ],
+                ]
+              }
+              testID="gift-card-input-option-value"
+            >
+              $ 
+              15
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="gift-card-input-option"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "justifyContent": "center",
+              "marginRight": 8,
+              "opacity": 1,
+              "paddingBottom": 4,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 4,
+            }
+          }
+          testID="gift-card-input-option"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "elevation": 3,
+                  "shadowColor": "#262C2F",
+                  "shadowOffset": Object {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.1,
+                },
+                Object {
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                  "paddingBottom": 20,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                  "paddingTop": 20,
+                },
+                Array [
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                    "minWidth": 95,
+                  },
+                  false,
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <Text
+              accessibilityLabel="gift-card-input-option-value"
+              accessible={true}
+              font="SFProDisplay-Bold"
+              lineHeight="30px"
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 30,
+                  },
+                  Array [
+                    Object {
+                      "alignSelf": "center",
+                      "color": "#262C2F",
+                      "fontSize": 26,
+                    },
+                    false,
+                    undefined,
+                  ],
+                ]
+              }
+              testID="gift-card-input-option-value"
+            >
+              $ 
+              20
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="gift-card-input-option"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "justifyContent": "center",
+              "marginRight": 8,
+              "opacity": 1,
+              "paddingBottom": 4,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 4,
+            }
+          }
+          testID="gift-card-input-option"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "elevation": 3,
+                  "shadowColor": "#262C2F",
+                  "shadowOffset": Object {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.1,
+                },
+                Object {
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                  "paddingBottom": 20,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                  "paddingTop": 20,
+                },
+                Array [
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                    "minWidth": 95,
+                  },
+                  false,
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <Text
+              accessibilityLabel="gift-card-input-option-value"
+              accessible={true}
+              font="SFProDisplay-Bold"
+              lineHeight="30px"
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 30,
+                  },
+                  Array [
+                    Object {
+                      "alignSelf": "center",
+                      "color": "#262C2F",
+                      "fontSize": 26,
+                    },
+                    false,
+                    undefined,
+                  ],
+                ]
+              }
+              testID="gift-card-input-option-value"
+            >
+              $ 
+              25
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="gift-card-input-option"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "justifyContent": "center",
+              "marginRight": 8,
+              "opacity": 1,
+              "paddingBottom": 4,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 4,
+            }
+          }
+          testID="gift-card-input-option"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "elevation": 3,
+                  "shadowColor": "#262C2F",
+                  "shadowOffset": Object {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.1,
+                },
+                Object {
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                  "paddingBottom": 20,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                  "paddingTop": 20,
+                },
+                Array [
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                    "minWidth": 95,
+                  },
+                  false,
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <Text
+              accessibilityLabel="gift-card-input-option-value"
+              accessible={true}
+              font="SFProDisplay-Bold"
+              lineHeight="30px"
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 30,
+                  },
+                  Array [
+                    Object {
+                      "alignSelf": "center",
+                      "color": "#262C2F",
+                      "fontSize": 26,
+                    },
+                    false,
+                    undefined,
+                  ],
+                ]
+              }
+              testID="gift-card-input-option-value"
+            >
+              $ 
+              30
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+      >
+        <View
+          style={
+            Object {
+              "marginRight": 48,
+            }
+          }
+        />
+      </View>
+    </View>
+  </RCTScrollView>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#909BA0",
+          "fontFamily": "SFProDisplay-Medium",
+          "fontSize": 16,
+          "lineHeight": 22,
+        },
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontSize": 14,
+          },
+          Object {
+            "marginTop": 20,
+          },
+        ],
+      ]
+    }
+  >
+    or enter a custom value 
+  </Text>
+  <View
+    style={
+      Object {
+        "justifyContent": "center",
+        "marginTop": 16,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          Array [
+            Object {
+              "color": "#262C2F",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "letterSpacing": 1,
+            },
+            Object {
+              "elevation": 1,
+              "left": 40,
+              "position": "absolute",
+              "zIndex": 1,
+            },
+          ],
+        ]
+      }
+    >
+      $
+    </Text>
+    <TextInput
+      accessibilityLabel="gift-card-input-input"
+      accessible={true}
+      editable={true}
+      keyboardType="numeric"
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      placeholder="anything"
+      placeholderTextColor="#909BA0"
+      returnKeyType="done"
+      selectionColor="#0066CC"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "elevation": 1,
+            "height": 56,
+            "marginBottom": 0,
+            "marginLeft": 20,
+            "marginRight": 20,
+            "marginTop": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 44,
+            "paddingRight": 44,
+            "paddingTop": 0,
+            "shadowColor": "#262C2F",
+            "shadowOffset": Object {
+              "height": 2,
+              "width": 0,
+            },
+            "shadowOpacity": 0.1,
+            "shadowRadius": 2.62,
+          },
+          Object {
+            "fontSize": 14,
+          },
+          null,
+          null,
+          undefined,
+        ]
+      }
+      testID="gift-card-input-input"
+      value=""
+    />
+  </View>
+</View>
+`;
+
+exports[`CategoryCard should render 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#909BA0",
+          "fontFamily": "SFProDisplay-Medium",
+          "fontSize": 16,
+          "lineHeight": 22,
+        },
+        Object {
+          "color": "#909BA0",
+          "fontSize": 14,
+        },
+      ]
+    }
+  >
+    Select Gift Card amount
+  </Text>
+  <RCTScrollView
+    ListFooterComponent={
+      <View
+        style={
+          Object {
+            "marginRight": 48,
+          }
+        }
+      />
+    }
+    data={
+      Array [
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={true}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    onScrollToIndexFailed={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    showsHorizontalScrollIndicator={false}
+    stickyHeaderIndices={Array []}
+    style={
+      Object {
+        "marginTop": 8,
+        "paddingHorizontal": 32,
+      }
+    }
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="gift-card-input-option"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "justifyContent": "center",
+              "marginRight": 8,
+              "opacity": 1,
+              "paddingBottom": 4,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 4,
+            }
+          }
+          testID="gift-card-input-option"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "elevation": 3,
+                  "shadowColor": "#262C2F",
+                  "shadowOffset": Object {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.1,
+                },
+                Object {
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                  "paddingBottom": 20,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                  "paddingTop": 20,
+                },
+                Array [
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                    "minWidth": 95,
+                  },
+                  false,
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <Text
+              accessibilityLabel="gift-card-input-option-value"
+              accessible={true}
+              font="SFProDisplay-Bold"
+              lineHeight="30px"
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 30,
+                  },
+                  Array [
+                    Object {
+                      "alignSelf": "center",
+                      "color": "#262C2F",
+                      "fontSize": 26,
+                    },
+                    false,
+                    undefined,
+                  ],
+                ]
+              }
+              testID="gift-card-input-option-value"
+            >
+              $ 
+              5
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="gift-card-input-option"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "justifyContent": "center",
+              "marginRight": 8,
+              "opacity": 1,
+              "paddingBottom": 4,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 4,
+            }
+          }
+          testID="gift-card-input-option"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "elevation": 3,
+                  "shadowColor": "#262C2F",
+                  "shadowOffset": Object {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.1,
+                },
+                Object {
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                  "paddingBottom": 20,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                  "paddingTop": 20,
+                },
+                Array [
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                    "minWidth": 95,
+                  },
+                  Object {
+                    "backgroundColor": "#E5F6FD",
+                    "borderColor": "#0066CC",
+                    "borderStyle": "solid",
+                    "borderWidth": 1,
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <Text
+              accessibilityLabel="gift-card-input-option-value"
+              accessible={true}
+              font="SFProDisplay-Bold"
+              lineHeight="30px"
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 30,
+                  },
+                  Array [
+                    Object {
+                      "alignSelf": "center",
+                      "color": "#262C2F",
+                      "fontSize": 26,
+                    },
+                    Object {
+                      "color": "#262C2F",
+                    },
+                    undefined,
+                  ],
+                ]
+              }
+              testID="gift-card-input-option-value"
+            >
+              $ 
+              10
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="gift-card-input-option"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "justifyContent": "center",
+              "marginRight": 8,
+              "opacity": 1,
+              "paddingBottom": 4,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 4,
+            }
+          }
+          testID="gift-card-input-option"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "elevation": 3,
+                  "shadowColor": "#262C2F",
+                  "shadowOffset": Object {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.1,
+                },
+                Object {
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                  "paddingBottom": 20,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                  "paddingTop": 20,
+                },
+                Array [
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                    "minWidth": 95,
+                  },
+                  false,
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <Text
+              accessibilityLabel="gift-card-input-option-value"
+              accessible={true}
+              font="SFProDisplay-Bold"
+              lineHeight="30px"
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 30,
+                  },
+                  Array [
+                    Object {
+                      "alignSelf": "center",
+                      "color": "#262C2F",
+                      "fontSize": 26,
+                    },
+                    false,
+                    undefined,
+                  ],
+                ]
+              }
+              testID="gift-card-input-option-value"
+            >
+              $ 
+              15
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="gift-card-input-option"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "justifyContent": "center",
+              "marginRight": 8,
+              "opacity": 1,
+              "paddingBottom": 4,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 4,
+            }
+          }
+          testID="gift-card-input-option"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "elevation": 3,
+                  "shadowColor": "#262C2F",
+                  "shadowOffset": Object {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.1,
+                },
+                Object {
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                  "paddingBottom": 20,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                  "paddingTop": 20,
+                },
+                Array [
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                    "minWidth": 95,
+                  },
+                  false,
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <Text
+              accessibilityLabel="gift-card-input-option-value"
+              accessible={true}
+              font="SFProDisplay-Bold"
+              lineHeight="30px"
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 30,
+                  },
+                  Array [
+                    Object {
+                      "alignSelf": "center",
+                      "color": "#262C2F",
+                      "fontSize": 26,
+                    },
+                    false,
+                    undefined,
+                  ],
+                ]
+              }
+              testID="gift-card-input-option-value"
+            >
+              $ 
+              20
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="gift-card-input-option"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "justifyContent": "center",
+              "marginRight": 8,
+              "opacity": 1,
+              "paddingBottom": 4,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 4,
+            }
+          }
+          testID="gift-card-input-option"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "elevation": 3,
+                  "shadowColor": "#262C2F",
+                  "shadowOffset": Object {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.1,
+                },
+                Object {
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                  "paddingBottom": 20,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                  "paddingTop": 20,
+                },
+                Array [
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                    "minWidth": 95,
+                  },
+                  false,
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <Text
+              accessibilityLabel="gift-card-input-option-value"
+              accessible={true}
+              font="SFProDisplay-Bold"
+              lineHeight="30px"
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 30,
+                  },
+                  Array [
+                    Object {
+                      "alignSelf": "center",
+                      "color": "#262C2F",
+                      "fontSize": 26,
+                    },
+                    false,
+                    undefined,
+                  ],
+                ]
+              }
+              testID="gift-card-input-option-value"
+            >
+              $ 
+              25
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="gift-card-input-option"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "justifyContent": "center",
+              "marginRight": 8,
+              "opacity": 1,
+              "paddingBottom": 4,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 4,
+            }
+          }
+          testID="gift-card-input-option"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "elevation": 3,
+                  "shadowColor": "#262C2F",
+                  "shadowOffset": Object {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.1,
+                },
+                Object {
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                  "paddingBottom": 20,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                  "paddingTop": 20,
+                },
+                Array [
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                    "minWidth": 95,
+                  },
+                  false,
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <Text
+              accessibilityLabel="gift-card-input-option-value"
+              accessible={true}
+              font="SFProDisplay-Bold"
+              lineHeight="30px"
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 30,
+                  },
+                  Array [
+                    Object {
+                      "alignSelf": "center",
+                      "color": "#262C2F",
+                      "fontSize": 26,
+                    },
+                    false,
+                    undefined,
+                  ],
+                ]
+              }
+              testID="gift-card-input-option-value"
+            >
+              $ 
+              30
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+      >
+        <View
+          style={
+            Object {
+              "marginRight": 48,
+            }
+          }
+        />
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`CategoryCard should render invalid 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#909BA0",
+          "fontFamily": "SFProDisplay-Medium",
+          "fontSize": 16,
+          "lineHeight": 22,
+        },
+        Object {
+          "color": "#909BA0",
+          "fontSize": 14,
+        },
+      ]
+    }
+  >
+    Select Gift Card amount
+  </Text>
+  <RCTScrollView
+    ListFooterComponent={
+      <View
+        style={
+          Object {
+            "marginRight": 48,
+          }
+        }
+      />
+    }
+    data={
+      Array [
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={true}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    onScrollToIndexFailed={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    showsHorizontalScrollIndicator={false}
+    stickyHeaderIndices={Array []}
+    style={
+      Object {
+        "marginTop": 8,
+        "paddingHorizontal": 32,
+      }
+    }
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="gift-card-input-option"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "justifyContent": "center",
+              "marginRight": 8,
+              "opacity": 1,
+              "paddingBottom": 4,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 4,
+            }
+          }
+          testID="gift-card-input-option"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "elevation": 3,
+                  "shadowColor": "#262C2F",
+                  "shadowOffset": Object {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.1,
+                },
+                Object {
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                  "paddingBottom": 20,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                  "paddingTop": 20,
+                },
+                Array [
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                    "minWidth": 95,
+                  },
+                  false,
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <Text
+              accessibilityLabel="gift-card-input-option-value"
+              accessible={true}
+              font="SFProDisplay-Bold"
+              lineHeight="30px"
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 30,
+                  },
+                  Array [
+                    Object {
+                      "alignSelf": "center",
+                      "color": "#262C2F",
+                      "fontSize": 26,
+                    },
+                    false,
+                    undefined,
+                  ],
+                ]
+              }
+              testID="gift-card-input-option-value"
+            >
+              $ 
+              5
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="gift-card-input-option"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "justifyContent": "center",
+              "marginRight": 8,
+              "opacity": 1,
+              "paddingBottom": 4,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 4,
+            }
+          }
+          testID="gift-card-input-option"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "elevation": 3,
+                  "shadowColor": "#262C2F",
+                  "shadowOffset": Object {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.1,
+                },
+                Object {
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                  "paddingBottom": 20,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                  "paddingTop": 20,
+                },
+                Array [
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                    "minWidth": 95,
+                  },
+                  Object {
+                    "backgroundColor": "#E5F6FD",
+                    "borderColor": "#0066CC",
+                    "borderStyle": "solid",
+                    "borderWidth": 1,
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <Text
+              accessibilityLabel="gift-card-input-option-value"
+              accessible={true}
+              font="SFProDisplay-Bold"
+              lineHeight="30px"
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 30,
+                  },
+                  Array [
+                    Object {
+                      "alignSelf": "center",
+                      "color": "#262C2F",
+                      "fontSize": 26,
+                    },
+                    Object {
+                      "color": "#262C2F",
+                    },
+                    undefined,
+                  ],
+                ]
+              }
+              testID="gift-card-input-option-value"
+            >
+              $ 
+              10
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="gift-card-input-option"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "justifyContent": "center",
+              "marginRight": 8,
+              "opacity": 1,
+              "paddingBottom": 4,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 4,
+            }
+          }
+          testID="gift-card-input-option"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "elevation": 3,
+                  "shadowColor": "#262C2F",
+                  "shadowOffset": Object {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.1,
+                },
+                Object {
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                  "paddingBottom": 20,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                  "paddingTop": 20,
+                },
+                Array [
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                    "minWidth": 95,
+                  },
+                  false,
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <Text
+              accessibilityLabel="gift-card-input-option-value"
+              accessible={true}
+              font="SFProDisplay-Bold"
+              lineHeight="30px"
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 30,
+                  },
+                  Array [
+                    Object {
+                      "alignSelf": "center",
+                      "color": "#262C2F",
+                      "fontSize": 26,
+                    },
+                    false,
+                    undefined,
+                  ],
+                ]
+              }
+              testID="gift-card-input-option-value"
+            >
+              $ 
+              15
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="gift-card-input-option"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "justifyContent": "center",
+              "marginRight": 8,
+              "opacity": 1,
+              "paddingBottom": 4,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 4,
+            }
+          }
+          testID="gift-card-input-option"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "elevation": 3,
+                  "shadowColor": "#262C2F",
+                  "shadowOffset": Object {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.1,
+                },
+                Object {
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                  "paddingBottom": 20,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                  "paddingTop": 20,
+                },
+                Array [
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                    "minWidth": 95,
+                  },
+                  false,
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <Text
+              accessibilityLabel="gift-card-input-option-value"
+              accessible={true}
+              font="SFProDisplay-Bold"
+              lineHeight="30px"
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 30,
+                  },
+                  Array [
+                    Object {
+                      "alignSelf": "center",
+                      "color": "#262C2F",
+                      "fontSize": 26,
+                    },
+                    false,
+                    undefined,
+                  ],
+                ]
+              }
+              testID="gift-card-input-option-value"
+            >
+              $ 
+              20
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="gift-card-input-option"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "justifyContent": "center",
+              "marginRight": 8,
+              "opacity": 1,
+              "paddingBottom": 4,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 4,
+            }
+          }
+          testID="gift-card-input-option"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "elevation": 3,
+                  "shadowColor": "#262C2F",
+                  "shadowOffset": Object {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.1,
+                },
+                Object {
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                  "paddingBottom": 20,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                  "paddingTop": 20,
+                },
+                Array [
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                    "minWidth": 95,
+                  },
+                  false,
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <Text
+              accessibilityLabel="gift-card-input-option-value"
+              accessible={true}
+              font="SFProDisplay-Bold"
+              lineHeight="30px"
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 30,
+                  },
+                  Array [
+                    Object {
+                      "alignSelf": "center",
+                      "color": "#262C2F",
+                      "fontSize": 26,
+                    },
+                    false,
+                    undefined,
+                  ],
+                ]
+              }
+              testID="gift-card-input-option-value"
+            >
+              $ 
+              25
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="gift-card-input-option"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "justifyContent": "center",
+              "marginRight": 8,
+              "opacity": 1,
+              "paddingBottom": 4,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 4,
+            }
+          }
+          testID="gift-card-input-option"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "elevation": 3,
+                  "shadowColor": "#262C2F",
+                  "shadowOffset": Object {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.1,
+                },
+                Object {
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                  "paddingBottom": 20,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                  "paddingTop": 20,
+                },
+                Array [
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                    "minWidth": 95,
+                  },
+                  false,
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <Text
+              accessibilityLabel="gift-card-input-option-value"
+              accessible={true}
+              font="SFProDisplay-Bold"
+              lineHeight="30px"
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 30,
+                  },
+                  Array [
+                    Object {
+                      "alignSelf": "center",
+                      "color": "#262C2F",
+                      "fontSize": 26,
+                    },
+                    false,
+                    undefined,
+                  ],
+                ]
+              }
+              testID="gift-card-input-option-value"
+            >
+              $ 
+              30
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+      >
+        <View
+          style={
+            Object {
+              "marginRight": 48,
+            }
+          }
+        />
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`CategoryCard should render with default props 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#909BA0",
+          "fontFamily": "SFProDisplay-Medium",
+          "fontSize": 16,
+          "lineHeight": 22,
+        },
+        Object {
+          "color": "#909BA0",
+          "fontSize": 14,
+        },
+      ]
+    }
+  >
+    Select Gift Card amount
+  </Text>
+  <RCTScrollView
+    ListFooterComponent={
+      <View
+        style={
+          Object {
+            "marginRight": 48,
+          }
+        }
+      />
+    }
+    data={Array []}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={true}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    onScrollToIndexFailed={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    showsHorizontalScrollIndicator={false}
+    stickyHeaderIndices={Array []}
+    style={
+      Object {
+        "marginTop": 8,
+        "paddingHorizontal": 32,
+      }
+    }
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+      >
+        <View
+          style={
+            Object {
+              "marginRight": 48,
+            }
+          }
+        />
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`CategoryCard should render without values 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#909BA0",
+          "fontFamily": "SFProDisplay-Medium",
+          "fontSize": 16,
+          "lineHeight": 22,
+        },
+        Object {
+          "color": "#909BA0",
+          "fontSize": 14,
+        },
+      ]
+    }
+  >
+    Select Gift Card amount
+  </Text>
+  <RCTScrollView
+    ListFooterComponent={
+      <View
+        style={
+          Object {
+            "marginRight": 48,
+          }
+        }
+      />
+    }
+    data={Array []}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={true}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    onScrollToIndexFailed={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    showsHorizontalScrollIndicator={false}
+    stickyHeaderIndices={Array []}
+    style={
+      Object {
+        "marginTop": 8,
+        "paddingHorizontal": 32,
+      }
+    }
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+      >
+        <View
+          style={
+            Object {
+              "marginRight": 48,
+            }
+          }
+        />
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`CategoryCard should return the typed value 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#909BA0",
+          "fontFamily": "SFProDisplay-Medium",
+          "fontSize": 16,
+          "lineHeight": 22,
+        },
+        Object {
+          "color": "#909BA0",
+          "fontSize": 14,
+        },
+      ]
+    }
+  >
+    Select Gift Card amount
+  </Text>
+  <RCTScrollView
+    ListFooterComponent={
+      <View
+        style={
+          Object {
+            "marginRight": 48,
+          }
+        }
+      />
+    }
+    data={
+      Array [
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={true}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    onScrollToIndexFailed={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    showsHorizontalScrollIndicator={false}
+    stickyHeaderIndices={Array []}
+    style={
+      Object {
+        "marginTop": 8,
+        "paddingHorizontal": 32,
+      }
+    }
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="gift-card-input-option"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "justifyContent": "center",
+              "marginRight": 8,
+              "opacity": 1,
+              "paddingBottom": 4,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 4,
+            }
+          }
+          testID="gift-card-input-option"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "elevation": 3,
+                  "shadowColor": "#262C2F",
+                  "shadowOffset": Object {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.1,
+                },
+                Object {
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                  "paddingBottom": 20,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                  "paddingTop": 20,
+                },
+                Array [
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                    "minWidth": 95,
+                  },
+                  false,
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <Text
+              accessibilityLabel="gift-card-input-option-value"
+              accessible={true}
+              font="SFProDisplay-Bold"
+              lineHeight="30px"
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 30,
+                  },
+                  Array [
+                    Object {
+                      "alignSelf": "center",
+                      "color": "#262C2F",
+                      "fontSize": 26,
+                    },
+                    false,
+                    undefined,
+                  ],
+                ]
+              }
+              testID="gift-card-input-option-value"
+            >
+              $ 
+              5
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="gift-card-input-option"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "justifyContent": "center",
+              "marginRight": 8,
+              "opacity": 1,
+              "paddingBottom": 4,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 4,
+            }
+          }
+          testID="gift-card-input-option"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "elevation": 3,
+                  "shadowColor": "#262C2F",
+                  "shadowOffset": Object {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.1,
+                },
+                Object {
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                  "paddingBottom": 20,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                  "paddingTop": 20,
+                },
+                Array [
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                    "minWidth": 95,
+                  },
+                  false,
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <Text
+              accessibilityLabel="gift-card-input-option-value"
+              accessible={true}
+              font="SFProDisplay-Bold"
+              lineHeight="30px"
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 30,
+                  },
+                  Array [
+                    Object {
+                      "alignSelf": "center",
+                      "color": "#262C2F",
+                      "fontSize": 26,
+                    },
+                    false,
+                    undefined,
+                  ],
+                ]
+              }
+              testID="gift-card-input-option-value"
+            >
+              $ 
+              10
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="gift-card-input-option"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "justifyContent": "center",
+              "marginRight": 8,
+              "opacity": 1,
+              "paddingBottom": 4,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 4,
+            }
+          }
+          testID="gift-card-input-option"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "elevation": 3,
+                  "shadowColor": "#262C2F",
+                  "shadowOffset": Object {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.1,
+                },
+                Object {
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                  "paddingBottom": 20,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                  "paddingTop": 20,
+                },
+                Array [
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                    "minWidth": 95,
+                  },
+                  false,
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <Text
+              accessibilityLabel="gift-card-input-option-value"
+              accessible={true}
+              font="SFProDisplay-Bold"
+              lineHeight="30px"
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 30,
+                  },
+                  Array [
+                    Object {
+                      "alignSelf": "center",
+                      "color": "#262C2F",
+                      "fontSize": 26,
+                    },
+                    false,
+                    undefined,
+                  ],
+                ]
+              }
+              testID="gift-card-input-option-value"
+            >
+              $ 
+              15
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="gift-card-input-option"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "justifyContent": "center",
+              "marginRight": 8,
+              "opacity": 1,
+              "paddingBottom": 4,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 4,
+            }
+          }
+          testID="gift-card-input-option"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "elevation": 3,
+                  "shadowColor": "#262C2F",
+                  "shadowOffset": Object {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.1,
+                },
+                Object {
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                  "paddingBottom": 20,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                  "paddingTop": 20,
+                },
+                Array [
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                    "minWidth": 95,
+                  },
+                  false,
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <Text
+              accessibilityLabel="gift-card-input-option-value"
+              accessible={true}
+              font="SFProDisplay-Bold"
+              lineHeight="30px"
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 30,
+                  },
+                  Array [
+                    Object {
+                      "alignSelf": "center",
+                      "color": "#262C2F",
+                      "fontSize": 26,
+                    },
+                    false,
+                    undefined,
+                  ],
+                ]
+              }
+              testID="gift-card-input-option-value"
+            >
+              $ 
+              20
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="gift-card-input-option"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "justifyContent": "center",
+              "marginRight": 8,
+              "opacity": 1,
+              "paddingBottom": 4,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 4,
+            }
+          }
+          testID="gift-card-input-option"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "elevation": 3,
+                  "shadowColor": "#262C2F",
+                  "shadowOffset": Object {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.1,
+                },
+                Object {
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                  "paddingBottom": 20,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                  "paddingTop": 20,
+                },
+                Array [
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                    "minWidth": 95,
+                  },
+                  false,
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <Text
+              accessibilityLabel="gift-card-input-option-value"
+              accessible={true}
+              font="SFProDisplay-Bold"
+              lineHeight="30px"
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 30,
+                  },
+                  Array [
+                    Object {
+                      "alignSelf": "center",
+                      "color": "#262C2F",
+                      "fontSize": 26,
+                    },
+                    false,
+                    undefined,
+                  ],
+                ]
+              }
+              testID="gift-card-input-option-value"
+            >
+              $ 
+              25
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="gift-card-input-option"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "justifyContent": "center",
+              "marginRight": 8,
+              "opacity": 1,
+              "paddingBottom": 4,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 4,
+            }
+          }
+          testID="gift-card-input-option"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "elevation": 3,
+                  "shadowColor": "#262C2F",
+                  "shadowOffset": Object {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.1,
+                },
+                Object {
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexDirection": "column",
+                  "justifyContent": "space-between",
+                  "paddingBottom": 20,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                  "paddingTop": 20,
+                },
+                Array [
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                    "minWidth": 95,
+                  },
+                  false,
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <Text
+              accessibilityLabel="gift-card-input-option-value"
+              accessible={true}
+              font="SFProDisplay-Bold"
+              lineHeight="30px"
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 30,
+                  },
+                  Array [
+                    Object {
+                      "alignSelf": "center",
+                      "color": "#262C2F",
+                      "fontSize": 26,
+                    },
+                    false,
+                    undefined,
+                  ],
+                ]
+              }
+              testID="gift-card-input-option-value"
+            >
+              $ 
+              30
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+      >
+        <View
+          style={
+            Object {
+              "marginRight": 48,
+            }
+          }
+        />
+      </View>
+    </View>
+  </RCTScrollView>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#909BA0",
+          "fontFamily": "SFProDisplay-Medium",
+          "fontSize": 16,
+          "lineHeight": 22,
+        },
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontSize": 14,
+          },
+          Object {
+            "marginTop": 20,
+          },
+        ],
+      ]
+    }
+  >
+    or enter a custom value 
+  </Text>
+  <View
+    style={
+      Object {
+        "justifyContent": "center",
+        "marginTop": 16,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          Array [
+            Object {
+              "color": "#262C2F",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "letterSpacing": 1,
+            },
+            Object {
+              "elevation": 1,
+              "left": 40,
+              "position": "absolute",
+              "zIndex": 1,
+            },
+          ],
+        ]
+      }
+    >
+      $
+    </Text>
+    <TextInput
+      accessibilityLabel="gift-card-input-input"
+      accessible={true}
+      editable={true}
+      keyboardType="numeric"
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      placeholder="anything"
+      placeholderTextColor="#909BA0"
+      returnKeyType="done"
+      selectionColor="#0066CC"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "elevation": 1,
+            "height": 56,
+            "marginBottom": 0,
+            "marginLeft": 20,
+            "marginRight": 20,
+            "marginTop": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 44,
+            "paddingRight": 44,
+            "paddingTop": 0,
+            "shadowColor": "#262C2F",
+            "shadowOffset": Object {
+              "height": 2,
+              "width": 0,
+            },
+            "shadowOpacity": 0.1,
+            "shadowRadius": 2.62,
+          },
+          Object {
+            "color": "#262C2F",
+            "fontFamily": "SFProDisplay-Bold",
+            "fontSize": 16,
+            "letterSpacing": 1,
+          },
+          null,
+          null,
+          undefined,
+        ]
+      }
+      testID="gift-card-input-input"
+      value="12"
+    />
+  </View>
+</View>
+`;

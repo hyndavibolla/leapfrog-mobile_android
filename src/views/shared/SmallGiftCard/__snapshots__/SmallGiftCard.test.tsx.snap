@@ -1,0 +1,539 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SmallGiftCard should render horizontal by default 1`] = `
+<View
+  accessibilityLabel="small-gift-card-container"
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+  testID="small-gift-card-container"
+>
+  <View
+    style={
+      Object {
+        "paddingBottom": 4,
+        "paddingLeft": 4,
+        "paddingRight": 4,
+        "paddingTop": 4,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "elevation": 3,
+            "shadowColor": "#262C2F",
+            "shadowOffset": Object {
+              "height": 4,
+              "width": 0,
+            },
+            "shadowOpacity": 0.1,
+          },
+          Object {
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "flexDirection": "column",
+            "justifyContent": "space-between",
+            "paddingBottom": 20,
+            "paddingLeft": 20,
+            "paddingRight": 20,
+            "paddingTop": 20,
+          },
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+              "flexDirection": "row",
+              "height": 90,
+              "justifyContent": "center",
+              "paddingBottom": 20,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+              "paddingTop": 20,
+            },
+            false,
+            undefined,
+          ],
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "height": 60,
+              "width": 60,
+            },
+            Object {
+              "backgroundColor": "#E2E3E3",
+              "borderBottomLeftRadius": 30,
+              "borderBottomRightRadius": 30,
+              "borderTopLeftRadius": 30,
+              "borderTopRightRadius": 30,
+              "height": 60,
+              "width": 60,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "overflow": "hidden",
+              },
+              Object {
+                "alignItems": "center",
+                "borderBottomLeftRadius": 60,
+                "borderBottomRightRadius": 60,
+                "borderTopLeftRadius": 60,
+                "borderTopRightRadius": 60,
+                "height": "100%",
+                "justifyContent": "center",
+                "width": "100%",
+              },
+            ]
+          }
+        >
+          <FastImageView
+            accessibilityLabel="brand-logo-image"
+            accessible={true}
+            onFastImageError={[Function]}
+            onFastImageLoad={[Function]}
+            onFastImageLoadEnd={[Function]}
+            onFastImageLoadStart={[Function]}
+            resizeMode="cover"
+            source={
+              Object {
+                "priority": "high",
+                "uri": "https://i0.pngocean.com/files/298/294/566/tilta-logo-brand-product-font-apple-music-logo.jpg",
+              }
+            }
+            style={
+              Object {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              }
+            }
+            testID="brand-logo-image"
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "justifyContent": "center",
+            },
+            Object {
+              "marginLeft": 20,
+            },
+            false,
+          ]
+        }
+      >
+        <Text
+          accessibilityLabel="small-gift-card-brand-name"
+          accessible={true}
+          ellipsizeMode="tail"
+          font="SFProDisplay-Bold"
+          numberOfLines={2}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#262C2F",
+                  "fontSize": 18,
+                },
+                false,
+              ],
+            ]
+          }
+          testID="small-gift-card-brand-name"
+        >
+          iTunes
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`SmallGiftCard should render vertical 1`] = `
+<View
+  accessibilityLabel="small-gift-card-container"
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+  testID="small-gift-card-container"
+>
+  <View
+    style={
+      Object {
+        "paddingBottom": 4,
+        "paddingLeft": 4,
+        "paddingRight": 4,
+        "paddingTop": 4,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "elevation": 3,
+            "shadowColor": "#262C2F",
+            "shadowOffset": Object {
+              "height": 4,
+              "width": 0,
+            },
+            "shadowOpacity": 0.1,
+          },
+          Object {
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "flexDirection": "column",
+            "justifyContent": "space-between",
+            "paddingBottom": 20,
+            "paddingLeft": 20,
+            "paddingRight": 20,
+            "paddingTop": 20,
+          },
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+              "flexDirection": "row",
+              "height": 90,
+              "justifyContent": "center",
+              "paddingBottom": 20,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+              "paddingTop": 20,
+            },
+            Object {
+              "flexDirection": "column",
+              "height": 175,
+              "paddingBottom": 24,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+              "paddingTop": 24,
+              "width": 150,
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "height": 60,
+              "width": 60,
+            },
+            Object {
+              "backgroundColor": "#E2E3E3",
+              "borderBottomLeftRadius": 30,
+              "borderBottomRightRadius": 30,
+              "borderTopLeftRadius": 30,
+              "borderTopRightRadius": 30,
+              "height": 60,
+              "width": 60,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "overflow": "hidden",
+              },
+              Object {
+                "alignItems": "center",
+                "borderBottomLeftRadius": 60,
+                "borderBottomRightRadius": 60,
+                "borderTopLeftRadius": 60,
+                "borderTopRightRadius": 60,
+                "height": "100%",
+                "justifyContent": "center",
+                "width": "100%",
+              },
+            ]
+          }
+        >
+          <FastImageView
+            accessibilityLabel="brand-logo-image"
+            accessible={true}
+            onFastImageError={[Function]}
+            onFastImageLoad={[Function]}
+            onFastImageLoadEnd={[Function]}
+            onFastImageLoadStart={[Function]}
+            resizeMode="cover"
+            source={
+              Object {
+                "priority": "high",
+                "uri": "https://i0.pngocean.com/files/298/294/566/tilta-logo-brand-product-font-apple-music-logo.jpg",
+              }
+            }
+            style={
+              Object {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              }
+            }
+            testID="brand-logo-image"
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "justifyContent": "center",
+            },
+            false,
+            Object {
+              "marginTop": 20,
+            },
+          ]
+        }
+      >
+        <Text
+          accessibilityLabel="small-gift-card-brand-name"
+          accessible={true}
+          ellipsizeMode="tail"
+          font="SFProDisplay-Bold"
+          numberOfLines={2}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#262C2F",
+                  "fontSize": 18,
+                },
+                Object {
+                  "textAlign": "center",
+                },
+              ],
+            ]
+          }
+          testID="small-gift-card-brand-name"
+        >
+          iTunes
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`SmallGiftCard should with a fallback image 1`] = `
+<View
+  accessibilityLabel="small-gift-card-container"
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+  testID="small-gift-card-container"
+>
+  <View
+    style={
+      Object {
+        "paddingBottom": 4,
+        "paddingLeft": 4,
+        "paddingRight": 4,
+        "paddingTop": 4,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "elevation": 3,
+            "shadowColor": "#262C2F",
+            "shadowOffset": Object {
+              "height": 4,
+              "width": 0,
+            },
+            "shadowOpacity": 0.1,
+          },
+          Object {
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "flexDirection": "column",
+            "justifyContent": "space-between",
+            "paddingBottom": 20,
+            "paddingLeft": 20,
+            "paddingRight": 20,
+            "paddingTop": 20,
+          },
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+              "flexDirection": "row",
+              "height": 90,
+              "justifyContent": "center",
+              "paddingBottom": 20,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+              "paddingTop": 20,
+            },
+            false,
+            undefined,
+          ],
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "height": 60,
+              "width": 60,
+            },
+            Object {
+              "backgroundColor": "#E2E3E3",
+              "borderBottomLeftRadius": 30,
+              "borderBottomRightRadius": 30,
+              "borderTopLeftRadius": 30,
+              "borderTopRightRadius": 30,
+              "height": 60,
+              "width": 60,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "height": "100%",
+              "justifyContent": "center",
+              "width": "100%",
+            }
+          }
+        >
+          LoyaltyBrandFallback
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "justifyContent": "center",
+            },
+            Object {
+              "marginLeft": 20,
+            },
+            false,
+          ]
+        }
+      >
+        <Text
+          accessibilityLabel="small-gift-card-brand-name"
+          accessible={true}
+          ellipsizeMode="tail"
+          font="SFProDisplay-Bold"
+          numberOfLines={2}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#262C2F",
+                  "fontSize": 18,
+                },
+                false,
+              ],
+            ]
+          }
+          testID="small-gift-card-brand-name"
+        >
+          iTunes
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

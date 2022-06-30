@@ -1,0 +1,1040 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MissionSearchList should render 1`] = `
+<RCTScrollView
+  accessibilityLabel="streak-list-skeleton-container"
+  accessible={true}
+  contentContainerStyle={
+    Object {
+      "paddingBottom": 32,
+      "paddingLeft": 16,
+      "paddingRight": 16,
+      "paddingTop": 32,
+    }
+  }
+  testID="streak-list-skeleton-container"
+>
+  <View>
+    <div
+      animation={
+        Object {
+          "0": Object {
+            "opacity": 1,
+          },
+          "0.5": Object {
+            "opacity": 0.35,
+          },
+          "1": Object {
+            "opacity": 1,
+          },
+        }
+      }
+      duration={2000}
+      easing="ease"
+      iterationCount="infinite"
+    >
+      <View
+        color="transparent"
+        dir="row"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderBottomLeftRadius": 8,
+              "borderBottomRightRadius": 8,
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "flexBasis": "auto",
+              "flexDirection": "row",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": "auto",
+              "width": "100%",
+            },
+            undefined,
+          ]
+        }
+        width="100%"
+      >
+        <View
+          flex={1}
+          height="40px"
+          radius={20}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#DFE3EC",
+                "borderBottomLeftRadius": 20,
+                "borderBottomRightRadius": 20,
+                "borderTopLeftRadius": 20,
+                "borderTopRightRadius": 20,
+                "flexDirection": "column",
+                "height": 40,
+                "width": "100%",
+              },
+              undefined,
+            ]
+          }
+        />
+        <View
+          height="40px"
+          radius={40}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#DFE3EC",
+                "borderBottomLeftRadius": 40,
+                "borderBottomRightRadius": 40,
+                "borderTopLeftRadius": 40,
+                "borderTopRightRadius": 40,
+                "flexBasis": "auto",
+                "flexDirection": "column",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": 40,
+                "width": 40,
+              },
+              Object {
+                "marginLeft": 15,
+              },
+            ]
+          }
+          width="40px"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "height": 15,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        color="#EBEDF2"
+        dir="row"
+        height="80px"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#EBEDF2",
+              "borderBottomLeftRadius": 8,
+              "borderBottomRightRadius": 8,
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "flexBasis": "auto",
+              "flexDirection": "row",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 80,
+              "width": "100%",
+            },
+            Object {
+              "alignItems": "center",
+              "padding": 15,
+            },
+          ]
+        }
+      >
+        <View
+          height="40px"
+          radius={20}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#DFE3EC",
+                "borderBottomLeftRadius": 20,
+                "borderBottomRightRadius": 20,
+                "borderTopLeftRadius": 20,
+                "borderTopRightRadius": 20,
+                "flexBasis": "auto",
+                "flexDirection": "column",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": 40,
+                "width": 40,
+              },
+              Object {
+                "marginRight": 15,
+              },
+            ]
+          }
+          width="40px"
+        />
+        <View
+          dir="row"
+          height="20px"
+          radius={10}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#DFE3EC",
+                "borderBottomLeftRadius": 10,
+                "borderBottomRightRadius": 10,
+                "borderTopLeftRadius": 10,
+                "borderTopRightRadius": 10,
+                "flexBasis": "auto",
+                "flexDirection": "row",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": 20,
+                "width": "60%",
+              },
+              undefined,
+            ]
+          }
+          width="60%"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "height": 15,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        color="#EBEDF2"
+        dir="row"
+        height="80px"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#EBEDF2",
+              "borderBottomLeftRadius": 8,
+              "borderBottomRightRadius": 8,
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "flexBasis": "auto",
+              "flexDirection": "row",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 80,
+              "width": "100%",
+            },
+            Object {
+              "alignItems": "center",
+              "padding": 15,
+            },
+          ]
+        }
+      >
+        <View
+          height="40px"
+          radius={20}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#DFE3EC",
+                "borderBottomLeftRadius": 20,
+                "borderBottomRightRadius": 20,
+                "borderTopLeftRadius": 20,
+                "borderTopRightRadius": 20,
+                "flexBasis": "auto",
+                "flexDirection": "column",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": 40,
+                "width": 40,
+              },
+              Object {
+                "marginRight": 15,
+              },
+            ]
+          }
+          width="40px"
+        />
+        <View
+          dir="row"
+          height="20px"
+          radius={10}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#DFE3EC",
+                "borderBottomLeftRadius": 10,
+                "borderBottomRightRadius": 10,
+                "borderTopLeftRadius": 10,
+                "borderTopRightRadius": 10,
+                "flexBasis": "auto",
+                "flexDirection": "row",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": 20,
+                "width": "60%",
+              },
+              undefined,
+            ]
+          }
+          width="60%"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "height": 15,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        color="#EBEDF2"
+        dir="row"
+        height="80px"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#EBEDF2",
+              "borderBottomLeftRadius": 8,
+              "borderBottomRightRadius": 8,
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "flexBasis": "auto",
+              "flexDirection": "row",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 80,
+              "width": "100%",
+            },
+            Object {
+              "alignItems": "center",
+              "padding": 15,
+            },
+          ]
+        }
+      >
+        <View
+          height="40px"
+          radius={20}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#DFE3EC",
+                "borderBottomLeftRadius": 20,
+                "borderBottomRightRadius": 20,
+                "borderTopLeftRadius": 20,
+                "borderTopRightRadius": 20,
+                "flexBasis": "auto",
+                "flexDirection": "column",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": 40,
+                "width": 40,
+              },
+              Object {
+                "marginRight": 15,
+              },
+            ]
+          }
+          width="40px"
+        />
+        <View
+          dir="row"
+          height="20px"
+          radius={10}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#DFE3EC",
+                "borderBottomLeftRadius": 10,
+                "borderBottomRightRadius": 10,
+                "borderTopLeftRadius": 10,
+                "borderTopRightRadius": 10,
+                "flexBasis": "auto",
+                "flexDirection": "row",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": 20,
+                "width": "60%",
+              },
+              undefined,
+            ]
+          }
+          width="60%"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "height": 15,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        color="#EBEDF2"
+        dir="row"
+        height="80px"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#EBEDF2",
+              "borderBottomLeftRadius": 8,
+              "borderBottomRightRadius": 8,
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "flexBasis": "auto",
+              "flexDirection": "row",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 80,
+              "width": "100%",
+            },
+            Object {
+              "alignItems": "center",
+              "padding": 15,
+            },
+          ]
+        }
+      >
+        <View
+          height="40px"
+          radius={20}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#DFE3EC",
+                "borderBottomLeftRadius": 20,
+                "borderBottomRightRadius": 20,
+                "borderTopLeftRadius": 20,
+                "borderTopRightRadius": 20,
+                "flexBasis": "auto",
+                "flexDirection": "column",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": 40,
+                "width": 40,
+              },
+              Object {
+                "marginRight": 15,
+              },
+            ]
+          }
+          width="40px"
+        />
+        <View
+          dir="row"
+          height="20px"
+          radius={10}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#DFE3EC",
+                "borderBottomLeftRadius": 10,
+                "borderBottomRightRadius": 10,
+                "borderTopLeftRadius": 10,
+                "borderTopRightRadius": 10,
+                "flexBasis": "auto",
+                "flexDirection": "row",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": 20,
+                "width": "60%",
+              },
+              undefined,
+            ]
+          }
+          width="60%"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "height": 15,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        color="#EBEDF2"
+        dir="row"
+        height="80px"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#EBEDF2",
+              "borderBottomLeftRadius": 8,
+              "borderBottomRightRadius": 8,
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "flexBasis": "auto",
+              "flexDirection": "row",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 80,
+              "width": "100%",
+            },
+            Object {
+              "alignItems": "center",
+              "padding": 15,
+            },
+          ]
+        }
+      >
+        <View
+          height="40px"
+          radius={20}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#DFE3EC",
+                "borderBottomLeftRadius": 20,
+                "borderBottomRightRadius": 20,
+                "borderTopLeftRadius": 20,
+                "borderTopRightRadius": 20,
+                "flexBasis": "auto",
+                "flexDirection": "column",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": 40,
+                "width": 40,
+              },
+              Object {
+                "marginRight": 15,
+              },
+            ]
+          }
+          width="40px"
+        />
+        <View
+          dir="row"
+          height="20px"
+          radius={10}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#DFE3EC",
+                "borderBottomLeftRadius": 10,
+                "borderBottomRightRadius": 10,
+                "borderTopLeftRadius": 10,
+                "borderTopRightRadius": 10,
+                "flexBasis": "auto",
+                "flexDirection": "row",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": 20,
+                "width": "60%",
+              },
+              undefined,
+            ]
+          }
+          width="60%"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "height": 15,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        color="#EBEDF2"
+        dir="row"
+        height="80px"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#EBEDF2",
+              "borderBottomLeftRadius": 8,
+              "borderBottomRightRadius": 8,
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "flexBasis": "auto",
+              "flexDirection": "row",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 80,
+              "width": "100%",
+            },
+            Object {
+              "alignItems": "center",
+              "padding": 15,
+            },
+          ]
+        }
+      >
+        <View
+          height="40px"
+          radius={20}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#DFE3EC",
+                "borderBottomLeftRadius": 20,
+                "borderBottomRightRadius": 20,
+                "borderTopLeftRadius": 20,
+                "borderTopRightRadius": 20,
+                "flexBasis": "auto",
+                "flexDirection": "column",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": 40,
+                "width": 40,
+              },
+              Object {
+                "marginRight": 15,
+              },
+            ]
+          }
+          width="40px"
+        />
+        <View
+          dir="row"
+          height="20px"
+          radius={10}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#DFE3EC",
+                "borderBottomLeftRadius": 10,
+                "borderBottomRightRadius": 10,
+                "borderTopLeftRadius": 10,
+                "borderTopRightRadius": 10,
+                "flexBasis": "auto",
+                "flexDirection": "row",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": 20,
+                "width": "60%",
+              },
+              undefined,
+            ]
+          }
+          width="60%"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "height": 15,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        color="#EBEDF2"
+        dir="row"
+        height="80px"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#EBEDF2",
+              "borderBottomLeftRadius": 8,
+              "borderBottomRightRadius": 8,
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "flexBasis": "auto",
+              "flexDirection": "row",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 80,
+              "width": "100%",
+            },
+            Object {
+              "alignItems": "center",
+              "padding": 15,
+            },
+          ]
+        }
+      >
+        <View
+          height="40px"
+          radius={20}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#DFE3EC",
+                "borderBottomLeftRadius": 20,
+                "borderBottomRightRadius": 20,
+                "borderTopLeftRadius": 20,
+                "borderTopRightRadius": 20,
+                "flexBasis": "auto",
+                "flexDirection": "column",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": 40,
+                "width": 40,
+              },
+              Object {
+                "marginRight": 15,
+              },
+            ]
+          }
+          width="40px"
+        />
+        <View
+          dir="row"
+          height="20px"
+          radius={10}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#DFE3EC",
+                "borderBottomLeftRadius": 10,
+                "borderBottomRightRadius": 10,
+                "borderTopLeftRadius": 10,
+                "borderTopRightRadius": 10,
+                "flexBasis": "auto",
+                "flexDirection": "row",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": 20,
+                "width": "60%",
+              },
+              undefined,
+            ]
+          }
+          width="60%"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "height": 15,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        color="#EBEDF2"
+        dir="row"
+        height="80px"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#EBEDF2",
+              "borderBottomLeftRadius": 8,
+              "borderBottomRightRadius": 8,
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "flexBasis": "auto",
+              "flexDirection": "row",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 80,
+              "width": "100%",
+            },
+            Object {
+              "alignItems": "center",
+              "padding": 15,
+            },
+          ]
+        }
+      >
+        <View
+          height="40px"
+          radius={20}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#DFE3EC",
+                "borderBottomLeftRadius": 20,
+                "borderBottomRightRadius": 20,
+                "borderTopLeftRadius": 20,
+                "borderTopRightRadius": 20,
+                "flexBasis": "auto",
+                "flexDirection": "column",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": 40,
+                "width": 40,
+              },
+              Object {
+                "marginRight": 15,
+              },
+            ]
+          }
+          width="40px"
+        />
+        <View
+          dir="row"
+          height="20px"
+          radius={10}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#DFE3EC",
+                "borderBottomLeftRadius": 10,
+                "borderBottomRightRadius": 10,
+                "borderTopLeftRadius": 10,
+                "borderTopRightRadius": 10,
+                "flexBasis": "auto",
+                "flexDirection": "row",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": 20,
+                "width": "60%",
+              },
+              undefined,
+            ]
+          }
+          width="60%"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "height": 15,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        color="#EBEDF2"
+        dir="row"
+        height="80px"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#EBEDF2",
+              "borderBottomLeftRadius": 8,
+              "borderBottomRightRadius": 8,
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "flexBasis": "auto",
+              "flexDirection": "row",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 80,
+              "width": "100%",
+            },
+            Object {
+              "alignItems": "center",
+              "padding": 15,
+            },
+          ]
+        }
+      >
+        <View
+          height="40px"
+          radius={20}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#DFE3EC",
+                "borderBottomLeftRadius": 20,
+                "borderBottomRightRadius": 20,
+                "borderTopLeftRadius": 20,
+                "borderTopRightRadius": 20,
+                "flexBasis": "auto",
+                "flexDirection": "column",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": 40,
+                "width": 40,
+              },
+              Object {
+                "marginRight": 15,
+              },
+            ]
+          }
+          width="40px"
+        />
+        <View
+          dir="row"
+          height="20px"
+          radius={10}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#DFE3EC",
+                "borderBottomLeftRadius": 10,
+                "borderBottomRightRadius": 10,
+                "borderTopLeftRadius": 10,
+                "borderTopRightRadius": 10,
+                "flexBasis": "auto",
+                "flexDirection": "row",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": 20,
+                "width": "60%",
+              },
+              undefined,
+            ]
+          }
+          width="60%"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "height": 15,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        color="#EBEDF2"
+        dir="row"
+        height="80px"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#EBEDF2",
+              "borderBottomLeftRadius": 8,
+              "borderBottomRightRadius": 8,
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "flexBasis": "auto",
+              "flexDirection": "row",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 80,
+              "width": "100%",
+            },
+            Object {
+              "alignItems": "center",
+              "padding": 15,
+            },
+          ]
+        }
+      >
+        <View
+          height="40px"
+          radius={20}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#DFE3EC",
+                "borderBottomLeftRadius": 20,
+                "borderBottomRightRadius": 20,
+                "borderTopLeftRadius": 20,
+                "borderTopRightRadius": 20,
+                "flexBasis": "auto",
+                "flexDirection": "column",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": 40,
+                "width": 40,
+              },
+              Object {
+                "marginRight": 15,
+              },
+            ]
+          }
+          width="40px"
+        />
+        <View
+          dir="row"
+          height="20px"
+          radius={10}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#DFE3EC",
+                "borderBottomLeftRadius": 10,
+                "borderBottomRightRadius": 10,
+                "borderTopLeftRadius": 10,
+                "borderTopRightRadius": 10,
+                "flexBasis": "auto",
+                "flexDirection": "row",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": 20,
+                "width": "60%",
+              },
+              undefined,
+            ]
+          }
+          width="60%"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "height": 15,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        color="#EBEDF2"
+        dir="row"
+        height="80px"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#EBEDF2",
+              "borderBottomLeftRadius": 8,
+              "borderBottomRightRadius": 8,
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "flexBasis": "auto",
+              "flexDirection": "row",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 80,
+              "width": "100%",
+            },
+            Object {
+              "alignItems": "center",
+              "padding": 15,
+            },
+          ]
+        }
+      >
+        <View
+          height="40px"
+          radius={20}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#DFE3EC",
+                "borderBottomLeftRadius": 20,
+                "borderBottomRightRadius": 20,
+                "borderTopLeftRadius": 20,
+                "borderTopRightRadius": 20,
+                "flexBasis": "auto",
+                "flexDirection": "column",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": 40,
+                "width": 40,
+              },
+              Object {
+                "marginRight": 15,
+              },
+            ]
+          }
+          width="40px"
+        />
+        <View
+          dir="row"
+          height="20px"
+          radius={10}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#DFE3EC",
+                "borderBottomLeftRadius": 10,
+                "borderBottomRightRadius": 10,
+                "borderTopLeftRadius": 10,
+                "borderTopRightRadius": 10,
+                "flexBasis": "auto",
+                "flexDirection": "row",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": 20,
+                "width": "60%",
+              },
+              undefined,
+            ]
+          }
+          width="60%"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "height": 15,
+            "width": "100%",
+          }
+        }
+      />
+    </div>
+  </View>
+</RCTScrollView>
+`;

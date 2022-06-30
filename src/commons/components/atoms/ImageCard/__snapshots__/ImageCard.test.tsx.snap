@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Common WebView  should render 1`] = `
+<View
+  style={
+    Object {
+      "paddingBottom": 4,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingTop": 4,
+    }
+  }
+>
+  <View
+    accessibilityLabel="image-background-container"
+    accessible={true}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "elevation": 3,
+          "shadowColor": "#262C2F",
+          "shadowOffset": Object {
+            "height": 4,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+        },
+        Object {
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "height": "100%",
+          "overflow": "hidden",
+          "width": "100%",
+        },
+      ]
+    }
+    testID="image-background-container"
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "overflow": "hidden",
+          },
+          Array [
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            },
+            Object {
+              "height": "100%",
+              "width": "100%",
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
+      <FastImageView
+        accessibilityLabel="image-background-image"
+        accessible={true}
+        onFastImageError={[Function]}
+        onFastImageLoadEnd={[Function]}
+        onFastImageLoadStart={[Function]}
+        resizeMode="cover"
+        source={
+          Object {
+            "uri": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTVkMt3KFinkf_ehnCq5yk2DLZBls6GYFZLeA&usqp=CAU",
+          }
+        }
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        testID="image-background-image"
+      />
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FusionViewer should render 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flex": 1,
+        "overflow": "hidden",
+      },
+      undefined,
+    ]
+  }
+>
+  <RNCWebView
+    accessibilityLabel="fusion-viewer-webview"
+    accessible={true}
+    cacheEnabled={true}
+    injectedJavaScript="true;"
+    injectedJavaScriptBeforeContentLoadedForMainFrameOnly={true}
+    injectedJavaScriptForMainFrameOnly={true}
+    javaScriptEnabled={true}
+    messagingEnabled={true}
+    onContentProcessDidTerminate={[Function]}
+    onError={[Function]}
+    onHttpError={[Function]}
+    onLoad={[Function]}
+    onLoadingError={[Function]}
+    onLoadingFinish={[Function]}
+    onLoadingProgress={[Function]}
+    onLoadingStart={[Function]}
+    onMessage={[Function]}
+    onNavigationStateChange={[Function]}
+    onShouldStartLoadWithRequest={[Function]}
+    setSupportMultipleWindows={false}
+    sharedCookiesEnabled={true}
+    source={
+      Object {
+        "headers": Object {
+          "accesstoken": undefined,
+          "onetrust-mask": "true",
+        },
+        "uri": "https://sandbox.shopyourway.com/mp/app/21686/l/card?p=cmpcode%3D<citi_cmp_code>&sid=sid&intcmp=iMAXxWallet",
+      }
+    }
+    startInLoadingState={true}
+    style={
+      Array [
+        Object {
+          "flex": 1,
+          "overflow": "hidden",
+        },
+        Object {
+          "backgroundColor": "#ffffff",
+        },
+        undefined,
+      ]
+    }
+    testID="fusion-viewer-webview"
+    textInteractionEnabled={true}
+    thirdPartyCookiesEnabled={true}
+    useSharedProcessPool={true}
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#F5F7FA",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "height": "100%",
+        "justifyContent": "center",
+        "left": 0,
+        "position": "absolute",
+        "top": 0,
+        "width": "100%",
+      }
+    }
+  >
+    <div>
+      Spinner
+    </div>
+  </View>
+</View>
+`;

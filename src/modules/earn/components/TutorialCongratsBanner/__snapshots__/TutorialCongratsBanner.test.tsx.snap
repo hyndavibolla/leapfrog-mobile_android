@@ -1,0 +1,280 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TutorialCongratsBanner should render 1`] = `
+<RCTScrollView
+  accessibilityLabel="tutorial-congrats-banner-container"
+  accessible={true}
+  bounces={false}
+  data={
+    Array [
+      Object {
+        "icon": <_default />,
+        "text": "Here we go!",
+      },
+      Object {
+        "icon": <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/shared/avatarFallbackInverted.png",
+            }
+          }
+          style={
+            Object {
+              "height": 24,
+              "width": 24,
+            }
+          }
+        />,
+        "text": "Check it any time on your profile",
+      },
+    ]
+  }
+  getItem={[Function]}
+  getItemCount={[Function]}
+  keyExtractor={[Function]}
+  onContentSizeChange={[Function]}
+  onLayout={[Function]}
+  onMomentumScrollBegin={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  onScrollToIndexFailed={[Function]}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEnabled={false}
+  scrollEventThrottle={50}
+  showsVerticalScrollIndicator={false}
+  stickyHeaderIndices={Array []}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#0066CC",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "height": 40,
+        "marginBottom": 32,
+        "marginLeft": 16,
+        "marginRight": 16,
+        "marginTop": 0,
+        "paddingBottom": 8,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 8,
+      },
+      Object {
+        "opacity": 1,
+      },
+    ]
+  }
+  testID="tutorial-congrats-banner-container"
+  viewabilityConfigCallbackPairs={Array []}
+>
+  <View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessibilityLabel="tutorial-congrats-banner-item"
+        accessible={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "marginBottom": 16,
+          }
+        }
+        testID="tutorial-congrats-banner-item"
+      >
+        <Text
+          accessibilityLabel="tutorial-congrats-banner-item-text"
+          accessible={true}
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 18,
+              "lineHeight": 24,
+            }
+          }
+          testID="tutorial-congrats-banner-item-text"
+        >
+          Here we go!
+        </Text>
+        RocketEmoji
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessibilityLabel="tutorial-congrats-banner-item"
+        accessible={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "marginBottom": 16,
+          }
+        }
+        testID="tutorial-congrats-banner-item"
+      >
+        <Text
+          accessibilityLabel="tutorial-congrats-banner-item-text"
+          accessible={true}
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 18,
+              "lineHeight": 24,
+            }
+          }
+          testID="tutorial-congrats-banner-item-text"
+        >
+          Check it any time on your profile
+        </Text>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/shared/avatarFallbackInverted.png",
+            }
+          }
+          style={
+            Object {
+              "height": 24,
+              "width": 24,
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`TutorialCongratsBanner should render only second item if fromSkipTutorial is true 1`] = `
+<RCTScrollView
+  accessibilityLabel="tutorial-congrats-banner-container"
+  accessible={true}
+  bounces={false}
+  data={
+    Array [
+      Object {
+        "icon": <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/shared/avatarFallbackInverted.png",
+            }
+          }
+          style={
+            Object {
+              "height": 24,
+              "width": 24,
+            }
+          }
+        />,
+        "text": "Check it any time on your profile",
+      },
+    ]
+  }
+  getItem={[Function]}
+  getItemCount={[Function]}
+  keyExtractor={[Function]}
+  onContentSizeChange={[Function]}
+  onLayout={[Function]}
+  onMomentumScrollBegin={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  onScrollToIndexFailed={[Function]}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEnabled={false}
+  scrollEventThrottle={50}
+  showsVerticalScrollIndicator={false}
+  stickyHeaderIndices={Array []}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#0066CC",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "height": 40,
+        "marginBottom": 32,
+        "marginLeft": 16,
+        "marginRight": 16,
+        "marginTop": 0,
+        "paddingBottom": 8,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 8,
+      },
+      Object {
+        "opacity": 1,
+      },
+    ]
+  }
+  testID="tutorial-congrats-banner-container"
+  viewabilityConfigCallbackPairs={Array []}
+>
+  <View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessibilityLabel="tutorial-congrats-banner-item"
+        accessible={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "marginBottom": 16,
+          }
+        }
+        testID="tutorial-congrats-banner-item"
+      >
+        <Text
+          accessibilityLabel="tutorial-congrats-banner-item-text"
+          accessible={true}
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 18,
+              "lineHeight": 24,
+            }
+          }
+          testID="tutorial-congrats-banner-item-text"
+        >
+          Check it any time on your profile
+        </Text>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/shared/avatarFallbackInverted.png",
+            }
+          }
+          style={
+            Object {
+              "height": 24,
+              "width": 24,
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

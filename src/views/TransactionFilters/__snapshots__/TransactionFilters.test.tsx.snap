@@ -1,0 +1,2199 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransactionFilters should render transaction filters 1`] = `
+<View
+  accessibilityLabel="transaction-filters-container"
+  accessible={true}
+  style={
+    Object {
+      "backgroundColor": "#F5F7FA",
+      "flexBasis": 0,
+      "flexGrow": 1,
+      "flexShrink": 1,
+    }
+  }
+  testID="transaction-filters-container"
+>
+  <RCTScrollView
+    ListEmptyComponent={null}
+    ListFooterComponent={null}
+    ListHeaderComponent={
+      <ScrollView
+        horizontal={true}
+        showsHorizontalScrollIndicator={false}
+        style={
+          Object {
+            "marginBottom": 4,
+            "marginTop": 28,
+          }
+        }
+      >
+        <TouchableOpacity
+          accessibilityLabel="transaction-filters-menu-item"
+          accessible={true}
+          onPress={[Function]}
+          testID="transaction-filters-menu-item"
+        >
+          <Memo(Pill)
+            disableIcon={true}
+            icon={
+              <Memo(Icon)
+                color="#FFFFFF"
+                name="syw-circle"
+                size="16px"
+              />
+            }
+            iconContainerStyle={
+              Object {
+                "backgroundColor": "#0066CC",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "paddingLeft": 8,
+                },
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "height": 30,
+                  "marginRight": 8,
+                },
+                Object {
+                  "backgroundColor": "#0066CC",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontSize": 14,
+                    "fontWeight": "600",
+                    "lineHeight": 18,
+                  },
+                  Object {
+                    "color": "#FFFFFF",
+                  },
+                ]
+              }
+            >
+              All transactions
+            </Text>
+          </Memo(Pill)>
+        </TouchableOpacity>
+        <TouchableOpacity
+          accessibilityLabel="transaction-filters-menu-item"
+          accessible={true}
+          onPress={[Function]}
+          testID="transaction-filters-menu-item"
+        >
+          <Memo(Pill)
+            disableIcon={false}
+            icon={
+              <Memo(Icon)
+                color="#0066CC"
+                name="syw-circle"
+                size="16px"
+              />
+            }
+            iconContainerStyle={false}
+            style={
+              Array [
+                false,
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "height": 30,
+                  "marginRight": 8,
+                },
+                false,
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontSize": 14,
+                    "fontWeight": "600",
+                    "lineHeight": 18,
+                  },
+                  false,
+                ]
+              }
+            >
+              Local offers
+            </Text>
+          </Memo(Pill)>
+        </TouchableOpacity>
+        <TouchableOpacity
+          accessibilityLabel="transaction-filters-menu-item"
+          accessible={true}
+          onPress={[Function]}
+          testID="transaction-filters-menu-item"
+        >
+          <Memo(Pill)
+            disableIcon={false}
+            icon={
+              <Memo(Icon)
+                color="#0066CC"
+                name="syw-circle"
+                size="16px"
+              />
+            }
+            iconContainerStyle={false}
+            style={
+              Array [
+                false,
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "height": 30,
+                  "marginRight": 8,
+                },
+                false,
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontSize": 14,
+                    "fontWeight": "600",
+                    "lineHeight": 18,
+                  },
+                  false,
+                ]
+              }
+            >
+              Missions
+            </Text>
+          </Memo(Pill)>
+        </TouchableOpacity>
+        <TouchableOpacity
+          accessibilityLabel="transaction-filters-menu-item"
+          accessible={true}
+          onPress={[Function]}
+          testID="transaction-filters-menu-item"
+        >
+          <Memo(Pill)
+            disableIcon={false}
+            icon={
+              <Memo(Icon)
+                color="#0066CC"
+                name="syw-circle"
+                size="16px"
+              />
+            }
+            iconContainerStyle={false}
+            style={
+              Array [
+                false,
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "height": 30,
+                  "marginRight": 8,
+                },
+                false,
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontSize": 14,
+                    "fontWeight": "600",
+                    "lineHeight": 18,
+                  },
+                  false,
+                ]
+              }
+            >
+              Rewards
+            </Text>
+          </Memo(Pill)>
+        </TouchableOpacity>
+        <TouchableOpacity
+          accessibilityLabel="transaction-filters-menu-item"
+          accessible={true}
+          onPress={[Function]}
+          testID="transaction-filters-menu-item"
+        >
+          <Memo(Pill)
+            disableIcon={false}
+            icon={
+              <Memo(Icon)
+                color="#0066CC"
+                name="syw-circle"
+                size="16px"
+              />
+            }
+            iconContainerStyle={false}
+            style={
+              Array [
+                false,
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "height": 30,
+                  "marginRight": 8,
+                },
+                false,
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontSize": 14,
+                    "fontWeight": "600",
+                    "lineHeight": 18,
+                  },
+                  false,
+                ]
+              }
+            >
+              SYW Mastercard
+            </Text>
+          </Memo(Pill)>
+        </TouchableOpacity>
+      </ScrollView>
+    }
+    accessibilityLabel="activity-history-list"
+    accessible={true}
+    contentContainerStyle={
+      Object {
+        "flexGrow": 1,
+        "paddingHorizontal": 16,
+      }
+    }
+    data={
+      Array [
+        Object {
+          "activityDetails": Object {
+            "giftCardName": "brand",
+            "partnerId": "789ghi",
+          },
+          "activityType": "pointsavailable",
+          "brandDetails": Object {
+            "brandLogo": "https://www.requestor-image-3.com",
+            "brandName": "",
+            "brandShortDescription": "",
+          },
+          "offers": Array [
+            Object {
+              "dollarRedeemed": 10,
+              "id": "offer-one",
+              "name": "offer one",
+              "pointEndDate": "2020-02-01T12:00:00.000Z",
+              "pointStartDate": "2020-01-01T12:00:00.000Z",
+              "points": 200,
+              "pointsType": "earn",
+              "programSubCategory": "gas",
+              "programType": "big",
+            },
+          ],
+          "points": 300,
+          "requestorName": "requestor three",
+          "timestamp": "2020-01-03T12:00:00.000Z",
+          "txnId": "11EACDE0F1A4A8D018B2295922CBA5C0",
+          "uuid": "1980-0}",
+        },
+        Object {
+          "activityDetails": Object {
+            "giftCardName": "brand",
+            "partnerId": "456def",
+          },
+          "activityType": "pointsexpiry",
+          "brandDetails": Object {
+            "brandLogo": "https://www.requestor-image-2.com",
+            "brandName": "",
+            "brandShortDescription": "",
+          },
+          "offers": Array [
+            Object {
+              "dollarRedeemed": 10,
+              "id": "offer-three",
+              "name": "offer three",
+              "pointEndDate": "2020-02-01T12:00:00.000Z",
+              "pointStartDate": "2020-01-01T12:00:00.000Z",
+              "points": 400,
+              "pointsType": "redeem",
+              "programSubCategory": "kmart",
+              "programType": "speed",
+            },
+          ],
+          "points": 200,
+          "requestorName": "requestor two",
+          "timestamp": "2020-01-02T12:00:00.000Z",
+          "txnId": "11EACDE0F1A4A8D018B2295922CBA5C0",
+          "uuid": "1980-1}",
+        },
+        Object {
+          "activityDetails": Object {
+            "giftCardName": "brand",
+            "partnerId": "123abc",
+          },
+          "activityType": "transaction",
+          "brandDetails": Object {
+            "brandLogo": "https://www.requestor-image.com",
+            "brandName": "",
+            "brandShortDescription": "",
+          },
+          "offers": Array [
+            Object {
+              "dollarRedeemed": 10,
+              "id": "offer-one",
+              "name": "offer one",
+              "pointEndDate": "2020-02-01T12:00:00.000Z",
+              "pointStartDate": "2020-01-01T12:00:00.000Z",
+              "points": 200,
+              "pointsType": "earn",
+              "programSubCategory": "gas",
+              "programType": "big",
+            },
+            Object {
+              "dollarRedeemed": 10,
+              "id": "offer-two",
+              "name": "offer two",
+              "pointEndDate": "2020-02-01T12:00:00.000Z",
+              "pointStartDate": "2020-01-01T12:00:00.000Z",
+              "points": 300,
+              "pointsType": "pointsAvailable",
+              "programSubCategory": "grocery",
+              "programType": "onboarding",
+            },
+          ],
+          "points": 100,
+          "requestorName": "requestor one",
+          "timestamp": "2020-01-01T12:00:00.000Z",
+          "txnId": "11EACDE0F1A4A8D018B2295922CBA5C0",
+          "uuid": "1980-2}",
+        },
+      ]
+    }
+    extraData={
+      Array [
+        Object {
+          "activityDetails": Object {
+            "giftCardName": "brand",
+            "partnerId": "789ghi",
+          },
+          "activityType": "pointsavailable",
+          "brandDetails": Object {
+            "brandLogo": "https://www.requestor-image-3.com",
+            "brandName": "",
+            "brandShortDescription": "",
+          },
+          "offers": Array [
+            Object {
+              "dollarRedeemed": 10,
+              "id": "offer-one",
+              "name": "offer one",
+              "pointEndDate": "2020-02-01T12:00:00.000Z",
+              "pointStartDate": "2020-01-01T12:00:00.000Z",
+              "points": 200,
+              "pointsType": "earn",
+              "programSubCategory": "gas",
+              "programType": "big",
+            },
+          ],
+          "points": 300,
+          "requestorName": "requestor three",
+          "timestamp": "2020-01-03T12:00:00.000Z",
+          "txnId": "11EACDE0F1A4A8D018B2295922CBA5C0",
+          "uuid": "1980-0}",
+        },
+        Object {
+          "activityDetails": Object {
+            "giftCardName": "brand",
+            "partnerId": "456def",
+          },
+          "activityType": "pointsexpiry",
+          "brandDetails": Object {
+            "brandLogo": "https://www.requestor-image-2.com",
+            "brandName": "",
+            "brandShortDescription": "",
+          },
+          "offers": Array [
+            Object {
+              "dollarRedeemed": 10,
+              "id": "offer-three",
+              "name": "offer three",
+              "pointEndDate": "2020-02-01T12:00:00.000Z",
+              "pointStartDate": "2020-01-01T12:00:00.000Z",
+              "points": 400,
+              "pointsType": "redeem",
+              "programSubCategory": "kmart",
+              "programType": "speed",
+            },
+          ],
+          "points": 200,
+          "requestorName": "requestor two",
+          "timestamp": "2020-01-02T12:00:00.000Z",
+          "txnId": "11EACDE0F1A4A8D018B2295922CBA5C0",
+          "uuid": "1980-1}",
+        },
+        Object {
+          "activityDetails": Object {
+            "giftCardName": "brand",
+            "partnerId": "123abc",
+          },
+          "activityType": "transaction",
+          "brandDetails": Object {
+            "brandLogo": "https://www.requestor-image.com",
+            "brandName": "",
+            "brandShortDescription": "",
+          },
+          "offers": Array [
+            Object {
+              "dollarRedeemed": 10,
+              "id": "offer-one",
+              "name": "offer one",
+              "pointEndDate": "2020-02-01T12:00:00.000Z",
+              "pointStartDate": "2020-01-01T12:00:00.000Z",
+              "points": 200,
+              "pointsType": "earn",
+              "programSubCategory": "gas",
+              "programType": "big",
+            },
+            Object {
+              "dollarRedeemed": 10,
+              "id": "offer-two",
+              "name": "offer two",
+              "pointEndDate": "2020-02-01T12:00:00.000Z",
+              "pointStartDate": "2020-01-01T12:00:00.000Z",
+              "points": 300,
+              "pointsType": "pointsAvailable",
+              "programSubCategory": "grocery",
+              "programType": "onboarding",
+            },
+          ],
+          "points": 100,
+          "requestorName": "requestor one",
+          "timestamp": "2020-01-01T12:00:00.000Z",
+          "txnId": "11EACDE0F1A4A8D018B2295922CBA5C0",
+          "uuid": "1980-2}",
+        },
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onEndReached={[Function]}
+    onEndReachedThreshold={0.1}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    refreshing={false}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    showsVerticalScrollIndicator={false}
+    stickyHeaderIndices={Array []}
+    testID="activity-history-list"
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+      >
+        <RCTScrollView
+          horizontal={true}
+          showsHorizontalScrollIndicator={false}
+          style={
+            Object {
+              "marginBottom": 4,
+              "marginTop": 28,
+            }
+          }
+        >
+          <View>
+            <View
+              accessibilityLabel="transaction-filters-menu-item"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="transaction-filters-menu-item"
+            >
+              <View
+                accessibilityLabel="pill-container"
+                accessible={true}
+                style={
+                  Array [
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#DDE8F5",
+                        "borderBottomLeftRadius": 20,
+                        "borderBottomRightRadius": 20,
+                        "borderTopLeftRadius": 20,
+                        "borderTopRightRadius": 20,
+                        "flexDirection": "row",
+                        "paddingLeft": 4,
+                        "paddingRight": 10,
+                      },
+                      Object {
+                        "height": 28,
+                      },
+                    ],
+                    Array [
+                      undefined,
+                    ],
+                    Array [
+                      Object {
+                        "paddingLeft": 8,
+                      },
+                      Object {
+                        "backgroundColor": "#FFFFFF",
+                        "height": 30,
+                        "marginRight": 8,
+                      },
+                      Object {
+                        "backgroundColor": "#0066CC",
+                      },
+                    ],
+                  ]
+                }
+                testID="pill-container"
+              >
+                <View
+                  accessibilityLabel="pill-text"
+                  accessible={true}
+                  style={
+                    Array [
+                      false,
+                      Array [
+                        Object {
+                          "color": "#0066CC",
+                          "fontFamily": "SFProDisplay-Bold",
+                          "fontSize": 14,
+                        },
+                        Object {
+                          "lineHeight": 20,
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                  testID="pill-text"
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#909BA0",
+                          "fontSize": 14,
+                          "fontWeight": "600",
+                          "lineHeight": 18,
+                        },
+                        Object {
+                          "color": "#FFFFFF",
+                        },
+                      ]
+                    }
+                  >
+                    All transactions
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              accessibilityLabel="transaction-filters-menu-item"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="transaction-filters-menu-item"
+            >
+              <View
+                accessibilityLabel="pill-container"
+                accessible={true}
+                style={
+                  Array [
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#DDE8F5",
+                        "borderBottomLeftRadius": 20,
+                        "borderBottomRightRadius": 20,
+                        "borderTopLeftRadius": 20,
+                        "borderTopRightRadius": 20,
+                        "flexDirection": "row",
+                        "paddingLeft": 4,
+                        "paddingRight": 10,
+                      },
+                      Object {
+                        "height": 28,
+                      },
+                    ],
+                    Array [
+                      undefined,
+                    ],
+                    Array [
+                      false,
+                      Object {
+                        "backgroundColor": "#FFFFFF",
+                        "height": 30,
+                        "marginRight": 8,
+                      },
+                      false,
+                    ],
+                  ]
+                }
+                testID="pill-container"
+              >
+                <View
+                  accessibilityLabel="pill-icon"
+                  accessible={true}
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#FFFFFF",
+                        "borderBottomLeftRadius": 50,
+                        "borderBottomRightRadius": 50,
+                        "borderTopLeftRadius": 50,
+                        "borderTopRightRadius": 50,
+                        "justifyContent": "center",
+                      },
+                      false,
+                    ]
+                  }
+                  testID="pill-icon"
+                >
+                  <Text
+                    accessibilityLabel="icon-text"
+                    accessible={true}
+                    allowFontScaling={false}
+                    selectable={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#0066CC",
+                          "fontSize": 16,
+                        },
+                        undefined,
+                        Object {
+                          "fontFamily": "sywmax",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                    testID="icon-text"
+                  >
+                    
+                  </Text>
+                </View>
+                <View
+                  accessibilityLabel="pill-text"
+                  accessible={true}
+                  style={
+                    Array [
+                      Object {
+                        "paddingLeft": 4,
+                      },
+                      Array [
+                        Object {
+                          "color": "#0066CC",
+                          "fontFamily": "SFProDisplay-Bold",
+                          "fontSize": 14,
+                        },
+                        Object {
+                          "lineHeight": 20,
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                  testID="pill-text"
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#909BA0",
+                          "fontSize": 14,
+                          "fontWeight": "600",
+                          "lineHeight": 18,
+                        },
+                        false,
+                      ]
+                    }
+                  >
+                    Local offers
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              accessibilityLabel="transaction-filters-menu-item"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="transaction-filters-menu-item"
+            >
+              <View
+                accessibilityLabel="pill-container"
+                accessible={true}
+                style={
+                  Array [
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#DDE8F5",
+                        "borderBottomLeftRadius": 20,
+                        "borderBottomRightRadius": 20,
+                        "borderTopLeftRadius": 20,
+                        "borderTopRightRadius": 20,
+                        "flexDirection": "row",
+                        "paddingLeft": 4,
+                        "paddingRight": 10,
+                      },
+                      Object {
+                        "height": 28,
+                      },
+                    ],
+                    Array [
+                      undefined,
+                    ],
+                    Array [
+                      false,
+                      Object {
+                        "backgroundColor": "#FFFFFF",
+                        "height": 30,
+                        "marginRight": 8,
+                      },
+                      false,
+                    ],
+                  ]
+                }
+                testID="pill-container"
+              >
+                <View
+                  accessibilityLabel="pill-icon"
+                  accessible={true}
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#FFFFFF",
+                        "borderBottomLeftRadius": 50,
+                        "borderBottomRightRadius": 50,
+                        "borderTopLeftRadius": 50,
+                        "borderTopRightRadius": 50,
+                        "justifyContent": "center",
+                      },
+                      false,
+                    ]
+                  }
+                  testID="pill-icon"
+                >
+                  <Text
+                    accessibilityLabel="icon-text"
+                    accessible={true}
+                    allowFontScaling={false}
+                    selectable={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#0066CC",
+                          "fontSize": 16,
+                        },
+                        undefined,
+                        Object {
+                          "fontFamily": "sywmax",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                    testID="icon-text"
+                  >
+                    
+                  </Text>
+                </View>
+                <View
+                  accessibilityLabel="pill-text"
+                  accessible={true}
+                  style={
+                    Array [
+                      Object {
+                        "paddingLeft": 4,
+                      },
+                      Array [
+                        Object {
+                          "color": "#0066CC",
+                          "fontFamily": "SFProDisplay-Bold",
+                          "fontSize": 14,
+                        },
+                        Object {
+                          "lineHeight": 20,
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                  testID="pill-text"
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#909BA0",
+                          "fontSize": 14,
+                          "fontWeight": "600",
+                          "lineHeight": 18,
+                        },
+                        false,
+                      ]
+                    }
+                  >
+                    Missions
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              accessibilityLabel="transaction-filters-menu-item"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="transaction-filters-menu-item"
+            >
+              <View
+                accessibilityLabel="pill-container"
+                accessible={true}
+                style={
+                  Array [
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#DDE8F5",
+                        "borderBottomLeftRadius": 20,
+                        "borderBottomRightRadius": 20,
+                        "borderTopLeftRadius": 20,
+                        "borderTopRightRadius": 20,
+                        "flexDirection": "row",
+                        "paddingLeft": 4,
+                        "paddingRight": 10,
+                      },
+                      Object {
+                        "height": 28,
+                      },
+                    ],
+                    Array [
+                      undefined,
+                    ],
+                    Array [
+                      false,
+                      Object {
+                        "backgroundColor": "#FFFFFF",
+                        "height": 30,
+                        "marginRight": 8,
+                      },
+                      false,
+                    ],
+                  ]
+                }
+                testID="pill-container"
+              >
+                <View
+                  accessibilityLabel="pill-icon"
+                  accessible={true}
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#FFFFFF",
+                        "borderBottomLeftRadius": 50,
+                        "borderBottomRightRadius": 50,
+                        "borderTopLeftRadius": 50,
+                        "borderTopRightRadius": 50,
+                        "justifyContent": "center",
+                      },
+                      false,
+                    ]
+                  }
+                  testID="pill-icon"
+                >
+                  <Text
+                    accessibilityLabel="icon-text"
+                    accessible={true}
+                    allowFontScaling={false}
+                    selectable={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#0066CC",
+                          "fontSize": 16,
+                        },
+                        undefined,
+                        Object {
+                          "fontFamily": "sywmax",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                    testID="icon-text"
+                  >
+                    
+                  </Text>
+                </View>
+                <View
+                  accessibilityLabel="pill-text"
+                  accessible={true}
+                  style={
+                    Array [
+                      Object {
+                        "paddingLeft": 4,
+                      },
+                      Array [
+                        Object {
+                          "color": "#0066CC",
+                          "fontFamily": "SFProDisplay-Bold",
+                          "fontSize": 14,
+                        },
+                        Object {
+                          "lineHeight": 20,
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                  testID="pill-text"
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#909BA0",
+                          "fontSize": 14,
+                          "fontWeight": "600",
+                          "lineHeight": 18,
+                        },
+                        false,
+                      ]
+                    }
+                  >
+                    Rewards
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              accessibilityLabel="transaction-filters-menu-item"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="transaction-filters-menu-item"
+            >
+              <View
+                accessibilityLabel="pill-container"
+                accessible={true}
+                style={
+                  Array [
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#DDE8F5",
+                        "borderBottomLeftRadius": 20,
+                        "borderBottomRightRadius": 20,
+                        "borderTopLeftRadius": 20,
+                        "borderTopRightRadius": 20,
+                        "flexDirection": "row",
+                        "paddingLeft": 4,
+                        "paddingRight": 10,
+                      },
+                      Object {
+                        "height": 28,
+                      },
+                    ],
+                    Array [
+                      undefined,
+                    ],
+                    Array [
+                      false,
+                      Object {
+                        "backgroundColor": "#FFFFFF",
+                        "height": 30,
+                        "marginRight": 8,
+                      },
+                      false,
+                    ],
+                  ]
+                }
+                testID="pill-container"
+              >
+                <View
+                  accessibilityLabel="pill-icon"
+                  accessible={true}
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#FFFFFF",
+                        "borderBottomLeftRadius": 50,
+                        "borderBottomRightRadius": 50,
+                        "borderTopLeftRadius": 50,
+                        "borderTopRightRadius": 50,
+                        "justifyContent": "center",
+                      },
+                      false,
+                    ]
+                  }
+                  testID="pill-icon"
+                >
+                  <Text
+                    accessibilityLabel="icon-text"
+                    accessible={true}
+                    allowFontScaling={false}
+                    selectable={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#0066CC",
+                          "fontSize": 16,
+                        },
+                        undefined,
+                        Object {
+                          "fontFamily": "sywmax",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                    testID="icon-text"
+                  >
+                    
+                  </Text>
+                </View>
+                <View
+                  accessibilityLabel="pill-text"
+                  accessible={true}
+                  style={
+                    Array [
+                      Object {
+                        "paddingLeft": 4,
+                      },
+                      Array [
+                        Object {
+                          "color": "#0066CC",
+                          "fontFamily": "SFProDisplay-Bold",
+                          "fontSize": 14,
+                        },
+                        Object {
+                          "lineHeight": 20,
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                  testID="pill-text"
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#909BA0",
+                          "fontSize": 14,
+                          "fontWeight": "600",
+                          "lineHeight": 18,
+                        },
+                        false,
+                      ]
+                    }
+                  >
+                    SYW Mastercard
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </RCTScrollView>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      />
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <Text
+          accessibilityLabel="offer-item-separator"
+          accessible={true}
+          font="SFProDisplay-Bold"
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontSize": 14,
+                  "marginBottom": 16,
+                  "marginTop": 4,
+                },
+                Object {
+                  "marginTop": 16,
+                },
+              ],
+            ]
+          }
+          testID="offer-item-separator"
+        >
+          JANUARY
+        </Text>
+        <View
+          accessibilityLabel="offer-item-activity-row"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+          testID="offer-item-activity-row"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderBottomLeftRadius": 8,
+                "borderBottomRightRadius": 8,
+                "borderTopLeftRadius": 8,
+                "borderTopRightRadius": 8,
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginVertical": 4,
+                "paddingBottom": 16,
+                "paddingLeft": 16,
+                "paddingRight": 24,
+                "paddingTop": 16,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "height": 60,
+                    "width": 60,
+                  },
+                  Object {
+                    "borderBottomLeftRadius": 40,
+                    "borderBottomRightRadius": 40,
+                    "borderTopLeftRadius": 40,
+                    "borderTopRightRadius": 40,
+                    "height": 40,
+                    "width": 40,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "overflow": "hidden",
+                    },
+                    Object {
+                      "alignItems": "center",
+                      "borderBottomLeftRadius": 60,
+                      "borderBottomRightRadius": 60,
+                      "borderTopLeftRadius": 60,
+                      "borderTopRightRadius": 60,
+                      "height": "100%",
+                      "justifyContent": "center",
+                      "width": "100%",
+                    },
+                  ]
+                }
+              >
+                <FastImageView
+                  accessibilityLabel="brand-logo-image"
+                  accessible={true}
+                  onFastImageError={[Function]}
+                  onFastImageLoad={[Function]}
+                  onFastImageLoadEnd={[Function]}
+                  onFastImageLoadStart={[Function]}
+                  resizeMode="cover"
+                  source={
+                    Object {
+                      "priority": "high",
+                      "uri": "https://www.requestor-image-2.com",
+                    }
+                  }
+                  style={
+                    Object {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    }
+                  }
+                  testID="brand-logo-image"
+                />
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "stretch",
+                  "flexBasis": 0,
+                  "flexDirection": "column",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "justifyContent": "space-between",
+                  "marginHorizontal": 16,
+                }
+              }
+            >
+              <View />
+              <View
+                style={
+                  Object {
+                    "flexDirection": "column",
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                      "justifyContent": "flex-start",
+                    }
+                  }
+                >
+                  <Text
+                    accessibilityLabel="point-row-company-name-label"
+                    accessible={true}
+                    ellipsizeMode="tail"
+                    font="SFProDisplay-SemiBold"
+                    numberOfLines={1}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#909BA0",
+                          "fontFamily": "SFProDisplay-SemiBold",
+                          "fontSize": 16,
+                          "lineHeight": 22,
+                        },
+                        Object {
+                          "color": "#262C2F",
+                          "flexShrink": 4,
+                          "fontSize": 14,
+                          "marginBottom": 5,
+                        },
+                      ]
+                    }
+                    testID="point-row-company-name-label"
+                  >
+                    requestor two Gift Card
+                  </Text>
+                </View>
+                <View
+                  style={Object {}}
+                >
+                  <Text
+                    accessibilityLabel="point-row-description-label"
+                    accessible={true}
+                    ellipsizeMode="tail"
+                    numberOfLines={1}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#909BA0",
+                          "fontFamily": "SFProDisplay-Medium",
+                          "fontSize": 16,
+                          "lineHeight": 22,
+                        },
+                        Object {
+                          "color": "#909BA0",
+                          "flexShrink": 1,
+                          "fontSize": 14,
+                        },
+                      ]
+                    }
+                    testID="point-row-description-label"
+                  >
+                    Jan 2nd - 04:00 am
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View>
+              <View
+                accessibilityLabel="point-row-points-summary-label"
+                accessible={true}
+                testID="point-row-points-summary-label"
+              >
+                <View
+                  accessibilityLabel="pill-container"
+                  accessible={true}
+                  style={
+                    Array [
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#DDE8F5",
+                          "borderBottomLeftRadius": 20,
+                          "borderBottomRightRadius": 20,
+                          "borderTopLeftRadius": 20,
+                          "borderTopRightRadius": 20,
+                          "flexDirection": "row",
+                          "paddingLeft": 4,
+                          "paddingRight": 10,
+                        },
+                        Object {
+                          "height": 28,
+                        },
+                      ],
+                      Array [
+                        Object {
+                          "backgroundColor": "#EBEDF2",
+                        },
+                      ],
+                      Object {
+                        "backgroundColor": "#FFFFFF",
+                        "paddingBottom": 0,
+                        "paddingLeft": 0,
+                        "paddingRight": 0,
+                        "paddingTop": 0,
+                      },
+                    ]
+                  }
+                  testID="pill-container"
+                >
+                  <View
+                    accessibilityLabel="pill-icon"
+                    accessible={true}
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#FFFFFF",
+                          "borderBottomLeftRadius": 50,
+                          "borderBottomRightRadius": 50,
+                          "borderTopLeftRadius": 50,
+                          "borderTopRightRadius": 50,
+                          "justifyContent": "center",
+                        },
+                        undefined,
+                      ]
+                    }
+                    testID="pill-icon"
+                  >
+                    <Text
+                      accessibilityLabel="icon-text"
+                      accessible={true}
+                      allowFontScaling={false}
+                      selectable={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#909BA0",
+                            "fontSize": 20,
+                          },
+                          undefined,
+                          Object {
+                            "fontFamily": "sywmax",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                      testID="icon-text"
+                    >
+                      
+                    </Text>
+                  </View>
+                  <Text
+                    accessibilityLabel="pill-text"
+                    accessible={true}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#909BA0",
+                          "fontFamily": "SFProDisplay-Medium",
+                          "fontSize": 16,
+                          "lineHeight": 22,
+                        },
+                        Array [
+                          Object {
+                            "paddingLeft": 4,
+                          },
+                          Array [
+                            Object {
+                              "color": "#0066CC",
+                              "fontFamily": "SFProDisplay-Bold",
+                              "fontSize": 14,
+                            },
+                            Object {
+                              "lineHeight": 20,
+                            },
+                            Object {
+                              "color": "#909BA0",
+                            },
+                          ],
+                        ],
+                      ]
+                    }
+                    testID="pill-text"
+                  >
+                    -400
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessibilityLabel="offer-item-activity-row"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+          testID="offer-item-activity-row"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderBottomLeftRadius": 8,
+                "borderBottomRightRadius": 8,
+                "borderTopLeftRadius": 8,
+                "borderTopRightRadius": 8,
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginVertical": 4,
+                "paddingBottom": 16,
+                "paddingLeft": 16,
+                "paddingRight": 24,
+                "paddingTop": 16,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "height": 60,
+                    "width": 60,
+                  },
+                  Object {
+                    "borderBottomLeftRadius": 40,
+                    "borderBottomRightRadius": 40,
+                    "borderTopLeftRadius": 40,
+                    "borderTopRightRadius": 40,
+                    "height": 40,
+                    "width": 40,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "overflow": "hidden",
+                    },
+                    Object {
+                      "alignItems": "center",
+                      "borderBottomLeftRadius": 60,
+                      "borderBottomRightRadius": 60,
+                      "borderTopLeftRadius": 60,
+                      "borderTopRightRadius": 60,
+                      "height": "100%",
+                      "justifyContent": "center",
+                      "width": "100%",
+                    },
+                  ]
+                }
+              >
+                <FastImageView
+                  accessibilityLabel="brand-logo-image"
+                  accessible={true}
+                  onFastImageError={[Function]}
+                  onFastImageLoad={[Function]}
+                  onFastImageLoadEnd={[Function]}
+                  onFastImageLoadStart={[Function]}
+                  resizeMode="cover"
+                  source={
+                    Object {
+                      "priority": "high",
+                      "uri": "https://www.requestor-image.com",
+                    }
+                  }
+                  style={
+                    Object {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    }
+                  }
+                  testID="brand-logo-image"
+                />
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "stretch",
+                  "flexBasis": 0,
+                  "flexDirection": "column",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "justifyContent": "space-between",
+                  "marginHorizontal": 16,
+                }
+              }
+            >
+              <View />
+              <View
+                style={
+                  Object {
+                    "flexDirection": "column",
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                      "justifyContent": "flex-start",
+                    }
+                  }
+                >
+                  <Text
+                    accessibilityLabel="point-row-company-name-label"
+                    accessible={true}
+                    ellipsizeMode="tail"
+                    font="SFProDisplay-SemiBold"
+                    numberOfLines={1}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#909BA0",
+                          "fontFamily": "SFProDisplay-SemiBold",
+                          "fontSize": 16,
+                          "lineHeight": 22,
+                        },
+                        Object {
+                          "color": "#262C2F",
+                          "flexShrink": 4,
+                          "fontSize": 14,
+                          "marginBottom": 5,
+                        },
+                      ]
+                    }
+                    testID="point-row-company-name-label"
+                  >
+                    requestor one
+                  </Text>
+                </View>
+                <View
+                  style={Object {}}
+                >
+                  <Text
+                    accessibilityLabel="point-row-description-label"
+                    accessible={true}
+                    ellipsizeMode="tail"
+                    numberOfLines={1}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#909BA0",
+                          "fontFamily": "SFProDisplay-Medium",
+                          "fontSize": 16,
+                          "lineHeight": 22,
+                        },
+                        Object {
+                          "color": "#909BA0",
+                          "flexShrink": 1,
+                          "fontSize": 14,
+                        },
+                      ]
+                    }
+                    testID="point-row-description-label"
+                  >
+                    offer one
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View>
+              <View
+                accessibilityLabel="point-row-points-summary-label"
+                accessible={true}
+                testID="point-row-points-summary-label"
+              >
+                <View
+                  accessibilityLabel="pill-container"
+                  accessible={true}
+                  style={
+                    Array [
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#DDE8F5",
+                          "borderBottomLeftRadius": 20,
+                          "borderBottomRightRadius": 20,
+                          "borderTopLeftRadius": 20,
+                          "borderTopRightRadius": 20,
+                          "flexDirection": "row",
+                          "paddingLeft": 4,
+                          "paddingRight": 10,
+                        },
+                        Object {
+                          "height": 28,
+                        },
+                      ],
+                      Array [
+                        Object {
+                          "backgroundColor": "#EBEDF2",
+                        },
+                      ],
+                      Object {
+                        "backgroundColor": "#FFFFFF",
+                        "paddingBottom": 0,
+                        "paddingLeft": 0,
+                        "paddingRight": 0,
+                        "paddingTop": 0,
+                      },
+                    ]
+                  }
+                  testID="pill-container"
+                >
+                  <View
+                    accessibilityLabel="pill-icon"
+                    accessible={true}
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#FFFFFF",
+                          "borderBottomLeftRadius": 50,
+                          "borderBottomRightRadius": 50,
+                          "borderTopLeftRadius": 50,
+                          "borderTopRightRadius": 50,
+                          "justifyContent": "center",
+                        },
+                        undefined,
+                      ]
+                    }
+                    testID="pill-icon"
+                  >
+                    <Text
+                      accessibilityLabel="icon-text"
+                      accessible={true}
+                      allowFontScaling={false}
+                      selectable={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#909BA0",
+                            "fontSize": 20,
+                          },
+                          undefined,
+                          Object {
+                            "fontFamily": "sywmax",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                      testID="icon-text"
+                    >
+                      
+                    </Text>
+                  </View>
+                  <Text
+                    accessibilityLabel="pill-text"
+                    accessible={true}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#909BA0",
+                          "fontFamily": "SFProDisplay-Medium",
+                          "fontSize": 16,
+                          "lineHeight": 22,
+                        },
+                        Array [
+                          Object {
+                            "paddingLeft": 4,
+                          },
+                          Array [
+                            Object {
+                              "color": "#0066CC",
+                              "fontFamily": "SFProDisplay-Bold",
+                              "fontSize": 14,
+                            },
+                            Object {
+                              "lineHeight": 20,
+                            },
+                            Object {
+                              "color": "#909BA0",
+                            },
+                          ],
+                        ],
+                      ]
+                    }
+                    testID="pill-text"
+                  >
+                    200
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          accessibilityLabel="offer-item-activity-row"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+          testID="offer-item-activity-row"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderBottomLeftRadius": 8,
+                "borderBottomRightRadius": 8,
+                "borderTopLeftRadius": 8,
+                "borderTopRightRadius": 8,
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginVertical": 4,
+                "paddingBottom": 16,
+                "paddingLeft": 16,
+                "paddingRight": 24,
+                "paddingTop": 16,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "height": 60,
+                    "width": 60,
+                  },
+                  Object {
+                    "borderBottomLeftRadius": 40,
+                    "borderBottomRightRadius": 40,
+                    "borderTopLeftRadius": 40,
+                    "borderTopRightRadius": 40,
+                    "height": 40,
+                    "width": 40,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "overflow": "hidden",
+                    },
+                    Object {
+                      "alignItems": "center",
+                      "borderBottomLeftRadius": 60,
+                      "borderBottomRightRadius": 60,
+                      "borderTopLeftRadius": 60,
+                      "borderTopRightRadius": 60,
+                      "height": "100%",
+                      "justifyContent": "center",
+                      "width": "100%",
+                    },
+                  ]
+                }
+              >
+                <FastImageView
+                  accessibilityLabel="brand-logo-image"
+                  accessible={true}
+                  onFastImageError={[Function]}
+                  onFastImageLoad={[Function]}
+                  onFastImageLoadEnd={[Function]}
+                  onFastImageLoadStart={[Function]}
+                  resizeMode="cover"
+                  source={
+                    Object {
+                      "priority": "high",
+                      "uri": "https://www.requestor-image.com",
+                    }
+                  }
+                  style={
+                    Object {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    }
+                  }
+                  testID="brand-logo-image"
+                />
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "stretch",
+                  "flexBasis": 0,
+                  "flexDirection": "column",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "justifyContent": "space-between",
+                  "marginHorizontal": 16,
+                }
+              }
+            >
+              <View />
+              <View
+                style={
+                  Object {
+                    "flexDirection": "column",
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                      "justifyContent": "flex-start",
+                    }
+                  }
+                >
+                  <Text
+                    accessibilityLabel="point-row-company-name-label"
+                    accessible={true}
+                    ellipsizeMode="tail"
+                    font="SFProDisplay-SemiBold"
+                    numberOfLines={1}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#909BA0",
+                          "fontFamily": "SFProDisplay-SemiBold",
+                          "fontSize": 16,
+                          "lineHeight": 22,
+                        },
+                        Object {
+                          "color": "#262C2F",
+                          "flexShrink": 4,
+                          "fontSize": 14,
+                          "marginBottom": 5,
+                        },
+                      ]
+                    }
+                    testID="point-row-company-name-label"
+                  >
+                    requestor one
+                  </Text>
+                </View>
+                <View
+                  style={Object {}}
+                >
+                  <Text
+                    accessibilityLabel="point-row-description-label"
+                    accessible={true}
+                    ellipsizeMode="tail"
+                    numberOfLines={1}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#909BA0",
+                          "fontFamily": "SFProDisplay-Medium",
+                          "fontSize": 16,
+                          "lineHeight": 22,
+                        },
+                        Object {
+                          "color": "#909BA0",
+                          "flexShrink": 1,
+                          "fontSize": 14,
+                        },
+                      ]
+                    }
+                    testID="point-row-description-label"
+                  >
+                    offer two
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View>
+              <View
+                accessibilityLabel="point-row-points-summary-label"
+                accessible={true}
+                testID="point-row-points-summary-label"
+              >
+                <View
+                  accessibilityLabel="pill-container"
+                  accessible={true}
+                  style={
+                    Array [
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#DDE8F5",
+                          "borderBottomLeftRadius": 20,
+                          "borderBottomRightRadius": 20,
+                          "borderTopLeftRadius": 20,
+                          "borderTopRightRadius": 20,
+                          "flexDirection": "row",
+                          "paddingLeft": 4,
+                          "paddingRight": 10,
+                        },
+                        Object {
+                          "height": 28,
+                        },
+                      ],
+                      Array [
+                        Object {
+                          "backgroundColor": "#EBEDF2",
+                        },
+                      ],
+                      Object {
+                        "backgroundColor": "#FFFFFF",
+                        "paddingBottom": 0,
+                        "paddingLeft": 0,
+                        "paddingRight": 0,
+                        "paddingTop": 0,
+                      },
+                    ]
+                  }
+                  testID="pill-container"
+                >
+                  <View
+                    accessibilityLabel="pill-icon"
+                    accessible={true}
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#FFFFFF",
+                          "borderBottomLeftRadius": 50,
+                          "borderBottomRightRadius": 50,
+                          "borderTopLeftRadius": 50,
+                          "borderTopRightRadius": 50,
+                          "justifyContent": "center",
+                        },
+                        undefined,
+                      ]
+                    }
+                    testID="pill-icon"
+                  >
+                    <Text
+                      accessibilityLabel="icon-text"
+                      accessible={true}
+                      allowFontScaling={false}
+                      selectable={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#909BA0",
+                            "fontSize": 20,
+                          },
+                          undefined,
+                          Object {
+                            "fontFamily": "sywmax",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                      testID="icon-text"
+                    >
+                      
+                    </Text>
+                  </View>
+                  <Text
+                    accessibilityLabel="pill-text"
+                    accessible={true}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#909BA0",
+                          "fontFamily": "SFProDisplay-Medium",
+                          "fontSize": 16,
+                          "lineHeight": 22,
+                        },
+                        Array [
+                          Object {
+                            "paddingLeft": 4,
+                          },
+                          Array [
+                            Object {
+                              "color": "#0066CC",
+                              "fontFamily": "SFProDisplay-Bold",
+                              "fontSize": 14,
+                            },
+                            Object {
+                              "lineHeight": 20,
+                            },
+                            Object {
+                              "color": "#909BA0",
+                            },
+                          ],
+                        ],
+                      ]
+                    }
+                    testID="pill-text"
+                  >
+                    300
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "height": 0,
+          }
+        }
+      />
+    </View>
+  </RCTScrollView>
+  <Modal
+    accessibilityLabel="modal-container"
+    accessible={true}
+    animationType="slide"
+    hardwareAccelerated={false}
+    onRequestClose={[Function]}
+    statusBarTranslucent={true}
+    testID="modal-container"
+    transparent={true}
+    visible={false}
+  />
+</View>
+`;

@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InStoreOfferWebView should render 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flex": 1,
+        "overflow": "hidden",
+      },
+      undefined,
+    ]
+  }
+>
+  <RNCWebView
+    accessibilityLabel="in-store-offer-detail-webview"
+    accessible={true}
+    cacheEnabled={true}
+    injectedJavaScript="true;"
+    injectedJavaScriptBeforeContentLoadedForMainFrameOnly={true}
+    injectedJavaScriptForMainFrameOnly={true}
+    javaScriptEnabled={true}
+    messagingEnabled={true}
+    onContentProcessDidTerminate={[Function]}
+    onError={[Function]}
+    onHttpError={[Function]}
+    onLoad={[Function]}
+    onLoadingError={[Function]}
+    onLoadingFinish={[Function]}
+    onLoadingProgress={[Function]}
+    onLoadingStart={[Function]}
+    onMessage={[Function]}
+    onShouldStartLoadWithRequest={[Function]}
+    setSupportMultipleWindows={false}
+    sharedCookiesEnabled={true}
+    source={
+      Object {
+        "uri": "offer-uri.com",
+      }
+    }
+    startInLoadingState={true}
+    style={
+      Array [
+        Object {
+          "flex": 1,
+          "overflow": "hidden",
+        },
+        Object {
+          "backgroundColor": "#ffffff",
+        },
+        undefined,
+      ]
+    }
+    testID="in-store-offer-detail-webview"
+    textInteractionEnabled={true}
+    thirdPartyCookiesEnabled={true}
+    useSharedProcessPool={true}
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#F5F7FA",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "height": "100%",
+        "justifyContent": "center",
+        "left": 0,
+        "position": "absolute",
+        "top": 0,
+        "width": "100%",
+      }
+    }
+  >
+    <div>
+      Spinner
+    </div>
+  </View>
+</View>
+`;

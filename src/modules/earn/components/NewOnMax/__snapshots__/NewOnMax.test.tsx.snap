@@ -1,0 +1,1314 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewOnMax should render 1`] = `null`;
+
+exports[`NewOnMax should render after horizontal scrolling 1`] = `
+<View
+  accessibilityLabel="earn-main-new-on-max-container"
+  accessible={true}
+  style={
+    Object {
+      "paddingBottom": 24,
+      "paddingHorizontal": 16,
+    }
+  }
+  testID="earn-main-new-on-max-container"
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#262C2F",
+          "fontFamily": "SFProDisplay-Bold",
+          "fontSize": 20,
+          "lineHeight": 30,
+        },
+        Object {
+          "paddingBottom": 8,
+        },
+      ]
+    }
+    type="titleHeader"
+  >
+    New on MAX
+  </Text>
+  <RCTScrollView
+    ItemSeparatorComponent={[Function]}
+    ListFooterComponentStyle={
+      Object {
+        "paddingRight": 8,
+      }
+    }
+    ListHeaderComponent={
+      <Memo(NewOnMaxCard)
+        Icon={[Function]}
+        description="Earn points for everything you do and spend those as you wish!"
+        onClosePress={[Function]}
+        title="Take a look at what’s new!"
+      />
+    }
+    accessibilityLabel="earn-main-new-on-max-horizontal-scroll"
+    accessible={true}
+    collapsable={false}
+    contentContainerStyle={
+      Array [
+        Object {
+          "alignItems": "center",
+        },
+        Object {
+          "alignItems": "center",
+          "paddingHorizontal": 12,
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "cardImageUrl": "https://d3w44czcvy0k0e.cloudfront.net/messages/multimedia_messages/609aea3bc83b1a00011704d0_assets_card.png?1620767375",
+          "createdAt": "2021-05-11T18:09:43Z",
+          "custom": Object {
+            "category": "NEW_ON_MAX",
+            "ctaRoute": "streaks",
+            "ctaText": "Let’s go!",
+            "minAppVersion": "0.0.0",
+          },
+          "htmlText": "<p>As you earn points with your purchases you’ll  level up and earn even more points.</p>
+",
+          "id": "609af324927ab10001ee01e7",
+          "isRead": false,
+          "share": false,
+          "text": "As you earn points with your purchases you’ll  level up and earn even more points.",
+          "title": "Level Up!",
+          "type": "image_message",
+        },
+        Object {
+          "cardImageUrl": "https://d3w44czcvy0k0e.cloudfront.net/messages/multimedia_messages/609aea3bc83b1a00011704d0_assets_card.png?1620767375",
+          "createdAt": "2021-05-11T19:20:43Z",
+          "custom": Object {
+            "category": "NEW_ON_MAX",
+            "ctaRoute": "survey pq",
+            "ctaText": "Let’s go!",
+            "maxAppVersion": "2.0.0",
+            "minAppVersion": "0.0.0",
+          },
+          "htmlText": "<p>This is a test message.</p>
+",
+          "id": "609aea3bc83b1a00011704d2",
+          "isRead": false,
+          "share": false,
+          "text": "This is a test message.",
+          "title": "Survey are here",
+          "type": "image_message",
+        },
+        Object {
+          "cardImageUrl": "https://d3w44czcvy0k0e.cloudfront.net/messages/multimedia_messages/609aea3bc83b1a00011704d0_assets_card.png?1620767375",
+          "createdAt": "2021-05-11T18:09:43Z",
+          "custom": Object {
+            "category": "NEW_ON_MAX",
+            "ctaRoute": "profile > balance",
+            "ctaText": "Let’s go!",
+            "minAppVersion": "0.0.0",
+          },
+          "htmlText": "<p>As you earn points with your purchases you’ll  level up and earn even more points.</p>
+",
+          "id": "609aea3bc83b1a00011704d0",
+          "isRead": false,
+          "share": false,
+          "text": "As you earn points with your purchases you’ll  level up and earn even more points.",
+          "title": "Level Up!",
+          "type": "image_message",
+        },
+        Object {
+          "cardImageUrl": "https://d3w44czcvy0k0e.cloudfront.net/messages/multimedia_messages/609aea3bc83b1a00011704d0_assets_card.png?1620767375",
+          "createdAt": "2021-05-11T19:20:43Z",
+          "custom": Object {
+            "category": "NEW_ON_MAX",
+            "ctaRoute": "profile > balance",
+            "ctaText": "Let’s go!",
+            "maxAppVersion": "2.0.0",
+            "minAppVersion": "0.0.0",
+          },
+          "htmlText": "<p>As you earn points with your purchases you’ll  level up and earn even more points.</p>
+",
+          "id": "609aea3bc83b1a00011704d1",
+          "isRead": false,
+          "share": false,
+          "text": "As you earn points with your purchases you’ll  level up and earn even more points.",
+          "title": "Level Up!",
+          "type": "image_message",
+        },
+      ]
+    }
+    decelerationRate={0}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={true}
+    initialNumToRender={4}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={6}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={true}
+    renderItem={[Function]}
+    scrollEventThrottle={0.0001}
+    showsHorizontalScrollIndicator={false}
+    snapToInterval={691}
+    stickyHeaderIndices={Array []}
+    style={
+      Object {
+        "marginHorizontal": -16,
+        "paddingBottom": 0,
+      }
+    }
+    testID="earn-main-new-on-max-horizontal-scroll"
+    updateCellsBatchingPeriod={150}
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+      >
+        <View
+          accessibilityLabel="new-on-max-card-container"
+          accessible={true}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#EBEDF2",
+                "borderBottomLeftRadius": 8,
+                "borderBottomRightRadius": 8,
+                "borderTopLeftRadius": 8,
+                "borderTopRightRadius": 8,
+                "flexDirection": "row",
+                "height": 148,
+                "marginBottom": 8,
+                "marginLeft": 8,
+                "marginRight": 8,
+                "marginTop": 8,
+                "paddingBottom": 16,
+                "paddingLeft": 20,
+                "paddingRight": 16,
+                "paddingTop": 16,
+              },
+              Object {
+                "width": 675,
+              },
+            ]
+          }
+          testID="new-on-max-card-container"
+        >
+          WavingHand
+          <View
+            style={
+              Object {
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "paddingBottom": 0,
+                "paddingLeft": 20,
+                "paddingRight": 16,
+                "paddingTop": 4,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Medium",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Object {
+                    "color": "#262C2F",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 20,
+                    "marginBottom": 4,
+                  },
+                ]
+              }
+            >
+              Take a look at what’s new!
+            </Text>
+            <Text
+              numberOfLines={3}
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Medium",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Medium",
+                    "fontSize": 16,
+                    "lineHeight": 20,
+                    "marginBottom": 16,
+                  },
+                ]
+              }
+            >
+              Earn points for everything you do and spend those as you wish!
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="new-on-max-card-close-btn"
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            testID="new-on-max-card-close-btn"
+          >
+            <Text
+              accessibilityLabel="icon-text"
+              accessible={true}
+              allowFontScaling={false}
+              selectable={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#262C2F",
+                    "fontSize": 22,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "sywmax",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+              testID="icon-text"
+            >
+              
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+              },
+              Object {
+                "width": 675,
+              },
+            ]
+          }
+        >
+          <View
+            accessibilityLabel="new-on-max-card-container"
+            accessible={true}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#EBEDF2",
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexDirection": "row",
+                  "height": 148,
+                  "marginBottom": 8,
+                  "marginLeft": 8,
+                  "marginRight": 8,
+                  "marginTop": 8,
+                  "paddingBottom": 16,
+                  "paddingLeft": 20,
+                  "paddingRight": 16,
+                  "paddingTop": 16,
+                },
+                Object {
+                  "width": 675,
+                },
+              ]
+            }
+            testID="new-on-max-card-container"
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "overflow": "hidden",
+                  },
+                  Object {
+                    "height": 40,
+                    "width": 40,
+                  },
+                ]
+              }
+            >
+              <FastImageView
+                resizeMode="contain"
+                source={
+                  Object {
+                    "uri": "https://d3w44czcvy0k0e.cloudfront.net/messages/multimedia_messages/609aea3bc83b1a00011704d0_assets_card.png?1620767375",
+                  }
+                }
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "flexBasis": 0,
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "paddingBottom": 0,
+                  "paddingLeft": 20,
+                  "paddingRight": 16,
+                  "paddingTop": 4,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#909BA0",
+                      "fontFamily": "SFProDisplay-Medium",
+                      "fontSize": 16,
+                      "lineHeight": 22,
+                    },
+                    Object {
+                      "color": "#262C2F",
+                      "fontFamily": "SFProDisplay-Bold",
+                      "fontSize": 16,
+                      "lineHeight": 20,
+                      "marginBottom": 4,
+                    },
+                  ]
+                }
+              >
+                Level Up!
+              </Text>
+              <Text
+                numberOfLines={3}
+                style={
+                  Array [
+                    Object {
+                      "color": "#909BA0",
+                      "fontFamily": "SFProDisplay-Medium",
+                      "fontSize": 16,
+                      "lineHeight": 22,
+                    },
+                    Object {
+                      "color": "#909BA0",
+                      "fontFamily": "SFProDisplay-Medium",
+                      "fontSize": 16,
+                      "lineHeight": 20,
+                      "marginBottom": 16,
+                    },
+                  ]
+                }
+              >
+                As you earn points with your purchases you’ll  level up and earn even more points.
+              </Text>
+              <View
+                accessibilityLabel="new-on-max-card-action-btn"
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                  }
+                }
+                testID="new-on-max-card-action-btn"
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#909BA0",
+                        "fontFamily": "SFProDisplay-Medium",
+                        "fontSize": 16,
+                        "lineHeight": 22,
+                      },
+                      Object {
+                        "color": "#0066CC",
+                        "fontFamily": "SFProDisplay-Bold",
+                        "fontSize": 16,
+                        "lineHeight": 16,
+                        "marginRight": 4,
+                      },
+                    ]
+                  }
+                >
+                  Let’s go!
+                </Text>
+                <Text
+                  accessibilityLabel="icon-text"
+                  accessible={true}
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#0066CC",
+                        "fontSize": 20,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "sywmax",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                  testID="icon-text"
+                >
+                  
+                </Text>
+              </View>
+            </View>
+            <View
+              accessibilityLabel="new-on-max-card-close-btn"
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              testID="new-on-max-card-close-btn"
+            >
+              <Text
+                accessibilityLabel="icon-text"
+                accessible={true}
+                allowFontScaling={false}
+                selectable={false}
+                style={
+                  Array [
+                    Object {
+                      "color": "#262C2F",
+                      "fontSize": 22,
+                    },
+                    undefined,
+                    Object {
+                      "fontFamily": "sywmax",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+                testID="icon-text"
+              >
+                
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "minHeight": 1,
+              "width": 16,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+              },
+              Object {
+                "width": 675,
+              },
+            ]
+          }
+        >
+          <View
+            accessibilityLabel="new-on-max-card-container"
+            accessible={true}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#EBEDF2",
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexDirection": "row",
+                  "height": 148,
+                  "marginBottom": 8,
+                  "marginLeft": 8,
+                  "marginRight": 8,
+                  "marginTop": 8,
+                  "paddingBottom": 16,
+                  "paddingLeft": 20,
+                  "paddingRight": 16,
+                  "paddingTop": 16,
+                },
+                Object {
+                  "width": 675,
+                },
+              ]
+            }
+            testID="new-on-max-card-container"
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "overflow": "hidden",
+                  },
+                  Object {
+                    "height": 40,
+                    "width": 40,
+                  },
+                ]
+              }
+            >
+              <FastImageView
+                resizeMode="contain"
+                source={
+                  Object {
+                    "uri": "https://d3w44czcvy0k0e.cloudfront.net/messages/multimedia_messages/609aea3bc83b1a00011704d0_assets_card.png?1620767375",
+                  }
+                }
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "flexBasis": 0,
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "paddingBottom": 0,
+                  "paddingLeft": 20,
+                  "paddingRight": 16,
+                  "paddingTop": 4,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#909BA0",
+                      "fontFamily": "SFProDisplay-Medium",
+                      "fontSize": 16,
+                      "lineHeight": 22,
+                    },
+                    Object {
+                      "color": "#262C2F",
+                      "fontFamily": "SFProDisplay-Bold",
+                      "fontSize": 16,
+                      "lineHeight": 20,
+                      "marginBottom": 4,
+                    },
+                  ]
+                }
+              >
+                Survey are here
+              </Text>
+              <Text
+                numberOfLines={3}
+                style={
+                  Array [
+                    Object {
+                      "color": "#909BA0",
+                      "fontFamily": "SFProDisplay-Medium",
+                      "fontSize": 16,
+                      "lineHeight": 22,
+                    },
+                    Object {
+                      "color": "#909BA0",
+                      "fontFamily": "SFProDisplay-Medium",
+                      "fontSize": 16,
+                      "lineHeight": 20,
+                      "marginBottom": 16,
+                    },
+                  ]
+                }
+              >
+                This is a test message.
+              </Text>
+              <View
+                accessibilityLabel="new-on-max-card-action-btn"
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                  }
+                }
+                testID="new-on-max-card-action-btn"
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#909BA0",
+                        "fontFamily": "SFProDisplay-Medium",
+                        "fontSize": 16,
+                        "lineHeight": 22,
+                      },
+                      Object {
+                        "color": "#0066CC",
+                        "fontFamily": "SFProDisplay-Bold",
+                        "fontSize": 16,
+                        "lineHeight": 16,
+                        "marginRight": 4,
+                      },
+                    ]
+                  }
+                >
+                  Let’s go!
+                </Text>
+                <Text
+                  accessibilityLabel="icon-text"
+                  accessible={true}
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#0066CC",
+                        "fontSize": 20,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "sywmax",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                  testID="icon-text"
+                >
+                  
+                </Text>
+              </View>
+            </View>
+            <View
+              accessibilityLabel="new-on-max-card-close-btn"
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              testID="new-on-max-card-close-btn"
+            >
+              <Text
+                accessibilityLabel="icon-text"
+                accessible={true}
+                allowFontScaling={false}
+                selectable={false}
+                style={
+                  Array [
+                    Object {
+                      "color": "#262C2F",
+                      "fontSize": 22,
+                    },
+                    undefined,
+                    Object {
+                      "fontFamily": "sywmax",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+                testID="icon-text"
+              >
+                
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "minHeight": 1,
+              "width": 16,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+              },
+              Object {
+                "width": 675,
+              },
+            ]
+          }
+        >
+          <View
+            accessibilityLabel="new-on-max-card-container"
+            accessible={true}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#EBEDF2",
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexDirection": "row",
+                  "height": 148,
+                  "marginBottom": 8,
+                  "marginLeft": 8,
+                  "marginRight": 8,
+                  "marginTop": 8,
+                  "paddingBottom": 16,
+                  "paddingLeft": 20,
+                  "paddingRight": 16,
+                  "paddingTop": 16,
+                },
+                Object {
+                  "width": 675,
+                },
+              ]
+            }
+            testID="new-on-max-card-container"
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "overflow": "hidden",
+                  },
+                  Object {
+                    "height": 40,
+                    "width": 40,
+                  },
+                ]
+              }
+            >
+              <FastImageView
+                resizeMode="contain"
+                source={
+                  Object {
+                    "uri": "https://d3w44czcvy0k0e.cloudfront.net/messages/multimedia_messages/609aea3bc83b1a00011704d0_assets_card.png?1620767375",
+                  }
+                }
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "flexBasis": 0,
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "paddingBottom": 0,
+                  "paddingLeft": 20,
+                  "paddingRight": 16,
+                  "paddingTop": 4,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#909BA0",
+                      "fontFamily": "SFProDisplay-Medium",
+                      "fontSize": 16,
+                      "lineHeight": 22,
+                    },
+                    Object {
+                      "color": "#262C2F",
+                      "fontFamily": "SFProDisplay-Bold",
+                      "fontSize": 16,
+                      "lineHeight": 20,
+                      "marginBottom": 4,
+                    },
+                  ]
+                }
+              >
+                Level Up!
+              </Text>
+              <Text
+                numberOfLines={3}
+                style={
+                  Array [
+                    Object {
+                      "color": "#909BA0",
+                      "fontFamily": "SFProDisplay-Medium",
+                      "fontSize": 16,
+                      "lineHeight": 22,
+                    },
+                    Object {
+                      "color": "#909BA0",
+                      "fontFamily": "SFProDisplay-Medium",
+                      "fontSize": 16,
+                      "lineHeight": 20,
+                      "marginBottom": 16,
+                    },
+                  ]
+                }
+              >
+                As you earn points with your purchases you’ll  level up and earn even more points.
+              </Text>
+              <View
+                accessibilityLabel="new-on-max-card-action-btn"
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                  }
+                }
+                testID="new-on-max-card-action-btn"
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#909BA0",
+                        "fontFamily": "SFProDisplay-Medium",
+                        "fontSize": 16,
+                        "lineHeight": 22,
+                      },
+                      Object {
+                        "color": "#0066CC",
+                        "fontFamily": "SFProDisplay-Bold",
+                        "fontSize": 16,
+                        "lineHeight": 16,
+                        "marginRight": 4,
+                      },
+                    ]
+                  }
+                >
+                  Let’s go!
+                </Text>
+                <Text
+                  accessibilityLabel="icon-text"
+                  accessible={true}
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#0066CC",
+                        "fontSize": 20,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "sywmax",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                  testID="icon-text"
+                >
+                  
+                </Text>
+              </View>
+            </View>
+            <View
+              accessibilityLabel="new-on-max-card-close-btn"
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              testID="new-on-max-card-close-btn"
+            >
+              <Text
+                accessibilityLabel="icon-text"
+                accessible={true}
+                allowFontScaling={false}
+                selectable={false}
+                style={
+                  Array [
+                    Object {
+                      "color": "#262C2F",
+                      "fontSize": 22,
+                    },
+                    undefined,
+                    Object {
+                      "fontFamily": "sywmax",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+                testID="icon-text"
+              >
+                
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "minHeight": 1,
+              "width": 16,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+              },
+              Object {
+                "width": 675,
+              },
+            ]
+          }
+        >
+          <View
+            accessibilityLabel="new-on-max-card-container"
+            accessible={true}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#EBEDF2",
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexDirection": "row",
+                  "height": 148,
+                  "marginBottom": 8,
+                  "marginLeft": 8,
+                  "marginRight": 8,
+                  "marginTop": 8,
+                  "paddingBottom": 16,
+                  "paddingLeft": 20,
+                  "paddingRight": 16,
+                  "paddingTop": 16,
+                },
+                Object {
+                  "width": 675,
+                },
+              ]
+            }
+            testID="new-on-max-card-container"
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "overflow": "hidden",
+                  },
+                  Object {
+                    "height": 40,
+                    "width": 40,
+                  },
+                ]
+              }
+            >
+              <FastImageView
+                resizeMode="contain"
+                source={
+                  Object {
+                    "uri": "https://d3w44czcvy0k0e.cloudfront.net/messages/multimedia_messages/609aea3bc83b1a00011704d0_assets_card.png?1620767375",
+                  }
+                }
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "flexBasis": 0,
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "paddingBottom": 0,
+                  "paddingLeft": 20,
+                  "paddingRight": 16,
+                  "paddingTop": 4,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#909BA0",
+                      "fontFamily": "SFProDisplay-Medium",
+                      "fontSize": 16,
+                      "lineHeight": 22,
+                    },
+                    Object {
+                      "color": "#262C2F",
+                      "fontFamily": "SFProDisplay-Bold",
+                      "fontSize": 16,
+                      "lineHeight": 20,
+                      "marginBottom": 4,
+                    },
+                  ]
+                }
+              >
+                Level Up!
+              </Text>
+              <Text
+                numberOfLines={3}
+                style={
+                  Array [
+                    Object {
+                      "color": "#909BA0",
+                      "fontFamily": "SFProDisplay-Medium",
+                      "fontSize": 16,
+                      "lineHeight": 22,
+                    },
+                    Object {
+                      "color": "#909BA0",
+                      "fontFamily": "SFProDisplay-Medium",
+                      "fontSize": 16,
+                      "lineHeight": 20,
+                      "marginBottom": 16,
+                    },
+                  ]
+                }
+              >
+                As you earn points with your purchases you’ll  level up and earn even more points.
+              </Text>
+              <View
+                accessibilityLabel="new-on-max-card-action-btn"
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                  }
+                }
+                testID="new-on-max-card-action-btn"
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#909BA0",
+                        "fontFamily": "SFProDisplay-Medium",
+                        "fontSize": 16,
+                        "lineHeight": 22,
+                      },
+                      Object {
+                        "color": "#0066CC",
+                        "fontFamily": "SFProDisplay-Bold",
+                        "fontSize": 16,
+                        "lineHeight": 16,
+                        "marginRight": 4,
+                      },
+                    ]
+                  }
+                >
+                  Let’s go!
+                </Text>
+                <Text
+                  accessibilityLabel="icon-text"
+                  accessible={true}
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#0066CC",
+                        "fontSize": 20,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "sywmax",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                  testID="icon-text"
+                >
+                  
+                </Text>
+              </View>
+            </View>
+            <View
+              accessibilityLabel="new-on-max-card-close-btn"
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              testID="new-on-max-card-close-btn"
+            >
+              <Text
+                accessibilityLabel="icon-text"
+                accessible={true}
+                allowFontScaling={false}
+                selectable={false}
+                style={
+                  Array [
+                    Object {
+                      "color": "#262C2F",
+                      "fontSize": 22,
+                    },
+                    undefined,
+                    Object {
+                      "fontFamily": "sywmax",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+                testID="icon-text"
+              >
+                
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

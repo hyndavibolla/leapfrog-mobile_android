@@ -1,0 +1,297 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MapCard should render 1`] = `
+<View
+  accessibilityLabel="map-card-container"
+  accessible={true}
+  testID="map-card-container"
+>
+  <Text
+    ellipsizeMode="tail"
+    numberOfLines={1}
+    style={
+      Array [
+        Object {
+          "color": "#262C2F",
+          "fontFamily": "SFProDisplay-Bold",
+          "fontSize": 16,
+          "lineHeight": 24,
+        },
+        Object {
+          "color": "#262C2F",
+          "marginBottom": 4,
+        },
+      ]
+    }
+    type="sectionHeader"
+  >
+    Hungry? Find offers nearby now!
+  </Text>
+  <Text
+    style={
+      Object {
+        "color": "#909BA0",
+        "fontFamily": "SFProDisplay-Medium",
+        "fontSize": 16,
+        "marginBottom": 20,
+        "marginTop": 4,
+      }
+    }
+  >
+    To see offers at local restaurants near you, enable location services and link your card. Eat and earn points!
+  </Text>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "height": 121,
+      }
+    }
+  >
+    <View
+      accessibilityIgnoresInvertColors={true}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "justifyContent": "center",
+          "marginBottom": 4,
+          "marginLeft": 4,
+          "marginRight": 4,
+          "marginTop": 4,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/shared/enabledLocationMap.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            },
+            Object {
+              "height": undefined,
+              "width": undefined,
+            },
+            Object {
+              "borderRadius": 6,
+            },
+          ]
+        }
+      />
+      <View
+        accessibilityLabel="map-card-button"
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        testID="map-card-button"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#0066CC",
+              "borderBottomLeftRadius": 100,
+              "borderBottomRightRadius": 100,
+              "borderTopLeftRadius": 100,
+              "borderTopRightRadius": 100,
+              "flexDirection": "row",
+              "paddingBottom": 8,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+              "paddingTop": 8,
+            }
+          }
+        >
+          Path
+          <Text
+            accessibilityLabel="map-card-button-text"
+            accessible={true}
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 14,
+                "lineHeight": 20,
+                "marginLeft": 8,
+                "textAlign": "center",
+              }
+            }
+            testID="map-card-button-text"
+          >
+            Enable Location
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`MapCard should render with isLocationEnabled 1`] = `
+<View
+  accessibilityLabel="map-card-container"
+  accessible={true}
+  testID="map-card-container"
+>
+  <Text
+    ellipsizeMode="tail"
+    numberOfLines={1}
+    style={
+      Array [
+        Object {
+          "color": "#262C2F",
+          "fontFamily": "SFProDisplay-Bold",
+          "fontSize": 16,
+          "lineHeight": 24,
+        },
+        Object {
+          "color": "#262C2F",
+          "marginBottom": 4,
+        },
+      ]
+    }
+    type="sectionHeader"
+  >
+    Get MAX points for every meal, every day
+  </Text>
+  <Text
+    style={
+      Object {
+        "color": "#909BA0",
+        "fontFamily": "SFProDisplay-Medium",
+        "fontSize": 16,
+        "marginBottom": 20,
+        "marginTop": 4,
+      }
+    }
+  >
+    Eat at thousands of local restaurants, cafes, and bars — and earn MAX points on every purchase.
+  </Text>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "height": 121,
+      }
+    }
+  >
+    <View
+      accessibilityIgnoresInvertColors={true}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "justifyContent": "center",
+          "marginBottom": 4,
+          "marginLeft": 4,
+          "marginRight": 4,
+          "marginTop": 4,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/shared/exploreOnTheMap.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            },
+            Object {
+              "height": undefined,
+              "width": undefined,
+            },
+            Object {
+              "borderRadius": 6,
+            },
+          ]
+        }
+      />
+      <View
+        accessibilityLabel="map-card-button"
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        testID="map-card-button"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#0066CC",
+              "borderBottomLeftRadius": 100,
+              "borderBottomRightRadius": 100,
+              "borderTopLeftRadius": 100,
+              "borderTopRightRadius": 100,
+              "flexDirection": "row",
+              "paddingBottom": 8,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+              "paddingTop": 8,
+            }
+          }
+        >
+          Path
+          <Text
+            accessibilityLabel="map-card-button-text"
+            accessible={true}
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 14,
+                "lineHeight": 20,
+                "marginLeft": 8,
+                "textAlign": "center",
+              }
+            }
+            testID="map-card-button-text"
+          >
+            Find places near you
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

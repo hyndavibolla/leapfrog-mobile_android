@@ -1,0 +1,4643 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RewardDetail should render 1`] = `
+Array [
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#F5F7FA",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingBottom": 32,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 32,
+      }
+    }
+  >
+    <View
+      accessibilityLabel="back-button-default"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderBottomLeftRadius": 20,
+          "borderBottomRightRadius": 20,
+          "borderTopLeftRadius": 20,
+          "borderTopRightRadius": 20,
+          "elevation": 4,
+          "height": 40,
+          "justifyContent": "center",
+          "opacity": 1,
+          "shadowColor": "#262C2F",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.23,
+          "shadowRadius": 2.62,
+          "width": 40,
+        }
+      }
+      testID="back-button-default"
+    >
+      <Text
+        accessibilityLabel="icon-text"
+        accessible={true}
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          Array [
+            Object {
+              "color": "#262C2F",
+              "fontSize": 20,
+            },
+            undefined,
+            Object {
+              "fontFamily": "sywmax",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+        testID="icon-text"
+      >
+        
+      </Text>
+    </View>
+    <View
+      accessibilityLabel="pill-container"
+      accessible={true}
+      style={
+        Array [
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#DDE8F5",
+              "borderBottomLeftRadius": 20,
+              "borderBottomRightRadius": 20,
+              "borderTopLeftRadius": 20,
+              "borderTopRightRadius": 20,
+              "flexDirection": "row",
+              "paddingLeft": 4,
+              "paddingRight": 10,
+            },
+            Object {
+              "height": 28,
+            },
+          ],
+          Array [
+            undefined,
+          ],
+          Object {
+            "height": 36,
+          },
+        ]
+      }
+      testID="pill-container"
+    >
+      <View
+        accessibilityLabel="pill-icon"
+        accessible={true}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+              "borderBottomLeftRadius": 50,
+              "borderBottomRightRadius": 50,
+              "borderTopLeftRadius": 50,
+              "borderTopRightRadius": 50,
+              "justifyContent": "center",
+            },
+            undefined,
+          ]
+        }
+        testID="pill-icon"
+      >
+        <Text
+          accessibilityLabel="icon-text"
+          accessible={true}
+          allowFontScaling={false}
+          selectable={false}
+          style={
+            Array [
+              Object {
+                "color": "#0066CC",
+                "fontSize": 20,
+              },
+              undefined,
+              Object {
+                "fontFamily": "sywmax",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          testID="icon-text"
+        >
+          
+        </Text>
+      </View>
+      <Text
+        accessibilityLabel="pill-text"
+        accessible={true}
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "paddingLeft": 4,
+              },
+              Array [
+                Object {
+                  "color": "#0066CC",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 14,
+                },
+                Object {
+                  "lineHeight": 20,
+                },
+                undefined,
+              ],
+            ],
+          ]
+        }
+        testID="pill-text"
+      >
+        1,500
+      </Text>
+    </View>
+  </View>,
+  <RCTScrollView
+    showsVerticalScrollIndicator={false}
+    style={
+      Object {
+        "backgroundColor": "#F5F7FA",
+      }
+    }
+  >
+    <View>
+      <View
+        accessibilityLabel="card-brand-container"
+        accessible={true}
+        style={
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderBottomLeftRadius": 16,
+            "borderBottomRightRadius": 16,
+            "borderTopLeftRadius": 16,
+            "borderTopRightRadius": 16,
+            "elevation": 1,
+            "height": 192,
+            "overflow": "hidden",
+            "shadowColor": "#262C2F",
+            "shadowOffset": Object {
+              "height": 2,
+              "width": 0,
+            },
+            "shadowOpacity": 0.1,
+            "shadowRadius": 2.62,
+            "width": 252,
+          }
+        }
+        testID="card-brand-container"
+      >
+        <View
+          accessibilityLabel="image-background-container"
+          accessible={true}
+          style={
+            Object {
+              "height": 164,
+              "overflow": "hidden",
+              "transform": Array [
+                Object {
+                  "translateY": -4,
+                },
+              ],
+            }
+          }
+          testID="image-background-container"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "overflow": "hidden",
+                },
+                Array [
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "height": 164,
+                    "width": undefined,
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <FastImageView
+              accessibilityLabel="image-background-image"
+              accessible={true}
+              resizeMode="cover"
+              source={
+                Object {
+                  "uri": undefined,
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              testID="image-background-image"
+            />
+            <View
+              style={
+                Array [
+                  Object {
+                    "height": 60,
+                    "width": 60,
+                  },
+                  Object {
+                    "alignSelf": "center",
+                    "top": 48,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "overflow": "hidden",
+                    },
+                    Object {
+                      "alignItems": "center",
+                      "borderBottomLeftRadius": 60,
+                      "borderBottomRightRadius": 60,
+                      "borderTopLeftRadius": 60,
+                      "borderTopRightRadius": 60,
+                      "height": "100%",
+                      "justifyContent": "center",
+                      "width": "100%",
+                    },
+                  ]
+                }
+              >
+                <FastImageView
+                  accessibilityLabel="brand-logo-image"
+                  accessible={true}
+                  onFastImageError={[Function]}
+                  onFastImageLoad={[Function]}
+                  onFastImageLoadEnd={[Function]}
+                  onFastImageLoadStart={[Function]}
+                  resizeMode="cover"
+                  source={
+                    Object {
+                      "priority": "high",
+                      "uri": "https://s3.amazonaws.com/raise-content/ibi/GameStop-Logo.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    }
+                  }
+                  testID="brand-logo-image"
+                />
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          accessibilityLabel="card-brand-footer"
+          accessible={true}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+              "bottom": 0,
+              "elevation": 1,
+              "flexDirection": "row",
+              "height": 48,
+              "justifyContent": "space-between",
+              "paddingBottom": 0,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 0,
+              "position": "absolute",
+              "shadowColor": "#262C2F",
+              "shadowOffset": Object {
+                "height": -1,
+                "width": 0,
+              },
+              "shadowOpacity": 0.1,
+              "width": "100%",
+            }
+          }
+          testID="card-brand-footer"
+        >
+          <Text
+            ellipsizeMode="tail"
+            numberOfLines={1}
+            style={
+              Object {
+                "color": "#262C2F",
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+              }
+            }
+          >
+            Burgers For Days
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#262C2F",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 14,
+                "marginLeft": 16,
+              }
+            }
+          >
+            $5
+          </Text>
+        </View>
+      </View>
+      <View
+        accessibilityLabel="gift-card-detail-price"
+        accessible={true}
+        onLayout={[Function]}
+        style={
+          Object {
+            "flexDirection": "column",
+            "marginBottom": 36,
+            "marginTop": 44,
+          }
+        }
+        testID="gift-card-detail-price"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Medium",
+                  "fontSize": 16,
+                  "lineHeight": 22,
+                },
+                Object {
+                  "color": "#909BA0",
+                  "fontSize": 14,
+                },
+              ]
+            }
+          >
+            Select Gift Card amount
+          </Text>
+          <RCTScrollView
+            ListFooterComponent={
+              <View
+                style={
+                  Object {
+                    "marginRight": 48,
+                  }
+                }
+              />
+            }
+            data={
+              Array [
+                5,
+              ]
+            }
+            getItem={[Function]}
+            getItemCount={[Function]}
+            horizontal={true}
+            keyExtractor={[Function]}
+            onContentSizeChange={[Function]}
+            onLayout={[Function]}
+            onMomentumScrollBegin={[Function]}
+            onMomentumScrollEnd={[Function]}
+            onScroll={[Function]}
+            onScrollBeginDrag={[Function]}
+            onScrollEndDrag={[Function]}
+            onScrollToIndexFailed={[Function]}
+            removeClippedSubviews={false}
+            renderItem={[Function]}
+            scrollEventThrottle={50}
+            showsHorizontalScrollIndicator={false}
+            stickyHeaderIndices={Array []}
+            style={
+              Object {
+                "marginTop": 8,
+                "paddingHorizontal": 32,
+              }
+            }
+            viewabilityConfigCallbackPairs={Array []}
+          >
+            <View>
+              <View
+                onLayout={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                    },
+                    null,
+                  ]
+                }
+              >
+                <View
+                  accessibilityLabel="gift-card-input-option"
+                  accessibilityState={
+                    Object {
+                      "disabled": false,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "justifyContent": "center",
+                      "marginRight": 8,
+                      "opacity": 1,
+                      "paddingBottom": 4,
+                      "paddingLeft": 4,
+                      "paddingRight": 4,
+                      "paddingTop": 4,
+                    }
+                  }
+                  testID="gift-card-input-option"
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "transparent",
+                          "elevation": 3,
+                          "shadowColor": "#262C2F",
+                          "shadowOffset": Object {
+                            "height": 4,
+                            "width": 0,
+                          },
+                          "shadowOpacity": 0.1,
+                        },
+                        Object {
+                          "borderBottomLeftRadius": 8,
+                          "borderBottomRightRadius": 8,
+                          "borderTopLeftRadius": 8,
+                          "borderTopRightRadius": 8,
+                          "flexDirection": "column",
+                          "justifyContent": "space-between",
+                          "paddingBottom": 20,
+                          "paddingLeft": 20,
+                          "paddingRight": 20,
+                          "paddingTop": 20,
+                        },
+                        Array [
+                          Object {
+                            "backgroundColor": "#FFFFFF",
+                            "minWidth": 95,
+                          },
+                          Object {
+                            "backgroundColor": "#E5F6FD",
+                            "borderColor": "#0066CC",
+                            "borderStyle": "solid",
+                            "borderWidth": 1,
+                          },
+                          false,
+                        ],
+                      ]
+                    }
+                  >
+                    <Text
+                      accessibilityLabel="gift-card-input-option-value"
+                      accessible={true}
+                      font="SFProDisplay-Bold"
+                      lineHeight="30px"
+                      style={
+                        Array [
+                          Object {
+                            "color": "#909BA0",
+                            "fontFamily": "SFProDisplay-Bold",
+                            "fontSize": 16,
+                            "lineHeight": 30,
+                          },
+                          Array [
+                            Object {
+                              "alignSelf": "center",
+                              "color": "#262C2F",
+                              "fontSize": 26,
+                            },
+                            Object {
+                              "color": "#262C2F",
+                            },
+                            false,
+                          ],
+                        ]
+                      }
+                      testID="gift-card-input-option-value"
+                    >
+                      $ 
+                      5
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                onLayout={[Function]}
+              >
+                <View
+                  style={
+                    Object {
+                      "marginRight": 48,
+                    }
+                  }
+                />
+              </View>
+            </View>
+          </RCTScrollView>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Medium",
+                  "fontSize": 16,
+                  "lineHeight": 22,
+                },
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "marginTop": 20,
+                  },
+                ],
+              ]
+            }
+          >
+            or enter a custom value 
+          </Text>
+          <View
+            style={
+              Object {
+                "justifyContent": "center",
+                "marginTop": 16,
+                "width": "100%",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Medium",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Array [
+                    Object {
+                      "color": "#262C2F",
+                      "fontFamily": "SFProDisplay-Bold",
+                      "fontSize": 16,
+                      "letterSpacing": 1,
+                    },
+                    Object {
+                      "elevation": 1,
+                      "left": 40,
+                      "position": "absolute",
+                      "zIndex": 1,
+                    },
+                  ],
+                ]
+              }
+            >
+              $
+            </Text>
+            <TextInput
+              accessibilityLabel="gift-card-input-input"
+              accessible={true}
+              editable={true}
+              keyboardType="numeric"
+              onBlur={[Function]}
+              onChangeText={[Function]}
+              onFocus={[Function]}
+              placeholder="Enter a number between $5 to $0"
+              placeholderTextColor="#909BA0"
+              returnKeyType="done"
+              selectionColor="#0066CC"
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                    "borderBottomLeftRadius": 8,
+                    "borderBottomRightRadius": 8,
+                    "borderTopLeftRadius": 8,
+                    "borderTopRightRadius": 8,
+                    "elevation": 1,
+                    "height": 56,
+                    "marginBottom": 0,
+                    "marginLeft": 20,
+                    "marginRight": 20,
+                    "marginTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 44,
+                    "paddingRight": 44,
+                    "paddingTop": 0,
+                    "shadowColor": "#262C2F",
+                    "shadowOffset": Object {
+                      "height": 2,
+                      "width": 0,
+                    },
+                    "shadowOpacity": 0.1,
+                    "shadowRadius": 2.62,
+                  },
+                  Object {
+                    "fontSize": 14,
+                  },
+                  null,
+                  Object {
+                    "borderColor": "#E02020",
+                    "borderStyle": "solid",
+                    "borderWidth": 1,
+                  },
+                  false,
+                ]
+              }
+              testID="gift-card-input-input"
+              value=""
+            />
+          </View>
+          <Text
+            accessibilityLabel="gift-card-input-error-label"
+            accessible={true}
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Medium",
+                  "fontSize": 16,
+                  "lineHeight": 22,
+                },
+                Object {
+                  "color": "#E02020",
+                  "fontSize": 12,
+                  "marginTop": 8,
+                },
+              ]
+            }
+            testID="gift-card-input-error-label"
+          >
+            Enter a number between $5 to $0
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "center",
+            "flexDirection": "column",
+            "justifyContent": "center",
+            "marginBottom": 32,
+          }
+        }
+      >
+        <View
+          accessibilityLabel="gift-card-detail-redeem-btn"
+          accessibilityState={
+            Object {
+              "disabled": true,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignSelf": "flex-start",
+              "borderBottomLeftRadius": 30,
+              "borderBottomRightRadius": 30,
+              "borderTopLeftRadius": 30,
+              "borderTopRightRadius": 30,
+              "opacity": 1,
+              "paddingHorizontal": 40,
+            }
+          }
+          testID="gift-card-detail-redeem-btn"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#0066CC",
+                  "borderBottomLeftRadius": 30,
+                  "borderBottomRightRadius": 30,
+                  "borderTopLeftRadius": 30,
+                  "borderTopRightRadius": 30,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "paddingBottom": 8,
+                  "paddingLeft": 12,
+                  "paddingRight": 12,
+                  "paddingTop": 8,
+                },
+                Object {
+                  "backgroundColor": "#909BA0",
+                },
+                Object {
+                  "opacity": 0.5,
+                },
+                Object {
+                  "backgroundColor": "#909BA0",
+                },
+              ]
+            }
+          >
+            <View
+              style={false}
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "minWidth": "100%",
+                    "paddingBottom": 8,
+                    "paddingLeft": 12,
+                    "paddingRight": 12,
+                    "paddingTop": 8,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                <Text
+                  font="SFProDisplay-SemiBold"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#909BA0",
+                        "fontFamily": "SFProDisplay-SemiBold",
+                        "fontSize": 16,
+                        "lineHeight": 22,
+                      },
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "color": "#FFFFFF",
+                          "flexDirection": "row",
+                          "fontSize": 18,
+                          "justifyContent": "center",
+                          "textAlign": "center",
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  Go to Checkout
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "marginBottom": 32,
+            "paddingHorizontal": 32,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "borderBottomLeftRadius": 10,
+              "borderBottomRightRadius": 10,
+              "borderTopLeftRadius": 10,
+              "borderTopRightRadius": 10,
+              "paddingBottom": 20,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+              "paddingTop": 20,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#262C2F",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 24,
+                  },
+                  undefined,
+                ]
+              }
+              type="sectionHeader"
+            >
+              Redeem your way — with points, cash or both 🎉
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "marginTop": 16,
+                "overflow": "hidden",
+                "width": "100%",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Medium",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Object {
+                    "color": "#909BA0",
+                    "fontSize": 18,
+                    "lineHeight": 28,
+                    "textAlign": "left",
+                  },
+                ]
+              }
+            >
+              Now, you can redeem your Gift Cards using Shop Your Way® points, cash, or a combination of points and cash!
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        accessibilityLabel="gift-card-detail-description"
+        accessible={true}
+        style={
+          Object {
+            "marginBottom": 32,
+            "paddingBottom": 0,
+            "paddingLeft": 32,
+            "paddingRight": 32,
+            "paddingTop": 0,
+          }
+        }
+        testID="gift-card-detail-description"
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "column",
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            accessibilityLabel="accordion-btn"
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            testID="accordion-btn"
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "flex-start",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  },
+                  Object {
+                    "paddingHorizontal": 8,
+                  },
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#262C2F",
+                      "fontFamily": "SFProDisplay-Bold",
+                      "fontSize": 16,
+                      "lineHeight": 24,
+                    },
+                    undefined,
+                  ]
+                }
+                type="sectionHeader"
+              >
+                Brand description
+              </Text>
+              <div
+                animation={
+                  Object {
+                    "0": Object {
+                      "rotate": "90deg",
+                    },
+                    "1": Object {
+                      "rotate": "-90deg",
+                    },
+                  }
+                }
+                duration={300}
+              >
+                <Text
+                  accessibilityLabel="icon-text"
+                  accessible={true}
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#909BA0",
+                        "fontSize": 20,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "sywmax",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                  testID="icon-text"
+                >
+                  
+                </Text>
+              </div>
+            </View>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                  "marginTop": 16,
+                  "overflow": "hidden",
+                  "width": "100%",
+                },
+                Object {
+                  "paddingHorizontal": 8,
+                },
+                false,
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Medium",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Array [
+                    Object {
+                      "color": "#909BA0",
+                      "fontSize": 18,
+                      "lineHeight": 28,
+                      "textAlign": "left",
+                    },
+                    undefined,
+                    undefined,
+                  ],
+                ]
+              }
+            >
+              Buy stuff, buy lots of it.
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        accessibilityLabel="gift-card-detail-limits"
+        accessible={true}
+        style={
+          Object {
+            "marginBottom": 32,
+            "paddingBottom": 0,
+            "paddingLeft": 32,
+            "paddingRight": 32,
+            "paddingTop": 0,
+          }
+        }
+        testID="gift-card-detail-limits"
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "column",
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            accessibilityLabel="accordion-btn"
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            testID="accordion-btn"
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "flex-start",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  },
+                  Object {
+                    "paddingHorizontal": 8,
+                  },
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#262C2F",
+                      "fontFamily": "SFProDisplay-Bold",
+                      "fontSize": 16,
+                      "lineHeight": 24,
+                    },
+                    undefined,
+                  ]
+                }
+                type="sectionHeader"
+              >
+                 0  limit
+              </Text>
+              <div
+                animation={
+                  Object {
+                    "0": Object {
+                      "rotate": "90deg",
+                    },
+                    "1": Object {
+                      "rotate": "-90deg",
+                    },
+                  }
+                }
+                duration={300}
+              >
+                <Text
+                  accessibilityLabel="icon-text"
+                  accessible={true}
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#909BA0",
+                        "fontSize": 20,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "sywmax",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                  testID="icon-text"
+                >
+                  
+                </Text>
+              </div>
+            </View>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                  "marginTop": 16,
+                  "overflow": "hidden",
+                  "width": "100%",
+                },
+                Object {
+                  "paddingHorizontal": 8,
+                },
+                false,
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Medium",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Array [
+                    Object {
+                      "color": "#909BA0",
+                      "fontSize": 18,
+                      "lineHeight": 28,
+                      "textAlign": "left",
+                    },
+                    undefined,
+                    undefined,
+                  ],
+                ]
+              }
+            >
+              You won't be able to redeem more than $0. This restriction considers every gift card bought 0.
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "marginBottom": 32,
+            "paddingBottom": 0,
+            "paddingLeft": 40,
+            "paddingRight": 40,
+            "paddingTop": 0,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#262C2F",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 16,
+                  "lineHeight": 24,
+                },
+                undefined,
+              ]
+            }
+            type="sectionHeader"
+          >
+            Redemption Method:
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "marginTop": 16,
+              "overflow": "hidden",
+              "width": "100%",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Medium",
+                  "fontSize": 16,
+                  "lineHeight": 22,
+                },
+                Object {
+                  "color": "#909BA0",
+                  "fontSize": 18,
+                  "lineHeight": 28,
+                  "textAlign": "left",
+                },
+              ]
+            }
+          >
+            Enter the gift card info online
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "marginTop": 16,
+              "overflow": "hidden",
+              "width": "100%",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Medium",
+                  "fontSize": 16,
+                  "lineHeight": 22,
+                },
+                Object {
+                  "color": "#909BA0",
+                  "fontSize": 18,
+                  "lineHeight": 28,
+                  "textAlign": "left",
+                },
+              ]
+            }
+          >
+            Show the barcode to the cashier
+          </Text>
+        </View>
+      </View>
+      <View
+        accessibilityLabel="gift-card-detail-disclaimer"
+        accessible={true}
+        style={
+          Object {
+            "marginBottom": 32,
+            "paddingBottom": 0,
+            "paddingLeft": 32,
+            "paddingRight": 32,
+            "paddingTop": 0,
+          }
+        }
+        testID="gift-card-detail-disclaimer"
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "column",
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            accessibilityLabel="accordion-btn"
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            testID="accordion-btn"
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "flex-start",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  },
+                  Object {
+                    "paddingHorizontal": 8,
+                  },
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#262C2F",
+                      "fontFamily": "SFProDisplay-Bold",
+                      "fontSize": 16,
+                      "lineHeight": 24,
+                    },
+                    undefined,
+                  ]
+                }
+                type="sectionHeader"
+              >
+                Disclaimer
+              </Text>
+              <div
+                animation={
+                  Object {
+                    "0": Object {
+                      "rotate": "90deg",
+                    },
+                    "1": Object {
+                      "rotate": "-90deg",
+                    },
+                  }
+                }
+                duration={300}
+              >
+                <Text
+                  accessibilityLabel="icon-text"
+                  accessible={true}
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#909BA0",
+                        "fontSize": 20,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "sywmax",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                  testID="icon-text"
+                >
+                  
+                </Text>
+              </div>
+            </View>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                  "marginTop": 16,
+                  "overflow": "hidden",
+                  "width": "100%",
+                },
+                Object {
+                  "paddingHorizontal": 8,
+                },
+                false,
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Medium",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Array [
+                    Object {
+                      "color": "#909BA0",
+                      "fontSize": 18,
+                      "lineHeight": 28,
+                      "textAlign": "left",
+                    },
+                    undefined,
+                    undefined,
+                  ],
+                ]
+              }
+            >
+              Can only use 2 cards
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        accessibilityLabel="gift-card-detail-legal-terms"
+        accessible={true}
+        style={
+          Object {
+            "marginBottom": 32,
+            "paddingBottom": 0,
+            "paddingLeft": 32,
+            "paddingRight": 32,
+            "paddingTop": 0,
+          }
+        }
+        testID="gift-card-detail-legal-terms"
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "column",
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            accessibilityLabel="accordion-btn"
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            testID="accordion-btn"
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "flex-start",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  },
+                  Object {
+                    "paddingHorizontal": 8,
+                  },
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#262C2F",
+                      "fontFamily": "SFProDisplay-Bold",
+                      "fontSize": 16,
+                      "lineHeight": 24,
+                    },
+                    undefined,
+                  ]
+                }
+                type="sectionHeader"
+              >
+                Details & Terms
+              </Text>
+              <div
+                animation={
+                  Object {
+                    "0": Object {
+                      "rotate": "90deg",
+                    },
+                    "1": Object {
+                      "rotate": "-90deg",
+                    },
+                  }
+                }
+                duration={300}
+              >
+                <Text
+                  accessibilityLabel="icon-text"
+                  accessible={true}
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#909BA0",
+                        "fontSize": 20,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "sywmax",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                  testID="icon-text"
+                >
+                  
+                </Text>
+              </div>
+            </View>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                  "marginTop": 16,
+                  "overflow": "hidden",
+                  "width": "100%",
+                },
+                Object {
+                  "paddingHorizontal": 8,
+                },
+                false,
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Medium",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Array [
+                    Object {
+                      "color": "#909BA0",
+                      "fontSize": 18,
+                      "lineHeight": 28,
+                      "textAlign": "left",
+                    },
+                    Object {
+                      "fontSize": 14,
+                      "lineHeight": 25,
+                    },
+                    undefined,
+                  ],
+                ]
+              }
+            >
+              This card can be used to purchase merchandise only in stores
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "paddingBottom": 60,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 20,
+          }
+        }
+      >
+        SYWGiftCardWaterMark
+      </View>
+    </View>
+  </RCTScrollView>,
+  <Modal
+    accessibilityLabel="modal-container"
+    accessible={true}
+    animationType="slide"
+    hardwareAccelerated={false}
+    onRequestClose={[Function]}
+    statusBarTranslucent={true}
+    testID="modal-container"
+    transparent={true}
+    visible={false}
+  />,
+  <Modal
+    accessibilityLabel="modal-container"
+    accessible={true}
+    animationType="slide"
+    hardwareAccelerated={false}
+    onRequestClose={[Function]}
+    statusBarTranslucent={true}
+    testID="modal-container"
+    transparent={true}
+    visible={false}
+  />,
+  <Modal
+    accessibilityLabel="modal-container"
+    accessible={true}
+    animationType="slide"
+    hardwareAccelerated={false}
+    onRequestClose={[Function]}
+    statusBarTranslucent={true}
+    testID="modal-container"
+    transparent={true}
+    visible={false}
+  />,
+  <Modal
+    accessibilityLabel="modal-container"
+    accessible={true}
+    animationType="slide"
+    hardwareAccelerated={false}
+    onRequestClose={[MockFunction]}
+    statusBarTranslucent={true}
+    testID="modal-container"
+    transparent={true}
+    visible={false}
+  />,
+]
+`;
+
+exports[`RewardDetail should render with limits from the config api 1`] = `
+Array [
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#F5F7FA",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingBottom": 32,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 32,
+      }
+    }
+  >
+    <View
+      accessibilityLabel="back-button-default"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderBottomLeftRadius": 20,
+          "borderBottomRightRadius": 20,
+          "borderTopLeftRadius": 20,
+          "borderTopRightRadius": 20,
+          "elevation": 4,
+          "height": 40,
+          "justifyContent": "center",
+          "opacity": 1,
+          "shadowColor": "#262C2F",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.23,
+          "shadowRadius": 2.62,
+          "width": 40,
+        }
+      }
+      testID="back-button-default"
+    >
+      <Text
+        accessibilityLabel="icon-text"
+        accessible={true}
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          Array [
+            Object {
+              "color": "#262C2F",
+              "fontSize": 20,
+            },
+            undefined,
+            Object {
+              "fontFamily": "sywmax",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+        testID="icon-text"
+      >
+        
+      </Text>
+    </View>
+    <View
+      accessibilityLabel="pill-container"
+      accessible={true}
+      style={
+        Array [
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#DDE8F5",
+              "borderBottomLeftRadius": 20,
+              "borderBottomRightRadius": 20,
+              "borderTopLeftRadius": 20,
+              "borderTopRightRadius": 20,
+              "flexDirection": "row",
+              "paddingLeft": 4,
+              "paddingRight": 10,
+            },
+            Object {
+              "height": 28,
+            },
+          ],
+          Array [
+            undefined,
+          ],
+          Object {
+            "height": 36,
+          },
+        ]
+      }
+      testID="pill-container"
+    >
+      <View
+        accessibilityLabel="pill-icon"
+        accessible={true}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+              "borderBottomLeftRadius": 50,
+              "borderBottomRightRadius": 50,
+              "borderTopLeftRadius": 50,
+              "borderTopRightRadius": 50,
+              "justifyContent": "center",
+            },
+            undefined,
+          ]
+        }
+        testID="pill-icon"
+      >
+        <Text
+          accessibilityLabel="icon-text"
+          accessible={true}
+          allowFontScaling={false}
+          selectable={false}
+          style={
+            Array [
+              Object {
+                "color": "#0066CC",
+                "fontSize": 20,
+              },
+              undefined,
+              Object {
+                "fontFamily": "sywmax",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          testID="icon-text"
+        >
+          
+        </Text>
+      </View>
+      <Text
+        accessibilityLabel="pill-text"
+        accessible={true}
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "paddingLeft": 4,
+              },
+              Array [
+                Object {
+                  "color": "#0066CC",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 14,
+                },
+                Object {
+                  "lineHeight": 20,
+                },
+                undefined,
+              ],
+            ],
+          ]
+        }
+        testID="pill-text"
+      >
+        1,500
+      </Text>
+    </View>
+  </View>,
+  <RCTScrollView
+    showsVerticalScrollIndicator={false}
+    style={
+      Object {
+        "backgroundColor": "#F5F7FA",
+      }
+    }
+  >
+    <View>
+      <View
+        accessibilityLabel="card-brand-container"
+        accessible={true}
+        style={
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderBottomLeftRadius": 16,
+            "borderBottomRightRadius": 16,
+            "borderTopLeftRadius": 16,
+            "borderTopRightRadius": 16,
+            "elevation": 1,
+            "height": 192,
+            "overflow": "hidden",
+            "shadowColor": "#262C2F",
+            "shadowOffset": Object {
+              "height": 2,
+              "width": 0,
+            },
+            "shadowOpacity": 0.1,
+            "shadowRadius": 2.62,
+            "width": 252,
+          }
+        }
+        testID="card-brand-container"
+      >
+        <View
+          accessibilityLabel="image-background-container"
+          accessible={true}
+          style={
+            Object {
+              "height": 164,
+              "overflow": "hidden",
+              "transform": Array [
+                Object {
+                  "translateY": -4,
+                },
+              ],
+            }
+          }
+          testID="image-background-container"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "overflow": "hidden",
+                },
+                Array [
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "height": 164,
+                    "width": undefined,
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <FastImageView
+              accessibilityLabel="image-background-image"
+              accessible={true}
+              resizeMode="cover"
+              source={
+                Object {
+                  "uri": undefined,
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              testID="image-background-image"
+            />
+            <View
+              style={
+                Array [
+                  Object {
+                    "height": 60,
+                    "width": 60,
+                  },
+                  Object {
+                    "alignSelf": "center",
+                    "top": 48,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "overflow": "hidden",
+                    },
+                    Object {
+                      "alignItems": "center",
+                      "borderBottomLeftRadius": 60,
+                      "borderBottomRightRadius": 60,
+                      "borderTopLeftRadius": 60,
+                      "borderTopRightRadius": 60,
+                      "height": "100%",
+                      "justifyContent": "center",
+                      "width": "100%",
+                    },
+                  ]
+                }
+              >
+                <FastImageView
+                  accessibilityLabel="brand-logo-image"
+                  accessible={true}
+                  onFastImageError={[Function]}
+                  onFastImageLoad={[Function]}
+                  onFastImageLoadEnd={[Function]}
+                  onFastImageLoadStart={[Function]}
+                  resizeMode="cover"
+                  source={
+                    Object {
+                      "priority": "high",
+                      "uri": "https://s3.amazonaws.com/raise-content/ibi/GameStop-Logo.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    }
+                  }
+                  testID="brand-logo-image"
+                />
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          accessibilityLabel="card-brand-footer"
+          accessible={true}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+              "bottom": 0,
+              "elevation": 1,
+              "flexDirection": "row",
+              "height": 48,
+              "justifyContent": "space-between",
+              "paddingBottom": 0,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 0,
+              "position": "absolute",
+              "shadowColor": "#262C2F",
+              "shadowOffset": Object {
+                "height": -1,
+                "width": 0,
+              },
+              "shadowOpacity": 0.1,
+              "width": "100%",
+            }
+          }
+          testID="card-brand-footer"
+        >
+          <Text
+            ellipsizeMode="tail"
+            numberOfLines={1}
+            style={
+              Object {
+                "color": "#262C2F",
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+              }
+            }
+          >
+            Burgers For Days
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#262C2F",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 14,
+                "marginLeft": 16,
+              }
+            }
+          >
+            $5
+          </Text>
+        </View>
+      </View>
+      <View
+        accessibilityLabel="gift-card-detail-price"
+        accessible={true}
+        onLayout={[Function]}
+        style={
+          Object {
+            "flexDirection": "column",
+            "marginBottom": 36,
+            "marginTop": 44,
+          }
+        }
+        testID="gift-card-detail-price"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Medium",
+                  "fontSize": 16,
+                  "lineHeight": 22,
+                },
+                Object {
+                  "color": "#909BA0",
+                  "fontSize": 14,
+                },
+              ]
+            }
+          >
+            Select Gift Card amount
+          </Text>
+          <RCTScrollView
+            ListFooterComponent={
+              <View
+                style={
+                  Object {
+                    "marginRight": 48,
+                  }
+                }
+              />
+            }
+            data={
+              Array [
+                5,
+              ]
+            }
+            getItem={[Function]}
+            getItemCount={[Function]}
+            horizontal={true}
+            keyExtractor={[Function]}
+            onContentSizeChange={[Function]}
+            onLayout={[Function]}
+            onMomentumScrollBegin={[Function]}
+            onMomentumScrollEnd={[Function]}
+            onScroll={[Function]}
+            onScrollBeginDrag={[Function]}
+            onScrollEndDrag={[Function]}
+            onScrollToIndexFailed={[Function]}
+            removeClippedSubviews={false}
+            renderItem={[Function]}
+            scrollEventThrottle={50}
+            showsHorizontalScrollIndicator={false}
+            stickyHeaderIndices={Array []}
+            style={
+              Object {
+                "marginTop": 8,
+                "paddingHorizontal": 32,
+              }
+            }
+            viewabilityConfigCallbackPairs={Array []}
+          >
+            <View>
+              <View
+                onLayout={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                    },
+                    null,
+                  ]
+                }
+              >
+                <View
+                  accessibilityLabel="gift-card-input-option"
+                  accessibilityState={
+                    Object {
+                      "disabled": false,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "justifyContent": "center",
+                      "marginRight": 8,
+                      "opacity": 1,
+                      "paddingBottom": 4,
+                      "paddingLeft": 4,
+                      "paddingRight": 4,
+                      "paddingTop": 4,
+                    }
+                  }
+                  testID="gift-card-input-option"
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "transparent",
+                          "elevation": 3,
+                          "shadowColor": "#262C2F",
+                          "shadowOffset": Object {
+                            "height": 4,
+                            "width": 0,
+                          },
+                          "shadowOpacity": 0.1,
+                        },
+                        Object {
+                          "borderBottomLeftRadius": 8,
+                          "borderBottomRightRadius": 8,
+                          "borderTopLeftRadius": 8,
+                          "borderTopRightRadius": 8,
+                          "flexDirection": "column",
+                          "justifyContent": "space-between",
+                          "paddingBottom": 20,
+                          "paddingLeft": 20,
+                          "paddingRight": 20,
+                          "paddingTop": 20,
+                        },
+                        Array [
+                          Object {
+                            "backgroundColor": "#FFFFFF",
+                            "minWidth": 95,
+                          },
+                          Object {
+                            "backgroundColor": "#E5F6FD",
+                            "borderColor": "#0066CC",
+                            "borderStyle": "solid",
+                            "borderWidth": 1,
+                          },
+                          false,
+                        ],
+                      ]
+                    }
+                  >
+                    <Text
+                      accessibilityLabel="gift-card-input-option-value"
+                      accessible={true}
+                      font="SFProDisplay-Bold"
+                      lineHeight="30px"
+                      style={
+                        Array [
+                          Object {
+                            "color": "#909BA0",
+                            "fontFamily": "SFProDisplay-Bold",
+                            "fontSize": 16,
+                            "lineHeight": 30,
+                          },
+                          Array [
+                            Object {
+                              "alignSelf": "center",
+                              "color": "#262C2F",
+                              "fontSize": 26,
+                            },
+                            Object {
+                              "color": "#262C2F",
+                            },
+                            false,
+                          ],
+                        ]
+                      }
+                      testID="gift-card-input-option-value"
+                    >
+                      $ 
+                      5
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                onLayout={[Function]}
+              >
+                <View
+                  style={
+                    Object {
+                      "marginRight": 48,
+                    }
+                  }
+                />
+              </View>
+            </View>
+          </RCTScrollView>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Medium",
+                  "fontSize": 16,
+                  "lineHeight": 22,
+                },
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "marginTop": 20,
+                  },
+                ],
+              ]
+            }
+          >
+            or enter a custom value 
+          </Text>
+          <View
+            style={
+              Object {
+                "justifyContent": "center",
+                "marginTop": 16,
+                "width": "100%",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Medium",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Array [
+                    Object {
+                      "color": "#262C2F",
+                      "fontFamily": "SFProDisplay-Bold",
+                      "fontSize": 16,
+                      "letterSpacing": 1,
+                    },
+                    Object {
+                      "elevation": 1,
+                      "left": 40,
+                      "position": "absolute",
+                      "zIndex": 1,
+                    },
+                  ],
+                ]
+              }
+            >
+              $
+            </Text>
+            <TextInput
+              accessibilityLabel="gift-card-input-input"
+              accessible={true}
+              editable={true}
+              keyboardType="numeric"
+              onBlur={[Function]}
+              onChangeText={[Function]}
+              onFocus={[Function]}
+              placeholder="Enter a number between $5 to $0"
+              placeholderTextColor="#909BA0"
+              returnKeyType="done"
+              selectionColor="#0066CC"
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                    "borderBottomLeftRadius": 8,
+                    "borderBottomRightRadius": 8,
+                    "borderTopLeftRadius": 8,
+                    "borderTopRightRadius": 8,
+                    "elevation": 1,
+                    "height": 56,
+                    "marginBottom": 0,
+                    "marginLeft": 20,
+                    "marginRight": 20,
+                    "marginTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 44,
+                    "paddingRight": 44,
+                    "paddingTop": 0,
+                    "shadowColor": "#262C2F",
+                    "shadowOffset": Object {
+                      "height": 2,
+                      "width": 0,
+                    },
+                    "shadowOpacity": 0.1,
+                    "shadowRadius": 2.62,
+                  },
+                  Object {
+                    "fontSize": 14,
+                  },
+                  null,
+                  Object {
+                    "borderColor": "#E02020",
+                    "borderStyle": "solid",
+                    "borderWidth": 1,
+                  },
+                  false,
+                ]
+              }
+              testID="gift-card-input-input"
+              value=""
+            />
+          </View>
+          <Text
+            accessibilityLabel="gift-card-input-error-label"
+            accessible={true}
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Medium",
+                  "fontSize": 16,
+                  "lineHeight": 22,
+                },
+                Object {
+                  "color": "#E02020",
+                  "fontSize": 12,
+                  "marginTop": 8,
+                },
+              ]
+            }
+            testID="gift-card-input-error-label"
+          >
+            Enter a number between $5 to $0
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "center",
+            "flexDirection": "column",
+            "justifyContent": "center",
+            "marginBottom": 32,
+          }
+        }
+      >
+        <View
+          accessibilityLabel="gift-card-detail-redeem-btn"
+          accessibilityState={
+            Object {
+              "disabled": true,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignSelf": "flex-start",
+              "borderBottomLeftRadius": 30,
+              "borderBottomRightRadius": 30,
+              "borderTopLeftRadius": 30,
+              "borderTopRightRadius": 30,
+              "opacity": 1,
+              "paddingHorizontal": 40,
+            }
+          }
+          testID="gift-card-detail-redeem-btn"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#0066CC",
+                  "borderBottomLeftRadius": 30,
+                  "borderBottomRightRadius": 30,
+                  "borderTopLeftRadius": 30,
+                  "borderTopRightRadius": 30,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "paddingBottom": 8,
+                  "paddingLeft": 12,
+                  "paddingRight": 12,
+                  "paddingTop": 8,
+                },
+                Object {
+                  "backgroundColor": "#909BA0",
+                },
+                Object {
+                  "opacity": 0.5,
+                },
+                Object {
+                  "backgroundColor": "#909BA0",
+                },
+              ]
+            }
+          >
+            <View
+              style={false}
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "minWidth": "100%",
+                    "paddingBottom": 8,
+                    "paddingLeft": 12,
+                    "paddingRight": 12,
+                    "paddingTop": 8,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                <Text
+                  font="SFProDisplay-SemiBold"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#909BA0",
+                        "fontFamily": "SFProDisplay-SemiBold",
+                        "fontSize": 16,
+                        "lineHeight": 22,
+                      },
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "color": "#FFFFFF",
+                          "flexDirection": "row",
+                          "fontSize": 18,
+                          "justifyContent": "center",
+                          "textAlign": "center",
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  Go to Checkout
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "marginBottom": 32,
+            "paddingHorizontal": 32,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "borderBottomLeftRadius": 10,
+              "borderBottomRightRadius": 10,
+              "borderTopLeftRadius": 10,
+              "borderTopRightRadius": 10,
+              "paddingBottom": 20,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+              "paddingTop": 20,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#262C2F",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 24,
+                  },
+                  undefined,
+                ]
+              }
+              type="sectionHeader"
+            >
+              Redeem your way — with points, cash or both 🎉
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "marginTop": 16,
+                "overflow": "hidden",
+                "width": "100%",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Medium",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Object {
+                    "color": "#909BA0",
+                    "fontSize": 18,
+                    "lineHeight": 28,
+                    "textAlign": "left",
+                  },
+                ]
+              }
+            >
+              Now, you can redeem your Gift Cards using Shop Your Way® points, cash, or a combination of points and cash!
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        accessibilityLabel="gift-card-detail-description"
+        accessible={true}
+        style={
+          Object {
+            "marginBottom": 32,
+            "paddingBottom": 0,
+            "paddingLeft": 32,
+            "paddingRight": 32,
+            "paddingTop": 0,
+          }
+        }
+        testID="gift-card-detail-description"
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "column",
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            accessibilityLabel="accordion-btn"
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            testID="accordion-btn"
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "flex-start",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  },
+                  Object {
+                    "paddingHorizontal": 8,
+                  },
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#262C2F",
+                      "fontFamily": "SFProDisplay-Bold",
+                      "fontSize": 16,
+                      "lineHeight": 24,
+                    },
+                    undefined,
+                  ]
+                }
+                type="sectionHeader"
+              >
+                Brand description
+              </Text>
+              <div
+                animation={
+                  Object {
+                    "0": Object {
+                      "rotate": "90deg",
+                    },
+                    "1": Object {
+                      "rotate": "-90deg",
+                    },
+                  }
+                }
+                duration={300}
+              >
+                <Text
+                  accessibilityLabel="icon-text"
+                  accessible={true}
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#909BA0",
+                        "fontSize": 20,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "sywmax",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                  testID="icon-text"
+                >
+                  
+                </Text>
+              </div>
+            </View>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                  "marginTop": 16,
+                  "overflow": "hidden",
+                  "width": "100%",
+                },
+                Object {
+                  "paddingHorizontal": 8,
+                },
+                false,
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Medium",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Array [
+                    Object {
+                      "color": "#909BA0",
+                      "fontSize": 18,
+                      "lineHeight": 28,
+                      "textAlign": "left",
+                    },
+                    undefined,
+                    undefined,
+                  ],
+                ]
+              }
+            >
+              Buy stuff, buy lots of it.
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        accessibilityLabel="gift-card-detail-limits"
+        accessible={true}
+        style={
+          Object {
+            "marginBottom": 32,
+            "paddingBottom": 0,
+            "paddingLeft": 32,
+            "paddingRight": 32,
+            "paddingTop": 0,
+          }
+        }
+        testID="gift-card-detail-limits"
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "column",
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            accessibilityLabel="accordion-btn"
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            testID="accordion-btn"
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "flex-start",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  },
+                  Object {
+                    "paddingHorizontal": 8,
+                  },
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#262C2F",
+                      "fontFamily": "SFProDisplay-Bold",
+                      "fontSize": 16,
+                      "lineHeight": 24,
+                    },
+                    undefined,
+                  ]
+                }
+                type="sectionHeader"
+              >
+                 0  limit
+              </Text>
+              <div
+                animation={
+                  Object {
+                    "0": Object {
+                      "rotate": "90deg",
+                    },
+                    "1": Object {
+                      "rotate": "-90deg",
+                    },
+                  }
+                }
+                duration={300}
+              >
+                <Text
+                  accessibilityLabel="icon-text"
+                  accessible={true}
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#909BA0",
+                        "fontSize": 20,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "sywmax",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                  testID="icon-text"
+                >
+                  
+                </Text>
+              </div>
+            </View>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                  "marginTop": 16,
+                  "overflow": "hidden",
+                  "width": "100%",
+                },
+                Object {
+                  "paddingHorizontal": 8,
+                },
+                false,
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Medium",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Array [
+                    Object {
+                      "color": "#909BA0",
+                      "fontSize": 18,
+                      "lineHeight": 28,
+                      "textAlign": "left",
+                    },
+                    undefined,
+                    undefined,
+                  ],
+                ]
+              }
+            >
+              You won't be able to redeem more than $0. This restriction considers every gift card bought 0.
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "marginBottom": 32,
+            "paddingBottom": 0,
+            "paddingLeft": 40,
+            "paddingRight": 40,
+            "paddingTop": 0,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#262C2F",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 16,
+                  "lineHeight": 24,
+                },
+                undefined,
+              ]
+            }
+            type="sectionHeader"
+          >
+            Redemption Method:
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "marginTop": 16,
+              "overflow": "hidden",
+              "width": "100%",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Medium",
+                  "fontSize": 16,
+                  "lineHeight": 22,
+                },
+                Object {
+                  "color": "#909BA0",
+                  "fontSize": 18,
+                  "lineHeight": 28,
+                  "textAlign": "left",
+                },
+              ]
+            }
+          >
+            Enter the gift card info online
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "marginTop": 16,
+              "overflow": "hidden",
+              "width": "100%",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Medium",
+                  "fontSize": 16,
+                  "lineHeight": 22,
+                },
+                Object {
+                  "color": "#909BA0",
+                  "fontSize": 18,
+                  "lineHeight": 28,
+                  "textAlign": "left",
+                },
+              ]
+            }
+          >
+            Show the barcode to the cashier
+          </Text>
+        </View>
+      </View>
+      <View
+        accessibilityLabel="gift-card-detail-disclaimer"
+        accessible={true}
+        style={
+          Object {
+            "marginBottom": 32,
+            "paddingBottom": 0,
+            "paddingLeft": 32,
+            "paddingRight": 32,
+            "paddingTop": 0,
+          }
+        }
+        testID="gift-card-detail-disclaimer"
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "column",
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            accessibilityLabel="accordion-btn"
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            testID="accordion-btn"
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "flex-start",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  },
+                  Object {
+                    "paddingHorizontal": 8,
+                  },
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#262C2F",
+                      "fontFamily": "SFProDisplay-Bold",
+                      "fontSize": 16,
+                      "lineHeight": 24,
+                    },
+                    undefined,
+                  ]
+                }
+                type="sectionHeader"
+              >
+                Disclaimer
+              </Text>
+              <div
+                animation={
+                  Object {
+                    "0": Object {
+                      "rotate": "90deg",
+                    },
+                    "1": Object {
+                      "rotate": "-90deg",
+                    },
+                  }
+                }
+                duration={300}
+              >
+                <Text
+                  accessibilityLabel="icon-text"
+                  accessible={true}
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#909BA0",
+                        "fontSize": 20,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "sywmax",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                  testID="icon-text"
+                >
+                  
+                </Text>
+              </div>
+            </View>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                  "marginTop": 16,
+                  "overflow": "hidden",
+                  "width": "100%",
+                },
+                Object {
+                  "paddingHorizontal": 8,
+                },
+                false,
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Medium",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Array [
+                    Object {
+                      "color": "#909BA0",
+                      "fontSize": 18,
+                      "lineHeight": 28,
+                      "textAlign": "left",
+                    },
+                    undefined,
+                    undefined,
+                  ],
+                ]
+              }
+            >
+              Can only use 2 cards
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        accessibilityLabel="gift-card-detail-legal-terms"
+        accessible={true}
+        style={
+          Object {
+            "marginBottom": 32,
+            "paddingBottom": 0,
+            "paddingLeft": 32,
+            "paddingRight": 32,
+            "paddingTop": 0,
+          }
+        }
+        testID="gift-card-detail-legal-terms"
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "column",
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            accessibilityLabel="accordion-btn"
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            testID="accordion-btn"
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "flex-start",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  },
+                  Object {
+                    "paddingHorizontal": 8,
+                  },
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#262C2F",
+                      "fontFamily": "SFProDisplay-Bold",
+                      "fontSize": 16,
+                      "lineHeight": 24,
+                    },
+                    undefined,
+                  ]
+                }
+                type="sectionHeader"
+              >
+                Details & Terms
+              </Text>
+              <div
+                animation={
+                  Object {
+                    "0": Object {
+                      "rotate": "90deg",
+                    },
+                    "1": Object {
+                      "rotate": "-90deg",
+                    },
+                  }
+                }
+                duration={300}
+              >
+                <Text
+                  accessibilityLabel="icon-text"
+                  accessible={true}
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#909BA0",
+                        "fontSize": 20,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "sywmax",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                  testID="icon-text"
+                >
+                  
+                </Text>
+              </div>
+            </View>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                  "marginTop": 16,
+                  "overflow": "hidden",
+                  "width": "100%",
+                },
+                Object {
+                  "paddingHorizontal": 8,
+                },
+                false,
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Medium",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Array [
+                    Object {
+                      "color": "#909BA0",
+                      "fontSize": 18,
+                      "lineHeight": 28,
+                      "textAlign": "left",
+                    },
+                    Object {
+                      "fontSize": 14,
+                      "lineHeight": 25,
+                    },
+                    undefined,
+                  ],
+                ]
+              }
+            >
+              This card can be used to purchase merchandise only in stores
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "paddingBottom": 60,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 20,
+          }
+        }
+      >
+        SYWGiftCardWaterMark
+      </View>
+    </View>
+  </RCTScrollView>,
+  <Modal
+    accessibilityLabel="modal-container"
+    accessible={true}
+    animationType="slide"
+    hardwareAccelerated={false}
+    onRequestClose={[Function]}
+    statusBarTranslucent={true}
+    testID="modal-container"
+    transparent={true}
+    visible={false}
+  />,
+  <Modal
+    accessibilityLabel="modal-container"
+    accessible={true}
+    animationType="slide"
+    hardwareAccelerated={false}
+    onRequestClose={[Function]}
+    statusBarTranslucent={true}
+    testID="modal-container"
+    transparent={true}
+    visible={false}
+  />,
+  <Modal
+    accessibilityLabel="modal-container"
+    accessible={true}
+    animationType="slide"
+    hardwareAccelerated={false}
+    onRequestClose={[Function]}
+    statusBarTranslucent={true}
+    testID="modal-container"
+    transparent={true}
+    visible={false}
+  />,
+  <Modal
+    accessibilityLabel="modal-container"
+    accessible={true}
+    animationType="slide"
+    hardwareAccelerated={false}
+    onRequestClose={[MockFunction]}
+    statusBarTranslucent={true}
+    testID="modal-container"
+    transparent={true}
+    visible={false}
+  />,
+]
+`;
+
+exports[`RewardDetail should render without data 1`] = `
+<RCTScrollView
+  accessibilityLabel="reward-detail-skeleton-container"
+  accessible={true}
+  contentContainerStyle={
+    Object {
+      "paddingBottom": 30,
+      "paddingLeft": 30,
+      "paddingRight": 30,
+      "paddingTop": 60,
+    }
+  }
+  testID="reward-detail-skeleton-container"
+>
+  <View>
+    <div
+      animation={
+        Object {
+          "0": Object {
+            "opacity": 1,
+          },
+          "0.5": Object {
+            "opacity": 0.35,
+          },
+          "1": Object {
+            "opacity": 1,
+          },
+        }
+      }
+      duration={2000}
+      easing="ease"
+      iterationCount="infinite"
+    >
+      <View
+        color="transparent"
+        dir="row"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderBottomLeftRadius": 8,
+              "borderBottomRightRadius": 8,
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "flexBasis": "auto",
+              "flexDirection": "row",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": "auto",
+              "width": "100%",
+            },
+            Array [
+              Object {
+                "alignItems": "center",
+              },
+              Object {
+                "justifyContent": "center",
+              },
+            ],
+          ]
+        }
+        width="100%"
+      >
+        <View
+          height="60px"
+          radius={60}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#DFE3EC",
+                "borderBottomLeftRadius": 60,
+                "borderBottomRightRadius": 60,
+                "borderTopLeftRadius": 60,
+                "borderTopRightRadius": 60,
+                "flexBasis": "auto",
+                "flexDirection": "column",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": 60,
+                "width": 60,
+              },
+              Object {
+                "marginRight": 15,
+              },
+            ]
+          }
+          width="60px"
+        />
+        <View
+          height="20px"
+          radius={20}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#DFE3EC",
+                "borderBottomLeftRadius": 20,
+                "borderBottomRightRadius": 20,
+                "borderTopLeftRadius": 20,
+                "borderTopRightRadius": 20,
+                "flexBasis": "auto",
+                "flexDirection": "column",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": 20,
+                "width": 75,
+              },
+              undefined,
+            ]
+          }
+          width="75px"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "height": 15,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "height": 15,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        color="transparent"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderBottomLeftRadius": 8,
+              "borderBottomRightRadius": 8,
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "flexBasis": "auto",
+              "flexDirection": "column",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": "auto",
+              "width": "100%",
+            },
+            Array [
+              Object {
+                "alignItems": "center",
+              },
+              Object {
+                "justifyContent": "center",
+              },
+            ],
+          ]
+        }
+      >
+        <View
+          color="#EBEDF2"
+          height="65px"
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#EBEDF2",
+                "borderBottomLeftRadius": 8,
+                "borderBottomRightRadius": 8,
+                "borderTopLeftRadius": 8,
+                "borderTopRightRadius": 8,
+                "flexBasis": "auto",
+                "flexDirection": "column",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": 65,
+                "width": 140,
+              },
+              Array [
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "center",
+                },
+              ],
+            ]
+          }
+          width="140px"
+        >
+          <View
+            height="20px"
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#DFE3EC",
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexBasis": "auto",
+                  "flexDirection": "column",
+                  "flexGrow": 0,
+                  "flexShrink": 1,
+                  "height": 20,
+                  "width": 70,
+                },
+                undefined,
+              ]
+            }
+            width="70px"
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "height": 15,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        dir="row"
+        height="20px"
+        radius={10}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#DFE3EC",
+              "borderBottomLeftRadius": 10,
+              "borderBottomRightRadius": 10,
+              "borderTopLeftRadius": 10,
+              "borderTopRightRadius": 10,
+              "flexBasis": "auto",
+              "flexDirection": "row",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 20,
+              "width": "100%",
+            },
+            Array [
+              Object {
+                "alignContent": "space-between",
+              },
+              undefined,
+            ],
+          ]
+        }
+        width="100%"
+      />
+      <View
+        style={
+          Object {
+            "height": 15,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "height": 15,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "height": 15,
+            "width": "100%",
+          }
+        }
+      />
+      <RCTScrollView
+        data={
+          Array [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+          ]
+        }
+        getItem={[Function]}
+        getItemCount={[Function]}
+        horizontal={true}
+        keyExtractor={[Function]}
+        onContentSizeChange={[Function]}
+        onLayout={[Function]}
+        onMomentumScrollBegin={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onScroll={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        removeClippedSubviews={false}
+        renderItem={[Function]}
+        scrollEnabled={false}
+        scrollEventThrottle={50}
+        stickyHeaderIndices={Array []}
+        viewabilityConfigCallbackPairs={Array []}
+      >
+        <View>
+          <View
+            onLayout={[Function]}
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              color="#EBEDF2"
+              height="65px"
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "#EBEDF2",
+                    "borderBottomLeftRadius": 8,
+                    "borderBottomRightRadius": 8,
+                    "borderTopLeftRadius": 8,
+                    "borderTopRightRadius": 8,
+                    "flexBasis": "auto",
+                    "flexDirection": "column",
+                    "flexGrow": 0,
+                    "flexShrink": 1,
+                    "height": 65,
+                    "width": 100,
+                  },
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "center",
+                    },
+                  ],
+                ]
+              }
+              width="100px"
+            >
+              <View
+                height="10px"
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "#DFE3EC",
+                      "borderBottomLeftRadius": 8,
+                      "borderBottomRightRadius": 8,
+                      "borderTopLeftRadius": 8,
+                      "borderTopRightRadius": 8,
+                      "flexBasis": "auto",
+                      "flexDirection": "column",
+                      "flexGrow": 0,
+                      "flexShrink": 1,
+                      "height": 10,
+                      "width": 50,
+                    },
+                    undefined,
+                  ]
+                }
+                width="50px"
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "height": "100%",
+                  "width": 15,
+                }
+              }
+            />
+          </View>
+          <View
+            onLayout={[Function]}
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              color="#EBEDF2"
+              height="65px"
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "#EBEDF2",
+                    "borderBottomLeftRadius": 8,
+                    "borderBottomRightRadius": 8,
+                    "borderTopLeftRadius": 8,
+                    "borderTopRightRadius": 8,
+                    "flexBasis": "auto",
+                    "flexDirection": "column",
+                    "flexGrow": 0,
+                    "flexShrink": 1,
+                    "height": 65,
+                    "width": 100,
+                  },
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "center",
+                    },
+                  ],
+                ]
+              }
+              width="100px"
+            >
+              <View
+                height="10px"
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "#DFE3EC",
+                      "borderBottomLeftRadius": 8,
+                      "borderBottomRightRadius": 8,
+                      "borderTopLeftRadius": 8,
+                      "borderTopRightRadius": 8,
+                      "flexBasis": "auto",
+                      "flexDirection": "column",
+                      "flexGrow": 0,
+                      "flexShrink": 1,
+                      "height": 10,
+                      "width": 50,
+                    },
+                    undefined,
+                  ]
+                }
+                width="50px"
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "height": "100%",
+                  "width": 15,
+                }
+              }
+            />
+          </View>
+          <View
+            onLayout={[Function]}
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              color="#EBEDF2"
+              height="65px"
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "#EBEDF2",
+                    "borderBottomLeftRadius": 8,
+                    "borderBottomRightRadius": 8,
+                    "borderTopLeftRadius": 8,
+                    "borderTopRightRadius": 8,
+                    "flexBasis": "auto",
+                    "flexDirection": "column",
+                    "flexGrow": 0,
+                    "flexShrink": 1,
+                    "height": 65,
+                    "width": 100,
+                  },
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "center",
+                    },
+                  ],
+                ]
+              }
+              width="100px"
+            >
+              <View
+                height="10px"
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "#DFE3EC",
+                      "borderBottomLeftRadius": 8,
+                      "borderBottomRightRadius": 8,
+                      "borderTopLeftRadius": 8,
+                      "borderTopRightRadius": 8,
+                      "flexBasis": "auto",
+                      "flexDirection": "column",
+                      "flexGrow": 0,
+                      "flexShrink": 1,
+                      "height": 10,
+                      "width": 50,
+                    },
+                    undefined,
+                  ]
+                }
+                width="50px"
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "height": "100%",
+                  "width": 15,
+                }
+              }
+            />
+          </View>
+          <View
+            onLayout={[Function]}
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              color="#EBEDF2"
+              height="65px"
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "#EBEDF2",
+                    "borderBottomLeftRadius": 8,
+                    "borderBottomRightRadius": 8,
+                    "borderTopLeftRadius": 8,
+                    "borderTopRightRadius": 8,
+                    "flexBasis": "auto",
+                    "flexDirection": "column",
+                    "flexGrow": 0,
+                    "flexShrink": 1,
+                    "height": 65,
+                    "width": 100,
+                  },
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "center",
+                    },
+                  ],
+                ]
+              }
+              width="100px"
+            >
+              <View
+                height="10px"
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "#DFE3EC",
+                      "borderBottomLeftRadius": 8,
+                      "borderBottomRightRadius": 8,
+                      "borderTopLeftRadius": 8,
+                      "borderTopRightRadius": 8,
+                      "flexBasis": "auto",
+                      "flexDirection": "column",
+                      "flexGrow": 0,
+                      "flexShrink": 1,
+                      "height": 10,
+                      "width": 50,
+                    },
+                    undefined,
+                  ]
+                }
+                width="50px"
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "height": "100%",
+                  "width": 15,
+                }
+              }
+            />
+          </View>
+          <View
+            onLayout={[Function]}
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              color="#EBEDF2"
+              height="65px"
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "#EBEDF2",
+                    "borderBottomLeftRadius": 8,
+                    "borderBottomRightRadius": 8,
+                    "borderTopLeftRadius": 8,
+                    "borderTopRightRadius": 8,
+                    "flexBasis": "auto",
+                    "flexDirection": "column",
+                    "flexGrow": 0,
+                    "flexShrink": 1,
+                    "height": 65,
+                    "width": 100,
+                  },
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "center",
+                    },
+                  ],
+                ]
+              }
+              width="100px"
+            >
+              <View
+                height="10px"
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "#DFE3EC",
+                      "borderBottomLeftRadius": 8,
+                      "borderBottomRightRadius": 8,
+                      "borderTopLeftRadius": 8,
+                      "borderTopRightRadius": 8,
+                      "flexBasis": "auto",
+                      "flexDirection": "column",
+                      "flexGrow": 0,
+                      "flexShrink": 1,
+                      "height": 10,
+                      "width": 50,
+                    },
+                    undefined,
+                  ]
+                }
+                width="50px"
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "height": "100%",
+                  "width": 15,
+                }
+              }
+            />
+          </View>
+          <View
+            onLayout={[Function]}
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              color="#EBEDF2"
+              height="65px"
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "#EBEDF2",
+                    "borderBottomLeftRadius": 8,
+                    "borderBottomRightRadius": 8,
+                    "borderTopLeftRadius": 8,
+                    "borderTopRightRadius": 8,
+                    "flexBasis": "auto",
+                    "flexDirection": "column",
+                    "flexGrow": 0,
+                    "flexShrink": 1,
+                    "height": 65,
+                    "width": 100,
+                  },
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "center",
+                    },
+                  ],
+                ]
+              }
+              width="100px"
+            >
+              <View
+                height="10px"
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "#DFE3EC",
+                      "borderBottomLeftRadius": 8,
+                      "borderBottomRightRadius": 8,
+                      "borderTopLeftRadius": 8,
+                      "borderTopRightRadius": 8,
+                      "flexBasis": "auto",
+                      "flexDirection": "column",
+                      "flexGrow": 0,
+                      "flexShrink": 1,
+                      "height": 10,
+                      "width": 50,
+                    },
+                    undefined,
+                  ]
+                }
+                width="50px"
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "height": "100%",
+                  "width": 15,
+                }
+              }
+            />
+          </View>
+          <View
+            onLayout={[Function]}
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              color="#EBEDF2"
+              height="65px"
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "#EBEDF2",
+                    "borderBottomLeftRadius": 8,
+                    "borderBottomRightRadius": 8,
+                    "borderTopLeftRadius": 8,
+                    "borderTopRightRadius": 8,
+                    "flexBasis": "auto",
+                    "flexDirection": "column",
+                    "flexGrow": 0,
+                    "flexShrink": 1,
+                    "height": 65,
+                    "width": 100,
+                  },
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                    },
+                    Object {
+                      "justifyContent": "center",
+                    },
+                  ],
+                ]
+              }
+              width="100px"
+            >
+              <View
+                height="10px"
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "#DFE3EC",
+                      "borderBottomLeftRadius": 8,
+                      "borderBottomRightRadius": 8,
+                      "borderTopLeftRadius": 8,
+                      "borderTopRightRadius": 8,
+                      "flexBasis": "auto",
+                      "flexDirection": "column",
+                      "flexGrow": 0,
+                      "flexShrink": 1,
+                      "height": 10,
+                      "width": 50,
+                    },
+                    undefined,
+                  ]
+                }
+                width="50px"
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "height": "100%",
+                  "width": 15,
+                }
+              }
+            />
+          </View>
+        </View>
+      </RCTScrollView>
+      <View
+        style={
+          Object {
+            "height": 15,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "height": 15,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "height": 15,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        dir="row"
+        height="50px"
+        radius={30}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#DFE3EC",
+              "borderBottomLeftRadius": 30,
+              "borderBottomRightRadius": 30,
+              "borderTopLeftRadius": 30,
+              "borderTopRightRadius": 30,
+              "flexBasis": "auto",
+              "flexDirection": "row",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 50,
+              "width": "100%",
+            },
+            Array [
+              Object {
+                "alignContent": "space-between",
+              },
+              undefined,
+            ],
+          ]
+        }
+        width="100%"
+      />
+      <View
+        style={
+          Object {
+            "height": 15,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "height": 15,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "height": 15,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        dir="row"
+        height="20px"
+        radius={10}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#DFE3EC",
+              "borderBottomLeftRadius": 10,
+              "borderBottomRightRadius": 10,
+              "borderTopLeftRadius": 10,
+              "borderTopRightRadius": 10,
+              "flexBasis": "auto",
+              "flexDirection": "row",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 20,
+              "width": "50%",
+            },
+            Object {
+              "alignContent": "space-between",
+            },
+          ]
+        }
+        width="50%"
+      />
+      <View
+        style={
+          Object {
+            "height": 15,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        dir="row"
+        height="20px"
+        radius={10}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#DFE3EC",
+              "borderBottomLeftRadius": 10,
+              "borderBottomRightRadius": 10,
+              "borderTopLeftRadius": 10,
+              "borderTopRightRadius": 10,
+              "flexBasis": "auto",
+              "flexDirection": "row",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 20,
+              "width": "100%",
+            },
+            Array [
+              Object {
+                "alignContent": "space-between",
+              },
+              undefined,
+            ],
+          ]
+        }
+        width="100%"
+      />
+      <View
+        style={
+          Object {
+            "height": 15,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        dir="row"
+        height="20px"
+        radius={10}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#DFE3EC",
+              "borderBottomLeftRadius": 10,
+              "borderBottomRightRadius": 10,
+              "borderTopLeftRadius": 10,
+              "borderTopRightRadius": 10,
+              "flexBasis": "auto",
+              "flexDirection": "row",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 20,
+              "width": "50%",
+            },
+            Object {
+              "alignContent": "space-between",
+            },
+          ]
+        }
+        width="50%"
+      />
+      <View
+        style={
+          Object {
+            "height": 15,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "height": 15,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "height": 15,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        dir="row"
+        height="20px"
+        radius={10}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#DFE3EC",
+              "borderBottomLeftRadius": 10,
+              "borderBottomRightRadius": 10,
+              "borderTopLeftRadius": 10,
+              "borderTopRightRadius": 10,
+              "flexBasis": "auto",
+              "flexDirection": "row",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 20,
+              "width": "50%",
+            },
+            Object {
+              "alignContent": "space-between",
+            },
+          ]
+        }
+        width="50%"
+      />
+      <View
+        style={
+          Object {
+            "height": 15,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        dir="row"
+        height="20px"
+        radius={10}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#DFE3EC",
+              "borderBottomLeftRadius": 10,
+              "borderBottomRightRadius": 10,
+              "borderTopLeftRadius": 10,
+              "borderTopRightRadius": 10,
+              "flexBasis": "auto",
+              "flexDirection": "row",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 20,
+              "width": "100%",
+            },
+            Array [
+              Object {
+                "alignContent": "space-between",
+              },
+              undefined,
+            ],
+          ]
+        }
+        width="100%"
+      />
+      <View
+        style={
+          Object {
+            "height": 15,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        dir="row"
+        height="20px"
+        radius={10}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#DFE3EC",
+              "borderBottomLeftRadius": 10,
+              "borderBottomRightRadius": 10,
+              "borderTopLeftRadius": 10,
+              "borderTopRightRadius": 10,
+              "flexBasis": "auto",
+              "flexDirection": "row",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 20,
+              "width": "50%",
+            },
+            Object {
+              "alignContent": "space-between",
+            },
+          ]
+        }
+        width="50%"
+      />
+      <View
+        style={
+          Object {
+            "height": 15,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "height": 15,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "height": 15,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        dir="row"
+        height="20px"
+        radius={10}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#DFE3EC",
+              "borderBottomLeftRadius": 10,
+              "borderBottomRightRadius": 10,
+              "borderTopLeftRadius": 10,
+              "borderTopRightRadius": 10,
+              "flexBasis": "auto",
+              "flexDirection": "row",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 20,
+              "width": "50%",
+            },
+            Object {
+              "alignContent": "space-between",
+            },
+          ]
+        }
+        width="50%"
+      />
+      <View
+        style={
+          Object {
+            "height": 15,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        dir="row"
+        height="20px"
+        radius={10}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#DFE3EC",
+              "borderBottomLeftRadius": 10,
+              "borderBottomRightRadius": 10,
+              "borderTopLeftRadius": 10,
+              "borderTopRightRadius": 10,
+              "flexBasis": "auto",
+              "flexDirection": "row",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 20,
+              "width": "100%",
+            },
+            Array [
+              Object {
+                "alignContent": "space-between",
+              },
+              undefined,
+            ],
+          ]
+        }
+        width="100%"
+      />
+      <View
+        style={
+          Object {
+            "height": 15,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        dir="row"
+        height="20px"
+        radius={10}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#DFE3EC",
+              "borderBottomLeftRadius": 10,
+              "borderBottomRightRadius": 10,
+              "borderTopLeftRadius": 10,
+              "borderTopRightRadius": 10,
+              "flexBasis": "auto",
+              "flexDirection": "row",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 20,
+              "width": "50%",
+            },
+            Object {
+              "alignContent": "space-between",
+            },
+          ]
+        }
+        width="50%"
+      />
+    </div>
+  </View>
+</RCTScrollView>
+`;

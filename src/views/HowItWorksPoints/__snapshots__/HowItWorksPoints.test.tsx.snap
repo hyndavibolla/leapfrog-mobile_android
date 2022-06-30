@@ -1,0 +1,287 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HowItWorksPoints should render 1`] = `
+<RCTScrollView>
+  <View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#F5F7FA",
+          "paddingBottom": 52,
+          "paddingLeft": 40,
+          "paddingRight": 40,
+          "paddingTop": 0,
+        }
+      }
+    >
+      <Text
+        font="SFProDisplay-Heavy"
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Heavy",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Object {
+              "color": "#262C2F",
+              "fontSize": 22,
+              "marginTop": 32,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        How do points work?
+      </Text>
+      <View
+        style={
+          Object {
+            "marginTop": 32,
+          }
+        }
+      >
+        <Text
+          accessibilityLabel="icon-text"
+          accessible={true}
+          allowFontScaling={false}
+          selectable={false}
+          style={
+            Array [
+              Object {
+                "color": "#0066CC",
+                "fontSize": 16,
+              },
+              undefined,
+              Object {
+                "fontFamily": "sywmax",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          testID="icon-text"
+        >
+          
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#262C2F",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "lineHeight": 20,
+                "marginTop": 16,
+              },
+            ]
+          }
+        >
+          Available points:
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 24,
+                "marginTop": 8,
+              },
+            ]
+          }
+        >
+          Available points are ready to be redeemed! Use points for Gift Cards in the Rewards section of MAX, or on our Marketplace partner products. Treat yourself! You’ve earned it!
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "marginTop": 32,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "opacity": 0.8,
+            }
+          }
+        >
+          <Text
+            accessibilityLabel="icon-text"
+            accessible={true}
+            allowFontScaling={false}
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontSize": 18,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "sywmax",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+            testID="icon-text"
+          >
+            
+          </Text>
+        </View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#262C2F",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "lineHeight": 20,
+                "marginTop": 16,
+              },
+            ]
+          }
+        >
+          Pending points:
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 24,
+                "marginTop": 8,
+              },
+            ]
+          }
+        >
+          After you make a qualifying purchase with a merchant, the points you’ve earned will be in a “pending” state until the purchase has been cleared with the merchant. Please allow up to ninety days to receive the points back for any mobile or online purchases.
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "marginTop": 32,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FF5F00",
+              "borderBottomLeftRadius": 18,
+              "borderBottomRightRadius": 18,
+              "borderTopLeftRadius": 18,
+              "borderTopRightRadius": 18,
+              "height": 18,
+              "justifyContent": "center",
+              "width": 18,
+            }
+          }
+        >
+          <Text
+            accessibilityLabel="icon-text"
+            accessible={true}
+            allowFontScaling={false}
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 12,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "sywmax",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+            testID="icon-text"
+          >
+            
+          </Text>
+        </View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#262C2F",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "lineHeight": 20,
+                "marginTop": 16,
+              },
+            ]
+          }
+        >
+          Expiring points:
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 24,
+                "marginTop": 8,
+              },
+            ]
+          }
+        >
+          All points earned have an expiration date. We’ll be sure to let you know when they are getting close! After points are expired, those points will not be eligible for redemption and removed from your available point balance.
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

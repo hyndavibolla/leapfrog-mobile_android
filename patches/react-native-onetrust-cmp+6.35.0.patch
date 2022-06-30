@@ -1,0 +1,14 @@
+diff --git a/node_modules/react-native-onetrust-cmp/android/build.gradle b/node_modules/react-native-onetrust-cmp/android/build.gradle
+index d497f8d..2ec1a75 100644
+--- a/node_modules/react-native-onetrust-cmp/android/build.gradle
++++ b/node_modules/react-native-onetrust-cmp/android/build.gradle
+@@ -110,7 +110,8 @@ afterEvaluate { project ->
+     task androidJavadoc(type: Javadoc) {
+         source = android.sourceSets.main.java.srcDirs
+         classpath += files(android.bootClasspath)
+-        classpath += files(project.getConfigurations().getByName('compile').asList())
++        project.getConfigurations().getByName('implementation').setCanBeResolved(true)
++        classpath += files(project.getConfigurations().getByName('implementation').asList())
+         include '**/*.java'
+     }
+ 

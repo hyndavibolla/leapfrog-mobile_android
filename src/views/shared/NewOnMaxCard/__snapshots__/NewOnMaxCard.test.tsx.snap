@@ -1,0 +1,641 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PetiteMissionCard should render 1`] = `
+<View
+  accessibilityLabel="new-on-max-card-container"
+  accessible={true}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#EBEDF2",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexDirection": "row",
+        "height": 148,
+        "marginBottom": 8,
+        "marginLeft": 8,
+        "marginRight": 8,
+        "marginTop": 8,
+        "paddingBottom": 16,
+        "paddingLeft": 20,
+        "paddingRight": 16,
+        "paddingTop": 16,
+      },
+      Object {
+        "width": 675,
+      },
+    ]
+  }
+  testID="new-on-max-card-container"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "height": 40,
+          "width": 40,
+        },
+      ]
+    }
+  >
+    <FastImageView
+      resizeMode="contain"
+      source={
+        Object {
+          "uri": "http://test.com/icon.png",
+        }
+      }
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "paddingBottom": 0,
+        "paddingLeft": 20,
+        "paddingRight": 16,
+        "paddingTop": 4,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          Object {
+            "color": "#262C2F",
+            "fontFamily": "SFProDisplay-Bold",
+            "fontSize": 16,
+            "lineHeight": 20,
+            "marginBottom": 4,
+          },
+        ]
+      }
+    >
+      Test title
+    </Text>
+    <Text
+      numberOfLines={3}
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 20,
+            "marginBottom": 16,
+          },
+        ]
+      }
+    >
+      Test description
+    </Text>
+  </View>
+  <View
+    accessibilityLabel="new-on-max-card-close-btn"
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    testID="new-on-max-card-close-btn"
+  >
+    <Text
+      accessibilityLabel="icon-text"
+      accessible={true}
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        Array [
+          Object {
+            "color": "#262C2F",
+            "fontSize": 22,
+          },
+          undefined,
+          Object {
+            "fontFamily": "sywmax",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+      testID="icon-text"
+    >
+      
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`PetiteMissionCard should render safely when icon is null 1`] = `
+<View
+  accessibilityLabel="new-on-max-card-container"
+  accessible={true}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#EBEDF2",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexDirection": "row",
+        "height": 148,
+        "marginBottom": 8,
+        "marginLeft": 8,
+        "marginRight": 8,
+        "marginTop": 8,
+        "paddingBottom": 16,
+        "paddingLeft": 20,
+        "paddingRight": 16,
+        "paddingTop": 16,
+      },
+      Object {
+        "width": 675,
+      },
+    ]
+  }
+  testID="new-on-max-card-container"
+>
+  <View
+    style={
+      Object {
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "paddingBottom": 0,
+        "paddingLeft": 20,
+        "paddingRight": 16,
+        "paddingTop": 4,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          Object {
+            "color": "#262C2F",
+            "fontFamily": "SFProDisplay-Bold",
+            "fontSize": 16,
+            "lineHeight": 20,
+            "marginBottom": 4,
+          },
+        ]
+      }
+    >
+      Test title
+    </Text>
+    <Text
+      numberOfLines={3}
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 20,
+            "marginBottom": 16,
+          },
+        ]
+      }
+    >
+      Test description
+    </Text>
+  </View>
+  <View
+    accessibilityLabel="new-on-max-card-close-btn"
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    testID="new-on-max-card-close-btn"
+  >
+    <Text
+      accessibilityLabel="icon-text"
+      accessible={true}
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        Array [
+          Object {
+            "color": "#262C2F",
+            "fontSize": 22,
+          },
+          undefined,
+          Object {
+            "fontFamily": "sywmax",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+      testID="icon-text"
+    >
+      
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`PetiteMissionCard should render with action button 1`] = `
+<View
+  accessibilityLabel="new-on-max-card-container"
+  accessible={true}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#EBEDF2",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexDirection": "row",
+        "height": 148,
+        "marginBottom": 8,
+        "marginLeft": 8,
+        "marginRight": 8,
+        "marginTop": 8,
+        "paddingBottom": 16,
+        "paddingLeft": 20,
+        "paddingRight": 16,
+        "paddingTop": 16,
+      },
+      Object {
+        "width": 675,
+      },
+    ]
+  }
+  testID="new-on-max-card-container"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "height": 40,
+          "width": 40,
+        },
+      ]
+    }
+  >
+    <FastImageView
+      resizeMode="contain"
+      source={
+        Object {
+          "uri": "http://test.com/icon.png",
+        }
+      }
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "paddingBottom": 0,
+        "paddingLeft": 20,
+        "paddingRight": 16,
+        "paddingTop": 4,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          Object {
+            "color": "#262C2F",
+            "fontFamily": "SFProDisplay-Bold",
+            "fontSize": 16,
+            "lineHeight": 20,
+            "marginBottom": 4,
+          },
+        ]
+      }
+    >
+      Test title
+    </Text>
+    <Text
+      numberOfLines={3}
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 20,
+            "marginBottom": 16,
+          },
+        ]
+      }
+    >
+      Test description
+    </Text>
+    <View
+      accessibilityLabel="new-on-max-card-action-btn"
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        }
+      }
+      testID="new-on-max-card-action-btn"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Object {
+              "color": "#0066CC",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "lineHeight": 16,
+              "marginRight": 4,
+            },
+          ]
+        }
+      >
+        Action
+      </Text>
+      <Text
+        accessibilityLabel="icon-text"
+        accessible={true}
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          Array [
+            Object {
+              "color": "#0066CC",
+              "fontSize": 20,
+            },
+            undefined,
+            Object {
+              "fontFamily": "sywmax",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+        testID="icon-text"
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <View
+    accessibilityLabel="new-on-max-card-close-btn"
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    testID="new-on-max-card-close-btn"
+  >
+    <Text
+      accessibilityLabel="icon-text"
+      accessible={true}
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        Array [
+          Object {
+            "color": "#262C2F",
+            "fontSize": 22,
+          },
+          undefined,
+          Object {
+            "fontFamily": "sywmax",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+      testID="icon-text"
+    >
+      
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`PetiteMissionCard should render with asset icon 1`] = `
+<View
+  accessibilityLabel="new-on-max-card-container"
+  accessible={true}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#EBEDF2",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexDirection": "row",
+        "height": 148,
+        "marginBottom": 8,
+        "marginLeft": 8,
+        "marginRight": 8,
+        "marginTop": 8,
+        "paddingBottom": 16,
+        "paddingLeft": 20,
+        "paddingRight": 16,
+        "paddingTop": 16,
+      },
+      Object {
+        "width": 675,
+      },
+    ]
+  }
+  testID="new-on-max-card-container"
+>
+  WavingHand
+  <View
+    style={
+      Object {
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "paddingBottom": 0,
+        "paddingLeft": 20,
+        "paddingRight": 16,
+        "paddingTop": 4,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          Object {
+            "color": "#262C2F",
+            "fontFamily": "SFProDisplay-Bold",
+            "fontSize": 16,
+            "lineHeight": 20,
+            "marginBottom": 4,
+          },
+        ]
+      }
+    >
+      Test title
+    </Text>
+    <Text
+      numberOfLines={3}
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 20,
+            "marginBottom": 16,
+          },
+        ]
+      }
+    >
+      Test description
+    </Text>
+  </View>
+  <View
+    accessibilityLabel="new-on-max-card-close-btn"
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    testID="new-on-max-card-close-btn"
+  >
+    <Text
+      accessibilityLabel="icon-text"
+      accessible={true}
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        Array [
+          Object {
+            "color": "#262C2F",
+            "fontSize": 22,
+          },
+          undefined,
+          Object {
+            "fontFamily": "sywmax",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+      testID="icon-text"
+    >
+      
+    </Text>
+  </View>
+</View>
+`;

@@ -1,0 +1,1684 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MissionSearchInput should render 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RNCSafeAreaProvider
+    onInsetsChange={[Function]}
+    style={
+      Array [
+        Object {
+          "flex": 1,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      collapsable={false}
+      pointerEvents="box-none"
+      style={
+        Object {
+          "zIndex": 1,
+        }
+      }
+    >
+      <View
+        accessibilityElementsHidden={false}
+        importantForAccessibility="auto"
+        onLayout={[Function]}
+        pointerEvents="box-none"
+        style={null}
+      >
+        <View
+          collapsable={false}
+          pointerEvents="box-none"
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "opacity": 1,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "zIndex": 0,
+            }
+          }
+        >
+          <View
+            collapsable={false}
+            style={
+              Object {
+                "backgroundColor": "rgb(255, 255, 255)",
+                "borderBottomColor": "rgb(216, 216, 216)",
+                "flex": 1,
+                "shadowColor": "rgb(216, 216, 216)",
+                "shadowOffset": Object {
+                  "height": 0.5,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.85,
+                "shadowRadius": 0,
+              }
+            }
+          />
+        </View>
+        <View
+          collapsable={false}
+          pointerEvents="box-none"
+          style={
+            Object {
+              "height": 64,
+              "maxHeight": undefined,
+              "minHeight": undefined,
+              "opacity": undefined,
+              "transform": undefined,
+            }
+          }
+        >
+          <View
+            pointerEvents="none"
+            style={
+              Object {
+                "height": 20,
+              }
+            }
+          />
+          <View
+            pointerEvents="box-none"
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "flexDirection": "row",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <View
+              collapsable={false}
+              pointerEvents="box-none"
+              style={
+                Object {
+                  "marginHorizontal": 16,
+                  "opacity": 1,
+                }
+              }
+            >
+              <Text
+                accessibilityRole="header"
+                aria-level="1"
+                collapsable={false}
+                numberOfLines={1}
+                onLayout={[Function]}
+                style={
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 17,
+                    "fontWeight": "600",
+                  }
+                }
+              >
+                route
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+    <RNSScreenContainer
+      onLayout={[Function]}
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <RNSScreen
+        activityState={2}
+        collapsable={false}
+        forwardedRef={[Function]}
+        pointerEvents="box-none"
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        />
+        <View
+          accessibilityElementsHidden={false}
+          closing={false}
+          gestureVelocityImpact={0.3}
+          importantForAccessibility="auto"
+          onClose={[Function]}
+          onGestureBegin={[Function]}
+          onGestureCanceled={[Function]}
+          onGestureEnd={[Function]}
+          onOpen={[Function]}
+          onTransition={[Function]}
+          pointerEvents="box-none"
+          style={
+            Array [
+              Object {
+                "overflow": undefined,
+              },
+              Object {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+            ]
+          }
+          transitionSpec={
+            Object {
+              "close": Object {
+                "animation": "spring",
+                "config": Object {
+                  "damping": 500,
+                  "mass": 3,
+                  "overshootClamping": true,
+                  "restDisplacementThreshold": 10,
+                  "restSpeedThreshold": 10,
+                  "stiffness": 1000,
+                },
+              },
+              "open": Object {
+                "animation": "spring",
+                "config": Object {
+                  "damping": 500,
+                  "mass": 3,
+                  "overshootClamping": true,
+                  "restDisplacementThreshold": 10,
+                  "restSpeedThreshold": 10,
+                  "stiffness": 1000,
+                },
+              },
+            }
+          }
+        >
+          <View
+            collapsable={false}
+            needsOffscreenAlphaCompositing={false}
+            pointerEvents="box-none"
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              collapsable={false}
+              forwardedRef={[Function]}
+              onGestureHandlerEvent={[Function]}
+              onGestureHandlerStateChange={[Function]}
+              style={
+                Object {
+                  "flex": 1,
+                  "transform": Array [
+                    Object {
+                      "translateX": 0,
+                    },
+                    Object {
+                      "translateX": 0,
+                    },
+                  ],
+                }
+              }
+            >
+              <View
+                collapsable={false}
+                pointerEvents="none"
+                style={
+                  Object {
+                    "backgroundColor": "rgb(242, 242, 242)",
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "shadowColor": "#000",
+                    "shadowOffset": Object {
+                      "height": 1,
+                      "width": -1,
+                    },
+                    "shadowOpacity": 0.3,
+                    "shadowRadius": 5,
+                    "top": 0,
+                    "width": 3,
+                  }
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flex": 1,
+                      "overflow": "hidden",
+                    },
+                    Array [
+                      Object {
+                        "backgroundColor": "rgb(242, 242, 242)",
+                      },
+                      undefined,
+                    ],
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "flexDirection": "column-reverse",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "flex": 1,
+                      }
+                    }
+                  >
+                    <View
+                      accessibilityLabel="mission-search-input-container"
+                      accessible={true}
+                      testID="mission-search-input-container"
+                    >
+                      <View
+                        accessible={true}
+                        collapsable={false}
+                        focusable={true}
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          Object {
+                            "opacity": 1,
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            Object {
+                              "alignItems": "center",
+                              "flexDirection": "row",
+                              "height": 40,
+                              "justifyContent": "center",
+                            }
+                          }
+                        >
+                          <View
+                            style={
+                              Array [
+                                Object {
+                                  "backgroundColor": "transparent",
+                                  "elevation": 3,
+                                  "shadowColor": "#262C2F",
+                                  "shadowOffset": Object {
+                                    "height": 4,
+                                    "width": 0,
+                                  },
+                                  "shadowOpacity": 0.1,
+                                },
+                                Object {
+                                  "alignItems": "center",
+                                  "borderBottomLeftRadius": 25,
+                                  "borderBottomRightRadius": 25,
+                                  "borderTopLeftRadius": 25,
+                                  "borderTopRightRadius": 25,
+                                  "flexBasis": 0,
+                                  "flexDirection": "row",
+                                  "flexGrow": 1,
+                                  "flexShrink": 1,
+                                  "height": 40,
+                                  "paddingHorizontal": 16,
+                                },
+                                Object {
+                                  "backgroundColor": "#3F8EDC",
+                                },
+                                false,
+                                undefined,
+                              ]
+                            }
+                          >
+                            <View
+                              accessible={true}
+                              collapsable={false}
+                              focusable={true}
+                              onClick={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Object {
+                                  "opacity": 1,
+                                }
+                              }
+                            >
+                              <Text
+                                accessibilityLabel="icon-text"
+                                accessible={true}
+                                allowFontScaling={false}
+                                selectable={false}
+                                style={
+                                  Array [
+                                    Object {
+                                      "color": "#FFFFFF",
+                                      "fontSize": 20,
+                                    },
+                                    undefined,
+                                    Object {
+                                      "fontFamily": "sywmax",
+                                      "fontStyle": "normal",
+                                      "fontWeight": "normal",
+                                    },
+                                    Object {},
+                                  ]
+                                }
+                                testID="icon-text"
+                              >
+                                
+                              </Text>
+                            </View>
+                            <View
+                              style={
+                                Object {
+                                  "alignItems": "flex-start",
+                                  "flexBasis": 0,
+                                  "flexGrow": 1,
+                                  "flexShrink": 1,
+                                  "justifyContent": "center",
+                                  "marginHorizontal": 8,
+                                }
+                              }
+                            >
+                              <TextInput
+                                accessibilityLabel="search-input-input"
+                                accessible={true}
+                                editable={true}
+                                numberOfLines={1}
+                                onBlur={[Function]}
+                                onChangeText={[Function]}
+                                onFocus={[Function]}
+                                onSubmitEditing={[Function]}
+                                returnKeyType="go"
+                                selectionColor="#909BA0"
+                                style={
+                                  Array [
+                                    Object {
+                                      "color": "#262C2F",
+                                      "fontSize": 14,
+                                      "height": "100%",
+                                      "width": "100%",
+                                    },
+                                    Object {
+                                      "color": "#FFFFFF",
+                                    },
+                                  ]
+                                }
+                                testID="search-input-input"
+                                value=""
+                              />
+                              <Text
+                                numberOfLines={1}
+                                style={
+                                  Array [
+                                    Object {
+                                      "color": "#909BA0",
+                                      "fontFamily": "SFProDisplay-Medium",
+                                      "fontSize": 16,
+                                      "lineHeight": 22,
+                                    },
+                                    Array [
+                                      Object {
+                                        "fontSize": 14,
+                                        "position": "absolute",
+                                        "top": 9,
+                                        "width": "100%",
+                                      },
+                                      Object {
+                                        "color": "#FFFFFF",
+                                      },
+                                      Object {
+                                        "color": "#FFFFFF",
+                                      },
+                                    ],
+                                  ]
+                                }
+                              >
+                                Search for brands or categories
+                              </Text>
+                            </View>
+                          </View>
+                          <View
+                            accessibilityLabel="search-input-filter-btn"
+                            accessible={true}
+                            collapsable={false}
+                            focusable={true}
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Object {
+                                "opacity": 1,
+                              }
+                            }
+                            testID="search-input-filter-btn"
+                          >
+                            <View
+                              style={
+                                Array [
+                                  Object {
+                                    "alignItems": "center",
+                                    "backgroundColor": "#0066CC",
+                                    "borderBottomLeftRadius": 30,
+                                    "borderBottomRightRadius": 30,
+                                    "borderTopLeftRadius": 30,
+                                    "borderTopRightRadius": 30,
+                                    "flexDirection": "row",
+                                    "justifyContent": "center",
+                                    "paddingBottom": 8,
+                                    "paddingLeft": 12,
+                                    "paddingRight": 12,
+                                    "paddingTop": 8,
+                                  },
+                                  Array [
+                                    Object {
+                                      "backgroundColor": "transparent",
+                                      "elevation": 3,
+                                      "shadowColor": "#262C2F",
+                                      "shadowOffset": Object {
+                                        "height": 4,
+                                        "width": 0,
+                                      },
+                                      "shadowOpacity": 0.1,
+                                    },
+                                    Object {
+                                      "borderBottomLeftRadius": 25,
+                                      "borderBottomRightRadius": 25,
+                                      "borderTopLeftRadius": 25,
+                                      "borderTopRightRadius": 25,
+                                      "flexDirection": "row",
+                                      "height": 40,
+                                      "marginLeft": 16,
+                                      "width": 40,
+                                    },
+                                    Object {
+                                      "backgroundColor": "#3F8EDC",
+                                    },
+                                    0,
+                                  ],
+                                ]
+                              }
+                            >
+                              <View
+                                style={false}
+                              >
+                                FilterIcon
+                              </View>
+                            </View>
+                          </View>
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </RNSScreen>
+    </RNSScreenContainer>
+  </RNCSafeAreaProvider>
+</View>
+`;
+
+exports[`MissionSearchInput should render with a critical error 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RNCSafeAreaProvider
+    onInsetsChange={[Function]}
+    style={
+      Array [
+        Object {
+          "flex": 1,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      collapsable={false}
+      pointerEvents="box-none"
+      style={
+        Object {
+          "zIndex": 1,
+        }
+      }
+    >
+      <View
+        accessibilityElementsHidden={false}
+        importantForAccessibility="auto"
+        onLayout={[Function]}
+        pointerEvents="box-none"
+        style={null}
+      >
+        <View
+          collapsable={false}
+          pointerEvents="box-none"
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "opacity": 1,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "zIndex": 0,
+            }
+          }
+        >
+          <View
+            collapsable={false}
+            style={
+              Object {
+                "backgroundColor": "rgb(255, 255, 255)",
+                "borderBottomColor": "rgb(216, 216, 216)",
+                "flex": 1,
+                "shadowColor": "rgb(216, 216, 216)",
+                "shadowOffset": Object {
+                  "height": 0.5,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.85,
+                "shadowRadius": 0,
+              }
+            }
+          />
+        </View>
+        <View
+          collapsable={false}
+          pointerEvents="box-none"
+          style={
+            Object {
+              "height": 64,
+              "maxHeight": undefined,
+              "minHeight": undefined,
+              "opacity": undefined,
+              "transform": undefined,
+            }
+          }
+        >
+          <View
+            pointerEvents="none"
+            style={
+              Object {
+                "height": 20,
+              }
+            }
+          />
+          <View
+            pointerEvents="box-none"
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "flexDirection": "row",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <View
+              collapsable={false}
+              pointerEvents="box-none"
+              style={
+                Object {
+                  "marginHorizontal": 16,
+                  "opacity": 1,
+                }
+              }
+            >
+              <Text
+                accessibilityRole="header"
+                aria-level="1"
+                collapsable={false}
+                numberOfLines={1}
+                onLayout={[Function]}
+                style={
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 17,
+                    "fontWeight": "600",
+                  }
+                }
+              >
+                route
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+    <RNSScreenContainer
+      onLayout={[Function]}
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <RNSScreen
+        activityState={2}
+        collapsable={false}
+        forwardedRef={[Function]}
+        pointerEvents="box-none"
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        />
+        <View
+          accessibilityElementsHidden={false}
+          closing={false}
+          gestureVelocityImpact={0.3}
+          importantForAccessibility="auto"
+          onClose={[Function]}
+          onGestureBegin={[Function]}
+          onGestureCanceled={[Function]}
+          onGestureEnd={[Function]}
+          onOpen={[Function]}
+          onTransition={[Function]}
+          pointerEvents="box-none"
+          style={
+            Array [
+              Object {
+                "overflow": undefined,
+              },
+              Object {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+            ]
+          }
+          transitionSpec={
+            Object {
+              "close": Object {
+                "animation": "spring",
+                "config": Object {
+                  "damping": 500,
+                  "mass": 3,
+                  "overshootClamping": true,
+                  "restDisplacementThreshold": 10,
+                  "restSpeedThreshold": 10,
+                  "stiffness": 1000,
+                },
+              },
+              "open": Object {
+                "animation": "spring",
+                "config": Object {
+                  "damping": 500,
+                  "mass": 3,
+                  "overshootClamping": true,
+                  "restDisplacementThreshold": 10,
+                  "restSpeedThreshold": 10,
+                  "stiffness": 1000,
+                },
+              },
+            }
+          }
+        >
+          <View
+            collapsable={false}
+            needsOffscreenAlphaCompositing={false}
+            pointerEvents="box-none"
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              collapsable={false}
+              forwardedRef={[Function]}
+              onGestureHandlerEvent={[Function]}
+              onGestureHandlerStateChange={[Function]}
+              style={
+                Object {
+                  "flex": 1,
+                  "transform": Array [
+                    Object {
+                      "translateX": 0,
+                    },
+                    Object {
+                      "translateX": 0,
+                    },
+                  ],
+                }
+              }
+            >
+              <View
+                collapsable={false}
+                pointerEvents="none"
+                style={
+                  Object {
+                    "backgroundColor": "rgb(242, 242, 242)",
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "shadowColor": "#000",
+                    "shadowOffset": Object {
+                      "height": 1,
+                      "width": -1,
+                    },
+                    "shadowOpacity": 0.3,
+                    "shadowRadius": 5,
+                    "top": 0,
+                    "width": 3,
+                  }
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flex": 1,
+                      "overflow": "hidden",
+                    },
+                    Array [
+                      Object {
+                        "backgroundColor": "rgb(242, 242, 242)",
+                      },
+                      undefined,
+                    ],
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "flexDirection": "column-reverse",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "flex": 1,
+                      }
+                    }
+                  >
+                    <View
+                      accessibilityLabel="mission-search-input-container"
+                      accessible={true}
+                      testID="mission-search-input-container"
+                    >
+                      <View
+                        accessible={true}
+                        collapsable={false}
+                        focusable={true}
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          Object {
+                            "opacity": 1,
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            Object {
+                              "alignItems": "center",
+                              "flexDirection": "row",
+                              "height": 40,
+                              "justifyContent": "center",
+                            }
+                          }
+                        >
+                          <View
+                            style={
+                              Array [
+                                Object {
+                                  "backgroundColor": "transparent",
+                                  "elevation": 3,
+                                  "shadowColor": "#262C2F",
+                                  "shadowOffset": Object {
+                                    "height": 4,
+                                    "width": 0,
+                                  },
+                                  "shadowOpacity": 0.1,
+                                },
+                                Object {
+                                  "alignItems": "center",
+                                  "borderBottomLeftRadius": 25,
+                                  "borderBottomRightRadius": 25,
+                                  "borderTopLeftRadius": 25,
+                                  "borderTopRightRadius": 25,
+                                  "flexBasis": 0,
+                                  "flexDirection": "row",
+                                  "flexGrow": 1,
+                                  "flexShrink": 1,
+                                  "height": 40,
+                                  "paddingHorizontal": 16,
+                                },
+                                Object {
+                                  "backgroundColor": "#3F8EDC",
+                                },
+                                false,
+                                undefined,
+                              ]
+                            }
+                          >
+                            <View
+                              accessible={true}
+                              collapsable={false}
+                              focusable={true}
+                              onClick={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Object {
+                                  "opacity": 1,
+                                }
+                              }
+                            >
+                              <Text
+                                accessibilityLabel="icon-text"
+                                accessible={true}
+                                allowFontScaling={false}
+                                selectable={false}
+                                style={
+                                  Array [
+                                    Object {
+                                      "color": "#FFFFFF",
+                                      "fontSize": 20,
+                                    },
+                                    undefined,
+                                    Object {
+                                      "fontFamily": "sywmax",
+                                      "fontStyle": "normal",
+                                      "fontWeight": "normal",
+                                    },
+                                    Object {},
+                                  ]
+                                }
+                                testID="icon-text"
+                              >
+                                
+                              </Text>
+                            </View>
+                            <View
+                              style={
+                                Object {
+                                  "alignItems": "flex-start",
+                                  "flexBasis": 0,
+                                  "flexGrow": 1,
+                                  "flexShrink": 1,
+                                  "justifyContent": "center",
+                                  "marginHorizontal": 8,
+                                }
+                              }
+                            >
+                              <TextInput
+                                accessibilityLabel="search-input-input"
+                                accessible={true}
+                                editable={true}
+                                numberOfLines={1}
+                                onBlur={[Function]}
+                                onChangeText={[Function]}
+                                onFocus={[Function]}
+                                onSubmitEditing={[Function]}
+                                returnKeyType="go"
+                                selectionColor="#909BA0"
+                                style={
+                                  Array [
+                                    Object {
+                                      "color": "#262C2F",
+                                      "fontSize": 14,
+                                      "height": "100%",
+                                      "width": "100%",
+                                    },
+                                    Object {
+                                      "color": "#FFFFFF",
+                                    },
+                                  ]
+                                }
+                                testID="search-input-input"
+                                value=""
+                              />
+                              <Text
+                                numberOfLines={1}
+                                style={
+                                  Array [
+                                    Object {
+                                      "color": "#909BA0",
+                                      "fontFamily": "SFProDisplay-Medium",
+                                      "fontSize": 16,
+                                      "lineHeight": 22,
+                                    },
+                                    Array [
+                                      Object {
+                                        "fontSize": 14,
+                                        "position": "absolute",
+                                        "top": 9,
+                                        "width": "100%",
+                                      },
+                                      Object {
+                                        "color": "#FFFFFF",
+                                      },
+                                      Object {
+                                        "color": "#FFFFFF",
+                                      },
+                                    ],
+                                  ]
+                                }
+                              >
+                                Search for brands or categories
+                              </Text>
+                            </View>
+                          </View>
+                          <View
+                            accessibilityLabel="search-input-filter-btn"
+                            accessible={true}
+                            collapsable={false}
+                            focusable={true}
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Object {
+                                "opacity": 1,
+                              }
+                            }
+                            testID="search-input-filter-btn"
+                          >
+                            <View
+                              style={
+                                Array [
+                                  Object {
+                                    "alignItems": "center",
+                                    "backgroundColor": "#0066CC",
+                                    "borderBottomLeftRadius": 30,
+                                    "borderBottomRightRadius": 30,
+                                    "borderTopLeftRadius": 30,
+                                    "borderTopRightRadius": 30,
+                                    "flexDirection": "row",
+                                    "justifyContent": "center",
+                                    "paddingBottom": 8,
+                                    "paddingLeft": 12,
+                                    "paddingRight": 12,
+                                    "paddingTop": 8,
+                                  },
+                                  Array [
+                                    Object {
+                                      "backgroundColor": "transparent",
+                                      "elevation": 3,
+                                      "shadowColor": "#262C2F",
+                                      "shadowOffset": Object {
+                                        "height": 4,
+                                        "width": 0,
+                                      },
+                                      "shadowOpacity": 0.1,
+                                    },
+                                    Object {
+                                      "borderBottomLeftRadius": 25,
+                                      "borderBottomRightRadius": 25,
+                                      "borderTopLeftRadius": 25,
+                                      "borderTopRightRadius": 25,
+                                      "flexDirection": "row",
+                                      "height": 40,
+                                      "marginLeft": 16,
+                                      "width": 40,
+                                    },
+                                    Object {
+                                      "backgroundColor": "#3F8EDC",
+                                    },
+                                    0,
+                                  ],
+                                ]
+                              }
+                            >
+                              <View
+                                style={false}
+                              >
+                                FilterIcon
+                              </View>
+                            </View>
+                          </View>
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </RNSScreen>
+    </RNSScreenContainer>
+  </RNCSafeAreaProvider>
+</View>
+`;
+
+exports[`MissionSearchInput should render with search dropdown open 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RNCSafeAreaProvider
+    onInsetsChange={[Function]}
+    style={
+      Array [
+        Object {
+          "flex": 1,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      collapsable={false}
+      pointerEvents="box-none"
+      style={
+        Object {
+          "zIndex": 1,
+        }
+      }
+    >
+      <View
+        accessibilityElementsHidden={false}
+        importantForAccessibility="auto"
+        onLayout={[Function]}
+        pointerEvents="box-none"
+        style={null}
+      >
+        <View
+          collapsable={false}
+          pointerEvents="box-none"
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "opacity": 1,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "zIndex": 0,
+            }
+          }
+        >
+          <View
+            collapsable={false}
+            style={
+              Object {
+                "backgroundColor": "rgb(255, 255, 255)",
+                "borderBottomColor": "rgb(216, 216, 216)",
+                "flex": 1,
+                "shadowColor": "rgb(216, 216, 216)",
+                "shadowOffset": Object {
+                  "height": 0.5,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.85,
+                "shadowRadius": 0,
+              }
+            }
+          />
+        </View>
+        <View
+          collapsable={false}
+          pointerEvents="box-none"
+          style={
+            Object {
+              "height": 64,
+              "maxHeight": undefined,
+              "minHeight": undefined,
+              "opacity": undefined,
+              "transform": undefined,
+            }
+          }
+        >
+          <View
+            pointerEvents="none"
+            style={
+              Object {
+                "height": 20,
+              }
+            }
+          />
+          <View
+            pointerEvents="box-none"
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "flexDirection": "row",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <View
+              collapsable={false}
+              pointerEvents="box-none"
+              style={
+                Object {
+                  "marginHorizontal": 16,
+                  "opacity": 1,
+                }
+              }
+            >
+              <Text
+                accessibilityRole="header"
+                aria-level="1"
+                collapsable={false}
+                numberOfLines={1}
+                onLayout={[Function]}
+                style={
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 17,
+                    "fontWeight": "600",
+                  }
+                }
+              >
+                route
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+    <RNSScreenContainer
+      onLayout={[Function]}
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <RNSScreen
+        activityState={2}
+        collapsable={false}
+        forwardedRef={[Function]}
+        pointerEvents="box-none"
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        />
+        <View
+          accessibilityElementsHidden={false}
+          closing={false}
+          gestureVelocityImpact={0.3}
+          importantForAccessibility="auto"
+          onClose={[Function]}
+          onGestureBegin={[Function]}
+          onGestureCanceled={[Function]}
+          onGestureEnd={[Function]}
+          onOpen={[Function]}
+          onTransition={[Function]}
+          pointerEvents="box-none"
+          style={
+            Array [
+              Object {
+                "overflow": undefined,
+              },
+              Object {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+            ]
+          }
+          transitionSpec={
+            Object {
+              "close": Object {
+                "animation": "spring",
+                "config": Object {
+                  "damping": 500,
+                  "mass": 3,
+                  "overshootClamping": true,
+                  "restDisplacementThreshold": 10,
+                  "restSpeedThreshold": 10,
+                  "stiffness": 1000,
+                },
+              },
+              "open": Object {
+                "animation": "spring",
+                "config": Object {
+                  "damping": 500,
+                  "mass": 3,
+                  "overshootClamping": true,
+                  "restDisplacementThreshold": 10,
+                  "restSpeedThreshold": 10,
+                  "stiffness": 1000,
+                },
+              },
+            }
+          }
+        >
+          <View
+            collapsable={false}
+            needsOffscreenAlphaCompositing={false}
+            pointerEvents="box-none"
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              collapsable={false}
+              forwardedRef={[Function]}
+              onGestureHandlerEvent={[Function]}
+              onGestureHandlerStateChange={[Function]}
+              style={
+                Object {
+                  "flex": 1,
+                  "transform": Array [
+                    Object {
+                      "translateX": 0,
+                    },
+                    Object {
+                      "translateX": 0,
+                    },
+                  ],
+                }
+              }
+            >
+              <View
+                collapsable={false}
+                pointerEvents="none"
+                style={
+                  Object {
+                    "backgroundColor": "rgb(242, 242, 242)",
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "shadowColor": "#000",
+                    "shadowOffset": Object {
+                      "height": 1,
+                      "width": -1,
+                    },
+                    "shadowOpacity": 0.3,
+                    "shadowRadius": 5,
+                    "top": 0,
+                    "width": 3,
+                  }
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flex": 1,
+                      "overflow": "hidden",
+                    },
+                    Array [
+                      Object {
+                        "backgroundColor": "rgb(242, 242, 242)",
+                      },
+                      undefined,
+                    ],
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "flexDirection": "column-reverse",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "flex": 1,
+                      }
+                    }
+                  >
+                    <View
+                      accessibilityLabel="mission-search-input-container"
+                      accessible={true}
+                      testID="mission-search-input-container"
+                    >
+                      <View
+                        accessible={true}
+                        collapsable={false}
+                        focusable={true}
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          Object {
+                            "opacity": 1,
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            Object {
+                              "alignItems": "center",
+                              "flexDirection": "row",
+                              "height": 40,
+                              "justifyContent": "center",
+                            }
+                          }
+                        >
+                          <View
+                            style={
+                              Array [
+                                Object {
+                                  "backgroundColor": "transparent",
+                                  "elevation": 3,
+                                  "shadowColor": "#262C2F",
+                                  "shadowOffset": Object {
+                                    "height": 4,
+                                    "width": 0,
+                                  },
+                                  "shadowOpacity": 0.1,
+                                },
+                                Object {
+                                  "alignItems": "center",
+                                  "borderBottomLeftRadius": 25,
+                                  "borderBottomRightRadius": 25,
+                                  "borderTopLeftRadius": 25,
+                                  "borderTopRightRadius": 25,
+                                  "flexBasis": 0,
+                                  "flexDirection": "row",
+                                  "flexGrow": 1,
+                                  "flexShrink": 1,
+                                  "height": 40,
+                                  "paddingHorizontal": 16,
+                                },
+                                Object {
+                                  "backgroundColor": "#3F8EDC",
+                                },
+                                false,
+                                undefined,
+                              ]
+                            }
+                          >
+                            <View
+                              accessible={true}
+                              collapsable={false}
+                              focusable={true}
+                              onClick={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Object {
+                                  "opacity": 1,
+                                }
+                              }
+                            >
+                              <Text
+                                accessibilityLabel="icon-text"
+                                accessible={true}
+                                allowFontScaling={false}
+                                selectable={false}
+                                style={
+                                  Array [
+                                    Object {
+                                      "color": "#FFFFFF",
+                                      "fontSize": 20,
+                                    },
+                                    undefined,
+                                    Object {
+                                      "fontFamily": "sywmax",
+                                      "fontStyle": "normal",
+                                      "fontWeight": "normal",
+                                    },
+                                    Object {},
+                                  ]
+                                }
+                                testID="icon-text"
+                              >
+                                
+                              </Text>
+                            </View>
+                            <View
+                              style={
+                                Object {
+                                  "alignItems": "flex-start",
+                                  "flexBasis": 0,
+                                  "flexGrow": 1,
+                                  "flexShrink": 1,
+                                  "justifyContent": "center",
+                                  "marginHorizontal": 8,
+                                }
+                              }
+                            >
+                              <TextInput
+                                accessibilityLabel="search-input-input"
+                                accessible={true}
+                                editable={true}
+                                numberOfLines={1}
+                                onBlur={[Function]}
+                                onChangeText={[Function]}
+                                onFocus={[Function]}
+                                onSubmitEditing={[Function]}
+                                returnKeyType="go"
+                                selectionColor="#909BA0"
+                                style={
+                                  Array [
+                                    Object {
+                                      "color": "#262C2F",
+                                      "fontSize": 14,
+                                      "height": "100%",
+                                      "width": "100%",
+                                    },
+                                    Object {
+                                      "color": "#FFFFFF",
+                                    },
+                                  ]
+                                }
+                                testID="search-input-input"
+                                value=""
+                              />
+                              <Text
+                                numberOfLines={1}
+                                style={
+                                  Array [
+                                    Object {
+                                      "color": "#909BA0",
+                                      "fontFamily": "SFProDisplay-Medium",
+                                      "fontSize": 16,
+                                      "lineHeight": 22,
+                                    },
+                                    Array [
+                                      Object {
+                                        "fontSize": 14,
+                                        "position": "absolute",
+                                        "top": 9,
+                                        "width": "100%",
+                                      },
+                                      Object {
+                                        "color": "#FFFFFF",
+                                      },
+                                      Object {
+                                        "color": "#FFFFFF",
+                                      },
+                                    ],
+                                  ]
+                                }
+                              >
+                                Search for brands or categories
+                              </Text>
+                            </View>
+                          </View>
+                          <View
+                            accessibilityLabel="search-input-filter-btn"
+                            accessible={true}
+                            collapsable={false}
+                            focusable={true}
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Object {
+                                "opacity": 1,
+                              }
+                            }
+                            testID="search-input-filter-btn"
+                          >
+                            <View
+                              style={
+                                Array [
+                                  Object {
+                                    "alignItems": "center",
+                                    "backgroundColor": "#0066CC",
+                                    "borderBottomLeftRadius": 30,
+                                    "borderBottomRightRadius": 30,
+                                    "borderTopLeftRadius": 30,
+                                    "borderTopRightRadius": 30,
+                                    "flexDirection": "row",
+                                    "justifyContent": "center",
+                                    "paddingBottom": 8,
+                                    "paddingLeft": 12,
+                                    "paddingRight": 12,
+                                    "paddingTop": 8,
+                                  },
+                                  Array [
+                                    Object {
+                                      "backgroundColor": "transparent",
+                                      "elevation": 3,
+                                      "shadowColor": "#262C2F",
+                                      "shadowOffset": Object {
+                                        "height": 4,
+                                        "width": 0,
+                                      },
+                                      "shadowOpacity": 0.1,
+                                    },
+                                    Object {
+                                      "borderBottomLeftRadius": 25,
+                                      "borderBottomRightRadius": 25,
+                                      "borderTopLeftRadius": 25,
+                                      "borderTopRightRadius": 25,
+                                      "flexDirection": "row",
+                                      "height": 40,
+                                      "marginLeft": 16,
+                                      "width": 40,
+                                    },
+                                    Object {
+                                      "backgroundColor": "#3F8EDC",
+                                    },
+                                    0,
+                                  ],
+                                ]
+                              }
+                            >
+                              <View
+                                style={false}
+                              >
+                                FilterIcon
+                              </View>
+                            </View>
+                          </View>
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </RNSScreen>
+    </RNSScreenContainer>
+  </RNCSafeAreaProvider>
+</View>
+`;

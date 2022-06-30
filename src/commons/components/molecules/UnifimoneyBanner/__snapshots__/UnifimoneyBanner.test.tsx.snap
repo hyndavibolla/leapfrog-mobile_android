@@ -1,0 +1,304 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UnifimoneyBanner should render 1`] = `
+<BVLinearGradient
+  accessibilityLabel="unifimoney-banner-container"
+  accessible={true}
+  colors={
+    Array [
+      4278216396,
+      4278213314,
+    ]
+  }
+  endPoint={
+    Object {
+      "x": 0.5,
+      "y": 1,
+    }
+  }
+  locations={null}
+  startPoint={
+    Object {
+      "x": 0.5,
+      "y": 0,
+    }
+  }
+  style={
+    Object {
+      "borderBottomLeftRadius": 8,
+      "borderBottomRightRadius": 8,
+      "borderTopLeftRadius": 8,
+      "borderTopRightRadius": 8,
+      "height": 304,
+    }
+  }
+  testID="unifimoney-banner-container"
+>
+  <View
+    accessibilityIgnoresInvertColors={true}
+    style={
+      Object {
+        "paddingBottom": 32,
+        "paddingLeft": 24,
+        "paddingRight": 24,
+        "paddingTop": 32,
+      }
+    }
+  >
+    <Image
+      resizeMode="cover"
+      source={
+        Object {
+          "testUri": "../../../src/assets/shared/backgroundFullPatternAsset.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          Object {
+            "height": undefined,
+            "width": undefined,
+          },
+          undefined,
+        ]
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginBottom": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+              "borderBottomLeftRadius": 30,
+              "borderBottomRightRadius": 30,
+              "borderTopLeftRadius": 30,
+              "borderTopRightRadius": 30,
+              "height": 60,
+              "justifyContent": "center",
+              "width": 60,
+            },
+            Object {
+              "elevation": 4,
+              "left": 8,
+              "position": "relative",
+              "shadowColor": "#262C2F",
+              "shadowOffset": Object {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 0.23,
+              "shadowRadius": 2.62,
+              "zIndex": 1,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderRadius": 40,
+                "height": 70,
+                "justifyContent": "center",
+                "width": 70,
+              },
+              Object {
+                "paddingTop": 4,
+              },
+            ]
+          }
+        >
+          <View>
+            <Text
+              accessibilityLabel="icon-text"
+              accessible={true}
+              allowFontScaling={false}
+              selectable={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#0066CC",
+                    "fontSize": 40,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "sywmax",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+              testID="icon-text"
+            >
+              
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderBottomLeftRadius": 30,
+            "borderBottomRightRadius": 30,
+            "borderTopLeftRadius": 30,
+            "borderTopRightRadius": 30,
+            "height": 60,
+            "justifyContent": "center",
+            "width": 60,
+          }
+        }
+      >
+        <Text
+          accessibilityLabel="icon-text"
+          accessible={true}
+          allowFontScaling={false}
+          selectable={false}
+          style={
+            Array [
+              Object {
+                "color": "#8DC63F",
+                "fontSize": 34,
+              },
+              undefined,
+              Object {
+                "fontFamily": "sywmax",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          testID="icon-text"
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <Text
+      style={
+        Object {
+          "color": "#FFFFFF",
+          "fontFamily": "SFProDisplay-Bold",
+          "fontSize": 20,
+          "lineHeight": 24,
+          "marginBottom": 12,
+          "textAlign": "center",
+        }
+      }
+    >
+      Invest your Points!
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#FFFFFF",
+          "fontFamily": "SFProDisplay-Medium",
+          "fontSize": 14,
+          "lineHeight": 24,
+          "marginBottom": 20,
+          "textAlign": "center",
+        }
+      }
+    >
+      Turn your points into crypto, precious metals with our partner, Unifimoney.
+    </Text>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#0066CC",
+              "borderBottomLeftRadius": 30,
+              "borderBottomRightRadius": 30,
+              "borderTopLeftRadius": 30,
+              "borderTopRightRadius": 30,
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "paddingBottom": 8,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 8,
+            },
+            Object {
+              "backgroundColor": "#FFFFFF",
+            },
+          ]
+        }
+      >
+        <View
+          style={false}
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Medium",
+                  "fontSize": 16,
+                  "lineHeight": 22,
+                },
+                Array [
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontSize": 14,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#0066CC",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 14,
+                    "lineHeight": 20,
+                    "paddingVertical": 8,
+                    "textAlign": "center",
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            Invest now
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</BVLinearGradient>
+`;

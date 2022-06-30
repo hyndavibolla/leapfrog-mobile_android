@@ -1,0 +1,377 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CategoryNavigationHeader should render 1`] = `
+<View
+  accessibilityLabel="image-background-container"
+  accessible={true}
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "height": 108,
+      "overflow": "hidden",
+    }
+  }
+  testID="image-background-container"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Array [
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          Object {
+            "height": 108,
+            "width": undefined,
+          },
+          undefined,
+        ],
+      ]
+    }
+  >
+    <FastImageView
+      accessibilityLabel="image-background-image"
+      accessible={true}
+      onFastImageError={[Function]}
+      onFastImageLoadEnd={[Function]}
+      onFastImageLoadStart={[Function]}
+      resizeMode="cover"
+      source={
+        Object {
+          "uri": "https://i.sears.com/s/i/or/SYW-MAX/Brands_Apparel_&_Accessories-_AGGGFVI9CG",
+        }
+      }
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      testID="image-background-image"
+    />
+    <RNCSafeAreaView
+      edges={
+        Array [
+          "top",
+        ]
+      }
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#262C2F35",
+            "height": "100%",
+            "justifyContent": "center",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "width": "100%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "paddingHorizontal": 20,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#0066CC",
+                    "borderBottomLeftRadius": 30,
+                    "borderBottomRightRadius": 30,
+                    "borderTopLeftRadius": 30,
+                    "borderTopRightRadius": 30,
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "paddingBottom": 8,
+                    "paddingLeft": 12,
+                    "paddingRight": 12,
+                    "paddingTop": 8,
+                  },
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "elevation": 3,
+                      "shadowColor": "#262C2F",
+                      "shadowOffset": Object {
+                        "height": 4,
+                        "width": 0,
+                      },
+                      "shadowOpacity": 0.1,
+                    },
+                    Object {
+                      "alignItems": "center",
+                      "height": 40,
+                      "justifyContent": "center",
+                      "width": 40,
+                    },
+                  ],
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                  },
+                ]
+              }
+            >
+              <View
+                style={false}
+              >
+                <Text
+                  accessibilityLabel="icon-text"
+                  accessible={true}
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#262C2F",
+                        "fontSize": 16,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "sywmax",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                  testID="icon-text"
+                >
+                  
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RNCSafeAreaView>
+  </View>
+</View>
+`;
+
+exports[`CategoryNavigationHeader should render with a bottom shadow 1`] = `
+<View
+  accessibilityLabel="image-background-container"
+  accessible={true}
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "height": 108,
+      "overflow": "hidden",
+    }
+  }
+  testID="image-background-container"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Array [
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          Object {
+            "height": 108,
+            "width": undefined,
+          },
+          undefined,
+        ],
+      ]
+    }
+  >
+    <FastImageView
+      accessibilityLabel="image-background-image"
+      accessible={true}
+      onFastImageError={[Function]}
+      onFastImageLoadEnd={[Function]}
+      onFastImageLoadStart={[Function]}
+      resizeMode="cover"
+      source={
+        Object {
+          "uri": "https://i.sears.com/s/i/or/SYW-MAX/Brands_Apparel_&_Accessories-_AGGGFVI9CG",
+        }
+      }
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      testID="image-background-image"
+    />
+    <RNCSafeAreaView
+      edges={
+        Array [
+          "top",
+        ]
+      }
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#262C2F35",
+            "height": "100%",
+            "justifyContent": "center",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "width": "100%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "paddingHorizontal": 20,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#0066CC",
+                    "borderBottomLeftRadius": 30,
+                    "borderBottomRightRadius": 30,
+                    "borderTopLeftRadius": 30,
+                    "borderTopRightRadius": 30,
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "paddingBottom": 8,
+                    "paddingLeft": 12,
+                    "paddingRight": 12,
+                    "paddingTop": 8,
+                  },
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "elevation": 3,
+                      "shadowColor": "#262C2F",
+                      "shadowOffset": Object {
+                        "height": 4,
+                        "width": 0,
+                      },
+                      "shadowOpacity": 0.1,
+                    },
+                    Object {
+                      "alignItems": "center",
+                      "height": 40,
+                      "justifyContent": "center",
+                      "width": 40,
+                    },
+                  ],
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                  },
+                ]
+              }
+            >
+              <View
+                style={false}
+              >
+                <Text
+                  accessibilityLabel="icon-text"
+                  accessible={true}
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#262C2F",
+                        "fontSize": 16,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "sywmax",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                  testID="icon-text"
+                >
+                  
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RNCSafeAreaView>
+  </View>
+</View>
+`;

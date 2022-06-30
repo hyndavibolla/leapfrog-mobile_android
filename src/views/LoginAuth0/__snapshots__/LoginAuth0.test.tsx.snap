@@ -1,0 +1,222 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login Auth0 should render 1`] = `
+<View
+  accessibilityLabel="login-container"
+  accessible={true}
+  style={
+    Object {
+      "flexDirection": "row",
+      "height": "100%",
+    }
+  }
+  testID="login-container"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#F5F7FA",
+          "borderColor": "black",
+          "borderStyle": "solid",
+          "borderWidth": 1,
+          "justifyContent": "center",
+          "paddingHorizontal": 32,
+          "width": "100%",
+        },
+        Object {
+          "justifyContent": "flex-start",
+          "paddingTop": 12,
+        },
+      ]
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/shared/loginImg.png",
+        }
+      }
+      style={
+        Object {
+          "resizeMode": "contain",
+          "width": "100%",
+        }
+      }
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          Object {
+            "color": "#262C2F",
+            "fontFamily": "SFProDisplay-Bold",
+            "fontSize": 20,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      Welcome
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      To start earning in your favorite stores, we need you to login or register
+    </Text>
+    <View
+      style={
+        Object {
+          "marginBottom": 40,
+          "marginTop": 20,
+        }
+      }
+    >
+      <View
+        accessibilityLabel="login-login-btn"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID="login-login-btn"
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#0066CC",
+                "borderBottomLeftRadius": 30,
+                "borderBottomRightRadius": 30,
+                "borderTopLeftRadius": 30,
+                "borderTopRightRadius": 30,
+                "flexDirection": "row",
+                "justifyContent": "center",
+                "paddingBottom": 8,
+                "paddingLeft": 12,
+                "paddingRight": 12,
+                "paddingTop": 8,
+              },
+              Object {
+                "color": "#0066CC",
+                "paddingBottom": 16,
+                "paddingLeft": 16,
+                "paddingRight": 16,
+                "paddingTop": 16,
+              },
+            ]
+          }
+        >
+          <View
+            style={false}
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Medium",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Array [
+                    Object {
+                      "color": "#FFFFFF",
+                      "fontSize": 14,
+                      "textAlign": "center",
+                    },
+                    Object {
+                      "fontFamily": "SFProDisplay-Bold",
+                      "fontSize": 16,
+                      "fontWeight": "700",
+                    },
+                    undefined,
+                  ],
+                ]
+              }
+            >
+              Login
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        accessibilityLabel="login-register-btn"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID="login-register-btn"
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#0066CC",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "marginBottom": 0,
+                "marginLeft": 20,
+                "marginRight": 10,
+                "marginTop": 20,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          or register
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

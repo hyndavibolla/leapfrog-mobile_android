@@ -1,0 +1,5354 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SkeletonItem should render a "BigSquareSkeletonItem" component 1`] = `
+<View
+  color="#EBEDF2"
+  dir="row"
+  height="300px"
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#EBEDF2",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexBasis": "auto",
+        "flexDirection": "row",
+        "flexGrow": 0,
+        "flexShrink": 1,
+        "height": 300,
+        "width": 350,
+      },
+      Array [
+        Object {
+          "alignItems": "flex-end",
+        },
+        Object {
+          "padding": 30,
+        },
+      ],
+    ]
+  }
+  width="350px"
+>
+  <View
+    color="transparent"
+    dir="row"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexBasis": "auto",
+          "flexDirection": "row",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": "auto",
+          "width": "100%",
+        },
+        Object {
+          "alignItems": "center",
+        },
+      ]
+    }
+  >
+    <View
+      height="50px"
+      radius={25}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 25,
+            "borderBottomRightRadius": 25,
+            "borderTopLeftRadius": 25,
+            "borderTopRightRadius": 25,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 50,
+            "width": 50,
+          },
+          Object {
+            "marginRight": 15,
+          },
+        ]
+      }
+      width="50px"
+    />
+    <View
+      dir="row"
+      height="20px"
+      radius={10}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 10,
+            "borderBottomRightRadius": 10,
+            "borderTopLeftRadius": 10,
+            "borderTopRightRadius": 10,
+            "flexBasis": "auto",
+            "flexDirection": "row",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 20,
+            "width": "50%",
+          },
+          Object {
+            "alignContent": "space-between",
+          },
+        ]
+      }
+      width="50%"
+    />
+  </View>
+</View>
+`;
+
+exports[`SkeletonItem should render a "CardElementSkeleton" component 1`] = `
+<View
+  color="#EBEDF2"
+  dir="row"
+  height="100px"
+  radius={8}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#EBEDF2",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexBasis": "auto",
+        "flexDirection": "row",
+        "flexGrow": 0,
+        "flexShrink": 1,
+        "height": 100,
+        "width": 330,
+      },
+      Array [
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+        },
+        undefined,
+      ],
+    ]
+  }
+  width="330px"
+>
+  <View
+    height="12px"
+    radius={6}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#DFE3EC",
+          "borderBottomLeftRadius": 6,
+          "borderBottomRightRadius": 6,
+          "borderTopLeftRadius": 6,
+          "borderTopRightRadius": 6,
+          "flexBasis": "auto",
+          "flexDirection": "column",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": 12,
+          "width": "70%",
+        },
+        undefined,
+      ]
+    }
+    width="70%"
+  />
+</View>
+`;
+
+exports[`SkeletonItem should render a "CardOfferIconRightSkeleton" component 1`] = `
+<View
+  color="#EBEDF2"
+  dir="row"
+  height="141px"
+  radius={8}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#EBEDF2",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexBasis": "auto",
+        "flexDirection": "row",
+        "flexGrow": 0,
+        "flexShrink": 1,
+        "height": 141,
+        "width": 332,
+      },
+      Array [
+        Object {
+          "paddingHorizontal": 20,
+          "paddingTop": 25,
+        },
+        undefined,
+      ],
+    ]
+  }
+  width="332px"
+>
+  <View
+    style={
+      Object {
+        "width": "50%",
+      }
+    }
+  >
+    <View
+      height="20px"
+      radius={14}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 14,
+            "borderBottomRightRadius": 14,
+            "borderTopLeftRadius": 14,
+            "borderTopRightRadius": 14,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 20,
+            "width": "80%",
+          },
+          undefined,
+        ]
+      }
+      width="80%"
+    />
+    <View
+      height="12px"
+      radius={6}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 6,
+            "borderBottomRightRadius": 6,
+            "borderTopLeftRadius": 6,
+            "borderTopRightRadius": 6,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 12,
+            "width": "100%",
+          },
+          Object {
+            "marginTop": 10,
+          },
+        ]
+      }
+      width="100%"
+    />
+    <View
+      height="12px"
+      radius={6}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 6,
+            "borderBottomRightRadius": 6,
+            "borderTopLeftRadius": 6,
+            "borderTopRightRadius": 6,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 12,
+            "width": "100%",
+          },
+          Object {
+            "marginTop": 10,
+          },
+        ]
+      }
+      width="100%"
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-end",
+        "paddingRight": 20,
+        "paddingTop": 15,
+        "width": "50%",
+      }
+    }
+  >
+    <View
+      height="60px"
+      radius={30}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 30,
+            "borderBottomRightRadius": 30,
+            "borderTopLeftRadius": 30,
+            "borderTopRightRadius": 30,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 60,
+            "width": 60,
+          },
+          undefined,
+        ]
+      }
+      width="60px"
+    />
+  </View>
+</View>
+`;
+
+exports[`SkeletonItem should render a "CardOfferSkeleton" component 1`] = `
+<View
+  color="#EBEDF2"
+  dir="row"
+  height="undefinedpx"
+  radius={8}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#EBEDF2",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexBasis": "auto",
+        "flexDirection": "row",
+        "flexGrow": 0,
+        "flexShrink": 1,
+        "height": "undefinedpx",
+        "width": "undefinedpx",
+      },
+      Array [
+        Object {
+          "padding": 20,
+        },
+        undefined,
+      ],
+    ]
+  }
+  width="undefinedpx"
+>
+  <View>
+    <View
+      height="60px"
+      radius={30}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 30,
+            "borderBottomRightRadius": 30,
+            "borderTopLeftRadius": 30,
+            "borderTopRightRadius": 30,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 60,
+            "width": 60,
+          },
+          undefined,
+        ]
+      }
+      width="60px"
+    />
+  </View>
+  <View
+    height="13px"
+    radius={6}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#DFE3EC",
+          "borderBottomLeftRadius": 6,
+          "borderBottomRightRadius": 6,
+          "borderTopLeftRadius": 6,
+          "borderTopRightRadius": 6,
+          "flexBasis": "auto",
+          "flexDirection": "column",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": 13,
+          "width": "100%",
+        },
+        Object {
+          "marginLeft": 12,
+          "marginTop": 10,
+        },
+      ]
+    }
+    width="100%"
+  />
+</View>
+`;
+
+exports[`SkeletonItem should render a "CardOfferWithBrandsSkeleton" component 1`] = `
+<View
+  color="#EBEDF2"
+  dir="column"
+  radius={8}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#EBEDF2",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexBasis": "auto",
+        "flexDirection": "column",
+        "flexGrow": 0,
+        "flexShrink": 1,
+        "height": "auto",
+        "width": "100%",
+      },
+      Object {
+        "paddingVertical": 30,
+      },
+    ]
+  }
+  width="100%"
+>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 15,
+      }
+    }
+  >
+    <View
+      height="20px"
+      radius={100}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 100,
+            "borderBottomRightRadius": 100,
+            "borderTopLeftRadius": 100,
+            "borderTopRightRadius": 100,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 20,
+            "width": "50%",
+          },
+          undefined,
+        ]
+      }
+      width="50%"
+    />
+    <View
+      height="12px"
+      radius={6}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 6,
+            "borderBottomRightRadius": 6,
+            "borderTopLeftRadius": 6,
+            "borderTopRightRadius": 6,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 12,
+            "width": "90%",
+          },
+          Object {
+            "marginTop": 10,
+          },
+        ]
+      }
+      width="90%"
+    />
+    <View
+      height="12px"
+      radius={6}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 6,
+            "borderBottomRightRadius": 6,
+            "borderTopLeftRadius": 6,
+            "borderTopRightRadius": 6,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 12,
+            "width": "80%",
+          },
+          Object {
+            "marginTop": 10,
+          },
+        ]
+      }
+      width="80%"
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "height": 15,
+        "width": "100%",
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "height": 15,
+        "width": "100%",
+      }
+    }
+  />
+  <RCTScrollView
+    horizontal={true}
+    showsHorizontalScrollIndicator={false}
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "height": "100%",
+            "width": 15,
+          }
+        }
+      />
+      <View
+        height="70px"
+        radius={35}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#DFE3EC",
+              "borderBottomLeftRadius": 35,
+              "borderBottomRightRadius": 35,
+              "borderTopLeftRadius": 35,
+              "borderTopRightRadius": 35,
+              "flexBasis": "auto",
+              "flexDirection": "column",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 70,
+              "width": 70,
+            },
+            undefined,
+          ]
+        }
+        width="70px"
+      />
+      <View
+        style={
+          Object {
+            "height": "100%",
+            "width": 15,
+          }
+        }
+      />
+      <View
+        height="70px"
+        radius={35}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#DFE3EC",
+              "borderBottomLeftRadius": 35,
+              "borderBottomRightRadius": 35,
+              "borderTopLeftRadius": 35,
+              "borderTopRightRadius": 35,
+              "flexBasis": "auto",
+              "flexDirection": "column",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 70,
+              "width": 70,
+            },
+            undefined,
+          ]
+        }
+        width="70px"
+      />
+      <View
+        style={
+          Object {
+            "height": "100%",
+            "width": 15,
+          }
+        }
+      />
+      <View
+        height="70px"
+        radius={35}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#DFE3EC",
+              "borderBottomLeftRadius": 35,
+              "borderBottomRightRadius": 35,
+              "borderTopLeftRadius": 35,
+              "borderTopRightRadius": 35,
+              "flexBasis": "auto",
+              "flexDirection": "column",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 70,
+              "width": 70,
+            },
+            undefined,
+          ]
+        }
+        width="70px"
+      />
+      <View
+        style={
+          Object {
+            "height": "100%",
+            "width": 15,
+          }
+        }
+      />
+      <View
+        height="70px"
+        radius={35}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#DFE3EC",
+              "borderBottomLeftRadius": 35,
+              "borderBottomRightRadius": 35,
+              "borderTopLeftRadius": 35,
+              "borderTopRightRadius": 35,
+              "flexBasis": "auto",
+              "flexDirection": "column",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 70,
+              "width": 70,
+            },
+            undefined,
+          ]
+        }
+        width="70px"
+      />
+      <View
+        style={
+          Object {
+            "height": "100%",
+            "width": 15,
+          }
+        }
+      />
+      <View
+        height="70px"
+        radius={35}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#DFE3EC",
+              "borderBottomLeftRadius": 35,
+              "borderBottomRightRadius": 35,
+              "borderTopLeftRadius": 35,
+              "borderTopRightRadius": 35,
+              "flexBasis": "auto",
+              "flexDirection": "column",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 70,
+              "width": 70,
+            },
+            undefined,
+          ]
+        }
+        width="70px"
+      />
+      <View
+        style={
+          Object {
+            "height": "100%",
+            "width": 15,
+          }
+        }
+      />
+      <View
+        height="70px"
+        radius={35}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#DFE3EC",
+              "borderBottomLeftRadius": 35,
+              "borderBottomRightRadius": 35,
+              "borderTopLeftRadius": 35,
+              "borderTopRightRadius": 35,
+              "flexBasis": "auto",
+              "flexDirection": "column",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 70,
+              "width": 70,
+            },
+            undefined,
+          ]
+        }
+        width="70px"
+      />
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`SkeletonItem should render a "CardOfferWithButtonSkeleton" component 1`] = `
+<View
+  color="#EBEDF2"
+  dir="row"
+  height="auto"
+  radius={8}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#EBEDF2",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexBasis": "auto",
+        "flexDirection": "row",
+        "flexGrow": 0,
+        "flexShrink": 1,
+        "height": "auto",
+        "width": "100%",
+      },
+      Object {
+        "marginRight": 15,
+        "padding": 20,
+      },
+    ]
+  }
+  width="100%"
+>
+  <View
+    height="60px"
+    radius={30}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#DFE3EC",
+          "borderBottomLeftRadius": 30,
+          "borderBottomRightRadius": 30,
+          "borderTopLeftRadius": 30,
+          "borderTopRightRadius": 30,
+          "flexBasis": "auto",
+          "flexDirection": "column",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": 60,
+          "width": 60,
+        },
+        undefined,
+      ]
+    }
+    width="60px"
+  />
+  <View
+    style={
+      Object {
+        "marginLeft": 20,
+        "marginTop": 20,
+        "width": "70%",
+      }
+    }
+  >
+    <View
+      height="12px"
+      radius={6}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 6,
+            "borderBottomRightRadius": 6,
+            "borderTopLeftRadius": 6,
+            "borderTopRightRadius": 6,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 12,
+            "width": "100%",
+          },
+          undefined,
+        ]
+      }
+      width="100%"
+    />
+    <View
+      height="28px"
+      radius={14}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 14,
+            "borderBottomRightRadius": 14,
+            "borderTopLeftRadius": 14,
+            "borderTopRightRadius": 14,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 28,
+            "width": "50%",
+          },
+          Object {
+            "marginTop": 35,
+          },
+        ]
+      }
+      width="50%"
+    />
+  </View>
+</View>
+`;
+
+exports[`SkeletonItem should render a "CardOfferWithOutIconSkeleton" component 1`] = `
+<View
+  color="#EBEDF2"
+  dir="column"
+  height="141px"
+  radius={8}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#EBEDF2",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexBasis": "auto",
+        "flexDirection": "column",
+        "flexGrow": 0,
+        "flexShrink": 1,
+        "height": 141,
+        "width": "100%",
+      },
+      Object {
+        "padding": 30,
+      },
+    ]
+  }
+  width="100%"
+>
+  <View
+    height="20px"
+    radius={30}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#DFE3EC",
+          "borderBottomLeftRadius": 30,
+          "borderBottomRightRadius": 30,
+          "borderTopLeftRadius": 30,
+          "borderTopRightRadius": 30,
+          "flexBasis": "auto",
+          "flexDirection": "column",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": 20,
+          "width": "75%",
+        },
+        undefined,
+      ]
+    }
+    width="75%"
+  />
+  <View
+    height="20px"
+    radius={30}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#DFE3EC",
+          "borderBottomLeftRadius": 30,
+          "borderBottomRightRadius": 30,
+          "borderTopLeftRadius": 30,
+          "borderTopRightRadius": 30,
+          "flexBasis": "auto",
+          "flexDirection": "column",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": 20,
+          "width": "55%",
+        },
+        Object {
+          "marginTop": 12,
+        },
+      ]
+    }
+    width="55%"
+  />
+</View>
+`;
+
+exports[`SkeletonItem should render a "CircleSkeleton" component 1`] = `
+<View
+  height="60px"
+  radius={30}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#DFE3EC",
+        "borderBottomLeftRadius": 30,
+        "borderBottomRightRadius": 30,
+        "borderTopLeftRadius": 30,
+        "borderTopRightRadius": 30,
+        "flexBasis": "auto",
+        "flexDirection": "column",
+        "flexGrow": 0,
+        "flexShrink": 1,
+        "height": 60,
+        "width": 60,
+      },
+      undefined,
+    ]
+  }
+  width="60px"
+/>
+`;
+
+exports[`SkeletonItem should render a "CreditCardSkeleton" component 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+    }
+  }
+>
+  <View
+    color="#EBEDF2"
+    dir="row"
+    height="75px"
+    radius={5}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#EBEDF2",
+          "borderBottomLeftRadius": 5,
+          "borderBottomRightRadius": 5,
+          "borderTopLeftRadius": 5,
+          "borderTopRightRadius": 5,
+          "flexBasis": "auto",
+          "flexDirection": "row",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": 75,
+          "width": 117,
+        },
+        Object {
+          "padding": 10,
+        },
+      ]
+    }
+    width="117px"
+  >
+    <View
+      dir="row"
+      height="5px"
+      radius={5}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 5,
+            "borderBottomRightRadius": 5,
+            "borderTopLeftRadius": 5,
+            "borderTopRightRadius": 5,
+            "flexBasis": "auto",
+            "flexDirection": "row",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 5,
+            "width": "50%",
+          },
+          Object {
+            "marginLeft": 10,
+            "marginTop": 15,
+          },
+        ]
+      }
+      width="50%"
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "flex-end",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        height="17px"
+        radius={25}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#DFE3EC",
+              "borderBottomLeftRadius": 25,
+              "borderBottomRightRadius": 25,
+              "borderTopLeftRadius": 25,
+              "borderTopRightRadius": 25,
+              "flexBasis": "auto",
+              "flexDirection": "column",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 17,
+              "width": 17,
+            },
+            undefined,
+          ]
+        }
+        width="17px"
+      />
+      <View
+        color="#909BA0"
+        height="17px"
+        radius={25}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#909BA0",
+              "borderBottomLeftRadius": 25,
+              "borderBottomRightRadius": 25,
+              "borderTopLeftRadius": 25,
+              "borderTopRightRadius": 25,
+              "flexBasis": "auto",
+              "flexDirection": "column",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 17,
+              "width": 17,
+            },
+            Object {
+              "opacity": 0.24,
+              "position": "relative",
+              "right": 8,
+            },
+          ]
+        }
+        width="17px"
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`SkeletonItem should render a "CreditCardSkeletonItem" component 1`] = `
+<View
+  color="#EBEDF2"
+  height="230px"
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#EBEDF2",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexBasis": "auto",
+        "flexDirection": "column",
+        "flexGrow": 0,
+        "flexShrink": 1,
+        "height": 230,
+        "width": "100%",
+      },
+      Object {
+        "justifyContent": "space-between",
+        "padding": 40,
+      },
+    ]
+  }
+>
+  <View
+    dir="row"
+    height="20px"
+    radius={10}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#DFE3EC",
+          "borderBottomLeftRadius": 10,
+          "borderBottomRightRadius": 10,
+          "borderTopLeftRadius": 10,
+          "borderTopRightRadius": 10,
+          "flexBasis": "auto",
+          "flexDirection": "row",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": 20,
+          "width": "50%",
+        },
+        undefined,
+      ]
+    }
+    width="50%"
+  />
+  <View
+    color="transparent"
+    dir="row"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexBasis": "auto",
+          "flexDirection": "row",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": "auto",
+          "width": "100%",
+        },
+        Object {
+          "justifyContent": "flex-end",
+        },
+      ]
+    }
+  >
+    <View
+      height="50px"
+      radius={25}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 25,
+            "borderBottomRightRadius": 25,
+            "borderTopLeftRadius": 25,
+            "borderTopRightRadius": 25,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 50,
+            "width": 50,
+          },
+          undefined,
+        ]
+      }
+      width="50px"
+    />
+    <View
+      height="50px"
+      radius={25}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 25,
+            "borderBottomRightRadius": 25,
+            "borderTopLeftRadius": 25,
+            "borderTopRightRadius": 25,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 50,
+            "width": 50,
+          },
+          undefined,
+        ]
+      }
+      width="50px"
+    />
+  </View>
+</View>
+`;
+
+exports[`SkeletonItem should render a "FatTextSkeletonItem" component 1`] = `
+<View
+  dir="row"
+  height="50px"
+  radius={30}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#DFE3EC",
+        "borderBottomLeftRadius": 30,
+        "borderBottomRightRadius": 30,
+        "borderTopLeftRadius": 30,
+        "borderTopRightRadius": 30,
+        "flexBasis": "auto",
+        "flexDirection": "row",
+        "flexGrow": 0,
+        "flexShrink": 1,
+        "height": 50,
+        "width": "100%",
+      },
+      Array [
+        Object {
+          "alignContent": "space-between",
+        },
+        undefined,
+      ],
+    ]
+  }
+  width="100%"
+/>
+`;
+
+exports[`SkeletonItem should render a "FullBigRowSkeletonItem" component 1`] = `
+<View
+  color="#EBEDF2"
+  height="200px"
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#EBEDF2",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexBasis": "auto",
+        "flexDirection": "column",
+        "flexGrow": 0,
+        "flexShrink": 1,
+        "height": 200,
+        "width": "100%",
+      },
+      Object {
+        "justifyContent": "space-around",
+        "padding": 15,
+      },
+    ]
+  }
+>
+  <View
+    color="transparent"
+    dir="row"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexBasis": "auto",
+          "flexDirection": "row",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": "auto",
+          "width": "100%",
+        },
+        Object {
+          "alignItems": "center",
+        },
+      ]
+    }
+  >
+    <View
+      height="50px"
+      radius={25}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 25,
+            "borderBottomRightRadius": 25,
+            "borderTopLeftRadius": 25,
+            "borderTopRightRadius": 25,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 50,
+            "width": 50,
+          },
+          Object {
+            "marginRight": 15,
+          },
+        ]
+      }
+      width="50px"
+    />
+    <View
+      dir="row"
+      height="20px"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "flexBasis": "auto",
+            "flexDirection": "row",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 20,
+            "width": "80%",
+          },
+          undefined,
+        ]
+      }
+      width="80%"
+    />
+  </View>
+  <View
+    color="transparent"
+    dir="row"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexBasis": "auto",
+          "flexDirection": "row",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": "auto",
+          "width": "100%",
+        },
+        Object {
+          "alignItems": "center",
+        },
+      ]
+    }
+  >
+    <View
+      height="50px"
+      radius={25}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 25,
+            "borderBottomRightRadius": 25,
+            "borderTopLeftRadius": 25,
+            "borderTopRightRadius": 25,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 50,
+            "width": 50,
+          },
+          Object {
+            "marginRight": 15,
+          },
+        ]
+      }
+      width="50px"
+    />
+    <View
+      dir="row"
+      height="20px"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "flexBasis": "auto",
+            "flexDirection": "row",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 20,
+            "width": "80%",
+          },
+          undefined,
+        ]
+      }
+      width="80%"
+    />
+  </View>
+</View>
+`;
+
+exports[`SkeletonItem should render a "FullBigSquareSkeletonItem" component 1`] = `
+<View
+  color="#EBEDF2"
+  dir="row"
+  height="300px"
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#EBEDF2",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexBasis": "auto",
+        "flexDirection": "row",
+        "flexGrow": 0,
+        "flexShrink": 1,
+        "height": 300,
+        "width": "100%",
+      },
+      Array [
+        Object {
+          "alignItems": "flex-end",
+        },
+        Object {
+          "padding": 30,
+        },
+      ],
+    ]
+  }
+  width="100%"
+>
+  <View
+    color="transparent"
+    dir="row"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexBasis": "auto",
+          "flexDirection": "row",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": "auto",
+          "width": "100%",
+        },
+        Object {
+          "alignItems": "center",
+        },
+      ]
+    }
+  >
+    <View
+      height="50px"
+      radius={25}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 25,
+            "borderBottomRightRadius": 25,
+            "borderTopLeftRadius": 25,
+            "borderTopRightRadius": 25,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 50,
+            "width": 50,
+          },
+          Object {
+            "marginRight": 15,
+          },
+        ]
+      }
+      width="50px"
+    />
+    <View
+      dir="row"
+      height="20px"
+      radius={10}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 10,
+            "borderBottomRightRadius": 10,
+            "borderTopLeftRadius": 10,
+            "borderTopRightRadius": 10,
+            "flexBasis": "auto",
+            "flexDirection": "row",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 20,
+            "width": "50%",
+          },
+          Object {
+            "alignContent": "space-between",
+          },
+        ]
+      }
+      width="50%"
+    />
+  </View>
+</View>
+`;
+
+exports[`SkeletonItem should render a "FullFatRowSkeletonItem" component 1`] = `
+<View
+  color="#EBEDF2"
+  height="230px"
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#EBEDF2",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexBasis": "auto",
+        "flexDirection": "column",
+        "flexGrow": 0,
+        "flexShrink": 1,
+        "height": 230,
+        "width": "100%",
+      },
+      Object {
+        "justifyContent": "flex-end",
+        "paddingBottom": 50,
+        "paddingHorizontal": 15,
+      },
+    ]
+  }
+>
+  <View
+    dir="row"
+    height="50px"
+    radius={30}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#DFE3EC",
+          "borderBottomLeftRadius": 30,
+          "borderBottomRightRadius": 30,
+          "borderTopLeftRadius": 30,
+          "borderTopRightRadius": 30,
+          "flexBasis": "auto",
+          "flexDirection": "row",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": 50,
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+    width="100%"
+  />
+</View>
+`;
+
+exports[`SkeletonItem should render a "FullFatRowSkeletonItemCard" component 1`] = `
+<View
+  color="#EBEDF2"
+  height="230px"
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#EBEDF2",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexBasis": "auto",
+        "flexDirection": "column",
+        "flexGrow": 0,
+        "flexShrink": 1,
+        "height": 230,
+        "width": "100%",
+      },
+      Object {
+        "justifyContent": "flex-end",
+        "paddingBottom": 50,
+        "paddingHorizontal": 15,
+      },
+    ]
+  }
+>
+  <View
+    dir="row"
+    height="20px"
+    radius={30}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#DFE3EC",
+          "borderBottomLeftRadius": 30,
+          "borderBottomRightRadius": 30,
+          "borderTopLeftRadius": 30,
+          "borderTopRightRadius": 30,
+          "flexBasis": "auto",
+          "flexDirection": "row",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": 20,
+          "width": "50%",
+        },
+        Object {
+          "alignSelf": "center",
+          "marginBottom": 40,
+        },
+      ]
+    }
+    width="50%"
+  />
+  <View
+    dir="row"
+    height="50px"
+    radius={30}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#DFE3EC",
+          "borderBottomLeftRadius": 30,
+          "borderBottomRightRadius": 30,
+          "borderTopLeftRadius": 30,
+          "borderTopRightRadius": 30,
+          "flexBasis": "auto",
+          "flexDirection": "row",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": 50,
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+    width="100%"
+  />
+</View>
+`;
+
+exports[`SkeletonItem should render a "FullFatRowSkeletonItemCardLevel" component 1`] = `
+<View
+  color="transparent"
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexBasis": "auto",
+        "flexDirection": "column",
+        "flexGrow": 0,
+        "flexShrink": 1,
+        "height": "auto",
+        "width": "100%",
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    color="#EBEDF2"
+    dir="row"
+    height="100px"
+    radius={10}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#EBEDF2",
+          "borderBottomLeftRadius": 10,
+          "borderBottomRightRadius": 10,
+          "borderTopLeftRadius": 10,
+          "borderTopRightRadius": 10,
+          "flexBasis": "auto",
+          "flexDirection": "row",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": 100,
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+    width="100%"
+  >
+    <View
+      dir="row"
+      height="24px"
+      radius={10}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 10,
+            "borderBottomRightRadius": 10,
+            "borderTopLeftRadius": 10,
+            "borderTopRightRadius": 10,
+            "flexBasis": "auto",
+            "flexDirection": "row",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 24,
+            "width": "20%",
+          },
+          Object {
+            "margin": 20,
+          },
+        ]
+      }
+      width="20%"
+    />
+  </View>
+  <View
+    color="transparent"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexBasis": "auto",
+          "flexDirection": "column",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": "auto",
+          "width": "100%",
+        },
+        Object {
+          "marginTop": -10,
+        },
+      ]
+    }
+  >
+    <View
+      dir="row"
+      height="100px"
+      radius={10}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 10,
+            "borderBottomRightRadius": 10,
+            "borderTopLeftRadius": 10,
+            "borderTopRightRadius": 10,
+            "flexBasis": "auto",
+            "flexDirection": "row",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 100,
+            "width": "100%",
+          },
+          undefined,
+        ]
+      }
+      width="100%"
+    />
+    <View
+      color="#EBEDF2"
+      dir="row"
+      height="100px"
+      radius={10}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#EBEDF2",
+            "borderBottomLeftRadius": 10,
+            "borderBottomRightRadius": 10,
+            "borderTopLeftRadius": 10,
+            "borderTopRightRadius": 10,
+            "flexBasis": "auto",
+            "flexDirection": "row",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 100,
+            "width": "100%",
+          },
+          Object {
+            "position": "absolute",
+            "top": 4,
+          },
+        ]
+      }
+      width="100%"
+    >
+      <View
+        dir="row"
+        height="24px"
+        radius={10}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#DFE3EC",
+              "borderBottomLeftRadius": 10,
+              "borderBottomRightRadius": 10,
+              "borderTopLeftRadius": 10,
+              "borderTopRightRadius": 10,
+              "flexBasis": "auto",
+              "flexDirection": "row",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 24,
+              "width": "20%",
+            },
+            Object {
+              "margin": 20,
+            },
+          ]
+        }
+        width="20%"
+      />
+    </View>
+  </View>
+  <View
+    color="transparent"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexBasis": "auto",
+          "flexDirection": "column",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": "auto",
+          "width": "100%",
+        },
+        Object {
+          "marginTop": -10,
+        },
+      ]
+    }
+  >
+    <View
+      dir="row"
+      height="100px"
+      radius={10}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 10,
+            "borderBottomRightRadius": 10,
+            "borderTopLeftRadius": 10,
+            "borderTopRightRadius": 10,
+            "flexBasis": "auto",
+            "flexDirection": "row",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 100,
+            "width": "100%",
+          },
+          undefined,
+        ]
+      }
+      width="100%"
+    />
+    <View
+      color="#EBEDF2"
+      dir="row"
+      height="100px"
+      radius={10}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#EBEDF2",
+            "borderBottomLeftRadius": 10,
+            "borderBottomRightRadius": 10,
+            "borderTopLeftRadius": 10,
+            "borderTopRightRadius": 10,
+            "flexBasis": "auto",
+            "flexDirection": "row",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 100,
+            "width": "100%",
+          },
+          Object {
+            "position": "absolute",
+            "top": 4,
+          },
+        ]
+      }
+      width="100%"
+    >
+      <View
+        dir="row"
+        height="24px"
+        radius={10}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#DFE3EC",
+              "borderBottomLeftRadius": 10,
+              "borderBottomRightRadius": 10,
+              "borderTopLeftRadius": 10,
+              "borderTopRightRadius": 10,
+              "flexBasis": "auto",
+              "flexDirection": "row",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 24,
+              "width": "20%",
+            },
+            Object {
+              "margin": 20,
+            },
+          ]
+        }
+        width="20%"
+      />
+    </View>
+  </View>
+  <View
+    color="transparent"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexBasis": "auto",
+          "flexDirection": "column",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": "auto",
+          "width": "100%",
+        },
+        Object {
+          "marginTop": -10,
+        },
+      ]
+    }
+  >
+    <View
+      dir="row"
+      height="100px"
+      radius={10}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 10,
+            "borderBottomRightRadius": 10,
+            "borderTopLeftRadius": 10,
+            "borderTopRightRadius": 10,
+            "flexBasis": "auto",
+            "flexDirection": "row",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 100,
+            "width": "100%",
+          },
+          undefined,
+        ]
+      }
+      width="100%"
+    />
+    <View
+      color="#EBEDF2"
+      dir="row"
+      height="100px"
+      radius={10}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#EBEDF2",
+            "borderBottomLeftRadius": 10,
+            "borderBottomRightRadius": 10,
+            "borderTopLeftRadius": 10,
+            "borderTopRightRadius": 10,
+            "flexBasis": "auto",
+            "flexDirection": "row",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 100,
+            "width": "100%",
+          },
+          Object {
+            "position": "absolute",
+            "top": 4,
+          },
+        ]
+      }
+      width="100%"
+    >
+      <View
+        dir="row"
+        height="24px"
+        radius={10}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#DFE3EC",
+              "borderBottomLeftRadius": 10,
+              "borderBottomRightRadius": 10,
+              "borderTopLeftRadius": 10,
+              "borderTopRightRadius": 10,
+              "flexBasis": "auto",
+              "flexDirection": "row",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 24,
+              "width": "20%",
+            },
+            Object {
+              "margin": 20,
+            },
+          ]
+        }
+        width="20%"
+      />
+    </View>
+  </View>
+  <View
+    color="transparent"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexBasis": "auto",
+          "flexDirection": "column",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": "auto",
+          "width": "100%",
+        },
+        Object {
+          "marginTop": -10,
+        },
+      ]
+    }
+  >
+    <View
+      dir="row"
+      height="100px"
+      radius={10}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 10,
+            "borderBottomRightRadius": 10,
+            "borderTopLeftRadius": 10,
+            "borderTopRightRadius": 10,
+            "flexBasis": "auto",
+            "flexDirection": "row",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 100,
+            "width": "100%",
+          },
+          undefined,
+        ]
+      }
+      width="100%"
+    />
+    <View
+      color="#EBEDF2"
+      dir="row"
+      height="100px"
+      radius={10}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#EBEDF2",
+            "borderBottomLeftRadius": 10,
+            "borderBottomRightRadius": 10,
+            "borderTopLeftRadius": 10,
+            "borderTopRightRadius": 10,
+            "flexBasis": "auto",
+            "flexDirection": "row",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 100,
+            "width": "100%",
+          },
+          Object {
+            "position": "absolute",
+            "top": 4,
+          },
+        ]
+      }
+      width="100%"
+    >
+      <View
+        dir="row"
+        height="24px"
+        radius={10}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#DFE3EC",
+              "borderBottomLeftRadius": 10,
+              "borderBottomRightRadius": 10,
+              "borderTopLeftRadius": 10,
+              "borderTopRightRadius": 10,
+              "flexBasis": "auto",
+              "flexDirection": "row",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 24,
+              "width": "20%",
+            },
+            Object {
+              "margin": 20,
+            },
+          ]
+        }
+        width="20%"
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`SkeletonItem should render a "ItemSkeleton" component 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    height="44px"
+    radius={22}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#DFE3EC",
+          "borderBottomLeftRadius": 22,
+          "borderBottomRightRadius": 22,
+          "borderTopLeftRadius": 22,
+          "borderTopRightRadius": 22,
+          "flexBasis": "auto",
+          "flexDirection": "column",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": 44,
+          "width": 44,
+        },
+        undefined,
+      ]
+    }
+    width="44px"
+  />
+  <View
+    style={
+      Object {
+        "marginLeft": 10,
+        "width": "80%",
+      }
+    }
+  >
+    <View
+      dir="row"
+      height="13px"
+      radius={5}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 5,
+            "borderBottomRightRadius": 5,
+            "borderTopLeftRadius": 5,
+            "borderTopRightRadius": 5,
+            "flexBasis": "auto",
+            "flexDirection": "row",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 13,
+            "width": "50%",
+          },
+          Object {
+            "marginBottom": 8,
+          },
+        ]
+      }
+      width="50%"
+    />
+    <View
+      dir="row"
+      height="13px"
+      radius={5}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 5,
+            "borderBottomRightRadius": 5,
+            "borderTopLeftRadius": 5,
+            "borderTopRightRadius": 5,
+            "flexBasis": "auto",
+            "flexDirection": "row",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 13,
+            "width": "80%",
+          },
+          undefined,
+        ]
+      }
+      width="80%"
+    />
+  </View>
+</View>
+`;
+
+exports[`SkeletonItem should render a "LevelCardSkeletonItemAlt" component 1`] = `
+<View
+  color="#EBEDF2"
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#EBEDF2",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexBasis": "auto",
+        "flexDirection": "column",
+        "flexGrow": 0,
+        "flexShrink": 1,
+        "height": "auto",
+        "width": 285,
+      },
+      Object {
+        "paddingBottom": 25,
+        "paddingHorizontal": 25,
+        "paddingTop": 20,
+      },
+    ]
+  }
+  width="285px"
+>
+  <View
+    color="transparent"
+    dir="row"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexBasis": "auto",
+          "flexDirection": "row",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": "auto",
+          "width": "100%",
+        },
+        Object {
+          "justifyContent": "space-between",
+        },
+      ]
+    }
+  >
+    <View
+      height="20px"
+      radius={10}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 10,
+            "borderBottomRightRadius": 10,
+            "borderTopLeftRadius": 10,
+            "borderTopRightRadius": 10,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 20,
+            "width": 80,
+          },
+          undefined,
+        ]
+      }
+      width="80px"
+    />
+    <View
+      height="20px"
+      radius={10}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 10,
+            "borderBottomRightRadius": 10,
+            "borderTopLeftRadius": 10,
+            "borderTopRightRadius": 10,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 20,
+            "width": 80,
+          },
+          undefined,
+        ]
+      }
+      width="80px"
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "height": 15,
+        "width": "100%",
+      }
+    }
+  />
+  <View
+    color="transparent"
+    dir="row"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexBasis": "auto",
+          "flexDirection": "row",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": "auto",
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      height="16px"
+      radius={8}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 16,
+            "width": 16,
+          },
+          Object {
+            "flexGrow": 0,
+            "marginRight": 10,
+          },
+        ]
+      }
+      width="16px"
+    />
+    <View
+      height="16px"
+      radius={10}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 10,
+            "borderBottomRightRadius": 10,
+            "borderTopLeftRadius": 10,
+            "borderTopRightRadius": 10,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 16,
+            "width": "60%",
+          },
+          Object {
+            "flexGrow": 0,
+          },
+        ]
+      }
+      width="60%"
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "height": 15,
+        "width": "100%",
+      }
+    }
+  />
+  <View
+    color="transparent"
+    dir="row"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexBasis": "auto",
+          "flexDirection": "row",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": "auto",
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      height="16px"
+      radius={8}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 16,
+            "width": 16,
+          },
+          Object {
+            "flexGrow": 0,
+            "marginRight": 10,
+          },
+        ]
+      }
+      width="16px"
+    />
+    <View
+      height="16px"
+      radius={10}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 10,
+            "borderBottomRightRadius": 10,
+            "borderTopLeftRadius": 10,
+            "borderTopRightRadius": 10,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 16,
+            "width": "60%",
+          },
+          Object {
+            "flexGrow": 0,
+          },
+        ]
+      }
+      width="60%"
+    />
+    <View
+      height="24px"
+      radius={12}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 12,
+            "borderBottomRightRadius": 12,
+            "borderTopLeftRadius": 12,
+            "borderTopRightRadius": 12,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 24,
+            "width": 24,
+          },
+          Object {
+            "flexGrow": 0,
+            "position": "absolute",
+            "right": 0,
+          },
+        ]
+      }
+      width="24px"
+    />
+  </View>
+</View>
+`;
+
+exports[`SkeletonItem should render a "ListHeaderComponentSkeletonItemAlt" component 1`] = `
+<View
+  color="#EBEDF2"
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#EBEDF2",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexBasis": "auto",
+        "flexDirection": "column",
+        "flexGrow": 0,
+        "flexShrink": 1,
+        "height": "auto",
+        "width": "100%",
+      },
+      Object {
+        "padding": 20,
+        "paddingRight": 25,
+      },
+    ]
+  }
+  width="100%"
+>
+  <View
+    color="transparent"
+    dir="row"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexBasis": "auto",
+          "flexDirection": "row",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": "auto",
+          "width": "100%",
+        },
+        Object {
+          "justifyContent": "space-between",
+        },
+      ]
+    }
+    width="100%"
+  >
+    <View
+      color="transparent"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": "auto",
+            "width": "100%",
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        color="transparent"
+        dir="row"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderBottomLeftRadius": 8,
+              "borderBottomRightRadius": 8,
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "flexBasis": "auto",
+              "flexDirection": "row",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": "auto",
+              "width": "100%",
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          height="20px"
+          radius={10}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#DFE3EC",
+                "borderBottomLeftRadius": 10,
+                "borderBottomRightRadius": 10,
+                "borderTopLeftRadius": 10,
+                "borderTopRightRadius": 10,
+                "flexBasis": "auto",
+                "flexDirection": "column",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": 20,
+                "width": 20,
+              },
+              Object {
+                "marginRight": 10,
+              },
+            ]
+          }
+          width="20px"
+        />
+        <View
+          height="20px"
+          radius={20}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#DFE3EC",
+                "borderBottomLeftRadius": 20,
+                "borderBottomRightRadius": 20,
+                "borderTopLeftRadius": 20,
+                "borderTopRightRadius": 20,
+                "flexBasis": "auto",
+                "flexDirection": "column",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": 20,
+                "width": 60,
+              },
+              undefined,
+            ]
+          }
+          width="60px"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "height": 15,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        height="15px"
+        radius={15}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#DFE3EC",
+              "borderBottomLeftRadius": 15,
+              "borderBottomRightRadius": 15,
+              "borderTopLeftRadius": 15,
+              "borderTopRightRadius": 15,
+              "flexBasis": "auto",
+              "flexDirection": "column",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 15,
+              "width": "60%",
+            },
+            undefined,
+          ]
+        }
+        width="60%"
+      />
+    </View>
+    <View
+      height="20px"
+      radius={10}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 10,
+            "borderBottomRightRadius": 10,
+            "borderTopLeftRadius": 10,
+            "borderTopRightRadius": 10,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 20,
+            "width": 20,
+          },
+          Object {
+            "alignSelf": "center",
+          },
+        ]
+      }
+      width="20px"
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "height": 15,
+        "width": "100%",
+      }
+    }
+  />
+  <View
+    color="transparent"
+    dir="row"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexBasis": "auto",
+          "flexDirection": "row",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": "auto",
+          "width": "100%",
+        },
+        Object {
+          "justifyContent": "space-between",
+        },
+      ]
+    }
+    width="100%"
+  >
+    <View
+      color="transparent"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": "auto",
+            "width": "100%",
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        color="transparent"
+        dir="row"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderBottomLeftRadius": 8,
+              "borderBottomRightRadius": 8,
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "flexBasis": "auto",
+              "flexDirection": "row",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": "auto",
+              "width": "100%",
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          height="20px"
+          radius={10}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#DFE3EC",
+                "borderBottomLeftRadius": 10,
+                "borderBottomRightRadius": 10,
+                "borderTopLeftRadius": 10,
+                "borderTopRightRadius": 10,
+                "flexBasis": "auto",
+                "flexDirection": "column",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": 20,
+                "width": 20,
+              },
+              Object {
+                "marginRight": 10,
+              },
+            ]
+          }
+          width="20px"
+        />
+        <View
+          height="20px"
+          radius={20}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#DFE3EC",
+                "borderBottomLeftRadius": 20,
+                "borderBottomRightRadius": 20,
+                "borderTopLeftRadius": 20,
+                "borderTopRightRadius": 20,
+                "flexBasis": "auto",
+                "flexDirection": "column",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": 20,
+                "width": 60,
+              },
+              undefined,
+            ]
+          }
+          width="60px"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "height": 15,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        height="15px"
+        radius={15}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#DFE3EC",
+              "borderBottomLeftRadius": 15,
+              "borderBottomRightRadius": 15,
+              "borderTopLeftRadius": 15,
+              "borderTopRightRadius": 15,
+              "flexBasis": "auto",
+              "flexDirection": "column",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 15,
+              "width": "60%",
+            },
+            undefined,
+          ]
+        }
+        width="60%"
+      />
+    </View>
+    <View
+      height="20px"
+      radius={10}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 10,
+            "borderBottomRightRadius": 10,
+            "borderTopLeftRadius": 10,
+            "borderTopRightRadius": 10,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 20,
+            "width": 20,
+          },
+          Object {
+            "alignSelf": "center",
+          },
+        ]
+      }
+      width="20px"
+    />
+  </View>
+</View>
+`;
+
+exports[`SkeletonItem should render a "LongRowSkeletonItem" component 1`] = `
+<View
+  color="#EBEDF2"
+  dir="row"
+  height="80px"
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#EBEDF2",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexBasis": "auto",
+        "flexDirection": "row",
+        "flexGrow": 0,
+        "flexShrink": 1,
+        "height": 80,
+        "width": 350,
+      },
+      Object {
+        "alignItems": "center",
+        "padding": 15,
+      },
+    ]
+  }
+  width="350px"
+>
+  <View
+    height="40px"
+    radius={20}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#DFE3EC",
+          "borderBottomLeftRadius": 20,
+          "borderBottomRightRadius": 20,
+          "borderTopLeftRadius": 20,
+          "borderTopRightRadius": 20,
+          "flexBasis": "auto",
+          "flexDirection": "column",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": 40,
+          "width": 40,
+        },
+        Object {
+          "marginRight": 15,
+        },
+      ]
+    }
+    width="40px"
+  />
+  <View
+    dir="row"
+    height="20px"
+    radius={10}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#DFE3EC",
+          "borderBottomLeftRadius": 10,
+          "borderBottomRightRadius": 10,
+          "borderTopLeftRadius": 10,
+          "borderTopRightRadius": 10,
+          "flexBasis": "auto",
+          "flexDirection": "row",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": 20,
+          "width": "60%",
+        },
+        undefined,
+      ]
+    }
+    width="60%"
+  />
+</View>
+`;
+
+exports[`SkeletonItem should render a "MediumRowSkeletonItem" component 1`] = `
+<View
+  color="#EBEDF2"
+  dir="row"
+  height={100}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#EBEDF2",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexBasis": "auto",
+        "flexDirection": "row",
+        "flexGrow": 0,
+        "flexShrink": 1,
+        "width": 255,
+      },
+      Object {
+        "alignItems": "center",
+        "padding": 20,
+      },
+    ]
+  }
+  width="255px"
+>
+  <View
+    height="60px"
+    radius={30}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#DFE3EC",
+          "borderBottomLeftRadius": 30,
+          "borderBottomRightRadius": 30,
+          "borderTopLeftRadius": 30,
+          "borderTopRightRadius": 30,
+          "flexBasis": "auto",
+          "flexDirection": "column",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": 60,
+          "width": 60,
+        },
+        Object {
+          "marginRight": 15,
+        },
+      ]
+    }
+    width="60px"
+  />
+  <View
+    dir="row"
+    height="20px"
+    radius={10}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#DFE3EC",
+          "borderBottomLeftRadius": 10,
+          "borderBottomRightRadius": 10,
+          "borderTopLeftRadius": 10,
+          "borderTopRightRadius": 10,
+          "flexBasis": "auto",
+          "flexDirection": "row",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": 20,
+          "width": "60%",
+        },
+        undefined,
+      ]
+    }
+    width="60%"
+  />
+</View>
+`;
+
+exports[`SkeletonItem should render a "MediumSquareSkeletonItem" component 1`] = `
+<View
+  color="#EBEDF2"
+  dir="row"
+  height="160px"
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#EBEDF2",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexBasis": "auto",
+        "flexDirection": "row",
+        "flexGrow": 0,
+        "flexShrink": 1,
+        "height": 160,
+        "width": 350,
+      },
+      Array [
+        Object {
+          "alignItems": "flex-end",
+        },
+        Object {
+          "padding": 30,
+        },
+      ],
+    ]
+  }
+  width="350px"
+>
+  <View>
+    <View
+      height="50px"
+      radius={25}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 25,
+            "borderBottomRightRadius": 25,
+            "borderTopLeftRadius": 25,
+            "borderTopRightRadius": 25,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 50,
+            "width": 50,
+          },
+          Object {
+            "marginRight": 15,
+          },
+        ]
+      }
+      width="50px"
+    />
+  </View>
+  <View
+    color="transparent"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexBasis": "auto",
+          "flexDirection": "column",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": "auto",
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      dir="row"
+      height="20px"
+      radius={10}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 10,
+            "borderBottomRightRadius": 10,
+            "borderTopLeftRadius": 10,
+            "borderTopRightRadius": 10,
+            "flexBasis": "auto",
+            "flexDirection": "row",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 20,
+            "width": "50%",
+          },
+          Object {
+            "alignContent": "space-between",
+          },
+        ]
+      }
+      width="50%"
+    />
+    <View
+      style={
+        Object {
+          "height": 15,
+          "width": "100%",
+        }
+      }
+    />
+    <View
+      dir="row"
+      height="20px"
+      radius={10}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 10,
+            "borderBottomRightRadius": 10,
+            "borderTopLeftRadius": 10,
+            "borderTopRightRadius": 10,
+            "flexBasis": "auto",
+            "flexDirection": "row",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 20,
+            "width": "50%",
+          },
+          Object {
+            "alignContent": "space-between",
+          },
+        ]
+      }
+      width="50%"
+    />
+  </View>
+</View>
+`;
+
+exports[`SkeletonItem should render a "MediumSquareSkeletonItemAlt" component 1`] = `
+<View
+  color="#EBEDF2"
+  dir="row"
+  height="160px"
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#EBEDF2",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexBasis": "auto",
+        "flexDirection": "row",
+        "flexGrow": 0,
+        "flexShrink": 1,
+        "height": 160,
+        "width": 350,
+      },
+      Object {
+        "padding": 30,
+      },
+    ]
+  }
+  width="350px"
+>
+  <View>
+    <View
+      height="50px"
+      radius={25}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 25,
+            "borderBottomRightRadius": 25,
+            "borderTopLeftRadius": 25,
+            "borderTopRightRadius": 25,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 50,
+            "width": 50,
+          },
+          Object {
+            "marginRight": 15,
+          },
+        ]
+      }
+      width="50px"
+    />
+  </View>
+  <View
+    color="transparent"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexBasis": "auto",
+          "flexDirection": "column",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": "auto",
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      dir="row"
+      height="25px"
+      radius={10}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 10,
+            "borderBottomRightRadius": 10,
+            "borderTopLeftRadius": 10,
+            "borderTopRightRadius": 10,
+            "flexBasis": "auto",
+            "flexDirection": "row",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 25,
+            "width": "80%",
+          },
+          Object {
+            "alignContent": "space-between",
+          },
+        ]
+      }
+      width="80%"
+    />
+    <View
+      style={
+        Object {
+          "height": 15,
+          "width": "100%",
+        }
+      }
+    />
+    <View
+      dir="row"
+      height="20px"
+      radius={10}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 10,
+            "borderBottomRightRadius": 10,
+            "borderTopLeftRadius": 10,
+            "borderTopRightRadius": 10,
+            "flexBasis": "auto",
+            "flexDirection": "row",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 20,
+            "width": "50%",
+          },
+          Object {
+            "alignContent": "space-between",
+          },
+        ]
+      }
+      width="50%"
+    />
+    <View
+      style={
+        Object {
+          "height": 15,
+          "width": "100%",
+        }
+      }
+    />
+    <View
+      dir="row"
+      height="20px"
+      radius={10}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 10,
+            "borderBottomRightRadius": 10,
+            "borderTopLeftRadius": 10,
+            "borderTopRightRadius": 10,
+            "flexBasis": "auto",
+            "flexDirection": "row",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 20,
+            "width": "50%",
+          },
+          Object {
+            "alignContent": "space-between",
+          },
+        ]
+      }
+      width="50%"
+    />
+  </View>
+</View>
+`;
+
+exports[`SkeletonItem should render a "MediumTallRectangleSkeletonItem" component 1`] = `
+<View
+  color="#EBEDF2"
+  height="155px"
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#EBEDF2",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexBasis": "auto",
+        "flexDirection": "column",
+        "flexGrow": 0,
+        "flexShrink": 1,
+        "height": 155,
+        "width": 105,
+      },
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "paddingHorizontal": 10,
+        "paddingVertical": 15,
+      },
+    ]
+  }
+  width="105px"
+>
+  <View
+    height="60px"
+    radius={30}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#DFE3EC",
+          "borderBottomLeftRadius": 30,
+          "borderBottomRightRadius": 30,
+          "borderTopLeftRadius": 30,
+          "borderTopRightRadius": 30,
+          "flexBasis": "auto",
+          "flexDirection": "column",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": 60,
+          "width": 60,
+        },
+        Object {
+          "marginBottom": 30,
+        },
+      ]
+    }
+    width="60px"
+  />
+  <View
+    height="15px"
+    radius={10}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#DFE3EC",
+          "borderBottomLeftRadius": 10,
+          "borderBottomRightRadius": 10,
+          "borderTopLeftRadius": 10,
+          "borderTopRightRadius": 10,
+          "flexBasis": "auto",
+          "flexDirection": "column",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": 15,
+          "width": 80,
+        },
+        undefined,
+      ]
+    }
+    width="80px"
+  />
+</View>
+`;
+
+exports[`SkeletonItem should render a "MediumTileSkeletonItem" component 1`] = `
+<View
+  color="transparent"
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexBasis": "auto",
+        "flexDirection": "column",
+        "flexGrow": 0,
+        "flexShrink": 1,
+        "height": "auto",
+        "width": "100%",
+      },
+      Array [
+        Object {
+          "alignItems": "center",
+        },
+        Object {
+          "justifyContent": "center",
+        },
+      ],
+    ]
+  }
+>
+  <View
+    color="#EBEDF2"
+    height="65px"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#EBEDF2",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexBasis": "auto",
+          "flexDirection": "column",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": 65,
+          "width": 140,
+        },
+        Array [
+          Object {
+            "alignItems": "center",
+          },
+          Object {
+            "justifyContent": "center",
+          },
+        ],
+      ]
+    }
+    width="140px"
+  >
+    <View
+      height="20px"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 20,
+            "width": 70,
+          },
+          undefined,
+        ]
+      }
+      width="70px"
+    />
+  </View>
+</View>
+`;
+
+exports[`SkeletonItem should render a "PointBalanceProgressSkeletonItem" component 1`] = `
+<View
+  color="#EBEDF2"
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#EBEDF2",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexBasis": "auto",
+        "flexDirection": "column",
+        "flexGrow": 0,
+        "flexShrink": 1,
+        "height": "auto",
+        "width": "100%",
+      },
+      Object {
+        "padding": 20,
+        "paddingTop": 15,
+      },
+    ]
+  }
+  width="100%"
+>
+  <View
+    color="transparent"
+    dir="row"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexBasis": "auto",
+          "flexDirection": "row",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": "auto",
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+    width="100%"
+  >
+    <View
+      height="50px"
+      radius={25}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 25,
+            "borderBottomRightRadius": 25,
+            "borderTopLeftRadius": 25,
+            "borderTopRightRadius": 25,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 50,
+            "width": 50,
+          },
+          Object {
+            "marginRight": 20,
+          },
+        ]
+      }
+      width="50px"
+    />
+    <View
+      color="transparent"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": "auto",
+            "width": "100%",
+          },
+          Object {
+            "flexGrow": 0,
+            "width": 140,
+          },
+        ]
+      }
+    >
+      <View
+        height="20px"
+        radius={20}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#DFE3EC",
+              "borderBottomLeftRadius": 20,
+              "borderBottomRightRadius": 20,
+              "borderTopLeftRadius": 20,
+              "borderTopRightRadius": 20,
+              "flexBasis": "auto",
+              "flexDirection": "column",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 20,
+              "width": 80,
+            },
+            undefined,
+          ]
+        }
+        width="80px"
+      />
+      <View
+        style={
+          Object {
+            "height": 15,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        height="15px"
+        radius={15}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#DFE3EC",
+              "borderBottomLeftRadius": 15,
+              "borderBottomRightRadius": 15,
+              "borderTopLeftRadius": 15,
+              "borderTopRightRadius": 15,
+              "flexBasis": "auto",
+              "flexDirection": "column",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 15,
+              "width": 140,
+            },
+            undefined,
+          ]
+        }
+        width="140px"
+      />
+    </View>
+  </View>
+  <View
+    height="5px"
+    radius={5}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#DFE3EC",
+          "borderBottomLeftRadius": 5,
+          "borderBottomRightRadius": 5,
+          "borderTopLeftRadius": 5,
+          "borderTopRightRadius": 5,
+          "flexBasis": "auto",
+          "flexDirection": "column",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": 5,
+          "width": "100%",
+        },
+        Object {
+          "marginVertical": 50,
+        },
+      ]
+    }
+    width="100%"
+  >
+    <View
+      color="#909BA0"
+      height="5px"
+      radius={5}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#909BA0",
+            "borderBottomLeftRadius": 5,
+            "borderBottomRightRadius": 5,
+            "borderTopLeftRadius": 5,
+            "borderTopRightRadius": 5,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 5,
+            "width": "60%",
+          },
+          undefined,
+        ]
+      }
+      width="60%"
+    />
+  </View>
+  <View
+    height="15px"
+    radius={15}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#DFE3EC",
+          "borderBottomLeftRadius": 15,
+          "borderBottomRightRadius": 15,
+          "borderTopLeftRadius": 15,
+          "borderTopRightRadius": 15,
+          "flexBasis": "auto",
+          "flexDirection": "column",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": 15,
+          "width": "80%",
+        },
+        undefined,
+      ]
+    }
+    width="80%"
+  />
+  <View
+    style={
+      Object {
+        "height": 15,
+        "width": "100%",
+      }
+    }
+  />
+  <View
+    height="15px"
+    radius={15}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#DFE3EC",
+          "borderBottomLeftRadius": 15,
+          "borderBottomRightRadius": 15,
+          "borderTopLeftRadius": 15,
+          "borderTopRightRadius": 15,
+          "flexBasis": "auto",
+          "flexDirection": "column",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": 15,
+          "width": "60%",
+        },
+        undefined,
+      ]
+    }
+    width="60%"
+  />
+</View>
+`;
+
+exports[`SkeletonItem should render a "PointBalanceSummarySkeletonItem" component 1`] = `
+Array [
+  <View
+    color="#EBEDF2"
+    dir="row"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#EBEDF2",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexBasis": "auto",
+          "flexDirection": "row",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": "auto",
+          "width": "100%",
+        },
+        Object {
+          "borderBottomEndRadius": 0,
+          "borderBottomStartRadius": 0,
+          "paddingHorizontal": 20,
+          "paddingVertical": 25,
+        },
+      ]
+    }
+    width="100%"
+  >
+    <View
+      height="16px"
+      radius={8}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 16,
+            "width": 16,
+          },
+          Object {
+            "flexGrow": 0,
+            "marginRight": 10,
+          },
+        ]
+      }
+      width="16px"
+    />
+    <View
+      height="15px"
+      radius={10}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 10,
+            "borderBottomRightRadius": 10,
+            "borderTopLeftRadius": 10,
+            "borderTopRightRadius": 10,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 15,
+            "width": "20%",
+          },
+          Object {
+            "flexGrow": 0,
+            "marginRight": "20%",
+          },
+        ]
+      }
+      width="20%"
+    />
+    <View
+      height="16px"
+      radius={8}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 16,
+            "width": 16,
+          },
+          Object {
+            "flexGrow": 0,
+            "marginRight": 10,
+          },
+        ]
+      }
+      width="16px"
+    />
+    <View
+      height="15px"
+      radius={10}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 10,
+            "borderBottomRightRadius": 10,
+            "borderTopLeftRadius": 10,
+            "borderTopRightRadius": 10,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 15,
+            "width": "20%",
+          },
+          Object {
+            "flexGrow": 0,
+          },
+        ]
+      }
+      width="20%"
+    />
+  </View>,
+  <View
+    color="#FFFFFF"
+    dir="row"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexBasis": "auto",
+          "flexDirection": "row",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": "auto",
+          "width": "100%",
+        },
+        Object {
+          "borderTopEndRadius": 0,
+          "borderTopStartRadius": 0,
+          "padding": 20,
+        },
+      ]
+    }
+    width="100%"
+  >
+    <View
+      height="16px"
+      radius={16}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 16,
+            "borderBottomRightRadius": 16,
+            "borderTopLeftRadius": 16,
+            "borderTopRightRadius": 16,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 16,
+            "width": 16,
+          },
+          Object {
+            "flexGrow": 0,
+            "marginRight": 15,
+          },
+        ]
+      }
+      width="16px"
+    />
+    <View
+      height="15px"
+      radius={10}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 10,
+            "borderBottomRightRadius": 10,
+            "borderTopLeftRadius": 10,
+            "borderTopRightRadius": 10,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 15,
+            "width": "60%",
+          },
+          Object {
+            "flexGrow": 0,
+          },
+        ]
+      }
+      width="60%"
+    />
+  </View>,
+]
+`;
+
+exports[`SkeletonItem should render a "RowSkeletonItem" component 1`] = `
+<View
+  color="#EBEDF2"
+  dir="row"
+  height="80px"
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#EBEDF2",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexBasis": "auto",
+        "flexDirection": "row",
+        "flexGrow": 0,
+        "flexShrink": 1,
+        "height": 80,
+        "width": "100%",
+      },
+      Object {
+        "alignItems": "center",
+        "padding": 15,
+      },
+    ]
+  }
+>
+  <View
+    height="40px"
+    radius={20}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#DFE3EC",
+          "borderBottomLeftRadius": 20,
+          "borderBottomRightRadius": 20,
+          "borderTopLeftRadius": 20,
+          "borderTopRightRadius": 20,
+          "flexBasis": "auto",
+          "flexDirection": "column",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": 40,
+          "width": 40,
+        },
+        Object {
+          "marginRight": 15,
+        },
+      ]
+    }
+    width="40px"
+  />
+  <View
+    dir="row"
+    height="20px"
+    radius={10}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#DFE3EC",
+          "borderBottomLeftRadius": 10,
+          "borderBottomRightRadius": 10,
+          "borderTopLeftRadius": 10,
+          "borderTopRightRadius": 10,
+          "flexBasis": "auto",
+          "flexDirection": "row",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": 20,
+          "width": "60%",
+        },
+        undefined,
+      ]
+    }
+    width="60%"
+  />
+</View>
+`;
+
+exports[`SkeletonItem should render a "RowSkeletonItemAlt" component 1`] = `
+<View
+  color="#EBEDF2"
+  dir="row"
+  height={100}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#EBEDF2",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexBasis": "auto",
+        "flexDirection": "row",
+        "flexGrow": 0,
+        "flexShrink": 1,
+        "width": "100%",
+      },
+      Object {
+        "padding": 20,
+      },
+    ]
+  }
+>
+  <View
+    height="60px"
+    radius={30}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#DFE3EC",
+          "borderBottomLeftRadius": 30,
+          "borderBottomRightRadius": 30,
+          "borderTopLeftRadius": 30,
+          "borderTopRightRadius": 30,
+          "flexBasis": "auto",
+          "flexDirection": "column",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": 60,
+          "width": 60,
+        },
+        Object {
+          "marginRight": 15,
+        },
+      ]
+    }
+    width="60px"
+  />
+  <View
+    dir="row"
+    height="20px"
+    radius={10}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#DFE3EC",
+          "borderBottomLeftRadius": 10,
+          "borderBottomRightRadius": 10,
+          "borderTopLeftRadius": 10,
+          "borderTopRightRadius": 10,
+          "flexBasis": "auto",
+          "flexDirection": "row",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": 20,
+          "width": "80%",
+        },
+        Object {
+          "marginTop": 15,
+        },
+      ]
+    }
+    width="80%"
+  />
+</View>
+`;
+
+exports[`SkeletonItem should render a "RowSkeletonItemAltColor" component 1`] = `
+<View
+  color="#EBEDF2"
+  dir="row"
+  height="80px"
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#EBEDF2",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexBasis": "auto",
+        "flexDirection": "row",
+        "flexGrow": 0,
+        "flexShrink": 1,
+        "height": 80,
+        "width": "100%",
+      },
+      Object {
+        "alignItems": "center",
+        "padding": 15,
+      },
+    ]
+  }
+>
+  <View
+    height="40px"
+    radius={20}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#DFE3EC",
+          "borderBottomLeftRadius": 20,
+          "borderBottomRightRadius": 20,
+          "borderTopLeftRadius": 20,
+          "borderTopRightRadius": 20,
+          "flexBasis": "auto",
+          "flexDirection": "column",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": 40,
+          "width": 40,
+        },
+        Object {
+          "marginRight": 15,
+        },
+      ]
+    }
+    width="40px"
+  />
+  <View
+    dir="row"
+    height="20px"
+    radius={10}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#DFE3EC",
+          "borderBottomLeftRadius": 10,
+          "borderBottomRightRadius": 10,
+          "borderTopLeftRadius": 10,
+          "borderTopRightRadius": 10,
+          "flexBasis": "auto",
+          "flexDirection": "row",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": 20,
+          "width": "40%",
+        },
+        undefined,
+      ]
+    }
+    width="40%"
+  />
+</View>
+`;
+
+exports[`SkeletonItem should render a "RowSkeletonItems" component 1`] = `
+<View
+  color="#EBEDF2"
+  dir="row"
+  height="100px"
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#EBEDF2",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexBasis": "auto",
+        "flexDirection": "row",
+        "flexGrow": 0,
+        "flexShrink": 1,
+        "height": 100,
+        "width": "100%",
+      },
+      Object {
+        "alignItems": "center",
+        "padding": 15,
+      },
+    ]
+  }
+>
+  <View
+    height="80px"
+    radius={40}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#DFE3EC",
+          "borderBottomLeftRadius": 40,
+          "borderBottomRightRadius": 40,
+          "borderTopLeftRadius": 40,
+          "borderTopRightRadius": 40,
+          "flexBasis": "auto",
+          "flexDirection": "column",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": 80,
+          "width": 80,
+        },
+        undefined,
+      ]
+    }
+    width="80px"
+  />
+  <View
+    color="transparent"
+    dir="column"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexBasis": "auto",
+          "flexDirection": "column",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": "auto",
+          "width": "60%",
+        },
+        Object {
+          "marginLeft": 15,
+        },
+      ]
+    }
+    width="60%"
+  >
+    <View
+      dir="row"
+      height="25px"
+      radius={20}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 20,
+            "borderBottomRightRadius": 20,
+            "borderTopLeftRadius": 20,
+            "borderTopRightRadius": 20,
+            "flexBasis": "auto",
+            "flexDirection": "row",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 25,
+            "width": "35%",
+          },
+          undefined,
+        ]
+      }
+      width="35%"
+    />
+    <View
+      dir="row"
+      height="40px"
+      radius={20}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 20,
+            "borderBottomRightRadius": 20,
+            "borderTopLeftRadius": 20,
+            "borderTopRightRadius": 20,
+            "flexBasis": "auto",
+            "flexDirection": "row",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 40,
+            "width": "60%",
+          },
+          Object {
+            "marginTop": 10,
+          },
+        ]
+      }
+      width="60%"
+    />
+  </View>
+</View>
+`;
+
+exports[`SkeletonItem should render a "SearchSkeletonItem" component 1`] = `
+<View
+  color="transparent"
+  dir="row"
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexBasis": "auto",
+        "flexDirection": "row",
+        "flexGrow": 0,
+        "flexShrink": 1,
+        "height": "auto",
+        "width": "100%",
+      },
+      undefined,
+    ]
+  }
+  width="100%"
+>
+  <View
+    flex={1}
+    height="40px"
+    radius={20}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#DFE3EC",
+          "borderBottomLeftRadius": 20,
+          "borderBottomRightRadius": 20,
+          "borderTopLeftRadius": 20,
+          "borderTopRightRadius": 20,
+          "flexDirection": "column",
+          "height": 40,
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+  />
+  <View
+    height="40px"
+    radius={40}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#DFE3EC",
+          "borderBottomLeftRadius": 40,
+          "borderBottomRightRadius": 40,
+          "borderTopLeftRadius": 40,
+          "borderTopRightRadius": 40,
+          "flexBasis": "auto",
+          "flexDirection": "column",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": 40,
+          "width": 40,
+        },
+        Object {
+          "marginLeft": 15,
+        },
+      ]
+    }
+    width="40px"
+  />
+</View>
+`;
+
+exports[`SkeletonItem should render a "ShortTextSkeletonItem" component 1`] = `
+<View
+  dir="row"
+  height="20px"
+  radius={10}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#DFE3EC",
+        "borderBottomLeftRadius": 10,
+        "borderBottomRightRadius": 10,
+        "borderTopLeftRadius": 10,
+        "borderTopRightRadius": 10,
+        "flexBasis": "auto",
+        "flexDirection": "row",
+        "flexGrow": 0,
+        "flexShrink": 1,
+        "height": 20,
+        "width": "50%",
+      },
+      Object {
+        "alignContent": "space-between",
+      },
+    ]
+  }
+  width="50%"
+/>
+`;
+
+exports[`SkeletonItem should render a "SkeletonHorizontalDivision" component 1`] = `
+<View
+  style={
+    Object {
+      "height": "100%",
+      "width": 15,
+    }
+  }
+/>
+`;
+
+exports[`SkeletonItem should render a "SkeletonItem" component 1`] = `
+<div
+  animation={
+    Object {
+      "0": Object {
+        "opacity": 1,
+      },
+      "0.5": Object {
+        "opacity": 0.35,
+      },
+      "1": Object {
+        "opacity": 1,
+      },
+    }
+  }
+  duration={2000}
+  easing="ease"
+  iterationCount="infinite"
+>
+  children
+</div>
+`;
+
+exports[`SkeletonItem should render a "SkeletonItemOffer" component 1`] = `
+<View
+  color="#EBEDF2"
+  dir="row"
+  height="70px"
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#EBEDF2",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexBasis": "auto",
+        "flexDirection": "row",
+        "flexGrow": 0,
+        "flexShrink": 1,
+        "height": 70,
+        "width": "100%",
+      },
+      Object {
+        "alignItems": "center",
+        "justifyContent": "flex-start",
+        "paddingLeft": 14,
+        "paddingRight": 22,
+      },
+    ]
+  }
+  width="100%"
+>
+  <View
+    color="transparent"
+    dir="row"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexBasis": "auto",
+          "flexDirection": "row",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": "auto",
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      height="40px"
+      radius={20}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 20,
+            "borderBottomRightRadius": 20,
+            "borderTopLeftRadius": 20,
+            "borderTopRightRadius": 20,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 40,
+            "width": 40,
+          },
+          Object {
+            "marginRight": 14,
+          },
+        ]
+      }
+      width="40px"
+    />
+    <View
+      color="transparent"
+      dir="column"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": "auto",
+            "width": 150,
+          },
+          Object {
+            "justifyContent": "space-between",
+          },
+        ]
+      }
+      width="150px"
+    >
+      <View
+        height="19px"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#DFE3EC",
+              "borderBottomLeftRadius": 8,
+              "borderBottomRightRadius": 8,
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "flexBasis": "auto",
+              "flexDirection": "column",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 19,
+              "width": 100,
+            },
+            undefined,
+          ]
+        }
+        width="100px"
+      />
+      <View
+        height="15px"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#DFE3EC",
+              "borderBottomLeftRadius": 8,
+              "borderBottomRightRadius": 8,
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "flexBasis": "auto",
+              "flexDirection": "column",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 15,
+              "width": 100,
+            },
+            undefined,
+          ]
+        }
+        width="100px"
+      />
+    </View>
+  </View>
+  <View
+    height="19px"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#DFE3EC",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexBasis": "auto",
+          "flexDirection": "column",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": 19,
+          "width": 62,
+        },
+        undefined,
+      ]
+    }
+    width="62px"
+  />
+</View>
+`;
+
+exports[`SkeletonItem should render a "SkeletonItemReward" component 1`] = `
+<View
+  color="#EBEDF2"
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#EBEDF2",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexBasis": "auto",
+        "flexDirection": "column",
+        "flexGrow": 0,
+        "flexShrink": 1,
+        "height": "auto",
+        "width": "100%",
+      },
+      Object {
+        "padding": 20,
+        "paddingRight": 25,
+      },
+    ]
+  }
+>
+  <View
+    color="transparent"
+    dir="row"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexBasis": "auto",
+          "flexDirection": "row",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": "auto",
+          "width": "100%",
+        },
+        Object {
+          "alignItems": "center",
+        },
+      ]
+    }
+  >
+    <View
+      color="transparent"
+      dir="column"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": "auto",
+            "width": "100%",
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        height="21px"
+        radius={15}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#DFE3EC",
+              "borderBottomLeftRadius": 15,
+              "borderBottomRightRadius": 15,
+              "borderTopLeftRadius": 15,
+              "borderTopRightRadius": 15,
+              "flexBasis": "auto",
+              "flexDirection": "column",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 21,
+              "width": "60%",
+            },
+            Object {
+              "marginBottom": 7,
+            },
+          ]
+        }
+        width="60%"
+      />
+      <View
+        height="17px"
+        radius={15}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#DFE3EC",
+              "borderBottomLeftRadius": 15,
+              "borderBottomRightRadius": 15,
+              "borderTopLeftRadius": 15,
+              "borderTopRightRadius": 15,
+              "flexBasis": "auto",
+              "flexDirection": "column",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 17,
+              "width": "60%",
+            },
+            undefined,
+          ]
+        }
+        width="60%"
+      />
+    </View>
+    <View
+      height="25px"
+      radius={12.5}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#DFE3EC",
+            "borderBottomLeftRadius": 12.5,
+            "borderBottomRightRadius": 12.5,
+            "borderTopLeftRadius": 12.5,
+            "borderTopRightRadius": 12.5,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": 25,
+            "width": 25,
+          },
+          undefined,
+        ]
+      }
+      width="25px"
+    />
+  </View>
+</View>
+`;
+
+exports[`SkeletonItem should render a "SkeletonList" component 1`] = `
+<RCTScrollView
+  data={
+    Array [
+      0,
+      1,
+    ]
+  }
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={true}
+  keyExtractor={[Function]}
+  onContentSizeChange={[Function]}
+  onLayout={[Function]}
+  onMomentumScrollBegin={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEnabled={false}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={Array []}
+  viewabilityConfigCallbackPairs={Array []}
+>
+  <View>
+    <View
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      children
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      children
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`SkeletonItem should render a "SkeletonVerticalDivision" component 1`] = `
+<View
+  style={
+    Object {
+      "height": 15,
+      "width": "100%",
+    }
+  }
+/>
+`;
+
+exports[`SkeletonItem should render a "SmallSquareSkeletonItem" component 1`] = `
+<View
+  color="#EBEDF2"
+  height="100px"
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#EBEDF2",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexBasis": "auto",
+        "flexDirection": "column",
+        "flexGrow": 0,
+        "flexShrink": 1,
+        "height": 100,
+        "width": 100,
+      },
+      Array [
+        Object {
+          "alignItems": "center",
+        },
+        Object {
+          "justifyContent": "center",
+        },
+      ],
+    ]
+  }
+  width="100px"
+>
+  <View
+    height="60px"
+    radius={30}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#DFE3EC",
+          "borderBottomLeftRadius": 30,
+          "borderBottomRightRadius": 30,
+          "borderTopLeftRadius": 30,
+          "borderTopRightRadius": 30,
+          "flexBasis": "auto",
+          "flexDirection": "column",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": 60,
+          "width": 60,
+        },
+        undefined,
+      ]
+    }
+    width="60px"
+  />
+</View>
+`;
+
+exports[`SkeletonItem should render a "SmallTileSkeletonItem" component 1`] = `
+<View
+  color="#EBEDF2"
+  height="65px"
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#EBEDF2",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexBasis": "auto",
+        "flexDirection": "column",
+        "flexGrow": 0,
+        "flexShrink": 1,
+        "height": 65,
+        "width": 100,
+      },
+      Array [
+        Object {
+          "alignItems": "center",
+        },
+        Object {
+          "justifyContent": "center",
+        },
+      ],
+    ]
+  }
+  width="100px"
+>
+  <View
+    height="10px"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#DFE3EC",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexBasis": "auto",
+          "flexDirection": "column",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": 10,
+          "width": 50,
+        },
+        undefined,
+      ]
+    }
+    width="50px"
+  />
+</View>
+`;
+
+exports[`SkeletonItem should render a "SwitchNavBarSkeletonItem" component 1`] = `
+<View
+  color="#EBEDF2"
+  radius={40}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#EBEDF2",
+        "borderBottomLeftRadius": 40,
+        "borderBottomRightRadius": 40,
+        "borderTopLeftRadius": 40,
+        "borderTopRightRadius": 40,
+        "flexBasis": "auto",
+        "flexDirection": "column",
+        "flexGrow": 0,
+        "flexShrink": 1,
+        "height": "auto",
+        "width": "100%",
+      },
+      Object {
+        "padding": 5,
+      },
+    ]
+  }
+>
+  <View
+    height="50px"
+    radius={50}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#DFE3EC",
+          "borderBottomLeftRadius": 50,
+          "borderBottomRightRadius": 50,
+          "borderTopLeftRadius": 50,
+          "borderTopRightRadius": 50,
+          "flexBasis": "auto",
+          "flexDirection": "column",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": 50,
+          "width": "50%",
+        },
+        undefined,
+      ]
+    }
+    width="50%"
+  />
+</View>
+`;
+
+exports[`SkeletonItem should render a "TextSkeletonItem" component 1`] = `
+<View
+  dir="row"
+  height="20px"
+  radius={10}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#DFE3EC",
+        "borderBottomLeftRadius": 10,
+        "borderBottomRightRadius": 10,
+        "borderTopLeftRadius": 10,
+        "borderTopRightRadius": 10,
+        "flexBasis": "auto",
+        "flexDirection": "row",
+        "flexGrow": 0,
+        "flexShrink": 1,
+        "height": 20,
+        "width": "100%",
+      },
+      Array [
+        Object {
+          "alignContent": "space-between",
+        },
+        undefined,
+      ],
+    ]
+  }
+  width="100%"
+/>
+`;
+
+exports[`SkeletonItem should render a "TileSkeletonItem" component 1`] = `
+<View
+  color="#EBEDF2"
+  height="170px"
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#EBEDF2",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexBasis": "auto",
+        "flexDirection": "column",
+        "flexGrow": 0,
+        "flexShrink": 1,
+        "height": 170,
+        "width": 150,
+      },
+      Array [
+        Object {
+          "alignItems": "center",
+        },
+        Object {
+          "justifyContent": "center",
+        },
+      ],
+    ]
+  }
+  width="150px"
+>
+  <View
+    height="60px"
+    radius={30}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#DFE3EC",
+          "borderBottomLeftRadius": 30,
+          "borderBottomRightRadius": 30,
+          "borderTopLeftRadius": 30,
+          "borderTopRightRadius": 30,
+          "flexBasis": "auto",
+          "flexDirection": "column",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": 60,
+          "width": 60,
+        },
+        undefined,
+      ]
+    }
+    width="60px"
+  />
+  <View
+    height="15px"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#DFE3EC",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexBasis": "auto",
+          "flexDirection": "column",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": 15,
+          "width": "70%",
+        },
+        Object {
+          "marginTop": 25,
+        },
+      ]
+    }
+    width="70%"
+  />
+</View>
+`;
+
+exports[`SkeletonItem should render a "TitleBallSkeletonItem" component 1`] = `
+<View
+  color="transparent"
+  dir="row"
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexBasis": "auto",
+        "flexDirection": "row",
+        "flexGrow": 0,
+        "flexShrink": 1,
+        "height": "auto",
+        "width": "100%",
+      },
+      Array [
+        Object {
+          "alignItems": "center",
+        },
+        Object {
+          "justifyContent": "center",
+        },
+      ],
+    ]
+  }
+  width="100%"
+>
+  <View
+    height="60px"
+    radius={60}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#DFE3EC",
+          "borderBottomLeftRadius": 60,
+          "borderBottomRightRadius": 60,
+          "borderTopLeftRadius": 60,
+          "borderTopRightRadius": 60,
+          "flexBasis": "auto",
+          "flexDirection": "column",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": 60,
+          "width": 60,
+        },
+        Object {
+          "marginRight": 15,
+        },
+      ]
+    }
+    width="60px"
+  />
+  <View
+    height="20px"
+    radius={20}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#DFE3EC",
+          "borderBottomLeftRadius": 20,
+          "borderBottomRightRadius": 20,
+          "borderTopLeftRadius": 20,
+          "borderTopRightRadius": 20,
+          "flexBasis": "auto",
+          "flexDirection": "column",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": 20,
+          "width": 75,
+        },
+        undefined,
+      ]
+    }
+    width="75px"
+  />
+</View>
+`;
+
+exports[`SkeletonItem should render a "TooltipTitleSkeletonItem" component 1`] = `
+<View
+  color="transparent"
+  dir="row"
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexBasis": "auto",
+        "flexDirection": "row",
+        "flexGrow": 0,
+        "flexShrink": 1,
+        "height": "auto",
+        "width": "100%",
+      },
+      Object {
+        "alignItems": "center",
+        "justifyContent": "space-between",
+      },
+    ]
+  }
+>
+  <View
+    height="20px"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#DFE3EC",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexBasis": "auto",
+          "flexDirection": "column",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": 20,
+          "width": 200,
+        },
+        undefined,
+      ]
+    }
+    width="200px"
+  />
+  <View
+    height="25px"
+    radius={12.5}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#DFE3EC",
+          "borderBottomLeftRadius": 12.5,
+          "borderBottomRightRadius": 12.5,
+          "borderTopLeftRadius": 12.5,
+          "borderTopRightRadius": 12.5,
+          "flexBasis": "auto",
+          "flexDirection": "column",
+          "flexGrow": 0,
+          "flexShrink": 1,
+          "height": 25,
+          "width": 25,
+        },
+        Object {
+          "marginLeft": 15,
+        },
+      ]
+    }
+    width="25px"
+  />
+</View>
+`;

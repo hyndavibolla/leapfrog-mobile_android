@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConnectionBanner should render WITHOUT connection 1`] = `
+<View
+  accessibilityLabel="connection-banner-container"
+  accessible={true}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#FF5F00",
+        "flexDirection": "row",
+        "paddingBottom": 8,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 8,
+      },
+      undefined,
+    ]
+  }
+  testID="connection-banner-container"
+>
+  <Text
+    accessibilityLabel="icon-text"
+    accessible={true}
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      Array [
+        Object {
+          "color": "#FFFFFF",
+          "fontSize": 20,
+        },
+        Object {
+          "marginRight": 8,
+        },
+        Object {
+          "fontFamily": "sywmax",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+    testID="icon-text"
+  >
+    
+  </Text>
+  <Text
+    font="SFProDisplay-Bold"
+    style={
+      Array [
+        Object {
+          "color": "#909BA0",
+          "fontFamily": "SFProDisplay-Bold",
+          "fontSize": 16,
+          "lineHeight": 22,
+        },
+        Object {
+          "color": "#FFFFFF",
+          "fontSize": 18,
+        },
+      ]
+    }
+  >
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry
+  </Text>
+</View>
+`;
+
+exports[`ConnectionBanner should render with connection 1`] = `null`;

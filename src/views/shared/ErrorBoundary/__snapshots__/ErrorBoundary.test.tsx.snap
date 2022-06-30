@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorBoundary should render a placeholder when children fail 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#909BA0",
+        "fontFamily": "SFProDisplay-Medium",
+        "fontSize": 16,
+        "lineHeight": 22,
+      },
+      undefined,
+    ]
+  }
+>
+  a placeholder
+</Text>
+`;
+
+exports[`ErrorBoundary should render children 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#909BA0",
+        "fontFamily": "SFProDisplay-Medium",
+        "fontSize": 16,
+        "lineHeight": 22,
+      },
+      undefined,
+    ]
+  }
+>
+  Render test
+</Text>
+`;
+
+exports[`ErrorBoundary should render null when children fail 1`] = `null`;
+
+exports[`ErrorBoundary should render null when children fail without a context (storybook) 1`] = `null`;

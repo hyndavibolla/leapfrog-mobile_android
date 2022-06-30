@@ -1,0 +1,552 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InStoreOfferLinkCardModal should render 1`] = `
+<View
+  accessibilityLabel="in-store-offer-link-card-modal-container"
+  accessible={true}
+  style={
+    Object {
+      "alignItems": "center",
+    }
+  }
+  testID="in-store-offer-link-card-modal-container"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "marginBottom": 24,
+      }
+    }
+  >
+    CardIconDarkBlue
+    <Text
+      style={
+        Object {
+          "color": "#262C2F",
+          "fontFamily": "SFProDisplay-Heavy",
+          "fontSize": 22,
+          "lineHeight": 26,
+          "marginBottom": 0,
+          "marginLeft": 12,
+          "marginRight": 12,
+          "marginTop": 0,
+        }
+      }
+    >
+      +
+    </Text>
+    <View
+      style={
+        Array [
+          Object {
+            "height": 60,
+            "width": 60,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "overflow": "hidden",
+            },
+            Object {
+              "alignItems": "center",
+              "borderBottomLeftRadius": 60,
+              "borderBottomRightRadius": 60,
+              "borderTopLeftRadius": 60,
+              "borderTopRightRadius": 60,
+              "height": "100%",
+              "justifyContent": "center",
+              "width": "100%",
+            },
+          ]
+        }
+      >
+        <FastImageView
+          accessibilityLabel="brand-logo-image"
+          accessible={true}
+          onFastImageError={[Function]}
+          onFastImageLoad={[Function]}
+          onFastImageLoadEnd={[Function]}
+          onFastImageLoadStart={[Function]}
+          resizeMode="cover"
+          source={
+            Object {
+              "priority": "high",
+              "uri": "https://www.movistar.es/estaticos/img/ico-app-mi-movistar-2017.png",
+            }
+          }
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+          testID="brand-logo-image"
+        />
+      </View>
+    </View>
+  </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#262C2F",
+          "fontFamily": "SFProDisplay-Bold",
+          "fontSize": 20,
+          "lineHeight": 30,
+        },
+        Object {
+          "color": "#262C2F",
+          "textAlign": "center",
+        },
+      ]
+    }
+    type="titleHeader"
+  >
+    To activate your 
+    Starbucks
+     offer, link your card
+  </Text>
+  <View
+    style={
+      Object {
+        "marginTop": 8,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 16,
+          "textAlign": "center",
+        }
+      }
+    >
+      Please add a card to your account to start earning points at restaurants near you.
+    </Text>
+  </View>
+  <View
+    accessibilityLabel="in-store-offer-link-card-modal-link-card-btn"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="in-store-offer-link-card-modal-link-card-btn"
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#0066CC",
+            "borderBottomLeftRadius": 30,
+            "borderBottomRightRadius": 30,
+            "borderTopLeftRadius": 30,
+            "borderTopRightRadius": 30,
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "paddingBottom": 8,
+            "paddingLeft": 12,
+            "paddingRight": 12,
+            "paddingTop": 8,
+          },
+          Object {
+            "marginTop": 40,
+            "paddingBottom": 16,
+            "paddingLeft": 100,
+            "paddingRight": 100,
+            "paddingTop": 16,
+          },
+        ]
+      }
+    >
+      <View
+        style={false}
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 14,
+                  "textAlign": "center",
+                },
+                Object {
+                  "fontFamily": "SFProDisplay-Medium",
+                  "fontSize": 16,
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          Link a Card
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    accessibilityLabel="in-store-offer-link-card-modal-cancel-btn"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="in-store-offer-link-card-modal-cancel-btn"
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#0066CC",
+            "borderBottomLeftRadius": 30,
+            "borderBottomRightRadius": 30,
+            "borderTopLeftRadius": 30,
+            "borderTopRightRadius": 30,
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "paddingBottom": 8,
+            "paddingLeft": 12,
+            "paddingRight": 12,
+            "paddingTop": 8,
+          },
+          Object {
+            "backgroundColor": "transparent",
+            "marginTop": 16,
+          },
+        ]
+      }
+    >
+      <View
+        style={false}
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 14,
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "#0066CC",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 16,
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          Cancel
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`InStoreOfferLinkCardModal should render without brand logo 1`] = `
+<View
+  accessibilityLabel="in-store-offer-link-card-modal-container"
+  accessible={true}
+  style={
+    Object {
+      "alignItems": "center",
+    }
+  }
+  testID="in-store-offer-link-card-modal-container"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "marginBottom": 24,
+      }
+    }
+  >
+    CardIconDarkBlue
+    <Text
+      style={
+        Object {
+          "color": "#262C2F",
+          "fontFamily": "SFProDisplay-Heavy",
+          "fontSize": 22,
+          "lineHeight": 26,
+          "marginBottom": 0,
+          "marginLeft": 12,
+          "marginRight": 12,
+          "marginTop": 0,
+        }
+      }
+    >
+      +
+    </Text>
+    <View
+      style={
+        Array [
+          Object {
+            "height": 60,
+            "width": 60,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "height": "100%",
+            "justifyContent": "center",
+            "width": "100%",
+          }
+        }
+      >
+        RestaurantFallback
+      </View>
+    </View>
+  </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#262C2F",
+          "fontFamily": "SFProDisplay-Bold",
+          "fontSize": 20,
+          "lineHeight": 30,
+        },
+        Object {
+          "color": "#262C2F",
+          "textAlign": "center",
+        },
+      ]
+    }
+    type="titleHeader"
+  >
+    To activate your 
+    Starbucks
+     offer, link your card
+  </Text>
+  <View
+    style={
+      Object {
+        "marginTop": 8,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 16,
+          "textAlign": "center",
+        }
+      }
+    >
+      Please add a card to your account to start earning points at restaurants near you.
+    </Text>
+  </View>
+  <View
+    accessibilityLabel="in-store-offer-link-card-modal-link-card-btn"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="in-store-offer-link-card-modal-link-card-btn"
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#0066CC",
+            "borderBottomLeftRadius": 30,
+            "borderBottomRightRadius": 30,
+            "borderTopLeftRadius": 30,
+            "borderTopRightRadius": 30,
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "paddingBottom": 8,
+            "paddingLeft": 12,
+            "paddingRight": 12,
+            "paddingTop": 8,
+          },
+          Object {
+            "marginTop": 40,
+            "paddingBottom": 16,
+            "paddingLeft": 100,
+            "paddingRight": 100,
+            "paddingTop": 16,
+          },
+        ]
+      }
+    >
+      <View
+        style={false}
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 14,
+                  "textAlign": "center",
+                },
+                Object {
+                  "fontFamily": "SFProDisplay-Medium",
+                  "fontSize": 16,
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          Link a Card
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    accessibilityLabel="in-store-offer-link-card-modal-cancel-btn"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="in-store-offer-link-card-modal-cancel-btn"
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#0066CC",
+            "borderBottomLeftRadius": 30,
+            "borderBottomRightRadius": 30,
+            "borderTopLeftRadius": 30,
+            "borderTopRightRadius": 30,
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "paddingBottom": 8,
+            "paddingLeft": 12,
+            "paddingRight": 12,
+            "paddingTop": 8,
+          },
+          Object {
+            "backgroundColor": "transparent",
+            "marginTop": 16,
+          },
+        ]
+      }
+    >
+      <View
+        style={false}
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 14,
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "#0066CC",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 16,
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          Cancel
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,275 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PointBalancePending should render 1`] = `
+<View
+  accessibilityLabel="point-balance-pending-container"
+  accessible={true}
+  testID="point-balance-pending-container"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "elevation": 3,
+          "shadowColor": "#262C2F",
+          "shadowOffset": Object {
+            "height": 4,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+        },
+        Object {
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexDirection": "column",
+          "justifyContent": "space-between",
+          "paddingBottom": 20,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 20,
+        },
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "flexDirection": "row",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "overflow": "hidden",
+          },
+          Object {
+            "height": 47,
+            "width": 47,
+          },
+        ]
+      }
+    >
+      <FastImageView
+        resizeMode="contain"
+        source={
+          Object {
+            "testUri": "../../../src/assets/shared/pendingClock.png",
+          }
+        }
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      />
+    </View>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          Object {
+            "color": "#262C2F45",
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 14,
+            "lineHeight": 24,
+            "marginBottom": 8,
+            "marginLeft": 16,
+            "marginRight": 16,
+            "marginTop": 8,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Object {
+              "color": "#262C2F",
+              "fontFamily": "SFProDisplay-Bold",
+            },
+          ]
+        }
+      >
+        Time's up.
+      </Text>
+       Your Level will be recalculated soon. Stay tuned!
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`PointBalancePending should render with chevron 1`] = `
+<View
+  accessibilityLabel="point-balance-pending-container"
+  accessible={true}
+  testID="point-balance-pending-container"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "elevation": 3,
+          "shadowColor": "#262C2F",
+          "shadowOffset": Object {
+            "height": 4,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+        },
+        Object {
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexDirection": "column",
+          "justifyContent": "space-between",
+          "paddingBottom": 20,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 20,
+        },
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "flexDirection": "row",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "overflow": "hidden",
+          },
+          Object {
+            "height": 47,
+            "width": 47,
+          },
+        ]
+      }
+    >
+      <FastImageView
+        resizeMode="contain"
+        source={
+          Object {
+            "testUri": "../../../src/assets/shared/pendingClock.png",
+          }
+        }
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      />
+    </View>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          Object {
+            "color": "#262C2F45",
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 14,
+            "lineHeight": 24,
+            "marginBottom": 8,
+            "marginLeft": 16,
+            "marginRight": 16,
+            "marginTop": 8,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Object {
+              "color": "#262C2F",
+              "fontFamily": "SFProDisplay-Bold",
+            },
+          ]
+        }
+      >
+        Time's up.
+      </Text>
+       Your Level will be recalculated soon. Stay tuned!
+    </Text>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+    >
+      <Text
+        accessibilityLabel="icon-text"
+        accessible={true}
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontSize": 20,
+            },
+            undefined,
+            Object {
+              "fontFamily": "sywmax",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+        testID="icon-text"
+      >
+        
+      </Text>
+    </View>
+  </View>
+</View>
+`;

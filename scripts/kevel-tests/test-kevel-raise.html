@@ -1,0 +1,55 @@
+<html>
+<head>
+    <title>Test Kevel</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Add this before any of the next declarations -->
+    <script type="text/javascript" src="https://static.adzerk.net/ados.js"></script>
+</head>
+<body>
+    <h2>Test Kevel: Desktop location</h2>
+    <p>In order to see it, load the page with a resolution higher than 1200px</p>
+
+    <!-- The section below is meant to go where the desktop banner goes -->
+    <!-- feel free to modify the divId variable name -->
+    <script type="text/javascript">
+      var ados = ados || {};
+      ados.run = ados.run || [];
+
+      ados.run.push(function() {
+        if (window.innerWidth >= 1200) {
+          const divId = 'pdp-desktop';
+          ados_addPlacement(10953, 1189638, divId, 4525)
+            .setFlightCreativeId(238032632)
+            .loadInline();
+        }
+      });
+    </script>
+
+    <h2>Test Kevel: Tablet/mobile location</h2>
+    <p>In order to see it, load the page with a resolution lower than 768px wide for mobile
+        and lower than 1200px wide for tablet.</p>
+    </p>
+
+    <!-- The section below is meant to go where the tablet/mobile banner goes -->
+    <!-- feel free to modify the divId variable name -->
+    <script type="text/javascript">
+      var ados = ados || {};
+      ados.run = ados.run || [];
+
+      ados.run.push(function() {
+        if (window.innerWidth >= 1200) return;
+
+        const width = window.innerWidth;
+        const sizeId = (width >= 768) ? 4526 : 4527;
+        const divId = 'pdp-tablet-mobile';
+        const flightCreativeId = (width >= 768) ? 238032654 : 238032673;
+
+        ados_addPlacement(10953, 1189638, divId, sizeId)
+          .setFlightCreativeId(flightCreativeId)
+          .loadInline();
+      });
+    </script>
+</body>
+</html>

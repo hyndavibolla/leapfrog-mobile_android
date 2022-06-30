@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CriticalError should render 1`] = `
+<View
+  accessibilityLabel="critical-error-container"
+  accessible={true}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5F7FA",
+      "flexBasis": 0,
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "justifyContent": "center",
+      "paddingBottom": 32,
+      "paddingLeft": 32,
+      "paddingRight": 32,
+      "paddingTop": 32,
+    }
+  }
+  testID="critical-error-container"
+>
+  CriticalError
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "marginTop": 40,
+      }
+    }
+  >
+    <Text
+      font="SFProDisplay-Heavy"
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Heavy",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          Object {
+            "color": "#262C2F",
+            "fontSize": 22,
+            "marginBottom": 32,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      Something went wrong :(
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          Object {
+            "color": "#909BA0",
+            "fontSize": 18,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      We are fixing this problem. Please, try again later.
+    </Text>
+  </View>
+  <View>
+    <View
+      accessibilityLabel="critical-error-refresh-btn"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="critical-error-refresh-btn"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#0066CC",
+              "borderBottomLeftRadius": 30,
+              "borderBottomRightRadius": 30,
+              "borderTopLeftRadius": 30,
+              "borderTopRightRadius": 30,
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "paddingBottom": 8,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 8,
+            },
+            Object {
+              "marginTop": 40,
+              "paddingBottom": 16,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+              "paddingTop": 16,
+              "width": "100%",
+            },
+          ]
+        }
+      >
+        <View
+          style={false}
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Medium",
+                  "fontSize": 16,
+                  "lineHeight": 22,
+                },
+                Array [
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontSize": 14,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 18,
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            Refresh the app
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

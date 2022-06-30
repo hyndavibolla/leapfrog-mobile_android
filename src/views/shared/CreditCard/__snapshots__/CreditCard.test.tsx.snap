@@ -1,0 +1,219 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreditCard should render without SYW Card 1`] = `
+Array [
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#909BA0",
+          "fontFamily": "SFProDisplay-Medium",
+          "fontSize": 16,
+          "lineHeight": 22,
+        },
+        Object {
+          "color": "#262C2F",
+          "fontFamily": "SFProDisplay-Bold",
+          "fontSize": 16,
+          "lineHeight": 24,
+          "marginBottom": 16,
+        },
+      ]
+    }
+  >
+    Shop Your Way Mastercard®
+    ‡
+  </Text>,
+  <View
+    accessibilityLabel="banner-apply-and-use-container"
+    accessible={true}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "elevation": 3,
+          "shadowColor": "#262C2F",
+          "shadowOffset": Object {
+            "height": 4,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+        },
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexDirection": "row",
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+          "width": "100%",
+        },
+      ]
+    }
+    testID="banner-apply-and-use-container"
+  >
+    <Image
+      resizeMode="contain"
+      source={
+        Object {
+          "testUri": "../../../src/assets/credit-card/creditCard2.png",
+        }
+      }
+      style={
+        Object {
+          "height": 52,
+          "width": 64,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "marginLeft": 16,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontFamily": "SFProDisplay-Bold",
+            "fontSize": 14,
+            "lineHeight": 20,
+          }
+        }
+      >
+        Earn a 
+        <Text
+          style={
+            Object {
+              "color": "#0066CC",
+              "fontFamily": "SFProDisplay-Bold",
+            }
+          }
+        >
+          $75
+        </Text>
+         statement credit for every $500 spent, up to $225, with eligible purchases†.
+      </Text>
+      <View
+        accessibilityLabel="banner-apply-and-use-text-button"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID="banner-apply-and-use-text-button"
+      >
+        <Text
+          style={
+            Object {
+              "color": "#0066CC",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 12,
+              "marginVertical": 12,
+            }
+          }
+        >
+          ‡†See details and exclusions
+        </Text>
+      </View>
+      <View
+        accessibilityLabel="banner-apply-and-use-apply-button"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+            "width": 200,
+          }
+        }
+        testID="banner-apply-and-use-apply-button"
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#0066CC",
+                "borderBottomLeftRadius": 30,
+                "borderBottomRightRadius": 30,
+                "borderTopLeftRadius": 30,
+                "borderTopRightRadius": 30,
+                "flexDirection": "row",
+                "justifyContent": "center",
+                "paddingBottom": 8,
+                "paddingLeft": 12,
+                "paddingRight": 12,
+                "paddingTop": 8,
+              },
+              Object {
+                "paddingBottom": 12,
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 12,
+              },
+            ]
+          }
+        >
+          <View
+            style={false}
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Medium",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Array [
+                    Object {
+                      "color": "#FFFFFF",
+                      "fontSize": 14,
+                      "textAlign": "center",
+                    },
+                    Object {
+                      "fontFamily": "SFProDisplay-SemiBold",
+                      "fontSize": 14,
+                      "lineHeight": 20,
+                    },
+                    undefined,
+                  ],
+                ]
+              }
+            >
+              Learn more
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>,
+]
+`;

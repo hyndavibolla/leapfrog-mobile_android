@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TermsAndConditions should render 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flex": 1,
+        "overflow": "hidden",
+      },
+      undefined,
+    ]
+  }
+>
+  <RNCWebView
+    cacheEnabled={true}
+    injectedJavaScript="true;"
+    injectedJavaScriptBeforeContentLoadedForMainFrameOnly={true}
+    injectedJavaScriptForMainFrameOnly={true}
+    javaScriptEnabled={true}
+    messagingEnabled={true}
+    onContentProcessDidTerminate={[Function]}
+    onError={[Function]}
+    onHttpError={[Function]}
+    onLoad={[Function]}
+    onLoadingError={[Function]}
+    onLoadingFinish={[Function]}
+    onLoadingProgress={[Function]}
+    onLoadingStart={[Function]}
+    onMessage={[Function]}
+    onShouldStartLoadWithRequest={[Function]}
+    setSupportMultipleWindows={false}
+    sharedCookiesEnabled={true}
+    source={
+      Object {
+        "html": "<html>
+<head>
+  <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1\\">
+  <style>
+    * { font-family: Gotham, \\"Helvetica Neue\\", Helvetica, Arial, \\"sans-serif\\";
+        font-size: 12px;
+        font-style:normal;
+        text-align: justify; 
+        line-height: 1.6em;
+    }
+    body { margin: 20px; }
+    h1 { display: none }
+    h2 {
+      font-size: 25px;
+      color: #517E99;
+      font-weight: bold;
+    }
+
+    em {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      color: #262C2F;
+    }
+    strong {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      color: #262C2F;
+    }
+    a {
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 300;
+      color: #262C2F;
+    }
+
+    tr td p {
+      text-align: left;
+    }
+
+    td {
+      padding: 10px
+    }
+    
+  </style>
+</head>
+<body>Terms and conditions text</body></html>",
+      }
+    }
+    startInLoadingState={false}
+    style={
+      Array [
+        Object {
+          "flex": 1,
+          "overflow": "hidden",
+        },
+        Object {
+          "backgroundColor": "#ffffff",
+        },
+        undefined,
+      ]
+    }
+    textInteractionEnabled={true}
+    thirdPartyCookiesEnabled={true}
+    useSharedProcessPool={true}
+  />
+</View>
+`;
+
+exports[`TermsAndConditions should render loading 1`] = `
+<View
+  accessibilityLabel="terms-and-conditions-spinner"
+  accessible={true}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5F7FA",
+      "flexBasis": 0,
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "height": "100%",
+      "justifyContent": "center",
+      "left": 0,
+      "position": "absolute",
+      "top": 0,
+      "width": "100%",
+    }
+  }
+  testID="terms-and-conditions-spinner"
+>
+  <div>
+    Spinner
+  </div>
+</View>
+`;

@@ -1,0 +1,205 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LinkedCardListItem should render a SYW card 1`] = `
+<View
+  accessibilityLabel="item-container-card"
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "transparent",
+      "elevation": 3,
+      "shadowColor": "#262C2F",
+      "shadowOffset": Object {
+        "height": 4,
+        "width": 0,
+      },
+      "shadowOpacity": 0.1,
+    }
+  }
+  testID="item-container-card"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "elevation": 3,
+          "shadowColor": "#262C2F",
+          "shadowOffset": Object {
+            "height": 4,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+        },
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexDirection": "row",
+          "marginBottom": 16,
+          "minHeight": 68,
+          "paddingHorizontal": 16,
+        },
+      ]
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/credit-card/creditCard.png",
+        }
+      }
+      style={
+        Object {
+          "borderBottomLeftRadius": 4,
+          "borderBottomRightRadius": 4,
+          "borderTopLeftRadius": 4,
+          "borderTopRightRadius": 4,
+          "height": 30,
+          "width": 50,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "marginLeft": 16,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#262C2F",
+            "fontFamily": "SFProDisplay-Bold",
+            "fontSize": 14,
+            "lineHeight": 24,
+          }
+        }
+      >
+        Shop Your Way Mastercard®
+      </Text>
+      <Text
+        accessibilityLabel="item-last-four"
+        accessible={true}
+        style={
+          Array [
+            Object {
+              "color": "#262C2F",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 14,
+              "lineHeight": 24,
+            },
+          ]
+        }
+        testID="item-last-four"
+      >
+        **** 5678
+      </Text>
+    </View>
+    RightAngleBracketIcon
+  </View>
+</View>
+`;
+
+exports[`LinkedCardListItem should render a regular card 1`] = `
+<View
+  accessibilityLabel="item-container-card"
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "transparent",
+      "elevation": 3,
+      "shadowColor": "#262C2F",
+      "shadowOffset": Object {
+        "height": 4,
+        "width": 0,
+      },
+      "shadowOpacity": 0.1,
+    }
+  }
+  testID="item-container-card"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "elevation": 3,
+          "shadowColor": "#262C2F",
+          "shadowOffset": Object {
+            "height": 4,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+        },
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexDirection": "row",
+          "marginBottom": 16,
+          "minHeight": 68,
+          "paddingHorizontal": 16,
+        },
+      ]
+    }
+  >
+    VisaCardIcon
+    <View
+      style={
+        Object {
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "marginLeft": 16,
+        }
+      }
+    >
+      <Text
+        accessibilityLabel="item-last-four"
+        accessible={true}
+        style={
+          Array [
+            Object {
+              "color": "#262C2F",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 14,
+              "lineHeight": 18,
+            },
+          ]
+        }
+        testID="item-last-four"
+      >
+        **** 5678
+      </Text>
+    </View>
+    RightAngleBracketIcon
+  </View>
+</View>
+`;

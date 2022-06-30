@@ -1,0 +1,500 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Linked Cards Screen should render 1`] = `
+Array [
+  <View
+    accessibilityLabel="linked-cards-screen-container"
+    accessible={true}
+    style={
+      Object {
+        "paddingHorizontal": 16,
+      }
+    }
+    testID="linked-cards-screen-container"
+  >
+    <View
+      accessibilityLabel="banner-apply-card-container"
+      accessible={true}
+      testID="banner-apply-card-container"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Object {
+              "color": "#262C2F",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "lineHeight": 24,
+              "marginBottom": 16,
+            },
+          ]
+        }
+      >
+        Shop Your Way Mastercard®‡
+      </Text>
+      <View
+        accessibilityLabel="banner-apply-and-use-container"
+        accessible={true}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "elevation": 3,
+              "shadowColor": "#262C2F",
+              "shadowOffset": Object {
+                "height": 4,
+                "width": 0,
+              },
+              "shadowOpacity": 0.1,
+            },
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "borderBottomLeftRadius": 8,
+              "borderBottomRightRadius": 8,
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "flexDirection": "row",
+              "paddingBottom": 16,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+              "paddingTop": 16,
+              "width": "100%",
+            },
+          ]
+        }
+        testID="banner-apply-and-use-container"
+      >
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "testUri": "../../../src/assets/credit-card/creditCard2.png",
+            }
+          }
+          style={
+            Object {
+              "height": 52,
+              "width": 64,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "marginLeft": 16,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 14,
+                "lineHeight": 20,
+              }
+            }
+          >
+            Earn a 
+            <Text
+              style={
+                Object {
+                  "color": "#0066CC",
+                  "fontFamily": "SFProDisplay-Bold",
+                }
+              }
+            >
+              $75
+            </Text>
+             statement credit for every $500 spent, up to $225, with eligible purchases†.
+          </Text>
+          <View
+            accessibilityLabel="banner-apply-and-use-text-button"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+            testID="banner-apply-and-use-text-button"
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#0066CC",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 12,
+                  "marginVertical": 12,
+                }
+              }
+            >
+              ‡†See details and exclusions
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="banner-apply-and-use-apply-button"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+                "width": 200,
+              }
+            }
+            testID="banner-apply-and-use-apply-button"
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#0066CC",
+                    "borderBottomLeftRadius": 30,
+                    "borderBottomRightRadius": 30,
+                    "borderTopLeftRadius": 30,
+                    "borderTopRightRadius": 30,
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "paddingBottom": 8,
+                    "paddingLeft": 12,
+                    "paddingRight": 12,
+                    "paddingTop": 8,
+                  },
+                  Object {
+                    "paddingBottom": 12,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "paddingTop": 12,
+                  },
+                ]
+              }
+            >
+              <View
+                style={false}
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#909BA0",
+                        "fontFamily": "SFProDisplay-Medium",
+                        "fontSize": 16,
+                        "lineHeight": 22,
+                      },
+                      Array [
+                        Object {
+                          "color": "#FFFFFF",
+                          "fontSize": 14,
+                          "textAlign": "center",
+                        },
+                        Object {
+                          "fontFamily": "SFProDisplay-SemiBold",
+                          "fontSize": 14,
+                          "lineHeight": 20,
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  Learn more
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Object {
+              "color": "#909BA0",
+              "fontSize": 12,
+              "lineHeight": 14,
+              "marginBottom": 20,
+              "marginTop": 16,
+            },
+          ]
+        }
+      >
+        We will automatically link your card to Cardlink to get you even more points on local restaurants.
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 0,
+          "marginLeft": 4,
+          "marginRight": 0,
+          "marginTop": 32,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#262C2F",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "lineHeight": 24,
+            },
+            Object {
+              "marginBottom": 12,
+            },
+          ]
+        }
+        type="sectionHeader"
+      >
+        My Cardlink Cards
+      </Text>
+      <View
+        accessibilityLabel="linked-cards-screen-more-information"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        testID="linked-cards-screen-more-information"
+      >
+        MoreInfo
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "marginBottom": 16,
+        }
+      }
+    >
+      <Text
+        accessibilityLabel="icon-text"
+        accessible={true}
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          Array [
+            Object {
+              "color": "#B361DF",
+              "fontSize": 16,
+            },
+            undefined,
+            Object {
+              "fontFamily": "sywmax",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+        testID="icon-text"
+      >
+        
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#909BA0",
+            "flexShrink": 1,
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 12,
+            "lineHeight": 14,
+            "paddingLeft": 8,
+          }
+        }
+      >
+        All linked cards are available for Local Offers at participating restaurants near you.
+      </Text>
+    </View>
+    <View
+      accessibilityLabel="linked-cards-container"
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="linked-cards-container"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "elevation": 3,
+              "shadowColor": "#262C2F",
+              "shadowOffset": Object {
+                "height": 4,
+                "width": 0,
+              },
+              "shadowOpacity": 0.1,
+            },
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "borderBottomLeftRadius": 8,
+              "borderBottomRightRadius": 8,
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "flexDirection": "row",
+              "marginBottom": 8,
+              "paddingBottom": 20,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+              "paddingTop": 20,
+            },
+          ]
+        }
+      >
+        CreditCardIcon
+        <View
+          style={
+            Object {
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "marginLeft": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#262C2F",
+                "fontFamily": "SFProDisplay-Heavy",
+                "fontSize": 16,
+                "lineHeight": 24,
+              }
+            }
+          >
+            Eat and Earn
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 14,
+                "lineHeight": 20,
+                "marginBottom": 4,
+              }
+            }
+          >
+            Add any Visa, Mastercard, or
+            
+
+            American Express to earn points
+            
+
+            near you
+          </Text>
+          <View
+            accessibilityLabel="linked-cards-add-card-btn"
+            accessible={true}
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+              }
+            }
+            testID="linked-cards-add-card-btn"
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#0066CC",
+                  "fontFamily": "SFProDisplay-Heavy",
+                  "fontSize": 14,
+                  "lineHeight": 18,
+                  "marginRight": 8,
+                }
+              }
+            >
+              Add my card
+            </Text>
+            <Text
+              accessibilityLabel="icon-text"
+              accessible={true}
+              allowFontScaling={false}
+              selectable={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#262C2F",
+                    "fontSize": 20,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "sywmax",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+              testID="icon-text"
+            >
+              
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>,
+  <Modal
+    accessibilityLabel="modal-container"
+    accessible={true}
+    animationType="slide"
+    hardwareAccelerated={false}
+    onRequestClose={[Function]}
+    statusBarTranslucent={true}
+    testID="modal-container"
+    transparent={true}
+    visible={false}
+  />,
+]
+`;

@@ -1,0 +1,1032 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgressRing should render  1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNSVGSvgView
+    bbHeight={143}
+    bbWidth={143}
+    focusable={false}
+    height={143}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+        },
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "transform": Array [
+            Object {
+              "rotateZ": "270deg",
+            },
+          ],
+        },
+        Object {
+          "flex": 0,
+          "height": 143,
+          "width": 143,
+        },
+      ]
+    }
+    width={143}
+  >
+    <RNSVGGroup
+      matrix={
+        Array [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+        ]
+      }
+    >
+      <RNSVGCircle
+        cx={71.5}
+        cy={71.5}
+        fill={null}
+        propList={
+          Array [
+            "fill",
+            "stroke",
+            "strokeWidth",
+          ]
+        }
+        r={64}
+        stroke={4278365935}
+        strokeWidth={15}
+      />
+      <RNSVGCircle
+        cx={71.5}
+        cy={71.5}
+        fill={null}
+        propList={
+          Array [
+            "fill",
+            "stroke",
+            "strokeWidth",
+            "strokeDasharray",
+            "strokeDashoffset",
+          ]
+        }
+        r={64}
+        stroke={4293651954}
+        strokeDasharray={
+          Array [
+            "402.1238596594935",
+            "402.1238596594935",
+          ]
+        }
+        strokeDashoffset={-120.63715789784804}
+        strokeWidth={16}
+      />
+      <RNSVGText
+        content={null}
+        dx={Array []}
+        dy={Array []}
+        fill={4278216396}
+        font={
+          Object {
+            "fontFamily": "SFProDisplay-Bold",
+            "fontSize": "18px",
+            "letterSpacing": 3,
+            "textAnchor": "middle",
+          }
+        }
+        matrix={
+          Array [
+            6.123233995736766e-17,
+            1,
+            -1,
+            6.123233995736766e-17,
+            143,
+            0,
+          ]
+        }
+        propList={
+          Array [
+            "fill",
+            "stroke",
+          ]
+        }
+        rotate={Array []}
+        stroke={4278216396}
+        x={
+          Array [
+            71.5,
+          ]
+        }
+        y={
+          Array [
+            71.5,
+          ]
+        }
+      >
+        <RNSVGTSpan
+          content="31,500"
+          dx={Array []}
+          dy={Array []}
+          font={Object {}}
+          rotate={Array []}
+          x={Array []}
+          y={Array []}
+        />
+      </RNSVGText>
+      <RNSVGText
+        content={null}
+        dx={Array []}
+        dy={Array []}
+        fill={4287667104}
+        font={
+          Object {
+            "fontFamily": "SFProDisplay-Bold",
+            "fontSize": "12px",
+            "fontWeight": "bold",
+            "textAnchor": "middle",
+          }
+        }
+        matrix={
+          Array [
+            6.123233995736766e-17,
+            1,
+            -1,
+            6.123233995736766e-17,
+            143,
+            0,
+          ]
+        }
+        propList={
+          Array [
+            "fill",
+          ]
+        }
+        rotate={Array []}
+        x={
+          Array [
+            71.5,
+          ]
+        }
+        y={
+          Array [
+            86.5,
+          ]
+        }
+      >
+        <RNSVGTSpan
+          content="OF 34,999"
+          dx={Array []}
+          dy={Array []}
+          font={Object {}}
+          rotate={Array []}
+          x={Array []}
+          y={Array []}
+        />
+      </RNSVGText>
+    </RNSVGGroup>
+  </RNSVGSvgView>
+</View>
+`;
+
+exports[`ProgressRing should render with specific color 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNSVGSvgView
+    bbHeight={143}
+    bbWidth={143}
+    focusable={false}
+    height={143}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+        },
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "transform": Array [
+            Object {
+              "rotateZ": "270deg",
+            },
+          ],
+        },
+        Object {
+          "flex": 0,
+          "height": 143,
+          "width": 143,
+        },
+      ]
+    }
+    width={143}
+  >
+    <RNSVGGroup
+      matrix={
+        Array [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+        ]
+      }
+    >
+      <RNSVGCircle
+        cx={71.5}
+        cy={71.5}
+        fill={null}
+        propList={
+          Array [
+            "fill",
+            "stroke",
+            "strokeWidth",
+          ]
+        }
+        r={64}
+        stroke={4278365935}
+        strokeWidth={15}
+      />
+      <RNSVGCircle
+        cx={71.5}
+        cy={71.5}
+        fill={null}
+        propList={
+          Array [
+            "fill",
+            "stroke",
+            "strokeWidth",
+            "strokeDasharray",
+            "strokeDashoffset",
+          ]
+        }
+        r={64}
+        stroke={4293651954}
+        strokeDasharray={
+          Array [
+            "402.1238596594935",
+            "402.1238596594935",
+          ]
+        }
+        strokeDashoffset={-120.63715789784804}
+        strokeWidth={16}
+      />
+      <RNSVGText
+        content={null}
+        dx={Array []}
+        dy={Array []}
+        fill={4278216396}
+        font={
+          Object {
+            "fontFamily": "SFProDisplay-Bold",
+            "fontSize": "18px",
+            "letterSpacing": 3,
+            "textAnchor": "middle",
+          }
+        }
+        matrix={
+          Array [
+            6.123233995736766e-17,
+            1,
+            -1,
+            6.123233995736766e-17,
+            143,
+            0,
+          ]
+        }
+        propList={
+          Array [
+            "fill",
+            "stroke",
+          ]
+        }
+        rotate={Array []}
+        stroke={4278216396}
+        x={
+          Array [
+            71.5,
+          ]
+        }
+        y={
+          Array [
+            71.5,
+          ]
+        }
+      >
+        <RNSVGTSpan
+          content="31,500"
+          dx={Array []}
+          dy={Array []}
+          font={Object {}}
+          rotate={Array []}
+          x={Array []}
+          y={Array []}
+        />
+      </RNSVGText>
+      <RNSVGText
+        content={null}
+        dx={Array []}
+        dy={Array []}
+        fill={4287667104}
+        font={
+          Object {
+            "fontFamily": "SFProDisplay-Bold",
+            "fontSize": "12px",
+            "fontWeight": "bold",
+            "textAnchor": "middle",
+          }
+        }
+        matrix={
+          Array [
+            6.123233995736766e-17,
+            1,
+            -1,
+            6.123233995736766e-17,
+            143,
+            0,
+          ]
+        }
+        propList={
+          Array [
+            "fill",
+          ]
+        }
+        rotate={Array []}
+        x={
+          Array [
+            71.5,
+          ]
+        }
+        y={
+          Array [
+            86.5,
+          ]
+        }
+      >
+        <RNSVGTSpan
+          content="OF 34,999"
+          dx={Array []}
+          dy={Array []}
+          font={Object {}}
+          rotate={Array []}
+          x={Array []}
+          y={Array []}
+        />
+      </RNSVGText>
+    </RNSVGGroup>
+  </RNSVGSvgView>
+</View>
+`;
+
+exports[`ProgressRing should render with specific strokeWidth 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNSVGSvgView
+    bbHeight={143}
+    bbWidth={143}
+    focusable={false}
+    height={143}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+        },
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "transform": Array [
+            Object {
+              "rotateZ": "270deg",
+            },
+          ],
+        },
+        Object {
+          "flex": 0,
+          "height": 143,
+          "width": 143,
+        },
+      ]
+    }
+    width={143}
+  >
+    <RNSVGGroup
+      matrix={
+        Array [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+        ]
+      }
+    >
+      <RNSVGCircle
+        cx={71.5}
+        cy={71.5}
+        fill={null}
+        propList={
+          Array [
+            "fill",
+            "stroke",
+            "strokeWidth",
+          ]
+        }
+        r={64}
+        stroke={4278365935}
+        strokeWidth={15}
+      />
+      <RNSVGCircle
+        cx={71.5}
+        cy={71.5}
+        fill={null}
+        propList={
+          Array [
+            "fill",
+            "stroke",
+            "strokeWidth",
+            "strokeDasharray",
+            "strokeDashoffset",
+          ]
+        }
+        r={64}
+        stroke={4293651954}
+        strokeDasharray={
+          Array [
+            "402.1238596594935",
+            "402.1238596594935",
+          ]
+        }
+        strokeDashoffset={-120.63715789784804}
+        strokeWidth={16}
+      />
+      <RNSVGText
+        content={null}
+        dx={Array []}
+        dy={Array []}
+        fill={4278216396}
+        font={
+          Object {
+            "fontFamily": "SFProDisplay-Bold",
+            "fontSize": "18px",
+            "letterSpacing": 3,
+            "textAnchor": "middle",
+          }
+        }
+        matrix={
+          Array [
+            6.123233995736766e-17,
+            1,
+            -1,
+            6.123233995736766e-17,
+            143,
+            0,
+          ]
+        }
+        propList={
+          Array [
+            "fill",
+            "stroke",
+          ]
+        }
+        rotate={Array []}
+        stroke={4278216396}
+        x={
+          Array [
+            71.5,
+          ]
+        }
+        y={
+          Array [
+            71.5,
+          ]
+        }
+      >
+        <RNSVGTSpan
+          content="31,500"
+          dx={Array []}
+          dy={Array []}
+          font={Object {}}
+          rotate={Array []}
+          x={Array []}
+          y={Array []}
+        />
+      </RNSVGText>
+      <RNSVGText
+        content={null}
+        dx={Array []}
+        dy={Array []}
+        fill={4287667104}
+        font={
+          Object {
+            "fontFamily": "SFProDisplay-Bold",
+            "fontSize": "12px",
+            "fontWeight": "bold",
+            "textAnchor": "middle",
+          }
+        }
+        matrix={
+          Array [
+            6.123233995736766e-17,
+            1,
+            -1,
+            6.123233995736766e-17,
+            143,
+            0,
+          ]
+        }
+        propList={
+          Array [
+            "fill",
+          ]
+        }
+        rotate={Array []}
+        x={
+          Array [
+            71.5,
+          ]
+        }
+        y={
+          Array [
+            86.5,
+          ]
+        }
+      >
+        <RNSVGTSpan
+          content="OF 34,999"
+          dx={Array []}
+          dy={Array []}
+          font={Object {}}
+          rotate={Array []}
+          x={Array []}
+          y={Array []}
+        />
+      </RNSVGText>
+    </RNSVGGroup>
+  </RNSVGSvgView>
+</View>
+`;
+
+exports[`ProgressRing should render with specific width  1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNSVGSvgView
+    bbHeight={143}
+    bbWidth={143}
+    focusable={false}
+    height={143}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+        },
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "transform": Array [
+            Object {
+              "rotateZ": "270deg",
+            },
+          ],
+        },
+        Object {
+          "flex": 0,
+          "height": 143,
+          "width": 143,
+        },
+      ]
+    }
+    width={143}
+  >
+    <RNSVGGroup
+      matrix={
+        Array [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+        ]
+      }
+    >
+      <RNSVGCircle
+        cx={71.5}
+        cy={71.5}
+        fill={null}
+        propList={
+          Array [
+            "fill",
+            "stroke",
+            "strokeWidth",
+          ]
+        }
+        r={64}
+        stroke={4278365935}
+        strokeWidth={15}
+      />
+      <RNSVGCircle
+        cx={71.5}
+        cy={71.5}
+        fill={null}
+        propList={
+          Array [
+            "fill",
+            "stroke",
+            "strokeWidth",
+            "strokeDasharray",
+            "strokeDashoffset",
+          ]
+        }
+        r={64}
+        stroke={4293651954}
+        strokeDasharray={
+          Array [
+            "402.1238596594935",
+            "402.1238596594935",
+          ]
+        }
+        strokeDashoffset={-120.63715789784804}
+        strokeWidth={16}
+      />
+      <RNSVGText
+        content={null}
+        dx={Array []}
+        dy={Array []}
+        fill={4278216396}
+        font={
+          Object {
+            "fontFamily": "SFProDisplay-Bold",
+            "fontSize": "18px",
+            "letterSpacing": 3,
+            "textAnchor": "middle",
+          }
+        }
+        matrix={
+          Array [
+            6.123233995736766e-17,
+            1,
+            -1,
+            6.123233995736766e-17,
+            143,
+            0,
+          ]
+        }
+        propList={
+          Array [
+            "fill",
+            "stroke",
+          ]
+        }
+        rotate={Array []}
+        stroke={4278216396}
+        x={
+          Array [
+            71.5,
+          ]
+        }
+        y={
+          Array [
+            71.5,
+          ]
+        }
+      >
+        <RNSVGTSpan
+          content="31,500"
+          dx={Array []}
+          dy={Array []}
+          font={Object {}}
+          rotate={Array []}
+          x={Array []}
+          y={Array []}
+        />
+      </RNSVGText>
+      <RNSVGText
+        content={null}
+        dx={Array []}
+        dy={Array []}
+        fill={4287667104}
+        font={
+          Object {
+            "fontFamily": "SFProDisplay-Bold",
+            "fontSize": "12px",
+            "fontWeight": "bold",
+            "textAnchor": "middle",
+          }
+        }
+        matrix={
+          Array [
+            6.123233995736766e-17,
+            1,
+            -1,
+            6.123233995736766e-17,
+            143,
+            0,
+          ]
+        }
+        propList={
+          Array [
+            "fill",
+          ]
+        }
+        rotate={Array []}
+        x={
+          Array [
+            71.5,
+          ]
+        }
+        y={
+          Array [
+            86.5,
+          ]
+        }
+      >
+        <RNSVGTSpan
+          content="OF 34,999"
+          dx={Array []}
+          dy={Array []}
+          font={Object {}}
+          rotate={Array []}
+          x={Array []}
+          y={Array []}
+        />
+      </RNSVGText>
+    </RNSVGGroup>
+  </RNSVGSvgView>
+</View>
+`;
+
+exports[`ProgressRing should render with zero progress 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNSVGSvgView
+    bbHeight={143}
+    bbWidth={143}
+    focusable={false}
+    height={143}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+        },
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "transform": Array [
+            Object {
+              "rotateZ": "270deg",
+            },
+          ],
+        },
+        Object {
+          "flex": 0,
+          "height": 143,
+          "width": 143,
+        },
+      ]
+    }
+    width={143}
+  >
+    <RNSVGGroup
+      matrix={
+        Array [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+        ]
+      }
+    >
+      <RNSVGCircle
+        cx={71.5}
+        cy={71.5}
+        fill={null}
+        propList={
+          Array [
+            "fill",
+            "stroke",
+            "strokeWidth",
+          ]
+        }
+        r={64}
+        stroke={4278365935}
+        strokeWidth={15}
+      />
+      <RNSVGCircle
+        cx={71.5}
+        cy={71.5}
+        fill={null}
+        propList={
+          Array [
+            "fill",
+            "stroke",
+            "strokeWidth",
+            "strokeDasharray",
+            "strokeDashoffset",
+          ]
+        }
+        r={64}
+        stroke={4293651954}
+        strokeDasharray={
+          Array [
+            "402.1238596594935",
+            "402.1238596594935",
+          ]
+        }
+        strokeDashoffset={null}
+        strokeWidth={16}
+      />
+      <RNSVGText
+        content={null}
+        dx={Array []}
+        dy={Array []}
+        fill={4278216396}
+        font={
+          Object {
+            "fontFamily": "SFProDisplay-Bold",
+            "fontSize": "18px",
+            "letterSpacing": 3,
+            "textAnchor": "middle",
+          }
+        }
+        matrix={
+          Array [
+            6.123233995736766e-17,
+            1,
+            -1,
+            6.123233995736766e-17,
+            143,
+            0,
+          ]
+        }
+        propList={
+          Array [
+            "fill",
+            "stroke",
+          ]
+        }
+        rotate={Array []}
+        stroke={4278216396}
+        x={
+          Array [
+            71.5,
+          ]
+        }
+        y={
+          Array [
+            71.5,
+          ]
+        }
+      >
+        <RNSVGTSpan
+          content="31,500"
+          dx={Array []}
+          dy={Array []}
+          font={Object {}}
+          rotate={Array []}
+          x={Array []}
+          y={Array []}
+        />
+      </RNSVGText>
+      <RNSVGText
+        content={null}
+        dx={Array []}
+        dy={Array []}
+        fill={4287667104}
+        font={
+          Object {
+            "fontFamily": "SFProDisplay-Bold",
+            "fontSize": "12px",
+            "fontWeight": "bold",
+            "textAnchor": "middle",
+          }
+        }
+        matrix={
+          Array [
+            6.123233995736766e-17,
+            1,
+            -1,
+            6.123233995736766e-17,
+            143,
+            0,
+          ]
+        }
+        propList={
+          Array [
+            "fill",
+          ]
+        }
+        rotate={Array []}
+        x={
+          Array [
+            71.5,
+          ]
+        }
+        y={
+          Array [
+            86.5,
+          ]
+        }
+      >
+        <RNSVGTSpan
+          content="OF 34,999"
+          dx={Array []}
+          dy={Array []}
+          font={Object {}}
+          rotate={Array []}
+          x={Array []}
+          y={Array []}
+        />
+      </RNSVGText>
+      <RNSVGCircle
+        cx={135.5}
+        cy={71.5}
+        fill={4278365935}
+        propList={
+          Array [
+            "fill",
+          ]
+        }
+        r={7.5}
+      />
+    </RNSVGGroup>
+  </RNSVGSvgView>
+</View>
+`;

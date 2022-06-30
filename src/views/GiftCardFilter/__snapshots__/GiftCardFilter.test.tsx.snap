@@ -1,0 +1,418 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GiftCardFilter should render 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F5F7FA",
+      "flexBasis": 0,
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "paddingTop": 28,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingHorizontal": 16,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#262C2F",
+          "fontFamily": "SFProDisplay-Bold",
+          "fontSize": 16,
+        }
+      }
+    >
+      Select a category
+    </Text>
+    <View
+      accessibilityLabel="filter-clear"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="filter-clear"
+    >
+      <Text
+        style={
+          Object {
+            "color": "#0066CC",
+            "fontFamily": "SFProDisplay-Bold",
+            "fontSize": 16,
+          }
+        }
+      >
+        Clear
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "marginTop": 20,
+      }
+    }
+  >
+    <RCTScrollView
+      contentContainerStyle={
+        Object {
+          "paddingHorizontal": 16,
+        }
+      }
+      showsVerticalScrollIndicator={false}
+    >
+      <View>
+        <View
+          accessibilityLabel="filter-item-category-Entertainment-btn"
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          testID="filter-item-category-Entertainment-btn"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#EBEDF2",
+                  "borderBottomColor": "#EBEDF2",
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderBottomWidth": 2,
+                  "borderLeftColor": "#EBEDF2",
+                  "borderLeftWidth": 2,
+                  "borderRightColor": "#EBEDF2",
+                  "borderRightWidth": 2,
+                  "borderTopColor": "#EBEDF2",
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "borderTopWidth": 2,
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "marginBottom": 8,
+                  "paddingBottom": 16,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 16,
+                },
+                false,
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#262C2F",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  false,
+                ]
+              }
+            >
+               
+              Entertainment
+            </Text>
+          </View>
+        </View>
+        <View
+          accessibilityLabel="filter-item-category-Sports and Outdoors-btn"
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          testID="filter-item-category-Sports and Outdoors-btn"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#EBEDF2",
+                  "borderBottomColor": "#EBEDF2",
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderBottomWidth": 2,
+                  "borderLeftColor": "#EBEDF2",
+                  "borderLeftWidth": 2,
+                  "borderRightColor": "#EBEDF2",
+                  "borderRightWidth": 2,
+                  "borderTopColor": "#EBEDF2",
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "borderTopWidth": 2,
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "marginBottom": 8,
+                  "paddingBottom": 16,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 16,
+                },
+                false,
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#262C2F",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  false,
+                ]
+              }
+            >
+               
+              Sports and Outdoors
+            </Text>
+          </View>
+        </View>
+        <View
+          accessibilityLabel="filter-item-category-Travel-btn"
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          testID="filter-item-category-Travel-btn"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#EBEDF2",
+                  "borderBottomColor": "#EBEDF2",
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderBottomWidth": 2,
+                  "borderLeftColor": "#EBEDF2",
+                  "borderLeftWidth": 2,
+                  "borderRightColor": "#EBEDF2",
+                  "borderRightWidth": 2,
+                  "borderTopColor": "#EBEDF2",
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "borderTopWidth": 2,
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "marginBottom": 8,
+                  "paddingBottom": 16,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 16,
+                },
+                false,
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#262C2F",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  false,
+                ]
+              }
+            >
+               
+              Travel
+            </Text>
+          </View>
+        </View>
+        <View
+          accessibilityLabel="filter-item-category-Automotive-btn"
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          testID="filter-item-category-Automotive-btn"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#EBEDF2",
+                  "borderBottomColor": "#EBEDF2",
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderBottomWidth": 2,
+                  "borderLeftColor": "#EBEDF2",
+                  "borderLeftWidth": 2,
+                  "borderRightColor": "#EBEDF2",
+                  "borderRightWidth": 2,
+                  "borderTopColor": "#EBEDF2",
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "borderTopWidth": 2,
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "marginBottom": 8,
+                  "paddingBottom": 16,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 16,
+                },
+                false,
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#262C2F",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  false,
+                ]
+              }
+            >
+               
+              Automotive
+            </Text>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "height": 100,
+          "justifyContent": "center",
+          "paddingHorizontal": 32,
+        }
+      }
+    >
+      <View
+        accessibilityLabel="filter-apply"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID="filter-apply"
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#0066CC",
+                "borderBottomLeftRadius": 30,
+                "borderBottomRightRadius": 30,
+                "borderTopLeftRadius": 30,
+                "borderTopRightRadius": 30,
+                "flexDirection": "row",
+                "justifyContent": "center",
+                "paddingBottom": 8,
+                "paddingLeft": 12,
+                "paddingRight": 12,
+                "paddingTop": 8,
+              },
+              Object {
+                "paddingBottom": 16,
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 16,
+              },
+            ]
+          }
+        >
+          <View
+            style={false}
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Medium",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Array [
+                    Object {
+                      "color": "#FFFFFF",
+                      "fontSize": 14,
+                      "textAlign": "center",
+                    },
+                    Object {
+                      "fontFamily": "SFProDisplay-Heavy",
+                    },
+                    undefined,
+                  ],
+                ]
+              }
+            >
+              Apply
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

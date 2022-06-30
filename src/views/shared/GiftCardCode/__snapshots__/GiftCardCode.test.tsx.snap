@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GiftCardCode should render 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "height": 93,
+          "width": 600,
+        },
+      ]
+    }
+  >
+    <FastImageView
+      accessibilityLabel="image-with-fallback-container"
+      accessible={true}
+      onFastImageError={[Function]}
+      onFastImageLoadEnd={[Function]}
+      onFastImageLoadStart={[Function]}
+      resizeMode="cover"
+      source={
+        Object {
+          "uri": "https://content.uat.telluride.transformco.com/tellurideAS/PersonalizedEmail/genbc?msg=1234567890&height=93&width=600&fontSize=0&bgColorHex=FFFFFF&fontColorHex=000000&barcode.kind=CODE128",
+        }
+      }
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      testID="image-with-fallback-container"
+    />
+  </View>
+</View>
+`;

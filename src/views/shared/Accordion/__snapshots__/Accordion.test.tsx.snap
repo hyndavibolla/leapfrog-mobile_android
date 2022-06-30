@@ -1,0 +1,695 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion should render 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "column",
+      "width": "100%",
+    }
+  }
+>
+  <View
+    accessibilityLabel="accordion-btn"
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    testID="accordion-btn"
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "flex-start",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          },
+          Object {
+            "paddingHorizontal": 8,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#262C2F",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "lineHeight": 24,
+            },
+            undefined,
+          ]
+        }
+        type="sectionHeader"
+      >
+        Title
+      </Text>
+      <div
+        animation={
+          Object {
+            "0": Object {
+              "rotate": "90deg",
+            },
+            "1": Object {
+              "rotate": "-90deg",
+            },
+          }
+        }
+        duration={300}
+      >
+        <Text
+          accessibilityLabel="icon-text"
+          accessible={true}
+          allowFontScaling={false}
+          selectable={false}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontSize": 20,
+              },
+              undefined,
+              Object {
+                "fontFamily": "sywmax",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          testID="icon-text"
+        >
+          
+        </Text>
+      </div>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "marginTop": 16,
+          "overflow": "hidden",
+          "width": "100%",
+        },
+        Object {
+          "paddingHorizontal": 8,
+        },
+        false,
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontSize": 18,
+              "lineHeight": 28,
+              "textAlign": "left",
+            },
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+    >
+      Accordion text
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Accordion should render starting collapses 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "column",
+      "width": "100%",
+    }
+  }
+>
+  <View
+    accessibilityLabel="accordion-btn"
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    testID="accordion-btn"
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "flex-start",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          },
+          Object {
+            "paddingHorizontal": 8,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#262C2F",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "lineHeight": 24,
+            },
+            undefined,
+          ]
+        }
+        type="sectionHeader"
+      >
+        Title
+      </Text>
+      <div
+        animation={
+          Object {
+            "0": Object {
+              "rotate": "-90deg",
+            },
+            "1": Object {
+              "rotate": "90deg",
+            },
+          }
+        }
+        duration={300}
+      >
+        <Text
+          accessibilityLabel="icon-text"
+          accessible={true}
+          allowFontScaling={false}
+          selectable={false}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontSize": 20,
+              },
+              undefined,
+              Object {
+                "fontFamily": "sywmax",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          testID="icon-text"
+        >
+          
+        </Text>
+      </div>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "marginTop": 16,
+          "overflow": "hidden",
+          "width": "100%",
+        },
+        Object {
+          "paddingHorizontal": 8,
+        },
+        Object {
+          "height": 0,
+          "marginTop": 0,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontSize": 18,
+              "lineHeight": 28,
+              "textAlign": "left",
+            },
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+    >
+      Accordion text
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Accordion should render with complex content 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "column",
+      "width": "100%",
+    }
+  }
+>
+  <View
+    accessibilityLabel="accordion-btn"
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    testID="accordion-btn"
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "flex-start",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          },
+          Object {
+            "paddingHorizontal": 8,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#262C2F",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "lineHeight": 24,
+            },
+            undefined,
+          ]
+        }
+        type="sectionHeader"
+      >
+        Title
+      </Text>
+      <div
+        animation={
+          Object {
+            "0": Object {
+              "rotate": "90deg",
+            },
+            "1": Object {
+              "rotate": "-90deg",
+            },
+          }
+        }
+        duration={300}
+      >
+        <Text
+          accessibilityLabel="icon-text"
+          accessible={true}
+          allowFontScaling={false}
+          selectable={false}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontSize": 20,
+              },
+              undefined,
+              Object {
+                "fontFamily": "sywmax",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          testID="icon-text"
+        >
+          
+        </Text>
+      </div>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "marginTop": 16,
+          "overflow": "hidden",
+          "width": "100%",
+        },
+        Object {
+          "paddingHorizontal": 8,
+        },
+        false,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontSize": 18,
+            "lineHeight": 28,
+            "textAlign": "left",
+          },
+          undefined,
+          undefined,
+        ]
+      }
+    >
+      <View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              undefined,
+            ]
+          }
+        >
+          i am a complex content
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Accordion should show and hide accordion content 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "column",
+      "width": "100%",
+    }
+  }
+>
+  <View
+    accessibilityLabel="accordion-btn"
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    testID="accordion-btn"
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "flex-start",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          },
+          Object {
+            "paddingHorizontal": 8,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#262C2F",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "lineHeight": 24,
+            },
+            undefined,
+          ]
+        }
+        type="sectionHeader"
+      >
+        Title
+      </Text>
+      <div
+        animation={
+          Object {
+            "0": Object {
+              "rotate": "-90deg",
+            },
+            "1": Object {
+              "rotate": "90deg",
+            },
+          }
+        }
+        duration={300}
+      >
+        <Text
+          accessibilityLabel="icon-text"
+          accessible={true}
+          allowFontScaling={false}
+          selectable={false}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontSize": 20,
+              },
+              undefined,
+              Object {
+                "fontFamily": "sywmax",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          testID="icon-text"
+        >
+          
+        </Text>
+      </div>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "marginTop": 16,
+          "overflow": "hidden",
+          "width": "100%",
+        },
+        Object {
+          "paddingHorizontal": 8,
+        },
+        Object {
+          "height": 0,
+          "marginTop": 0,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontSize": 18,
+              "lineHeight": 28,
+              "textAlign": "left",
+            },
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+    >
+      Accordion text
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Accordion should show and hide accordion content 2`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "column",
+      "width": "100%",
+    }
+  }
+>
+  <View
+    accessibilityLabel="accordion-btn"
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    testID="accordion-btn"
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "flex-start",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          },
+          Object {
+            "paddingHorizontal": 8,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#262C2F",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "lineHeight": 24,
+            },
+            undefined,
+          ]
+        }
+        type="sectionHeader"
+      >
+        Title
+      </Text>
+      <div
+        animation={
+          Object {
+            "0": Object {
+              "rotate": "90deg",
+            },
+            "1": Object {
+              "rotate": "-90deg",
+            },
+          }
+        }
+        duration={300}
+      >
+        <Text
+          accessibilityLabel="icon-text"
+          accessible={true}
+          allowFontScaling={false}
+          selectable={false}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontSize": 20,
+              },
+              undefined,
+              Object {
+                "fontFamily": "sywmax",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          testID="icon-text"
+        >
+          
+        </Text>
+      </div>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "marginTop": 16,
+          "overflow": "hidden",
+          "width": "100%",
+        },
+        Object {
+          "paddingHorizontal": 8,
+        },
+        false,
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontSize": 18,
+              "lineHeight": 28,
+              "textAlign": "left",
+            },
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+    >
+      Accordion text
+    </Text>
+  </View>
+</View>
+`;

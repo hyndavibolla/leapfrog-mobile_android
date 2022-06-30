@@ -1,0 +1,741 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GiftCardSearchInput should render 1`] = `
+<View
+  accessibilityLabel="gift-card-search-input-container"
+  accessible={true}
+  testID="gift-card-search-input-container"
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 40,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "elevation": 3,
+              "shadowColor": "#262C2F",
+              "shadowOffset": Object {
+                "height": 4,
+                "width": 0,
+              },
+              "shadowOpacity": 0.1,
+            },
+            Object {
+              "alignItems": "center",
+              "borderBottomLeftRadius": 25,
+              "borderBottomRightRadius": 25,
+              "borderTopLeftRadius": 25,
+              "borderTopRightRadius": 25,
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 40,
+              "paddingHorizontal": 16,
+            },
+            Object {
+              "backgroundColor": "#3F8EDC",
+            },
+            false,
+            undefined,
+          ]
+        }
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            accessibilityLabel="icon-text"
+            accessible={true}
+            allowFontScaling={false}
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 20,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "sywmax",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+            testID="icon-text"
+          >
+            
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "justifyContent": "center",
+              "marginHorizontal": 8,
+            }
+          }
+        >
+          <TextInput
+            accessibilityLabel="search-input-input"
+            accessible={true}
+            editable={true}
+            numberOfLines={1}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            returnKeyType="go"
+            selectionColor="#909BA0"
+            style={
+              Array [
+                Object {
+                  "color": "#262C2F",
+                  "fontSize": 14,
+                  "height": "100%",
+                  "width": "100%",
+                },
+                Object {
+                  "color": "#FFFFFF",
+                },
+              ]
+            }
+            testID="search-input-input"
+            value="text from props"
+          />
+        </View>
+      </View>
+      <View
+        accessibilityLabel="search-input-filter-btn"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID="search-input-filter-btn"
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#0066CC",
+                "borderBottomLeftRadius": 30,
+                "borderBottomRightRadius": 30,
+                "borderTopLeftRadius": 30,
+                "borderTopRightRadius": 30,
+                "flexDirection": "row",
+                "justifyContent": "center",
+                "paddingBottom": 8,
+                "paddingLeft": 12,
+                "paddingRight": 12,
+                "paddingTop": 8,
+              },
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "elevation": 3,
+                  "shadowColor": "#262C2F",
+                  "shadowOffset": Object {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.1,
+                },
+                Object {
+                  "borderBottomLeftRadius": 25,
+                  "borderBottomRightRadius": 25,
+                  "borderTopLeftRadius": 25,
+                  "borderTopRightRadius": 25,
+                  "flexDirection": "row",
+                  "height": 40,
+                  "marginLeft": 16,
+                  "width": 40,
+                },
+                Object {
+                  "backgroundColor": "#3F8EDC",
+                },
+                0,
+              ],
+            ]
+          }
+        >
+          <View
+            style={false}
+          >
+            FilterIcon
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`GiftCardSearchInput should render disabled 1`] = `
+<View
+  accessibilityLabel="gift-card-search-input-container"
+  accessible={true}
+  testID="gift-card-search-input-container"
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 40,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "elevation": 3,
+              "shadowColor": "#262C2F",
+              "shadowOffset": Object {
+                "height": 4,
+                "width": 0,
+              },
+              "shadowOpacity": 0.1,
+            },
+            Object {
+              "alignItems": "center",
+              "borderBottomLeftRadius": 25,
+              "borderBottomRightRadius": 25,
+              "borderTopLeftRadius": 25,
+              "borderTopRightRadius": 25,
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 40,
+              "paddingHorizontal": 16,
+            },
+            Object {
+              "backgroundColor": "#3F8EDC",
+            },
+            Object {
+              "backgroundColor": "#EBEDF2",
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            accessibilityLabel="icon-text"
+            accessible={true}
+            allowFontScaling={false}
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 20,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "sywmax",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+            testID="icon-text"
+          >
+            
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "justifyContent": "center",
+              "marginHorizontal": 8,
+            }
+          }
+        >
+          <TextInput
+            accessibilityLabel="search-input-input"
+            accessible={true}
+            editable={false}
+            numberOfLines={1}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            returnKeyType="go"
+            selectionColor="#909BA0"
+            style={
+              Array [
+                Object {
+                  "color": "#262C2F",
+                  "fontSize": 14,
+                  "height": "100%",
+                  "width": "100%",
+                },
+                Object {
+                  "color": "#FFFFFF",
+                },
+              ]
+            }
+            testID="search-input-input"
+            value=""
+          />
+          <Text
+            numberOfLines={1}
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Medium",
+                  "fontSize": 16,
+                  "lineHeight": 22,
+                },
+                Array [
+                  Object {
+                    "fontSize": 14,
+                    "position": "absolute",
+                    "top": 9,
+                    "width": "100%",
+                  },
+                  Object {
+                    "color": "#FFFFFF",
+                  },
+                  Object {
+                    "color": "#FFFFFF",
+                  },
+                ],
+              ]
+            }
+          >
+            Search for Rewards
+          </Text>
+        </View>
+      </View>
+      <View
+        accessibilityLabel="search-input-filter-btn"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID="search-input-filter-btn"
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#0066CC",
+                "borderBottomLeftRadius": 30,
+                "borderBottomRightRadius": 30,
+                "borderTopLeftRadius": 30,
+                "borderTopRightRadius": 30,
+                "flexDirection": "row",
+                "justifyContent": "center",
+                "paddingBottom": 8,
+                "paddingLeft": 12,
+                "paddingRight": 12,
+                "paddingTop": 8,
+              },
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "elevation": 3,
+                  "shadowColor": "#262C2F",
+                  "shadowOffset": Object {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.1,
+                },
+                Object {
+                  "borderBottomLeftRadius": 25,
+                  "borderBottomRightRadius": 25,
+                  "borderTopLeftRadius": 25,
+                  "borderTopRightRadius": 25,
+                  "flexDirection": "row",
+                  "height": 40,
+                  "marginLeft": 16,
+                  "width": 40,
+                },
+                Object {
+                  "backgroundColor": "#3F8EDC",
+                },
+                0,
+              ],
+            ]
+          }
+        >
+          <View
+            style={false}
+          >
+            FilterIcon
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`GiftCardSearchInput should render with an open modal 1`] = `
+<View
+  accessibilityLabel="gift-card-search-input-container"
+  accessible={true}
+  testID="gift-card-search-input-container"
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 40,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "elevation": 3,
+              "shadowColor": "#262C2F",
+              "shadowOffset": Object {
+                "height": 4,
+                "width": 0,
+              },
+              "shadowOpacity": 0.1,
+            },
+            Object {
+              "alignItems": "center",
+              "borderBottomLeftRadius": 25,
+              "borderBottomRightRadius": 25,
+              "borderTopLeftRadius": 25,
+              "borderTopRightRadius": 25,
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 40,
+              "paddingHorizontal": 16,
+            },
+            Object {
+              "backgroundColor": "#3F8EDC",
+            },
+            false,
+            undefined,
+          ]
+        }
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            accessibilityLabel="icon-text"
+            accessible={true}
+            allowFontScaling={false}
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 20,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "sywmax",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+            testID="icon-text"
+          >
+            
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "justifyContent": "center",
+              "marginHorizontal": 8,
+            }
+          }
+        >
+          <TextInput
+            accessibilityLabel="search-input-input"
+            accessible={true}
+            editable={true}
+            numberOfLines={1}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            returnKeyType="go"
+            selectionColor="#909BA0"
+            style={
+              Array [
+                Object {
+                  "color": "#262C2F",
+                  "fontSize": 14,
+                  "height": "100%",
+                  "width": "100%",
+                },
+                Object {
+                  "color": "#FFFFFF",
+                },
+              ]
+            }
+            testID="search-input-input"
+            value=""
+          />
+          <Text
+            numberOfLines={1}
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Medium",
+                  "fontSize": 16,
+                  "lineHeight": 22,
+                },
+                Array [
+                  Object {
+                    "fontSize": 14,
+                    "position": "absolute",
+                    "top": 9,
+                    "width": "100%",
+                  },
+                  Object {
+                    "color": "#FFFFFF",
+                  },
+                  Object {
+                    "color": "#FFFFFF",
+                  },
+                ],
+              ]
+            }
+          >
+            Search in Entertainment
+          </Text>
+        </View>
+      </View>
+      <View
+        accessibilityLabel="search-input-filter-btn"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID="search-input-filter-btn"
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#0066CC",
+                "borderBottomLeftRadius": 30,
+                "borderBottomRightRadius": 30,
+                "borderTopLeftRadius": 30,
+                "borderTopRightRadius": 30,
+                "flexDirection": "row",
+                "justifyContent": "center",
+                "paddingBottom": 8,
+                "paddingLeft": 12,
+                "paddingRight": 12,
+                "paddingTop": 8,
+              },
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "elevation": 3,
+                  "shadowColor": "#262C2F",
+                  "shadowOffset": Object {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.1,
+                },
+                Object {
+                  "borderBottomLeftRadius": 25,
+                  "borderBottomRightRadius": 25,
+                  "borderTopLeftRadius": 25,
+                  "borderTopRightRadius": 25,
+                  "flexDirection": "row",
+                  "height": 40,
+                  "marginLeft": 16,
+                  "width": 40,
+                },
+                Object {
+                  "backgroundColor": "#3F8EDC",
+                },
+                Object {
+                  "backgroundColor": "#3F8EDC",
+                },
+              ],
+            ]
+          }
+        >
+          <View
+            style={false}
+          >
+            FilterIconActive
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

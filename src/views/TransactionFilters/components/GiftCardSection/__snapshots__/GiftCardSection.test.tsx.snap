@@ -1,0 +1,377 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gift Card Section should render 1`] = `
+Array [
+  <Text
+    accessibilityLabel="gift-card-section-note"
+    accessible={true}
+    style={
+      Object {
+        "color": "#262C2F",
+        "fontFamily": "SFProDisplay-Bold",
+        "fontSize": 16,
+        "lineHeight": 24,
+        "marginBottom": 16,
+      }
+    }
+    testID="gift-card-section-note"
+  >
+    Most users love these
+  </Text>,
+  <RCTScrollView
+    ItemSeparatorComponent={[Function]}
+    collapsable={false}
+    contentContainerStyle={
+      Array [
+        Object {
+          "alignItems": "center",
+        },
+        Array [
+          Object {
+            "paddingBottom": 24,
+            "paddingLeft": 24,
+            "paddingRight": 8,
+            "paddingTop": 24,
+          },
+          Object {
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "space-around",
+          },
+        ],
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "brandName": "Burgers For Days",
+          "cardValueConfig": Object {
+            "increment": 1,
+            "maxValue": 50000,
+            "minValue": 500,
+            "variableLoadSupported": true,
+          },
+          "categories": Array [
+            Object {
+              "name": "Entertainment",
+            },
+            Object {
+              "name": "Travel",
+            },
+            Object {
+              "name": "Automotive",
+            },
+          ],
+          "description": "Buy stuff, buy lots of it.",
+          "iconUrl": "https://s3.amazonaws.com/raise-content/ibi/GameStop-Logo.png",
+          "id": "754338d5-7c5e-4785-bd05-67cd46545df9",
+          "legalTerms": "This card can be used to purchase merchandise only in stores",
+          "redemptionConfigs": Object {
+            "disclaimer": "Can only use 2 cards",
+            "kind": "IN_STORE_OR_ONLINE_ONLY",
+            "methods": Array [
+              Object {
+                "info": "Enter the gift card info online",
+                "kind": "ENTER_ONLINE",
+              },
+              Object {
+                "info": "Show the barcode to the cashier",
+                "kind": "SHOW_BARCODE",
+              },
+            ],
+          },
+          "sortedPosition": 2,
+        },
+        Object {
+          "brandName": "Durum For Weeks",
+          "cardValueConfig": Object {
+            "increment": 1,
+            "maxValue": 50000,
+            "minValue": 500,
+            "variableLoadSupported": true,
+          },
+          "categories": Array [
+            Object {
+              "name": "Entertainment",
+            },
+          ],
+          "description": "Buy stuff, buy lots of it.",
+          "iconUrl": "https://s3.amazonaws.com/raise-content/ibi/GameStop-Logo.png",
+          "id": "67cd46545df9-754338d5-7c5e-4785-bd05",
+          "legalTerms": "This card can be used to purchase merchandise only in stores",
+          "redemptionConfigs": Object {
+            "disclaimer": "Can only use 2 cards",
+            "kind": "IN_STORE_OR_ONLINE_ONLY",
+            "methods": Array [
+              Object {
+                "info": "Enter the gift card info online",
+                "kind": "ENTER_ONLINE",
+              },
+              Object {
+                "info": "Show the barcode to the cashier",
+                "kind": "SHOW_BARCODE",
+              },
+            ],
+          },
+          "sortedPosition": 2,
+        },
+      ]
+    }
+    decelerationRate={0}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={true}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={0.0001}
+    showsHorizontalScrollIndicator={false}
+    snapToInterval={76}
+    stickyHeaderIndices={Array []}
+    style={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexDirection": "row",
+        "marginHorizontal": 0,
+        "paddingHorizontal": 24,
+      }
+    }
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+              },
+              Object {
+                "width": 60,
+              },
+            ]
+          }
+        >
+          <View
+            accessibilityLabel="gift-card-section-gift-card"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            testID="gift-card-section-gift-card"
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "height": 60,
+                    "width": 60,
+                  },
+                  Array [
+                    Object {
+                      "marginRight": 16,
+                    },
+                    Object {
+                      "marginRight": 0,
+                    },
+                  ],
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "overflow": "hidden",
+                    },
+                    Object {
+                      "alignItems": "center",
+                      "borderBottomLeftRadius": 60,
+                      "borderBottomRightRadius": 60,
+                      "borderTopLeftRadius": 60,
+                      "borderTopRightRadius": 60,
+                      "height": "100%",
+                      "justifyContent": "center",
+                      "width": "100%",
+                    },
+                  ]
+                }
+              >
+                <FastImageView
+                  accessibilityLabel="brand-logo-image"
+                  accessible={true}
+                  onFastImageError={[Function]}
+                  onFastImageLoad={[Function]}
+                  onFastImageLoadEnd={[Function]}
+                  onFastImageLoadStart={[Function]}
+                  resizeMode="cover"
+                  source={
+                    Object {
+                      "priority": "high",
+                      "uri": "https://s3.amazonaws.com/raise-content/ibi/GameStop-Logo.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    }
+                  }
+                  testID="brand-logo-image"
+                />
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "minHeight": 1,
+              "width": 16,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+              },
+              Object {
+                "width": 60,
+              },
+            ]
+          }
+        >
+          <View
+            accessibilityLabel="gift-card-section-gift-card"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            testID="gift-card-section-gift-card"
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "height": 60,
+                    "width": 60,
+                  },
+                  Array [
+                    Object {
+                      "marginRight": 16,
+                    },
+                    Object {
+                      "marginRight": 0,
+                    },
+                  ],
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "overflow": "hidden",
+                    },
+                    Object {
+                      "alignItems": "center",
+                      "borderBottomLeftRadius": 60,
+                      "borderBottomRightRadius": 60,
+                      "borderTopLeftRadius": 60,
+                      "borderTopRightRadius": 60,
+                      "height": "100%",
+                      "justifyContent": "center",
+                      "width": "100%",
+                    },
+                  ]
+                }
+              >
+                <FastImageView
+                  accessibilityLabel="brand-logo-image"
+                  accessible={true}
+                  onFastImageError={[Function]}
+                  onFastImageLoad={[Function]}
+                  onFastImageLoadEnd={[Function]}
+                  onFastImageLoadStart={[Function]}
+                  resizeMode="cover"
+                  source={
+                    Object {
+                      "priority": "high",
+                      "uri": "https://s3.amazonaws.com/raise-content/ibi/GameStop-Logo.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    }
+                  }
+                  testID="brand-logo-image"
+                />
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>,
+]
+`;

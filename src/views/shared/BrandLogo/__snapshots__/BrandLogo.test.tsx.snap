@@ -1,0 +1,860 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BrandLogo should render 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "height": 60,
+        "width": 60,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "alignItems": "center",
+          "borderBottomLeftRadius": 60,
+          "borderBottomRightRadius": 60,
+          "borderTopLeftRadius": 60,
+          "borderTopRightRadius": 60,
+          "height": "100%",
+          "justifyContent": "center",
+          "width": "100%",
+        },
+      ]
+    }
+  >
+    <FastImageView
+      accessibilityLabel="brand-logo-image"
+      accessible={true}
+      onFastImageError={[Function]}
+      onFastImageLoad={[Function]}
+      onFastImageLoadEnd={[Function]}
+      onFastImageLoadStart={[Function]}
+      resizeMode="cover"
+      source={
+        Object {
+          "priority": "high",
+          "uri": "https://www.movistar.es/estaticos/img/ico-app-mi-movistar-2017.png",
+        }
+      }
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      testID="brand-logo-image"
+    />
+  </View>
+</View>
+`;
+
+exports[`BrandLogo should render a pointsExpiry icon 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "height": 60,
+        "width": 60,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": "100%",
+        "justifyContent": "center",
+        "width": "100%",
+      }
+    }
+  >
+    ArrowDownRed
+  </View>
+</View>
+`;
+
+exports[`BrandLogo should render a streak icon 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "height": 60,
+        "width": 60,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": "100%",
+        "justifyContent": "center",
+        "width": "100%",
+      }
+    }
+  >
+    StreakIcon
+  </View>
+</View>
+`;
+
+exports[`BrandLogo should render loading 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "height": 60,
+        "width": 60,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": "100%",
+        "justifyContent": "center",
+        "width": "100%",
+      }
+    }
+  >
+    <Text>
+      custom fallback
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "height": 0,
+          "width": 0,
+        },
+      ]
+    }
+  >
+    <FastImageView
+      accessibilityLabel="brand-logo-image"
+      accessible={true}
+      onFastImageError={[Function]}
+      onFastImageLoad={[Function]}
+      onFastImageLoadEnd={[Function]}
+      onFastImageLoadStart={[Function]}
+      resizeMode="cover"
+      source={
+        Object {
+          "priority": "high",
+          "uri": "https://www.movistar.es/estaticos/img/ico-app-mi-movistar-2017.png",
+        }
+      }
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      testID="brand-logo-image"
+    />
+  </View>
+</View>
+`;
+
+exports[`BrandLogo should render loading 2`] = `
+<View
+  style={
+    Array [
+      Object {
+        "height": 60,
+        "width": 60,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "alignItems": "center",
+          "borderBottomLeftRadius": 60,
+          "borderBottomRightRadius": 60,
+          "borderTopLeftRadius": 60,
+          "borderTopRightRadius": 60,
+          "height": "100%",
+          "justifyContent": "center",
+          "width": "100%",
+        },
+      ]
+    }
+  >
+    <FastImageView
+      accessibilityLabel="brand-logo-image"
+      accessible={true}
+      onFastImageError={[Function]}
+      onFastImageLoad={[Function]}
+      onFastImageLoadEnd={[Function]}
+      onFastImageLoadStart={[Function]}
+      resizeMode="cover"
+      source={
+        Object {
+          "priority": "high",
+          "uri": "https://www.movistar.es/estaticos/img/ico-app-mi-movistar-2017.png",
+        }
+      }
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      testID="brand-logo-image"
+    />
+  </View>
+</View>
+`;
+
+exports[`BrandLogo should render the 'adjustment' activityType icon 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "height": 60,
+        "width": 60,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": "100%",
+        "justifyContent": "center",
+        "width": "100%",
+      }
+    }
+  >
+    LoyaltyBrandFallback
+  </View>
+</View>
+`;
+
+exports[`BrandLogo should render the 'gas' programSubCategory icon 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "height": 60,
+        "width": 60,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": "100%",
+        "justifyContent": "center",
+        "width": "100%",
+      }
+    }
+  >
+    LoyaltyBrandFallback
+  </View>
+</View>
+`;
+
+exports[`BrandLogo should render the 'grocery' programSubCategory icon 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "height": 60,
+        "width": 60,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": "100%",
+        "justifyContent": "center",
+        "width": "100%",
+      }
+    }
+  >
+    LoyaltyBrandFallback
+  </View>
+</View>
+`;
+
+exports[`BrandLogo should render the 'kmart' programSubCategory icon 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "height": 60,
+        "width": 60,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": "100%",
+        "justifyContent": "center",
+        "width": "100%",
+      }
+    }
+  >
+    KmartIcon
+  </View>
+</View>
+`;
+
+exports[`BrandLogo should render the 'mission' programSubCategory icon 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "height": 60,
+        "width": 60,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": "100%",
+        "justifyContent": "center",
+        "width": "100%",
+      }
+    }
+  >
+    LoyaltyBrandFallback
+  </View>
+</View>
+`;
+
+exports[`BrandLogo should render the 'other' activityType icon 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "height": 60,
+        "width": 60,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": "100%",
+        "justifyContent": "center",
+        "width": "100%",
+      }
+    }
+  >
+    LoyaltyBrandFallback
+  </View>
+</View>
+`;
+
+exports[`BrandLogo should render the 'other' programSubCategory icon 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "height": 60,
+        "width": 60,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": "100%",
+        "justifyContent": "center",
+        "width": "100%",
+      }
+    }
+  >
+    LoyaltyBrandFallback
+  </View>
+</View>
+`;
+
+exports[`BrandLogo should render the 'pointsavailable' activityType icon 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "height": 60,
+        "width": 60,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": "100%",
+        "justifyContent": "center",
+        "width": "100%",
+      }
+    }
+  >
+    LoyaltyBrandFallback
+  </View>
+</View>
+`;
+
+exports[`BrandLogo should render the 'pointsexpiry' activityType icon 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "height": 60,
+        "width": 60,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": "100%",
+        "justifyContent": "center",
+        "width": "100%",
+      }
+    }
+  >
+    LoyaltyBrandFallback
+  </View>
+</View>
+`;
+
+exports[`BrandLogo should render the 'redeem' activityType icon 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "height": 60,
+        "width": 60,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": "100%",
+        "justifyContent": "center",
+        "width": "100%",
+      }
+    }
+  >
+    LoyaltyBrandFallback
+  </View>
+</View>
+`;
+
+exports[`BrandLogo should render the 'redemption' activityType icon 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "height": 60,
+        "width": 60,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": "100%",
+        "justifyContent": "center",
+        "width": "100%",
+      }
+    }
+  >
+    GiftIcon
+  </View>
+</View>
+`;
+
+exports[`BrandLogo should render the 'restaurant' programSubCategory icon 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "height": 60,
+        "width": 60,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": "100%",
+        "justifyContent": "center",
+        "width": "100%",
+      }
+    }
+  >
+    LoyaltyBrandFallback
+  </View>
+</View>
+`;
+
+exports[`BrandLogo should render the 'return' activityType icon 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "height": 60,
+        "width": 60,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": "100%",
+        "justifyContent": "center",
+        "width": "100%",
+      }
+    }
+  >
+    LoyaltyBrandFallback
+  </View>
+</View>
+`;
+
+exports[`BrandLogo should render the 'sears' programSubCategory icon 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "height": 60,
+        "width": 60,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": "100%",
+        "justifyContent": "center",
+        "width": "100%",
+      }
+    }
+  >
+    SearsIcon
+  </View>
+</View>
+`;
+
+exports[`BrandLogo should render the 'survey' programSubCategory icon 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "height": 60,
+        "width": 60,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": "100%",
+        "justifyContent": "center",
+        "width": "100%",
+      }
+    }
+  >
+    SurveyIcon
+  </View>
+</View>
+`;
+
+exports[`BrandLogo should render the 'transaction' activityType icon 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "height": 60,
+        "width": 60,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": "100%",
+        "justifyContent": "center",
+        "width": "100%",
+      }
+    }
+  >
+    SYWIconDark
+  </View>
+</View>
+`;
+
+exports[`BrandLogo should render with a custom fallback 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "height": 60,
+        "width": 60,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": "100%",
+        "justifyContent": "center",
+        "width": "100%",
+      }
+    }
+  >
+    <Text>
+      custom fallback
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`BrandLogo should render with an error 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "height": 60,
+        "width": 60,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": "100%",
+        "justifyContent": "center",
+        "width": "100%",
+      }
+    }
+  >
+    <Text>
+      custom fallback
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "height": 0,
+          "width": 0,
+        },
+      ]
+    }
+  >
+    <FastImageView
+      accessibilityLabel="brand-logo-image"
+      accessible={true}
+      onFastImageError={[Function]}
+      onFastImageLoad={[Function]}
+      onFastImageLoadEnd={[Function]}
+      onFastImageLoadStart={[Function]}
+      resizeMode="cover"
+      source={
+        Object {
+          "priority": "high",
+          "uri": "https://www.movistar.es/estaticos/img/ico-app-mi-movistar-2017.png",
+        }
+      }
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      testID="brand-logo-image"
+    />
+  </View>
+</View>
+`;
+
+exports[`BrandLogo should render with streak indicator 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "height": 60,
+        "width": 60,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "alignItems": "center",
+          "borderBottomLeftRadius": 60,
+          "borderBottomRightRadius": 60,
+          "borderTopLeftRadius": 60,
+          "borderTopRightRadius": 60,
+          "height": "100%",
+          "justifyContent": "center",
+          "width": "100%",
+        },
+      ]
+    }
+  >
+    <FastImageView
+      accessibilityLabel="brand-logo-image"
+      accessible={true}
+      onFastImageError={[Function]}
+      onFastImageLoad={[Function]}
+      onFastImageLoadEnd={[Function]}
+      onFastImageLoadStart={[Function]}
+      resizeMode="cover"
+      source={
+        Object {
+          "priority": "high",
+          "uri": "https://www.movistar.es/estaticos/img/ico-app-mi-movistar-2017.png",
+        }
+      }
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      testID="brand-logo-image"
+    />
+  </View>
+  StreakIcon
+</View>
+`;
+
+exports[`BrandLogo should render without a logo 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "height": 60,
+        "width": 60,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": "100%",
+        "justifyContent": "center",
+        "width": "100%",
+      }
+    }
+  >
+    LoyaltyBrandFallback
+  </View>
+</View>
+`;

@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SectionHeader should render 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "paddingBottom": 12,
+    }
+  }
+>
+  <Text
+    ellipsizeMode="tail"
+    numberOfLines={1}
+    style={
+      Array [
+        Object {
+          "color": "#262C2F",
+          "fontFamily": "SFProDisplay-Bold",
+          "fontSize": 16,
+          "lineHeight": 24,
+        },
+        undefined,
+      ]
+    }
+    type="sectionHeader"
+  >
+    this is a title
+  </Text>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#262C2F",
+            "fontFamily": "SFProDisplay-Bold",
+            "fontSize": 16,
+            "lineHeight": 24,
+          },
+          Object {
+            "color": "#0066CC",
+          },
+        ]
+      }
+      type="sectionHeader"
+    >
+      See all
+    </Text>
+  </View>
+</View>
+`;

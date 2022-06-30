@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="127px" height="127px" viewBox="0 0 127 127" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>36CC1F22-87DF-4D17-80D3-8CA5E11A8017</title>
+    <defs>
+        <circle id="path-1" cx="63.5" cy="63.5" r="63.5"></circle>
+    </defs>
+    <g id="Error-cases" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Point-Balance-Available---Empty-State" transform="translate(-124.000000, -272.000000)">
+            <g id="Icons/127px" transform="translate(124.000000, 272.000000)">
+                <g id="Oval-2">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Oval" fill="#0066CC" opacity="0.1" xlink:href="#path-1"></use>
+                    <rect id="Rectangle" fill="#0066CC" mask="url(#mask-2)" x="23.9058824" y="26.8941176" width="170.329412" height="74.7058824" rx="37.3529412"></rect>
+                </g>
+                <g id="Icons-/-24px-white-Copy-17" transform="translate(55.000000, 52.247059)" fill="#FFFFFF" fill-rule="nonzero">
+                    <g id="Group" transform="translate(0.000000, 0.125000)">
+                        <path d="M39,8.125 L39,3.62092391 C39,1.67798913 37.3674419,0 35.2813953,0 L3.71860465,0 C1.72325581,0 0,1.58967391 0,3.62092391 L0,8.125 L39,8.125 Z" id="Path"></path>
+                        <path d="M0,11.375 L0,22.75 C0,24.3489305 1.63255814,26 3.25,26 L35.75,26 C37.2767442,26 39,24.4358289 39,22.75 L39,11.375 L0,11.375 Z M32.5,21.125 L24.375,21.125 C23.4775373,21.125 22.75,20.3974627 22.75,19.5 C22.75,18.6025373 23.4775373,17.875 24.375,17.875 L32.5,17.875 C33.3974627,17.875 34.125,18.6025373 34.125,19.5 C34.125,20.3974627 33.3974627,21.125 32.5,21.125 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

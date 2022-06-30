@@ -1,0 +1,297 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Local Offer Section should render 1`] = `
+<View
+  color="#EBEDF2"
+  radius={20}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#EBEDF2",
+        "borderBottomLeftRadius": 20,
+        "borderBottomRightRadius": 20,
+        "borderTopLeftRadius": 20,
+        "borderTopRightRadius": 20,
+        "flexBasis": "auto",
+        "flexDirection": "column",
+        "flexGrow": 0,
+        "flexShrink": 1,
+        "height": "auto",
+        "width": "100%",
+      },
+      Object {
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "color": "#EBEDF2",
+        "height": 108,
+      },
+    ]
+  }
+>
+  <RCTScrollView
+    data={
+      Array [
+        ,
+        ,
+        ,
+        ,
+        ,
+        ,
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={true}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    showsHorizontalScrollIndicator={false}
+    stickyHeaderIndices={Array []}
+    style={
+      Object {
+        "flexDirection": "row",
+        "paddingBottom": 24,
+        "paddingLeft": 15,
+        "paddingRight": 0,
+        "paddingTop": 24,
+      }
+    }
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          height="60px"
+          radius={30}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#DFE3EC",
+                "borderBottomLeftRadius": 30,
+                "borderBottomRightRadius": 30,
+                "borderTopLeftRadius": 30,
+                "borderTopRightRadius": 30,
+                "flexBasis": "auto",
+                "flexDirection": "column",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": 60,
+                "width": 60,
+              },
+              Object {
+                "marginRight": 16,
+              },
+            ]
+          }
+          width="60px"
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          height="60px"
+          radius={30}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#DFE3EC",
+                "borderBottomLeftRadius": 30,
+                "borderBottomRightRadius": 30,
+                "borderTopLeftRadius": 30,
+                "borderTopRightRadius": 30,
+                "flexBasis": "auto",
+                "flexDirection": "column",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": 60,
+                "width": 60,
+              },
+              Object {
+                "marginRight": 16,
+              },
+            ]
+          }
+          width="60px"
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          height="60px"
+          radius={30}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#DFE3EC",
+                "borderBottomLeftRadius": 30,
+                "borderBottomRightRadius": 30,
+                "borderTopLeftRadius": 30,
+                "borderTopRightRadius": 30,
+                "flexBasis": "auto",
+                "flexDirection": "column",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": 60,
+                "width": 60,
+              },
+              Object {
+                "marginRight": 16,
+              },
+            ]
+          }
+          width="60px"
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          height="60px"
+          radius={30}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#DFE3EC",
+                "borderBottomLeftRadius": 30,
+                "borderBottomRightRadius": 30,
+                "borderTopLeftRadius": 30,
+                "borderTopRightRadius": 30,
+                "flexBasis": "auto",
+                "flexDirection": "column",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": 60,
+                "width": 60,
+              },
+              Object {
+                "marginRight": 16,
+              },
+            ]
+          }
+          width="60px"
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          height="60px"
+          radius={30}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#DFE3EC",
+                "borderBottomLeftRadius": 30,
+                "borderBottomRightRadius": 30,
+                "borderTopLeftRadius": 30,
+                "borderTopRightRadius": 30,
+                "flexBasis": "auto",
+                "flexDirection": "column",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": 60,
+                "width": 60,
+              },
+              Object {
+                "marginRight": 16,
+              },
+            ]
+          }
+          width="60px"
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          height="60px"
+          radius={30}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#DFE3EC",
+                "borderBottomLeftRadius": 30,
+                "borderBottomRightRadius": 30,
+                "borderTopLeftRadius": 30,
+                "borderTopRightRadius": 30,
+                "flexBasis": "auto",
+                "flexDirection": "column",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": 60,
+                "width": 60,
+              },
+              Object {
+                "marginRight": 16,
+              },
+            ]
+          }
+          width="60px"
+        />
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

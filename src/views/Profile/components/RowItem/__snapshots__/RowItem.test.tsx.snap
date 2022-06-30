@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RowItem should render 1`] = `
+<View
+  accessibilityLabel="profile-row-item-edit-your-profile"
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  testID="profile-row-item-edit-your-profile"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "elevation": 3,
+          "shadowColor": "#262C2F",
+          "shadowOffset": Object {
+            "height": 4,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+        },
+        Object {
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexDirection": "column",
+          "justifyContent": "space-between",
+          "paddingBottom": 20,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 20,
+        },
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "flexDirection": "row",
+          "marginBottom": 8,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#262C2F",
+          "fontFamily": "SFProDisplay-Medium",
+          "fontSize": 18,
+        }
+      }
+    >
+      Edit your profile
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+          }
+        }
+      >
+        GoOutIcon
+      </View>
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,1074 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GiftCardListByCategory should render with data 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F5F7FA",
+      "flexBasis": 0,
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "paddingTop": 32,
+    }
+  }
+>
+  <RCTScrollView
+    ListEmptyComponent={[Function]}
+    ListFooterComponent={
+      <View
+        style={
+          Object {
+            "height": 30,
+            "width": 30,
+          }
+        }
+      />
+    }
+    ListFooterComponentStyle={
+      Object {
+        "marginBottom": 40,
+      }
+    }
+    ListHeaderComponent={
+      <Memo(Text)
+        accessibilityLabel="gift-card-list-category-searched-text"
+        accessible={true}
+        style={
+          Object {
+            "color": "#262C2F",
+            "fontFamily": "SFProDisplay-Bold",
+            "fontSize": 16,
+            "marginBottom": 20,
+          }
+        }
+        testID="gift-card-list-category-searched-text"
+      >
+        
+         Gift Cards
+      </Memo(Text)>
+    }
+    accessibilityLabel="gift-card-list-category-scroll"
+    accessible={true}
+    contentContainerStyle={false}
+    data={
+      Array [
+        Object {
+          "brandName": "Burgers For Days",
+          "cardValueConfig": Object {
+            "increment": 1,
+            "maxValue": 50000,
+            "minValue": 500,
+            "variableLoadSupported": true,
+          },
+          "categories": Array [
+            Object {
+              "name": "Entertainment",
+            },
+            Object {
+              "name": "Travel",
+            },
+            Object {
+              "name": "Automotive",
+            },
+          ],
+          "description": "Buy stuff, buy lots of it.",
+          "iconUrl": "https://s3.amazonaws.com/raise-content/ibi/GameStop-Logo.png",
+          "id": "754338d5-7c5e-4785-bd05-67cd46545df9",
+          "legalTerms": "This card can be used to purchase merchandise only in stores",
+          "redemptionConfigs": Object {
+            "disclaimer": "Can only use 2 cards",
+            "kind": "IN_STORE_OR_ONLINE_ONLY",
+            "methods": Array [
+              Object {
+                "info": "Enter the gift card info online",
+                "kind": "ENTER_ONLINE",
+              },
+              Object {
+                "info": "Show the barcode to the cashier",
+                "kind": "SHOW_BARCODE",
+              },
+            ],
+          },
+          "sortedPosition": 2,
+        },
+        Object {
+          "brandName": "Durum For Weeks",
+          "cardValueConfig": Object {
+            "increment": 1,
+            "maxValue": 50000,
+            "minValue": 500,
+            "variableLoadSupported": true,
+          },
+          "categories": Array [
+            Object {
+              "name": "Entertainment",
+            },
+          ],
+          "description": "Buy stuff, buy lots of it.",
+          "iconUrl": "https://s3.amazonaws.com/raise-content/ibi/GameStop-Logo.png",
+          "id": "67cd46545df9-754338d5-7c5e-4785-bd05",
+          "legalTerms": "This card can be used to purchase merchandise only in stores",
+          "redemptionConfigs": Object {
+            "disclaimer": "Can only use 2 cards",
+            "kind": "IN_STORE_OR_ONLINE_ONLY",
+            "methods": Array [
+              Object {
+                "info": "Enter the gift card info online",
+                "kind": "ENTER_ONLINE",
+              },
+              Object {
+                "info": "Show the barcode to the cashier",
+                "kind": "SHOW_BARCODE",
+              },
+            ],
+          },
+          "sortedPosition": 2,
+        },
+        Object {
+          "brandName": "Durum For Years",
+          "cardValueConfig": Object {
+            "increment": 1,
+            "maxValue": 50000,
+            "minValue": 500,
+            "variableLoadSupported": true,
+          },
+          "categories": Array [
+            Object {
+              "name": "Entertainment",
+            },
+          ],
+          "description": "Buy stuff, buy lots of it.",
+          "iconUrl": "https://s3.amazonaws.com/raise-content/ibi/GameStop-Logo.png",
+          "id": "67cd46545df9-7c5e-4785-bd05-754338d5",
+          "legalTerms": "This card can be used to purchase merchandise only in stores",
+          "redemptionConfigs": Object {
+            "disclaimer": "Can only use 2 cards",
+            "kind": "IN_STORE_OR_ONLINE_ONLY",
+            "methods": Array [
+              Object {
+                "info": "Enter the gift card info online",
+                "kind": "ENTER_ONLINE",
+              },
+              Object {
+                "info": "Show the barcode to the cashier",
+                "kind": "SHOW_BARCODE",
+              },
+            ],
+          },
+          "sortedPosition": 2,
+        },
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    style={
+      Object {
+        "alignSelf": "center",
+        "paddingBottom": 0,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 0,
+        "width": "100%",
+      }
+    }
+    testID="gift-card-list-category-scroll"
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+      >
+        <Text
+          accessibilityLabel="gift-card-list-category-searched-text"
+          accessible={true}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#262C2F",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "marginBottom": 20,
+              },
+            ]
+          }
+          testID="gift-card-list-category-searched-text"
+        >
+          
+           Gift Cards
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+              "marginBottom": 8,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              accessibilityLabel="small-gift-card-container"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="small-gift-card-container"
+            >
+              <View
+                style={
+                  Object {
+                    "paddingBottom": 4,
+                    "paddingLeft": 4,
+                    "paddingRight": 4,
+                    "paddingTop": 4,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "transparent",
+                        "elevation": 3,
+                        "shadowColor": "#262C2F",
+                        "shadowOffset": Object {
+                          "height": 4,
+                          "width": 0,
+                        },
+                        "shadowOpacity": 0.1,
+                      },
+                      Object {
+                        "borderBottomLeftRadius": 8,
+                        "borderBottomRightRadius": 8,
+                        "borderTopLeftRadius": 8,
+                        "borderTopRightRadius": 8,
+                        "flexDirection": "column",
+                        "justifyContent": "space-between",
+                        "paddingBottom": 20,
+                        "paddingLeft": 20,
+                        "paddingRight": 20,
+                        "paddingTop": 20,
+                      },
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#FFFFFF",
+                          "flexDirection": "row",
+                          "height": 90,
+                          "justifyContent": "center",
+                          "paddingBottom": 20,
+                          "paddingLeft": 20,
+                          "paddingRight": 20,
+                          "paddingTop": 20,
+                        },
+                        false,
+                        Object {
+                          "width": "100%",
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "height": 60,
+                          "width": 60,
+                        },
+                        Object {
+                          "backgroundColor": "#E2E3E3",
+                          "borderBottomLeftRadius": 30,
+                          "borderBottomRightRadius": 30,
+                          "borderTopLeftRadius": 30,
+                          "borderTopRightRadius": 30,
+                          "height": 60,
+                          "width": 60,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "overflow": "hidden",
+                          },
+                          Object {
+                            "alignItems": "center",
+                            "borderBottomLeftRadius": 60,
+                            "borderBottomRightRadius": 60,
+                            "borderTopLeftRadius": 60,
+                            "borderTopRightRadius": 60,
+                            "height": "100%",
+                            "justifyContent": "center",
+                            "width": "100%",
+                          },
+                        ]
+                      }
+                    >
+                      <FastImageView
+                        accessibilityLabel="brand-logo-image"
+                        accessible={true}
+                        onFastImageError={[Function]}
+                        onFastImageLoad={[Function]}
+                        onFastImageLoadEnd={[Function]}
+                        onFastImageLoadStart={[Function]}
+                        resizeMode="cover"
+                        source={
+                          Object {
+                            "priority": "high",
+                            "uri": "https://s3.amazonaws.com/raise-content/ibi/GameStop-Logo.png",
+                          }
+                        }
+                        style={
+                          Object {
+                            "bottom": 0,
+                            "left": 0,
+                            "position": "absolute",
+                            "right": 0,
+                            "top": 0,
+                          }
+                        }
+                        testID="brand-logo-image"
+                      />
+                    </View>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "flexBasis": 0,
+                          "flexGrow": 1,
+                          "flexShrink": 1,
+                          "justifyContent": "center",
+                        },
+                        Object {
+                          "marginLeft": 20,
+                        },
+                        false,
+                      ]
+                    }
+                  >
+                    <Text
+                      accessibilityLabel="small-gift-card-brand-name"
+                      accessible={true}
+                      ellipsizeMode="tail"
+                      font="SFProDisplay-Bold"
+                      numberOfLines={2}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#909BA0",
+                            "fontFamily": "SFProDisplay-Bold",
+                            "fontSize": 16,
+                            "lineHeight": 22,
+                          },
+                          Array [
+                            Object {
+                              "color": "#262C2F",
+                              "fontSize": 18,
+                            },
+                            false,
+                          ],
+                        ]
+                      }
+                      testID="small-gift-card-brand-name"
+                    >
+                      Burgers For Days
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+              "marginBottom": 8,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              accessibilityLabel="small-gift-card-container"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="small-gift-card-container"
+            >
+              <View
+                style={
+                  Object {
+                    "paddingBottom": 4,
+                    "paddingLeft": 4,
+                    "paddingRight": 4,
+                    "paddingTop": 4,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "transparent",
+                        "elevation": 3,
+                        "shadowColor": "#262C2F",
+                        "shadowOffset": Object {
+                          "height": 4,
+                          "width": 0,
+                        },
+                        "shadowOpacity": 0.1,
+                      },
+                      Object {
+                        "borderBottomLeftRadius": 8,
+                        "borderBottomRightRadius": 8,
+                        "borderTopLeftRadius": 8,
+                        "borderTopRightRadius": 8,
+                        "flexDirection": "column",
+                        "justifyContent": "space-between",
+                        "paddingBottom": 20,
+                        "paddingLeft": 20,
+                        "paddingRight": 20,
+                        "paddingTop": 20,
+                      },
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#FFFFFF",
+                          "flexDirection": "row",
+                          "height": 90,
+                          "justifyContent": "center",
+                          "paddingBottom": 20,
+                          "paddingLeft": 20,
+                          "paddingRight": 20,
+                          "paddingTop": 20,
+                        },
+                        false,
+                        Object {
+                          "width": "100%",
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "height": 60,
+                          "width": 60,
+                        },
+                        Object {
+                          "backgroundColor": "#E2E3E3",
+                          "borderBottomLeftRadius": 30,
+                          "borderBottomRightRadius": 30,
+                          "borderTopLeftRadius": 30,
+                          "borderTopRightRadius": 30,
+                          "height": 60,
+                          "width": 60,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "overflow": "hidden",
+                          },
+                          Object {
+                            "alignItems": "center",
+                            "borderBottomLeftRadius": 60,
+                            "borderBottomRightRadius": 60,
+                            "borderTopLeftRadius": 60,
+                            "borderTopRightRadius": 60,
+                            "height": "100%",
+                            "justifyContent": "center",
+                            "width": "100%",
+                          },
+                        ]
+                      }
+                    >
+                      <FastImageView
+                        accessibilityLabel="brand-logo-image"
+                        accessible={true}
+                        onFastImageError={[Function]}
+                        onFastImageLoad={[Function]}
+                        onFastImageLoadEnd={[Function]}
+                        onFastImageLoadStart={[Function]}
+                        resizeMode="cover"
+                        source={
+                          Object {
+                            "priority": "high",
+                            "uri": "https://s3.amazonaws.com/raise-content/ibi/GameStop-Logo.png",
+                          }
+                        }
+                        style={
+                          Object {
+                            "bottom": 0,
+                            "left": 0,
+                            "position": "absolute",
+                            "right": 0,
+                            "top": 0,
+                          }
+                        }
+                        testID="brand-logo-image"
+                      />
+                    </View>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "flexBasis": 0,
+                          "flexGrow": 1,
+                          "flexShrink": 1,
+                          "justifyContent": "center",
+                        },
+                        Object {
+                          "marginLeft": 20,
+                        },
+                        false,
+                      ]
+                    }
+                  >
+                    <Text
+                      accessibilityLabel="small-gift-card-brand-name"
+                      accessible={true}
+                      ellipsizeMode="tail"
+                      font="SFProDisplay-Bold"
+                      numberOfLines={2}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#909BA0",
+                            "fontFamily": "SFProDisplay-Bold",
+                            "fontSize": 16,
+                            "lineHeight": 22,
+                          },
+                          Array [
+                            Object {
+                              "color": "#262C2F",
+                              "fontSize": 18,
+                            },
+                            false,
+                          ],
+                        ]
+                      }
+                      testID="small-gift-card-brand-name"
+                    >
+                      Durum For Weeks
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+              "marginBottom": 8,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              accessibilityLabel="small-gift-card-container"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="small-gift-card-container"
+            >
+              <View
+                style={
+                  Object {
+                    "paddingBottom": 4,
+                    "paddingLeft": 4,
+                    "paddingRight": 4,
+                    "paddingTop": 4,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "transparent",
+                        "elevation": 3,
+                        "shadowColor": "#262C2F",
+                        "shadowOffset": Object {
+                          "height": 4,
+                          "width": 0,
+                        },
+                        "shadowOpacity": 0.1,
+                      },
+                      Object {
+                        "borderBottomLeftRadius": 8,
+                        "borderBottomRightRadius": 8,
+                        "borderTopLeftRadius": 8,
+                        "borderTopRightRadius": 8,
+                        "flexDirection": "column",
+                        "justifyContent": "space-between",
+                        "paddingBottom": 20,
+                        "paddingLeft": 20,
+                        "paddingRight": 20,
+                        "paddingTop": 20,
+                      },
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#FFFFFF",
+                          "flexDirection": "row",
+                          "height": 90,
+                          "justifyContent": "center",
+                          "paddingBottom": 20,
+                          "paddingLeft": 20,
+                          "paddingRight": 20,
+                          "paddingTop": 20,
+                        },
+                        false,
+                        Object {
+                          "width": "100%",
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "height": 60,
+                          "width": 60,
+                        },
+                        Object {
+                          "backgroundColor": "#E2E3E3",
+                          "borderBottomLeftRadius": 30,
+                          "borderBottomRightRadius": 30,
+                          "borderTopLeftRadius": 30,
+                          "borderTopRightRadius": 30,
+                          "height": 60,
+                          "width": 60,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "overflow": "hidden",
+                          },
+                          Object {
+                            "alignItems": "center",
+                            "borderBottomLeftRadius": 60,
+                            "borderBottomRightRadius": 60,
+                            "borderTopLeftRadius": 60,
+                            "borderTopRightRadius": 60,
+                            "height": "100%",
+                            "justifyContent": "center",
+                            "width": "100%",
+                          },
+                        ]
+                      }
+                    >
+                      <FastImageView
+                        accessibilityLabel="brand-logo-image"
+                        accessible={true}
+                        onFastImageError={[Function]}
+                        onFastImageLoad={[Function]}
+                        onFastImageLoadEnd={[Function]}
+                        onFastImageLoadStart={[Function]}
+                        resizeMode="cover"
+                        source={
+                          Object {
+                            "priority": "high",
+                            "uri": "https://s3.amazonaws.com/raise-content/ibi/GameStop-Logo.png",
+                          }
+                        }
+                        style={
+                          Object {
+                            "bottom": 0,
+                            "left": 0,
+                            "position": "absolute",
+                            "right": 0,
+                            "top": 0,
+                          }
+                        }
+                        testID="brand-logo-image"
+                      />
+                    </View>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "flexBasis": 0,
+                          "flexGrow": 1,
+                          "flexShrink": 1,
+                          "justifyContent": "center",
+                        },
+                        Object {
+                          "marginLeft": 20,
+                        },
+                        false,
+                      ]
+                    }
+                  >
+                    <Text
+                      accessibilityLabel="small-gift-card-brand-name"
+                      accessible={true}
+                      ellipsizeMode="tail"
+                      font="SFProDisplay-Bold"
+                      numberOfLines={2}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#909BA0",
+                            "fontFamily": "SFProDisplay-Bold",
+                            "fontSize": 16,
+                            "lineHeight": 22,
+                          },
+                          Array [
+                            Object {
+                              "color": "#262C2F",
+                              "fontSize": 18,
+                            },
+                            false,
+                          ],
+                        ]
+                      }
+                      testID="small-gift-card-brand-name"
+                    >
+                      Durum For Years
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "marginBottom": 40,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "height": 30,
+              "width": 30,
+            }
+          }
+        />
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`GiftCardListByCategory should render with incomplete data 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F5F7FA",
+      "flexBasis": 0,
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "paddingTop": 32,
+    }
+  }
+>
+  <RCTScrollView
+    ListEmptyComponent={[Function]}
+    ListFooterComponent={
+      <View
+        style={
+          Object {
+            "height": 30,
+            "width": 30,
+          }
+        }
+      />
+    }
+    ListFooterComponentStyle={
+      Object {
+        "marginBottom": 40,
+      }
+    }
+    ListHeaderComponent={
+      <Memo(Text)
+        accessibilityLabel="gift-card-list-category-searched-text"
+        accessible={true}
+        style={
+          Object {
+            "color": "#262C2F",
+            "fontFamily": "SFProDisplay-Bold",
+            "fontSize": 16,
+            "marginBottom": 20,
+          }
+        }
+        testID="gift-card-list-category-searched-text"
+      >
+        
+         Gift Cards
+      </Memo(Text)>
+    }
+    accessibilityLabel="gift-card-list-category-scroll"
+    accessible={true}
+    contentContainerStyle={
+      Object {
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      }
+    }
+    data={Array []}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    style={
+      Object {
+        "alignSelf": "center",
+        "paddingBottom": 0,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 0,
+        "width": "100%",
+      }
+    }
+    testID="gift-card-list-category-scroll"
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+      >
+        <Text
+          accessibilityLabel="gift-card-list-category-searched-text"
+          accessible={true}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#262C2F",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "marginBottom": 20,
+              },
+            ]
+          }
+          testID="gift-card-list-category-searched-text"
+        >
+          
+           Gift Cards
+        </Text>
+      </View>
+      <View
+        accessibilityLabel="gift-card-list-category-empty-state"
+        accessible={true}
+        style={
+          Object {
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "space-around",
+            "paddingBottom": 28,
+            "paddingLeft": 28,
+            "paddingRight": 28,
+            "paddingTop": 28,
+          }
+        }
+        testID="gift-card-list-category-empty-state"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "justifySelf": "center",
+              "paddingBottom": 28,
+              "paddingLeft": 28,
+              "paddingRight": 28,
+              "paddingTop": 28,
+            }
+          }
+        >
+          BrandNoResults
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#262C2F",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 20,
+                  "lineHeight": 30,
+                },
+                Object {
+                  "marginTop": 20,
+                  "textAlign": "center",
+                },
+              ]
+            }
+            type="titleHeader"
+          >
+            Woops! No search results :(
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Medium",
+                  "fontSize": 16,
+                  "lineHeight": 22,
+                },
+                Object {
+                  "color": "#909BA0",
+                  "fontSize": 18,
+                  "marginTop": 20,
+                  "textAlign": "center",
+                },
+              ]
+            }
+          >
+            Try with other words, or explore other brands in the reward section.
+          </Text>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "marginBottom": 40,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "height": 30,
+              "width": 30,
+            }
+          }
+        />
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

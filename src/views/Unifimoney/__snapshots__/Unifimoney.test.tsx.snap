@@ -1,0 +1,493 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Unifimoney should render 1`] = `
+<View
+  accessibilityLabel="unifimoney-container"
+  accessible={true}
+  style={
+    Object {
+      "backgroundColor": "#F5F7FA",
+      "flexBasis": 0,
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "paddingBottom": 70,
+      "paddingLeft": 32,
+      "paddingRight": 32,
+      "paddingTop": 70,
+    }
+  }
+  testID="unifimoney-container"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "marginBottom": 32,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderBottomLeftRadius": 45,
+            "borderBottomRightRadius": 45,
+            "borderTopLeftRadius": 45,
+            "borderTopRightRadius": 45,
+            "elevation": 4,
+            "height": 90,
+            "justifyContent": "center",
+            "shadowColor": "#262C2F",
+            "shadowOffset": Object {
+              "height": 2,
+              "width": 0,
+            },
+            "shadowOpacity": 0.23,
+            "shadowRadius": 2.62,
+            "width": 90,
+          },
+          Object {
+            "left": 8,
+            "position": "relative",
+            "zIndex": 1,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "borderRadius": 70,
+              "height": 122.5,
+              "justifyContent": "center",
+              "width": 122.5,
+            },
+            Object {
+              "paddingTop": 8,
+            },
+          ]
+        }
+      >
+        <View>
+          <Text
+            accessibilityLabel="icon-text"
+            accessible={true}
+            allowFontScaling={false}
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": "#0066CC",
+                  "fontSize": 70,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "sywmax",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+            testID="icon-text"
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderBottomLeftRadius": 45,
+          "borderBottomRightRadius": 45,
+          "borderTopLeftRadius": 45,
+          "borderTopRightRadius": 45,
+          "elevation": 4,
+          "height": 90,
+          "justifyContent": "center",
+          "shadowColor": "#262C2F",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.23,
+          "shadowRadius": 2.62,
+          "width": 90,
+        }
+      }
+    >
+      <Text
+        accessibilityLabel="icon-text"
+        accessible={true}
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          Array [
+            Object {
+              "color": "#8DC63F",
+              "fontSize": 48,
+            },
+            undefined,
+            Object {
+              "fontFamily": "sywmax",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+        testID="icon-text"
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "marginBottom": 32,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          Object {
+            "color": "#000000",
+            "fontFamily": "SFProDisplay-Bold",
+            "fontSize": 20,
+            "lineHeight": 28,
+            "marginBottom": 24,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      Congrats! Your Unifimoney account is already linked to MAX.
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 24,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      Linking your Unifimoney account to MAX helps you invest easily. Simply shop in MAX, earn points and invest them with Unifimoney.
+       
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "marginBottom": 32,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          Object {
+            "color": "#262C2F",
+            "fontFamily": "SFProDisplay-SemiBold",
+            "fontSize": 14,
+            "lineHeight": 20,
+            "marginBottom": 20,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      Available items:
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#DDE8F5",
+              "borderBottomLeftRadius": 20,
+              "borderBottomRightRadius": 20,
+              "borderTopLeftRadius": 20,
+              "borderTopRightRadius": 20,
+              "height": 40,
+              "justifyContent": "center",
+              "marginBottom": 4,
+              "marginRight": 32,
+              "width": 40,
+            }
+          }
+        >
+          <Text
+            accessibilityLabel="icon-text"
+            accessible={true}
+            allowFontScaling={false}
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": "#0066CC",
+                  "fontSize": 22,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "sywmax",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+            testID="icon-text"
+          >
+            
+          </Text>
+        </View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#262C2F",
+                "fontSize": 12,
+                "lineHeight": 18,
+              },
+            ]
+          }
+        >
+          Crypto
+        </Text>
+      </View>
+      <View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#DDE8F5",
+                "borderBottomLeftRadius": 20,
+                "borderBottomRightRadius": 20,
+                "borderTopLeftRadius": 20,
+                "borderTopRightRadius": 20,
+                "height": 40,
+                "justifyContent": "center",
+                "marginBottom": 4,
+                "marginRight": 32,
+                "width": 40,
+              },
+              Object {
+                "marginRight": 0,
+              },
+            ]
+          }
+        >
+          <Text
+            accessibilityLabel="icon-text"
+            accessible={true}
+            allowFontScaling={false}
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": "#0066CC",
+                  "fontSize": 20,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "sywmax",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+            testID="icon-text"
+          >
+            
+          </Text>
+        </View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#262C2F",
+                "fontSize": 12,
+                "lineHeight": 18,
+              },
+            ]
+          }
+        >
+          Metals
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#0066CC",
+            "borderBottomLeftRadius": 30,
+            "borderBottomRightRadius": 30,
+            "borderTopLeftRadius": 30,
+            "borderTopRightRadius": 30,
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "paddingBottom": 8,
+            "paddingLeft": 12,
+            "paddingRight": 12,
+            "paddingTop": 8,
+          },
+          Object {
+            "backgroundColor": "#0066CC",
+          },
+        ]
+      }
+    >
+      <View
+        style={false}
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 14,
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "#FFFFFF",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 14,
+                  "lineHeight": 20,
+                  "paddingVertical": 8,
+                  "textAlign": "center",
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          Go to Unifimoney
+        </Text>
+      </View>
+    </View>
+  </View>
+  <Text
+    accessibilityLabel="unifimoney-unlink"
+    accessible={true}
+    onPress={[Function]}
+    style={
+      Array [
+        Object {
+          "color": "#909BA0",
+          "fontFamily": "SFProDisplay-Medium",
+          "fontSize": 16,
+          "lineHeight": 22,
+        },
+        Object {
+          "color": "#0066CC",
+          "fontFamily": "SFProDisplay-SemiBold",
+          "fontSize": 14,
+          "lineHeight": 20,
+          "marginTop": 24,
+          "textAlign": "center",
+        },
+      ]
+    }
+    suppressHighlighting={true}
+    testID="unifimoney-unlink"
+  >
+    Unlink my Unifimoney account
+  </Text>
+  <Modal
+    accessibilityLabel="unifimoney-modal"
+    accessible={true}
+    animationType="slide"
+    hardwareAccelerated={false}
+    onRequestClose={[Function]}
+    statusBarTranslucent={true}
+    testID="unifimoney-modal"
+    transparent={true}
+    visible={false}
+  />
+</View>
+`;

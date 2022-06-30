@@ -1,0 +1,1068 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WalletDetail should render ECM card detail 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F5F7FA",
+      "height": "100%",
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingTop": 0,
+      "width": "100%",
+    }
+  }
+>
+  <RCTScrollView
+    ListEmptyComponent={null}
+    ListFooterComponent={
+      <View
+        accessibilityLabel="activity-history-loading"
+        accessible={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "marginBottom": 20,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 20,
+          }
+        }
+        testID="activity-history-loading"
+      >
+        <Spinner
+          size={40}
+        />
+        <Memo(Text)
+          style={
+            Object {
+              "color": "#0066CC",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "marginTop": 16,
+            }
+          }
+        >
+          Searching transactions...
+        </Memo(Text)>
+      </View>
+    }
+    ListHeaderComponent={
+      <React.Fragment>
+        <View
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "elevation": 3,
+              "shadowColor": "#262C2F",
+              "shadowOffset": Object {
+                "height": 4,
+                "width": 0,
+              },
+              "shadowOpacity": 0.1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#FFFFFF",
+                "borderBottomLeftRadius": 8,
+                "borderBottomRightRadius": 8,
+                "borderTopLeftRadius": 8,
+                "borderTopRightRadius": 8,
+                "overflow": "hidden",
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "height": 72,
+                  "overflow": "hidden",
+                }
+              }
+            >
+              <ImageBackground
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/shared/backgroundFullPatternAsset.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 250,
+                    "paddingBottom": 16,
+                    "paddingLeft": 16,
+                    "paddingRight": 16,
+                    "paddingTop": 16,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <React.Fragment>
+                    MasterCardIcon
+                  </React.Fragment>
+                  <Text
+                    accessibilityLabel="wallet-detail-card-text"
+                    accessible={true}
+                    style={
+                      Object {
+                        "color": "#FFFFFF",
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "fontFamily": "SFProDisplay-Bold",
+                        "fontSize": 16,
+                        "lineHeight": 20,
+                        "marginLeft": 8,
+                      }
+                    }
+                    testID="wallet-detail-card-text"
+                  >
+                    MasterCard
+                     
+                    
+
+                     ****
+                     
+                    1123
+                  </Text>
+                </View>
+              </ImageBackground>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "height": 72,
+                  "justifyContent": "space-around",
+                }
+              }
+            >
+              <TouchableOpacity
+                accessibilityLabel="wallet-detail-remove-card"
+                accessible={true}
+                onPress={[Function]}
+                testID="wallet-detail-remove-card"
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#E02020",
+                      "fontFamily": "SFProDisplay-Bold",
+                      "fontSize": 16,
+                      "lineHeight": 20,
+                    }
+                  }
+                >
+                  Remove Card
+                </Text>
+              </TouchableOpacity>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "marginBottom": 8,
+              "marginLeft": 0,
+              "marginRight": 0,
+              "marginTop": 20,
+              "paddingBottom": 0,
+              "paddingLeft": 0,
+              "paddingRight": 0,
+              "paddingTop": 0,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#262C2F",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+              }
+            }
+          >
+            Transactions
+          </Text>
+        </View>
+      </React.Fragment>
+    }
+    accessibilityLabel="activity-history-list"
+    accessible={true}
+    contentContainerStyle={
+      Object {
+        "flexGrow": 1,
+        "paddingHorizontal": 16,
+      }
+    }
+    data={Array []}
+    extraData={Array []}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onEndReached={[Function]}
+    onEndReachedThreshold={0.1}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    refreshing={true}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    showsVerticalScrollIndicator={false}
+    stickyHeaderIndices={Array []}
+    testID="activity-history-list"
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "elevation": 3,
+              "shadowColor": "#262C2F",
+              "shadowOffset": Object {
+                "height": 4,
+                "width": 0,
+              },
+              "shadowOpacity": 0.1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#FFFFFF",
+                "borderBottomLeftRadius": 8,
+                "borderBottomRightRadius": 8,
+                "borderTopLeftRadius": 8,
+                "borderTopRightRadius": 8,
+                "overflow": "hidden",
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "height": 72,
+                  "overflow": "hidden",
+                }
+              }
+            >
+              <View
+                accessibilityIgnoresInvertColors={true}
+                style={
+                  Object {
+                    "height": 250,
+                    "paddingBottom": 16,
+                    "paddingLeft": 16,
+                    "paddingRight": 16,
+                    "paddingTop": 16,
+                  }
+                }
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../src/assets/shared/backgroundFullPatternAsset.png",
+                    }
+                  }
+                  style={
+                    Array [
+                      Object {
+                        "bottom": 0,
+                        "left": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      },
+                      Object {
+                        "height": 250,
+                        "width": undefined,
+                      },
+                      undefined,
+                    ]
+                  }
+                />
+                <View
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  MasterCardIcon
+                  <Text
+                    accessibilityLabel="wallet-detail-card-text"
+                    accessible={true}
+                    style={
+                      Object {
+                        "color": "#FFFFFF",
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "fontFamily": "SFProDisplay-Bold",
+                        "fontSize": 16,
+                        "lineHeight": 20,
+                        "marginLeft": 8,
+                      }
+                    }
+                    testID="wallet-detail-card-text"
+                  >
+                    MasterCard
+                     
+                    
+
+                     ****
+                     
+                    1123
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "height": 72,
+                  "justifyContent": "space-around",
+                }
+              }
+            >
+              <View
+                accessibilityLabel="wallet-detail-remove-card"
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+                testID="wallet-detail-remove-card"
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#E02020",
+                      "fontFamily": "SFProDisplay-Bold",
+                      "fontSize": 16,
+                      "lineHeight": 20,
+                    }
+                  }
+                >
+                  Remove Card
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "marginBottom": 8,
+              "marginLeft": 0,
+              "marginRight": 0,
+              "marginTop": 20,
+              "paddingBottom": 0,
+              "paddingLeft": 0,
+              "paddingRight": 0,
+              "paddingTop": 0,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#262C2F",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+              }
+            }
+          >
+            Transactions
+          </Text>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+      >
+        <View
+          accessibilityLabel="activity-history-loading"
+          accessible={true}
+          style={
+            Object {
+              "alignItems": "center",
+              "marginBottom": 20,
+              "marginLeft": 0,
+              "marginRight": 0,
+              "marginTop": 20,
+            }
+          }
+          testID="activity-history-loading"
+        >
+          <div>
+            Spinner
+          </div>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Medium",
+                  "fontSize": 16,
+                  "lineHeight": 22,
+                },
+                Object {
+                  "color": "#0066CC",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 16,
+                  "marginTop": 16,
+                },
+              ]
+            }
+          >
+            Searching transactions...
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <Modal
+    accessibilityLabel="modal-container"
+    accessible={true}
+    animationType="slide"
+    hardwareAccelerated={false}
+    onRequestClose={[Function]}
+    statusBarTranslucent={true}
+    testID="modal-container"
+    transparent={true}
+    visible={false}
+  />
+  <Modal
+    accessibilityLabel="modal-container"
+    accessible={true}
+    animationType="slide"
+    hardwareAccelerated={false}
+    statusBarTranslucent={true}
+    testID="modal-container"
+    transparent={true}
+    visible={false}
+  />
+  <Modal
+    accessibilityLabel="modal-container"
+    accessible={true}
+    animationType="slide"
+    hardwareAccelerated={false}
+    onRequestClose={[Function]}
+    statusBarTranslucent={true}
+    testID="modal-container"
+    transparent={true}
+    visible={false}
+  />
+</View>
+`;
+
+exports[`WalletDetail should render a nonECM card detail screen 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F5F7FA",
+      "height": "100%",
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingTop": 0,
+      "width": "100%",
+    }
+  }
+>
+  <RCTScrollView
+    ListEmptyComponent={null}
+    ListFooterComponent={
+      <View
+        accessibilityLabel="activity-history-loading"
+        accessible={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "marginBottom": 20,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 20,
+          }
+        }
+        testID="activity-history-loading"
+      >
+        <Spinner
+          size={40}
+        />
+        <Memo(Text)
+          style={
+            Object {
+              "color": "#0066CC",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "marginTop": 16,
+            }
+          }
+        >
+          Searching transactions...
+        </Memo(Text)>
+      </View>
+    }
+    ListHeaderComponent={
+      <React.Fragment>
+        <View
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "elevation": 3,
+              "shadowColor": "#262C2F",
+              "shadowOffset": Object {
+                "height": 4,
+                "width": 0,
+              },
+              "shadowOpacity": 0.1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#FFFFFF",
+                "borderBottomLeftRadius": 8,
+                "borderBottomRightRadius": 8,
+                "borderTopLeftRadius": 8,
+                "borderTopRightRadius": 8,
+                "overflow": "hidden",
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "height": 72,
+                  "overflow": "hidden",
+                }
+              }
+            >
+              <ImageBackground
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/shared/backgroundFullPatternAsset.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 250,
+                    "paddingBottom": 16,
+                    "paddingLeft": 16,
+                    "paddingRight": 16,
+                    "paddingTop": 16,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <Image
+                    source={
+                      Object {
+                        "testUri": "../../../src/assets/credit-card/creditCard.png",
+                      }
+                    }
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "borderBottomLeftRadius": 4,
+                        "borderBottomRightRadius": 4,
+                        "borderTopLeftRadius": 4,
+                        "borderTopRightRadius": 4,
+                        "height": 40,
+                        "width": 60,
+                      }
+                    }
+                  />
+                  <Text
+                    accessibilityLabel="wallet-detail-card-text"
+                    accessible={true}
+                    style={
+                      Object {
+                        "color": "#FFFFFF",
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "fontFamily": "SFProDisplay-Bold",
+                        "fontSize": 16,
+                        "lineHeight": 20,
+                        "marginLeft": 8,
+                      }
+                    }
+                    testID="wallet-detail-card-text"
+                  >
+                    Shop Your Way Mastercard®
+                     
+                    
+
+                     ****
+                     
+                    1123
+                  </Text>
+                </View>
+              </ImageBackground>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "height": 72,
+                  "justifyContent": "space-around",
+                }
+              }
+            >
+              <React.Fragment>
+                <TouchableOpacity
+                  accessibilityLabel="wallet-detail-unlink-card"
+                  accessible={true}
+                  onPress={[Function]}
+                  testID="wallet-detail-unlink-card"
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "#E02020",
+                        "fontFamily": "SFProDisplay-Bold",
+                        "fontSize": 16,
+                        "lineHeight": 20,
+                      }
+                    }
+                  >
+                    Unlink from Cardlink
+                  </Text>
+                </TouchableOpacity>
+                <TouchableOpacity
+                  accessibilityLabel="wallet-detail-manage-card"
+                  accessible={true}
+                  onPress={[Function]}
+                  testID="wallet-detail-manage-card"
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "#0066CC",
+                        "fontFamily": "SFProDisplay-Bold",
+                        "fontSize": 16,
+                        "lineHeight": 20,
+                      }
+                    }
+                  >
+                    Manage Card
+                  </Text>
+                </TouchableOpacity>
+              </React.Fragment>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "marginBottom": 8,
+              "marginLeft": 0,
+              "marginRight": 0,
+              "marginTop": 20,
+              "paddingBottom": 0,
+              "paddingLeft": 0,
+              "paddingRight": 0,
+              "paddingTop": 0,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#262C2F",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+              }
+            }
+          >
+            Transactions
+          </Text>
+        </View>
+      </React.Fragment>
+    }
+    accessibilityLabel="activity-history-list"
+    accessible={true}
+    contentContainerStyle={
+      Object {
+        "flexGrow": 1,
+        "paddingHorizontal": 16,
+      }
+    }
+    data={Array []}
+    extraData={Array []}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onEndReached={[Function]}
+    onEndReachedThreshold={0.1}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    refreshing={true}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    showsVerticalScrollIndicator={false}
+    stickyHeaderIndices={Array []}
+    testID="activity-history-list"
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "elevation": 3,
+              "shadowColor": "#262C2F",
+              "shadowOffset": Object {
+                "height": 4,
+                "width": 0,
+              },
+              "shadowOpacity": 0.1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#FFFFFF",
+                "borderBottomLeftRadius": 8,
+                "borderBottomRightRadius": 8,
+                "borderTopLeftRadius": 8,
+                "borderTopRightRadius": 8,
+                "overflow": "hidden",
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "height": 72,
+                  "overflow": "hidden",
+                }
+              }
+            >
+              <View
+                accessibilityIgnoresInvertColors={true}
+                style={
+                  Object {
+                    "height": 250,
+                    "paddingBottom": 16,
+                    "paddingLeft": 16,
+                    "paddingRight": 16,
+                    "paddingTop": 16,
+                  }
+                }
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../src/assets/shared/backgroundFullPatternAsset.png",
+                    }
+                  }
+                  style={
+                    Array [
+                      Object {
+                        "bottom": 0,
+                        "left": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      },
+                      Object {
+                        "height": 250,
+                        "width": undefined,
+                      },
+                      undefined,
+                    ]
+                  }
+                />
+                <View
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <Image
+                    source={
+                      Object {
+                        "testUri": "../../../src/assets/credit-card/creditCard.png",
+                      }
+                    }
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "borderBottomLeftRadius": 4,
+                        "borderBottomRightRadius": 4,
+                        "borderTopLeftRadius": 4,
+                        "borderTopRightRadius": 4,
+                        "height": 40,
+                        "width": 60,
+                      }
+                    }
+                  />
+                  <Text
+                    accessibilityLabel="wallet-detail-card-text"
+                    accessible={true}
+                    style={
+                      Object {
+                        "color": "#FFFFFF",
+                        "flexBasis": 0,
+                        "flexGrow": 1,
+                        "flexShrink": 1,
+                        "fontFamily": "SFProDisplay-Bold",
+                        "fontSize": 16,
+                        "lineHeight": 20,
+                        "marginLeft": 8,
+                      }
+                    }
+                    testID="wallet-detail-card-text"
+                  >
+                    Shop Your Way Mastercard®
+                     
+                    
+
+                     ****
+                     
+                    1123
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "height": 72,
+                  "justifyContent": "space-around",
+                }
+              }
+            >
+              <View
+                accessibilityLabel="wallet-detail-unlink-card"
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+                testID="wallet-detail-unlink-card"
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#E02020",
+                      "fontFamily": "SFProDisplay-Bold",
+                      "fontSize": 16,
+                      "lineHeight": 20,
+                    }
+                  }
+                >
+                  Unlink from Cardlink
+                </Text>
+              </View>
+              <View
+                accessibilityLabel="wallet-detail-manage-card"
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+                testID="wallet-detail-manage-card"
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#0066CC",
+                      "fontFamily": "SFProDisplay-Bold",
+                      "fontSize": 16,
+                      "lineHeight": 20,
+                    }
+                  }
+                >
+                  Manage Card
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "marginBottom": 8,
+              "marginLeft": 0,
+              "marginRight": 0,
+              "marginTop": 20,
+              "paddingBottom": 0,
+              "paddingLeft": 0,
+              "paddingRight": 0,
+              "paddingTop": 0,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#262C2F",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+              }
+            }
+          >
+            Transactions
+          </Text>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+      >
+        <View
+          accessibilityLabel="activity-history-loading"
+          accessible={true}
+          style={
+            Object {
+              "alignItems": "center",
+              "marginBottom": 20,
+              "marginLeft": 0,
+              "marginRight": 0,
+              "marginTop": 20,
+            }
+          }
+          testID="activity-history-loading"
+        >
+          <div>
+            Spinner
+          </div>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Medium",
+                  "fontSize": 16,
+                  "lineHeight": 22,
+                },
+                Object {
+                  "color": "#0066CC",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 16,
+                  "marginTop": 16,
+                },
+              ]
+            }
+          >
+            Searching transactions...
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <Modal
+    accessibilityLabel="modal-container"
+    accessible={true}
+    animationType="slide"
+    hardwareAccelerated={false}
+    onRequestClose={[Function]}
+    statusBarTranslucent={true}
+    testID="modal-container"
+    transparent={true}
+    visible={false}
+  />
+  <Modal
+    accessibilityLabel="modal-container"
+    accessible={true}
+    animationType="slide"
+    hardwareAccelerated={false}
+    statusBarTranslucent={true}
+    testID="modal-container"
+    transparent={true}
+    visible={false}
+  />
+  <Modal
+    accessibilityLabel="modal-container"
+    accessible={true}
+    animationType="slide"
+    hardwareAccelerated={false}
+    onRequestClose={[Function]}
+    statusBarTranslucent={true}
+    testID="modal-container"
+    transparent={true}
+    visible={false}
+  />
+</View>
+`;

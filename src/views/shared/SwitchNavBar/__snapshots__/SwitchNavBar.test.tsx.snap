@@ -1,0 +1,772 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SwitchNavBar should render 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "justifyItems": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyItems": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#EBEDF2",
+            "borderBottomLeftRadius": 50,
+            "borderBottomRightRadius": 50,
+            "borderTopLeftRadius": 50,
+            "borderTopRightRadius": 50,
+            "flexBasis": 0,
+            "flexDirection": "row",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "space-between",
+          },
+          undefined,
+          Object {
+            "padding": "1%",
+          },
+        ]
+      }
+    >
+      <div
+        duration={100}
+        style={
+          Array [
+            Object {
+              "borderBottomLeftRadius": 21,
+              "borderBottomRightRadius": 21,
+              "borderTopLeftRadius": 21,
+              "borderTopRightRadius": 21,
+            },
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "height": "100%",
+              "position": "absolute",
+            },
+            undefined,
+            Object {
+              "left": "2%",
+              "width": "48%",
+            },
+            false,
+          ]
+        }
+        transition="left"
+      />
+      <View
+        accessibilityLabel="switch-nav-bar-btn-1"
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flexBasis": 0,
+            "flexDirection": "row",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "center",
+            "paddingBottom": 12,
+            "paddingLeft": 28,
+            "paddingRight": 28,
+            "paddingTop": 12,
+          }
+        }
+        testID="switch-nav-bar-btn-1"
+      >
+        <Text
+          ellipsizeMode="tail"
+          font="SFProDisplay-Heavy"
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Heavy",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#262C2F",
+                  "fontSize": 12,
+                  "letterSpacing": 1,
+                  "lineHeight": 14,
+                  "textTransform": "uppercase",
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          one
+        </Text>
+      </View>
+      <View
+        accessibilityLabel="switch-nav-bar-btn-2"
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flexBasis": 0,
+            "flexDirection": "row",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "center",
+            "paddingBottom": 12,
+            "paddingLeft": 28,
+            "paddingRight": 28,
+            "paddingTop": 12,
+          }
+        }
+        testID="switch-nav-bar-btn-2"
+      >
+        <Text
+          ellipsizeMode="tail"
+          font="SFProDisplay-Heavy"
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Heavy",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#262C2F",
+                  "fontSize": 12,
+                  "letterSpacing": 1,
+                  "lineHeight": 14,
+                  "textTransform": "uppercase",
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          two
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`SwitchNavBar should render with alt styles 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "justifyItems": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyItems": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#EBEDF2",
+            "borderBottomLeftRadius": 50,
+            "borderBottomRightRadius": 50,
+            "borderTopLeftRadius": 50,
+            "borderTopRightRadius": 50,
+            "flexBasis": 0,
+            "flexDirection": "row",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "space-between",
+          },
+          Object {
+            "backgroundColor": "#FFFFFF",
+          },
+          Object {
+            "padding": "1%",
+          },
+        ]
+      }
+    >
+      <div
+        duration={100}
+        style={
+          Array [
+            Object {
+              "borderBottomLeftRadius": 21,
+              "borderBottomRightRadius": 21,
+              "borderTopLeftRadius": 21,
+              "borderTopRightRadius": 21,
+            },
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "height": "100%",
+              "position": "absolute",
+            },
+            Object {
+              "backgroundColor": "#0066CC",
+              "borderBottomLeftRadius": 8,
+              "borderBottomRightRadius": 8,
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+            },
+            Object {
+              "left": "2%",
+              "width": "48%",
+            },
+            false,
+          ]
+        }
+        transition="left"
+      />
+      <View
+        accessibilityLabel="switch-nav-bar-btn-1"
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flexBasis": 0,
+            "flexDirection": "row",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "center",
+            "paddingBottom": 12,
+            "paddingLeft": 28,
+            "paddingRight": 28,
+            "paddingTop": 12,
+          }
+        }
+        testID="switch-nav-bar-btn-1"
+      >
+        <Text
+          ellipsizeMode="tail"
+          font="SFProDisplay-Heavy"
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Heavy",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#262C2F",
+                  "fontSize": 12,
+                  "letterSpacing": 1,
+                  "lineHeight": 14,
+                  "textTransform": "uppercase",
+                },
+                Object {
+                  "color": "#FFFFFF",
+                },
+              ],
+            ]
+          }
+        >
+          one
+        </Text>
+      </View>
+      <View
+        accessibilityLabel="switch-nav-bar-btn-2"
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flexBasis": 0,
+            "flexDirection": "row",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "center",
+            "paddingBottom": 12,
+            "paddingLeft": 28,
+            "paddingRight": 28,
+            "paddingTop": 12,
+          }
+        }
+        testID="switch-nav-bar-btn-2"
+      >
+        <Text
+          ellipsizeMode="tail"
+          font="SFProDisplay-Heavy"
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Heavy",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#262C2F",
+                  "fontSize": 12,
+                  "letterSpacing": 1,
+                  "lineHeight": 14,
+                  "textTransform": "uppercase",
+                },
+                Object {
+                  "color": "#909BA0",
+                },
+              ],
+            ]
+          }
+        >
+          two
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`SwitchNavBar should render with alt styles invalid 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "justifyItems": "center",
+      },
+      Object {
+        "borderBottomLeftRadius": 4,
+        "borderBottomRightRadius": 4,
+        "borderColor": "#E02020",
+        "borderStyle": "solid",
+        "borderTopLeftRadius": 4,
+        "borderTopRightRadius": 4,
+        "borderWidth": 1,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyItems": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#EBEDF2",
+            "borderBottomLeftRadius": 50,
+            "borderBottomRightRadius": 50,
+            "borderTopLeftRadius": 50,
+            "borderTopRightRadius": 50,
+            "flexBasis": 0,
+            "flexDirection": "row",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "space-between",
+          },
+          Object {
+            "backgroundColor": "#FFFFFF",
+          },
+          Object {
+            "padding": "1%",
+          },
+        ]
+      }
+    >
+      <div
+        duration={100}
+        style={
+          Array [
+            Object {
+              "borderBottomLeftRadius": 21,
+              "borderBottomRightRadius": 21,
+              "borderTopLeftRadius": 21,
+              "borderTopRightRadius": 21,
+            },
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "height": "100%",
+              "position": "absolute",
+            },
+            Object {
+              "backgroundColor": "#0066CC",
+              "borderBottomLeftRadius": 8,
+              "borderBottomRightRadius": 8,
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+            },
+            Object {
+              "left": "2%",
+              "width": "48%",
+            },
+            false,
+          ]
+        }
+        transition="left"
+      />
+      <View
+        accessibilityLabel="switch-nav-bar-btn-1"
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flexBasis": 0,
+            "flexDirection": "row",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "center",
+            "paddingBottom": 12,
+            "paddingLeft": 28,
+            "paddingRight": 28,
+            "paddingTop": 12,
+          }
+        }
+        testID="switch-nav-bar-btn-1"
+      >
+        <Text
+          ellipsizeMode="tail"
+          font="SFProDisplay-Heavy"
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Heavy",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#262C2F",
+                  "fontSize": 12,
+                  "letterSpacing": 1,
+                  "lineHeight": 14,
+                  "textTransform": "uppercase",
+                },
+                Object {
+                  "color": "#FFFFFF",
+                },
+              ],
+            ]
+          }
+        >
+          one
+        </Text>
+      </View>
+      <View
+        accessibilityLabel="switch-nav-bar-btn-2"
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flexBasis": 0,
+            "flexDirection": "row",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "center",
+            "paddingBottom": 12,
+            "paddingLeft": 28,
+            "paddingRight": 28,
+            "paddingTop": 12,
+          }
+        }
+        testID="switch-nav-bar-btn-2"
+      >
+        <Text
+          ellipsizeMode="tail"
+          font="SFProDisplay-Heavy"
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Heavy",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#262C2F",
+                  "fontSize": 12,
+                  "letterSpacing": 1,
+                  "lineHeight": 14,
+                  "textTransform": "uppercase",
+                },
+                Object {
+                  "color": "#909BA0",
+                },
+              ],
+            ]
+          }
+        >
+          two
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`SwitchNavBar should render without a selected key 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "justifyItems": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyItems": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#EBEDF2",
+            "borderBottomLeftRadius": 50,
+            "borderBottomRightRadius": 50,
+            "borderTopLeftRadius": 50,
+            "borderTopRightRadius": 50,
+            "flexBasis": 0,
+            "flexDirection": "row",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "space-between",
+          },
+          undefined,
+          Object {
+            "padding": "1%",
+          },
+        ]
+      }
+    >
+      <div
+        duration={100}
+        style={
+          Array [
+            Object {
+              "borderBottomLeftRadius": 21,
+              "borderBottomRightRadius": 21,
+              "borderTopLeftRadius": 21,
+              "borderTopRightRadius": 21,
+            },
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "height": "100%",
+              "position": "absolute",
+            },
+            undefined,
+            Object {
+              "left": "2%",
+              "width": "48%",
+            },
+            Object {
+              "height": 0,
+              "width": 0,
+            },
+          ]
+        }
+        transition="left"
+      />
+      <View
+        accessibilityLabel="switch-nav-bar-btn-1"
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flexBasis": 0,
+            "flexDirection": "row",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "center",
+            "paddingBottom": 12,
+            "paddingLeft": 28,
+            "paddingRight": 28,
+            "paddingTop": 12,
+          }
+        }
+        testID="switch-nav-bar-btn-1"
+      >
+        <Text
+          ellipsizeMode="tail"
+          font="SFProDisplay-Heavy"
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Heavy",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#262C2F",
+                  "fontSize": 12,
+                  "letterSpacing": 1,
+                  "lineHeight": 14,
+                  "textTransform": "uppercase",
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          one
+        </Text>
+      </View>
+      <View
+        accessibilityLabel="switch-nav-bar-btn-2"
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flexBasis": 0,
+            "flexDirection": "row",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "justifyContent": "center",
+            "paddingBottom": 12,
+            "paddingLeft": 28,
+            "paddingRight": 28,
+            "paddingTop": 12,
+          }
+        }
+        testID="switch-nav-bar-btn-2"
+      >
+        <Text
+          ellipsizeMode="tail"
+          font="SFProDisplay-Heavy"
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Heavy",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Array [
+                Object {
+                  "color": "#262C2F",
+                  "fontSize": 12,
+                  "letterSpacing": 1,
+                  "lineHeight": 14,
+                  "textTransform": "uppercase",
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          two
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

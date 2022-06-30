@@ -1,0 +1,304 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Apply Now should render 1`] = `
+<RCTScrollView
+  accessibilityLabel="manage-syw-card-scroll-view"
+  accessible={true}
+  contentContainerStyle={
+    Object {
+      "flexBasis": 0,
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "justifyContent": "center",
+    }
+  }
+  testID="manage-syw-card-scroll-view"
+>
+  <View>
+    <View
+      style={
+        Object {
+          "marginBottom": 16,
+          "marginLeft": 32,
+          "marginRight": 32,
+          "marginTop": 0,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/credit-card/creditCard.png",
+          }
+        }
+        style={
+          Object {
+            "alignSelf": "center",
+            "borderBottomLeftRadius": 4,
+            "borderBottomRightRadius": 4,
+            "borderTopLeftRadius": 4,
+            "borderTopRightRadius": 4,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "marginBottom": 0,
+            "marginLeft": 16,
+            "marginRight": 16,
+            "marginTop": 0,
+          },
+          Object {
+            "paddingBottom": 49.28571428571429,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#262C2F",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 20,
+              "lineHeight": 30,
+            },
+            Object {
+              "color": "#262C2F",
+              "fontFamily": "SFProDisplay-Heavy",
+              "marginBottom": 8,
+              "marginTop": 20,
+              "textAlign": "center",
+            },
+          ]
+        }
+        type="titleHeader"
+      >
+        Manage your card 
+        
+
+         from Citibank
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontSize": 16,
+                "lineHeight": 26,
+                "textAlign": "center",
+              },
+              Object {
+                "marginBottom": 8,
+                "marginLeft": 0,
+                "marginRight": 0,
+                "marginTop": 8,
+              },
+            ],
+          ]
+        }
+      >
+        View your transactions, pay your bills, check your expenses and more.
+      </Text>
+      <View
+        style={
+          Object {
+            "marginBottom": 20,
+            "marginLeft": 40,
+            "marginRight": 40,
+            "marginTop": 8,
+          }
+        }
+      >
+        <View
+          accessibilityLabel="manage-syw-card-manage-card-button"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+          testID="manage-syw-card-manage-card-button"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#0066CC",
+                  "borderBottomLeftRadius": 30,
+                  "borderBottomRightRadius": 30,
+                  "borderTopLeftRadius": 30,
+                  "borderTopRightRadius": 30,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "paddingBottom": 8,
+                  "paddingLeft": 12,
+                  "paddingRight": 12,
+                  "paddingTop": 8,
+                },
+                Array [
+                  Object {
+                    "width": "100%",
+                  },
+                  Object {
+                    "backgroundColor": "#0066CC",
+                    "paddingBottom": 8,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "paddingTop": 8,
+                  },
+                ],
+              ]
+            }
+          >
+            <View
+              style={false}
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#909BA0",
+                      "fontFamily": "SFProDisplay-Medium",
+                      "fontSize": 16,
+                      "lineHeight": 22,
+                    },
+                    Array [
+                      Object {
+                        "color": "#FFFFFF",
+                        "fontSize": 14,
+                        "textAlign": "center",
+                      },
+                      Object {
+                        "fontFamily": "SFProDisplay-Bold",
+                        "fontSize": 18,
+                        "letterSpacing": 0,
+                        "lineHeight": 26,
+                      },
+                      undefined,
+                    ],
+                  ]
+                }
+              >
+                Manage Card
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <Text
+        font="SFProDisplay-Bold"
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontSize": 16,
+                "lineHeight": 26,
+                "textAlign": "center",
+              },
+              Object {
+                "color": "#909BA0",
+                "fontSize": 12,
+                "letterSpacing": 0,
+                "lineHeight": 26,
+                "textAlign": "center",
+                "textTransform": "uppercase",
+              },
+            ],
+          ]
+        }
+      >
+        or contact:
+      </Text>
+      <Text
+        accessibilityLabel="manage-syw-card-phone-link"
+        accessible={true}
+        font="SFProDisplay-Bold"
+        onPress={[Function]}
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontSize": 16,
+                "lineHeight": 26,
+                "textAlign": "center",
+              },
+              Object {
+                "color": "#0066CC",
+                "letterSpacing": 0,
+              },
+            ],
+          ]
+        }
+        testID="manage-syw-card-phone-link"
+      >
+        1-877-816-9063
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontSize": 16,
+                "lineHeight": 26,
+                "textAlign": "center",
+              },
+              Object {
+                "color": "#909BA0",
+                "fontSize": 12,
+                "letterSpacing": 0,
+                "lineHeight": 26,
+                "textAlign": "center",
+                "textTransform": "uppercase",
+              },
+            ],
+          ]
+        }
+      >
+        Available 24/7
+      </Text>
+    </View>
+  </View>
+</RCTScrollView>
+`;

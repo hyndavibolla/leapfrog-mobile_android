@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Carrousel should render a Carrousel 1`] = `
+<RCTScrollView
+  ItemSeparatorComponent={[Function]}
+  collapsable={false}
+  contentContainerStyle={
+    Array [
+      Object {
+        "alignItems": "center",
+      },
+      undefined,
+    ]
+  }
+  data={Array []}
+  decelerationRate={0}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={true}
+  keyExtractor={[Function]}
+  onContentSizeChange={[Function]}
+  onLayout={[Function]}
+  onMomentumScrollBegin={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={0.0001}
+  showsHorizontalScrollIndicator={false}
+  snapToInterval={100}
+  stickyHeaderIndices={Array []}
+  style={
+    Object {
+      "marginHorizontal": -16,
+    }
+  }
+  testID="carrousel-flat-list"
+  viewabilityConfigCallbackPairs={Array []}
+>
+  <View />
+</RCTScrollView>
+`;

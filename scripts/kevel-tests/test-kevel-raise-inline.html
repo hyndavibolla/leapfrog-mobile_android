@@ -1,0 +1,62 @@
+<html>
+<head>
+    <title>Test Kevel</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <!-- Add this before any of the next declarations -->
+    <script type="text/javascript" src="https://static.adzerk.net/ados.js"></script>
+
+    <h2>Test Kevel: Desktop location</h2>
+    <p>In order to see it, load the page with a resolution higher than 1200px</p>
+
+    <!-- The section below is meant to go where the desktop banner goes -->
+    <script type="text/javascript">
+        var ados = ados || {};
+        ados.run = ados.run || [];
+        ados.run.push(function() {
+            if (window.innerWidth >= 1200) {
+                /* load placement for account: shopyourway-dev,
+                                    site: Raise.com,
+                                    ad: pdp Desktop,
+                                    size: 200x307 - PDP Desktop */
+                ados_addInlinePlacement(10953, 1189638, 4525)
+                    .setFlightCreativeId(238032632)
+                    .loadInline();
+            }
+        });
+    </script>
+
+    <h2>Test Kevel: Tablet/mobile location</h2>
+    <p>In order to see it, load the page with a resolution lower than 768px wide for mobile
+        and lower than 1200px wide for tablet.</p>
+    </p>
+
+    <!-- The section below is meant to go where the tablet/mobile banner goes -->
+    <script type="text/javascript">
+        var ados = ados || {};
+        ados.run = ados.run || [];
+        ados.run.push(function() {
+            if (window.innerWidth >= 1200) return;
+            if (window.innerWidth >= 768) {
+                /* load placement for account: shopyourway-dev,
+                                site: Raise.com,
+                                ad: PDP Tablet,
+                                size: 900x128 - PDP Tablet */
+                ados_addInlinePlacement(10953, 1189638, 4526)
+                    .setFlightCreativeId(238032654)
+                    .loadInline();
+            } else {
+                /* load placement for account: shopyourway-dev,
+                            site: Raise.com,
+                            ad: PDP Mobile,
+                            size: 340x258 - PDP Mobile */
+                ados_addInlinePlacement(10953, 1189638, 4527)
+                    .setFlightCreativeId(238032673)
+                    .loadInline();
+            }
+        });
+    </script>
+</body>
+</html>

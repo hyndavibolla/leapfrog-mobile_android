@@ -1,0 +1,348 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TopCategories should render 1`] = `
+<View
+  accessibilityLabel="earn-main-top-categories-container"
+  accessible={true}
+  style={
+    Object {
+      "flexBasis": 0,
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "paddingHorizontal": 16,
+    }
+  }
+  testID="earn-main-top-categories-container"
+>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingBottom": 12,
+      }
+    }
+  >
+    <Text
+      ellipsizeMode="tail"
+      numberOfLines={1}
+      style={
+        Array [
+          Object {
+            "color": "#262C2F",
+            "fontFamily": "SFProDisplay-Bold",
+            "fontSize": 16,
+            "lineHeight": 24,
+          },
+          undefined,
+        ]
+      }
+      type="sectionHeader"
+    >
+      Top Categories
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flexBasis": 0,
+        "flexDirection": "row",
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "flexWrap": "wrap",
+        "justifyContent": "space-between",
+        "paddingBottom": 16,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "paddingBottom": 16,
+          "width": "48%",
+        }
+      }
+    >
+      <View
+        accessibilityLabel="medium-category-card-container"
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        testID="medium-category-card-container"
+      >
+        <View
+          accessibilityLabel="image-background-container"
+          accessible={true}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "elevation": 3,
+                "shadowColor": "#262C2F",
+                "shadowOffset": Object {
+                  "height": 4,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.1,
+              },
+              Object {
+                "backgroundColor": "#0066CC",
+                "overflow": "hidden",
+              },
+              Object {
+                "borderBottomLeftRadius": 8,
+                "borderBottomRightRadius": 8,
+                "borderTopLeftRadius": 8,
+                "borderTopRightRadius": 8,
+                "height": 100,
+                "width": "100%",
+              },
+            ]
+          }
+          testID="image-background-container"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "overflow": "hidden",
+                },
+                Array [
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "height": 100,
+                    "width": "100%",
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <FastImageView
+              accessibilityLabel="image-background-image"
+              accessible={true}
+              onFastImageError={[Function]}
+              onFastImageLoadEnd={[Function]}
+              onFastImageLoadStart={[Function]}
+              resizeMode="cover"
+              source={
+                Object {
+                  "uri": "https://i.sears.com/s/i/or/SYW-MAX/Brands_Apparel_&_Accessories-_AGGGFVI9CG",
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              testID="image-background-image"
+            />
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "stretch",
+                    "backgroundColor": "#262C2F45",
+                    "flexBasis": 0,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                    "justifyContent": "center",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Text
+                ellipsizeMode="tail"
+                numberOfLines={2}
+                style={
+                  Array [
+                    Object {
+                      "color": "#909BA0",
+                      "fontFamily": "SFProDisplay-Medium",
+                      "fontSize": 16,
+                      "lineHeight": 22,
+                    },
+                    Array [
+                      Object {
+                        "color": "#FFFFFF",
+                        "fontFamily": "SFProDisplay-Heavy",
+                        "fontSize": 18,
+                        "paddingHorizontal": 20,
+                        "textAlign": "center",
+                      },
+                      undefined,
+                    ],
+                  ]
+                }
+              >
+                Apparel & Accessories
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingBottom": 16,
+          "width": "48%",
+        }
+      }
+    >
+      <View
+        accessibilityLabel="medium-category-card-container"
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        testID="medium-category-card-container"
+      >
+        <View
+          accessibilityLabel="image-background-container"
+          accessible={true}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "elevation": 3,
+                "shadowColor": "#262C2F",
+                "shadowOffset": Object {
+                  "height": 4,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.1,
+              },
+              Object {
+                "backgroundColor": "#0066CC",
+                "overflow": "hidden",
+              },
+              Object {
+                "borderBottomLeftRadius": 8,
+                "borderBottomRightRadius": 8,
+                "borderTopLeftRadius": 8,
+                "borderTopRightRadius": 8,
+                "height": 100,
+                "width": "100%",
+              },
+            ]
+          }
+          testID="image-background-container"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "overflow": "hidden",
+                },
+                Array [
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "height": 100,
+                    "width": "100%",
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <FastImageView
+              accessibilityLabel="image-background-image"
+              accessible={true}
+              onFastImageError={[Function]}
+              onFastImageLoadEnd={[Function]}
+              onFastImageLoadStart={[Function]}
+              resizeMode="cover"
+              source={
+                Object {
+                  "uri": "https://i.sears.com/s/i/or/SYW-MAX/Brands_Beauty-&-Wellness_AGJ84EHXR6",
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              testID="image-background-image"
+            />
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "stretch",
+                    "backgroundColor": "#262C2F45",
+                    "flexBasis": 0,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                    "justifyContent": "center",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Text
+                ellipsizeMode="tail"
+                numberOfLines={2}
+                style={
+                  Array [
+                    Object {
+                      "color": "#909BA0",
+                      "fontFamily": "SFProDisplay-Medium",
+                      "fontSize": 16,
+                      "lineHeight": 22,
+                    },
+                    Array [
+                      Object {
+                        "color": "#FFFFFF",
+                        "fontFamily": "SFProDisplay-Heavy",
+                        "fontSize": 18,
+                        "paddingHorizontal": 20,
+                        "textAlign": "center",
+                      },
+                      undefined,
+                    ],
+                  ]
+                }
+              >
+                Beauty & Wellness
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

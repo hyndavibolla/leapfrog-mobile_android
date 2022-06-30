@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="161px" height="161px" viewBox="0 0 161 161" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>EEB3613A-33FD-425B-A7C2-5DF0D0B7B9E0</title>
+    <defs>
+        <filter x="-18.1%" y="-18.1%" width="136.2%" height="136.2%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <circle id="path-2" cx="63.5" cy="63.5" r="63.5"></circle>
+    </defs>
+    <g id="Login-Edge-case" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Login---edge-case---full-screen" transform="translate(-112.000000, -150.000000)">
+            <g id="Group-2" transform="translate(129.000000, 167.000000)">
+                <g id="Oval-Copy-3-+-Oval-Copy-4-Mask-Copy-8" filter="url(#filter-1)">
+                    <g id="Group">
+                        <mask id="mask-3" fill="white">
+                            <use xlink:href="#path-2"></use>
+                        </mask>
+                        <use id="Mask" fill="#D9E6F3" xlink:href="#path-2"></use>
+                        <circle id="Oval-Copy-3" fill="#0063C9" mask="url(#mask-3)" cx="63.5" cy="46.1818182" r="23.0909091"></circle>
+                        <circle id="Oval-Copy-4" fill="#0063C9" mask="url(#mask-3)" cx="62.0568182" cy="137.102273" r="62.0568182"></circle>
+                    </g>
+                </g>
+                <g id="Icons-/-16px-Copy-3" transform="translate(90.000000, 85.000000)">
+                    <circle id="Oval-Copy-7" fill="#FF5F00" cx="18.5" cy="18.5" r="18.5"></circle>
+                    <path d="M18.5,8.09375 C17.2212291,8.09375 16.1875,8.86904685 16.1875,9.828125 L16.1875,20.234375 C16.1875,21.1934531 17.2212291,21.96875 18.5,21.96875 C19.7787709,21.96875 20.8125,21.1917454 20.8125,20.234375 L20.8125,9.828125 C20.8125,8.86904685 19.7788793,8.09375 18.5,8.09375 Z" id="Path-Copy-3" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path d="M20.6274306,25.7162575 C20.5117893,25.4157157 20.3498264,25.1614527 20.141542,24.9534686 C20.0259007,24.8610192 19.9101509,24.7453761 19.7714031,24.6761204 C19.6557618,24.5836709 19.5169055,24.5165828 19.3780492,24.4680279 C19.2391929,24.3963877 19.1004451,24.3524932 18.9384822,24.3292996 C18.2003741,24.167486 17.3882817,24.424025 16.858458,24.9534686 C16.6501736,25.1614527 16.4883192,25.415824 16.3725694,25.7162575 C16.2569282,25.9936058 16.1875,26.2941477 16.1875,26.5946895 C16.1875,26.8952314 16.2569282,27.1956649 16.3725694,27.4731215 C16.4882107,27.7504698 16.6501736,28.0047327 16.858458,28.2359105 C17.0898491,28.4438946 17.3443466,28.6057081 17.6219508,28.7213512 C17.8995549,28.8368858 18.2003741,28.90625 18.5011933,28.90625 C18.8020125,28.90625 19.1004451,28.8368858 19.3780492,28.7213512 C19.6556534,28.6058165 19.9078728,28.4440029 20.141542,28.2359105 C20.3498264,28.0047327 20.5116808,27.7504698 20.6274306,27.4731215 C20.7430718,27.1957733 20.8125,26.8952314 20.8125,26.5946895 C20.8125,26.2941477 20.7430718,25.9936058 20.6274306,25.7162575 Z" id="Path-Copy-4" fill="#FFFFFF" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

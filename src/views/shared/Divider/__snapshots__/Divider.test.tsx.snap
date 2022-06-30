@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Divider should render 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "paddingVertical": 16,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "borderBottomColor": "#EBEDF2",
+          "borderBottomWidth": 1,
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
+`;

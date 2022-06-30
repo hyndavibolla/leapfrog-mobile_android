@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input it should render 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "elevation": 3,
+        "shadowColor": "#262C2F",
+        "shadowOffset": Object {
+          "height": 4,
+          "width": 0,
+        },
+        "shadowOpacity": 0.1,
+      },
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "borderBottomLeftRadius": 4,
+        "borderBottomRightRadius": 4,
+        "borderTopLeftRadius": 4,
+        "borderTopRightRadius": 4,
+        "width": "100%",
+      },
+      false,
+    ]
+  }
+>
+  <TextInput
+    onChangeText={[Function]}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderBottomLeftRadius": 4,
+          "borderBottomRightRadius": 4,
+          "borderColor": "transparent",
+          "borderStyle": "solid",
+          "borderTopLeftRadius": 4,
+          "borderTopRightRadius": 4,
+          "borderWidth": 1,
+          "paddingBottom": 15,
+          "paddingLeft": 15,
+          "paddingRight": 15,
+          "paddingTop": 15,
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`Input it should render invalid 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "elevation": 3,
+        "shadowColor": "#262C2F",
+        "shadowOffset": Object {
+          "height": 4,
+          "width": 0,
+        },
+        "shadowOpacity": 0.1,
+      },
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "borderBottomLeftRadius": 4,
+        "borderBottomRightRadius": 4,
+        "borderTopLeftRadius": 4,
+        "borderTopRightRadius": 4,
+        "width": "100%",
+      },
+      false,
+    ]
+  }
+>
+  <TextInput
+    isInvalid={true}
+    onChangeText={[Function]}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderBottomLeftRadius": 4,
+          "borderBottomRightRadius": 4,
+          "borderColor": "#E02020",
+          "borderStyle": "solid",
+          "borderTopLeftRadius": 4,
+          "borderTopRightRadius": 4,
+          "borderWidth": 1,
+          "paddingBottom": 15,
+          "paddingLeft": 15,
+          "paddingRight": 15,
+          "paddingTop": 15,
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
+`;

@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BrandCategoryItem should render 1`] = `
+<View
+  accessibilityLabel="brand-category-item-fallback-card"
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "borderBottomLeftRadius": 8,
+      "borderBottomRightRadius": 8,
+      "borderTopLeftRadius": 8,
+      "borderTopRightRadius": 8,
+      "elevation": 3,
+      "height": 100,
+      "justifyContent": "center",
+      "marginLeft": 16,
+      "marginVertical": 8,
+      "opacity": 1,
+      "shadowColor": "#262C2F",
+      "shadowOffset": Object {
+        "height": 4,
+        "width": 0,
+      },
+      "shadowOpacity": 0.1,
+      "width": 158,
+    }
+  }
+  testID="brand-category-item-fallback-card"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "height": 60,
+          "width": 60,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "overflow": "hidden",
+          },
+          Object {
+            "alignItems": "center",
+            "borderBottomLeftRadius": 60,
+            "borderBottomRightRadius": 60,
+            "borderTopLeftRadius": 60,
+            "borderTopRightRadius": 60,
+            "height": "100%",
+            "justifyContent": "center",
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <FastImageView
+        accessibilityLabel="brand-logo-image"
+        accessible={true}
+        onFastImageError={[Function]}
+        onFastImageLoad={[Function]}
+        onFastImageLoadEnd={[Function]}
+        onFastImageLoadStart={[Function]}
+        resizeMode="cover"
+        source={
+          Object {
+            "priority": "high",
+            "uri": "https://s3.amazonaws.com/raise-content/ibi/GameStop-Logo.png",
+          }
+        }
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        testID="brand-logo-image"
+      />
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title should render a header title 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#262C2F",
+        "fontFamily": "SFProDisplay-Bold",
+        "fontSize": 20,
+        "lineHeight": 30,
+      },
+      undefined,
+    ]
+  }
+  type="titleHeader"
+>
+  Title
+</Text>
+`;
+
+exports[`Title should render a section title 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#262C2F",
+        "fontFamily": "SFProDisplay-Bold",
+        "fontSize": 16,
+        "lineHeight": 24,
+      },
+      undefined,
+    ]
+  }
+  type="sectionHeader"
+>
+  Title
+</Text>
+`;

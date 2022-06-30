@@ -1,0 +1,668 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`In Store Offers should render 1`] = `
+<View
+  accessibilityLabel="in-store-offers-container"
+  accessible={true}
+  style={
+    Object {
+      "marginTop": 16,
+    }
+  }
+  testID="in-store-offers-container"
+>
+  <View
+    accessibilityLabel="in-store-offer-item"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="in-store-offer-item"
+  >
+    <View
+      accessibilityLabel="in-store-offer-container"
+      accessible={true}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "elevation": 3,
+            "shadowColor": "#262C2F",
+            "shadowOffset": Object {
+              "height": 4,
+              "width": 0,
+            },
+            "shadowOpacity": 0.1,
+          },
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "flexDirection": "row",
+            "height": 95,
+            "justifyContent": "space-between",
+            "paddingBottom": 20,
+            "paddingLeft": 20,
+            "paddingRight": 20,
+            "paddingTop": 20,
+          },
+          Object {
+            "marginBottom": 16,
+          },
+        ]
+      }
+      testID="in-store-offer-container"
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "width": "60%",
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "height": 60,
+                "width": 60,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "overflow": "hidden",
+                },
+                Object {
+                  "alignItems": "center",
+                  "borderBottomLeftRadius": 60,
+                  "borderBottomRightRadius": 60,
+                  "borderTopLeftRadius": 60,
+                  "borderTopRightRadius": 60,
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+              ]
+            }
+          >
+            <FastImageView
+              accessibilityLabel="brand-logo-image"
+              accessible={true}
+              onFastImageError={[Function]}
+              onFastImageLoad={[Function]}
+              onFastImageLoadEnd={[Function]}
+              onFastImageLoadStart={[Function]}
+              resizeMode="cover"
+              source={
+                Object {
+                  "priority": "high",
+                  "uri": "http://www.local-offer.com/logo/1",
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              testID="brand-logo-image"
+            />
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "marginLeft": 10,
+            }
+          }
+        >
+          <Text
+            numberOfLines={1}
+            style={
+              Object {
+                "color": "#262C2F",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "lineHeight": 24,
+              }
+            }
+          >
+            local-offer-brand-1
+          </Text>
+          <View
+            accessibilityLabel="pill-container"
+            accessible={true}
+            style={
+              Array [
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#DDE8F5",
+                    "borderBottomLeftRadius": 20,
+                    "borderBottomRightRadius": 20,
+                    "borderTopLeftRadius": 20,
+                    "borderTopRightRadius": 20,
+                    "flexDirection": "row",
+                    "paddingLeft": 4,
+                    "paddingRight": 10,
+                  },
+                  Object {
+                    "height": 28,
+                  },
+                ],
+                Array [
+                  Object {
+                    "backgroundColor": "#EBEDF2",
+                  },
+                ],
+                Object {
+                  "alignSelf": "flex-start",
+                },
+              ]
+            }
+            testID="pill-container"
+          >
+            <View
+              accessibilityLabel="pill-icon"
+              accessible={true}
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#FFFFFF",
+                    "borderBottomLeftRadius": 50,
+                    "borderBottomRightRadius": 50,
+                    "borderTopLeftRadius": 50,
+                    "borderTopRightRadius": 50,
+                    "justifyContent": "center",
+                  },
+                  undefined,
+                ]
+              }
+              testID="pill-icon"
+            >
+              <Text
+                accessibilityLabel="icon-text"
+                accessible={true}
+                allowFontScaling={false}
+                selectable={false}
+                style={
+                  Array [
+                    Object {
+                      "color": "#909BA0",
+                      "fontSize": 20,
+                    },
+                    undefined,
+                    Object {
+                      "fontFamily": "sywmax",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+                testID="icon-text"
+              >
+                
+              </Text>
+            </View>
+            <Text
+              accessibilityLabel="pill-text"
+              accessible={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Medium",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Array [
+                    Object {
+                      "paddingLeft": 4,
+                    },
+                    Array [
+                      Object {
+                        "color": "#0066CC",
+                        "fontFamily": "SFProDisplay-Bold",
+                        "fontSize": 14,
+                      },
+                      Object {
+                        "lineHeight": 20,
+                      },
+                      Object {
+                        "color": "#909BA0",
+                      },
+                    ],
+                  ],
+                ]
+              }
+              testID="pill-text"
+            >
+              10,000
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-end",
+            "width": "40%",
+          }
+        }
+      >
+        <View
+          accessibilityLabel="in-store-offer-button"
+          accessibilityState={
+            Object {
+              "disabled": false,
+            }
+          }
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          testID="in-store-offer-button"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#B361DF",
+                "borderBottomLeftRadius": 20,
+                "borderBottomRightRadius": 20,
+                "borderTopLeftRadius": 20,
+                "borderTopRightRadius": 20,
+                "height": 40,
+                "justifyContent": "center",
+                "width": 105,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 14,
+                  "lineHeight": 20,
+                }
+              }
+            >
+              Activate
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    accessibilityLabel="in-store-offer-item"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="in-store-offer-item"
+  >
+    <View
+      accessibilityLabel="in-store-offer-container"
+      accessible={true}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "elevation": 3,
+            "shadowColor": "#262C2F",
+            "shadowOffset": Object {
+              "height": 4,
+              "width": 0,
+            },
+            "shadowOpacity": 0.1,
+          },
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "flexDirection": "row",
+            "height": 95,
+            "justifyContent": "space-between",
+            "paddingBottom": 20,
+            "paddingLeft": 20,
+            "paddingRight": 20,
+            "paddingTop": 20,
+          },
+          Object {
+            "marginBottom": 8,
+          },
+        ]
+      }
+      testID="in-store-offer-container"
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "width": "60%",
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "height": 60,
+                "width": 60,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "overflow": "hidden",
+                },
+                Object {
+                  "alignItems": "center",
+                  "borderBottomLeftRadius": 60,
+                  "borderBottomRightRadius": 60,
+                  "borderTopLeftRadius": 60,
+                  "borderTopRightRadius": 60,
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "width": "100%",
+                },
+              ]
+            }
+          >
+            <FastImageView
+              accessibilityLabel="brand-logo-image"
+              accessible={true}
+              onFastImageError={[Function]}
+              onFastImageLoad={[Function]}
+              onFastImageLoadEnd={[Function]}
+              onFastImageLoadStart={[Function]}
+              resizeMode="cover"
+              source={
+                Object {
+                  "priority": "high",
+                  "uri": "http://www.local-offer.com/logo/1",
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              testID="brand-logo-image"
+            />
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "marginLeft": 10,
+            }
+          }
+        >
+          <Text
+            numberOfLines={1}
+            style={
+              Object {
+                "color": "#262C2F",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "lineHeight": 24,
+              }
+            }
+          >
+            local-offer-brand-1
+          </Text>
+          <View
+            accessibilityLabel="pill-container"
+            accessible={true}
+            style={
+              Array [
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#DDE8F5",
+                    "borderBottomLeftRadius": 20,
+                    "borderBottomRightRadius": 20,
+                    "borderTopLeftRadius": 20,
+                    "borderTopRightRadius": 20,
+                    "flexDirection": "row",
+                    "paddingLeft": 4,
+                    "paddingRight": 10,
+                  },
+                  Object {
+                    "height": 28,
+                  },
+                ],
+                Array [
+                  false,
+                ],
+                Object {
+                  "alignSelf": "flex-start",
+                },
+              ]
+            }
+            testID="pill-container"
+          >
+            <View
+              accessibilityLabel="pill-icon"
+              accessible={true}
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#FFFFFF",
+                    "borderBottomLeftRadius": 50,
+                    "borderBottomRightRadius": 50,
+                    "borderTopLeftRadius": 50,
+                    "borderTopRightRadius": 50,
+                    "justifyContent": "center",
+                  },
+                  undefined,
+                ]
+              }
+              testID="pill-icon"
+            >
+              <Text
+                accessibilityLabel="icon-text"
+                accessible={true}
+                allowFontScaling={false}
+                selectable={false}
+                style={
+                  Array [
+                    Object {
+                      "color": "#0066CC",
+                      "fontSize": 20,
+                    },
+                    undefined,
+                    Object {
+                      "fontFamily": "sywmax",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+                testID="icon-text"
+              >
+                
+              </Text>
+            </View>
+            <Text
+              accessibilityLabel="pill-text"
+              accessible={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#909BA0",
+                    "fontFamily": "SFProDisplay-Medium",
+                    "fontSize": 16,
+                    "lineHeight": 22,
+                  },
+                  Array [
+                    Object {
+                      "paddingLeft": 4,
+                    },
+                    Array [
+                      Object {
+                        "color": "#0066CC",
+                        "fontFamily": "SFProDisplay-Bold",
+                        "fontSize": 14,
+                      },
+                      Object {
+                        "lineHeight": 20,
+                      },
+                      false,
+                    ],
+                  ],
+                ]
+              }
+              testID="pill-text"
+            >
+              10,000
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-end",
+            "width": "40%",
+          }
+        }
+      >
+        <View
+          accessibilityLabel="in-store-offer-button"
+          accessibilityState={
+            Object {
+              "disabled": true,
+            }
+          }
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          testID="in-store-offer-button"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "transparent",
+                "flexDirection": "row",
+                "height": 40,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              accessibilityLabel="icon-text"
+              accessible={true}
+              allowFontScaling={false}
+              selectable={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#B361DF",
+                    "fontSize": 14,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "sywmax",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+              testID="icon-text"
+            >
+              
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#B361DF",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 14,
+                  "lineHeight": 20,
+                  "marginLeft": 5,
+                }
+              }
+            >
+              Activated
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

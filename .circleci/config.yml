@@ -1,0 +1,101 @@
+version: 3.4.0
+# version: 2.1
+
+orbs:
+    node: circleci/node@16.15.1
+    # node: circleci/node@5.0.2
+jobs:
+    build:
+        working_directory: ~/circleci_leapfrog_mobile/leapfrog-mobile-circleci
+        macos:
+            xcode: "13.3"
+        # -e - Exit immediately if a command exits with a non-zero status.
+        # -o - sets the pipefail option, causes the pipeline to return the exit status of the last command to exit with a non-zero status
+        shell: /bin/bash --login -eo pipefail
+        # parameters:
+            # HOMEBREW_HOME:
+                # type: env_var_name
+        steps:
+            - checkout
+            - add_ssh_keys:
+                fingerprints:
+                    - "41:ac:2f:f0:26:27:bb:05:84:6d:ac:bf:a4:2e:09:42"
+            # - node/install-packages:
+            #   pkg-manager: yarn
+            - run:
+                  name: Install dependencies
+                  command: |
+                    whoami
+                    cd
+                    HOME_DIR=`pwd`
+                    echo "HOME_DIR: "
+                    echo $HOME_DIR
+                    WORKSPACE=$HOME_DIR/circleci_leapfrog_mobile/leapfrog-mobile-circleci
+                    ls
+                    yarn install --flat --verbose --ignore-engines
+                    yarn add -D babel-jest jest --ignore-engines
+                    # PATH=${HOMEBREW}/bin:$PATH
+                    # export PATH
+                    IOS_TARGET_NAME="ShopYourWayMAX"
+            - run:
+                name: Run tests
+                command: |
+                    pwd
+                    ls
+                    HOME_DIR=`pwd`
+                    echo "HOME_DIR: "
+                    echo $HOME_DIR
+                    # WORKSPACE=$HOME_DIR/circleci_leapfrog_mobile/leapfrog-mobile-circleci
+                    # echo "WORKSPACE: $WORKSPACE"
+                    yarn add -D jest-junit --ignore-engines
+                    # yarn run test:ci
+                    echo "Current directory before making test-results dir"
+                    mkdir -p test-results/jest
+                    # TEST=$(circleci tests glob src/**/*.intg.js | circleci tests split --split-by=timings)
+                    yarn run test:ci | tee test-results/jest/result.xml
+                    TEST_RESULT=$?
+                    if [ $TEST_RESULT -ne 0 ]; then
+                        exit $TEST_RESULT
+                    fi
+                    echo ">>> Switching environemnt to dev"
+                    yarn env:dev
+                    environment=development node ${HOME_DIR}/scripts/build-index.js
+                    echo "after running test:ci"
+                    # echo "TEST_RESULT: $TEST"
+                # environment:
+                #    JEST_JUNIT_OUTPUT: test-results/jest/junit.xml
+            - run:
+                name: Generate test flight build
+                command: |
+                    APP_BUILD_NUMBER=`curl -ks https://sywcstaging.searshc.com/appVersion/leapfrogDev.php?action=bumpUpVersion`
+                    echo "APP_BUILD_NUMBER = $APP_BUILD_NUMBER"
+                    echo " "
+                    echo "==============================================="
+                    echo "        GENERATE BUILD FOR TESTFLIGHT"
+                    echo "==============================================="
+                    echo " "
+  
+                    echo ">>> Generating build from ${GIT_BRANCH} for App Store Connect"
+
+                    cd ios
+                    echo " "
+                    echo ">>> Running pod install"
+                    pod install
+                    if [ $? -eq 31 ]; then
+                        echo ">>> Updating pod repo"
+                        pod repo update
+                        echo ">>> Running pod install"
+                        pod install
+                    fi
+  
+                    echo " "
+                    echo ">>> Updating App Version and Build"
+                    xcrun agvtool new-version -all ${APP_BUILD_NUMBER}
+                    echo "Result Code: $?"
+
+                    GIT_COMMIT_STATE="success"
+
+            - store_test_results:
+                path: test-results/jest/result.xml
+            # - store_artifacts:
+            #    path: test-results

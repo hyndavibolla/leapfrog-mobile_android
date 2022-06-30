@@ -1,0 +1,2708 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GiftCard Detail if gift card available check balance is 1 or higher show modal 1`] = `
+Array [
+  <RCTScrollView
+    collapsable={false}
+    onGestureHandlerEvent={[Function]}
+    onGestureHandlerStateChange={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#F5F7FA",
+        "paddingBottom": 28,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 28,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "overflow": "hidden",
+            "width": "100%",
+          }
+        }
+      >
+        <View
+          accessibilityLabel="gift-card-detail-box-card-header"
+          accessible={true}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#0066CC",
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "flex-start",
+                "paddingBottom": 12,
+                "paddingLeft": 20,
+                "paddingRight": 20,
+                "paddingTop": 12,
+              },
+              false,
+            ]
+          }
+          testID="gift-card-detail-box-card-header"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "height": 60,
+                  "width": 60,
+                },
+                Object {
+                  "borderBottomLeftRadius": 40,
+                  "borderBottomRightRadius": 40,
+                  "borderTopLeftRadius": 40,
+                  "borderTopRightRadius": 40,
+                  "height": 40,
+                  "width": 40,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "width": "100%",
+                }
+              }
+            >
+              GiftIcon
+            </View>
+          </View>
+          <Text
+            numberOfLines={1}
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 20,
+                "marginLeft": 8,
+              }
+            }
+          >
+            brandName
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomColor": "#EBEDF2",
+              "borderBottomWidth": 1,
+              "justifyContent": "space-between",
+              "marginBottom": 0,
+              "marginLeft": 20,
+              "marginRight": 20,
+              "marginTop": 0,
+              "paddingBottom": 20,
+              "paddingTop": 28,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "textAlign": "center",
+              }
+            }
+          >
+            Use this code to redeem your gift card
+          </Text>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                },
+                Object {
+                  "paddingTop": 20,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "overflow": "hidden",
+                  },
+                  Object {
+                    "height": 93,
+                    "width": 600,
+                  },
+                ]
+              }
+            >
+              <FastImageView
+                accessibilityLabel="image-with-fallback-container"
+                accessible={true}
+                onFastImageError={[Function]}
+                onFastImageLoadEnd={[Function]}
+                onFastImageLoadStart={[Function]}
+                resizeMode="cover"
+                source={
+                  Object {
+                    "uri": "https://content.uat.telluride.transformco.com/tellurideAS/PersonalizedEmail/genbc?msg=63E4WLS&height=93&width=600&fontSize=0&bgColorHex=FFFFFF&fontColorHex=000000&barcode.kind=CODE128",
+                  }
+                }
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+                testID="image-with-fallback-container"
+              />
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "space-evenly",
+              "paddingBottom": 32,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+              "paddingTop": 8,
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "marginTop": 16,
+                "width": "100%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 14,
+                  "lineHeight": 24,
+                }
+              }
+            >
+              ORDER TOTAL
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignContent": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#262C2F",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 20,
+                    "lineHeight": 30,
+                    "maxWidth": "80%",
+                  }
+                }
+              >
+                $15.50
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "marginTop": 16,
+                "width": "100%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 14,
+                  "lineHeight": 24,
+                }
+              }
+            >
+              GIFT CARD BALANCE
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignContent": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                accessibilityLabel="gift-card-detail-balance-value"
+                accessible={true}
+                style={
+                  Object {
+                    "color": "#262C2F",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 20,
+                    "lineHeight": 30,
+                    "maxWidth": "80%",
+                  }
+                }
+                testID="gift-card-detail-balance-value"
+              >
+                $10
+              </Text>
+              <RNGestureHandlerButton
+                collapsable={false}
+                onGestureEvent={[Function]}
+                onGestureHandlerEvent={[Function]}
+                onGestureHandlerStateChange={[Function]}
+                onHandlerStateChange={[Function]}
+                rippleColor={0}
+                testID="gift-card-detail-check-balance-button"
+              >
+                <View
+                  accessibilityLabel="gift-card-detail-check-balance-button"
+                  accessible={true}
+                  collapsable={false}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                        "marginTop": 4,
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        Object {
+                          "color": "#0066CC",
+                          "fontFamily": "SFProDisplay-Bold",
+                          "fontSize": 16,
+                        }
+                      }
+                    >
+                      Check balance
+                    </Text>
+                  </View>
+                </View>
+              </RNGestureHandlerButton>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "marginTop": 16,
+                "width": "100%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 14,
+                  "lineHeight": 24,
+                }
+              }
+            >
+              LAST BALANCE CHECK
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignContent": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                accessibilityLabel="gift-card-detail-balance-date"
+                accessible={true}
+                style={
+                  Object {
+                    "color": "#262C2F",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 20,
+                    "lineHeight": 30,
+                    "maxWidth": "80%",
+                  }
+                }
+                testID="gift-card-detail-balance-date"
+              >
+                -
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "marginTop": 16,
+                "width": "100%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 14,
+                  "lineHeight": 24,
+                }
+              }
+            >
+              CARD NUMBER
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignContent": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#262C2F",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 20,
+                    "lineHeight": 30,
+                    "maxWidth": "80%",
+                  }
+                }
+              >
+                123456789
+              </Text>
+              <Text
+                accessibilityLabel="gift-card-detail-copy"
+                accessible={true}
+                onPress={[Function]}
+                style={
+                  Object {
+                    "color": "#0066CC",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                  }
+                }
+                testID="gift-card-detail-copy"
+              >
+                Copy
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "marginTop": 16,
+                "width": "100%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 14,
+                  "lineHeight": 24,
+                }
+              }
+            >
+              PIN
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignContent": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#262C2F",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 20,
+                    "lineHeight": 30,
+                    "maxWidth": "80%",
+                  }
+                }
+              >
+                0395
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <RNGestureHandlerButton
+        collapsable={false}
+        onGestureEvent={[Function]}
+        onGestureHandlerEvent={[Function]}
+        onGestureHandlerStateChange={[Function]}
+        onHandlerStateChange={[Function]}
+        rippleColor={0}
+        testID="gift-card-detail-add-to-android-wallet"
+      >
+        <View
+          accessibilityLabel="gift-card-detail-add-to-android-wallet"
+          accessible={true}
+          collapsable={false}
+          style={
+            Object {
+              "marginVertical": 0,
+              "opacity": 1,
+            }
+          }
+        >
+          SaveToGooglePay
+        </View>
+      </RNGestureHandlerButton>
+      <View
+        style={
+          Object {
+            "paddingVertical": 28,
+            "width": "100%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "fontSize": 12,
+              "lineHeight": 18,
+              "marginBottom": 36,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#262C2F",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 16,
+                  "lineHeight": 24,
+                },
+                Object {
+                  "marginBottom": 8,
+                },
+              ]
+            }
+            type="sectionHeader"
+          >
+            Brand description
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 26,
+              }
+            }
+          >
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "fontSize": 12,
+              "lineHeight": 18,
+              "marginBottom": 36,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#262C2F",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 16,
+                  "lineHeight": 24,
+                },
+                Object {
+                  "marginBottom": 8,
+                },
+              ]
+            }
+            type="sectionHeader"
+          >
+            Redemption Method:
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 26,
+              }
+            }
+          >
+            In-Store and Online only
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "fontSize": 12,
+              "lineHeight": 18,
+              "marginBottom": 36,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "column",
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              accessibilityLabel="accordion-btn"
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              testID="accordion-btn"
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "flex-start",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                    },
+                    false,
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#262C2F",
+                        "fontFamily": "SFProDisplay-Bold",
+                        "fontSize": 16,
+                        "lineHeight": 24,
+                      },
+                      undefined,
+                    ]
+                  }
+                  type="sectionHeader"
+                >
+                  Details & Terms
+                </Text>
+                <div
+                  animation={
+                    Object {
+                      "0": Object {
+                        "rotate": "90deg",
+                      },
+                      "1": Object {
+                        "rotate": "-90deg",
+                      },
+                    }
+                  }
+                  duration={300}
+                >
+                  <Text
+                    accessibilityLabel="icon-text"
+                    accessible={true}
+                    allowFontScaling={false}
+                    selectable={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#909BA0",
+                          "fontSize": 20,
+                        },
+                        undefined,
+                        Object {
+                          "fontFamily": "sywmax",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                    testID="icon-text"
+                  >
+                    
+                  </Text>
+                </div>
+              </View>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 16,
+                    "overflow": "hidden",
+                    "width": "100%",
+                  },
+                  false,
+                  false,
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#909BA0",
+                      "fontFamily": "SFProDisplay-Medium",
+                      "fontSize": 16,
+                      "lineHeight": 22,
+                    },
+                    Array [
+                      Object {
+                        "color": "#909BA0",
+                        "fontSize": 18,
+                        "lineHeight": 28,
+                        "textAlign": "left",
+                      },
+                      Object {
+                        "fontSize": 12,
+                        "lineHeight": 18,
+                      },
+                      undefined,
+                    ],
+                  ]
+                }
+              >
+                Lorem Ipsum is simply dummy text
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "paddingBottom": 60,
+          }
+        }
+      >
+        SYWGiftCardWaterMark
+      </View>
+    </View>
+  </RCTScrollView>,
+  <Modal
+    accessibilityLabel="check-balance-modal-container"
+    accessible={true}
+    animationType="slide"
+    hardwareAccelerated={false}
+    onRequestClose={[Function]}
+    statusBarTranslucent={true}
+    testID="check-balance-modal-container"
+    transparent={true}
+    visible={false}
+  />,
+  <Modal
+    accessibilityLabel="modal-container"
+    accessible={true}
+    animationType="slide"
+    hardwareAccelerated={false}
+    statusBarTranslucent={true}
+    testID="modal-container"
+    transparent={true}
+    visible={false}
+  />,
+]
+`;
+
+exports[`GiftCard Detail should render (iOS) 1`] = `
+Array [
+  <RCTScrollView
+    collapsable={false}
+    onGestureHandlerEvent={[Function]}
+    onGestureHandlerStateChange={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#F5F7FA",
+        "paddingBottom": 28,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 28,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "overflow": "hidden",
+            "width": "100%",
+          }
+        }
+      >
+        <View
+          accessibilityLabel="gift-card-detail-box-card-header"
+          accessible={true}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#0066CC",
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "flex-start",
+                "paddingBottom": 12,
+                "paddingLeft": 20,
+                "paddingRight": 20,
+                "paddingTop": 12,
+              },
+              false,
+            ]
+          }
+          testID="gift-card-detail-box-card-header"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "height": 60,
+                  "width": 60,
+                },
+                Object {
+                  "borderBottomLeftRadius": 40,
+                  "borderBottomRightRadius": 40,
+                  "borderTopLeftRadius": 40,
+                  "borderTopRightRadius": 40,
+                  "height": 40,
+                  "width": 40,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "width": "100%",
+                }
+              }
+            >
+              GiftIcon
+            </View>
+          </View>
+          <Text
+            numberOfLines={1}
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 20,
+                "marginLeft": 8,
+              }
+            }
+          >
+            brandName
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomColor": "#EBEDF2",
+              "borderBottomWidth": 1,
+              "justifyContent": "space-between",
+              "marginBottom": 0,
+              "marginLeft": 20,
+              "marginRight": 20,
+              "marginTop": 0,
+              "paddingBottom": 20,
+              "paddingTop": 28,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "textAlign": "center",
+              }
+            }
+          >
+            Use this code to redeem your gift card
+          </Text>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                },
+                Object {
+                  "paddingTop": 20,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "overflow": "hidden",
+                  },
+                  Object {
+                    "height": 93,
+                    "width": 600,
+                  },
+                ]
+              }
+            >
+              <FastImageView
+                accessibilityLabel="image-with-fallback-container"
+                accessible={true}
+                onFastImageError={[Function]}
+                onFastImageLoadEnd={[Function]}
+                onFastImageLoadStart={[Function]}
+                resizeMode="cover"
+                source={
+                  Object {
+                    "uri": "https://content.uat.telluride.transformco.com/tellurideAS/PersonalizedEmail/genbc?msg=63E4WLS&height=93&width=600&fontSize=0&bgColorHex=FFFFFF&fontColorHex=000000&barcode.kind=CODE128",
+                  }
+                }
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+                testID="image-with-fallback-container"
+              />
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "space-evenly",
+              "paddingBottom": 32,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+              "paddingTop": 8,
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "marginTop": 16,
+                "width": "100%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 14,
+                  "lineHeight": 24,
+                }
+              }
+            >
+              ORDER TOTAL
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignContent": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#262C2F",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 20,
+                    "lineHeight": 30,
+                    "maxWidth": "80%",
+                  }
+                }
+              >
+                $15.50
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "marginTop": 16,
+                "width": "100%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 14,
+                  "lineHeight": 24,
+                }
+              }
+            >
+              GIFT CARD BALANCE
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignContent": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                accessibilityLabel="gift-card-detail-balance-value"
+                accessible={true}
+                style={
+                  Object {
+                    "color": "#262C2F",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 20,
+                    "lineHeight": 30,
+                    "maxWidth": "80%",
+                  }
+                }
+                testID="gift-card-detail-balance-value"
+              >
+                $10
+              </Text>
+              <RNGestureHandlerButton
+                collapsable={false}
+                onGestureEvent={[Function]}
+                onGestureHandlerEvent={[Function]}
+                onGestureHandlerStateChange={[Function]}
+                onHandlerStateChange={[Function]}
+                rippleColor={0}
+                testID="gift-card-detail-check-balance-button"
+              >
+                <View
+                  accessibilityLabel="gift-card-detail-check-balance-button"
+                  accessible={true}
+                  collapsable={false}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                        "marginTop": 4,
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        Object {
+                          "color": "#0066CC",
+                          "fontFamily": "SFProDisplay-Bold",
+                          "fontSize": 16,
+                        }
+                      }
+                    >
+                      Check balance
+                    </Text>
+                  </View>
+                </View>
+              </RNGestureHandlerButton>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "marginTop": 16,
+                "width": "100%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 14,
+                  "lineHeight": 24,
+                }
+              }
+            >
+              LAST BALANCE CHECK
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignContent": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                accessibilityLabel="gift-card-detail-balance-date"
+                accessible={true}
+                style={
+                  Object {
+                    "color": "#262C2F",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 20,
+                    "lineHeight": 30,
+                    "maxWidth": "80%",
+                  }
+                }
+                testID="gift-card-detail-balance-date"
+              >
+                -
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "marginTop": 16,
+                "width": "100%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 14,
+                  "lineHeight": 24,
+                }
+              }
+            >
+              CARD NUMBER
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignContent": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#262C2F",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 20,
+                    "lineHeight": 30,
+                    "maxWidth": "80%",
+                  }
+                }
+              >
+                123456789
+              </Text>
+              <Text
+                accessibilityLabel="gift-card-detail-copy"
+                accessible={true}
+                onPress={[Function]}
+                style={
+                  Object {
+                    "color": "#0066CC",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 16,
+                  }
+                }
+                testID="gift-card-detail-copy"
+              >
+                Copy
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "marginTop": 16,
+                "width": "100%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#909BA0",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 14,
+                  "lineHeight": 24,
+                }
+              }
+            >
+              PIN
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignContent": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#262C2F",
+                    "fontFamily": "SFProDisplay-Bold",
+                    "fontSize": 20,
+                    "lineHeight": 30,
+                    "maxWidth": "80%",
+                  }
+                }
+              >
+                0395
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <RNGestureHandlerButton
+        collapsable={false}
+        onGestureEvent={[Function]}
+        onGestureHandlerEvent={[Function]}
+        onGestureHandlerStateChange={[Function]}
+        onHandlerStateChange={[Function]}
+        rippleColor={0}
+        testID="gift-card-detail-add-to-apple-wallet"
+      >
+        <View
+          accessibilityLabel="gift-card-detail-add-to-apple-wallet"
+          accessible={true}
+          collapsable={false}
+          style={
+            Object {
+              "marginVertical": 0,
+              "opacity": 1,
+            }
+          }
+        >
+          <Image
+            resizeMode="contain"
+            source={
+              Object {
+                "testUri": "../../../src/assets/wallet/addToAppleWallet.png",
+              }
+            }
+            style={
+              Object {
+                "marginVertical": 0,
+                "width": "100%",
+              }
+            }
+          />
+        </View>
+      </RNGestureHandlerButton>
+      <View
+        style={
+          Object {
+            "paddingVertical": 28,
+            "width": "100%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "fontSize": 12,
+              "lineHeight": 18,
+              "marginBottom": 36,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#262C2F",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 16,
+                  "lineHeight": 24,
+                },
+                Object {
+                  "marginBottom": 8,
+                },
+              ]
+            }
+            type="sectionHeader"
+          >
+            Brand description
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 26,
+              }
+            }
+          >
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "fontSize": 12,
+              "lineHeight": 18,
+              "marginBottom": 36,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#262C2F",
+                  "fontFamily": "SFProDisplay-Bold",
+                  "fontSize": 16,
+                  "lineHeight": 24,
+                },
+                Object {
+                  "marginBottom": 8,
+                },
+              ]
+            }
+            type="sectionHeader"
+          >
+            Redemption Method:
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 26,
+              }
+            }
+          >
+            In-Store and Online only
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "fontSize": 12,
+              "lineHeight": 18,
+              "marginBottom": 36,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "column",
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              accessibilityLabel="accordion-btn"
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              testID="accordion-btn"
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "flex-start",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                    },
+                    false,
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#262C2F",
+                        "fontFamily": "SFProDisplay-Bold",
+                        "fontSize": 16,
+                        "lineHeight": 24,
+                      },
+                      undefined,
+                    ]
+                  }
+                  type="sectionHeader"
+                >
+                  Details & Terms
+                </Text>
+                <div
+                  animation={
+                    Object {
+                      "0": Object {
+                        "rotate": "90deg",
+                      },
+                      "1": Object {
+                        "rotate": "-90deg",
+                      },
+                    }
+                  }
+                  duration={300}
+                >
+                  <Text
+                    accessibilityLabel="icon-text"
+                    accessible={true}
+                    allowFontScaling={false}
+                    selectable={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#909BA0",
+                          "fontSize": 20,
+                        },
+                        undefined,
+                        Object {
+                          "fontFamily": "sywmax",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                    testID="icon-text"
+                  >
+                    
+                  </Text>
+                </div>
+              </View>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 16,
+                    "overflow": "hidden",
+                    "width": "100%",
+                  },
+                  false,
+                  false,
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#909BA0",
+                      "fontFamily": "SFProDisplay-Medium",
+                      "fontSize": 16,
+                      "lineHeight": 22,
+                    },
+                    Array [
+                      Object {
+                        "color": "#909BA0",
+                        "fontSize": 18,
+                        "lineHeight": 28,
+                        "textAlign": "left",
+                      },
+                      Object {
+                        "fontSize": 12,
+                        "lineHeight": 18,
+                      },
+                      undefined,
+                    ],
+                  ]
+                }
+              >
+                Lorem Ipsum is simply dummy text
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "paddingBottom": 60,
+          }
+        }
+      >
+        SYWGiftCardWaterMark
+      </View>
+    </View>
+  </RCTScrollView>,
+  <Modal
+    accessibilityLabel="check-balance-modal-container"
+    accessible={true}
+    animationType="slide"
+    hardwareAccelerated={false}
+    onRequestClose={[Function]}
+    statusBarTranslucent={true}
+    testID="check-balance-modal-container"
+    transparent={true}
+    visible={false}
+  />,
+  <Modal
+    accessibilityLabel="modal-container"
+    accessible={true}
+    animationType="slide"
+    hardwareAccelerated={false}
+    statusBarTranslucent={true}
+    testID="modal-container"
+    transparent={true}
+    visible={false}
+  />,
+]
+`;
+
+exports[`GiftCard Detail should render 1`] = `
+<RCTScrollView
+  accessibilityLabel="gift-list-detail-skeleton-container"
+  accessible={true}
+  contentContainerStyle={
+    Object {
+      "paddingBottom": 30,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingTop": 30,
+    }
+  }
+  style={
+    Object {
+      "backgroundColor": "#F5F7FA",
+    }
+  }
+  testID="gift-list-detail-skeleton-container"
+>
+  <View>
+    <div
+      animation={
+        Object {
+          "0": Object {
+            "opacity": 1,
+          },
+          "0.5": Object {
+            "opacity": 0.35,
+          },
+          "1": Object {
+            "opacity": 1,
+          },
+        }
+      }
+      duration={2000}
+      easing="ease"
+      iterationCount="infinite"
+    >
+      <View
+        color="transparent"
+        dir="column"
+        height="519px"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderBottomLeftRadius": 8,
+              "borderBottomRightRadius": 8,
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "flexBasis": "auto",
+              "flexDirection": "column",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 519,
+              "width": "100%",
+            },
+            Object {
+              "justifyContent": "space-between",
+              "paddingHorizontal": 15,
+            },
+          ]
+        }
+        width="100%"
+      >
+        <View
+          dir="row"
+          height="62px"
+          radius={0}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#DFE3EC",
+                "borderBottomLeftRadius": 0,
+                "borderBottomRightRadius": 0,
+                "borderTopLeftRadius": 0,
+                "borderTopRightRadius": 0,
+                "flexBasis": "auto",
+                "flexDirection": "row",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": 62,
+                "width": "100%",
+              },
+              Object {
+                "alignItems": "center",
+                "borderTopEndRadius": 8,
+                "borderTopStartRadius": 8,
+                "paddingHorizontal": 20,
+              },
+            ]
+          }
+          width="100%"
+        >
+          <View
+            color="#EBEDF2"
+            height="40px"
+            radius={20}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#EBEDF2",
+                  "borderBottomLeftRadius": 20,
+                  "borderBottomRightRadius": 20,
+                  "borderTopLeftRadius": 20,
+                  "borderTopRightRadius": 20,
+                  "flexBasis": "auto",
+                  "flexDirection": "column",
+                  "flexGrow": 0,
+                  "flexShrink": 1,
+                  "height": 40,
+                  "width": 40,
+                },
+                undefined,
+              ]
+            }
+            width="40px"
+          />
+          <View
+            color="transparent"
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexBasis": "auto",
+                  "flexDirection": "column",
+                  "flexGrow": 0,
+                  "flexShrink": 1,
+                  "height": "auto",
+                  "width": 20,
+                },
+                undefined,
+              ]
+            }
+            width="20px"
+          />
+          <View
+            color="#EBEDF2"
+            height="20px"
+            radius={10}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#EBEDF2",
+                  "borderBottomLeftRadius": 10,
+                  "borderBottomRightRadius": 10,
+                  "borderTopLeftRadius": 10,
+                  "borderTopRightRadius": 10,
+                  "flexBasis": "auto",
+                  "flexDirection": "column",
+                  "flexGrow": 0,
+                  "flexShrink": 1,
+                  "height": 20,
+                  "width": 117,
+                },
+                undefined,
+              ]
+            }
+            width="117px"
+          />
+        </View>
+        <View
+          color="#FFFFFF"
+          dir="column"
+          height="457px"
+          radius={0}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#FFFFFF",
+                "borderBottomLeftRadius": 0,
+                "borderBottomRightRadius": 0,
+                "borderTopLeftRadius": 0,
+                "borderTopRightRadius": 0,
+                "flexBasis": "auto",
+                "flexDirection": "column",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": 457,
+                "width": "100%",
+              },
+              Object {
+                "alignItems": "center",
+                "borderBottomEndRadius": 8,
+                "borderBottomStartRadius": 8,
+                "justifyContent": "space-evenly",
+                "paddingHorizontal": 23,
+              },
+            ]
+          }
+          width="100%"
+        >
+          <View
+            color="#EBEDF2"
+            height="13px"
+            radius={6.5}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#EBEDF2",
+                  "borderBottomLeftRadius": 6.5,
+                  "borderBottomRightRadius": 6.5,
+                  "borderTopLeftRadius": 6.5,
+                  "borderTopRightRadius": 6.5,
+                  "flexBasis": "auto",
+                  "flexDirection": "column",
+                  "flexGrow": 0,
+                  "flexShrink": 1,
+                  "height": 13,
+                  "width": 298,
+                },
+                undefined,
+              ]
+            }
+            width="298px"
+          />
+          <View
+            color="#EBEDF2"
+            height="121px"
+            radius={8}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#EBEDF2",
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexBasis": "auto",
+                  "flexDirection": "column",
+                  "flexGrow": 0,
+                  "flexShrink": 1,
+                  "height": 121,
+                  "width": 127,
+                },
+                undefined,
+              ]
+            }
+            width="127px"
+          />
+          <View
+            color="transparent"
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexBasis": "auto",
+                  "flexDirection": "column",
+                  "flexGrow": 0,
+                  "flexShrink": 1,
+                  "height": "auto",
+                  "width": "100%",
+                },
+                undefined,
+              ]
+            }
+            width="100%"
+          >
+            <View
+              color="#EBEDF2"
+              height="20px"
+              radius={10}
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "#EBEDF2",
+                    "borderBottomLeftRadius": 10,
+                    "borderBottomRightRadius": 10,
+                    "borderTopLeftRadius": 10,
+                    "borderTopRightRadius": 10,
+                    "flexBasis": "auto",
+                    "flexDirection": "column",
+                    "flexGrow": 0,
+                    "flexShrink": 1,
+                    "height": 20,
+                    "width": 83,
+                  },
+                  undefined,
+                ]
+              }
+              width="83px"
+            />
+            <View
+              style={
+                Object {
+                  "height": 15,
+                  "width": "100%",
+                }
+              }
+            />
+            <View
+              color="#EBEDF2"
+              height="13px"
+              radius={6.5}
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "#EBEDF2",
+                    "borderBottomLeftRadius": 6.5,
+                    "borderBottomRightRadius": 6.5,
+                    "borderTopLeftRadius": 6.5,
+                    "borderTopRightRadius": 6.5,
+                    "flexBasis": "auto",
+                    "flexDirection": "column",
+                    "flexGrow": 0,
+                    "flexShrink": 1,
+                    "height": 13,
+                    "width": 254,
+                  },
+                  undefined,
+                ]
+              }
+              width="254px"
+            />
+          </View>
+          <View
+            color="transparent"
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexBasis": "auto",
+                  "flexDirection": "column",
+                  "flexGrow": 0,
+                  "flexShrink": 1,
+                  "height": "auto",
+                  "width": "100%",
+                },
+                undefined,
+              ]
+            }
+            width="100%"
+          >
+            <View
+              color="#EBEDF2"
+              height="20px"
+              radius={10}
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "#EBEDF2",
+                    "borderBottomLeftRadius": 10,
+                    "borderBottomRightRadius": 10,
+                    "borderTopLeftRadius": 10,
+                    "borderTopRightRadius": 10,
+                    "flexBasis": "auto",
+                    "flexDirection": "column",
+                    "flexGrow": 0,
+                    "flexShrink": 1,
+                    "height": 20,
+                    "width": 83,
+                  },
+                  undefined,
+                ]
+              }
+              width="83px"
+            />
+            <View
+              style={
+                Object {
+                  "height": 15,
+                  "width": "100%",
+                }
+              }
+            />
+            <View
+              color="#EBEDF2"
+              height="13px"
+              radius={6.5}
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "#EBEDF2",
+                    "borderBottomLeftRadius": 6.5,
+                    "borderBottomRightRadius": 6.5,
+                    "borderTopLeftRadius": 6.5,
+                    "borderTopRightRadius": 6.5,
+                    "flexBasis": "auto",
+                    "flexDirection": "column",
+                    "flexGrow": 0,
+                    "flexShrink": 1,
+                    "height": 13,
+                    "width": 254,
+                  },
+                  undefined,
+                ]
+              }
+              width="254px"
+            />
+          </View>
+          <View
+            color="transparent"
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderBottomLeftRadius": 8,
+                  "borderBottomRightRadius": 8,
+                  "borderTopLeftRadius": 8,
+                  "borderTopRightRadius": 8,
+                  "flexBasis": "auto",
+                  "flexDirection": "column",
+                  "flexGrow": 0,
+                  "flexShrink": 1,
+                  "height": "auto",
+                  "width": "100%",
+                },
+                undefined,
+              ]
+            }
+            width="100%"
+          >
+            <View
+              color="#EBEDF2"
+              height="20px"
+              radius={10}
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "#EBEDF2",
+                    "borderBottomLeftRadius": 10,
+                    "borderBottomRightRadius": 10,
+                    "borderTopLeftRadius": 10,
+                    "borderTopRightRadius": 10,
+                    "flexBasis": "auto",
+                    "flexDirection": "column",
+                    "flexGrow": 0,
+                    "flexShrink": 1,
+                    "height": 20,
+                    "width": 83,
+                  },
+                  undefined,
+                ]
+              }
+              width="83px"
+            />
+            <View
+              style={
+                Object {
+                  "height": 15,
+                  "width": "100%",
+                }
+              }
+            />
+            <View
+              color="#EBEDF2"
+              height="13px"
+              radius={6.5}
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "#EBEDF2",
+                    "borderBottomLeftRadius": 6.5,
+                    "borderBottomRightRadius": 6.5,
+                    "borderTopLeftRadius": 6.5,
+                    "borderTopRightRadius": 6.5,
+                    "flexBasis": "auto",
+                    "flexDirection": "column",
+                    "flexGrow": 0,
+                    "flexShrink": 1,
+                    "height": 13,
+                    "width": 254,
+                  },
+                  undefined,
+                ]
+              }
+              width="254px"
+            />
+          </View>
+        </View>
+      </View>
+      <View
+        color="transparent"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderBottomLeftRadius": 8,
+              "borderBottomRightRadius": 8,
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "flexBasis": "auto",
+              "flexDirection": "column",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": "auto",
+              "width": "100%",
+            },
+            Object {
+              "alignItems": "center",
+            },
+          ]
+        }
+      >
+        <View
+          color="transparent"
+          height="36px"
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderBottomLeftRadius": 8,
+                "borderBottomRightRadius": 8,
+                "borderTopLeftRadius": 8,
+                "borderTopRightRadius": 8,
+                "flexBasis": "auto",
+                "flexDirection": "column",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": 36,
+                "width": "100%",
+              },
+              undefined,
+            ]
+          }
+          width="100%"
+        />
+        <View
+          color="transparent"
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderBottomLeftRadius": 8,
+                "borderBottomRightRadius": 8,
+                "borderTopLeftRadius": 8,
+                "borderTopRightRadius": 8,
+                "flexBasis": "auto",
+                "flexDirection": "column",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": "auto",
+                "width": "100%",
+              },
+              Object {
+                "paddingHorizontal": 27,
+              },
+            ]
+          }
+          width="100%"
+        >
+          <View
+            color="#EBEDF2"
+            height="20px"
+            radius={10}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#EBEDF2",
+                  "borderBottomLeftRadius": 10,
+                  "borderBottomRightRadius": 10,
+                  "borderTopLeftRadius": 10,
+                  "borderTopRightRadius": 10,
+                  "flexBasis": "auto",
+                  "flexDirection": "column",
+                  "flexGrow": 0,
+                  "flexShrink": 1,
+                  "height": 20,
+                  "width": 117,
+                },
+                undefined,
+              ]
+            }
+            width="117px"
+          />
+          <View
+            style={
+              Object {
+                "height": 15,
+                "width": "100%",
+              }
+            }
+          />
+          <View
+            color="#EBEDF2"
+            height="13px"
+            radius={6.5}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#EBEDF2",
+                  "borderBottomLeftRadius": 6.5,
+                  "borderBottomRightRadius": 6.5,
+                  "borderTopLeftRadius": 6.5,
+                  "borderTopRightRadius": 6.5,
+                  "flexBasis": "auto",
+                  "flexDirection": "column",
+                  "flexGrow": 0,
+                  "flexShrink": 1,
+                  "height": 13,
+                  "width": 254,
+                },
+                undefined,
+              ]
+            }
+            width="254px"
+          />
+          <View
+            style={
+              Object {
+                "height": 15,
+                "width": "100%",
+              }
+            }
+          />
+          <View
+            color="#EBEDF2"
+            height="13px"
+            radius={6.5}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#EBEDF2",
+                  "borderBottomLeftRadius": 6.5,
+                  "borderBottomRightRadius": 6.5,
+                  "borderTopLeftRadius": 6.5,
+                  "borderTopRightRadius": 6.5,
+                  "flexBasis": "auto",
+                  "flexDirection": "column",
+                  "flexGrow": 0,
+                  "flexShrink": 1,
+                  "height": 13,
+                  "width": 156,
+                },
+                undefined,
+              ]
+            }
+            width="156px"
+          />
+          <View
+            style={
+              Object {
+                "height": 15,
+                "width": "100%",
+              }
+            }
+          />
+          <View
+            color="#EBEDF2"
+            height="13px"
+            radius={6.5}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#EBEDF2",
+                  "borderBottomLeftRadius": 6.5,
+                  "borderBottomRightRadius": 6.5,
+                  "borderTopLeftRadius": 6.5,
+                  "borderTopRightRadius": 6.5,
+                  "flexBasis": "auto",
+                  "flexDirection": "column",
+                  "flexGrow": 0,
+                  "flexShrink": 1,
+                  "height": 13,
+                  "width": 254,
+                },
+                undefined,
+              ]
+            }
+            width="254px"
+          />
+          <View
+            style={
+              Object {
+                "height": 15,
+                "width": "100%",
+              }
+            }
+          />
+          <View
+            color="#EBEDF2"
+            height="13px"
+            radius={6.5}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#EBEDF2",
+                  "borderBottomLeftRadius": 6.5,
+                  "borderBottomRightRadius": 6.5,
+                  "borderTopLeftRadius": 6.5,
+                  "borderTopRightRadius": 6.5,
+                  "flexBasis": "auto",
+                  "flexDirection": "column",
+                  "flexGrow": 0,
+                  "flexShrink": 1,
+                  "height": 13,
+                  "width": 156,
+                },
+                undefined,
+              ]
+            }
+            width="156px"
+          />
+        </View>
+        <View
+          color="transparent"
+          height="40px"
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderBottomLeftRadius": 8,
+                "borderBottomRightRadius": 8,
+                "borderTopLeftRadius": 8,
+                "borderTopRightRadius": 8,
+                "flexBasis": "auto",
+                "flexDirection": "column",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": 40,
+                "width": "100%",
+              },
+              undefined,
+            ]
+          }
+          width="100%"
+        />
+        <View
+          color="transparent"
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderBottomLeftRadius": 8,
+                "borderBottomRightRadius": 8,
+                "borderTopLeftRadius": 8,
+                "borderTopRightRadius": 8,
+                "flexBasis": "auto",
+                "flexDirection": "column",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": "auto",
+                "width": "100%",
+              },
+              Object {
+                "paddingHorizontal": 27,
+              },
+            ]
+          }
+          width="100%"
+        >
+          <View
+            color="#EBEDF2"
+            height="20px"
+            radius={10}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#EBEDF2",
+                  "borderBottomLeftRadius": 10,
+                  "borderBottomRightRadius": 10,
+                  "borderTopLeftRadius": 10,
+                  "borderTopRightRadius": 10,
+                  "flexBasis": "auto",
+                  "flexDirection": "column",
+                  "flexGrow": 0,
+                  "flexShrink": 1,
+                  "height": 20,
+                  "width": 117,
+                },
+                undefined,
+              ]
+            }
+            width="117px"
+          />
+          <View
+            style={
+              Object {
+                "height": 15,
+                "width": "100%",
+              }
+            }
+          />
+          <View
+            color="#EBEDF2"
+            height="13px"
+            radius={6.5}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#EBEDF2",
+                  "borderBottomLeftRadius": 6.5,
+                  "borderBottomRightRadius": 6.5,
+                  "borderTopLeftRadius": 6.5,
+                  "borderTopRightRadius": 6.5,
+                  "flexBasis": "auto",
+                  "flexDirection": "column",
+                  "flexGrow": 0,
+                  "flexShrink": 1,
+                  "height": 13,
+                  "width": "100%",
+                },
+                undefined,
+              ]
+            }
+            width="100%"
+          />
+          <View
+            style={
+              Object {
+                "height": 15,
+                "width": "100%",
+              }
+            }
+          />
+          <View
+            color="#EBEDF2"
+            height="13px"
+            radius={6.5}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#EBEDF2",
+                  "borderBottomLeftRadius": 6.5,
+                  "borderBottomRightRadius": 6.5,
+                  "borderTopLeftRadius": 6.5,
+                  "borderTopRightRadius": 6.5,
+                  "flexBasis": "auto",
+                  "flexDirection": "column",
+                  "flexGrow": 0,
+                  "flexShrink": 1,
+                  "height": 13,
+                  "width": 156,
+                },
+                undefined,
+              ]
+            }
+            width="156px"
+          />
+          <View
+            style={
+              Object {
+                "height": 15,
+                "width": "100%",
+              }
+            }
+          />
+          <View
+            color="#EBEDF2"
+            height="13px"
+            radius={6.5}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#EBEDF2",
+                  "borderBottomLeftRadius": 6.5,
+                  "borderBottomRightRadius": 6.5,
+                  "borderTopLeftRadius": 6.5,
+                  "borderTopRightRadius": 6.5,
+                  "flexBasis": "auto",
+                  "flexDirection": "column",
+                  "flexGrow": 0,
+                  "flexShrink": 1,
+                  "height": 13,
+                  "width": "100%",
+                },
+                undefined,
+              ]
+            }
+            width="100%"
+          />
+          <View
+            style={
+              Object {
+                "height": 15,
+                "width": "100%",
+              }
+            }
+          />
+          <View
+            color="#EBEDF2"
+            height="13px"
+            radius={6.5}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#EBEDF2",
+                  "borderBottomLeftRadius": 6.5,
+                  "borderBottomRightRadius": 6.5,
+                  "borderTopLeftRadius": 6.5,
+                  "borderTopRightRadius": 6.5,
+                  "flexBasis": "auto",
+                  "flexDirection": "column",
+                  "flexGrow": 0,
+                  "flexShrink": 1,
+                  "height": 13,
+                  "width": 156,
+                },
+                undefined,
+              ]
+            }
+            width="156px"
+          />
+        </View>
+        <View
+          color="transparent"
+          height="36px"
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderBottomLeftRadius": 8,
+                "borderBottomRightRadius": 8,
+                "borderTopLeftRadius": 8,
+                "borderTopRightRadius": 8,
+                "flexBasis": "auto",
+                "flexDirection": "column",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": 36,
+                "width": "100%",
+              },
+              undefined,
+            ]
+          }
+          width="100%"
+        />
+        <View
+          color="transparent"
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderBottomLeftRadius": 8,
+                "borderBottomRightRadius": 8,
+                "borderTopLeftRadius": 8,
+                "borderTopRightRadius": 8,
+                "flexBasis": "auto",
+                "flexDirection": "column",
+                "flexGrow": 0,
+                "flexShrink": 1,
+                "height": "auto",
+                "width": "100%",
+              },
+              Object {
+                "paddingHorizontal": 27,
+              },
+            ]
+          }
+          width="100%"
+        >
+          <View
+            color="#EBEDF2"
+            height="20px"
+            radius={10}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#EBEDF2",
+                  "borderBottomLeftRadius": 10,
+                  "borderBottomRightRadius": 10,
+                  "borderTopLeftRadius": 10,
+                  "borderTopRightRadius": 10,
+                  "flexBasis": "auto",
+                  "flexDirection": "column",
+                  "flexGrow": 0,
+                  "flexShrink": 1,
+                  "height": 20,
+                  "width": 117,
+                },
+                undefined,
+              ]
+            }
+            width="117px"
+          />
+          <View
+            style={
+              Object {
+                "height": 15,
+                "width": "100%",
+              }
+            }
+          />
+          <View
+            color="#EBEDF2"
+            height="13px"
+            radius={6.5}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#EBEDF2",
+                  "borderBottomLeftRadius": 6.5,
+                  "borderBottomRightRadius": 6.5,
+                  "borderTopLeftRadius": 6.5,
+                  "borderTopRightRadius": 6.5,
+                  "flexBasis": "auto",
+                  "flexDirection": "column",
+                  "flexGrow": 0,
+                  "flexShrink": 1,
+                  "height": 13,
+                  "width": "100%",
+                },
+                undefined,
+              ]
+            }
+            width="100%"
+          />
+          <View
+            style={
+              Object {
+                "height": 15,
+                "width": "100%",
+              }
+            }
+          />
+          <View
+            color="#EBEDF2"
+            height="13px"
+            radius={6.5}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#EBEDF2",
+                  "borderBottomLeftRadius": 6.5,
+                  "borderBottomRightRadius": 6.5,
+                  "borderTopLeftRadius": 6.5,
+                  "borderTopRightRadius": 6.5,
+                  "flexBasis": "auto",
+                  "flexDirection": "column",
+                  "flexGrow": 0,
+                  "flexShrink": 1,
+                  "height": 13,
+                  "width": 156,
+                },
+                undefined,
+              ]
+            }
+            width="156px"
+          />
+          <View
+            style={
+              Object {
+                "height": 15,
+                "width": "100%",
+              }
+            }
+          />
+          <View
+            color="#EBEDF2"
+            height="13px"
+            radius={6.5}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#EBEDF2",
+                  "borderBottomLeftRadius": 6.5,
+                  "borderBottomRightRadius": 6.5,
+                  "borderTopLeftRadius": 6.5,
+                  "borderTopRightRadius": 6.5,
+                  "flexBasis": "auto",
+                  "flexDirection": "column",
+                  "flexGrow": 0,
+                  "flexShrink": 1,
+                  "height": 13,
+                  "width": "100%",
+                },
+                undefined,
+              ]
+            }
+            width="100%"
+          />
+          <View
+            style={
+              Object {
+                "height": 15,
+                "width": "100%",
+              }
+            }
+          />
+          <View
+            color="#EBEDF2"
+            height="13px"
+            radius={6.5}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#EBEDF2",
+                  "borderBottomLeftRadius": 6.5,
+                  "borderBottomRightRadius": 6.5,
+                  "borderTopLeftRadius": 6.5,
+                  "borderTopRightRadius": 6.5,
+                  "flexBasis": "auto",
+                  "flexDirection": "column",
+                  "flexGrow": 0,
+                  "flexShrink": 1,
+                  "height": 13,
+                  "width": 156,
+                },
+                undefined,
+              ]
+            }
+            width="156px"
+          />
+        </View>
+      </View>
+    </div>
+    <View
+      color="transparent"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "flexBasis": "auto",
+            "flexDirection": "column",
+            "flexGrow": 0,
+            "flexShrink": 1,
+            "height": "auto",
+            "width": "100%",
+          },
+          Object {
+            "alignItems": "center",
+          },
+        ]
+      }
+    >
+      <View
+        color="transparent"
+        height="64px"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderBottomLeftRadius": 8,
+              "borderBottomRightRadius": 8,
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "flexBasis": "auto",
+              "flexDirection": "column",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "height": 64,
+              "width": "100%",
+            },
+            undefined,
+          ]
+        }
+        width="100%"
+      />
+      SYWGiftCardWaterMark
+    </View>
+  </View>
+</RCTScrollView>
+`;

@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gift Card should render 1`] = `
+<View
+  accessibilityLabel="gift-card-container"
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "transparent",
+      "elevation": 3,
+      "shadowColor": "#262C2F",
+      "shadowOffset": Object {
+        "height": 4,
+        "width": 0,
+      },
+      "shadowOpacity": 0.1,
+    }
+  }
+  testID="gift-card-container"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "elevation": 3,
+          "shadowColor": "#262C2F",
+          "shadowOffset": Object {
+            "height": 4,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+        },
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexDirection": "row",
+          "marginBottom": 16,
+          "marginHorizontal": 16,
+          "paddingBottom": 12,
+          "paddingLeft": 12,
+          "paddingRight": 12,
+          "paddingTop": 12,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "elevation": 3,
+            "shadowColor": "#262C2F",
+            "shadowOffset": Object {
+              "height": 4,
+              "width": 0,
+            },
+            "shadowOpacity": 0.1,
+          },
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderBottomLeftRadius": 8,
+            "borderBottomRightRadius": 8,
+            "borderTopLeftRadius": 8,
+            "borderTopRightRadius": 8,
+            "height": 68,
+            "justifyContent": "center",
+            "width": 104,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "height": 60,
+              "width": 60,
+            },
+            Object {
+              "borderBottomLeftRadius": 40,
+              "borderBottomRightRadius": 40,
+              "borderTopLeftRadius": 40,
+              "borderTopRightRadius": 40,
+              "height": 40,
+              "width": 40,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "height": "100%",
+              "justifyContent": "center",
+              "width": "100%",
+            }
+          }
+        >
+          GiftIcon
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flexBasis": 0,
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "justifyContent": "space-around",
+          "marginLeft": 16,
+        }
+      }
+    >
+      <Text
+        ellipsizeMode="tail"
+        numberOfLines={1}
+        style={
+          Object {
+            "color": "#262C2F",
+            "fontFamily": "SFProDisplay-SemiBold",
+            "fontSize": 16,
+            "lineHeight": 18,
+          }
+        }
+      >
+        brand
+      </Text>
+      <View>
+        <Text
+          accessibilityLabel="gift-card-card-balance"
+          accessible={true}
+          style={
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-SemiBold",
+              "fontSize": 16,
+              "lineHeight": 18,
+            }
+          }
+          testID="gift-card-card-balance"
+        >
+          $
+          15
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

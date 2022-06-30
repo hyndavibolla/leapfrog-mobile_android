@@ -1,0 +1,648 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GiftCardPointRow should render 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "borderBottomLeftRadius": 8,
+      "borderBottomRightRadius": 8,
+      "borderTopLeftRadius": 8,
+      "borderTopRightRadius": 8,
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "marginVertical": 4,
+      "paddingBottom": 16,
+      "paddingLeft": 20,
+      "paddingRight": 20,
+      "paddingTop": 16,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "height": 60,
+          "width": 60,
+        },
+        Object {
+          "borderBottomLeftRadius": 40,
+          "borderBottomRightRadius": 40,
+          "borderTopLeftRadius": 40,
+          "borderTopRightRadius": 40,
+          "height": 40,
+          "width": 40,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "overflow": "hidden",
+          },
+          Object {
+            "alignItems": "center",
+            "borderBottomLeftRadius": 60,
+            "borderBottomRightRadius": 60,
+            "borderTopLeftRadius": 60,
+            "borderTopRightRadius": 60,
+            "height": "100%",
+            "justifyContent": "center",
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <FastImageView
+        accessibilityLabel="brand-logo-image"
+        accessible={true}
+        onFastImageError={[Function]}
+        onFastImageLoad={[Function]}
+        onFastImageLoadEnd={[Function]}
+        onFastImageLoadStart={[Function]}
+        resizeMode="cover"
+        source={
+          Object {
+            "priority": "high",
+            "uri": "https://www.requestor-image-4.com",
+          }
+        }
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        testID="brand-logo-image"
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "stretch",
+        "flexBasis": 0,
+        "flexDirection": "column",
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "justifyContent": "space-between",
+        "marginHorizontal": 16,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          accessibilityLabel="giftcard-point-row-company-name-label"
+          accessible={true}
+          ellipsizeMode="tail"
+          font="SFProDisplay-SemiBold"
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#262C2F",
+                "flexShrink": 4,
+                "fontSize": 14,
+                "marginBottom": 4,
+              },
+            ]
+          }
+          testID="giftcard-point-row-company-name-label"
+        >
+          requestor four Gift Card
+        </Text>
+      </View>
+      <View>
+        <Text
+          accessibilityLabel="giftcard-point-row-description-label"
+          accessible={true}
+          ellipsizeMode="tail"
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#909BA0",
+                "flexShrink": 1,
+                "fontSize": 14,
+              },
+            ]
+          }
+          testID="giftcard-point-row-description-label"
+        >
+          Jan 3rd - 04:00 am - CC Purchased
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`GiftCardPointRow should render for gift card without date 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "borderBottomLeftRadius": 8,
+      "borderBottomRightRadius": 8,
+      "borderTopLeftRadius": 8,
+      "borderTopRightRadius": 8,
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "marginVertical": 4,
+      "paddingBottom": 16,
+      "paddingLeft": 20,
+      "paddingRight": 20,
+      "paddingTop": 16,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "height": 60,
+          "width": 60,
+        },
+        Object {
+          "borderBottomLeftRadius": 40,
+          "borderBottomRightRadius": 40,
+          "borderTopLeftRadius": 40,
+          "borderTopRightRadius": 40,
+          "height": 40,
+          "width": 40,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "overflow": "hidden",
+          },
+          Object {
+            "alignItems": "center",
+            "borderBottomLeftRadius": 60,
+            "borderBottomRightRadius": 60,
+            "borderTopLeftRadius": 60,
+            "borderTopRightRadius": 60,
+            "height": "100%",
+            "justifyContent": "center",
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <FastImageView
+        accessibilityLabel="brand-logo-image"
+        accessible={true}
+        onFastImageError={[Function]}
+        onFastImageLoad={[Function]}
+        onFastImageLoadEnd={[Function]}
+        onFastImageLoadStart={[Function]}
+        resizeMode="cover"
+        source={
+          Object {
+            "priority": "high",
+            "uri": "https://www.requestor-image-4.com",
+          }
+        }
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        testID="brand-logo-image"
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "stretch",
+        "flexBasis": 0,
+        "flexDirection": "column",
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "justifyContent": "space-between",
+        "marginHorizontal": 16,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          accessibilityLabel="giftcard-point-row-company-name-label"
+          accessible={true}
+          ellipsizeMode="tail"
+          font="SFProDisplay-SemiBold"
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#262C2F",
+                "flexShrink": 4,
+                "fontSize": 14,
+                "marginBottom": 4,
+              },
+            ]
+          }
+          testID="giftcard-point-row-company-name-label"
+        >
+          requestor four Gift Card
+        </Text>
+      </View>
+      <View>
+        <Text
+          accessibilityLabel="giftcard-point-row-description-label"
+          accessible={true}
+          ellipsizeMode="tail"
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#909BA0",
+                "flexShrink": 1,
+                "fontSize": 14,
+              },
+            ]
+          }
+          testID="giftcard-point-row-description-label"
+        >
+          CC Purchased
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`GiftCardPointRow should render without a requestor image 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "borderBottomLeftRadius": 8,
+      "borderBottomRightRadius": 8,
+      "borderTopLeftRadius": 8,
+      "borderTopRightRadius": 8,
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "marginVertical": 4,
+      "paddingBottom": 16,
+      "paddingLeft": 20,
+      "paddingRight": 20,
+      "paddingTop": 16,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "height": 60,
+          "width": 60,
+        },
+        Object {
+          "borderBottomLeftRadius": 40,
+          "borderBottomRightRadius": 40,
+          "borderTopLeftRadius": 40,
+          "borderTopRightRadius": 40,
+          "height": 40,
+          "width": 40,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": "100%",
+          "justifyContent": "center",
+          "width": "100%",
+        }
+      }
+    >
+      GiftIcon
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "stretch",
+        "flexBasis": 0,
+        "flexDirection": "column",
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "justifyContent": "space-between",
+        "marginHorizontal": 16,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          accessibilityLabel="giftcard-point-row-company-name-label"
+          accessible={true}
+          ellipsizeMode="tail"
+          font="SFProDisplay-SemiBold"
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#262C2F",
+                "flexShrink": 4,
+                "fontSize": 14,
+                "marginBottom": 4,
+              },
+            ]
+          }
+          testID="giftcard-point-row-company-name-label"
+        >
+          requestor four Gift Card
+        </Text>
+      </View>
+      <View>
+        <Text
+          accessibilityLabel="giftcard-point-row-description-label"
+          accessible={true}
+          ellipsizeMode="tail"
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#909BA0",
+                "flexShrink": 1,
+                "fontSize": 14,
+              },
+            ]
+          }
+          testID="giftcard-point-row-description-label"
+        >
+          Jan 3rd - 04:00 am - CC Purchased
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`GiftCardPointRow should render without requestor name or offer name 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "borderBottomLeftRadius": 8,
+      "borderBottomRightRadius": 8,
+      "borderTopLeftRadius": 8,
+      "borderTopRightRadius": 8,
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "marginVertical": 4,
+      "paddingBottom": 16,
+      "paddingLeft": 20,
+      "paddingRight": 20,
+      "paddingTop": 16,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "height": 60,
+          "width": 60,
+        },
+        Object {
+          "borderBottomLeftRadius": 40,
+          "borderBottomRightRadius": 40,
+          "borderTopLeftRadius": 40,
+          "borderTopRightRadius": 40,
+          "height": 40,
+          "width": 40,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "overflow": "hidden",
+          },
+          Object {
+            "alignItems": "center",
+            "borderBottomLeftRadius": 60,
+            "borderBottomRightRadius": 60,
+            "borderTopLeftRadius": 60,
+            "borderTopRightRadius": 60,
+            "height": "100%",
+            "justifyContent": "center",
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <FastImageView
+        accessibilityLabel="brand-logo-image"
+        accessible={true}
+        onFastImageError={[Function]}
+        onFastImageLoad={[Function]}
+        onFastImageLoadEnd={[Function]}
+        onFastImageLoadStart={[Function]}
+        resizeMode="cover"
+        source={
+          Object {
+            "priority": "high",
+            "uri": "https://www.requestor-image-4.com",
+          }
+        }
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        testID="brand-logo-image"
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "stretch",
+        "flexBasis": 0,
+        "flexDirection": "column",
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "justifyContent": "space-between",
+        "marginHorizontal": 16,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          accessibilityLabel="giftcard-point-row-company-name-label"
+          accessible={true}
+          ellipsizeMode="tail"
+          font="SFProDisplay-SemiBold"
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-SemiBold",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#262C2F",
+                "flexShrink": 4,
+                "fontSize": 14,
+                "marginBottom": 4,
+              },
+            ]
+          }
+          testID="giftcard-point-row-company-name-label"
+        >
+          Gift Card purchase
+        </Text>
+      </View>
+      <View>
+        <Text
+          accessibilityLabel="giftcard-point-row-description-label"
+          accessible={true}
+          ellipsizeMode="tail"
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Medium",
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#909BA0",
+                "flexShrink": 1,
+                "fontSize": 14,
+              },
+            ]
+          }
+          testID="giftcard-point-row-description-label"
+        >
+          Jan 3rd - 04:00 am - CC Purchased
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

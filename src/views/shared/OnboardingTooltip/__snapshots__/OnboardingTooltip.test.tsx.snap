@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OnboardingTooltip should render with title flashy 1`] = `
+<View
+  accessibilityLabel="onboarding-tooltip-container"
+  accessible={true}
+  testID="onboarding-tooltip-container"
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#262C2F",
+          "fontFamily": "SFProDisplay-Bold",
+          "fontSize": 20,
+          "lineHeight": 30,
+        },
+        Object {
+          "marginBottom": 8,
+        },
+      ]
+    }
+    type="titleHeader"
+  >
+    Title
+  </Text>
+  <View
+    style={
+      Object {
+        "position": "absolute",
+        "right": -12,
+        "top": -16,
+      }
+    }
+  >
+    <View
+      accessibilityLabel="tooltip-button-container"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 54,
+          "justifyContent": "center",
+          "opacity": 1,
+          "position": "relative",
+          "width": 54,
+        }
+      }
+      testID="tooltip-button-container"
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "flex-end",
+            "backgroundColor": "#E2E3E3",
+            "borderBottomLeftRadius": 50,
+            "borderBottomRightRadius": 50,
+            "borderTopLeftRadius": 50,
+            "borderTopRightRadius": 50,
+            "justifyContent": "center",
+            "marginBottom": 4,
+            "marginLeft": 4,
+            "marginRight": 4,
+            "marginTop": 4,
+            "paddingBottom": 4,
+            "paddingLeft": 4,
+            "paddingRight": 4,
+            "paddingTop": 4,
+            "width": 30,
+          }
+        }
+      >
+        TooltipInactive
+      </View>
+    </View>
+  </View>
+</View>
+`;

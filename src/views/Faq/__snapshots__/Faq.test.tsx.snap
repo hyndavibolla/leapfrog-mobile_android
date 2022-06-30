@@ -1,0 +1,179 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Faq should render 1`] = `
+<RCTScrollView>
+  <View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#F5F7FA",
+          "paddingBottom": 48,
+          "paddingLeft": 40,
+          "paddingRight": 40,
+          "paddingTop": 0,
+          "textAlign": "center",
+        }
+      }
+    >
+      <Text
+        font="SFProDisplay-Heavy"
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Heavy",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Object {
+              "color": "#262C2F",
+              "fontSize": 22,
+              "lineHeight": 30,
+              "marginTop": 32,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Frequently Asked 
+        
+
+         Questions
+      </Text>
+      <Text
+        font="SFProDisplay-Heavy"
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Heavy",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Object {
+              "color": "#262C2F",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "lineHeight": 20,
+              "marginTop": 32,
+            },
+          ]
+        }
+      >
+        1. I’ve made a transaction but I don’t see it on my balance?
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 24,
+              "marginTop": 8,
+            },
+          ]
+        }
+      >
+        Sometimes this happens when we’re waiting for details from our offer partners. Make sure to review the offer details as some partners have longer point reporting periods.
+        
+ 
+
+        If it has been over 15 days, please contact us and provide evidence of the qualifying action or purchase, as well as requested points.
+      </Text>
+      <Text
+        font="SFProDisplay-Heavy"
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Heavy",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Object {
+              "color": "#262C2F",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "lineHeight": 20,
+              "marginTop": 32,
+            },
+          ]
+        }
+      >
+        2. How can I earn points?
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 24,
+              "marginTop": 8,
+            },
+          ]
+        }
+      >
+        There are several ways to earn new points. The Earn section is filled with offers you can complete to earn points. Please refer to the Shop Your Way® Program Terms and Conditions for additional information.
+      </Text>
+      <Text
+        font="SFProDisplay-Heavy"
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Heavy",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Object {
+              "color": "#262C2F",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "lineHeight": 20,
+              "marginTop": 32,
+            },
+          ]
+        }
+      >
+        3. How returns affect my points?
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 24,
+              "marginTop": 8,
+            },
+          ]
+        }
+      >
+        If a return or refund is issued for a qualifying purchase, points associated with that purchase will be deducted when the return is confirmed.
+      </Text>
+    </View>
+  </View>
+</RCTScrollView>
+`;

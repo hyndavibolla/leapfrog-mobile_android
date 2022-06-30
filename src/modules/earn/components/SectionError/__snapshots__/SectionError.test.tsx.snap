@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SectionError should render 1`] = `
+<div
+  accessibilityLabel="section-error-component"
+  accessible={true}
+  style={
+    Object {
+      "alignItem": "center",
+      "backgroundColor": "#EBEDF2",
+      "borderBottomLeftRadius": 8,
+      "borderBottomRightRadius": 8,
+      "borderTopLeftRadius": 8,
+      "borderTopRightRadius": 8,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "marginTop": 30,
+      "paddingBottom": 35,
+      "paddingLeft": 25,
+      "paddingRight": 25,
+      "paddingTop": 35,
+    }
+  }
+  testID="section-error-component"
+>
+  <div
+    style={
+      Object {
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "marginRight": 15,
+      }
+    }
+  >
+    WarningSection
+  </div>
+  <div
+    style={
+      Object {
+        "flexBasis": 0,
+        "flexGrow": 3,
+        "flexShrink": 1,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#262C2F",
+            "fontFamily": "SFProDisplay-Bold",
+            "fontSize": 16,
+            "lineHeight": 24,
+          },
+          undefined,
+        ]
+      }
+    >
+      We couldn't load this section
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          undefined,
+        ]
+      }
+    >
+      At the meantime, you can explore our catalog 🚀
+    </Text>
+  </div>
+</div>
+`;

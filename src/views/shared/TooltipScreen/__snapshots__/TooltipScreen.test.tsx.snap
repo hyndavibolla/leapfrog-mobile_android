@@ -1,0 +1,800 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TooltipScreen should render 1`] = `
+Array [
+  <RCTScrollView
+    accessibilityLabel="tooltip-screen-container"
+    accessible={true}
+    contentContainerStyle={
+      Object {
+        "width": "200%",
+      }
+    }
+    horizontal={true}
+    onScroll={[Function]}
+    pagingEnabled={true}
+    scrollEventThrottle={200}
+    showsHorizontalScrollIndicator={false}
+    testID="tooltip-screen-container"
+  >
+    <View>
+      <View
+        accessibilityLabel="tooltip-screen-step-0-active"
+        accessible={true}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+              "justifyContent": "space-between",
+            },
+            Object {
+              "width": 750,
+            },
+          ]
+        }
+        testID="tooltip-screen-step-0-active"
+      >
+        <View
+          accessibilityLabel="image-background-container"
+          accessible={true}
+          style={
+            Object {
+              "height": 300,
+              "width": 750,
+            }
+          }
+          testID="image-background-container"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "overflow": "hidden",
+                },
+                Array [
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "height": 300,
+                    "width": 750,
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <FastImageView
+              accessibilityLabel="image-background-image"
+              accessible={true}
+              resizeMode="cover"
+              source={null}
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              testID="image-background-image"
+            />
+            <View
+              accessibilityLabel="tooltip-screen-close-btn"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignSelf": "flex-end",
+                  "marginBottom": 32,
+                  "marginLeft": 32,
+                  "marginRight": 32,
+                  "marginTop": 32,
+                  "opacity": 1,
+                }
+              }
+              testID="tooltip-screen-close-btn"
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#0066CC",
+                      "borderBottomLeftRadius": 30,
+                      "borderBottomRightRadius": 30,
+                      "borderTopLeftRadius": 30,
+                      "borderTopRightRadius": 30,
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "paddingBottom": 8,
+                      "paddingLeft": 12,
+                      "paddingRight": 12,
+                      "paddingTop": 8,
+                    },
+                    Object {
+                      "height": 30,
+                      "width": 30,
+                    },
+                    Object {
+                      "backgroundColor": "#FFFFFF",
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={false}
+                >
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "height": 20,
+                        "justifyContent": "center",
+                        "width": 20,
+                      }
+                    }
+                  >
+                    <Text
+                      accessibilityLabel="icon-text"
+                      accessible={true}
+                      allowFontScaling={false}
+                      selectable={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#262C2F",
+                            "fontSize": 18,
+                          },
+                          undefined,
+                          Object {
+                            "fontFamily": "sywmax",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                      testID="icon-text"
+                    >
+                      
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <RCTScrollView>
+          <View>
+            <View
+              style={
+                Object {
+                  "paddingBottom": "8%",
+                  "paddingLeft": "8%",
+                  "paddingRight": "8%",
+                  "paddingTop": "8%",
+                  "width": "100%",
+                }
+              }
+            >
+              <Text
+                font="SFProDisplay-Bold"
+                style={
+                  Array [
+                    Object {
+                      "color": "#909BA0",
+                      "fontFamily": "SFProDisplay-Bold",
+                      "fontSize": 16,
+                      "lineHeight": 22,
+                    },
+                    Object {
+                      "color": "#0066CC",
+                      "fontSize": 12,
+                    },
+                  ]
+                }
+              >
+                SUBTITLE 1
+              </Text>
+              <Text
+                font="SFProDisplay-Heavy"
+                style={
+                  Array [
+                    Object {
+                      "color": "#262C2F",
+                      "fontFamily": "SFProDisplay-Bold",
+                      "fontSize": 20,
+                      "lineHeight": 30,
+                    },
+                    Object {
+                      "color": "#262C2F",
+                      "fontFamily": "SFProDisplay-Heavy",
+                      "fontSize": 24,
+                      "lineHeight": 34,
+                      "marginTop": 20,
+                    },
+                  ]
+                }
+                type="titleHeader"
+              >
+                title 1
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#909BA0",
+                      "fontFamily": "SFProDisplay-Medium",
+                      "fontSize": 16,
+                      "lineHeight": 22,
+                    },
+                    Object {
+                      "color": "#909BA0",
+                      "fontSize": 16,
+                      "lineHeight": 25,
+                      "marginTop": 24,
+                    },
+                  ]
+                }
+              >
+                text 1
+              </Text>
+            </View>
+          </View>
+        </RCTScrollView>
+      </View>
+      <View
+        accessibilityLabel="tooltip-screen-step-1-inactive"
+        accessible={true}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+              "justifyContent": "space-between",
+            },
+            Object {
+              "width": 750,
+            },
+          ]
+        }
+        testID="tooltip-screen-step-1-inactive"
+      >
+        <View
+          accessibilityLabel="image-background-container"
+          accessible={true}
+          style={
+            Object {
+              "height": 300,
+              "width": 750,
+            }
+          }
+          testID="image-background-container"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "overflow": "hidden",
+                },
+                Array [
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "height": 300,
+                    "width": 750,
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <FastImageView
+              accessibilityLabel="image-background-image"
+              accessible={true}
+              resizeMode="cover"
+              source={null}
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+              testID="image-background-image"
+            />
+            <View
+              accessibilityLabel="tooltip-screen-close-btn"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignSelf": "flex-end",
+                  "marginBottom": 32,
+                  "marginLeft": 32,
+                  "marginRight": 32,
+                  "marginTop": 32,
+                  "opacity": 1,
+                }
+              }
+              testID="tooltip-screen-close-btn"
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#0066CC",
+                      "borderBottomLeftRadius": 30,
+                      "borderBottomRightRadius": 30,
+                      "borderTopLeftRadius": 30,
+                      "borderTopRightRadius": 30,
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "paddingBottom": 8,
+                      "paddingLeft": 12,
+                      "paddingRight": 12,
+                      "paddingTop": 8,
+                    },
+                    Object {
+                      "height": 30,
+                      "width": 30,
+                    },
+                    Object {
+                      "backgroundColor": "#FFFFFF",
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={false}
+                >
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "height": 20,
+                        "justifyContent": "center",
+                        "width": 20,
+                      }
+                    }
+                  >
+                    <Text
+                      accessibilityLabel="icon-text"
+                      accessible={true}
+                      allowFontScaling={false}
+                      selectable={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#262C2F",
+                            "fontSize": 18,
+                          },
+                          undefined,
+                          Object {
+                            "fontFamily": "sywmax",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                      testID="icon-text"
+                    >
+                      
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <RCTScrollView>
+          <View>
+            <View
+              style={
+                Object {
+                  "paddingBottom": "8%",
+                  "paddingLeft": "8%",
+                  "paddingRight": "8%",
+                  "paddingTop": "8%",
+                  "width": "100%",
+                }
+              }
+            >
+              <Text
+                font="SFProDisplay-Bold"
+                style={
+                  Array [
+                    Object {
+                      "color": "#909BA0",
+                      "fontFamily": "SFProDisplay-Bold",
+                      "fontSize": 16,
+                      "lineHeight": 22,
+                    },
+                    Object {
+                      "color": "#0066CC",
+                      "fontSize": 12,
+                    },
+                  ]
+                }
+              >
+                SUBTITLE 2
+              </Text>
+              <Text
+                font="SFProDisplay-Heavy"
+                style={
+                  Array [
+                    Object {
+                      "color": "#262C2F",
+                      "fontFamily": "SFProDisplay-Bold",
+                      "fontSize": 20,
+                      "lineHeight": 30,
+                    },
+                    Object {
+                      "color": "#262C2F",
+                      "fontFamily": "SFProDisplay-Heavy",
+                      "fontSize": 24,
+                      "lineHeight": 34,
+                      "marginTop": 20,
+                    },
+                  ]
+                }
+                type="titleHeader"
+              >
+                title 2
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#909BA0",
+                      "fontFamily": "SFProDisplay-Medium",
+                      "fontSize": 16,
+                      "lineHeight": 22,
+                    },
+                    Object {
+                      "color": "#909BA0",
+                      "fontSize": 16,
+                      "lineHeight": 25,
+                      "marginTop": 24,
+                    },
+                  ]
+                }
+              >
+                text 2
+              </Text>
+            </View>
+          </View>
+        </RCTScrollView>
+      </View>
+    </View>
+  </RCTScrollView>,
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 85,
+        "justifyContent": "center",
+        "marginBottom": 40,
+        "marginTop": 8,
+        "position": "relative",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+          },
+          Object {
+            "position": "absolute",
+          },
+        ]
+      }
+    >
+      <RNSVGSvgView
+        bbHeight={85}
+        bbWidth={85}
+        focusable={false}
+        height={85}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "borderBottomLeftRadius": 8,
+              "borderBottomRightRadius": 8,
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "transform": Array [
+                Object {
+                  "rotateZ": "270deg",
+                },
+              ],
+            },
+            Object {
+              "flex": 0,
+              "height": 85,
+              "width": 85,
+            },
+          ]
+        }
+        width={85}
+      >
+        <RNSVGGroup
+          matrix={
+            Array [
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+            ]
+          }
+        >
+          <RNSVGCircle
+            cx={42.5}
+            cy={42.5}
+            fill={null}
+            propList={
+              Array [
+                "fill",
+                "stroke",
+                "strokeWidth",
+              ]
+            }
+            r={41.5}
+            stroke={4278216396}
+            strokeWidth={2}
+          />
+          <RNSVGCircle
+            cx={42.5}
+            cy={42.5}
+            fill={null}
+            propList={
+              Array [
+                "fill",
+                "stroke",
+                "strokeWidth",
+                "strokeDasharray",
+                "strokeDashoffset",
+              ]
+            }
+            r={41.5}
+            stroke={4293651954}
+            strokeDasharray={
+              Array [
+                "260.75219024795285",
+                "260.75219024795285",
+              ]
+            }
+            strokeDashoffset={-130.37609512397643}
+            strokeWidth={3}
+          />
+          <RNSVGText
+            content={null}
+            dx={Array []}
+            dy={Array []}
+            fill={4278216396}
+            font={
+              Object {
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": "18px",
+                "letterSpacing": 3,
+                "textAnchor": "middle",
+              }
+            }
+            matrix={
+              Array [
+                6.123233995736766e-17,
+                1,
+                -1,
+                6.123233995736766e-17,
+                85,
+                0,
+              ]
+            }
+            propList={
+              Array [
+                "fill",
+                "stroke",
+              ]
+            }
+            rotate={Array []}
+            stroke={4278216396}
+            x={
+              Array [
+                42.5,
+              ]
+            }
+            y={
+              Array [
+                42.5,
+              ]
+            }
+          >
+            <RNSVGTSpan
+              content=""
+              dx={Array []}
+              dy={Array []}
+              font={Object {}}
+              rotate={Array []}
+              x={Array []}
+              y={Array []}
+            />
+          </RNSVGText>
+          <RNSVGText
+            content={null}
+            dx={Array []}
+            dy={Array []}
+            fill={4287667104}
+            font={
+              Object {
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": "12px",
+                "fontWeight": "bold",
+                "textAnchor": "middle",
+              }
+            }
+            matrix={
+              Array [
+                6.123233995736766e-17,
+                1,
+                -1,
+                6.123233995736766e-17,
+                85,
+                0,
+              ]
+            }
+            propList={
+              Array [
+                "fill",
+              ]
+            }
+            rotate={Array []}
+            x={
+              Array [
+                42.5,
+              ]
+            }
+            y={
+              Array [
+                57.5,
+              ]
+            }
+          >
+            <RNSVGTSpan
+              content=""
+              dx={Array []}
+              dy={Array []}
+              font={Object {}}
+              rotate={Array []}
+              x={Array []}
+              y={Array []}
+            />
+          </RNSVGText>
+        </RNSVGGroup>
+      </RNSVGSvgView>
+    </View>
+    <View
+      accessibilityLabel="tooltip-screen-next-btn"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="tooltip-screen-next-btn"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#0066CC",
+              "borderBottomLeftRadius": 30,
+              "borderBottomRightRadius": 30,
+              "borderTopLeftRadius": 30,
+              "borderTopRightRadius": 30,
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "paddingBottom": 8,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 8,
+            },
+            Object {
+              "borderBottomLeftRadius": 32,
+              "borderBottomRightRadius": 32,
+              "borderTopLeftRadius": 32,
+              "borderTopRightRadius": 32,
+              "height": 64,
+              "width": 64,
+            },
+            Object {
+              "backgroundColor": "#0066CC",
+            },
+          ]
+        }
+      >
+        <View
+          style={false}
+        >
+          <Text
+            accessibilityLabel="icon-text"
+            accessible={true}
+            allowFontScaling={false}
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 26,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "sywmax",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+            testID="icon-text"
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>,
+]
+`;

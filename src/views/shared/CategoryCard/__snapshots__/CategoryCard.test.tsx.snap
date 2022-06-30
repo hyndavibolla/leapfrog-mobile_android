@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CategoryCard should render 1`] = `
+<View
+  accessibilityLabel="category-card-container"
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#EBEDF2",
+      "borderBottomColor": "#EBEDF2",
+      "borderBottomLeftRadius": 10,
+      "borderBottomRightRadius": 10,
+      "borderBottomWidth": 2,
+      "borderLeftColor": "#EBEDF2",
+      "borderLeftWidth": 2,
+      "borderRightColor": "#EBEDF2",
+      "borderRightWidth": 2,
+      "borderStyle": "solid",
+      "borderTopColor": "#EBEDF2",
+      "borderTopLeftRadius": 10,
+      "borderTopRightRadius": 10,
+      "borderTopWidth": 2,
+      "flexDirection": "row",
+      "opacity": 1,
+      "paddingBottom": 4,
+      "paddingLeft": 8,
+      "paddingRight": 20,
+      "paddingTop": 4,
+      "width": "100%",
+    }
+  }
+  testID="category-card-container"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexBasis": 0,
+        "flexDirection": "row",
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexBasis": 0,
+          "flexDirection": "row",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "justifyContent": "flex-start",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "overflow": "hidden",
+            },
+            Array [
+              Object {
+                "height": 50,
+                "marginRight": 8,
+                "resizeMode": "contain",
+                "width": 50,
+              },
+              Object {
+                "height": 15,
+                "marginBottom": 16,
+                "marginLeft": 16,
+                "marginRight": 24,
+                "marginTop": 16,
+                "resizeMode": "contain",
+                "width": 20,
+              },
+            ],
+          ]
+        }
+      >
+        <FastImageView
+          accessibilityLabel="image-with-fallback-container"
+          accessible={true}
+          onFastImageError={[Function]}
+          onFastImageLoadEnd={[Function]}
+          onFastImageLoadStart={[Function]}
+          resizeMode="cover"
+          source={
+            Object {
+              "testUri": "../../../src/assets/shared/categoryFallback.png",
+            }
+          }
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+          testID="image-with-fallback-container"
+        />
+      </View>
+      <Text
+        accessibilityLabel="category-card-text"
+        accessible={true}
+        ellipsizeMode="tail"
+        font="SFProDisplay-Bold"
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#262C2F",
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "fontSize": 18,
+              },
+              false,
+            ],
+          ]
+        }
+        testID="category-card-text"
+      />
+    </View>
+  </View>
+</View>
+`;

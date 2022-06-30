@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageWithFallbackAndLoading should render 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "overflow": "hidden",
+      },
+      undefined,
+    ]
+  }
+>
+  <FastImageView
+    accessibilityLabel="image-with-fallback-container"
+    accessible={true}
+    onFastImageError={[Function]}
+    onFastImageLoadEnd={[Function]}
+    onFastImageLoadStart={[Function]}
+    resizeMode="cover"
+    source={
+      Object {
+        "uri": "uri",
+      }
+    }
+    style={
+      Object {
+        "bottom": 0,
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+    testID="image-with-fallback-container"
+  />
+</View>
+`;

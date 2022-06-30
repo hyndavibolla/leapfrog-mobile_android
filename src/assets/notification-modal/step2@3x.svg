@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="35px" viewBox="0 0 35 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>35E602F3-C82F-478B-909F-4E051FFE35ED@3x</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="35" height="35" rx="7"></rect>
+    </defs>
+    <g id="1.-Push-Notifications-Modal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Push-Notification-Banner---Recovery" transform="translate(-40.000000, -384.000000)">
+            <g id="Group-3" transform="translate(40.000000, 384.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#ED462F" xlink:href="#path-1"></use>
+                <g id="Group-2" mask="url(#mask-2)" stroke-width="2">
+                    <g transform="translate(8.000000, 5.000000)">
+                        <rect id="Mask" stroke="#FFFFFF" fill="none" x="1" y="4" width="18" height="18" rx="5"></rect>
+                        <circle id="Oval" stroke="#ED462F" fill="#FFFFFF" fill-rule="evenodd" cx="17" cy="6" r="5"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

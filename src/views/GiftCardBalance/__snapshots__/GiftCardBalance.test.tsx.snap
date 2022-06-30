@@ -1,0 +1,233 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GiftCard Balance should render 1`] = `
+Array [
+  <View
+    style={
+      Object {
+        "borderTopColor": "#E2E3E3",
+        "borderTopWidth": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingBottom": 8,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 8,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "maxWidth": "50%",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Bold",
+            "fontSize": 14,
+            "lineHeight": 24,
+          }
+        }
+      >
+        CARD NUMBER
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            Object {
+              "color": "#262C2F",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 14,
+              "lineHeight": 32,
+            }
+          }
+        >
+          LLC3 3GB9 FAR4 UHK
+        </Text>
+        <View
+          style={
+            Object {
+              "width": 60,
+            }
+          }
+        >
+          <Text
+            accessibilityLabel="box-card-copy"
+            accessible={true}
+            onPress={[Function]}
+            style={
+              Object {
+                "color": "#0066CC",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "marginBottom": 0,
+                "marginLeft": 16,
+                "marginRight": 0,
+                "marginTop": 4,
+              }
+            }
+            testID="box-card-copy"
+          >
+            Copy
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "maxWidth": "50%",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Bold",
+            "fontSize": 14,
+            "lineHeight": 24,
+          }
+        }
+      >
+        PIN
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            Object {
+              "color": "#262C2F",
+              "fontFamily": "SFProDisplay-Bold",
+              "fontSize": 14,
+              "lineHeight": 32,
+            }
+          }
+        >
+          1894
+        </Text>
+        <View
+          style={
+            Object {
+              "width": 60,
+            }
+          }
+        >
+          <Text
+            accessibilityLabel="box-card-copy"
+            accessible={true}
+            onPress={[Function]}
+            style={
+              Object {
+                "color": "#0066CC",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 16,
+                "marginBottom": 0,
+                "marginLeft": 16,
+                "marginRight": 0,
+                "marginTop": 4,
+              }
+            }
+            testID="box-card-copy"
+          >
+            Copy
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>,
+  <View
+    style={
+      Array [
+        Object {
+          "flex": 1,
+          "overflow": "hidden",
+        },
+        undefined,
+      ]
+    }
+  >
+    <RNCWebView
+      cacheEnabled={true}
+      injectedJavaScript="true;"
+      injectedJavaScriptBeforeContentLoadedForMainFrameOnly={true}
+      injectedJavaScriptForMainFrameOnly={true}
+      javaScriptEnabled={true}
+      messagingEnabled={true}
+      onContentProcessDidTerminate={[Function]}
+      onError={[Function]}
+      onHttpError={[Function]}
+      onLoad={[Function]}
+      onLoadingError={[Function]}
+      onLoadingFinish={[Function]}
+      onLoadingProgress={[Function]}
+      onLoadingStart={[Function]}
+      onMessage={[Function]}
+      onShouldStartLoadWithRequest={[Function]}
+      setSupportMultipleWindows={false}
+      sharedCookiesEnabled={true}
+      source={
+        Object {
+          "uri": "https://example.com",
+        }
+      }
+      startInLoadingState={true}
+      style={
+        Array [
+          Object {
+            "flex": 1,
+            "overflow": "hidden",
+          },
+          Object {
+            "backgroundColor": "#ffffff",
+          },
+          undefined,
+        ]
+      }
+      textInteractionEnabled={true}
+      thirdPartyCookiesEnabled={true}
+      useSharedProcessPool={true}
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#F5F7FA",
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "height": "100%",
+          "justifyContent": "center",
+          "left": 0,
+          "position": "absolute",
+          "top": 0,
+          "width": "100%",
+        }
+      }
+    >
+      <div>
+        Spinner
+      </div>
+    </View>
+  </View>,
+]
+`;

@@ -1,0 +1,253 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MapWidget should render 1`] = `
+<View
+  style={
+    Object {
+      "height": 121,
+      "marginTop": 20,
+      "paddingBottom": 0,
+      "paddingLeft": 16,
+      "paddingRight": 16,
+      "paddingTop": 0,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "borderBottomLeftRadius": 6,
+        "borderBottomRightRadius": 6,
+        "borderTopLeftRadius": 6,
+        "borderTopRightRadius": 6,
+        "height": "100%",
+        "overflow": "hidden",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      accessibilityLabel="map-widget-map-container"
+      accessible={true}
+      customMapStyle={
+        Array [
+          Object {
+            "elementType": "labels.icon",
+            "stylers": Array [
+              Object {
+                "visibility": "off",
+              },
+            ],
+          },
+        ]
+      }
+      initialRegion={
+        Object {
+          "latitude": -1.100809,
+          "latitudeDelta": 0.075,
+          "longitude": 56.108808,
+          "longitudeDelta": 0.0605,
+        }
+      }
+      onPress={[MockFunction]}
+      pitchEnabled={false}
+      provider="google"
+      rotateEnabled={false}
+      scrollEnabled={false}
+      showsBuildings={false}
+      showsCompass={false}
+      showsIndoors={false}
+      showsMyLocationButton={false}
+      showsPointsOfInterest={false}
+      showsUserLocation={false}
+      style={
+        Object {
+          "height": "100%",
+          "width": "100%",
+        }
+      }
+      testID="map-widget-map-container"
+      zoomEnabled={false}
+    >
+      <View
+        accessibilityLabel="map-widget-marker"
+        accessible={true}
+        coordinate={
+          Object {
+            "latitude": -1.100809,
+            "longitude": 56.108808,
+          }
+        }
+        identifier="0090-1241g-11hjg-zzz18"
+        testID="map-widget-marker"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderBottomLeftRadius": 10,
+                "borderBottomRightRadius": 10,
+                "borderColor": "#B361DF",
+                "borderStyle": "solid",
+                "borderTopLeftRadius": 10,
+                "borderTopRightRadius": 10,
+                "borderWidth": 1,
+                "flexDirection": "column",
+                "height": 28,
+                "justifyContent": "center",
+                "width": 28,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "height": 60,
+                    "width": 60,
+                  },
+                  Object {
+                    "height": 20,
+                    "width": 20,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "overflow": "hidden",
+                    },
+                    Object {
+                      "alignItems": "center",
+                      "borderBottomLeftRadius": 60,
+                      "borderBottomRightRadius": 60,
+                      "borderTopLeftRadius": 60,
+                      "borderTopRightRadius": 60,
+                      "height": "100%",
+                      "justifyContent": "center",
+                      "width": "100%",
+                    },
+                  ]
+                }
+              >
+                <FastImageView
+                  accessibilityLabel="brand-logo-image"
+                  accessible={true}
+                  onFastImageError={[Function]}
+                  onFastImageLoad={[Function]}
+                  onFastImageLoadEnd={[Function]}
+                  onFastImageLoadStart={[Function]}
+                  resizeMode="cover"
+                  source={
+                    Object {
+                      "priority": "high",
+                      "uri": "https://tentulogo.com/wp-content/uploads/2017/06/cocacola-logo.jpg",
+                    }
+                  }
+                  style={
+                    Object {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    }
+                  }
+                  testID="brand-logo-image"
+                />
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "borderBottomColor": "transparent",
+                "borderBottomWidth": 0,
+                "borderLeftColor": "transparent",
+                "borderLeftWidth": 5,
+                "borderRightColor": "transparent",
+                "borderRightWidth": 5,
+                "borderStyle": "solid",
+                "borderTopColor": "#B361DF",
+                "borderTopWidth": 5,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "left": 4,
+          "position": "absolute",
+          "top": 4,
+        }
+      }
+    >
+      <View
+        accessibilityLabel="map-widget-miles-label"
+        accessible={true}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+              "borderBottomLeftRadius": 3,
+              "borderBottomRightRadius": 3,
+              "borderTopLeftRadius": 3,
+              "borderTopRightRadius": 3,
+              "height": 22,
+              "justifyContent": "center",
+              "marginLeft": 4,
+              "marginTop": 4,
+              "paddingBottom": 0,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+              "paddingTop": 0,
+            },
+            Object {
+              "backgroundColor": "#F3EBF7",
+            },
+          ]
+        }
+        testID="map-widget-miles-label"
+      >
+        <Text
+          adjustsFontSizeToFit={true}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontFamily": "SFProDisplay-Bold",
+                "fontSize": 12,
+                "textAlign": "center",
+              },
+              Object {
+                "color": "#B361DF",
+              },
+            ]
+          }
+        >
+          0.2 miles away
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

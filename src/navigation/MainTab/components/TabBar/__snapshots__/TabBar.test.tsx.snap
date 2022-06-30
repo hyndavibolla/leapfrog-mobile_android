@@ -1,0 +1,355 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabBar should render 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "flexDirection": "row",
+      "justifyContent": "space-around",
+      "paddingBottom": 8,
+      "paddingLeft": 8,
+      "paddingRight": 8,
+      "paddingTop": 0,
+    }
+  }
+>
+  <View
+    accessibilityLabel="navigation-button-earn"
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignSelf": "flex-start",
+      }
+    }
+    testID="navigation-button-earn"
+  >
+    <div
+      duration={200}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "height": 75,
+            "justifyContent": "center",
+            "width": 75,
+          },
+          false,
+        ]
+      }
+      transition="opacity"
+    >
+      <View>
+        <Text
+          accessibilityLabel="icon-text"
+          accessible={true}
+          allowFontScaling={false}
+          selectable={false}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontSize": 26,
+              },
+              undefined,
+              Object {
+                "fontFamily": "sywmax",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          testID="icon-text"
+        >
+          
+        </Text>
+      </View>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontSize": 12,
+                "marginTop": 8,
+                "opacity": 0.5,
+              },
+              false,
+            ],
+          ]
+        }
+      >
+        Earn
+      </Text>
+    </div>
+  </View>
+  <View
+    accessibilityLabel="navigation-button-streak"
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignSelf": "flex-start",
+      }
+    }
+    testID="navigation-button-streak"
+  >
+    <div
+      duration={200}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "height": 75,
+            "justifyContent": "center",
+            "width": 75,
+          },
+          false,
+        ]
+      }
+      transition="opacity"
+    >
+      <View>
+        <Text
+          accessibilityLabel="icon-text"
+          accessible={true}
+          allowFontScaling={false}
+          selectable={false}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontSize": 26,
+              },
+              undefined,
+              Object {
+                "fontFamily": "sywmax",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          testID="icon-text"
+        >
+          
+        </Text>
+      </View>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontSize": 12,
+                "marginTop": 8,
+                "opacity": 0.5,
+              },
+              false,
+            ],
+          ]
+        }
+      >
+        Missions
+      </Text>
+    </div>
+  </View>
+  <View
+    accessibilityLabel="navigation-button-reward"
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignSelf": "flex-start",
+      }
+    }
+    testID="navigation-button-reward"
+  >
+    <div
+      duration={200}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "height": 75,
+            "justifyContent": "center",
+            "width": 75,
+          },
+          false,
+        ]
+      }
+      transition="opacity"
+    >
+      <View>
+        <Text
+          accessibilityLabel="icon-text"
+          accessible={true}
+          allowFontScaling={false}
+          selectable={false}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontSize": 26,
+              },
+              undefined,
+              Object {
+                "fontFamily": "sywmax",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          testID="icon-text"
+        >
+          
+        </Text>
+      </View>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontSize": 12,
+                "marginTop": 8,
+                "opacity": 0.5,
+              },
+              false,
+            ],
+          ]
+        }
+      >
+        Rewards
+      </Text>
+    </div>
+  </View>
+  <View
+    accessibilityLabel="navigation-button-wallet"
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignSelf": "flex-start",
+      }
+    }
+    testID="navigation-button-wallet"
+  >
+    <div
+      duration={200}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "height": 75,
+            "justifyContent": "center",
+            "width": 75,
+          },
+          false,
+        ]
+      }
+      transition="opacity"
+    >
+      <View>
+        <Text
+          accessibilityLabel="icon-text"
+          accessible={true}
+          allowFontScaling={false}
+          selectable={false}
+          style={
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontSize": 26,
+              },
+              undefined,
+              Object {
+                "fontFamily": "sywmax",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          testID="icon-text"
+        >
+          
+        </Text>
+      </View>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#909BA0",
+              "fontFamily": "SFProDisplay-Medium",
+              "fontSize": 16,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "color": "#909BA0",
+                "fontSize": 12,
+                "marginTop": 8,
+                "opacity": 0.5,
+              },
+              false,
+            ],
+          ]
+        }
+      >
+        Wallet
+      </Text>
+    </div>
+  </View>
+</View>
+`;

@@ -1,0 +1,199 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoadingToast should render 1`] = `
+<View
+  accessibilityLabel="spinner-container"
+  accessible={true}
+  style={
+    Object {
+      "backgroundColor": "transparent",
+      "bottom": 10,
+      "left": 0,
+      "marginBottom": 0,
+      "marginLeft": 20,
+      "marginRight": 20,
+      "marginTop": 0,
+      "position": "absolute",
+      "right": 0,
+      "zIndex": 1,
+    }
+  }
+  testID="spinner-container"
+/>
+`;
+
+exports[`LoadingToast should render with timer 0 from useTimer 1`] = `
+<View
+  accessibilityLabel="spinner-container"
+  accessible={true}
+  style={
+    Object {
+      "backgroundColor": "transparent",
+      "bottom": 10,
+      "left": 0,
+      "marginBottom": 0,
+      "marginLeft": 20,
+      "marginRight": 20,
+      "marginTop": 0,
+      "position": "absolute",
+      "right": 0,
+      "zIndex": 1,
+    }
+  }
+  testID="spinner-container"
+/>
+`;
+
+exports[`LoadingToast should render with timer 500 from useTimer 1`] = `
+<View
+  accessibilityLabel="spinner-container"
+  accessible={true}
+  style={
+    Object {
+      "backgroundColor": "transparent",
+      "bottom": 10,
+      "left": 0,
+      "marginBottom": 0,
+      "marginLeft": 20,
+      "marginRight": 20,
+      "marginTop": 0,
+      "position": "absolute",
+      "right": 0,
+      "zIndex": 1,
+    }
+  }
+  testID="spinner-container"
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#0066CC",
+        "borderBottomLeftRadius": 5,
+        "borderBottomRightRadius": 5,
+        "borderTopLeftRadius": 5,
+        "borderTopRightRadius": 5,
+        "paddingBottom": 8,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 8,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          Object {
+            "color": "#FFFFFF",
+            "fontFamily": "SFProDisplay-Bold",
+            "fontSize": 16,
+          },
+        ]
+      }
+    >
+      🤔💬 Just a few more seconds…
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          Object {
+            "color": "#FFFFFF",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 12,
+          },
+        ]
+      }
+    >
+      You're the first experiencing our SYW MAX App!
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`LoadingToast should render with timer 1000 from useTimer 1`] = `
+<View
+  accessibilityLabel="spinner-container"
+  accessible={true}
+  style={
+    Object {
+      "backgroundColor": "transparent",
+      "bottom": 10,
+      "left": 0,
+      "marginBottom": 0,
+      "marginLeft": 20,
+      "marginRight": 20,
+      "marginTop": 0,
+      "position": "absolute",
+      "right": 0,
+      "zIndex": 1,
+    }
+  }
+  testID="spinner-container"
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#0066CC",
+        "borderBottomLeftRadius": 5,
+        "borderBottomRightRadius": 5,
+        "borderTopLeftRadius": 5,
+        "borderTopRightRadius": 5,
+        "paddingBottom": 8,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 8,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          Object {
+            "color": "#FFFFFF",
+            "fontFamily": "SFProDisplay-Bold",
+            "fontSize": 16,
+          },
+        ]
+      }
+    >
+      🚀🌖 This is taking longer than usual…
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#909BA0",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          Object {
+            "color": "#FFFFFF",
+            "fontFamily": "SFProDisplay-Medium",
+            "fontSize": 12,
+          },
+        ]
+      }
+    >
+      You're the first experiencing our SYW MAX App!
+    </Text>
+  </View>
+</View>
+`;
