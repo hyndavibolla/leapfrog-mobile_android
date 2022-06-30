@@ -94,51 +94,47 @@ jobs:
                     echo "Result Code: $?"
 
                     GIT_COMMIT_STATE="success"
-- run:
+            - run:
                 name: Generate android build
                 echo " "
-  echo "==============================================="
-  echo "        GENERATE BUILD FOR ANDROID APP"
-  echo "==============================================="
-  echo " "
+                    echo "==============================================="
+                    echo "        GENERATE BUILD FOR ANDROID APP"
+                    echo "==============================================="
+                echo " "
   
-  echo ">>> Generating build from ${GIT_BRANCH}"
+                echo ">>> Generating build from ${GIT_BRANCH}"
   
-  GIT_COMMIT_STATE="success"
-  GIT_STATUS_CONTEXT="Generate Android APK"
+                GIT_COMMIT_STATE="success"
+                GIT_STATUS_CONTEXT="Generate Android APK"
     
-  echo " "
-  echo ">>> Generating the APK"
-  cd android
+                echo " "
+                echo ">>> Generating the APK"
+                cd android
 
-  sed -i '' "s|versionCode 2|versionCode ${APP_BUILD_NUMBER}|g" app/build.gradle
-  echo ">>> Updating versionCode to ${APP_BUILD_NUMBER}"
+                sed -i '' "s|versionCode 2|versionCode ${APP_BUILD_NUMBER}|g" app/build.gradle
+                echo ">>> Updating versionCode to ${APP_BUILD_NUMBER}"
   
-  ./gradlew assembleDev > android-assembleDev-${BUILD_NUMBER}.log 2>&1
-  RESULT=$?
-  echo $RESULT
+                ./gradlew assembleDev > android-assembleDev-${BUILD_NUMBER}.log 2>&1
+                 RESULT=$?
+                    echo $RESULT
   
-  scp -q android-assembleDev-${BUILD_NUMBER}.log sywadm@trtssywcnctapp1.vm.itg.corp.us.shldcorp.com:/appData/servers/nginx/html/leapfrogci/${JOB_NAME}/
-  echo "Full assembleDev log: http://sywcstaging.searshc.com/leapfrogci/${JOB_NAME}/android-assembleDev-${BUILD_NUMBER}.log"
-
-
-  if [ $RESULT -ne 0 ]; then
-    echo -e "\n*********************************************************************"
-    echo "Android project compilation error. Rerun with stack trace..."
-    echo -e "*********************************************************************\n"
-    ./gradlew assembleDev --stacktrace
-    RESULT=$?
+                if [ $RESULT -ne 0 ]; then
+                echo -e "\n*********************************************************************"
+                echo "Android project compilation error. Rerun with stack trace..."
+                echo -e "*********************************************************************\n"
+               ./gradlew assembleDev --stacktrace
+                 RESULT=$?
     
-    echo "---"
-    gradle --stop
-    echo "---"
+            echo "---"
+            gradle --stop
+            echo "---"
     
-    if [ $RESULT -ne 0 ]; then
-      GIT_COMMIT_STATE="failure"
-      echo -e "\n*********************************************************************"
-      echo "Android project compilation error. Please reach out to frontend team!"
-      echo -e "*********************************************************************\n\n"
-    fi
+            if [ $RESULT -ne 0 ]; then
+            GIT_COMMIT_STATE="failure"
+            echo -e "\n*********************************************************************"
+            echo "Android project compilation error. Please reach out to frontend team!"
+            echo -e "*********************************************************************\n\n"
+            fi
                
             - store_test_results:
                 path: test-results/jest/result.xml
