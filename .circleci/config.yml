@@ -57,7 +57,7 @@ jobs:
                     pwd
                     sed -i '' "s|versionCode 2|versionCode ${APP_BUILD_NUMBER}|g" app/build.gradle
                     echo ">>> Updating versionCode to ${APP_BUILD_NUMBER}"
-                    ./gradlew assembleDev > android-assembleDev-${BUILD_NUMBER}.log 2>&1
+                    ./gradlew assembleDev
                     RESULT=$?
                     echo $RESULT                    
             - store_test_results:
