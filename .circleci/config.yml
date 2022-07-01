@@ -36,34 +36,7 @@ jobs:
                     yarn add -D babel-jest jest --ignore-engines
                     # PATH=${HOMEBREW}/bin:$PATH
                     # export PATH
-                    IOS_TARGET_NAME="ShopYourWayMAX"
-            - run:
-                name: Run tests
-                command: |
-                    pwd
-                    ls
-                    HOME_DIR=`pwd`
-                    echo "HOME_DIR: "
-                    echo $HOME_DIR
-                    # WORKSPACE=$HOME_DIR/circleci_leapfrog_mobile/leapfrog-mobile-circleci
-                    # echo "WORKSPACE: $WORKSPACE"
-                    yarn add -D jest-junit --ignore-engines
-                    # yarn run test:ci
-                    echo "Current directory before making test-results dir"
-                    mkdir -p test-results/jest
-                    # TEST=$(circleci tests glob src/**/*.intg.js | circleci tests split --split-by=timings)
-                    yarn run test:ci | tee test-results/jest/result.xml
-                    TEST_RESULT=$?
-                    if [ $TEST_RESULT -ne 0 ]; then
-                        exit $TEST_RESULT
-                    fi
-                    echo ">>> Switching environemnt to dev"
-                    yarn env:dev
-                    environment=development node ${HOME_DIR}/scripts/build-index.js
-                    echo "after running test:ci"
-                    # echo "TEST_RESULT: $TEST"
-                # environment:
-                #    JEST_JUNIT_OUTPUT: test-results/jest/junit.xml
+                    IOS_TARGET_NAME="ShopYourWayMAX"            
             - run:
                 name: Generate android build
                 command: |
