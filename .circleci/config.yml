@@ -44,12 +44,10 @@ jobs:
                     echo "APP_BUILD_NUMBER = $APP_BUILD_NUMBER"
                     echo " "
                     echo "==============================================="
-                    echo "      "GENERATE BUILD FOR ANDROID APP"
+                    echo "      GENERATE BUILD FOR ANDROID APP           "
                     echo "==============================================="
-                    echo " "
-  
-                    echo ">>> Generating build from ${GIT_BRANCH} for firebase"
-
+                    echo " "  
+                    echo "Generating build from ${GIT_BRANCH} for firebase"
                     GIT_COMMIT_STATE="success"
                     GIT_STATUS_CONTEXT="Generate Android APK"
                     echo " "
