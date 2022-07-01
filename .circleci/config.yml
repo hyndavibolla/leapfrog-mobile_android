@@ -38,35 +38,7 @@ jobs:
                     # export PATH
                     IOS_TARGET_NAME="ShopYourWayMAX"           
             - run:
-                name: Generate test flight build
-                command: |
-                    APP_BUILD_NUMBER=`curl -ks https://sywcstaging.searshc.com/appVersion/leapfrogDev.php?action=bumpUpVersion`
-                    echo "APP_BUILD_NUMBER = $APP_BUILD_NUMBER"
-                    echo " "
-                    echo "==============================================="
-                    echo "        GENERATE BUILD FOR TESTFLIGHT"
-                    echo "==============================================="
-                    echo " "
-  
-                    echo ">>> Generating build from ${GIT_BRANCH} for App Store Connect"
-
-                    cd ios
-                    echo " "
-                    echo ">>> Running pod install"
-                    pod install
-                    if [ $? -eq 31 ]; then
-                        echo ">>> Updating pod repo"
-                        pod repo update
-                        echo ">>> Running pod install"
-                        pod install
-                    fi
-  
-                    echo " "
-                    echo ">>> Updating App Version and Build"
-                    xcrun agvtool new-version -all ${APP_BUILD_NUMBER}
-                    echo "Result Code: $?"
-
-                    GIT_COMMIT_STATE="success"
+                name: Generate android build              
 
             - store_test_results:
                 path: test-results/jest/result.xml
