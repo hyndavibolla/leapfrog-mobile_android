@@ -52,7 +52,9 @@ jobs:
                     GIT_STATUS_CONTEXT="Generate Android APK"
                     echo " "
                     echo ">>> Generating the APK"
+                    pwd
                     cd android
+                    pwd
                     sed -i '' "s|versionCode 2|versionCode ${APP_BUILD_NUMBER}|g" app/build.gradle
                     echo ">>> Updating versionCode to ${APP_BUILD_NUMBER}"
                     ./gradlew assembleDev > android-assembleDev-${BUILD_NUMBER}.log 2>&1
